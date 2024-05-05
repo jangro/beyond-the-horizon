@@ -8,19 +8,25 @@
  * Biome Tag Event Handler
  */
 ServerEvents.tags('worldgen/biome', event => {
-  
-  // This example is currently pointless - it removes all the tags for the regular tower and then adds the same ones back in.
-  // It's purely informative at this point. :)
+
+  // Only allow towers to spawn in mountains
+  event.get('totw_modded:has_structure/desert_tower').removeAll();
+  event.get('totw_modded:has_structure/ice_tower').removeAll();
+  event.add('totw_modded:has_structure/ice_tower', [
+    'minecraft:frozen_peak',
+  ]);
+  event.get('totw_modded:has_structure/derelict_tower').removeAll();
+  event.add('totw_modded:has_structure/derelict_tower', [
+    '#minecraft:is_mountain',
+  ]);
+  event.get('totw_modded:has_structure/derelict_grass_tower').removeAll();
+  event.get('totw_modded:has_structure/jungle_tower').removeAll();
+  event.get('totw_modded:has_structure/badlands_tower').removeAll();
+  event.get('totw_modded:has_structure/ocean_warm_tower').removeAll();
+  event.get('totw_modded:has_structure/ocean_tower').removeAll();
   event.get('totw_modded:has_structure/regular_tower').removeAll();
   event.add('totw_modded:has_structure/regular_tower', [
-    '#minecraft:is_taiga',
-    'minecraft:plains',
-    'minecraft:sunflower_plains',
-    'minecraft:savanna',
-    '#minecraft:is_forest',
-    'minecraft:swamp',
     '#minecraft:is_mountain',
-    '#minecraft:is_hill',
   ]);
 
 });
