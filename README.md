@@ -1,4 +1,4 @@
-# beyond-the-horizon
+# Beyond the Horizon Modpack
 
 Welcome to Beyond the Horizon Modpack! This modpack focuses on exploration with the overworld being visually beautified by Terralith, Distant Horizons, 
 and made safe for travel by keeping hostile mobs underground! Many structures will be available -- and visible! -- around the world.
