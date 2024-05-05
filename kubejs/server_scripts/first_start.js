@@ -14,7 +14,7 @@ PlayerEvents.loggedIn(event => {
   if (!event.player.stages.has('first_start')) {
     event.player.stages.add('first_start');
 
-    event.player.tell(Text.translate('vth.chat.first_start_message'));
+    event.player.tell(Text.translate('bth.chat.first_start_message'));
   }
 
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new

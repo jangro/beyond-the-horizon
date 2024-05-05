@@ -1,7 +1,7 @@
 // priority: 110
 
 /**
- * @file Biome Tag Additions for Beyond the Horizon.
+ * @file Biome Tag Modifications for Beyond the Horizon.
  */
 
 /**
