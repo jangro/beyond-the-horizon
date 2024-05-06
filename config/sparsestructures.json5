@@ -73,5 +73,10 @@
       "structure": "eidolon:stray_tower",
       "factor": 2
     },
+
+    {
+      "structure": "irons_spellbooks:mountain_tower",
+      "factor": 2
+    },
   ]
 }
