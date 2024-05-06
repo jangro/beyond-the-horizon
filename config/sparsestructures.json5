@@ -68,5 +68,10 @@
       "structure": "hunters_return:hunter_house",
       "factor": 3
     },
+
+    {
+      "structure": "eidolon:stray_tower",
+      "factor": 2
+    },
   ]
 }
