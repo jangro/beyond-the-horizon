@@ -5,11 +5,12 @@
     "pages": [
                 {
             "type": "patchouli:text",
-            "text": "Horses have a number of changes over vanilla.$(br2)They can swim through water and you can pass through leaves, which makes horses that much more useful for getting around!$(br2)You can also craft your own saddle..."
+            "text": "Horses have a number of changes over vanilla.$(br2)They can swim through water and you can pass through leaves, which makes horses that much more useful for getting around!"
                 },
             {
             "type": "patchouli:crafting",
-            "recipe": "minecraft:iron_shovel"
+            "recipe": "bth:crafting/saddle",
+	"text":"Craft your own saddle!"
             }
     ]
 }
