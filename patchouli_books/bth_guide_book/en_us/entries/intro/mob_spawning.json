@@ -1,0 +1,16 @@
+{
+    "name": "Mob Spawning",
+    "icon": "minecraft:iron_sword",
+    "category": "patchouli:intro",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Hostile mobs won't spawn at night in the overworld under the stars"
+                },
+                                {
+            "type": "patchouli:text",
+            "text": "Phantoms can still spawn, so be sure to get some rest. A sleeping bag is perfect for that on-the-go adventurer!"
+                }
+
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Horses for Courses",
+    "icon": "minecraft:saddle",
+    "category": "patchouli:intro",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Horses have a number of changes over vanilla.$(br2)They can swim through water and you can pass through leaves, which makes horses that much more useful for getting around!$(br2)You can also craft your own saddle..."
+                },
+            {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:iron_shovel"
+            }
+    ]
+}

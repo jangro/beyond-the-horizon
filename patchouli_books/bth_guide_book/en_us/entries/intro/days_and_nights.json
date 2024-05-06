@@ -1,0 +1,15 @@
+{
+    "name": "Days and Nights",
+    "icon": "minecraft:clock",
+    "category": "patchouli:intro",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Days and nights are now longer, days are 30 minutes, nights are 20 minutes for a total of 50 minutes per full day!$(br2)Under the sky, you're safe from mobs as they won't spawn. Except phantoms. Make sure to sleep once in a while to keep them away."
+                },
+                {
+            "type": "patchouli:text",
+            "text": "You can always sleep to pass the night. And make a hammock to pass the day away. Ars Nouveau has a ritual to skip the day as well. [what is that called?]"
+                }
+    ]
+}

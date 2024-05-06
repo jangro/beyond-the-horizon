@@ -1,0 +1,16 @@
+{
+    "name": "Mountaineering",
+    "icon": "minecraft:emerald",
+    "category": "patchouli:intro",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Mountains aren't only nice to look at. They bring lots of benefits. There are lots of them in this pack. At higher altitudes, you can find lots of iron, coal, and emeralds right on the surface. "
+                },
+                                {
+            "type": "patchouli:text",
+            "text": " You will find special towers in the mountains that give an even better view, and have some special features you won't want to miss!"
+                }
+
+    ]
+}
