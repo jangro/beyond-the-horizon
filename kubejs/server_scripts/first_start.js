@@ -15,6 +15,8 @@ PlayerEvents.loggedIn(event => {
     event.player.stages.add('first_start');
 
     event.player.tell(Text.translate('bth.chat.first_start_message'));
+
+    event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:bth_guide_book"}'));
   }
 
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new
