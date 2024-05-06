@@ -1,0 +1,17 @@
+{
+    "name": "Artifacts",
+    "icon": "artifacts:night_vision_goggles",
+    "category": "patchouli:mod_info",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "The Artifacts mod adds many items that provide special effects and abilities. For example, Night Vision Goggles give night vision, and the Cloud in a Bottle gives a double jump boost.$(br2)Note: The Everlasting Beef artifact won't drop from cows. Please don't go on a killing spree. And if you do happen to find one, the cooldown is 5 minutes."
+                },
+             {
+            "type": "patchouli:text",
+            "text": "Find artifacts around the world in loot chests. And there's a chance that you can get them through archaeology digs!$(br2)And of course there's the mimic, who always drops an artifact. Watch out, they are mean."
+                }
+
+    ]
+}
+
