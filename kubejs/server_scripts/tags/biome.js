@@ -23,8 +23,8 @@ ServerEvents.tags('worldgen/biome', event => {
   });
 
   // Eidolon - Stray Towers only in snowy mountains.
-  event.removeAll('eidolon:has_structure/stray_tower');
-  event.add('eidolon:has_structure/stray_tower', '#bth:is_snowy_mountain');
+  event.removeAll('eidolon:has_structure/stray_tower_biomes');
+  event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_snowy_mountain');
 
   // TOTW - Only allow towers to spawn in mountains.
   event.removeAll('totw_modded:has_structure/desert_tower');
