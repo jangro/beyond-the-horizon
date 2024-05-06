@@ -72,7 +72,6 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('irons_spellbooks:iron_spell_book', 10);
       pool.addItem('immersiveengineering:sword_steel', 5);
       pool.addItem('immersiveengineering:axe_steel', 5);
-      pool.addItem('savage_and_ravage:cleaver_of_beheading', 5);
       pool.addItem(Item.of('minecraft:player_head', '{SkullOwner:"Ollari0n"}'), 5);
     });
   });
