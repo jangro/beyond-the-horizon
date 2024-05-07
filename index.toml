@@ -512,6 +512,11 @@ hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
 metafile = true
 
 [[files]]
+file = "mods/entity-texture-features-fabric.pw.toml"
+hash = "3c49c9ca3e35f09cc4dcde7db90d7bdb6491423f0dcdeaf693c303c03c946668"
+metafile = true
+
+[[files]]
 file = "mods/epherolib.pw.toml"
 hash = "fadaae47087ff0af2442bed6c9978eaa14f2926990738d81b5ce382d4c4a86fa"
 metafile = true
