@@ -1,8 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Advancedperipherals/world.toml"
+hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
+
+[[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
 hash = "a22a7bb424e090a3a18b63555dff2dd5568338595d4e5121f9ace7f1a14b951d"
+
+[[files]]
+file = "config/alexsmobs.toml"
+hash = "1be7218a59893ff4b66de988c6f8f4b850d82be93fd12140bd8f4d70e0af4e91"
+
+[[files]]
+file = "config/ars_nouveau-common.toml"
+hash = "732702004fcc02128294ff9b4f30b1a07dd15977b64f24d019464c4c6ccc6b1a"
 
 [[files]]
 file = "config/artifacts/common.json5"
@@ -23,6 +35,10 @@ hash = "341deb858ec4271cb07934e5c82e8bca84aaf07e890c3403560ed215f4de1f16"
 [[files]]
 file = "config/forge-client.toml"
 hash = "613d60015c3671d95f59f4ce70c0b9956c377a3050219560d0b824cd1e9648b7"
+
+[[files]]
+file = "config/integrateddynamics-common.toml"
+hash = "590d7a205d2c9a46e811666ce813fda35d92751e875c905e7893f4050f04c321"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -63,6 +79,10 @@ hash = "4a456b16f9167db006611f281cecc10db2be11c5dd9f6d00b79bd76dff442b21"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
+
+[[files]]
+file = "kubejs/server_scripts/advancements/remove.js"
+hash = "dceb355dbacda8fba88c7b79d8e116b10afb49cf5b4f5b249d46fea607b5ece4"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
@@ -679,11 +699,6 @@ metafile = true
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "a4ff567d52fe55984cc0cb93430a4c8f01dc00b14fbd6e25a077dbd179f534fb"
-metafile = true
-
-[[files]]
-file = "mods/magnesium-extras.pw.toml"
-hash = "a5c9c4409681fb848186182fb09aabd4d2cfcbd6fe4c46c219e4b2020b162b96"
 metafile = true
 
 [[files]]
