@@ -957,6 +957,11 @@ hash = "9806b6cb631ea69456d033a6001193caf26635609a0df22358b1507539670784"
 metafile = true
 
 [[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "a6fa210db6d27f784814e6f9c559a6aab70e1b5d225d45ce743d9062b50d6f19"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "46a595e8297691a2265ebe21f594125f39fe96482ab6916e748cbdb7f66a6457"
 metafile = true
