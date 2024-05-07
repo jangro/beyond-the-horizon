@@ -117,10 +117,6 @@ file = "mods/DistantHorizons-forge-2.0.4-a-dev-1.20.1.jar"
 hash = "5063734591693997bf9b7a415ad37612555ab734d1e814229d0b26ac2dc65a64"
 
 [[files]]
-file = "mods/JourneyPAC-forge-1.20.1-1.1.5.jar"
-hash = "367ae88d90932a81da83e0013dfda0dc37b0c9bc351fca41e75861a93da757e5"
-
-[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "197c77a1a19d914f865403c661f786612b418dace74a453193df4b59e4374d12"
 metafile = true
@@ -623,6 +619,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "b9e82527f9d5d2152c4e095c00a3d0a30a29825479fd73e7e24a2634bde112be"
+metafile = true
+
+[[files]]
+file = "mods/journey-pac.pw.toml"
+hash = "1d111a29ce85a87bc5c8dd4e9f2f12dfe6b63477cfbebb8aeca7650c0f8abdaa"
 metafile = true
 
 [[files]]
@@ -1151,8 +1152,40 @@ hash = "e02a4197368c4925bb98658883da17aace29927eeca7773c494be6c879269268"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Quark Programmer Art.zip"
-hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
+file = "patchouli_books/bth_guide_book/book.json"
+hash = "7494cf1ada18c4568be86c34c5df4ab4ad261f8ba3b13831429ee5562de5a130"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/intro.json"
+hash = "3aa1890ac2c14c816624fd317c65e35f967c4d1697c307aa96860ab52a4a5e0e"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/mod_info.json"
+hash = "878a349aeb080345a791667378bcafeb32ae1adf91d5d3baec6635b14c89e8c9"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/butchering.json"
+hash = "096983385c1979f181cebb75f7b4e8689c4916f874b168cc0cc205b7f02f4955"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/days_and_nights.json"
+hash = "2e70f4ddd7a0073887e751514f687d174e1f0a80dddb4f3a00a1e68a93624d3a"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/horses_for_courses.json"
+hash = "2ce25e496649e07a900171460a47a8f7b36c5a010283e2ddeaf490484489075e"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/mob_spawning.json"
+hash = "a18a579effbafa1c88342d94dd1a944f01401d530be18f4f32523ec31fa47acf"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/mountains.json"
+hash = "7c716f147d927afc73ae16f99c9eaa5502da7be6c616fd67aed939f188496708"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/artifacts.json"
+hash = "7c75b2f8110fa5f3f3a23e61de152cf5e57e63378c1cb94a4ef6fc96ee663d11"
 
 [[files]]
 file = "resourcepacks/spawn-animations.pw.toml"
@@ -1170,7 +1203,3 @@ hash = "425e1d1d01280c1dc791eb4ca146001c4993765e19643a076b5ef189eb6169b1"
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.2_dev10.zip"
 hash = "f2ef934b39c67d3279638659e18c8accbcf599a5f1611ad7d3870cbdf8c3c210"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.2_dev10.zip.txt"
-hash = "aa4669814b33e88307ade687968ef4e4a259dc62bbb46223f8ba8f485273711a"
