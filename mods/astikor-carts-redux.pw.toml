@@ -1,0 +1,13 @@
+name = "AstikorCarts Redux"
+filename = "astikorcarts-redux-1.20.1-1.1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07e8717f2b66b2d40b95c3263cec597a1b54cb72"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4988266
+project-id = 916493

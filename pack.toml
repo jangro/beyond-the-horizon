@@ -1,0 +1,13 @@
+name = "Beyond the Horizon"
+author = "BTH Team"
+version = "0.8"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c12ed86be512223ff56bfecdb8d6737a8fa74ad7e3b6d6d645a0ce1b0bab5aa7"
+
+[versions]
+forge = "47.2.30"
+minecraft = "1.20.1"

@@ -1,0 +1,13 @@
+name = "Fairy Lights"
+filename = "fairylights-7.0.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7b392b908492be1dbfc84b72ae6445db8bb891dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4961775
+project-id = 233342

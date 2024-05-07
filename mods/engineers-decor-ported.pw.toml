@@ -1,0 +1,13 @@
+name = "Engineer's Decor Ported"
+filename = "engineersdecor-1.3.30.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "413babacd4def7acef02c5370941b6ed3162a192"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5240467
+project-id = 998900

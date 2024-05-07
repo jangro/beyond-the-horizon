@@ -1,0 +1,13 @@
+name = "TownTalk"
+filename = "towntalk-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f7c480784133b34c15ec09d0ad391de482bcea6d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4942196
+project-id = 900364

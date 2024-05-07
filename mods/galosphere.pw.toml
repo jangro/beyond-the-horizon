@@ -1,0 +1,13 @@
+name = "Galosphere"
+filename = "Galosphere-1.20.1-1.4.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b21651dc768383bcd4b6cc417335b4c43d208b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4983871
+project-id = 631098

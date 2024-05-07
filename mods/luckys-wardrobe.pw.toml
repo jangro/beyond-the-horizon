@@ -1,0 +1,13 @@
+name = "Lucky's Wardrobe"
+filename = "wardrobe-1.0.3-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa8507bfb4f61625e6a8b1782f27b405844ab5e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5156264
+project-id = 968067

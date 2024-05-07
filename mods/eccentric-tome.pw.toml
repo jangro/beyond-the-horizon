@@ -1,0 +1,13 @@
+name = "Eccentric Tome"
+filename = "eccentrictome-1.20.1-1.10.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0acd94707a81c1c6d4badd86d545feffa2010eb5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4853031
+project-id = 597522

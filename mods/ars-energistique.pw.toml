@@ -1,0 +1,13 @@
+name = "Ars Énergistique"
+filename = "arseng-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fb7f3455d585d8cbabeb3df52d4a85050b153862"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5043473
+project-id = 905641

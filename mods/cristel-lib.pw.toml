@@ -1,0 +1,13 @@
+name = "Cristel Lib"
+filename = "cristellib-1.1.5-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8a43951083ea9096a91f81757004465f4afc7cab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4861833
+project-id = 856996
