@@ -6,3 +6,6 @@
 
 # Exclude executable files (such as packwiz.exe itself, if running from the same directory rather than PATH).
 *.exe
+
+# Exclude Visual Studio folder
+.vs
