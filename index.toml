@@ -247,6 +247,11 @@ hash = "f7574bbc725128a0fa6a44c959c67d706d2279ed442dfedf2d135fd955e5ca6b"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "475a3bafbd5a7b6e8a7f8008f9a137e25a7c0d3474cca99eaa8bfa313899b408"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "15e15983557b274c6b5064394915d1c7e963db788fbebe1b5b2a4f220bd174ad"
 metafile = true
@@ -454,6 +459,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "f4072fa34f5089d9d5bedda848e5926d5b36f378908de01ffb38469968c927c2"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "32e9c2612ad11bf65a8f8904181c186191683d24f1d3505a59627a7bb47ae6a8"
 metafile = true
 
 [[files]]
