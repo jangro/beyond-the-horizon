@@ -26,20 +26,16 @@ ServerEvents.tags('worldgen/biome', event => {
   event.removeAll('eidolon:has_structure/stray_tower_biomes');
   event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_snowy_mountain');
 
-  // TOTW - Only allow towers to spawn in mountains.
-  event.removeAll('totw_modded:has_structure/desert_tower');
+  // TOTW - Only allow towers to spawn in mountains, and disable the broken 'derelict' towers.
+  event.removeAll('totw_modded:has_structure/badlands_tower');
+  event.removeAll('totw_modded:has_structure/derelict_tower');
   event.removeAll('totw_modded:has_structure/derelict_grass_tower');
-
+  event.removeAll('totw_modded:has_structure/desert_tower');
   event.removeAll('totw_modded:has_structure/ice_tower');
   event.add('totw_modded:has_structure/ice_tower', '#bth:is_snowy_mountain');
-  
-  event.removeAll('totw_modded:has_structure/derelict_tower');
-  event.add('totw_modded:has_structure/derelict_tower', '#minecraft:is_mountain');
   event.removeAll('totw_modded:has_structure/jungle_tower');
-  event.removeAll('totw_modded:has_structure/badlands_tower');
-  event.removeAll('totw_modded:has_structure/ocean_warm_tower');
   event.removeAll('totw_modded:has_structure/ocean_tower');
-
+  event.removeAll('totw_modded:has_structure/ocean_warm_tower');
   event.removeAll('totw_modded:has_structure/regular_tower');
   event.add('totw_modded:has_structure/regular_tower', '#minecraft:is_mountain');
 
