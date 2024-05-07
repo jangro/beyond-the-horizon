@@ -29,7 +29,7 @@
 
     {
       "structure": "minecraft:villages",
-      "factor": 2
+      "factor": 4
     },
 
     {
@@ -76,6 +76,21 @@
 
     {
       "structure": "irons_spellbooks:mountain_tower",
+      "factor": 2
+    },
+
+    {
+      "structure": "towns_and_towers:other",
+      "factor": 2
+    },
+
+    {
+      "structure": "towns_and_towers:towers",
+      "factor": 2
+    },
+
+    {
+      "structure": "towns_and_towers:towns",
       "factor": 2
     },
   ]
