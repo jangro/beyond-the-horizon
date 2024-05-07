@@ -1,4 +1,8 @@
 {
   "bth.comment.chat": "-----Chat Messages-----",
-  "bth.chat.first_start_message": "Welcome to Beyond the Horizon!"
+  "bth.chat.first_start_message": "Welcome to Beyond the Horizon!",
+
+  "bth.comment.jei_information": "-----JEI Information Entries-----",
+  "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
+  "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book."
 }
