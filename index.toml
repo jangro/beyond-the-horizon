@@ -26,7 +26,7 @@ hash = "c9f0834f52192ab229600f47445bedf167baff5b88572847e7159725e05433d6"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "413b43b225a78101e7682b6ec539e8cadefe0bc9a5e32cff2fd2e15012c821e6"
+hash = "bc3b7812060548307811266b1d6d38ad27b9f464f959b890e83d0bd6b2a7f657"
 
 [[files]]
 file = "config/fml.toml"
@@ -42,7 +42,7 @@ hash = "590d7a205d2c9a46e811666ce813fda35d92751e875c905e7893f4050f04c321"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "ec852433f0693e5f5b13fc7220573272b14e95af05c73aef70932916999c7fbe"
+hash = "5bec1036c793b5e0f4288d54c3f49d1b7747f667ab1f4d40c20f698233c79248"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
@@ -54,7 +54,7 @@ hash = "f8b76e6a2dd693d068bb79c9acda56dfdf9f114f5f991053860b54cac369a030"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "98d70aa95daf64d0434b7750a1b86ce3da75b4eb435f1e34086abd8e2bfed838"
+hash = "ecf94d6d10682ed6df11146b3605737162d6a21c308767d0dce03764e0d92b57"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -62,7 +62,7 @@ hash = "12f9b7014cf988768dacf77ea7294afc4138910e6ba9a452b1964cb5ece7f511"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "0fe0e0eddb4b7ce88f332ab3dbc158a5e9acf83b84e4653f6c0da5d40cd54bc0"
+hash = "258800a219558e6b590749f88d8d801f568a9a9afd6e5a5c2cf2de8ce0c49f9d"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
@@ -70,27 +70,31 @@ hash = "c1a7642ae287fe8c4cd978e0e689789a323329bbf6cce232981f994af10e6e43"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
-hash = "8d43569acc7aa0d42e2050f710f7f41fff4f29ac748f8e0dd73781635a6df326"
+hash = "46cd84dab26b653e47f02d3afaedaf1b287edffe18b82961cbf07a01a362b1fc"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "4a456b16f9167db006611f281cecc10db2be11c5dd9f6d00b79bd76dff442b21"
+hash = "b4215b6289214d27c0b63802e0667fa06a98cebfb2e5d311c57a469771defe03"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
+hash = "aad7b37841d08e11ba022468846ecbe7091b519955e9788d5acaefc654997208"
+
+[[files]]
+file = "kubejs/config/packicon.png"
+hash = "48462b68452ec88cee27b58a63682185a683de916cf30f334b084259390f9bad"
 
 [[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
-hash = "dceb355dbacda8fba88c7b79d8e116b10afb49cf5b4f5b249d46fea607b5ece4"
+hash = "fa491b58d3afd0ca7d03bf3a6061798597a3a90421160591c9fcaa8ceeb5b2e9"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
-hash = "fe17bb952890c3349ed9e34408cbdcd6919e0900aa8b315d0784a847b6bb72ff"
+hash = "1e2b81a11d8c2f73d1fdec74ee0af39a0ac78625470392949fd1b17dd0950263"
 
 [[files]]
 file = "kubejs/server_scripts/first_start.js"
-hash = "e916086782b4cace6810f721822dbe7c614c94dc699f4c0532f6d00659842b61"
+hash = "8f055290898c890bc6111150ae6158a515c00a015d209f774979827557967750"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
@@ -98,7 +102,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "aaa4c97476b1306623c4d1d245566ecd73496af4903f7094eb380b30ac8cfa98"
+hash = "f7b100be3abdc34a8311b41bcffaa3cdf09078f42a38ba9946cb57740a527388"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
@@ -110,7 +114,7 @@ hash = "d4edb6fa8dd97acd6b73d5ccb30bd1e5a5115fb19f6f5c3b9b9c3fa74ba731a4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "51b669e4be8ffe9c26300a975a1148168f766679e893c5ecc6fd70c614945f42"
+hash = "a08172e76cceffcc9370093819441fe88f8079d1d7ff685c8b37417709e418a4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
@@ -118,7 +122,7 @@ hash = "1c4f75ecc842d9f85499acdff5740e2db906995558186f146ba3a71435bfc785"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "eec5949aab6eaedd88138acda4303de95b8d42cd3f8377e2006096c05bc7e9fc"
+hash = "1725f318e0446f73d7bd962c7c49c09acfafc962b43b926e8de5654e9c7116f7"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
@@ -294,6 +298,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "e20c65099b272ff1848676dcc4d9e6025722ab35c60d9e1dfd1d36f44457cdea"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "9f5fd7599367191ec28b58b6a6956341f41bbeca15b0b3a7d641f37b1b884d0d"
 metafile = true
 
 [[files]]
@@ -1072,6 +1081,11 @@ hash = "93b1ca1569798d90a02b411f5287ae3cc6fdf0d36e152d05618ce349d00e5fc5"
 metafile = true
 
 [[files]]
+file = "mods/toast-control.pw.toml"
+hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
+metafile = true
+
+[[files]]
 file = "mods/towers-of-the-wild-modded.pw.toml"
 hash = "4d2a9da7c09a85448943858dfe66fdbf6b2b262acd28ed4055d620ceb560da18"
 metafile = true
@@ -1261,15 +1275,3 @@ hash = "7c75b2f8110fa5f3f3a23e61de152cf5e57e63378c1cb94a4ef6fc96ee663d11"
 file = "resourcepacks/spawn-animations.pw.toml"
 hash = "c36d4999997ef0262a28fc057d127e76a1363d9ddf51bee56b05b7f8cbe5fe63"
 metafile = true
-
-[[files]]
-file = "shaderpacks/BSL_v8.2.09p1.zip"
-hash = "ce6d0d58353005d5c55122f04f7b94de9fdc4e353b84cf2cced03c9732cb1381"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.2_dev10.zip"
-hash = "425e1d1d01280c1dc791eb4ca146001c4993765e19643a076b5ef189eb6169b1"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.2_dev10.zip"
-hash = "f2ef934b39c67d3279638659e18c8accbcf599a5f1611ad7d3870cbdf8c3c210"
