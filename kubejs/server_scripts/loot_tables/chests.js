@@ -15,12 +15,14 @@ function generatePathfindersQuillNBT() {
 ServerEvents.chestLootTables(event => {
 
   // Additional Tower Loot (Towers of the Wild)
-  event.modify('totw_modded:tower_chest', table => {
-    table.addPool(pool => {
-      pool.rolls = 1;
-      pool.addItem(Item.of('quark:pathfinders_quill', generatePathfindersQuillNBT()));
-    });
-  });
+  // Note: This doesn't work as TOTW doesn't use the correct location for chest loot tables.
+  // Am trying to work out how best to handle this.
+  // event.modify('totw_modded:tower_chest', table => {
+  //   table.addPool(pool => {
+  //     pool.rolls = [1, 1];
+  //     pool.addItem(Item.of('quark:pathfinders_quill', `${generatePathfindersQuillNBT()}`), 15);
+  //   });
+  // });
 
   // Additional Cooking Chest Loot (Valhelsia Structures)
   [
