@@ -51,16 +51,15 @@
     // Limited to mountain biomes by kubejs script.
     {
       "structure": "totw_modded:overworld",
-      "factor": 0.5
+      "factor": 0.7
     },
 
     {
-      "structure": "cotv:villages",
+      "structure": "ctov:villages",
       "factor": 2
     },
-
     {
-      "structure": "cotv:pillager_outposts",
+      "structure": "ctov:pillager_outposts",
       "factor": 2
     },
 
@@ -83,15 +82,49 @@
       "structure": "towns_and_towers:other",
       "factor": 2
     },
-
     {
       "structure": "towns_and_towers:towers",
       "factor": 2
     },
-
     {
       "structure": "towns_and_towers:towns",
       "factor": 2
+    },
+
+    {
+      "structure": "terralith:rare_village",
+      "factor": 2
+    },
+
+    {
+      "structure": "aquamirae:ice_maze",
+      "factor": 2
+    },
+    {
+      "structure": "aquamirae:outpost",
+      "factor": 2
+    },
+    {
+      "structure": "aquamirae:shelter",
+      "factor": 2
+    },
+    {
+      "structure": "aquamirae:ship",
+      "factor": 2
+    },
+
+    {
+      "structure": "ae2:meteorite",
+      "factor": 2
+    },
+
+    {
+      "structure": "dungeons_arise:major_structures",
+      "factor": 4
+    },
+    {
+      "structure": "dungeons_arise:minor_structures",
+      "factor": 4
     },
   ]
 }
