@@ -26,7 +26,6 @@ JEIEvents.information(event => {
   // Minecraft
 
   // Eccentric Tome
-  addInfo('eccentrictome:tome', 'bth.information.eccentrictome.filled_eccentric_tome');
-  addInfo('eccentrictome:tome', 'bth.information.eccentrictome.reverting');
+  addInfo('eccentrictome:tome', ['bth.information.eccentrictome.filled_eccentric_tome', 'bth.information.eccentrictome.reverting']);
 
 });
