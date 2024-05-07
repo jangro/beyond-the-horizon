@@ -12,6 +12,7 @@
  */
 const ADVANCEMENTS_TO_REMOVE = [
   'irons_spellbooks:advancements/grant_patchouli.json',
+  'simplyswords:advancements/grant_book_on_first_join.json',
 ];
 
 /**
