@@ -467,6 +467,11 @@ hash = "8e0159b792e707f4a25a4755b2abc73587dbca8fb70af90932eeaa1ecb1d7c61"
 metafile = true
 
 [[files]]
+file = "mods/elytra-slot.pw.toml"
+hash = "a2663a196a9991708b9eefe7505e1775e67c4ad996a15b493513f318c9b82352"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "f4072fa34f5089d9d5bedda848e5926d5b36f378908de01ffb38469968c927c2"
 metafile = true
