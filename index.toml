@@ -672,6 +672,11 @@ hash = "f5c50f31b81545cd87d1551b435ff2a52ad862e3a968889e0a4ab89c4599980a"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "2f4dd47f2ac99a55c332638116596bbdc38a06ac86336bb662e42c604c3a96e6"
+metafile = true
+
+[[files]]
 file = "mods/kiwi.pw.toml"
 hash = "f72e86e2a03aa650c7baae3ef59e16d779150bf3a21de736752762846c76f992"
 metafile = true
