@@ -1,0 +1,13 @@
+name = "Little Contraptions"
+filename = "littlecontraptions-forge-1.20.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8f957350a3bc5de89f3cc838a4262e9011dfbe8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4799458
+project-id = 594563
