@@ -12,6 +12,7 @@
  */
 JEIEvents.hideItems(event => {
   event.hide([
+    'ae2:facade',
     /upgrade_aquatic:.*bedroll/,
     /valhelsia_structures:.*sleeping_bag/,
   ]);
