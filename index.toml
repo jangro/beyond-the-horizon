@@ -1400,3 +1400,8 @@ hash = "ad3dda97c19c60b68daa35cfc7a9af9afe00fac4a302a182587ba9d511b4306d"
 file = "resourcepacks/spawn-animations.pw.toml"
 hash = "c36d4999997ef0262a28fc057d127e76a1363d9ddf51bee56b05b7f8cbe5fe63"
 metafile = true
+
+[[files]]
+file = "resourcepacks/xalis-bushy-leaves.pw.toml"
+hash = "8cf6e23385d2c850f847d21682137acd11a580228bd5923e1a6452cf2fa88d89"
+metafile = true

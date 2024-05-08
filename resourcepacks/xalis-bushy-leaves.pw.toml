@@ -1,0 +1,13 @@
+name = "xali's Bushy Leaves"
+filename = "xali's Bushy Leaves v3.5.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "136d239b79dd4c1801c9461bf20a13c774d517ea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4710156
+project-id = 557489
