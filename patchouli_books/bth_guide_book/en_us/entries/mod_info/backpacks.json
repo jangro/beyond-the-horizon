@@ -1,0 +1,17 @@
+{
+    "name": "Traveler's Backpacks",
+    "icon": "artifacts:night_vision_goggles",
+    "category": "patchouli:mod_info",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Travelers backpacks aren't only handy for storing extra items and liquids as you explore, but there are many different backpacks with buffs. Some you can craft and some you need to get from loot drops. To equip the backpack, open it up by right clicking in the hotbar and click the 'equip' button. It doesn't go into a back slot! you can also quickly put it on if it's placed in the world with a couch-click."
+                },
+             {
+            "type": "patchouli:text",
+            "text": "List some of the backpacks here, and maybe a recipe or two."
+                }
+
+    ]
+}
+
