@@ -39,4 +39,16 @@ ServerEvents.tags('worldgen/biome', event => {
   event.removeAll('totw_modded:has_structure/regular_tower');
   event.add('totw_modded:has_structure/regular_tower', '#minecraft:is_mountain');
 
+  // Remove unwanted When Dungeons Arise structures
+  event.removeAll('dungeons_arise:has_structure/heavenly_challenger_biomes');
+  event.removeAll('dungeons_arise:has_structure/heavenly_conqueror_biomes');
+  event.removeAll('dungeons_arise:has_structure/heavenly_rider_biomes');
+  event.removeAll('dungeons_arise:has_structure/illager_corsair_biomes');
+  event.removeAll('dungeons_arise:has_structure/illager_galley_biomes');
+  event.removeAll('dungeons_arise:has_structure/mechanical_nest_biomes');
+  event.removeAll('dungeons_arise:has_structure/mushroom_house_biomes');
+  event.removeAll('dungeons_arise:has_structure/mushroom_mines_biomes');
+  event.removeAll('dungeons_arise:has_structure/scorched_mines_biomes');
+  event.removeAll('dungeons_arise:has_structure/small_blimp_biomes');
+  event.removeAll('dungeons_arise:has_structure/wishing_well_biomes');
 });
