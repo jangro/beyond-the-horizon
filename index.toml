@@ -189,6 +189,11 @@ hash = "2c31b3651fd6df13a65721fe596a0e3dd63f15148301a953d0e8789dce882d64"
 metafile = true
 
 [[files]]
+file = "mods/allurement.pw.toml"
+hash = "ade685fecb6727ffbb0dca173fbab2ac74bf3760af8b2325d437382195da9baf"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "dbebcab51da752a59d057d50f02ced6d3cce3270389f52c414d034f000674790"
 metafile = true
@@ -196,6 +201,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "890096db933cb572b5936aa8e563a39c0ec62158d527137ba662e53ce5114502"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
 
 [[files]]
