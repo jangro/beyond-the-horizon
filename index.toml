@@ -118,7 +118,7 @@ hash = "36842280b7f1f03ff6591a97ee2abf8a66630687aa3cbc8982dc0bc2ebd55add"
 
 [[files]]
 file = "kubejs/server_scripts/dev/info.js"
-hash = "47acb9e5de7fc66f71c3b23578ee8520cff87d32e06a4b773204b2acfa0344af"
+hash = "5587aec705cbe9da594844641a9959074eee92199d51a6efac39b8ae2c785834"
 
 [[files]]
 file = "kubejs/server_scripts/first_start.js"
@@ -155,6 +155,10 @@ hash = "68a1ab6989f4f2a740c75f3242c93a81db094c3dd1ff209baf55b41d3dc4b6ad"
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
 hash = "7343276bf481e49826e0dc32235085eb0a447eec8ea57402c2d5ef6fb9048de5"
+
+[[files]]
+file = "kubejs/server_scripts/tags/entity_type.js"
+hash = "64cc27eac8a824ed6a06ffedbc3a87c3998a0fd70db8c45d6c4c36e18524b3b6"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item_tags.js"
@@ -205,7 +209,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+hash = "c51928175be6640cc4fc40a9a0b92454f4ad50c4ff93c8db4c802b29389a45a6"
 metafile = true
 
 [[files]]
@@ -285,7 +289,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "8341be7376192fe2cbffa3af36060ab8684adb2862efe478d697810cdd979e95"
+hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
@@ -799,6 +803,11 @@ hash = "20b9ccddbc62a654c50431d6eb109c656c874b634cce32968faf04710cfdf1b5"
 metafile = true
 
 [[files]]
+file = "mods/little-contraptions.pw.toml"
+hash = "e3fff1f0b3597194a0d0f14dfbdc3133c2a739538a3fafd65638a8b40b13835f"
+metafile = true
+
+[[files]]
 file = "mods/little-logistics.pw.toml"
 hash = "d96ffbfb771b81f3c66e67f10479e27b43896b070ef3e78d5e3f8a6c6f3085cf"
 metafile = true
@@ -1308,7 +1317,11 @@ hash = "3aa1890ac2c14c816624fd317c65e35f967c4d1697c307aa96860ab52a4a5e0e"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/mod_info.json"
-hash = "878a349aeb080345a791667378bcafeb32ae1adf91d5d3baec6635b14c89e8c9"
+hash = "b43f235acf93171183a16489ab672d1055fa86ca24fb8f340b1081f06377aca6"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/travel.json"
+hash = "54989eb7502f6379f2011a8ef7a90d2522eb7e50d538526cb18bc6c2462af4c9"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/butchering.json"
@@ -1319,12 +1332,16 @@ file = "patchouli_books/bth_guide_book/en_us/entries/intro/days_and_nights.json"
 hash = "2e70f4ddd7a0073887e751514f687d174e1f0a80dddb4f3a00a1e68a93624d3a"
 
 [[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/intro/horses_for_courses.json"
-hash = "2ce25e496649e07a900171460a47a8f7b36c5a010283e2ddeaf490484489075e"
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/eccentric_tome.json"
+hash = "71e73c9b3035875d38bae2314b8b38d7682da52f6427697195d0516a6185c8c0"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/mining.json"
+hash = "a89383c3072a331b4b60686bbf82bf61d9507e9f27db85e63832addc20ef7a94"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/mob_spawning.json"
-hash = "a18a579effbafa1c88342d94dd1a944f01401d530be18f4f32523ec31fa47acf"
+hash = "97177c5828d723e9e6b47a2d9e71003f06401da78121cb3ae25f62a3ca8d2e44"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/mountains.json"
@@ -1333,6 +1350,22 @@ hash = "7c716f147d927afc73ae16f99c9eaa5502da7be6c616fd67aed939f188496708"
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/artifacts.json"
 hash = "7c75b2f8110fa5f3f3a23e61de152cf5e57e63378c1cb94a4ef6fc96ee663d11"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/aircraft.json"
+hash = "dc3506caf3ebd9f5106f28450d8d4489247e46508e03c0c075f5ef62e5bdb0fc"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/horses_for_courses.json"
+hash = "b7a941d98f119c5cc4d737302f239b8a6e18c1ec8fb91e23a954f25341f032ed"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/mounts.json"
+hash = "2291fcee01e70eb0ec10678922ec6ab1c1749b1156792c51ba71d6444184b5d5"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/paraglider.json"
+hash = "ad3dda97c19c60b68daa35cfc7a9af9afe00fac4a302a182587ba9d511b4306d"
 
 [[files]]
 file = "resourcepacks/spawn-animations.pw.toml"
