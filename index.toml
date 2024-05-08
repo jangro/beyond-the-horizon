@@ -26,7 +26,7 @@ hash = "b5be8bad368b4c24c85fb83a568d420f28d212fe7be048c7ff498f4702da9d44"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "03c07dd89ebcaffe70d10c726cc7789b58dd9da2f3cd7e3a76a5267e8b639d4b"
+hash = "ff29e5135387cad02db16a3e528a3c756c0fee9e3e2cbf3517ce12eaafdbfd71"
 
 [[files]]
 file = "config/fml.toml"
@@ -138,7 +138,7 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "a0764a19ff9e77979c174d7e28690bd950d4e30ef1f9c0239ba8e7d80783b9c0"
+hash = "a55f759a655f22dc55e1596c61e8f5413fd0bdd812903beeb9223710fec2cc25"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
