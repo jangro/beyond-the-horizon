@@ -528,6 +528,11 @@ hash = "041fdfee2631ccb01d2ebee2faede27e7b3cb86b4798d0e322e6af56a2cd824b"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "588b334623040da0c594c7f155aee8534ca6e6d7b092db92850e469f66b9f333"
+metafile = true
+
+[[files]]
 file = "mods/eccentric-tome.pw.toml"
 hash = "cae1dba77a14bdc6857c29406920d9cc704561e7b6f21b4688800b77a062a4f2"
 metafile = true
@@ -640,11 +645,6 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
-metafile = true
-
-[[files]]
-file = "mods/fps-reducer.pw.toml"
-hash = "74343f6931d66da29809e437bfb83d19adcf2bf5c81861071fad6f049c70ed1e"
 metafile = true
 
 [[files]]
