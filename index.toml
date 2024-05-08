@@ -86,7 +86,7 @@ hash = "0fe0e0eddb4b7ce88f332ab3dbc158a5e9acf83b84e4653f6c0da5d40cd54bc0"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "c1a7642ae287fe8c4cd978e0e689789a323329bbf6cce232981f994af10e6e43"
+hash = "2db2009e9c571713cefa99d5890343a8649a0182c95b3e00911cb3367c409366"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -676,6 +676,11 @@ hash = "5508a5c035dffcb22c6ff5b2a52235f753fc4361221be8b97c25b8650efefba6"
 metafile = true
 
 [[files]]
+file = "mods/in-control.pw.toml"
+hash = "4cc3aa6e9f9f792e002ec8b7b5f5b106bf96b320fc1203b76c0593e01c63b62b"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "ac1e67e8fd33b13ed99c8aed964ab2501d8a2092f01c22b901e43b6824b2bc6f"
 metafile = true
@@ -1112,7 +1117,7 @@ metafile = true
 
 [[files]]
 file = "mods/too-fast.pw.toml"
-hash = "8fa597b487ad567a8d1f552bd70a6ed1e23e101630e0a993f354e8e4e7b8fc8e"
+hash = "be5d2bc40fc274ceb8514db1bd66fe76c889d66bcaa192c4ee71f61c10f0e6e2"
 metafile = true
 
 [[files]]
