@@ -1,6 +1,6 @@
 {
     "name": "Traveler's Backpacks",
-    "icon": "artifacts:night_vision_goggles",
+    "icon": "travelersbackpack:standard",
     "category": "patchouli:mod_info",
     "pages": [
                 {
