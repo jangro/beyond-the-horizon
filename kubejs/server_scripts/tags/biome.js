@@ -51,4 +51,19 @@ ServerEvents.tags('worldgen/biome', event => {
   event.removeAll('dungeons_arise:has_structure/scorched_mines_biomes');
   event.removeAll('dungeons_arise:has_structure/small_blimp_biomes');
   event.removeAll('dungeons_arise:has_structure/wishing_well_biomes');
+
+  // Disable empty minecolonies
+  event.removeAll('minecolonies:has_structure/asian_colony');
+  event.removeAll('minecolonies:has_structure/caledonia_colony');
+  event.removeAll('minecolonies:has_structure/colonial_colony');
+  event.removeAll('minecolonies:has_structure/desertoasis_colony');
+  event.removeAll('minecolonies:has_structure/incan_colony');
+  event.removeAll('minecolonies:has_structure/lostmesacity_colony');
+  event.removeAll('minecolonies:has_structure/medieval_birch_colony');
+  event.removeAll('minecolonies:has_structure/medieval_dark_oak_colony');
+  event.removeAll('minecolonies:has_structure/medieval_oak_colony');
+  event.removeAll('minecolonies:has_structure/medieval_spruce_colony');
+  event.removeAll('minecolonies:has_structure/shire_colony');
+  event.removeAll('minecolonies:has_structure/warpednetherlands_colony');
+
 });

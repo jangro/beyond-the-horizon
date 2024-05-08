@@ -105,50 +105,6 @@ file = "kubejs/config/packicon.png"
 hash = "48462b68452ec88cee27b58a63682185a683de916cf30f334b084259390f9bad"
 
 [[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/heavenly_challenger_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/heavenly_conqueror_biomes.json"
-hash = "33975eff3c2c6cf9000bce7825e1256f756eb8a353be7e9b7011bb4298f97a65"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/heavenly_rider_biomes.json"
-hash = "33975eff3c2c6cf9000bce7825e1256f756eb8a353be7e9b7011bb4298f97a65"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/illager_corsair_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/illager_galley_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/mechanical_nest_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/mushroom_house_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/mushroom_mines_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/scorched_mines_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/small_blimp_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
-file = "kubejs/data/dungeons_arise/tags/worldgen/biome/has_structure/wishing_well_biomes.json"
-hash = "bef4d172fc1bfb34d342e79090726c4a0c272dd404783c3ea022b992e0e0415e"
-
-[[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
 hash = "fa491b58d3afd0ca7d03bf3a6061798597a3a90421160591c9fcaa8ceeb5b2e9"
 
@@ -186,7 +142,7 @@ hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "1725f318e0446f73d7bd962c7c49c09acfafc962b43b926e8de5654e9c7116f7"
+hash = "ef1d7005e64484885bef6c6e330bd60a92b577abd8c4497628337a284fbbaadd"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
