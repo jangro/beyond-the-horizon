@@ -12,4 +12,4 @@ packwiz
 /.vs/
 
 # Exclude macOS folder metadata
-.DS_Store
+**/.DS_Store
