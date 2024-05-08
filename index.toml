@@ -113,6 +113,14 @@ file = "kubejs/server_scripts/constants.js"
 hash = "fe17bb952890c3349ed9e34408cbdcd6919e0900aa8b315d0784a847b6bb72ff"
 
 [[files]]
+file = "kubejs/server_scripts/dev/commands.js"
+hash = "36842280b7f1f03ff6591a97ee2abf8a66630687aa3cbc8982dc0bc2ebd55add"
+
+[[files]]
+file = "kubejs/server_scripts/dev/info.js"
+hash = "47acb9e5de7fc66f71c3b23578ee8520cff87d32e06a4b773204b2acfa0344af"
+
+[[files]]
 file = "kubejs/server_scripts/first_start.js"
 hash = "e916086782b4cace6810f721822dbe7c614c94dc699f4c0532f6d00659842b61"
 
@@ -181,6 +189,11 @@ hash = "2c31b3651fd6df13a65721fe596a0e3dd63f15148301a953d0e8789dce882d64"
 metafile = true
 
 [[files]]
+file = "mods/allurement.pw.toml"
+hash = "ade685fecb6727ffbb0dca173fbab2ac74bf3760af8b2325d437382195da9baf"
+metafile = true
+
+[[files]]
 file = "mods/ambient-environment.pw.toml"
 hash = "dbebcab51da752a59d057d50f02ced6d3cce3270389f52c414d034f000674790"
 metafile = true
@@ -188,6 +201,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "890096db933cb572b5936aa8e563a39c0ec62158d527137ba662e53ce5114502"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
 metafile = true
 
 [[files]]
@@ -613,6 +631,11 @@ metafile = true
 [[files]]
 file = "mods/fps-reducer.pw.toml"
 hash = "74343f6931d66da29809e437bfb83d19adcf2bf5c81861071fad6f049c70ed1e"
+metafile = true
+
+[[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "ffe84c799fa2f0b4c931dfc2b46042e8eeb730037436d5ad1abd2ff21df3e956"
 metafile = true
 
 [[files]]
