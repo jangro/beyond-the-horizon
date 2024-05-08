@@ -54,7 +54,7 @@ hash = "550f2a1332d29e5b8b17e7c4415db707999abccca5bf9f62937d2fb05a742384"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "f52c8b0bed97282ca68b79cfc611c9e794f9e4739bd7018e4b86ab117facc8bb"
+hash = "2095ed4f25a20e26e307d8188ff3f9eba1d7c0a285e3380faa9a8b28f0900fef"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -103,6 +103,42 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 [[files]]
 file = "kubejs/config/packicon.png"
 hash = "48462b68452ec88cee27b58a63682185a683de916cf30f334b084259390f9bad"
+
+[[files]]
+file = "kubejs/data/afk_display/functions/check_afk.mcfunction"
+hash = "98951f8730cd6883cde6e729395abc01e4711843dfeccd1828c635dc20f12900"
+
+[[files]]
+file = "kubejs/data/afk_display/functions/load.mcfunction"
+hash = "6355fd7d8024a041e762ce5ad733bc6cea2e5f5ad8e5de98f045e967cde1a624"
+
+[[files]]
+file = "kubejs/data/afk_display/functions/remove_afk.mcfunction"
+hash = "f39262bd019a141a3347bce84357c42a8d478ef278941422666d5ba4063505bb"
+
+[[files]]
+file = "kubejs/data/afk_display/functions/second.mcfunction"
+hash = "80d6629345be68d593cc893c13d486c1196c4f5f5933fea363885cb671f24194"
+
+[[files]]
+file = "kubejs/data/afk_display/functions/uninstall.mcfunction"
+hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/functions/load.json"
+hash = "5369ee6d8ed73045e4eab2e4ce4ef1691724ba322157860b1a817a6eb961f52a"
+
+[[files]]
+file = "kubejs/data/vanillatweaks/advancements/afk_display.json"
+hash = "6faedb96f64ce4361083de6cf9f6c8faf5d83cc6d21f83962bcb3d630278cf3a"
+
+[[files]]
+file = "kubejs/data/vanillatweaks/advancements/root.json"
+hash = "1c1904d38cf405f427730101ea35e1a44358ccae6d7b7aff71fa77ba758a2544"
+
+[[files]]
+file = "kubejs/data/vanillatweaks/tags/functions/uninstall.json"
+hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
 [[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
@@ -840,6 +876,11 @@ metafile = true
 [[files]]
 file = "mods/luckys-wardrobe.pw.toml"
 hash = "eb90d424987717ed0b15aeb1be27270d50a0bbfe9cf871e2432bce035fb1c400"
+metafile = true
+
+[[files]]
+file = "mods/lukis-grand-capitals.pw.toml"
+hash = "7a2430a4542e6a76bce2dd2ad59fbf1d2be6f48d0308666eeb1f0a1854e1bd78"
 metafile = true
 
 [[files]]

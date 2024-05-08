@@ -29,7 +29,7 @@
 
     {
       "structure": "minecraft:villages",
-      "factor": 4
+      "factor": 3.5
     },
 
     {
@@ -125,6 +125,51 @@
     {
       "structure": "dungeons_arise:minor_structures",
       "factor": 4
+    },
+
+    {
+      "structure": "valhelsia_structures:big_trees",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:castle_ruins",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:castles",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:deep_spawner_rooms",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:desert_houses",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:forges",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:player_houses",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:spawner_dungeons",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:spawner_rooms",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:tower_ruins",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:witch_huts",
+      "factor": 1
     },
   ]
 }
