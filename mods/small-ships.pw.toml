@@ -1,13 +1,13 @@
 name = "Small Ships [Fabric & Forge]"
-filename = "smallships-forge-1.20.1-2.0.0-b1.1.jar"
+filename = "smallships-forge-1.20.1-2.0.0-b1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fa9441a01d781d8289b7a8178c92cb497961424e"
+hash = "387beb432e8619a0b5df3ab0a3b11e33095a0a2c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5148122
+file-id = 5325018
 project-id = 450659
