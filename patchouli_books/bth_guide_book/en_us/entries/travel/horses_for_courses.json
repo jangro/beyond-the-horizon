@@ -1,0 +1,16 @@
+{
+    "name": "Horses for Courses",
+    "icon": "minecraft:saddle",
+    "category": "patchouli:travel",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Horses have a number of changes over vanilla.$(br2)They can swim through water and you can pass through leaves, which makes horses that much more useful for getting around!"
+                },
+            {
+            "type": "patchouli:crafting",
+            "recipe": "bth:crafting/saddle",
+	"text":"You can ride bareback (which is a bit slower, and hurts!) or craft your own saddle!"
+            }
+    ]
+}

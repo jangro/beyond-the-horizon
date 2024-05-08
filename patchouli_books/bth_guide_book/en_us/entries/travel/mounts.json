@@ -1,0 +1,12 @@
+{
+    "name": "Other Mounts",
+    "icon": "artifacts:cowboy_hat",
+    "category": "patchouli:travel",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "There may be other animals that you can tame and ride, for example camels. Elephants can  be tamed, equiped with chests, and decorated with carpet. Classy!$(br2)Get yourself a cowboy hat for extra speed!"
+                }
+
+    ]
+}

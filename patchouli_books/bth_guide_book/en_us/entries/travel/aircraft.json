@@ -1,0 +1,11 @@
+{
+    "name": "Aircraft",
+    "icon": "immersive_aircraft:biplane",
+    "category": "patchouli:travel",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "You can fly. Add some content here about the Aether lore."
+                }
+    ]
+}

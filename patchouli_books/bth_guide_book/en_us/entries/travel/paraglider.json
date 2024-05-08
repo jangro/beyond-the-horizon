@@ -1,0 +1,11 @@
+{
+    "name": "Paragliders",
+    "icon": "paraglider:paraglider",
+    "category": "patchouli:travel",
+    "pages": [
+                {
+            "type": "patchouli:text",
+            "text": "Paragliders and Deku Leaves can be found in towers around the world. They're useful for gliding short distances. Don't get tired though!"
+                }
+    ]
+}

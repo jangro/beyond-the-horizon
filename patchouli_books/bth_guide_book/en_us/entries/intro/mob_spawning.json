@@ -2,6 +2,7 @@
     "name": "Mob Spawning",
     "icon": "minecraft:iron_sword",
     "category": "patchouli:intro",
+	"sortnum": 1,
     "pages": [
                 {
             "type": "patchouli:text",
