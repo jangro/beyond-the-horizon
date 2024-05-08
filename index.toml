@@ -142,7 +142,7 @@ hash = "1c4f75ecc842d9f85499acdff5740e2db906995558186f146ba3a71435bfc785"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "ef1d7005e64484885bef6c6e330bd60a92b577abd8c4497628337a284fbbaadd"
+hash = "68a1ab6989f4f2a740c75f3242c93a81db094c3dd1ff209baf55b41d3dc4b6ad"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
@@ -1108,6 +1108,11 @@ metafile = true
 [[files]]
 file = "mods/toast-control.pw.toml"
 hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
+metafile = true
+
+[[files]]
+file = "mods/too-fast.pw.toml"
+hash = "8fa597b487ad567a8d1f552bd70a6ed1e23e101630e0a993f354e8e4e7b8fc8e"
 metafile = true
 
 [[files]]
