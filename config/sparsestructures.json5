@@ -145,7 +145,7 @@
     },
     {
       "structure": "valhelsia_structures:desert_houses",
-      "factor": 2
+      "factor": 1
     },
     {
       "structure": "valhelsia_structures:forges",
@@ -153,7 +153,7 @@
     },
     {
       "structure": "valhelsia_structures:player_houses",
-      "factor": 1.5
+      "factor": 1.0
     },
     {
       "structure": "valhelsia_structures:spawner_dungeons",
