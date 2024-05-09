@@ -26,10 +26,21 @@ ServerEvents.recipes(event => {
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
 
+  event.shaped('immersive_aircraft:hull', [
+      'LLL',
+      'IGI',
+      'LLL'
+  ], {
+      L: 'aether:skyroot_log',
+      I: '#forge:ingots/iron',
+      G: 'aether:enchanted_gravitite'
+  }).id(`${ID_PREFIX}immersive_aircraft_hull`);
+
   // Minecraft
   event.shaped('minecraft:saddle', [
+    'LLL',
     'SLS',
-    'ILI'
+    'I I'
   ], {
     S: '#forge:string',
     L: '#forge:leather',
