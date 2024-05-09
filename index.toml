@@ -86,7 +86,7 @@ hash = "258800a219558e6b590749f88d8d801f568a9a9afd6e5a5c2cf2de8ce0c49f9d"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "2db2009e9c571713cefa99d5890343a8649a0182c95b3e00911cb3367c409366"
+hash = "880328d96f18e4eaf6a96370b302d9df92cc924c709979721d94d2891c4193c4"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -123,6 +123,18 @@ hash = "80d6629345be68d593cc893c13d486c1196c4f5f5933fea363885cb671f24194"
 [[files]]
 file = "kubejs/data/afk_display/functions/uninstall.mcfunction"
 hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
+hash = "02a8276c0758e25f78c02ad226582eea679e6749063afb790666c95ff8253365"
+
+[[files]]
+file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/super_blood_moon.json"
+hash = "38e0b3d95ab4b025f14fa86213fdc28e0bc4611f93429331ba26498190dc3366"
+
+[[files]]
+file = "kubejs/data/minecraft/enhancedcelestials/lunar/dimension_settings/overworld.json"
+hash = "f0aa8ce1b8f6ef5fe3b20d9b9b6406c6f486fe378001984c1f749e55cde71c78"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/functions/load.json"
@@ -174,11 +186,11 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "a55f759a655f22dc55e1596c61e8f5413fd0bdd812903beeb9223710fec2cc25"
+hash = "2c3a670a20a53fb05fba5dc99767900b52ca885cd965c22845e062caeb4cba78"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "a08172e76cceffcc9370093819441fe88f8079d1d7ff685c8b37417709e418a4"
+hash = "98e846eba6914c5314fa11eaa54596d565aed250b3254acf26c5aa01b5b344f5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
@@ -1395,7 +1407,7 @@ hash = "46a69094e8d850ddcf340d99bf772f216148d95a2ce9a912f97ddc39204e4a12"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/days_and_nights.json"
-hash = "670d285a9211ffb81f523fbdd96f3724620b75bdc920cf280dcdfe8198789455"
+hash = "950b6868bd58f8551a248f51d4861a1308881fec2c849c430218602a54f34469"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/eccentric_tome.json"
