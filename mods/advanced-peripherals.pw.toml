@@ -1,6 +1,6 @@
 name = "Advanced Peripherals"
 filename = "AdvancedPeripherals-1.20.1-0.7.39r.jar"
-side = "both"
+side = "both" # Verified as both.
 
 [download]
 hash-format = "sha1"

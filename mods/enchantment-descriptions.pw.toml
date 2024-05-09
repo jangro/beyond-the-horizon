@@ -1,6 +1,6 @@
 name = "Enchantment Descriptions"
 filename = "EnchantmentDescriptions-Forge-1.20.1-17.0.14.jar"
-side = "client"
+side = "client" # Verified as client-only.
 
 [download]
 hash-format = "sha1"

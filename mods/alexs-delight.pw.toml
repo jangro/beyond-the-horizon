@@ -1,6 +1,6 @@
 name = "Alex's Delight"
 filename = "alexsdelight-1.5.jar"
-side = "both"
+side = "both" # Verified as both.
 
 [download]
 hash-format = "sha1"

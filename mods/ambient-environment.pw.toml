@@ -1,6 +1,6 @@
 name = "Ambient Environment"
 filename = "AmbientEnvironment-forge-1.20.1-11.0.0.1.jar"
-side = "both"
+side = "client" # Verified as client-only.
 
 [download]
 hash-format = "sha1"

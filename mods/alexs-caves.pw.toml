@@ -1,6 +1,6 @@
 name = "Alex's Caves"
 filename = "alexscaves-1.1.4.jar"
-side = "both"
+side = "both" # Verified as both.
 
 [download]
 hash-format = "sha1"

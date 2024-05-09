@@ -1,6 +1,6 @@
 name = "Visuality: Reforged"
 filename = "visuality-forge-2.0.2.jar"
-side = "both"
+side = "client" # Verified as client-only.
 
 [download]
 hash-format = "sha1"

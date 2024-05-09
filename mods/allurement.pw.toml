@@ -1,6 +1,6 @@
 name = "Allurement"
 filename = "allurement-1.20.1-4.0.0.jar"
-side = "both"
+side = "both" # Verified as both.
 
 [download]
 hash-format = "sha1"
