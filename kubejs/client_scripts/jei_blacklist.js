@@ -15,5 +15,7 @@ JEIEvents.hideItems(event => {
     'ae2:facade',
     /upgrade_aquatic:.*bedroll/,
     /valhelsia_structures:.*sleeping_bag/,
+    /wardrobe:.*backpack/,
+    /waystones:.*/
   ]);
 });
