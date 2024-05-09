@@ -321,6 +321,11 @@ hash = "078ad67d3e0fb2f6ac7702ddd819e83fd08994aaba380bfa14916a7b0846cb6b"
 metafile = true
 
 [[files]]
+file = "mods/automobility.pw.toml"
+hash = "5e3ff30d77ab34aba80c887c01838d408a20e4730726c98feffbf15c568a7b5b"
+metafile = true
+
+[[files]]
 file = "mods/bagus-lib.pw.toml"
 hash = "e30334d2d1274ad6219b3f14bda308f94e396c9150b68b0424222b9f52089767"
 metafile = true
