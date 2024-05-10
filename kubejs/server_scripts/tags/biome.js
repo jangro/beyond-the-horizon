@@ -60,6 +60,7 @@ ServerEvents.tags('worldgen/biome', event => {
     'totw_modded:has_structure/ocean_tower',
     'totw_modded:has_structure/ocean_warm_tower',
     'totw_modded:has_structure/regular_tower',
+
   ].forEach((tag) => event.removeAll(tag));
 
   // Eidolon - Stray Towers spawn only in snowy mountains.

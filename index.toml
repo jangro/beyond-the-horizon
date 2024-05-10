@@ -58,7 +58,7 @@ hash = "550f2a1332d29e5b8b17e7c4415db707999abccca5bf9f62937d2fb05a742384"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "1cca05e88c44456feee6c9c702e146d4986584d5fab049b0f4e0c92652d5fb4d"
+hash = "83811bcfd4e26b95662d326d9db529639918a0df5fbacdae7bf3bbb40400f68f"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -106,7 +106,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "8c5423c8e852a9dfe1c6f27fb647d072a9c47d6a47d99494565f1e6939ad6ac0"
+hash = "f82cb434f8a6d50cb714f7afb71f86f5cafb26631e0f8c2fbe1fbd412dd7ec67"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -154,7 +154,7 @@ hash = "5369ee6d8ed73045e4eab2e4ce4ef1691724ba322157860b1a817a6eb961f52a"
 
 [[files]]
 file = "kubejs/data/pneumaticcraft/worldgen/placed_feature/oil_lake_surface.json"
-hash = "396d71893e801850ec7cc5d2b91720d5914cf4a3cb0fa4f45428c7633a1dc256"
+hash = "976596fb665ec85a6e78e268b4d1858f20d9cd3d49a4f3a12725307e0808dc22"
 
 [[files]]
 file = "kubejs/data/vanillatweaks/advancements/afk_display.json"
@@ -214,7 +214,7 @@ hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "68a1ab6989f4f2a740c75f3242c93a81db094c3dd1ff209baf55b41d3dc4b6ad"
+hash = "a7d747247de0223f4aad2c8b978ad1658cb1ee99d016a8653c2dd13869ec62f9"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
