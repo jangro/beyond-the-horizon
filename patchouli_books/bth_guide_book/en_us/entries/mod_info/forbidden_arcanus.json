@@ -1,0 +1,23 @@
+{
+    "name": "Forbidden & Arcanus",
+    "icon": "forbidden_arcanus:deorum_ingot",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Forbidden & Arcanus: Magic and Mystery$() $(br2)Forbidden & Arcanus brings magic, mystery, and powerful artifacts to Minecraft. Explore the mystical Deorum metal, harness the power of Dark Matter, and wield magic items worthy of legend."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Key Features$() $(br2)- $(l)Deorum$(): A new magical metal. $(br2)- $(l)Dark Matter$(): Harness dark energy for powerful artifacts. $(br2)- $(l)Arcane Crystal$(): Craft potent tools and gear."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Magical Artifacts$() $(br2)- $(l)Edelwood Staff$(): Create a staff to control Edelwood trees. $(br2)- $(l)Magical Ring$(): Equip rings with powerful effects. $(br2)- $(l)Mystical Essences$(): Combine essences to create new magical items."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Rituals and Exploration$() $(br2)- $(l)Rituals$(): Perform rituals to gain special powers. $(br2)- $(l)Exploration$(): Discover hidden structures and dungeons filled with treasure."
+        }
+    ]
+}

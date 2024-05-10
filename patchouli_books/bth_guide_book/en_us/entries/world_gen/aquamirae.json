@@ -1,0 +1,23 @@
+{
+    "name": "Aquamirae",
+    "icon": "aquamirae:rune_of_the_storm",
+    "category": "patchouli:world_gen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Aquamirae: Maritime Mysteries$() $(br2)Aquamirae introduces a world of maritime adventure to Minecraft, expanding the ocean depths with new structures, creatures, and treasures. Dive in and uncover the mysteries of the deep!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Key Features$() $(br2)- $(l)New Structures$(): Explore sunken ships, hidden temples, and ancient ruins. $(br2)- $(l)New Mobs$(): Encounter formidable sea creatures, from merfolk to ghostly pirates."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Rare Treasures$() $(br2)- $(l)Three Bolt Set$(): Special gear that provides underwater breathing. $(br2)- $(l)Terrible Set$(): Boosts swimming speed and poisons enemies. $(br2)- $(l)Frozen Keys$(): Unlocks frozen chests in the Ice Maze biome."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Survive the Depths$() $(br2)Prepare yourself for the ocean depths with the right gear and tactics. Arm yourself with tridents, potions, and a trusty diving helmet to survive the treacherous waters."
+        }
+    ]
+}

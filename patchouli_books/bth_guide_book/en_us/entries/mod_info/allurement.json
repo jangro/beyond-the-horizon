@@ -1,0 +1,23 @@
+{
+    "name": "Amendments",
+    "icon": "minecraft:skeleton_skull",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Amendments: Vanilla Tweaks and More$() $(br2)Amendments is a very configurable mod focused on tweaking and improving vanilla blocks. It aims to add functionality and visual flair to vanilla features without adding new ones. It's like giving vanilla a fresh coat of paint (and maybe some glitter)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Key Features$() $(br2)- $(l)Cauldron Potion Mixing$(): Mix potions and dyes directly in cauldrons. Finally, a use for those empty cauldrons other than decorative splashing. $(br2)- $(l)Lantern Animation$(): New 3D animations when held or hung -- because swinging lanterns are much cooler."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)More Features$() $(br2)- $(l)Skull Piles and Candle Skulls$(): Stack skulls and place candles on top for that spooky vibe. $(br2)- $(l)Carpeted Stairs$(): Place carpets on stairs and slabs, because who needs boring wooden stairs anyway?"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Additional Tweaks$() $(br2)- $(l)Better Lectern GUI$(): Enhanced lectern interface with new buttons. Perfect for impressing your librarian friends. $(br2)- $(l)Jukebox Improvements$(): Visually show discs and let them spin while playing -- DJ not included."
+        }
+    ]
+}

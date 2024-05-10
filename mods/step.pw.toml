@@ -1,0 +1,13 @@
+name = "Step"
+filename = "step-1.20.1-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bd25a746291914c62966efa4236b5be84fff767a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4593702
+project-id = 374371

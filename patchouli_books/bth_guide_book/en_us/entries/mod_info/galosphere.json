@@ -1,0 +1,23 @@
+{
+    "name": "Galosphere",
+    "icon": "galosphere:bronze_ingot",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Galosphere: Beyond the Ores$() $(br2)Galosphere brings a plethora of new metals, ores, and materials to Minecraft, expanding the world with powerful gear and tools. Venture into the depths and explore new biomes to uncover these resources!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Key Features$() $(br2)- $(l)Bronze$(): Craft tools and gear with this strong alloy. $(br2)- $(l)Nickel$(): Mine this versatile metal for a range of new crafting recipes. $(br2)- $(l)Tungsten$(): Create durable tools with exceptional durability."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)More to Discover$() $(br2)- $(l)Topaz$(): Harness the magic of this rare gem for enchanting items. $(br2)- $(l)Onyx$(): Find onyx deep in the caves and craft mystical artifacts. $(br2)- $(l)Galena$(): Combine with other metals to form unique alloys."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Exploring New Biomes$() $(br2)Galosphere introduces new biomes teeming with rare resources and challenging enemies. Gather your tools and venture into the depths to uncover the mysteries of this expanded world!"
+        }
+    ]
+}

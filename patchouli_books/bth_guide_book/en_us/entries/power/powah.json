@@ -1,0 +1,23 @@
+{
+    "name": "Powah!",
+    "icon": "powah:energy_cell_starter",
+    "category": "patchouli:power",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Powah!: High-Powered Energy$() $(br2)Powah! introduces high-powered energy generation, storage, and automation to Minecraft. Whether you're a tech enthusiast or just want to keep the lights on, this mod has you covered."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Key Features$() $(br2)- $(l)Energy Generation$(): Create energy using solar, geothermal, and other generators. $(br2)- $(l)Energy Storage$(): Store vast amounts of energy with batteries, capacitors, and energy cells."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Advanced Machines and Automation$() $(br2)- $(l)Energy Networks$(): Connect your machines and storage seamlessly. $(br2)- $(l)Automation Tools$(): Automate crafting, smelting, and more with Powah!'s powerful tools."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)More to Explore$() $(br2)- Explore further with reactors, wireless charging, and advanced tech. Harness the power of Powah! to energize your Minecraft world."
+        }
+    ]
+}

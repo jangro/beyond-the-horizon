@@ -1,0 +1,63 @@
+{
+    "name": "*** Your Story ***",
+    "icon": "minecraft:nether_star",
+    "category": "patchouli:intro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Listen closely, adventurer$(). You are a descendant of an ancient civilization renowned for its ingenuity and exploration prowess. Those who spent their time in the skies developed enhanced vision and could see 'Beyond the Horizon.' You've inherited this trait and a hunger for exploration."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Act 1: A Legacy Reclaimed$() $(br2)Your journey begins amongst towering mountains, vast plains, and lush forests. You find refuge in a friendly abandoned structure and set your sights on establishing your presence in the world with the aid of technology and magic."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "In a dusty attic, you find a journal left by one of your ancestors, revealing a hidden portal to The Aether. Before reaching The Aether, you must venture into the Nether to gather the materials needed for the portal, as well as strong resources like ancient debris for building motor vehicles."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Act 2: Into the Nether and Skyward Pilgrimage$() $(br2)You mine obsidian to construct the Nether portal and then step into the fiery depths of the Nether. There, you seek out glowstone, nether quartz, and ancient debris - the essential components for your technological progression and eventual entry into The Aether."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With these resources secured, you journey back to the Overworld, inspired by ancient knowledge gained through exploration and experimentation. You find Paragliders, construct motor vehicles, and build ocean-worthy ships as you ready yourself for the voyage to The Aether."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Crossing through the Aether portal, you uncover the remnants of your ancestors' civilization - Gravitite-powered aircraft, Moas bred for riding, and floating islands rich with ores and ruins. You mine Gravitite ore, crucial for crafting airship hulls."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Act 3: The World Reborn$() $(br2)Returning from The Aether, you integrate the relics of the past with modern technology. You establish a base high in the mountains, building a tower to oversee the world."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Your transportation network expands with motor vehicles, Paragliders, and airships, utilizing PneumaticCraft, Create, and Immersive Engineering. You leverage various mounts to aid your mobility across vast landscapes, taming Elephants, Moas, and Grizzly Bears along the way."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As your network of airships, cars, and railways expands, you discover old enemies lurking beneath the surface. The once-banished Mutant Monsters have returned, threatening villages."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Armed with tools of technology and magic, you take the fight underground, battling mutants and exploring new dimensions. But danger isn't the only thing you find -- deep in the Nether and End, you uncover new delights like Grilled Strider and Void Soup."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "You become a culinary pioneer, bringing Nether's Delight, End's Delight, and more to the Overworld."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Epilogue: Beyond the Horizon$() $(br2)With each biome explored, each relic uncovered, and each enemy vanquished, your legacy is secure. You build cozy homes using Hearth & Home, harness magic from Botania and spellbooks, and master the arts with Joy of Painting and Music Maker."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "One day, you will leave behind your own journal, urging future explorers to go Beyond the Horizon and uncover the endless wonders of this world where the only limit is imagination."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Conclusion$() $(br2)This journey is yours, adventurer. From reclaiming the skies to taming beasts and mastering machinery, your story is what you make of it. So grab your compass, pack your bags, and write your own legend Beyond the Horizon."
+        }
+    ]
+}
