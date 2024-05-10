@@ -1,1 +1,21 @@
+autoJump:false
+enableVsync:false
+realmsNotifications:false
+renderDistance:12
+simulationDistance:12
+entityDistanceScaling:1.0
+guiScale:3
+maxFps:120
+mipmapLevels:0
+tutorialStep:none
+soundCategory_master:0.5
+soundCategory_music:0.25
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:0.5
+soundCategory_voice:1.0
 resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/BTH Panorama.zip"]
