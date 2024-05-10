@@ -1,12 +1,24 @@
 {
-    "name": "Other Mounts",
+    "name": "Saddle Up: Other Mounts",
     "icon": "artifacts:cowboy_hat",
     "category": "patchouli:travel",
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "There may be other animals that you can tame and ride, for example camels. Elephants can  be tamed, equiped with chests, and decorated with carpet. Classy!$(br2)Get yourself a cowboy hat for extra speed!"
-                }
-
+            "text": "Beyond horses, the world is teeming with majestic mounts waiting for an adventurous soul like you to saddle up! $(br2)Here's a quick rundown of some creatures you can ride:"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Camels: Glide across deserts like a seasoned nomad. They can carry two riders, making them perfect for journeys with a buddy. $(br2)Elephants: Tame them, equip them with chests for extra storage, and add decorative carpets for that classy safari look. Just don't forget the peanuts!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Moas (The Aether): These mystical birds can be tamed and ridden, offering a smooth ride across The Aether's sky-high islands. $(br2)Grizzly Bears (Alex's Mobs): Tame these furry giants and experience the thrill of a bear-back ride through the woods."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Striders (Nether): Hop on these lava-loving creatures for a fiery adventure across the Nether's molten lakes. $(br2)For an extra dash of style and speed, grab yourself a Cowboy Hat. $(br)Yeehaw and happy trails!"
+        }
     ]
 }
+S
