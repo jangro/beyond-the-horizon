@@ -1,0 +1,42 @@
+[
+  {
+    "mob": "eidolon:wraith",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:small_catfish",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:medium_catfish",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:large_catfish",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:terrapin",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  }
+]

@@ -14,7 +14,7 @@ hash = "8e449c6cd4a6baae36957c42088a5e71079213e3b5086a4c1c501f7d0661464f"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "1be7218a59893ff4b66de988c6f8f4b850d82be93fd12140bd8f4d70e0af4e91"
+hash = "317c1307a6719fb0f7ec39bb1062d3f7f1c39bb550de15573edcaff48859ddd1"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
@@ -39,6 +39,10 @@ hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 [[files]]
 file = "config/forge-client.toml"
 hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "fcc279607c36c2104afefafe52599b81ca9a51d365579126f0c89b0c992929ee"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -1167,8 +1171,8 @@ hash = "efbe843208d9c66bcd4678d698f8749af56b67a01637249cad8bca4bf1643aa1"
 metafile = true
 
 [[files]]
-file = "mods/step-it-up.pw.toml"
-hash = "bbe36a65cccb645041582f39ac6d8ac4964d895ab38d72fb0c46be4344399d66"
+file = "mods/step.pw.toml"
+hash = "a433d62db8b603647ca3914c29d8c5c977fe44b6a5ead2f48076c89d0331ef84"
 metafile = true
 
 [[files]]
@@ -1408,35 +1412,131 @@ metafile = true
 
 [[files]]
 file = "patchouli_books/bth_guide_book/book.json"
-hash = "fee5d158b8bb39e43ccd507c65dd0d4bab3859a54ce38bd31bfb0b80e8a3826b"
+hash = "7494cf1ada18c4568be86c34c5df4ab4ad261f8ba3b13831429ee5562de5a130"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/building.json"
+hash = "c1e1002b03b65ee96fcd6ee4b30758d3d95fb038bc254ff2813053db91ee7319"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/dimensions.json"
+hash = "45be863263503a57657f9a9a899dbe0886f66245a762a520ad25f088479d815f"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/food.json"
+hash = "b79add29860cb5c5bcaaa948c88251afc4be752a487cd4a5b033bf817c1d30cf"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/intro.json"
-hash = "141c3a0cebad5bd40300021f8fe57cf8d4d1a89224d46f56c67f4b78beab301a"
+hash = "3aa1890ac2c14c816624fd317c65e35f967c4d1697c307aa96860ab52a4a5e0e"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/mobs.json"
+hash = "936cb8f1a56fe20af4c511f7929789dbf244b6832069ee2669a236644aceeb30"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/mod_info.json"
 hash = "b43f235acf93171183a16489ab672d1055fa86ca24fb8f340b1081f06377aca6"
 
 [[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/power.json"
+hash = "2ad9f571ed4362f5a605e28036303f3ee8a9e58176827b8ae3c8a8d0ca6925ec"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/storage.json"
+hash = "31713b191d13d24cb3837b3fc34d23ee3e6b0f464eebbb35820c6e344581a320"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/the_arts.json"
+hash = "e23b657f155242d4ee210b68196cd8c0e39cc699f9fdf09404c1f6f8ba9f0e5b"
+
+[[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/travel.json"
 hash = "54989eb7502f6379f2011a8ef7a90d2522eb7e50d538526cb18bc6c2462af4c9"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/categories/world_gen.json"
+hash = "36e487e18384b93de37818bad6e445d9ba82ace18cfa60755afc3dec41821719"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/building/building_tools.json"
+hash = "d06794cc92c93f07f6bc8f293728f47197baa91b4cbf96ae43cb69e767923803"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/building/clayworks.json"
+hash = "3a09abd8bc0aec20e1bc251db26d0fdaab9328576cbe5b1f55ed460a27ebcaaa"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/building/hearth_and_home.json"
+hash = "148cff77186a95641ff1febd1c926ee078b3a4fe857eba61ead25003efedaede"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/dimensions/the_aether.json"
+hash = "b7b004fdbe4d2f267d74077a179783907b4d4778de99a162ae27a0a7e4fdcb0e"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/alexs_delight.json"
+hash = "06455b9b6582d192db18322bc179a475e8890eadbc61c34d40234a304e730945"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/butchering.json"
+hash = "6902d4296e1f2563cddce759821181e988de8dbda159d53571b0b72a7e2c71dc"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/chefs_delight.json"
+hash = "0345affc6bd579ac4e8efd6b227e6bf5661fcbbd50b49599d583bab4eb0162f6"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/ends_delight.json"
+hash = "7c047d1dd0e9373824e356c1a550062240afa8322fb979d19911212ac2761150"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/farmers_delight.json"
+hash = "78016b5882dea6ce2c75ff5cfb6b2d79568b41316e5dd7b8efd686df952ef3e1"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/neapolitan.json"
+hash = "366ebeda0e4a36096177350f545efb6c383317053e05b86e73e59a829513f7df"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/nethers_delight.json"
+hash = "844e66525db0707006867bc026dc4f424bac4aaabafaad815a357ce57c338200"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/food/oceans_delight.json"
+hash = "5b0d321eab90cfa3cad289f9e0a2c2f8c41a5884ad5d5f0eda4358f6cea1eff2"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/backstory.json"
+hash = "00280a0cee1ba40c9780bf9cf0e4049cfc62ec4147a52e34603fdd799cdee6f9"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/butchering.json"
 hash = "46a69094e8d850ddcf340d99bf772f216148d95a2ce9a912f97ddc39204e4a12"
 
 [[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/carry_on.json"
+hash = "158a1204508429235907b730124068ae78ff88147b63466aa2d2eb5fdcd2ebc5"
+
+[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/days_and_nights.json"
-hash = "950b6868bd58f8551a248f51d4861a1308881fec2c849c430218602a54f34469"
+hash = "a0468bc2804c0d2479be80c2722ed3024cf07cb5c7a4dbf030c49ac40b7c1593"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/eccentric_tome.json"
 hash = "71e73c9b3035875d38bae2314b8b38d7682da52f6427697195d0516a6185c8c0"
 
 [[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/jei.json"
+hash = "92e9cc73c1681d274982298f6982f354626a49c5a702b86ee0dafdbc108102d5"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/journey_map.json"
+hash = "506b823fb3387d00bc3b429fcf5261859d2c015fcfea46881a234504581c2fec"
+
+[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/mining.json"
-hash = "a89383c3072a331b4b60686bbf82bf61d9507e9f27db85e63832addc20ef7a94"
+hash = "1db7b5351191acd27483514096c52fbc0f7149f12e7d8d961be2417bd53293bc"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/mob_spawning.json"
@@ -1444,31 +1544,183 @@ hash = "97177c5828d723e9e6b47a2d9e71003f06401da78121cb3ae25f62a3ca8d2e44"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/intro/mountains.json"
-hash = "89be45c5915624290bfde5042966ff857ba7e0f8f3cea5f5ff2b056bc90d285e"
+hash = "7c716f147d927afc73ae16f99c9eaa5502da7be6c616fd67aed939f188496708"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/intro/villagers.json"
+hash = "ec93265bc38ab239e97ff9df553fb6fcd5b5ba3f135673d2d909f10cd825be77"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mobs/alexs_mobs.json"
+hash = "f595ab157ebcbbe4c1fe5e11f4b058789d5ea0a2fd8cdda9219aca84b722c55d"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mobs/goblin_traders.json"
+hash = "2395e2d6aa6e36154b50fd2d16469467a3cd862fccc60fb0d657d989c43ad19d"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mobs/mutant_monsters.json"
+hash = "6eff3f6fa3991a0f58505cf2138b14b594b20069904598820cdf4447eb3c49db"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mobs/peaceful_surface.json"
+hash = "b2c894fbb18c8a807815994f91c3b99fb62843cd567307e89ac5943e1a4d002c"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/ae2.json"
+hash = "ea5f290c1fb74629558a41024bb5102649e14b39b9958c9495f3ff5874a08f79"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/allurement.json"
+hash = "a7bd4185df2ea4debf9f5cf3f19247e186213eb0cc06595fac8546b1cd5b2d96"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/ars_nouveau.json"
+hash = "7e0926a72f183e5922cf8499ef2966b75288e4f50d9c5cd6c8b8c7dd30d759d4"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/artifacts.json"
-hash = "1ad28d39ec64e642492967368139180ce77e26a9e9758959e3f7821afbde296d"
+hash = "76cd8c673aa5b9eef608224219d417833dc92bb434bf2b756635d82c8de784ea"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/backpacks.json"
 hash = "0f52f144e40a1ece3a18e3ebc60b1eff2896157c4977684fdc233b3ed5b12e50"
 
 [[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/botania.json"
+hash = "b59513b12e2a7a408eb9dcd37632fe75657903d6d1f12cde2239dbdbbd5d0d52"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/cc_tweaked.json"
+hash = "85e115c001c626408d23ad65b2ad953de180d68a5e3ef2c1ec4c0958199082da"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/create.json"
+hash = "cff5bd8311ae15b74b2b780677218c9384b6cfbd14998bf69c5f01b775541764"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/eidolon.json"
+hash = "68e7c7a9ee5c4a972083b5e7e05a877b10a364668730565c43dc8fbb4ccef811"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/engineers_decor.json"
+hash = "47301ad776a5e9c4f6fb9557b046314ff133fabf0e26ac6ac616ba01c8ed72cf"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/forbidden_arcanus.json"
+hash = "846702e0ccf455cd14ac1d8ba96770e98a22be8b652a7024d25bc7ea4314490b"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/galosphere.json"
+hash = "e4bfd8f559dbb66220ea00d7011197dbd40add2018fee445cafef6de7a87aaa8"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/immersive_engineering.json"
+hash = "5091dbd7a998b82e32e4df16b5e51fa0c82d83aba75d25c79a8d095a7bc83df6"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/irons.json"
+hash = "cc6a107b8e520af5117cb1f8fd87f2773327b3a3f450714c1d6e77911a0c7caf"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/little_logistics.json"
+hash = "2814bd7c4282c067c4a85cdc48d98c3a57081240d4694a66b014cb1bef9f29ad"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/minecolonies.json"
+hash = "b68eba005b91928b4fdbf8e04000a041659ffcf164b4ec7f168c733efd60ff31"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/pneumaticcraft.json"
+hash = "aa430d440809ebc674f682dd6a43ce0caa09fcf5173dfdf3b208a40367305f35"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/powah.json"
+hash = "f2d67b28dc8787f93853ca5915090e9f1a14c2f3df345b9271e7d8b312c26aa1"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/supplementaries.json"
+hash = "fe8ab30e067504eb0ee963063466c27eba7a8b43d803859c4d13f491e10de7ed"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/tetra.json"
+hash = "233f0e99db77e0a0bbf7f80068b8174c65f8d8d44e81eef75eebf559f0f0e9a0"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/power/flux_networks.json"
+hash = "5d8f01b9ef3af87859dfa369142dc3bec205bbdeb359020023336c89f1a0c325"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/power/powah.json"
+hash = "186e63141267a29b4349c53812f09217cd64dc5ee5ed27c6f4e940ca8af53f9d"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/storage/ae2_storage.json"
+hash = "5506facb824c439c050bda1da43685f946a33238219d0d7d4fbeeb423a7bc515"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/storage/ender_storage.json"
+hash = "f6d7a8706e0a7fb7f5e31a3940c99f0c16c43320e0defc7bc62c9ffbba582372"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/storage/id_storage.json"
+hash = "52ae992c6af84e79606038e565bb1e7aa5ef1411a012b927a3cc32476b891457"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_drawers.json"
+hash = "d13250a68139c480a3596eddbb791f360c7a653c828d3521eb3b14a9cc10f7fd"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_racks.json"
+hash = "6eca65404cf10629c01b51d6b265ff18ca713874a3539ea0f1b0ebe4fed38489"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/storage/travelers_backpacks.json"
+hash = "dabcf48e77536256b0106bb1fd5c5da0f985519cbc6802ca4698904e17add097"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/the_arts/joy_of_painting.json"
+hash = "258dab676eacf942f4a52d0b8ac94f15bba1d3171fa9df672dd8a607889541c3"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/the_arts/music_maker.json"
+hash = "ce6c30deeaf008c108007d1b490b530747597df1005030fbf59ed5726775a78e"
+
+[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/aircraft.json"
-hash = "dc3506caf3ebd9f5106f28450d8d4489247e46508e03c0c075f5ef62e5bdb0fc"
+hash = "1b0f0214f11f42491f924397c6e97009b09e7c8eae27be646de56d3a931ef4df"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/astikor_carts.json"
+hash = "5d1f61a7814a1d92b6cdb323fbc9ecad62e863d03d47f648e0cc1b2e9f051c1a"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/automobility.json"
+hash = "f37f927839fa59610d7f9292465e748f4697ee631a11c15c997d380689f824ed"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/dragon_mounts.json"
+hash = "8dcaa8e8bc06c9d43d7f20cd9324ad9e3ac5d87dc8376364e3c17c162fa4be82"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/horses_for_courses.json"
-hash = "b7a941d98f119c5cc4d737302f239b8a6e18c1ec8fb91e23a954f25341f032ed"
+hash = "136ed8a7dbd3a64cb66ac1a7d54f3060aeddede5c500c5380dc178f5ecdb3747"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/mounts.json"
-hash = "2291fcee01e70eb0ec10678922ec6ab1c1749b1156792c51ba71d6444184b5d5"
+hash = "fcf23fbab988a5c5cf053efc72781a370598cdf460e58a511402990d26b3dc14"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/paraglider.json"
-hash = "ad3dda97c19c60b68daa35cfc7a9af9afe00fac4a302a182587ba9d511b4306d"
+hash = "82c3a5173efb68db816f0cafd245ef5dad2bf967460108f0a83c477c29895480"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/travel/small_ships.json"
+hash = "ec0acb16101fcc941211e51e9a1bcd92c649038c7e11ba8633a1927b70482839"
+
+[[files]]
+file = "patchouli_books/bth_guide_book/en_us/entries/world_gen/aquamirae.json"
+hash = "e14c4c818d3dee5de2756687e1334d1be00f14762e909849359c886ec3d3542f"
 
 [[files]]
 file = "resourcepacks/BTH Panorama.zip"
