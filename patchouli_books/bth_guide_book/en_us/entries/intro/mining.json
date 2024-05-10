@@ -3,15 +3,18 @@
     "icon": "minecraft:golden_pickaxe",
     "category": "patchouli:intro",
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "As you start to mine for resources, look for early ways to get more ores from your efforts. Gold pickaxes have Fortune II. "
-                },
-                {
+            "text": "$(l)Mining: A Gold Rush Adventure$() $(br2)Welcome to the exciting world of mining, where every swing of the pickaxe brings you closer to untold riches. But don't just dig aimlessly -- be smart and maximize your yield!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Legend has it that gold pickaxes possess Fortune II, making them perfect for striking it big. Grab one and start your own gold rush -- just remember, they're fragile, so don't be too heavy-handed."
+        },
+        {
             "type": "patchouli:crafting",
             "recipe": "forbidden_arcanus:golden_blacksmith_gavel",
-	"text":"And the gavel from Forbidden & Arcanus gives additional ore drops."
-            }
-
+            "text": "$(l)The Golden Blacksmith's Gavel$() $(br2)Looking for more bang for your buck? Craft the gavel from Forbidden & Arcanus to boost your ore drops. It's like having your own personal leprechaun, minus the rainbows."
+        }
     ]
 }
