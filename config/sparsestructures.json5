@@ -171,5 +171,75 @@
       "structure": "valhelsia_structures:witch_huts",
       "factor": 1
     },
+
+    {
+      "structure": "graveyard:altar_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:crypt_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:dead_tree_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:giant_mushroom_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:haunted_house_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:large_graveyard_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:lich_prison_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:medium_graveyard_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:memorial_tree_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:mushroom_grave_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:ruins_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:small_desert_grave_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:small_desert_graveyard_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:small_grave_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:small_graveyard_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:small_mountain_grave_structure",
+      "factor": 2
+    },
+    {
+      "structure": "graveyard:small_savanna_grave_structure",
+      "factor": 2
+    },
+
   ]
 }
