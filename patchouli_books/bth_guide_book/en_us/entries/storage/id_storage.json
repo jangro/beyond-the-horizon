@@ -1,0 +1,23 @@
+{
+    "name": "ID Storage",
+    "icon": "integrateddynamics:menril_berries",
+    "category": "patchouli:storage",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Integrated Dynamics offers versatile storage solutions using logic networks and advanced automation. $(br2)Store and access items efficiently with variable-driven interfaces."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Use the Variable Store to store logic variables, and craft an Item Interface to connect your storage system. $(br2)Connect the Item Interface to a logic network to access all your items."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "For a unified storage solution, use the Storage Terminal to browse your entire network easily. $(br2)Combine it with an Energy Battery and Fluid Interface for power and fluid management."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "For more details on getting started with Integrated Dynamics, check out the full entry elsewhere in the guide."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Nether's Delight",
+    "icon": "nethersdelight:blackstone_stove",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Nether's Delight expands the culinary world into the fiery depths of the Nether. $(br2)Explore new ingredients and recipes using the Blackstone Stove and other tools."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Blackstone Stove using blackstone and a furnace. $(br2)Cook unique dishes like Grilled Strider and Hoglin Roast over the Nether's infernal flames."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Add a dash of spice to your meals with the Crimson Fungus Stew or delve into exotic flavors with the Soulfire Jelly. $(br2)Nether's Delight brings a new fiery twist to your culinary adventures!"
+        }
+    ]
+}

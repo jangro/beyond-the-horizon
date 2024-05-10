@@ -1,0 +1,23 @@
+{
+    "name": "The Aether",
+    "icon": "minecraft:glowstone",
+    "category": "patchouli:dimensions",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Long ago, a mysterious civilization harnessed the gravity-defying properties of Gravitite to invent wondrous aircraft. $(br2)These pioneers used floating crystals to build airships and gliders, soaring across the Aether's sky-high islands."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Their cities floated among the clouds, with intricate architecture and advanced technology that have since vanished. $(br2)Explore the ruins scattered across the islands, uncover relics, and piece together the secrets of these skyfarers."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The Aether is a stunning, sky-high dimension filled with floating islands and mystical creatures. $(br2)Build a glowstone portal, light it with water, and get ready for adventure!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Explore dungeons, challenge Guardians, and find Gravitite Ore, an enchanted material that defies gravity! $(br2)Tame and ride Moas, or marvel at the majestic Zephyrs and Aerwhales. $(br2)There's so much more to uncover in The Aether, so grab your gear and let your journey begin!"
+        }
+    ]
+}

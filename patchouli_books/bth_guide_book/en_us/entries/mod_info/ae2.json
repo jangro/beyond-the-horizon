@@ -1,0 +1,19 @@
+{
+    "name": "Applied Energistics 2",
+    "icon": "ae2:fluix_crystal",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Applied Energistics 2 (AE2) is a comprehensive storage and automation mod. $(br2)With a focus on digital storage, AE2 lets you organize, search, and manage all your items effortlessly. $(br2)Build intricate networks to process materials, automate crafting, and keep everything neat and accessible."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To start your journey, find Certus Quartz, a key material for AE2. $(br2)Craft a Charger to create Charged Certus Quartz, then combine it with Redstone and Nether Quartz to form Fluix Crystals. $(br2)Use these materials to craft your first ME Drive and storage cells."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "As you expand your AE2 network, build ME Controllers to increase its capacity. $(br2)Automate crafting with Molecular Assemblers and Crafting Co-Processors, and manage your items with ME Storage Cells. $(br2)With P2P tunnels, you can even transfer signals, fluids, and more between distant networks!"
+        }
+    ]
+}

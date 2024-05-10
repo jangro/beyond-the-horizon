@@ -1,0 +1,23 @@
+{
+    "name": "Clayworks",
+    "icon": "clayworks:terracotta_bricks",
+    "category": "patchouli:building",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Clayworks introduces new building blocks and decorative items using clay. $(br2)Expand your creative possibilities with terracotta bricks, glazed terracotta, and more."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting Terracotta Bricks using clay balls and a furnace. $(br2)Use these bricks to build walls, floors, and structures with a vibrant terracotta style."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Combine dyes with Terracotta Bricks to create colorful glazed terracotta blocks. $(br2)Use them for decorative patterns and stylish designs in your builds."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With Clayworks, you can bring a fresh and colorful touch to your Minecraft builds. $(br2)Experiment with the new blocks and find the perfect combination for your next project!"
+        }
+    ]
+}

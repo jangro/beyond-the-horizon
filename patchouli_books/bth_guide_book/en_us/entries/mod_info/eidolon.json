@@ -1,0 +1,19 @@
+{
+    "name": "Eidolon Reprised",
+    "icon": "eidolon:worktable",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Eidolon Reprised brings the dark arts to Minecraft, introducing necromancy and alchemy. $(br2)Harness the power of souls and perform rituals to obtain powerful artifacts, summon creatures, and delve into the mysteries of magic."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To begin your journey, collect Lead and Pewter, key materials in Eidolon. $(br2)Craft a Crucible and use it to create alchemical mixtures. $(br2)Build a Worktable to start crafting magical items like the Censer and Soul Shard, which are vital for summoning rituals."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Expand your knowledge by building an Arcane Workbench and performing advanced rituals. $(br2)Summon powerful allies like Wraiths or raise Skeletons to serve you. $(br2)Master necromancy, unlock the secrets of alchemy, and become a true practitioner of the dark arts!"
+        }
+    ]
+}

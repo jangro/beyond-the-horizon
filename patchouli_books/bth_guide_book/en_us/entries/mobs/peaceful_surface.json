@@ -1,0 +1,15 @@
+{
+    "name": "Peaceful Surface",
+    "icon": "minecraft:clock",
+    "category": "patchouli:mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Peaceful Surface mod changes mob spawning behavior in the Overworld. $(br2)Hostile mobs no longer spawn in open areas, creating a safer environment for exploration and building."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Hostile mobs now only spawn in caves or other dark, enclosed areas. $(br2)This means you can explore the Overworld safely while still finding mobs underground or at night in deep forests and structures."
+        }
+    ]
+}

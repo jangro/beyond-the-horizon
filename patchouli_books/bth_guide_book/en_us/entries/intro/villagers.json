@@ -1,0 +1,15 @@
+{
+    "name": "Villagers",
+    "icon": "minecraft:emerald",
+    "category": "patchouli:intro",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "In Beyond the Horizon, villagers are safer with the peaceful Overworld. $(br2)No need to imprison them in 'trading halls,' which are really just villager prisons! $(br2)Your villagers can roam free without fear of mobs, and you can trade with them easily."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "This pack includes a Trade Cycler, so you don't have to constantly break their workstations to get the trades you want. $(br2)There's also a Trading Post, which makes it easier to trade with your free-range villagers!"
+        }
+    ]
+}

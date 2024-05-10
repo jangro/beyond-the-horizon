@@ -1,0 +1,27 @@
+{
+    "name": "Immersive Engineering",
+    "icon": "immersiveengineering:manual",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Immersive Engineering adds retro-futuristic machinery and power generation to Minecraft. $(br2)Harness the power of steam, electricity, and more to build impressive machines and factories."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start with the Engineer's Manual, crafted from a book and a lever. $(br2)Use it to learn about key components like the Coke Oven and Blast Furnace."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Generate power with Windmills, Waterwheels, and Diesel Generators. $(br2)Distribute it using LV, MV, and HV power lines, then power your machinery for advanced ore processing, farming, and automation."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Immersive Engineering features a range of tools and weapons, including: $(br2)- The Engineer's Hammer for crafting and maintenance $(br2)- The Revolver and Railgun for ranged combat $(br2)- The Buzzsaw and Drill for efficient mining $(br2)- The Chemical Thrower for chemical warfare"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Advanced multi-block machines include: $(br2)- The Arc Furnace for smelting and alloying on a massive scale $(br2)- The Excavator for automated resource mining $(br2)- The Crusher for efficient ore processing $(br2)- The Refinery for producing Biodiesel $(br2)- The Squeezer and Fermenter for biodiesel production"
+        }
+    ]
+}

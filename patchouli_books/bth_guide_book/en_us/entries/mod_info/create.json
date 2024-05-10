@@ -1,0 +1,19 @@
+{
+    "name": "Create Mod",
+    "icon": "create:gearbox",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Create Mod is an engineering marvel that brings machinery to Minecraft like never before. $(br2)Harness rotational power to automate tasks, build complex contraptions, and create stunning structures. $(br2)With belts, gears, pulleys, and more, Create gives you the tools to turn your imagination into reality."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To get started, gather Andesite Alloy, the building block for many components. $(br2)Combine it with wood and stone to craft basic machines like the Mechanical Press and Millstone. $(br2)Generate rotational power with Water Wheels or Windmills, then distribute it using shafts and gearboxes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With Create, you can build magnificent factories, automate farming, or construct elaborate roller coasters. $(br2)Transport items using conveyor belts and trains, and move large structures with the Mechanical Bearing. $(br2)The possibilities are endless -- start small and dream big!"
+        }
+    ]
+}

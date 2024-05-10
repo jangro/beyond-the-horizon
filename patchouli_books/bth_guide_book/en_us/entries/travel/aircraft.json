@@ -1,11 +1,23 @@
 {
-    "name": "Aircraft",
+    "name": "Immersive Aircraft",
     "icon": "immersive_aircraft:biplane",
     "category": "patchouli:travel",
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "You can fly. Add some content here about the Aether lore."
-                }
+            "text": "Long ago, a mysterious civilization harnessed the gravity-defying properties of Gravitite in The Aether to invent wondrous aircraft. $(br2)These pioneers used floating crystals to build airships and gliders, soaring across the Aether's sky-high islands."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Their advanced technology has since vanished, but with the Immersive Aircraft mod, you can revive their legacy. $(br2)To craft aircraft hulls, you'll need Gravitite, found only in The Aether, and other materials."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by mining Gravitite Ore in The Aether, then refine it to obtain Gravitite Ingots. $(br2)Combine these with other resources to craft wooden or metal hulls for your aircraft."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Build planes, gliders, and airships to explore the skies with style. $(br2)Each aircraft type has unique attributes and can be upgraded with new engines, wings, and hulls."
+        }
     ]
 }

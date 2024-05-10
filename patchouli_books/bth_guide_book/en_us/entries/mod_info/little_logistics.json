@@ -1,0 +1,19 @@
+{
+    "name": "Little Logistics",
+    "icon": "littlelogistics:fluid_barge",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Little Logistics adds charming and functional transport options to Minecraft. $(br2)Create networks of boats, barges, trains, and more to transport items and fluids across your world."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To start, craft a Boat or Train Dock, then connect it to a network with rails or water routes. $(br2)Create barges to carry items or fluids, and set up Train Docks to transport goods overland."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With the Little Contraptions add-on, integrate your logistics network seamlessly with Create machines. $(br2)Use Create belts, gears, and windmills to load and unload items from your boats and trains for a fully automated logistics system."
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Chef's Delight",
+    "icon": "chefsdelight:chefs_knife",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Chef's Delight introduces new kitchen tools and recipes to enhance your cooking experience. $(br2)Craft a Chef's Knife and other culinary tools to create a range of delicious meals."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Chef's Knife using iron and a wooden handle. $(br2)Use it with other kitchen equipment like the Frying Pan, Cooking Pot, and Griddle to prepare hearty dishes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With Chef's Delight, you'll be able to create a variety of meals like Chef's Salad, Grilled Fish, and more. $(br2)Boost your health and satisfy your hunger with these gourmet recipes!"
+        }
+    ]
+}

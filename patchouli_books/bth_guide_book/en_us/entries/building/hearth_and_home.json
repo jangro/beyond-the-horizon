@@ -1,0 +1,19 @@
+{
+    "name": "Hearth & Home",
+    "icon": "hearth_and_home:tiles",
+    "category": "patchouli:building",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Hearth & Home introduces a delightful collection of new building blocks and decorative items, perfect for crafting cozy homes and breathtaking landscapes in Minecraft. $(br2)Elevate your building game with this charming and creative mod!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Key Features: $(br2)- Building Blocks & Decorations $(br)- Elevate your structures with unique blocks, adding warmth and comfort to your world. $(br2)- Creative Structures $(br)- Everything you need to build your ultimate dream home."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Find new building blocks like Hearthstone, Terracotta, and Decorative Wood. $(br2)Explore the full range of blocks and start building your cozy home today!"
+        }
+    ]
+}

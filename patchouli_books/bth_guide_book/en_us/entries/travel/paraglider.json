@@ -1,11 +1,19 @@
 {
     "name": "Paragliders",
-    "icon": "paraglider:paraglider",
+    "icon": "paragliders:paraglider",
     "category": "patchouli:travel",
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "Paragliders and Deku Leaves can be found in towers around the world. They're useful for gliding short distances. Don't get tired though!"
-                }
+            "text": "Long ago, the ancient climbers of the mountain towers crafted these incredible Paragliders to soar like eagles. $(br2)With them, you can glide effortlessly from great heights and explore the world from above."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To find a Paraglider, explore the towers in the mountains, where these relics have been preserved for daring adventurers like yourself. $(br2)Craft a Paraglider using leather and sticks, hold it in your hand, and jump from a high place to start gliding!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "But beware: if you run out of stamina mid-flight, you'll plummet to your doom faster than a pig with wings. $(br2)Upgrade your Paraglider with different materials to increase durability and speed, and always keep an eye on that stamina bar!"
+        }
     ]
 }

@@ -1,0 +1,19 @@
+{
+    "name": "Storage Racks",
+    "icon": "minecolonies:storage_rack",
+    "category": "patchouli:storage",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Storage Racks mod, included with MineColonies, provides a versatile and compact storage solution. $(br2)These racks offer an efficient way to organize your items with adjustable shelves and easy access."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Craft a Storage Rack using wood and iron ingots. $(br2)Each rack can hold multiple items and be customized to your storage needs."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Even if you're not using MineColonies, Storage Racks are a handy way to keep your storage organized and accessible. $(br2)Combine them with other storage mods for the ultimate organization system!"
+        }
+    ]
+}

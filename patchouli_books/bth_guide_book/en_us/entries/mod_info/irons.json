@@ -1,0 +1,19 @@
+{
+    "name": "Iron's Spells 'n Spellbooks",
+    "icon": "irons_spellbooks:pyromancer_helmet",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Iron's Spells 'n Spellbooks is a comprehensive magic mod that brings powerful spells and arcane knowledge to Minecraft. $(br2)Discover spellbooks filled with incantations, harness elemental magic, and become a master wizard!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start your magical journey by crafting a basic Spellbook and gathering Scrolls from loot chests. $(br2)Combine these Scrolls with spell reagents to unlock new spells, then channel their power through your Spellbook."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Expand your arcane arsenal with elemental magic, healing spells, and more. $(br2)Build a Wizard's Tower to focus your studies, enchant your Spellbook, and seek out the rare Tome of Arcana to discover even more powerful magic. $(br2)The world of wizardry awaits!"
+        }
+    ]
+}

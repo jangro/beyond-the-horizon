@@ -1,0 +1,23 @@
+{
+    "name": "Butcher's Delight",
+    "icon": "butchersdelight:cleaver",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Subtitle: Vegan's Horror $(br2)Warning: This mod may contain scenes that are not suitable for vegetarians! $(br2)Butcher's Delight adds a range of new tools and recipes to Minecraft, letting you master the art of butchery and prepare delicious dishes."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Getting food and other resources from animals takes a bit of extra work. When you kill a cow, sheep, chicken, pig, llama, or rabbit, you don't get their normal drops. You get a carcass that you then need to process! $(br2)Once you have a carcass, you can put it straight onto a Roaster placed over a campfire."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Or you can process the carcass on the ground to get skin or fur plus meat. $(br2)Put the carcass on a meathook for more efficient processing! $(br2)The skin and fur can be processed on a rack with shears."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "With Butcher's Delight, you'll become a culinary master with an array of delicious dishes that will satisfy even the most discerning meat lover."
+        }
+    ]
+}

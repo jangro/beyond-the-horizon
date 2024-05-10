@@ -1,0 +1,19 @@
+{
+    "name": "Traveler's Backpacks",
+    "icon": "travelersbackpack:standard",
+    "category": "patchouli:travel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Traveler's Backpacks adds portable storage that combines a chest, crafting table, and fluid tank into one handy pack. $(br2)Take everything you need on the go, and never run out of storage space again."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Traveler's Backpack using leather, wool, and a chest. $(br2)Equip the backpack to access its storage, and use the crafting grid for on-the-go crafting."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "The backpack includes two fluid tanks for carrying water, lava, or any other fluid. $(br2)Upgrade your backpack with different colors and patterns to match your style."
+        }
+    ]
+}

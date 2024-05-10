@@ -1,0 +1,23 @@
+{
+    "name": "Tetra",
+    "icon": "tetra:basic_workbench",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Tetra introduces a modular tool and weapon system to Minecraft. $(br2)Customize your gear by crafting modular tools with unique abilities and upgrading them as you progress."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Modular Workbench, then use it to modify your tools and weapons. $(br2)Combine different materials like wood, iron, and diamonds to create a variety of tool heads, bindings, and handles."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Upgrade your modular gear with new abilities and stats, like increased durability or faster mining speed. $(br2)Unlock additional crafting options by exploring underground structures or researching ancient technology."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Tetra provides endless customization possibilities for your tools and weapons. $(br2)Explore the modular system, find the perfect combination, and create the ultimate gear set!"
+        }
+    ]
+}

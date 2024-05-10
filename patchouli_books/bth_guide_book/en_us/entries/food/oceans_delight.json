@@ -1,0 +1,19 @@
+{
+    "name": "Ocean's Delight",
+    "icon": "oceansdelight:raw_clam",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ocean's Delight lets you dive into the depths of the ocean for new ingredients and recipes. $(br2)Harvest clams, fish, and seaweed to cook up a storm."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by collecting Raw Clams and crafting a Seaweed Steamer. $(br2)Prepare dishes like Steamed Clams, Kelp Wraps, and Grilled Fish for a maritime feast."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Add a splash of saltwater to your meals with Ocean's Delight and satisfy your oceanic cravings with every bite!"
+        }
+    ]
+}

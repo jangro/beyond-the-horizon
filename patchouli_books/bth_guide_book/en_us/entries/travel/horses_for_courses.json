@@ -1,16 +1,16 @@
 {
-    "name": "Horses for Courses",
+    "name": "A Galloping Adventure",
     "icon": "minecraft:saddle",
     "category": "patchouli:travel",
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "Horses have a number of changes over vanilla.$(br2)They can swim through water and you can pass through leaves, which makes horses that much more useful for getting around!"
-                },
-            {
+            "text": "Legend has it that the horses of Beyond the Horizon were blessed by a wandering druid, giving them remarkable abilities. $(br2)They can now swim through water like majestic seahorses and pass through leaves with the grace of a ghost. $(br2)No more getting stuck on branches or falling off your horse when it touches water! Your trusty steed is now the ultimate off-road vehicle."
+        },
+        {
             "type": "patchouli:crafting",
             "recipe": "bth:crafting/saddle",
-	"text":"You can ride bareback (which is a bit slower, and hurts!) or craft your own saddle!"
-            }
+            "text": "Ride bareback (a bit slower, and rather uncomfortable) or craft your own saddle for the perfect galloping experience!"
+        }
     ]
 }

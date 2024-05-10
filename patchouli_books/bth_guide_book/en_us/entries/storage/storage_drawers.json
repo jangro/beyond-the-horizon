@@ -1,0 +1,23 @@
+{
+    "name": "Storage Drawers",
+    "icon": "storagedrawers:oak_full_drawers_2",
+    "category": "patchouli:storage",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Storage Drawers offers a modular and visually pleasing way to store items in Minecraft. $(br2)Organize your items efficiently using drawers, upgrades, and controllers."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Craft drawers in various sizes to fit your needs, from single-item full drawers to multi-item half drawers. $(br2)Upgrade them with capacity, void, and other enhancements to maximize storage."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Use a Drawer Controller to connect multiple drawers into a unified storage network. $(br2)Add a Controller Slave to extend your network's reach, and link it all up with Trim blocks."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Storage Drawers is the perfect solution for keeping your storage tidy and your items easily accessible. $(br2)Say goodbye to messy chests and hello to organized storage bliss!"
+        }
+    ]
+}

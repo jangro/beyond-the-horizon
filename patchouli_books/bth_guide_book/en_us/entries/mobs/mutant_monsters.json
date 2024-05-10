@@ -1,0 +1,19 @@
+{
+    "name": "Mutant Monsters",
+    "icon": "minecraft:creeper_head",
+    "category": "patchouli:mobs",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Mutant Monsters adds terrifying, mutated versions of your favorite mobs to Minecraft. $(br2)Encounter new, powerful bosses that will challenge even the most experienced players."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Each mutant mob has unique abilities and attacks. $(br2)Beware the Mutant Creeper's explosion, the Mutant Zombie's ground smash, and the Mutant Skeleton's deadly arrows!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Defeat these monsters for valuable rewards, like the Creeper Shard or the Mutant Skeleton's rib. $(br2)Use these items to craft powerful weapons and gear."
+        }
+    ]
+}

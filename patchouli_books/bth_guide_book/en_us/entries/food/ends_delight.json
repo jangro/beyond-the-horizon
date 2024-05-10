@@ -1,0 +1,19 @@
+{
+    "name": "End's Delight",
+    "icon": "endsdelight:chorus_cake",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "End's Delight brings new culinary creations to the mysterious End dimension. $(br2)Cook up unique recipes using chorus fruit, Ender pearls, and other exotic ingredients."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Chorus Cake using chorus fruit and other ingredients. $(br2)Enjoy dishes like Ender Stir Fry and Void Soup, and enhance your meals with Phantom Jelly."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Expand your cooking repertoire with dishes that will teleport your taste buds to another dimension. $(br2)End's Delight adds an otherworldly flavor to your meals!"
+        }
+    ]
+}

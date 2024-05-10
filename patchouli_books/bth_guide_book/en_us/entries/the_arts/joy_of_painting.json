@@ -1,0 +1,19 @@
+{
+    "name": "Joy of Painting",
+    "icon": "joyofpainting:canvas",
+    "category": "patchouli:the_arts",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Joy of Painting introduces the art of painting to Minecraft! $(br2)Create beautiful canvases, express yourself, and decorate your world with your unique artworks."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Canvas and an Easel. $(br2)Collect dyes from various flowers and plants to make Paint, then unleash your creativity with brushes, palettes, and stencils."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Hang your paintings on walls, gift them to friends, or sell them for emeralds. $(br2)With Joy of Painting, you'll bring a new layer of artistic expression to Minecraft!"
+        }
+    ]
+}

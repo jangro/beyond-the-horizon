@@ -1,0 +1,19 @@
+{
+    "name": "Dragon Mounts Legacy",
+    "icon": "dragonmounts:dragon_egg",
+    "category": "patchouli:travel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Dragon Mounts Legacy lets you hatch and ride dragons across the skies! $(br2)Explore the world with your loyal companion and dominate the skies with style."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To hatch a dragon, find a Dragon Egg and place it in the correct environment. $(br2)Each type of dragon requires specific conditions to hatch, like lava for a Nether Dragon or water for a Sea Dragon."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Once your dragon hatches, raise it to adulthood by feeding it. $(br2)Craft a Dragon Saddle to ride your dragon, and soar through the skies with its powerful wings!"
+        }
+    ]
+}

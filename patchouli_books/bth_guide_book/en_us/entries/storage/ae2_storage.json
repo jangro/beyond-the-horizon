@@ -1,0 +1,23 @@
+{
+    "name": "AE2 Storage",
+    "icon": "appliedenergistics2:terminal",
+    "category": "patchouli:storage",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Applied Energistics 2 offers digital storage with unparalleled flexibility and efficiency. $(br2)Store your items in ME Drives and access them through crafting terminals."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Expand your storage network with different-sized ME Storage Cells, and use the ME Controller to manage large networks. $(br2)Automate crafting with Molecular Assemblers and Crafting Co-Processors."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "In this pack, the Applied Energistics 2 Wireless Terminals mod allows you to access your network remotely. $(br2)Craft Wireless Terminals for items, fluids, and crafting, and enjoy the convenience of your digital network anywhere!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "For more details on getting started with AE2, check out the full entry elsewhere in the guide."
+        }
+    ]
+}

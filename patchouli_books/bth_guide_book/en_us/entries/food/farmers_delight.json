@@ -1,0 +1,23 @@
+{
+    "name": "Farmer's Delight",
+    "icon": "farmersdelight:cooking_pot",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Farmer's Delight expands your culinary options with a wide variety of new crops, meals, and cooking mechanics. $(br2)Gather ingredients, grow crops, and craft delicious dishes to satisfy your hunger in style."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Cooking Pot and cutting board. $(br2)Grow new crops like tomatoes, cabbages, and onions, then cook them into hearty meals using the Cooking Pot."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Prepare sandwiches, stews, and other meals with unique effects. $(br2)Use the cutting board to slice vegetables, butcher meats, and prepare your ingredients before cooking."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Farmer's Delight has many add-on mods included in this pack: $(br2)- Chef's Delight $(br)- Ocean's Delight $(br)- Alex's Delight $(br)- Butcher's Delight $(br)- End's Delight $(br)- Nether's Delight $(br)- Create Slice 'n Dice $(br2)Find detailed information about these add-ons in other parts of the book."
+        }
+    ]
+}

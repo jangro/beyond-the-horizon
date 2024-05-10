@@ -1,0 +1,19 @@
+{
+    "name": "CC: Tweaked",
+    "icon": "computercraft:computer_normal",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "CC: Tweaked is a fork of the original ComputerCraft mod that adds programmable computers and turtles to Minecraft. $(br2)Use the Lua programming language to automate tasks, manage resources, and build advanced contraptions."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Computer or Turtle, then write your first program. $(br2)Programs can be used to control redstone, gather resources, and interact with other blocks or players."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Explore the extensive API documentation to unlock the full potential of your devices. $(br2)Build automated mining rigs, complex factories, or interactive chatbots with CC: Tweaked!"
+        }
+    ]
+}

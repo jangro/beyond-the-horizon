@@ -1,0 +1,19 @@
+{
+    "name": "Small Ships",
+    "icon": "smallships:birch_cog",
+    "category": "patchouli:travel",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Small Ships introduces a fleet of customizable ships that let you explore the seas in style. $(br2)Build your ship, hoist the sails, and embark on a maritime adventure!"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Start by crafting a Cog or Brigantine using wood, wool, and iron. $(br2)Customize your ship with different sails, colors, and decorations to make it your own."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Each ship type has unique attributes and storage capacities. $(br2)Sail the open seas, explore distant islands, and transport goods across your world!"
+        }
+    ]
+}
