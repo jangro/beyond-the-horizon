@@ -8,23 +8,7 @@
     "result": "deny"
   },
   {
-    "mob": "alexsmobs:small_catfish",
-    "mincount": {
-      "amount": 1,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "alexsmobs:medium_catfish",
-    "mincount": {
-      "amount": 1,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "alexsmobs:large_catfish",
+    "mob": "alexsmobs:catfish",
     "mincount": {
       "amount": 1,
       "perchunk": true
