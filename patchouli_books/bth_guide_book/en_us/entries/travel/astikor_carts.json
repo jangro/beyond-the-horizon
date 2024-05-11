@@ -5,15 +5,15 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Astikor Carts Redux: Horse-Drawn Utility$() $(br2)Astikor Carts Redux adds horse-drawn carts to Minecraft, making travel and farming much easier. Hitch up your horse, llama, or mule and hit the road in style!"
+            "text": "Astikor Carts Redux adds horse-drawn carts to Minecraft, making travel and farming much easier. Hitch up your horse, llama, or mule and hit the road in style!"
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Available Carts$() $(br2)- $(l)Plow Cart$(): Till a 3x3 area of land at once. $(br2)- $(l)Storage Cart$(): Carry extra items while traveling. $(br2)- $(l)Animal Cart$(): Bring your furry friends along on your journey."
+            "text": "Available Carts: - Plow Cart: Till a 3x3 area of land at once. - Storage Cart: Carry extra items while traveling. - Animal Cart: Bring your furry friends along on your journey."
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)How to Hitch Your Horse$() $(br2)To hitch your horse to a cart, simply right-click on the cart with a Lead while your horse is nearby. Ready your cart and enjoy the journey!"
+            "text": "How to Hitch Your Horse: To hitch your horse to a cart, simply right-click on the cart with a Lead while your horse is nearby. Ready your cart and enjoy the journey!"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "name": "Beyond the Horizon",
-    "landing_text": "Welcome Aventurer, to Beyond the Horizon, a modpack that encourages you to get out and explore, build, and automate with tech and magic.$(br2)Don't worry about building a base for the first night because no mobs spawn in the open air of the overworld!$(br2)There's a lot in this Journal. Start with '$(l:backstory)Your Story$()' in The Beginning.",
+    "landing_text": "Welcome to Beyond the Horizon, a modpack that encourages you to get out and explore, build, and automate with tech and magic.$(br2)There's a lot in this Journal. Start with '$(l:intro/backstory)Your Story$()' in The Beginning.",
     "version": 1,
     "creative_tab": "minecraft:tools_and_utilities",
   "show_progress": false,

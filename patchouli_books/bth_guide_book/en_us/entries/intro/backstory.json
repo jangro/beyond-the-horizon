@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)A Legacy Reclaimed$() $(br2)Your journey begins amongst towering mountains, vast plains, and lush forests. You find refuge in an abandoned structure and set your sights on establishing your presence in the world with the aid of technology and magic."
+            "text": "$(l)A Legacy Reclaimed$() $(br2)Your journey begins amongst towering mountains, vast plains, and lush forests. You find refuge in an abandoned structure and set your sights on establishing your presence in the world with the aid of technology and magic.$(br2)Your first goal: Tame a fast horse to take you on your adventures."
         },
         {
             "type": "patchouli:text",
@@ -17,7 +17,7 @@
         },
                 {
             "type": "patchouli:text",
-            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal to to protect all realms from the Dragon. They crafted 16 unique Eyes and scattered them across dimensions, within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End. Is this you?"
+            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal in a Lost Castle to to protect all realms from the Dragon. They crafted 16 unique Eyes and scattered them across dimensions, within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End. Is this you?"
         },
         {
             "type": "patchouli:text",
@@ -25,7 +25,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "With these resources secured, you journey back to the Overworld, inspired by ancient knowledge gained through exploration and experimentation. You find Paragliders, construct motor vehicles, and build ocean-worthy ships as you ready yourself for the voyage to The Aether."
+            "text": "With these resources secured, you journey back to the Overworld, inspired by ancient knowledge gained through exploration and experimentation. You construct motor vehicles and build ocean-worthy ships as you ready yourself for the voyage to The Aether."
         },
         {
             "type": "patchouli:text",
@@ -33,11 +33,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Act 3: The World Reborn$() $(br2)Returning from The Aether, you integrate the relics of the past with modern technology. You establish a base high in the mountains, building a tower to oversee the world."
+            "text": "$(l)The World Reborn$() $(br2)Returning from The Aether, you integrate the relics of the past with modern technology. You establish a base to create a foundation of your technological and magical mastery, while never losing that taste for adventure. That's good because you must defeat the Dragon to fulfil your legacy'."
         },
         {
             "type": "patchouli:text",
-            "text": "Your transportation network expands with motor vehicles, Paragliders, and airships, utilizing PneumaticCraft, Create, and Immersive Engineering. You leverage various mounts to aid your mobility across vast landscapes, taming Elephants, Moas, and Grizzly Bears along the way."
+            "text": "Your transportation network expands with motor vehicles and airships. You utilize Technology from PneumaticCraft, Create, and Immersive Engineering and magic from Botania and Ars Nouveau. You leverage various mounts to aid your mobility across vast landscapes, taming Horses, Elephants, Moas, and Grizzly Bears along the way."
         },
         {
             "type": "patchouli:text",

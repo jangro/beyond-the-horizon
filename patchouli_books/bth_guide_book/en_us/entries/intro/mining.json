@@ -5,16 +5,20 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Mining: A Gold Rush Adventure$() $(br2)Welcome to the exciting world of mining, where every swing of the pickaxe brings you closer to untold riches. But don't just dig aimlessly -- be smart and maximize your yield!"
+            "text": "Early game, you'll want to maximize your ore yield. Head to the $(l:intro/mountains)mountains$() for the most coal and iron, and even some emeralds!"
         },
         {
             "type": "patchouli:text",
-            "text": "Legend has it that gold pickaxes possess Fortune II, making them perfect for striking it big. Grab one and start your own gold rush -- just remember, they're fragile, so don't be too heavy-handed."
+            "text": "Legend has it that gold pickaxes possess fortune enchants, making them perfect for targeted mining. They break fast but can pay for themselves quickly!"
         },
         {
             "type": "patchouli:crafting",
             "recipe": "forbidden_arcanus:golden_blacksmith_gavel",
-            "text": "$(l)The Golden Blacksmith's Gavel$() $(br2)Looking for more bang for your buck? Craft the gavel from Forbidden & Arcanus to boost your ore drops. It's like having your own personal leprechaun, minus the rainbows."
+            "text": "Craft the gavel from $(l:mod_info/forbidden_arcanus)Forbidden & Arcanus$() to boost your ore drops. It's like having your own personal leprechaun, minus the rainbows."
+        },
+                {
+            "type": "patchouli:text",
+            "text": "Once you have silk touch, you can automate ore doubling with the squeezer from ($l:integrated_dynamics)Integrated Dynamics, and the crushing wheel from $(l:mod_info/forbidden_arcanus)Create$()."
         }
     ]
 }

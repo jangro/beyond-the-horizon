@@ -1,23 +1,23 @@
 {
     "name": "Alex's Mobs",
-    "icon": "alexsmobs:capuchin_monkey_spawn_egg",
+    "icon": "alexsmobs:cosmic_cod",
     "category": "patchouli:mobs",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Alex's Mobs adds a wide variety of new, unique creatures to Minecraft, bringing the animal kingdom to life! $(br2)Explore different biomes and encounter over 80 new mobs, each with distinct behaviors and interactions."
+            "text": "Alex's Mobs introduces a diverse range of creatures to Minecraft, blending real-world animals with imaginative beasts. This mod enriches your world with new wildlife, each designed with unique behaviors and interactions."
         },
         {
             "type": "patchouli:text",
-            "text": "Discover everything from playful Capuchin Monkeys to the menacing Grizzly Bear. $(br2)Some creatures, like the Dropbear, are hostile, while others, like the Elephant, can be tamed and ridden."
+            "text": "Getting started with Alex's Mobs is straightforward. Explore your world to encounter these new creatures. Each mob has unique drops and characteristics that can be utilized for crafting or other purposes. For detailed information about each mob, refer to the dedicated book included in your Eccentric Tome."
         },
         {
             "type": "patchouli:text",
-            "text": "Each mob adds a new layer of immersion to the game. $(br2)Hunt down the rare Sunbird, collect unique materials like Orca Whiskers, and explore the fascinating world of Alex's Mobs!"
+            "text": "Explore the potential of Alex's Mobs: - Discover creatures like Grizzly Bears in forests, or encounter fantastical entities like the Bone Serpent in the nether. - Utilize mob drops for unique crafting recipes. - Engage with mobs that have dynamic interactions with the environment, providing new challenges and opportunities."
         },
         {
             "type": "patchouli:text",
-            "text": "For a comprehensive guide to all the mobs, find the Alex's Mobs book in the Eccentric Tome and delve into the fascinating details of each creature."
+            "text": "Discover the culinary delights offered by Alex's Mobs. Explore unique food options like lobster tails and crocodile meat. For more on these food items, see $(l:food/alexs_mobs_food)Alex's Mobs Foods$()."
         }
     ]
 }
