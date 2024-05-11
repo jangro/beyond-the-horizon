@@ -1,0 +1,19 @@
+{
+    "name": "SimplySwords",
+    "icon": "simplyswords:katana",
+    "category": "patchouli:tools_armor",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "SimplySwords adds a variety of new melee weapons to Minecraft, enhancing combat with beautifully crafted swords and more. From katanas to rapiers, each weapon brings unique abilities and styles to your battles."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "To dive into SimplySwords, start by exploring the world as many swords and weapons are found in dungeon chests, while others can be crafted with special materials. Experiment with different weapons to find the one that suits your combat style."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "- $(l)Weapon Variety$(): Use diverse weapons like greataxes and twinblades, each with unique combat animations. $(br2)- $(l)Unique Effects$(): Discover swords with special abilities that can turn the tide of battle. $(br2)- $(l)Enhanced Combat$(): Enjoy more dynamic and engaging fights with new strategies and tactics enabled by each weapon's distinctive characteristics."
+        }
+    ]
+}

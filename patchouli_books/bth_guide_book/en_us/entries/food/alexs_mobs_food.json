@@ -1,0 +1,19 @@
+{
+    "name": "Alex's Mobs Foods",
+    "icon": "alexsmobs:lobster_tail",
+    "category": "patchouli:food",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Alex's Mobs not only brings a variety of creatures to Minecraft but also introduces new culinary delights. From the exotic lobster tail to nutritious crocodile meat, these additions offer unique food options that enhance survival and provide special effects."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Each mob introduces potential ingredients that can be prepared in various ways. For instance, cook lobster tails for a delicious meal or use crocodile meat to create hearty dishes. These new food sources add both flavor and utility to your culinary arsenal."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Experiment with these new ingredients to discover meals that provide enhanced health benefits and special effects, adding an extra layer of strategy to your survival experience."
+        }
+    ]
+}
