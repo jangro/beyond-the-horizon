@@ -1,0 +1,13 @@
+name = "Argonauts"
+filename = "argonauts-forge-1.20.1-1.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "897c1f82873d8297c11e452737b1d32c690a00de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5263580
+project-id = 845833

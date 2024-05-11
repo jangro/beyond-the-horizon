@@ -301,6 +301,11 @@ hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
+file = "mods/argonauts.pw.toml"
+hash = "2ee8c7ca5102799792e9231bb1f11d3d4deb3fa8dc9cd68720a8878e92937e27"
+metafile = true
+
+[[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "b4cc8e095b7f51683e7938042c97cae5a281fa353a4fb421a8182b39de08825f"
 metafile = true
@@ -408,6 +413,11 @@ metafile = true
 [[files]]
 file = "mods/butchers-delight.pw.toml"
 hash = "159896d791b8879e561fce55ca2b3e7fc9377b3a3484a831ac9a0e2a560dae9e"
+metafile = true
+
+[[files]]
+file = "mods/cadmus.pw.toml"
+hash = "b84628727ed06fe253934876a58eb3714f0624f6dc5fc882270bd36b296b29a8"
 metafile = true
 
 [[files]]
@@ -1003,11 +1013,6 @@ metafile = true
 [[files]]
 file = "mods/oculus.pw.toml"
 hash = "96d09f5521faec9e6a71f1bd0695c05d61b21c6a73f318ffce91241b9828c91b"
-metafile = true
-
-[[files]]
-file = "mods/open-parties-and-claims.pw.toml"
-hash = "55079747d6e4a32fcb060a3b2b80bbae85ef0b3869be3d3c3968dedace445d0a"
 metafile = true
 
 [[files]]
