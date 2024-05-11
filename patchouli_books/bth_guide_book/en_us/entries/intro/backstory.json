@@ -5,19 +5,23 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Listen closely, adventurer$(). You are a descendant of an ancient civilization renowned for its ingenuity and exploration prowess. Those who spent their time in the skies developed enhanced vision and could see 'Beyond the Horizon.' You've inherited this trait and a hunger for exploration."
+            "text": "$(l)Listen closely, adventurer$(). You are a descendant of an ancient civilization renowned for its ingenuity and love of exploration. Those who spent their time in the skies developed enhanced vision and could see 'Beyond the Horizon.' You've inherited this trait and a hunger for exploration."
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Act 1: A Legacy Reclaimed$() $(br2)Your journey begins amongst towering mountains, vast plains, and lush forests. You find refuge in a friendly abandoned structure and set your sights on establishing your presence in the world with the aid of technology and magic."
+            "text": "$(l)A Legacy Reclaimed$() $(br2)Your journey begins amongst towering mountains, vast plains, and lush forests. You find refuge in an abandoned structure and set your sights on establishing your presence in the world with the aid of technology and magic."
         },
         {
             "type": "patchouli:text",
-            "text": "In a dusty attic, you find a journal left by one of your ancestors, revealing a hidden portal to The Aether. Before reaching The Aether, you must venture into the Nether to gather the materials needed for the portal, as well as strong resources like ancient debris for building motor vehicles."
+            "text": "$(l)This Journal Is The Key$()$(br2)Long ago, in a dusty attic, you found this journal left by one of your ancestors, revealing your story and how to create a portal to The Aether, and the lost knowledge of how to enter The End."
+        },
+                {
+            "type": "patchouli:text",
+            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal to to protect all realms from the Dragon. They crafted 16 unique Eyes and scattered them across dimensions, within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End. Is this you?"
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Act 2: Into the Nether and Skyward Pilgrimage$() $(br2)You mine obsidian to construct the Nether portal and then step into the fiery depths of the Nether. There, you seek out glowstone, nether quartz, and ancient debris - the essential components for your technological progression and eventual entry into The Aether."
+            "text": "$(l)Into the Nether and Skyward Pilgrimage$() $(br2)You must mine obsidian to construct the Nether portal and then step into the fiery depths of the Nether. There, you seek out glowstone, nether quartz, and ancient debris - the essential components for your technological progression and eventual entry into The Aether."
         },
         {
             "type": "patchouli:text",
@@ -53,11 +57,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "One day, you will leave behind your own journal, urging future explorers to go Beyond the Horizon and uncover the endless wonders of this world where the only limit is imagination."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "$(l)Conclusion$() $(br2)This journey is yours, adventurer. From reclaiming the skies to taming beasts and mastering machinery, your story is what you make of it. So grab your compass, pack your bags, and write your own legend Beyond the Horizon."
+            "text": "Conclusion$() $(br2)This journey is yours, adventurer. From reclaiming the skies to taming beasts and mastering machinery, your story is what you make of it. So grab your compass, pack your bags, and write your own legend Beyond the Horizon."
         }
     ]
 }
