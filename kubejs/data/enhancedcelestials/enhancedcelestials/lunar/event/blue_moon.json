@@ -1,21 +1,20 @@
 {
   "client_settings": {
     "color_settings": {
-      "moon_texture_color": "ff0000",
-      "sky_light_color": "ff0000"
+      "moon_texture_color": "9999",
+      "sky_light_color": "9999"
     },
-    "moon_size": 40.0,
+    "moon_size": 20.0,
     "moon_texture_location": "minecraft:textures/environment/moon_phases.png",
     "sound_track": {
-      "sound_id": "enhancedcelestials:blood_moon"
+      "sound_id": "enhancedcelestials:blue_moon"
     }
   },
   "dimension_chances": {
     "minecraft:overworld": {
-      "chance": 0.2,
+      "chance": 0,
       "min_number_of_nights_between": 0,
       "valid_moon_phases": [
-        0
       ]
     }
   },
@@ -24,10 +23,13 @@
   },
   "mob_settings": {
     "blocks_sleeping": {
-      "type": "corgilib:any"
+      "type": "corgilib:flipped",
+      "condition_to_flip": {
+        "type": "corgilib:any"
+      }
     },
     "lunar_spawn_settings": {
-      "force_surface_spawning": true,
+      "force_surface_spawning": false,
       "mob_spawn_settings": {
         "spawn_costs": {},
         "spawners": {
@@ -44,31 +46,42 @@
       "slimes_spawn_everywhere": false,
       "use_biome_spawn_settings": true
     },
-    "mob_effects": [],
-    "spawn_category_multiplier": {
-      "monster": 3.0
-    }
+    "mob_effects": [
+      {
+        "filter": {
+          "type": "corgilib:any"
+        },
+        "mob_effect": {
+          "ambient": true,
+          "amplifier": 0,
+          "duration_in_ticks": 1210,
+          "effect": "minecraft:luck",
+          "show_icon": false,
+          "visible": false
+        }
+      }
+    ],
+    "spawn_category_multiplier": {}
   },
   "text_components": {
     "end_notification": {
       "type": "CHAT",
       "component": {
-        "key": "enhancedcelestials.notification.blood_moon.set"
+        "key": "enhancedcelestials.notification.blue_moon.set"
       }
     },
     "name": {
-      "key": "enhancedcelestials.name.super_blood_moon",
+      "key": "enhancedcelestials.name.blue_moon",
       "style": {
-        "color": "ff5555"
+        "color": "55ffff"
       }
     },
     "start_notification": {
       "type": "CHAT",
       "component": {
-        "key": "enhancedcelestials.notification.super_blood_moon.rise",
+        "key": "enhancedcelestials.notification.blue_moon.rise",
         "style": {
-          "bold": true,
-          "color": "ff5555"
+          "color": "55ffff"
         }
       }
     }
