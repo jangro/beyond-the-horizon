@@ -82,7 +82,7 @@ ServerEvents.chestLootTables(event => {
   event.modify('valhelsia_structures:witch_hut', table => {
     table.addPool(pool => {
       pool.rolls = [1, 2];
-      pool.addItem('endrem:witch_pupil', 10, 1);
+      pool.addItem('endrem:witch_pupil', 12, 1);
       pool.addItem('irons_spellbooks:cinder_essence', 12, [1, 3]);
       pool.addItem('irons_spellbooks:gold_spell_book', 10);
       pool.addItem('irons_spellbooks:diamond_spell_book', 5);
