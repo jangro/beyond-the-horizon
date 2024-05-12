@@ -50,7 +50,7 @@ hash = "4de2aa4f9a4237ceb88066e84180902bafbd6a4553a1f0493910db9af25fbef7"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
-hash = "590d7a205d2c9a46e811666ce813fda35d92751e875c905e7893f4050f04c321"
+hash = "2b1526ed7cf8433914ff2bd6de590742570aae953ee5ded73df01a5aa50f0bc6"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -226,7 +226,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "f7b100be3abdc34a8311b41bcffaa3cdf09078f42a38ba9946cb57740a527388"
+hash = "0aa79ebb61a41ebbbe92d89e89778aceb98814682875ac1076013cb2b344e7bc"
+
+[[files]]
+file = "kubejs/server_scripts/loot_tables/mobs.js"
+hash = "066097b65b8c3b55b684dfec8db501cfdf27cc95bfd6674d70f1080f1b4a6b02"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
