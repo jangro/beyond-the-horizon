@@ -65,6 +65,10 @@ file = "config/quark-common.toml"
 hash = "550f2a1332d29e5b8b17e7c4415db707999abccca5bf9f62937d2fb05a742384"
 
 [[files]]
+file = "config/smallships-common.toml"
+hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
+
+[[files]]
 file = "config/sparsestructures.json5"
 hash = "a389ed6d5ee29bc76b369924648a81874b4ab2d11514f2c6953d43c2d7ddef6c"
 
@@ -226,11 +230,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "0aa79ebb61a41ebbbe92d89e89778aceb98814682875ac1076013cb2b344e7bc"
+hash = "91fb46662fc3ad765b264b28d8e5be9f4da50156b7bc561f6c3c334c95cdf90e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
-hash = "066097b65b8c3b55b684dfec8db501cfdf27cc95bfd6674d70f1080f1b4a6b02"
+hash = "4d0ebed21dbf7d5410cef99ff91806f2c6aeb9395af5ce6559d2a06c16fa238a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
@@ -250,7 +254,7 @@ hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "a7d747247de0223f4aad2c8b978ad1658cb1ee99d016a8653c2dd13869ec62f9"
+hash = "ffdbaac6fc4c94b4759154139c3d86a8c89b91fb90c03fd2f91cacd92c6d428a"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
