@@ -19,3 +19,31 @@ LootJS.modifiers((event) => {
       .randomChance(0.3) // 30% chance
       .addLoot("endrem:undead_soul");
 });
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("irons_spellbooks:archevoker")
+      .addLoot("endrem:magical_eye");
+});
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("irons_spellbooks:cryomancer")
+      .addLoot("endrem:cold_eye");
+});
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("irons_spellbooks:apothecarist")
+      .addLoot("endrem:witch_eye");
+});
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("aquamirae:captain_cornelia")
+      .addLoot("endrem:black_eye");
+});
