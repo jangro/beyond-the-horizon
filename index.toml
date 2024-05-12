@@ -949,6 +949,11 @@ hash = "d96ffbfb771b81f3c66e67f10479e27b43896b070ef3e78d5e3f8a6c6f3085cf"
 metafile = true
 
 [[files]]
+file = "mods/lootjs.pw.toml"
+hash = "e529665cfda65f7532a0cf52feac55eda02040f26f9ddaf2dfb4cdabe51332f4"
+metafile = true
+
+[[files]]
 file = "mods/luckys-wardrobe.pw.toml"
 hash = "eb90d424987717ed0b15aeb1be27270d50a0bbfe9cf871e2432bce035fb1c400"
 metafile = true
