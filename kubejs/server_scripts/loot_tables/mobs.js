@@ -47,3 +47,10 @@ LootJS.modifiers((event) => {
       .addEntityLootModifier("aquamirae:captain_cornelia")
       .addLoot("endrem:black_eye");
 });
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("minecraft:elder_guardian")
+      .addLoot("endrem:guardian_eye");
+});
