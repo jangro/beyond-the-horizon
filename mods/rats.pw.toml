@@ -1,0 +1,13 @@
+name = "Rats"
+filename = "Rats-1.20.1-8.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "27505c72565156018e8c9219c14bc1f2b8bd1233"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4802123
+project-id = 323596
