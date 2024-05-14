@@ -295,11 +295,6 @@ hash = "9d3a6e55ee7d47044bff528f2454f340666a5a9f03d72a830ff17f528f34a922"
 metafile = true
 
 [[files]]
-file = "mods/alexs-caves.pw.toml"
-hash = "e323726cbcaa990e7eb91a8bfb82032c6844bbe3021c07ecf72cce76460f8b55"
-metafile = true
-
-[[files]]
 file = "mods/alexs-delight.pw.toml"
 hash = "19dfe5a0133bb5a6d579f7744b44366883b6c2d158d82da4d4eb7665c5fac4f0"
 metafile = true
@@ -1297,11 +1292,6 @@ metafile = true
 [[files]]
 file = "mods/tetranomicon.pw.toml"
 hash = "aad2682b1c54883c1a48e288782281b694c4ce1c630ddbfdad11ee2429562fbe"
-metafile = true
-
-[[files]]
-file = "mods/the-graveyard-forge.pw.toml"
-hash = "34c753d57921285a83277436458188043f5a1b9f7cfdd48a54fc12cddb97c6c7"
 metafile = true
 
 [[files]]
