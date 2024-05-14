@@ -60,6 +60,12 @@ ServerEvents.tags('worldgen/biome', event => {
     'totw_modded:has_structure/ocean_tower',
     'totw_modded:has_structure/ocean_warm_tower',
     'totw_modded:has_structure/regular_tower',
+    'totw_modded:has_structure/nether_tower',
+    'totw_modded:has_structure/end_tower',
+    'totw_modded:has_structure/ratlantis_tower',
+    'totw_modded:has_structure/aether_tower',
+    'totw_modded:has_structure/tw_canopy_tower',
+    'totw_modded:has_structure/tw_mangrove_tower',
 
     'terralith:has_structure/witch_hut',
 
