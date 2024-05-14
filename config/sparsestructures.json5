@@ -33,6 +33,11 @@
     },
 
     {
+      "structure": "minecraft:bastion_remnant",
+      "factor": 2
+    },
+
+    {
       "structure": "minecraft:pillager_outposts",
       "factor": 2
     },
