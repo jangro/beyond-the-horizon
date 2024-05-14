@@ -51,6 +51,13 @@ LootJS.modifiers((event) => {
 // Make the unique eyes from End Remastered more accessible
 LootJS.modifiers((event) => {
   event
+      .addEntityLootModifier("irons_spellbooks:dead_king")
+      .addLoot("endrem:undead_eye");
+});
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
       .addEntityLootModifier("aquamirae:captain_cornelia")
       .addLoot("endrem:black_eye");
 });
