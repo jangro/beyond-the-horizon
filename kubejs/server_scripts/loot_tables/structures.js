@@ -15,7 +15,7 @@ LootJS.modifiers((event) => {
       Item.of(jungle_map).withChance(1),
       Item.of(swamp_map).withChance(1),
       Item.of(snowy_plains_map).withChance(1),
-      Item.of(sakura_grove_map).withChance(1),
+      Item.of(cherry_grove_map).withChance(1),
     ]);
 });
 
