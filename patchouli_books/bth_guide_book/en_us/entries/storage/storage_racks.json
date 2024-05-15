@@ -1,15 +1,21 @@
 {
     "name": "Storage Racks",
-    "icon": "minecolonies:storage_rack",
+    "icon": "storageracks:oak_wood_rack",
     "category": "patchouli:storage",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "The Storage Racks mod, included with MineColonies, provides a versatile and compact storage solution. $(br2)These racks offer an efficient way to organize your items with adjustable shelves and easy access."
+            "text": "The Storage Racks mod, included with MineColonies, provides a versatile and compact storage solution. $(br2)These racks offer an efficient way to organize your items with easy access and they look cool."
         },
         {
-            "type": "patchouli:text",
-            "text": "Craft a Storage Rack using wood and iron ingots. $(br2)Each rack can hold multiple items and be customized to your storage needs."
+            "type": "patchouli:crafting",
+            "recipe": "storageracks:oak_wood_rack",
+            "text": "Craft a Storage Rack using inexpensive ingredients. $(br2)Each rack can hold multiple items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "storageracks:stone_controller",
+            "text": "Craft a Controller using the recipe below. $(br2)The Controller allows you to connect multiple storage racks together, making it easier to manage your storage."
         },
         {
             "type": "patchouli:text",

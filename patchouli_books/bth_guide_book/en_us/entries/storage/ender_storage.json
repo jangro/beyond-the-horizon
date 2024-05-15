@@ -8,12 +8,18 @@
             "text": "Ender Storage adds new Ender Chests and Ender Tanks to your world, providing a secure and customizable way to store items and fluids. Access your storage from anywhere, even across dimensions!"
         },
         {
-            "type": "patchouli:text",
-            "text": "Key Features: - Ender Chests: Store items and access them from any other Ender Chest with the same color code. - Ender Tanks: Store fluids and access them from any other Ender Tank with the same color code."
+            "type": "patchouli:crafting",
+            "recipe": "enderstorage:ender_chest",
+            "text": "Ender Chests allow you to store items and access them from any other Ender Chest with the same color code."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "enderstorage:ender_tank",
+            "text": "Ender Tanks allow you to store fluids and access them from any other Ender Tank with the same color code."
         },
         {
             "type": "patchouli:text",
-            "text": "Customization and Security: - Change the color code by right-clicking the wool pads with dye. - Add a diamond to the latch for extra security, linking it to your player."
+            "text": "Customization and Security:$(br) - $(l)Change the color code$() by right-clicking the wool pads with dye.$(br) - $(l)Add a diamond$() to the latch for extra security, linking it to your player."
         }
     ]
 }

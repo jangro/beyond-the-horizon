@@ -1,6 +1,6 @@
 {
     "name": "AE2 Storage",
-    "icon": "appliedenergistics2:terminal",
+    "icon": "ae2wtlib:wireless_universal_terminal",
     "category": "patchouli:storage",
     "pages": [
         {
@@ -17,7 +17,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "For more details on getting started with AE2, check out the full entry elsewhere in the guide."
+            "text": "For more details on getting started with AE2, check out the full entry $(l:mod_info/ae2)getting started with AE2$()."
         }
     ]
 }

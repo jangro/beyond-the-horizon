@@ -5,15 +5,17 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Beyond the Horizon mod pack includes tools that make building easier and faster than ever. $(br2)With Building Wands and Building Gadgets, you can construct large structures in no time!"
+            "text": "Beyond the Horizon mod pack includes tools that make building easier and faster than ever. $(br2)With Building Wands and Building Gadgets, you can construct large structures easily!"
         },
         {
-            "type": "patchouli:text",
-            "text": "Building Wands $(br2)Craft a Building Wand using sticks and a gem like emerald or diamond. $(br2)Use the wand to place multiple blocks at once, making walls, floors, and roofs a breeze."
+            "type": "patchouli:crafting",
+            "recipe": "wands:stone_wand",
+            "text": "Craft a basic Building Wand. It allows you to place multiple blocks at once."
         },
         {
-            "type": "patchouli:text",
-            "text": "Building Gadgets $(br2)Craft the Gadget Building or Gadget Exchanging tools to place or replace blocks efficiently. $(br2)Use the Destruction Gadget to clear out large areas quickly."
+            "type": "patchouli:crafting",
+            "recipe":"buildinggadgets2:gadget_building",
+            "text": "Craft the Gadget Building or Gadget Exchanging tools to place or replace blocks efficiently. $(br2)Use the Destruction Gadget to clear out large areas quickly."
         },
         {
             "type": "patchouli:text",
