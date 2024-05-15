@@ -7,5 +7,15 @@
   "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book.",
 
   "bth.comment.maps": "----- Maps -----",
-  "filled_map.pyromancer_tower": "Pyromancer Tower"
+  "filled_map.pyromancer_tower": "Pyromancer Tower Map",
+  "filled_map.cryomancer_tower": "Cryomancer Tower Map",
+  "filled_map.forbidden_castle": "Forbidden Castle Map",
+  "filled_map.aquamirae_shelter": "Shelter Map",
+  "filled_map.ancient_city": "Ancient City Map",
+  "filled_map.mansion": "Mansion Map",
+  "filled_map.evoker_fort": "Evoker Fort Map",
+  "filled_map.impaled_icebreaker": "Impaled Icebreaker Map",
+  "filled_map.better_desert_temple": "Desert Temple Map",
+  "filled_map.better_jungle_temple": "Jungle Temple Map"
+
 }

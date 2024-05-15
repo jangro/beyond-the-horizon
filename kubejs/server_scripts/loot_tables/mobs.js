@@ -55,11 +55,12 @@ LootJS.modifiers((event) => {
       .addLoot("endrem:undead_eye");
 });
 
-// Make the unique eyes from End Remastered more accessible
+// Make the unique eyes from End Remastered more accessible and add Aquamirae Shelter map
 LootJS.modifiers((event) => {
   event
       .addEntityLootModifier("aquamirae:captain_cornelia")
-      .addLoot("endrem:black_eye");
+      .addLoot("endrem:black_eye")
+      .addLoot(LootEntry.of(aquamirae_shelter_map).when((c) => c.randomChance(0.5)));
 });
 
 // Make the unique eyes from End Remastered more accessible
@@ -67,4 +68,11 @@ LootJS.modifiers((event) => {
   event
       .addEntityLootModifier("minecraft:elder_guardian")
       .addLoot("endrem:guardian_eye");
+});
+
+// Warden guaranteed to drop a map to the Ancient City
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("minecraft:warden")
+      .addLoot(ancient_city_map);
 });
