@@ -44,4 +44,5 @@ let flower_forest_map = Item.of('quark:pathfinders_quill', '{targetBiome:"minecr
 let snowy_plains_map = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:snowy_plains",targetBiomeColor:ffffff,targetBiomeUnderground:0b}');
 let swamp_map = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:swamp",targetBiomeColor:006600,targetBiomeUnderground:0b}');
 let jungle_map = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:jungle",targetBiomeColor:009933,targetBiomeUnderground:0b}');
+let lush_caves_map = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:lush_caves",targetBiomeColor:ccff66,targetBiomeUnderground:0b}');
 let cherry_grove_map = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:cherry_grove",targetBiomeColor:ff66cc,targetBiomeUnderground:0b}');

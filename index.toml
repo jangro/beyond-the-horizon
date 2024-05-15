@@ -246,7 +246,7 @@ hash = "91fb46662fc3ad765b264b28d8e5be9f4da50156b7bc561f6c3c334c95cdf90e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/consts.js"
-hash = "a580794bf471916855ad8dd441d1262654ab166de2ac7d5223aebd7668cab52d"
+hash = "cfba99918ad17d000eec2727c08266799b1b947d3a964853e844250e221af627"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
@@ -254,7 +254,7 @@ hash = "a186c981390d6195978e5081396aac60a10691d4d7da0b6f3a875db6cccfc79d"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "6699b765a95f5cfdd0448aa74869a3294116f8dac5b87e6acd9b82c906e8caa8"
+hash = "9b0843339e564adb06e998c2ca3a06457af8f0d3bdfb6ec5d6f23c2fb4fe841e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"

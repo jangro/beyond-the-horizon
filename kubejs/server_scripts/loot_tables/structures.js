@@ -14,7 +14,7 @@ LootJS.modifiers((event) => {
       Item.of(flower_forest_map).withChance(1),
       Item.of(jungle_map).withChance(1),
       Item.of(swamp_map).withChance(1),
-      Item.of(snowy_plains_map).withChance(1),
+      Item.of(lush_caves_map).withChance(1),
       Item.of(cherry_grove_map).withChance(1),
     ]);
 });
@@ -156,18 +156,19 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(mansion_map).when((c) => c.randomChance(0.1)));
 });
 
-// Add Impaled Icebreaker map to the following structures with different chances
+// Add Impaled Icebreaker and Snowy Plains maps to the following structures with different chances
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["irons_spellbooks:mountain_tower"], false)
-    .randomChance(0.2)
-    .addLoot(impaled_icebreaker_map)
+    .addLoot(LootEntry.of(impaled_icebreaker_map).when((c) => c.randomChance(0.1)))
+    .addLoot(LootEntry.of(snowy_plains_map).when((c) => c.randomChance(0.1)));
+
 });
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["dungeons_arise:lighthouse"], false)
-    .randomChance(1)
+    .randomChance(1) // Only one chest in this structure
     .addLoot(impaled_icebreaker_map)
 });
