@@ -254,7 +254,7 @@ hash = "a186c981390d6195978e5081396aac60a10691d4d7da0b6f3a875db6cccfc79d"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "9b0843339e564adb06e998c2ca3a06457af8f0d3bdfb6ec5d6f23c2fb4fe841e"
+hash = "f325b404cf72360150e4a65104f3df50c195daf7eb7d707796d6516bb6491f7b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"

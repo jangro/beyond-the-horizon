@@ -3,6 +3,63 @@
  * @file Structure loot table injection / replacement for Beyond the Horizon.
  */
 
+// Add Tiny Coins chance to all loot chests
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .randomChance(0.1)
+    .addWeightedLoot([
+      Item.of("rats:tiny_coin", 1).withChance(1),
+      Item.of("rats:tiny_coin", 2).withChance(1),
+      Item.of("rats:tiny_coin", 3).withChance(1),
+      Item.of("rats:tiny_coin", 4).withChance(1),
+      Item.of("rats:tiny_coin", 5).withChance(1)
+    ]);
+});
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .randomChance(0.3)
+    .anyStructure([
+      'dungeons_arise:abandoned_temple',
+      'dungeons_arise:aviary',
+      'dungeons_arise:bandit_towers',
+      'dungeons_arise:bandit_village',
+      'dungeons_arise:bathhouse',
+      'dungeons_arise:coliseum',
+      'dungeons_arise:fishing_hut',
+      'dungeons_arise:foundry',
+      'dungeons_arise:giant_mushroom',
+      'dungeons_arise:greenwood_pub',
+      'dungeons_arise:illager_campsite',
+      'dungeons_arise:illager_fort',
+      'dungeons_arise:illager_windmill',
+      'dungeons_arise:infested_temple',
+      'dungeons_arise:jungle_tree_house',
+      'dungeons_arise:keep_kayra',
+      'dungeons_arise:lighthouse',
+      'dungeons_arise:mechanical_nest',
+      'dungeons_arise:merchant_campsite',
+      'dungeons_arise:mining_system',
+      'dungeons_arise:monastery',
+      'dungeons_arise:mushroom_village',
+      'dungeons_arise:plague_asylum',
+      'dungeons_arise:scorched_mines',
+      'dungeons_arise:shiraz_place',
+      'dungeons_arise:small_prairie_house',
+      'dungeons_arise:thornborn_towers',
+      'dungeons_arise:typhon',
+      'dungeons_arise:undead_pirate_ship',
+      ], false)
+    .addWeightedLoot([
+      Item.of("rats:tiny_coin", 7).withChance(1),
+      Item.of("rats:tiny_coin", 10).withChance(1),
+      Item.of("rats:tiny_coin", 14).withChance(1),
+      Item.of("rats:tiny_coin", 17).withChance(1),
+      Item.of("rats:tiny_coin", 19).withChance(1)
+    ]);
+});
+
 
 // Add biome maps to towers. The first successful roll will be added.
 LootJS.modifiers((event) => {
