@@ -77,4 +77,7 @@ ServerEvents.tags('worldgen/biome', event => {
   // TOTW - Regular Towers spawn only in mountains + Ice Towers in snowy mountains.
   event.add('totw_modded:has_structure/ice_tower', '#bth:is_snowy_mountain');
   event.add('totw_modded:has_structure/regular_tower', '#minecraft:is_mountain');
+
+  // Prevent hunter's houses from spawning in yellowstone biomes
+  event.remove('hunters_return:hunter_house', 'terralith:yellowstone');
 });
