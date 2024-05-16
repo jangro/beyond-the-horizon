@@ -1,3 +1,4 @@
+version:3465
 autoJump:false
 enableVsync:false
 realmsNotifications:false
@@ -5,9 +6,15 @@ renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
-maxFps:120
+maxFps:60
 mipmapLevels:0
 tutorialStep:none
+narrator:0
+onboardAccessibility:false
+
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/BTH Panorama.zip"]
+incompatibleResourcePacks:["builtin/towntalk"]
+
 soundCategory_master:0.5
 soundCategory_music:0.25
 soundCategory_record:1.0
@@ -18,7 +25,7 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:0.5
 soundCategory_voice:1.0
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/BTH Panorama.zip"]
+
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
