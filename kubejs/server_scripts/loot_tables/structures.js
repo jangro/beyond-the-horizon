@@ -6,12 +6,12 @@
 // Add Tiny Coins chance to all loot chests
 // All loot chests have a 10% chance to generate coins. The amount of coins is function
 // of distance to spawn. Near spawn there will be 1-5 coins, and increase linearly to
-// 10-50 coins 50000 or more blocks away from spawn in a straight line.
+// 10-50 coins 20000 or more blocks away from spawn in a straight line.
 LootJS.modifiers((event) => {
   event.addLootTypeModifier("chest").randomChance(0.1).apply((context) => {
       let p = context.getBlockPos();
-      let distance = Math.min(Math.max(Math.sqrt(p.x * p.x + p.z * p.z), 0), 50000);
-      let factor = 9.0/50000.0*distance + 1; // from 1 (at spawn) to 10 (at 50000+ blocks from spawn)
+      let distance = Math.min(Math.max(Math.sqrt(p.x * p.x + p.z * p.z), 0), 20000);
+      let factor = 9.0/20000.0*distance + 1; // from 1 (at spawn) to 10 (at 20000+ blocks from spawn)
       let count = Math.floor(Math.random() * 5) + 1;
       context.addLoot(Item.of("rats:tiny_coin", count * factor));
   });
