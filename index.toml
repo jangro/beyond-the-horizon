@@ -110,7 +110,7 @@ hash = "b7e7d2b51ed8f03454173efa91fd7273bb79ee4e3efd9546cc1c1794e2f92efd"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "a20deb5c041f1f090a6e1213c504ffd10bf783f91f9a063f682345bc2f0b7aed"
+hash = "8131c27d13b9b0540f7bb4fdce5f48d886e4408db21027e35185abbceb548112"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
@@ -254,7 +254,7 @@ hash = "a186c981390d6195978e5081396aac60a10691d4d7da0b6f3a875db6cccfc79d"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "f325b404cf72360150e4a65104f3df50c195daf7eb7d707796d6516bb6491f7b"
+hash = "315f5d5867ccda51cc164820d7ea9f730b43e0232d6b8cd38770d25b672117b6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
@@ -664,6 +664,11 @@ metafile = true
 [[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "92b6f4fe8da962e961ab5f8374ebf35987d7c3278702dd83de41757ab844f0ba"
+metafile = true
+
+[[files]]
+file = "mods/domestication-innovation.pw.toml"
+hash = "2aa8e99103e73af719667f2c03ab4380b1febed92cce4724aff8a5ec0e3cafea"
 metafile = true
 
 [[files]]
@@ -1535,15 +1540,15 @@ hash = "c6c6715525c093266bb69c464d998c5714325007b94795b19ded53ac12eb936d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/building/building_tools.json"
-hash = "d06794cc92c93f07f6bc8f293728f47197baa91b4cbf96ae43cb69e767923803"
+hash = "38c78006de66c2b2eebd2caf7b4e42b746399939c339c576b15e3d497d1020b7"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/building/clayworks.json"
-hash = "3a09abd8bc0aec20e1bc251db26d0fdaab9328576cbe5b1f55ed460a27ebcaaa"
+hash = "e642c154ec734065f307f7d2c14a85647354abf3e94e39a0bea6cdc1dd4b4c32"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/building/hearth_and_home.json"
-hash = "148cff77186a95641ff1febd1c926ee078b3a4fe857eba61ead25003efedaede"
+hash = "72ca2d15e6666e2b46ff1f3e9570d4627ccca52624543e9528877dabdb072ff8"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/dimensions/the_aether.json"
@@ -1755,23 +1760,23 @@ hash = "186e63141267a29b4349c53812f09217cd64dc5ee5ed27c6f4e940ca8af53f9d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/ae2_storage.json"
-hash = "5506facb824c439c050bda1da43685f946a33238219d0d7d4fbeeb423a7bc515"
+hash = "c917e8bb6f9131e7779b14c7b8912888007dac8781a666f7a71cebb59ed234cc"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/ender_storage.json"
-hash = "e6d5214fbc13df568df01975d236a60914f13921146b1e3767c9e849c8d49760"
+hash = "74a51e219b2730346a3dbba1c6f86546c865c70204631292d30fb3649ca73ded"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/id_storage.json"
-hash = "52ae992c6af84e79606038e565bb1e7aa5ef1411a012b927a3cc32476b891457"
+hash = "c6f066f20b405c6582ac6ad27b57568efb171fd75598c5fb6a8f70bd4c1e789a"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_drawers.json"
-hash = "d13250a68139c480a3596eddbb791f360c7a653c828d3521eb3b14a9cc10f7fd"
+hash = "7db68da272db61d94fb61f07aa06f3df2bdd3748f6446578865037ae585a4785"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_racks.json"
-hash = "6eca65404cf10629c01b51d6b265ff18ca713874a3539ea0f1b0ebe4fed38489"
+hash = "3d6125d90ac44a07d8bbc99f89675855704bbe0a0f608871b56d8b00e3ffbdbe"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/travelers_backpacks.json"
