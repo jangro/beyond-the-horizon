@@ -1433,11 +1433,11 @@
 
 		[mobs.shiba.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 40
+			"Spawn Weight" = 10
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
-			"Max Group Size" = 3
+			"Max Group Size" = 2
 
 			[mobs.shiba.spawn_config.biomes]
 
