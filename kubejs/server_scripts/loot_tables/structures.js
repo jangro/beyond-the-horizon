@@ -231,3 +231,15 @@ LootJS.modifiers((event) => {
     .randomChance(1) // Only one chest in this structure
     .addLoot(impaled_icebreaker_map)
 });
+
+// Add cursed eye to the Forbidden Castle
+// XXX: would be better if we could target a specific chest at 100% instead of the whole structure
+// 5% chance might be too much or too little, and no guarantee of getting an eye.
+// But, probably there are at least 20 chests in this structure so should be a good chance of getting one.
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["incendium:forbidden_castle"], false)
+    .randomChance(0.05)
+    .addLoot("endrem:cursed_eye")
+});
