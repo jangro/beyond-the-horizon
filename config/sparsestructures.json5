@@ -56,7 +56,7 @@
     // Limited to mountain biomes by kubejs script.
     {
       "structure": "totw_modded:overworld",
-      "factor": 0.7
+      "factor": 0.5
     },
 
     {

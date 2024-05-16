@@ -70,7 +70,7 @@ hash = "71f75de4eac0fa8d3a8ccae7be06611c5a70706ab9b5cfbc82afcece5d371ec3"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "550f2a1332d29e5b8b17e7c4415db707999abccca5bf9f62937d2fb05a742384"
+hash = "cfa4a5ab2385b9adc71c944ff9e6cf30da6248be8a39921e026de3b51b5a0ee4"
 
 [[files]]
 file = "config/rats-common.toml"
@@ -82,7 +82,7 @@ hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "eda9eb683d2ca5387a787caa20ba07469be3eb3368b2d1e6f53ee3c30cf2e991"
+hash = "a3d66c169b0d6ef9681456d7464d43c621dbc77569af33498f29438175edefb5"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -130,7 +130,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "f82cb434f8a6d50cb714f7afb71f86f5cafb26631e0f8c2fbe1fbd412dd7ec67"
+hash = "6423f8bb754ee588cf229a66c24fe71ea38dbb08a0402518513604ea3a6eeb26"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -254,7 +254,7 @@ hash = "a186c981390d6195978e5081396aac60a10691d4d7da0b6f3a875db6cccfc79d"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "315f5d5867ccda51cc164820d7ea9f730b43e0232d6b8cd38770d25b672117b6"
+hash = "cb9c17a493071675a2caf44872e7de11cb40489160ea735f7b7f9c6f37c99782"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
@@ -274,7 +274,7 @@ hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "28fcf191bf6e651ae405dec99be072fdbcd108f117287fecd2a79c952cb1d920"
+hash = "eb6fff62403498bb281369fffd462efa2bfd111f1c9609d3dba7f3552c4a8cbf"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"

@@ -2,7 +2,7 @@
 
 /**
  * @file Biome Tag Modifications for Beyond the Horizon.
- * 
+ *
  * Documentation: https://kubejs.com/wiki/tutorials/tags
  */
 
@@ -11,13 +11,35 @@
  */
 ServerEvents.tags('worldgen/biome', event => {
 
+  // This list contain all biomes with is_mountain tag. Commented out are the less mountainous ones.
+  const mountainous_mountains = [
+    //'minecraft:meadow',
+    'minecraft:frozen_peaks',
+    'minecraft:jagged_peaks',
+    'minecraft:stony_peaks',
+    'minecraft:snowy_slopes',
+    //'minecraft:cherry_grove',
+    'terralith:emerald_peaks',
+    'terralith:scarlet_mountains',
+    'terralith:rocky_mountains',
+    'terralith:caldera',
+    'terralith:volcanic_peaks',
+    //'terralith:snowy_cherry_grove',
+  ];
+
+  // Create mountain tag for towers (more mountainous mountains than regular is_mountain).
+  mountainous_mountains.forEach(mountainBiomeID => {
+      event.add('bth:is_mountainous_mountain', mountainBiomeID);
+  });
+
+
   // Fill Snowy Moutain Biome tag.
   const snowy_biomes = event.get('forge:is_snowy').getObjectIds();
-  const mountain_biomes = event.get('minecraft:is_mountain').getObjectIds();
+  const mountainous_mountain_biomes = event.get('bth:is_mountainous_mountain').getObjectIds();
   snowy_biomes.forEach(snowyBiomeID => {
-    mountain_biomes.forEach(mountainBiomeID => {
+    mountainous_mountain_biomes.forEach(mountainBiomeID => {
       if (snowyBiomeID == mountainBiomeID) {
-        event.add('bth:is_snowy_mountain', mountainBiomeID);
+        event.add('bth:is_snowy_mountainous_mountain', mountainBiomeID);
       }
     });
   });
@@ -37,7 +59,7 @@ ServerEvents.tags('worldgen/biome', event => {
     'dungeons_arise:has_structure/wishing_well_biomes',
 
     'eidolon:has_structure/stray_tower_biomes',
-    
+
     'minecolonies:has_structure/asian_colony',
     'minecolonies:has_structure/caledonia_colony',
     'minecolonies:has_structure/colonial_colony',
@@ -72,11 +94,11 @@ ServerEvents.tags('worldgen/biome', event => {
   ].forEach((tag) => event.removeAll(tag));
 
   // Eidolon - Stray Towers spawn only in snowy mountains.
-  event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_snowy_mountain');
+  event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_snowy_mountainous_mountain');
 
   // TOTW - Regular Towers spawn only in mountains + Ice Towers in snowy mountains.
-  event.add('totw_modded:has_structure/ice_tower', '#bth:is_snowy_mountain');
-  event.add('totw_modded:has_structure/regular_tower', '#minecraft:is_mountain');
+  event.add('totw_modded:has_structure/ice_tower', '#bth:is_snowy_mountainous_mountain');
+  event.add('totw_modded:has_structure/regular_tower', '#bth:is_mountainous_mountain');
 
   // Prevent hunter's houses from spawning in yellowstone biomes
   event.remove('hunters_return:hunter_house', 'terralith:yellowstone');
