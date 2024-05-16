@@ -696,6 +696,11 @@ hash = "cae1dba77a14bdc6857c29406920d9cc704561e7b6f21b4688800b77a062a4f2"
 metafile = true
 
 [[files]]
+file = "mods/ecologics.pw.toml"
+hash = "e58257e27b7fce3399b38ca94a953728879d288757957521975ecc5044218fe0"
+metafile = true
+
+[[files]]
 file = "mods/eidolon-repraised.pw.toml"
 hash = "8e0159b792e707f4a25a4755b2abc73587dbca8fb70af90932eeaa1ecb1d7c61"
 metafile = true
