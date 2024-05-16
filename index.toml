@@ -69,6 +69,10 @@ file = "config/jei/jei-mod-id-format.ini"
 hash = "71f75de4eac0fa8d3a8ccae7be06611c5a70706ab9b5cfbc82afcece5d371ec3"
 
 [[files]]
+file = "config/neapolitan-common.toml"
+hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "cfa4a5ab2385b9adc71c944ff9e6cf30da6248be8a39921e026de3b51b5a0ee4"
 
