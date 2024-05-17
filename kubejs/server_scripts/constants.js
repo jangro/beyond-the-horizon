@@ -4,7 +4,21 @@
  * @file Global Constants for use in other scripts.
  */
 
-const ECCENTRIC_TOME_NBT = '{"eccentrictome:mods":{advancedperipherals:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"advancedperipherals:manual"}}},ae2:{0:{Count:1b,id:"ae2:guide"}},alexsmobs:{0:{Count:1b,id:"alexsmobs:animal_dictionary"}},ars_nouveau:{0:{Count:1b,id:"ars_nouveau:worn_notebook"}},botania:{0:{Count:1b,id:"botania:lexicon"}},eidolon:{0:{Count:1b,id:"eidolon:codex"}},immersiveengineering:{0:{Count:1b,id:"immersiveengineering:manual"}},integrateddynamics:{0:{Count:1b,id:"integrateddynamics:on_the_dynamics_of_integration"}},irons_spellbooks:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"irons_spellbooks:iss_guide_book"}}},modularrouters:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"modularrouters:book"}}},pneumaticcraft:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"pneumaticcraft:book"}}},powah:{0:{Count:1b,id:"powah:book"}},simplyswords:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"simplyswords:runic_grimoire"}}}}}';
+const ECCENTRIC_TOME_NBT = '{"eccentrictome:mods":{\
+  advancedperipherals:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"advancedperipherals:manual"}}},\
+  ae2:{0:{Count:1b,id:"ae2:guide"}},\
+  alexsmobs:{0:{Count:1b,id:"alexsmobs:animal_dictionary"}},\
+  ars_nouveau:{0:{Count:1b,id:"ars_nouveau:worn_notebook"}},\
+  botania:{0:{Count:1b,id:"botania:lexicon"}},\
+  buildinggadgets2:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"buildinggadgets2:buildinggadgets2book"}}},\
+  eidolon:{0:{Count:1b,id:"eidolon:codex"}},\
+  immersiveengineering:{0:{Count:1b,id:"immersiveengineering:manual"}},\
+  integrateddynamics:{0:{Count:1b,id:"integrateddynamics:on_the_dynamics_of_integration"}},\
+  irons_spellbooks:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"irons_spellbooks:iss_guide_book"}}},\
+  modularrouters:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"modularrouters:book"}}},\
+  pneumaticcraft:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"pneumaticcraft:book"}}},\
+  powah:{0:{Count:1b,id:"powah:book"}},\
+  simplyswords:{0:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"simplyswords:runic_grimoire"}}}}}';
 
 /**
  * Minecraft's default colors, as used in vanilla item IDs and by most mods.
