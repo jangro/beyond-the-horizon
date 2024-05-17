@@ -13,6 +13,14 @@ ServerEvents.tags('entity_type', event => {
   event.add('ars_nouveau:drygmy_blacklist', [
     'artifacts:mimic',
     'irons_spellbooks:dead_king',
+    'aquamirae:captain_cornelia',
+    'rats:black_death',
+    'rats:dutchrat',
+    'rats:rat_king',
+    'rats:ratlantean_automaton',
+    'rats:neo_ratlantean',
+    'rats:rat_baron',
+    'rats:pirat',
     // TODO: Some other Iron's entities should probably be added here.
   ]);
 
