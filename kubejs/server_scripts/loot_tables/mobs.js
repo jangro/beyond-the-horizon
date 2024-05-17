@@ -30,6 +30,11 @@ LootJS.modifiers((event) => {
       .addEntityLootModifier("irons_spellbooks:archevoker")
       .addLoot("endrem:magical_eye");
 });
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("minecraft:evoker")
+      .removeLoot("endrem:magical_eye");
+});
 
 // Make the unique eyes from End Remastered more accessible
 LootJS.modifiers((event) => {
@@ -71,7 +76,16 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
       .addEntityLootModifier("minecraft:elder_guardian")
+      .removeLoot("endrem:guardian_eye")
       .addLoot("endrem:guardian_eye");
+});
+
+// Make the unique eyes from End Remastered more accessible
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("minecraft:wither")
+      .removeLoot("endrem:wither_eye")
+      .addLoot("endrem:wither_eye");
 });
 
 // Warden guaranteed to drop a map to the Ancient City
