@@ -99,4 +99,12 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('endrem:nether_eye');
     });
   });
+
+  // Add Old Eye to the hidden chest in the Pharao's room
+  event.modify('betterdeserttemples:pharaoh_hidden', table => {
+    table.addPool(pool => {
+      pool.addItem('endrem:old_eye');
+    });
+  });
+
 });
