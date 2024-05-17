@@ -13,6 +13,19 @@
 const ADVANCEMENTS_TO_REMOVE = [
   'irons_spellbooks:advancements/grant_patchouli.json',
   'simplyswords:advancements/grant_book_on_first_join.json',
+  'totw_modded:advancements/derelict_grass_tower.json',
+  'totw_modded:advancements/derelict_tower.json',
+  'totw_modded:advancements/jungle_tower.json',
+  'dungeons_arise:advancements/find_heavenly_challenger.json',
+  'dungeons_arise:advancements/find_heavenly_conqueror.json',
+  'dungeons_arise:advancements/find_heavenly_rider.json',
+  'dungeons_arise:advancements/find_illager_corsair_or_illager_galley.json',
+  'dungeons_arise:advancements/find_mechanical_nest.json',
+  'dungeons_arise:advancements/find_mushroom_house.json',
+  'dungeons_arise:advancements/find_mushroom_mines.json',
+  'dungeons_arise:advancements/find_scorched_mines.json',
+  'dungeons_arise:advancements/find_small_blimp.json',
+  'dungeons_arise:advancements/find_wishing_well.json',
 ];
 
 /**
