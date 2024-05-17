@@ -165,6 +165,30 @@ file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
 hash = "bdc2ce99055fa5a847c46357ea52f1af9898c8eaaa971e0e6a6697325a8e4a0f"
 
 [[files]]
+file = "kubejs/data/ctov/worldgen/template_pool/village/common/waystone/mossy.json"
+hash = "5f7cd97ee576f8bd5cbb05dcc5b0e614f282edfef9f2c5c1152d0f0badcea1c3"
+
+[[files]]
+file = "kubejs/data/ctov/worldgen/template_pool/village/common/waystone/normal.json"
+hash = "c877036d0b731614544f7de1b44bec7c4cb8bac4b0da9d17fb3b40375a3b7628"
+
+[[files]]
+file = "kubejs/data/ctov/worldgen/template_pool/village/common/waystone/sand.json"
+hash = "7330bdd9fda7ac6092f32356d6692c1c485e9a72524df93e1d4f7c3f06a84293"
+
+[[files]]
+file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/mossy.json"
+hash = "b1a0b63cb056d05ae8ed391a1ea820449c339dae2578dc417339a7deaa34d9e2"
+
+[[files]]
+file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/normal.json"
+hash = "b2be846ca8e3b5f37d29c3a8148d0884b692504e93ecbf2189ebb242319bee0f"
+
+[[files]]
+file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/sand.json"
+hash = "69682ca821bf84005e8003f8995e3a0bdfc8b74fbf56274adad0e2f4014d4592"
+
+[[files]]
 file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
 hash = "4666498d30aee52395b918a84cf5de05421f3a7cdf4b423478e9fdaa06eca00c"
 
@@ -195,6 +219,18 @@ hash = "ef56b8045530919d61766c6b0b3000452283f92ad81245ed2f2d4a985a50aff8"
 [[files]]
 file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
+
+[[files]]
+file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/waystone_default.json"
+hash = "7ebf4726b29f68b5187f209db0cd9bb60e0c089e60cc7cb22804a0e8f4aef8b5"
+
+[[files]]
+file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/waystone_desert.json"
+hash = "9da1e247bdcb5a0ae2bd951793c52e6b4e28857b95ff4602b99ac6f5c11b574e"
+
+[[files]]
+file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/waystone_mossy.json"
+hash = "1c354eeb51fba2cc705d89fe4a45117edfcc6f1d11337e107d4f34e8be4d760a"
 
 [[files]]
 file = "kubejs/data/minecraft/enhancedcelestials/lunar/dimension_settings/overworld.json"
@@ -254,7 +290,7 @@ hash = "cfba99918ad17d000eec2727c08266799b1b947d3a964853e844250e221af627"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
-hash = "a186c981390d6195978e5081396aac60a10691d4d7da0b6f3a875db6cccfc79d"
+hash = "1894d674abb4d015b9656fbba50c4ad6cc81f9d1b2278bdb0907af593cc4d1b2"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
@@ -278,7 +314,7 @@ hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "eb6fff62403498bb281369fffd462efa2bfd111f1c9609d3dba7f3552c4a8cbf"
+hash = "484d1c157bd8a0ba5600f23fc1992f8bc739a338efb9b5c1b12bbcaca85acb05"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
@@ -286,7 +322,7 @@ hash = "db654abfed53d653e9e1a9aa0098d7f3bf1b49609d9605f307ac701ea5954ad9"
 
 [[files]]
 file = "kubejs/server_scripts/tags/entity_type.js"
-hash = "64cc27eac8a824ed6a06ffedbc3a87c3998a0fd70db8c45d6c4c36e18524b3b6"
+hash = "3ac626dd1cc9bfc3a806079d99b86d7234e127707dfba256ed8a26be671bf881"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item_tags.js"

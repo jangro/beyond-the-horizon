@@ -1,0 +1,5 @@
+{
+  "name": "kaisyn:village/modded/waystones/waystone_default",
+  "fallback": "minecraft:empty",
+  "elements": []
+}

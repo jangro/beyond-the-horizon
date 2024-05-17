@@ -1,0 +1,6 @@
+{
+    "name": "ctov:village/common/waystone/normal",
+    "fallback": "minecraft:empty",
+    "elements": []
+}
+
