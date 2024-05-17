@@ -289,6 +289,10 @@ file = "kubejs/server_scripts/loot_tables/consts.js"
 hash = "cfba99918ad17d000eec2727c08266799b1b947d3a964853e844250e221af627"
 
 [[files]]
+file = "kubejs/server_scripts/loot_tables/generic.js"
+hash = "fc6c4b0ae4c8b1e334c495ab97d42125317e3d4c897e15872e440e7bf7d57c4c"
+
+[[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
 hash = "1894d674abb4d015b9656fbba50c4ad6cc81f9d1b2278bdb0907af593cc4d1b2"
 
