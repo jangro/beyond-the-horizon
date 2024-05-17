@@ -28,4 +28,9 @@ ServerEvents.tags('item', event => {
     'alexscaves:radrock_uranium_ore',
   ]);
   
+  event.add('bth:nuts', [
+    'ecologics:walnut',
+    'alexscaves:pine_nuts',
+  ]);
+
 });
