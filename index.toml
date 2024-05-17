@@ -102,11 +102,11 @@ hash = "e604113284728101353044e59c6bb23dfb851dcc69771bc5a29b80cc40a54240"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.minimap.config"
-hash = "3eefba94daf515d26ccd028270b7a7f92d2575adb0714bc80e9ece5655ad76ba"
+hash = "5dbe7c9c96b472d748f91c9a07f12e447acb27934bf38b858a359a473c620c88"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.minimap2.config"
-hash = "0b86d53dc91652f43b0a13f8150240d333aa691165ce8568be94c16a47592705"
+hash = "37e946404488996275c67ddfe5a87a527d129eb784e4e986f98c63b2c972a803"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.waypoint.config"
@@ -134,7 +134,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "6423f8bb754ee588cf229a66c24fe71ea38dbb08a0402518513604ea3a6eeb26"
+hash = "bc37ffd18f8cb7dc4b2703986dd4a107fe48f627d075f34c6020c6aa93214a8d"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -258,11 +258,11 @@ hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
 [[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
-hash = "fa491b58d3afd0ca7d03bf3a6061798597a3a90421160591c9fcaa8ceeb5b2e9"
+hash = "d4ec94e3dfa85535b6598aa12b3bc95a9a7b46dab0710b9fefcc3e107d245946"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
-hash = "1e2b81a11d8c2f73d1fdec74ee0af39a0ac78625470392949fd1b17dd0950263"
+hash = "fcbb2ef3eba35ad8ebd644da1f60c47e31fde640a563fe2ff6d5e816d799a4be"
 
 [[files]]
 file = "kubejs/server_scripts/dev/commands.js"
@@ -282,7 +282,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "91fb46662fc3ad765b264b28d8e5be9f4da50156b7bc561f6c3c334c95cdf90e"
+hash = "54268e4cc0fde2cb3eb323ef2057aa6a884a4d82dcadcae6fa86dd9ac068fbc4"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/consts.js"
