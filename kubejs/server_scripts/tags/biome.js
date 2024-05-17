@@ -101,5 +101,11 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('totw_modded:has_structure/regular_tower', '#bth:is_mountainous_mountain');
 
   // Prevent hunter's houses from spawning in yellowstone biomes
-  event.remove('hunters_return:hunter_house', 'terralith:yellowstone');
+  event.remove('hunters_return:has_structure/hunter_house', 'terralith:yellowstone');
+
+  // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
+  event.removeAll('betterjungletemples:has_structure/better_jungle_temple');
+  event.add('betterjungletemples:has_structure/better_jungle_temple', ['minecraft:jungle', 'minecraft:sparse_jungle', 'minecraft:bamboo_jungle']);
+
 });
+
