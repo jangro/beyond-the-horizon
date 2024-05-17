@@ -93,4 +93,10 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+   // Add Nether Eye to treasure chest of The Aether's final boss
+   event.modify('aether:dungeon/gold/gold_dungeon_treasure', table => {
+    table.addPool(pool => {
+      pool.addItem('endrem:nether_eye');
+    });
+  });
 });
