@@ -4,6 +4,10 @@
  */
 
 
+//
+// Add loot
+//
+
 // Because we reduced biomes where flies can spawn
 LootJS.modifiers((event) => {
   event
@@ -76,3 +80,22 @@ LootJS.modifiers((event) => {
       .addEntityLootModifier("minecraft:warden")
       .addLoot(ancient_city_map);
 });
+
+
+//
+// Remove loot
+//
+
+// Remove or reduce drops that can be used to make the Chunky Cheese Token
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("rats:black_death")
+      .removeLoot('rats:token_piece')
+      .addLoot(LootEntry.of('rats:token_piece').when((c) => c.randomChance(0.1)));
+});
+LootJS.modifiers((event) => {
+  event
+      .addEntityLootModifier("rats:pied_piper")
+      .removeLoot('rats:token_fragment');
+});
+
