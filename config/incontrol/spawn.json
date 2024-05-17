@@ -22,5 +22,17 @@
       "perchunk": true
     },
     "result": "deny"
+  },
+  {
+    "mob": "irons_spellbooks:priest",
+    "dimension": "minecraft:overworld",
+    "structure": "dungeons_arise:monastery",
+    "result": "default"
+  },
+  {
+    "mob": "irons_spellbooks:priest",
+    "dimension": "minecraft:overworld",
+    "incontrol": true,
+    "result": "deny"
   }
 ]
