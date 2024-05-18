@@ -26,7 +26,8 @@
   {
     "mob": "irons_spellbooks:priest",
     "dimension": "minecraft:overworld",
-    "structure": "dungeons_arise:monastery",
+    "structuretags": "ctov:village",
+    "block": "tag:minecraft:planks",
     "result": "default"
   },
   {

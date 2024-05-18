@@ -2,14 +2,12 @@
   {
     "mob": "irons_spellbooks:priest",
     "persecond": 1,
-    "attempts": 20,
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
+    "attempts": 60,
     "conditions": {
-      "dimension": "minecraft:overworld"
+      "dimension": "minecraft:overworld",
+      "minheight": 60,
+      "mindist": 0,
+      "maxlocal": 1
     }
   }
-
 ]
