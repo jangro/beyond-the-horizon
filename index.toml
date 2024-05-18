@@ -385,7 +385,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "890096db933cb572b5936aa8e563a39c0ec62158d527137ba662e53ce5114502"
+hash = "e0b7d27e7bbd9c1139ca9fc0cd87ad10da6edc540e9c4b86902df0cd25789fd8"
 metafile = true
 
 [[files]]
@@ -505,7 +505,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "15e15983557b274c6b5064394915d1c7e963db788fbebe1b5b2a4f220bd174ad"
+hash = "939e093a5dcac4f5437fc267f8ce2c82ddffa13e0912298d4d3b7917a13d1dc6"
 metafile = true
 
 [[files]]
@@ -550,7 +550,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "0be97b6cbc302d7e875b7fdc38c7de1f6a1a7e396e35a1d123e4c077090ab137"
+hash = "cebbf624d6e03e1287c80081e35de277778f0b190f3531ce23c7c543e1ea8432"
 metafile = true
 
 [[files]]
@@ -760,7 +760,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "208990099594d552abb86748271b83d48d17cfd9c9aee58cef2dde2736a2e5e1"
+hash = "b6a73210aa3b742be00399abebd8301b78506ebd6a42709460b087730b1082f5"
 metafile = true
 
 [[files]]
@@ -915,7 +915,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "526dbf7fc833be8fb1e8844f0b22d6102046c6d12df9735c5ba2e0279e15fe75"
+hash = "e50f67e37775aca9ee5c5a1c91bd8e10846f8077e20ace467e4acb7892e1aca0"
 metafile = true
 
 [[files]]
@@ -935,7 +935,7 @@ metafile = true
 
 [[files]]
 file = "mods/incendium.pw.toml"
-hash = "ac1e67e8fd33b13ed99c8aed964ab2501d8a2092f01c22b901e43b6824b2bc6f"
+hash = "8da51e31d146df07a51fa173d5c1d3f99affb78e478945e2c19f6af412212cd6"
 metafile = true
 
 [[files]]
@@ -1005,7 +1005,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "e757d1cb669cc74372a83eafaf0b86e7cc3152f9511b9aeeed55bb2658486b4b"
+hash = "f6af7bea89ad267a9db9899a388efa7a98a2da48a634b1a285502c4f44b0b85d"
 metafile = true
 
 [[files]]
@@ -1070,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "ecaba2986bf668eddcd23e0cfa59f4ee04274219cf44aa11ae8f53f3c2f95d88"
+hash = "9d5acfa86c4727758a903f202d0c835e981be512c869a8f123464b0040c77ae2"
 metafile = true
 
 [[files]]
@@ -1220,7 +1220,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "a19e00d52a5bca57e6b4b3b026094cffedd494b2e1b69149587c4049ccacead0"
+hash = "41221339c3f325d688a025e120c887b2003b76234149b3873236f872e9a48f54"
 metafile = true
 
 [[files]]
@@ -1260,7 +1260,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "25a7dff7d7337e0532a55b99b50ff5c829ecf1ac6467eebcf5ba9362c2099898"
+hash = "d68e3dec94d4da1500d1bdfa4901507d86165ab8ccd6ece218636ebab86b43bc"
 metafile = true
 
 [[files]]
@@ -1360,7 +1360,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "c65990083e70a721e768dc9385a6d989d2c157b2024d3a7d02bb56bf14d49a0a"
+hash = "67b8c6ae39e505e811416d77fba82bf45d713ed9ad240f0f7e0b6af1f300a14e"
 metafile = true
 
 [[files]]

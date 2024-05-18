@@ -1,13 +1,13 @@
 name = "Incendium"
-filename = "Incendium_1.20.4_v5.3.4.jar"
+filename = "Incendium_1.20.x_v5.3.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7339f4da6c9ca9ae73b0a877a0bbaec35fd17961"
+hash = "484556937b1b2dde2682144e7953e79bff717104"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4937858
+file-id = 5351562
 project-id = 591388
