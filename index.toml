@@ -964,6 +964,11 @@ hash = "2163c7612873d0d56aedce3d164534b899da0bec98c945e31dd1db4c551237d2"
 metafile = true
 
 [[files]]
+file = "mods/inventory-hud-forge.pw.toml"
+hash = "b89733a48c29082434f6bce4616c0f528c3a5b40ee3b807f86a9f8241e05587b"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "8c70a47d8aa85254c3fef53d6d2ae211bcbe846632b949d1dbe68f4b36b52746"
 metafile = true
