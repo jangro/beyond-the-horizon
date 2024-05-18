@@ -54,7 +54,11 @@ hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "4de2aa4f9a4237ceb88066e84180902bafbd6a4553a1f0493910db9af25fbef7"
+hash = "dcac4fe35dbce16fe17aea3ef0ff8e0c69e09f467fbd7c7faef618a16b3c356c"
+
+[[files]]
+file = "config/incontrol/spawner.json"
+hash = "a6e78b4f2025bb5f2c313f268a78c07820ad2a72ce47fcad34be4bc92ded5d25"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -282,7 +286,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "54268e4cc0fde2cb3eb323ef2057aa6a884a4d82dcadcae6fa86dd9ac068fbc4"
+hash = "71bef38e618c4c8c753dc0d88d643ee41753f136136920d8b487be95e661e35c"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/consts.js"
@@ -294,11 +298,15 @@ hash = "fc6c4b0ae4c8b1e334c495ab97d42125317e3d4c897e15872e440e7bf7d57c4c"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
-hash = "1894d674abb4d015b9656fbba50c4ad6cc81f9d1b2278bdb0907af593cc4d1b2"
+hash = "3ba60f043ec28b69e47df8211653b5574275d73c060e38ac56e82ecec4e58186"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
 hash = "cb9c17a493071675a2caf44872e7de11cb40489160ea735f7b7f9c6f37c99782"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create.js"
+hash = "7404346031e1256f70d256beed4ace05315bc83c64b46b15cb3aa102585a7e12"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
@@ -330,15 +338,15 @@ hash = "3ac626dd1cc9bfc3a806079d99b86d7234e127707dfba256ed8a26be671bf881"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item_tags.js"
-hash = "3482d168f2daf29f509e910ad9e2d559548f32443e85ad66145aea977e96c93d"
+hash = "e1e49ab5eeb61cd8edf74b179a871f2c7ed0493b2cab1573a4835bacae191585"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
 hash = "66371520ba5a4687c5842ae3d8bbaf0cb42c49e37011ceba0e28563be696be52"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.0.4-a-dev-server-7c07c1e5-1.20.1.jar"
-hash = "87fce232dbc25a18b8e93369a08a3665738fadf9d141e274a15ed52d6a92681e"
+file = "mods/DistantHorizons-forge-2.0.4-a-dev-custom-01-1.20.1.jar"
+hash = "a9ba9fbc855e68b7e5e06a6af3d80e2493c6109c7d89ef5b06f9c76d134b9e68"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
