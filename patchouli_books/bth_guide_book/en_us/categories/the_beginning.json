@@ -1,0 +1,6 @@
+{
+	"name": "The Beginning",
+	"description": "Welcome to $(thing)Beyond the Horizon$()! Many things and changes to standard mods are based on the lore described in this section.$(br2)Though you aren't tied into a quest line or any specific progression. Have fun!'",
+	"icon": "minecraft:filled_map",
+	"sortnum": 0
+}

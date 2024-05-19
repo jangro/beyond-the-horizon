@@ -1,6 +1,6 @@
 {
-	"name": "The Beginning",
-	"description": "Learn all about the $(thing)Beyond the Horizon$() Modpack here!",
-	"icon": "minecraft:filled_map",
-	"sortnum": 0
+    "name": "The Basics",
+    "description": "There are many things to do and learn in this pack including everything from small tweaks to major content mods. Here are some things to get you started.",
+    "icon": "minecraft:wooden_pickaxe",
+    "sortnum": 1
 }

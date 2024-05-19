@@ -1,11 +1,11 @@
 {
-    "name": "*** Your Story ***",
+    "name": "1. Your Story",
     "icon": "minecraft:nether_star",
-    "category": "patchouli:intro",
+    "category": "patchouli:the_beginning",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Listen closely, adventurer$(). You are a descendant of an ancient civilization renowned for its ingenuity and love of exploration. Those who spent their time in the skies developed enhanced vision and could see 'Beyond the Horizon.' You've inherited this trait and a hunger for exploration."
+            "text": "$(l)Listen closely, adventurer$(). You are a descendant of an ancient civilization renowned for its ingenuity and love of exploration -- The Aetherians -- Those who spent their time in the skies developed enhanced vision and could see 'Beyond the Horizon.' You've inherited this trait and a hunger for exploration."
         },
         {
             "type": "patchouli:text",
@@ -15,9 +15,9 @@
             "type": "patchouli:text",
             "text": "$(l)This Journal Is The Key$()$(br2)Long ago, in a dusty attic, you found this journal left by one of your ancestors, revealing your story and how to create a portal to The Aether, and the lost knowledge of how to enter The End."
         },
-                {
+        {
             "type": "patchouli:text",
-            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal in a Lost Castle to to protect all realms from the Dragon. They crafted 16 unique Eyes and scattered them across dimensions, within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End. Is this you?"
+            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal in a Lost Castle to protect all realms from the Dragon. They crafted 16 unique Eyes $(l:the_beginning/the_end)and scattered them across dimensions$(), within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End. Is this you?"
         },
         {
             "type": "patchouli:text",
@@ -33,7 +33,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)The World Reborn$() $(br2)Returning from The Aether, you integrate the relics of the past with modern technology. You establish a base to create a foundation of your technological and magical mastery, while never losing that taste for adventure. That's good because you must defeat the Dragon to fulfil your legacy'."
+            "text": "$(l)The World Reborn$() $(br2)Returning from The Aether, you integrate the relics of the past with modern technology. You establish a base to create a foundation of your technological and magical mastery, while never losing that taste for adventure. That's good because you must defeat the Dragon to fulfill your legacy."
         },
         {
             "type": "patchouli:text",
@@ -45,11 +45,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Armed with tools of technology and magic, you take the fight underground, battling mutants and exploring new dimensions. But danger isn't the only thing you find -- deep in the Nether and End, you uncover new delights like Grilled Strider and Void Soup."
+            "text": "Armed with tools of technology and magic, you take the fight underground, battling mutants and exploring new dimensions. But danger isn't the only thing you find -- you learn of another civilization that thrived alongside your ancestors, the $(l:the_beginning/rats)Ratlantians$()."
         },
         {
             "type": "patchouli:text",
-            "text": "You become a culinary pioneer, bringing Nether's Delight, End's Delight, and more to the Overworld."
+            "text": "To gain access to their lost world, and their treasures, you must seek out their ancient currency to craft a relic that will take you there. If you dare..."
         },
         {
             "type": "patchouli:text",
@@ -57,7 +57,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Conclusion$() $(br2)This journey is yours, adventurer. From reclaiming the skies to taming beasts and mastering machinery, your story is what you make of it. So grab your compass, pack your bags, and write your own legend Beyond the Horizon."
+            "text": "$(l)Conclusion$() $(br2)This journey is yours, adventurer. From reclaiming the skies to taming beasts and mastering machinery, your story is what you make of it. So grab your compass, pack your bags, and write your own legend Beyond the Horizon."
         }
     ]
 }

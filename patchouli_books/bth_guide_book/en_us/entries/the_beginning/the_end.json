@@ -1,11 +1,15 @@
 {
-    "name": "End Remastered",
+    "name": "The End Quest",
     "icon": "endrem:lost_eye",
-    "category": "patchouli:mod_info",
+    "category": "patchouli:the_beginning",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)The Quest for Eyes$() $(br2)Opening a portal to the End is no small feat. Instead of simply gathering Ender Pearls and Blaze Powder, you embark on a challenging quest to find up to 16 custom eyes scattered across various structures and through unique crafting. You'll need 12 unique eyes to open the end portal."
+            "text": "Centuries ago, the Aether's elders foresaw catastrophic dangers from easy access to the End. To protect all realms, they crafted 16 unique Eyes and scattered them across dimensions, hidden within structures and guarded by dangerous creatures. Only the most worthy adventurers, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Opening a portal to the End is no small feat. Instead of simply gathering Ender Pearls and Blaze Powder, you must embark on a quest to find up to 16 different eyes. $(br2)You'll need 12 unique eyes to open the end portal, though an Eye of Ender can be one."
         },
         {
             "type": "patchouli:text",
