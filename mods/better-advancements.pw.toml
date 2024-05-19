@@ -1,6 +1,6 @@
 name = "Better Advancements"
 filename = "BetterAdvancements-1.20.1-0.3.2.162.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
