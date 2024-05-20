@@ -100,8 +100,17 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('totw_modded:has_structure/ice_tower', '#bth:is_snowy_mountainous_mountain');
   event.add('totw_modded:has_structure/regular_tower', '#bth:is_mountainous_mountain');
 
-  // Prevent hunter's houses from spawning in yellowstone biomes
-  event.remove('hunters_return:has_structure/hunter_house', 'terralith:yellowstone');
+  // Prevent hunter's houses from spawning in yellowstone biomes. Yellowstone biome is tagged
+  // #minecraft:is_taiga and hunter houses generate in that tag so we have to remove all, then add
+  // back only the biomes we want.
+  event.removeAll('hunters_return:has_structure/hunter_house');
+  event.add('hunters_return:has_structure/hunter_house', [
+    '#minecraft:is_forest',
+    'minecraft:taiga',
+    'minecraft:snowy_taiga',
+    'minecraft:old_growth_pine_taiga',
+    'minecraft:old_growth_spruce_taiga'
+  ]);
 
   // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
   event.removeAll('betterjungletemples:has_structure/better_jungle_temple');
