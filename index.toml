@@ -6,7 +6,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
-hash = "a22a7bb424e090a3a18b63555dff2dd5568338595d4e5121f9ace7f1a14b951d"
+hash = "f2a52448262e1167219eaa07f76f26e6192b34017fc8082f33df82620e603ddd"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -326,7 +326,7 @@ hash = "1c4f75ecc842d9f85499acdff5740e2db906995558186f146ba3a71435bfc785"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "484d1c157bd8a0ba5600f23fc1992f8bc739a338efb9b5c1b12bbcaca85acb05"
+hash = "7168e6ea89e721e1d7ce51b03d66a8cea05d98d6d35c42fcfd134d8f75edc831"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
