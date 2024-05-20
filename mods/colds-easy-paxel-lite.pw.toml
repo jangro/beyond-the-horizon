@@ -1,0 +1,13 @@
+name = "Colds: Easy Paxel (Lite) (FORGE)"
+filename = "EasyPaxel1.20.1(Forge)vs1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55c14eb6198cd72588931d2b1ae27cfb19d813c2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4657750
+project-id = 476520
