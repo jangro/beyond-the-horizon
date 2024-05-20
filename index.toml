@@ -345,8 +345,8 @@ file = "kubejs/startup_scripts/misc.js"
 hash = "66371520ba5a4687c5842ae3d8bbaf0cb42c49e37011ceba0e28563be696be52"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.0.4-a-dev-custom-01-1.20.1.jar"
-hash = "a9ba9fbc855e68b7e5e06a6af3d80e2493c6109c7d89ef5b06f9c76d134b9e68"
+file = "mods/DistantHorizons-forge-2.0.4-a-dev-server-7c07c1e5-1.20.1.jar"
+hash = "87fce232dbc25a18b8e93369a08a3665738fadf9d141e274a15ed52d6a92681e"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
