@@ -36,6 +36,16 @@ ServerEvents.recipes(event => {
       G: 'aether:enchanted_gravitite'
   }).id(`${ID_PREFIX}immersive_aircraft_hull`);
 
+  event.shaped('irons_spellbooks:upgrade_orb', [
+    'ACA',
+    'CEC',
+    'ACA'
+  ], {
+      A: 'irons_spellbooks:arcane_ingot',
+      C: 'irons_spellbooks:cinder_essence',
+      E: 'endrem:magical_eye'
+  }).id(`${ID_PREFIX}irons_upgrade_orb`);
+
   // Minecraft
   event.shaped('minecraft:saddle', [
     'LLL',
