@@ -1,13 +1,13 @@
 name = "Etched"
-filename = "etched-3.0.1.jar"
+filename = "etched-3.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fef3b55ba38c4c1787a6681a5b3487995b4028eb"
+hash = "792f055e76eb7a13efe26552cbccad66c2585860"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5065299
+file-id = 5344499
 project-id = 491890
