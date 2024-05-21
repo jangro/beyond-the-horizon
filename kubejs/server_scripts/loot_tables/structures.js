@@ -119,14 +119,14 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'rats:rat_upgrade_chicken_mount', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_time_manipulator', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_platter', count: 1}, 0.1),
-        LootEntry.withChance({item: 'ceate:precision_mechanism', count: 1}, 0.1),
-        LootEntry.withChance({item: 'ceate:copper_backtank', count: 1}, 0.1),
-        LootEntry.withChance({item: 'ceate:copper_diving_helmet', count: 1}, 0.1),
-        LootEntry.withChance({item: 'ceate:copper_diving_boots', count: 1}, 0.1),
-        LootEntry.withChance({item: 'ceate:item_vault', count: 3}, 0.1),
-        LootEntry.withChance({item: 'ceate:mechanical_crafter', count: 4}, 0.02),
-        LootEntry.withChance({item: 'ceate:electron_tube', count: 2}, 0.1),
-        LootEntry.withChance({item: 'ceate:brass_ingot', count: 6}, 0.1),
+        LootEntry.withChance({item: 'create:precision_mechanism', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:copper_backtank', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:copper_diving_helmet', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:copper_diving_boots', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:item_vault', count: 3}, 0.1),
+        LootEntry.withChance({item: 'create:mechanical_crafter', count: 4}, 0.02),
+        LootEntry.withChance({item: 'create:electron_tube', count: 2}, 0.1),
+        LootEntry.withChance({item: 'create:brass_ingot', count: 6}, 0.1),
       ]
     );
 });
