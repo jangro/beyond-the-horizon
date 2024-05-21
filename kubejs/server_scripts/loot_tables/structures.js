@@ -8,13 +8,138 @@
 // of distance to spawn. Near spawn there will be 1-5 coins, and increase linearly to
 // 10-50 coins 10000 or more blocks away from spawn in a straight line.
 LootJS.modifiers((event) => {
-  event.addLootTypeModifier("chest").randomChance(0.1).apply((context) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyDimension("minecraft:overworld")
+    .randomChance(0.1)
+    .apply((context) => {
       let p = context.getBlockPos();
       let distance = Math.min(Math.max(Math.sqrt(p.x * p.x + p.z * p.z), 0), 10000);
       let factor = 9.0/10000.0*distance + 1; // from 1 (at spawn) to 10 (at 10000+ blocks from spawn)
       let count = Math.floor(Math.random() * 5) + 1;
       context.addLoot(Item.of("rats:tiny_coin", count * factor));
   });
+});
+// Make loot max out at half the distance for the following dimensions
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyDimension(["minecraft:the_end", "minecraft:the_nether", "aether:the_aether"])
+    .randomChance(0.1)
+    .apply((context) => {
+      let p = context.getBlockPos();
+      let distance = Math.min(Math.max(Math.sqrt(p.x * p.x + p.z * p.z), 0), 5000);
+      let factor = 9.0/5000.0*distance + 1; // from 1 (at spawn) to 10 (at 5000+ blocks from spawn)
+      let count = Math.floor(Math.random() * 5) + 1;
+      context.addLoot(Item.of("rats:tiny_coin", count * factor));
+  });
+});
+
+function rnd(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// For Ratlantis shipwrecks, we clear the loot table to remove all overworld loot.
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyDimension(["rats:ratlantis"])
+    //.anyStructure("minecraft:shipwreck", false) // doesn't work?!
+    .apply((context) => {
+      // Clear the loot in shipwrecks but not ghostships (limit to under Y=80)
+      let p = context.getBlockPos();
+      if (p.y < 80) {
+        context.removeLoot(Ingredient.all);
+      }
+    })
+    .addWeightedLoot(
+      [4, 12],
+      [
+        LootEntry.withChance({item: 'ae2:item_storage_cell_16k', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:spatial_storage_cell_2', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:spatial_pylon', count: 3}, 1),
+        LootEntry.withChance({item: 'ae2:portable_item_cell_4k', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:dense_energy_cell', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:fluix_smart_cable', count: 10}, 1),
+        LootEntry.withChance({item: 'ae2:dense_fluix_smart_cable', count: 5}, 1),
+        LootEntry.withChance({item: 'ae2:storage_bus', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:export_bus', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:import_bus', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:formation_core', count: 1}, 0.5),
+        LootEntry.withChance({item: 'ae2:annihilation_core', count: 1}, 0.5),
+        LootEntry.withChance({item: 'ae2:wireless_booster', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:sky_stone_tank', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:pattern_provider', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:molecular_assembler', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:logic_processor', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:calculation_processor', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:engineering_processor', count: 1}, 1),
+        LootEntry.withChance({item: 'ae2:certus_quartz_crystal', count: 3}, 0.1),
+        LootEntry.withChance({item: 'powah:dielecric_paste', count: 48}, 1),
+        LootEntry.withChance({item: 'powah:charged_snowball', count: 3}, 0.1),
+        LootEntry.withChance({item: 'powah:battery_starter', count: 1}, 1),
+        LootEntry.withChance({item: 'powah:battery_basic', count: 1}, 0.5),
+        LootEntry.withChance({item: 'powah:battery_hardened', count: 1}, 0.1),
+        LootEntry.withChance({item: 'powah:steel_energized', count: 12}, 1),
+        LootEntry.withChance({item: 'powah:crystal_blazing', count: 12}, 0.5),
+        LootEntry.withChance({item: 'powah:crystal_niotic', count: 12}, 0.1),
+        LootEntry.withChance({item: 'powah:crystal_spirited', count: 12}, 0.05),
+        LootEntry.withChance({item: 'powah:crystal_nitro', count: 12}, 0.01),
+        LootEntry.withChance({item: 'powah:energy_cell_starter', count: 1}, 1),
+        LootEntry.withChance({item: 'powah:energy_cell_basic', count: 1}, 0.5),
+        LootEntry.withChance({item: 'powah:energy_cell_hardened', count: 1}, 0.1),
+        LootEntry.withChance({item: 'powah:energy_cable_starter', count: 36}, 1),
+        LootEntry.withChance({item: 'powah:energy_cable_basic', count: 36}, 0.5),
+        LootEntry.withChance({item: 'powah:energy_cable_hardened', count: 36}, 0.1),
+        LootEntry.withChance({item: 'powah:solar_panel_starter', count: 1}, 1),
+        LootEntry.withChance({item: 'powah:solar_panel_basic', count: 1}, 0.5),
+        LootEntry.withChance({item: 'powah:solar_panel_hardened', count: 1}, 0.1),
+        LootEntry.withChance({item: 'powah:thermo_generator_starter', count: 1}, 1),
+        LootEntry.withChance({item: 'powah:thermo_generator_basic', count: 1}, 0.5),
+        LootEntry.withChance({item: 'powah:thermo_generator_hardened', count: 1}, 0.1),
+        LootEntry.withChance({item: 'minecraft:diamond', count: 3}, 0.1),
+        LootEntry.withChance({item: 'minecraft:gold', count: 3}, 0.1),
+        LootEntry.withChance({item: 'minecraft:emerald', count: 3}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:printed_circuit_board', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:module_expansion_card', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:smart_chest', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:medium_tank', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:flux_compressor', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:advanced_liquid_compressor', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:plastic_sheets', count: 12}, 0.1),
+        LootEntry.withChance({item: 'smallships:cannon', count: 1}, 0.01),
+        LootEntry.withChance({item: 'smallships:cannon_ball', count: 3}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_skull', count: 1}, 0.05),
+        LootEntry.withChance({item: 'rats:contaminated_food', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:plague_stew', count: 1}, 0.05),
+        LootEntry.withChance({item: 'rats:rat_upgrade_speed', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_health', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_ender', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_ore_doubling', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_chicken_mount', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_time_manipulator', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_platter', count: 1}, 0.1),
+        LootEntry.withChance({item: 'ceate:precision_mechanism', count: 1}, 0.1),
+        LootEntry.withChance({item: 'ceate:copper_backtank', count: 1}, 0.1),
+        LootEntry.withChance({item: 'ceate:copper_diving_helmet', count: 1}, 0.1),
+        LootEntry.withChance({item: 'ceate:copper_diving_boots', count: 1}, 0.1),
+        LootEntry.withChance({item: 'ceate:item_vault', count: 3}, 0.1),
+        LootEntry.withChance({item: 'ceate:mechanical_crafter', count: 4}, 0.02),
+        LootEntry.withChance({item: 'ceate:electron_tube', count: 2}, 0.1),
+        LootEntry.withChance({item: 'ceate:brass_ingot', count: 6}, 0.1),
+      ]
+    );
+});
+
+// Add a random amount (10-30) of tiny coins to all loot chests in Ratlantis
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyDimension(["rats:ratlantis"])
+    .randomChance(0.5)
+    .apply((context) => {
+      context.addLoot(Item.of("rats:tiny_coin", Math.floor(Math.random() * 21) + 10));
+    });
 });
 
 // Add increased chance of coins and increase number of coins in dungeons
@@ -53,14 +178,10 @@ LootJS.modifiers((event) => {
       'dungeons_arise:typhon',
       'dungeons_arise:undead_pirate_ship',
       ], false)
-    .addWeightedLoot([
-      Item.of("rats:tiny_coin", 7).withChance(1),
-      Item.of("rats:tiny_coin", 10).withChance(1),
-      Item.of("rats:tiny_coin", 14).withChance(1),
-      Item.of("rats:tiny_coin", 17).withChance(1),
-      Item.of("rats:tiny_coin", 19).withChance(1)
-    ]);
-});
+      .apply((context) => {
+        context.addLoot(Item.of("rats:tiny_coin", Math.floor(Math.random() * 21) + 0));
+      });
+  });
 
 
 // Add biome maps to towers. The first successful roll will be added.
@@ -167,7 +288,7 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
-    .anyBiome("minecraft:deep_dark") 
+    .anyBiome("minecraft:deep_dark")
     .randomChance(0.2)
     .addLoot(ancient_city_map)
 });
