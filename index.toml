@@ -34,11 +34,11 @@ hash = "732702004fcc02128294ff9b4f30b1a07dd15977b64f24d019464c4c6ccc6b1a"
 
 [[files]]
 file = "config/artifacts/common.json5"
-hash = "e515f9fdb16e7bec1e6ecb73bb8d53de8d4239f709afe3032f1a24934dcbdbfc"
+hash = "81f6cb543a1b262b92ee68b9ae58955c1374bccef9c4b2237e7a709dd2680b47"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "c9f0834f52192ab229600f47445bedf167baff5b88572847e7159725e05433d6"
+hash = "b5be8bad368b4c24c85fb83a568d420f28d212fe7be048c7ff498f4702da9d44"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -46,11 +46,11 @@ hash = "ff29e5135387cad02db16a3e528a3c756c0fee9e3e2cbf3517ce12eaafdbfd71"
 
 [[files]]
 file = "config/fml.toml"
-hash = "341deb858ec4271cb07934e5c82e8bca84aaf07e890c3403560ed215f4de1f16"
+hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 
 [[files]]
 file = "config/forge-client.toml"
-hash = "613d60015c3671d95f59f4ce70c0b9956c377a3050219560d0b824cd1e9648b7"
+hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -66,11 +66,15 @@ hash = "2b1526ed7cf8433914ff2bd6de590742570aae953ee5ded73df01a5aa50f0bc6"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "5bec1036c793b5e0f4288d54c3f49d1b7747f667ab1f4d40c20f698233c79248"
+hash = "ec852433f0693e5f5b13fc7220573272b14e95af05c73aef70932916999c7fbe"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
-hash = "3eb89600c57e4726407cfcac6d931a9957274d48567824d4155d3e0b9600ae3a"
+hash = "71f75de4eac0fa8d3a8ccae7be06611c5a70706ab9b5cfbc82afcece5d371ec3"
+
+[[files]]
+file = "config/mutantmonsters-common.toml"
+hash = "65f84a46e132a23a6b293dd66fa0cbaa8acc751dbf0029fdbeccfce517ea4e7a"
 
 [[files]]
 file = "config/neapolitan-common.toml"
@@ -94,7 +98,7 @@ hash = "a3d66c169b0d6ef9681456d7464d43c621dbc77569af33498f29438175edefb5"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "12f9b7014cf988768dacf77ea7294afc4138910e6ba9a452b1964cb5ece7f511"
+hash = "180f42cfadce8242e12138462b23e974003dabdf28d9d776dd8071eb3d2fb50a"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.core.config"
@@ -130,15 +134,15 @@ hash = "46cd84dab26b653e47f02d3afaedaf1b287edffe18b82961cbf07a01a362b1fc"
 
 [[files]]
 file = "kubejs/config/client.properties"
-hash = "b4215b6289214d27c0b63802e0667fa06a98cebfb2e5d311c57a469771defe03"
+hash = "4a456b16f9167db006611f281cecc10db2be11c5dd9f6d00b79bd76dff442b21"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "aad7b37841d08e11ba022468846ecbe7091b519955e9788d5acaefc654997208"
+hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "bc37ffd18f8cb7dc4b2703986dd4a107fe48f627d075f34c6020c6aa93214a8d"
+hash = "1d4211f4afcaeb5ce9bebbf30289306d35b45feccb7a0fac224e727bc3589a11"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -245,6 +249,18 @@ file = "kubejs/data/minecraft/tags/functions/load.json"
 hash = "5369ee6d8ed73045e4eab2e4ce4ef1691724ba322157860b1a817a6eb961f52a"
 
 [[files]]
+file = "kubejs/data/pneumaticcraft/loot_tables/custom/common_dungeon_loot.json"
+hash = "6098c9a5a60db51532487265e343612d1b0f2e5f5c45670d5a709b263bcf7a0b"
+
+[[files]]
+file = "kubejs/data/pneumaticcraft/loot_tables/custom/rare_dungeon_loot.json"
+hash = "a59a2a51dcf5bcbccf3a59dadeda744c25538ffa856511d2e0494478f7aebc7a"
+
+[[files]]
+file = "kubejs/data/pneumaticcraft/loot_tables/custom/uncommon_dungeon_loot.json"
+hash = "b95e8e91084f9d61114243b5ebdf6690f1e30ddf8b0ccabfba4c2d096930685c"
+
+[[files]]
 file = "kubejs/data/pneumaticcraft/worldgen/placed_feature/oil_lake_surface.json"
 hash = "976596fb665ec85a6e78e268b4d1858f20d9cd3d49a4f3a12725307e0808dc22"
 
@@ -302,7 +318,7 @@ hash = "3ba60f043ec28b69e47df8211653b5574275d73c060e38ac56e82ecec4e58186"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "338b9f21029e4b508420dd6684b1745fc881343e21e8dec38b42dc38f7b38f71"
+hash = "d7b4af2374f491645691c103461d8e239b61cd1d8040ae4f65173601a9ff42a6"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create.js"
@@ -310,7 +326,7 @@ hash = "7404346031e1256f70d256beed4ace05315bc83c64b46b15cb3aa102585a7e12"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
-hash = "07ed6a758cdd5a3dbb2ada7c5e0b6e927372c8c2b6244cc38bcecd9fddd49f3c"
+hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
@@ -318,11 +334,11 @@ hash = "1bdf9e599f695098f80380416ba363ce53f93b793f2f97368c45d21c63508f64"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "98e846eba6914c5314fa11eaa54596d565aed250b3254acf26c5aa01b5b344f5"
+hash = "5ab9e9787d474327a48a55618e6ee54b47d6e28d9032fa26e6f79b1b8385eeed"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "1c4f75ecc842d9f85499acdff5740e2db906995558186f146ba3a71435bfc785"
+hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
@@ -330,7 +346,7 @@ hash = "7168e6ea89e721e1d7ce51b03d66a8cea05d98d6d35c42fcfd134d8f75edc831"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
-hash = "7343276bf481e49826e0dc32235085eb0a447eec8ea57402c2d5ef6fb9048de5"
+hash = "db654abfed53d653e9e1a9aa0098d7f3bf1b49609d9605f307ac701ea5954ad9"
 
 [[files]]
 file = "kubejs/server_scripts/tags/entity_type.js"
