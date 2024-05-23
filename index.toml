@@ -101,6 +101,10 @@ file = "config/waystones-common.toml"
 hash = "180f42cfadce8242e12138462b23e974003dabdf28d9d776dd8071eb3d2fb50a"
 
 [[files]]
+file = "defaultconfigs/moremobgriefingoptions-server.toml"
+hash = "1d7d811f179c638ec52e77db6791b5a71b7f2113543e846b93e434b7203f7f0b"
+
+[[files]]
 file = "journeymap/config/5.9/journeymap.core.config"
 hash = "1e3f075040a1fee87f9dfd3d318ab5bae8b98d394981d88b284e4381b99e2304"
 
@@ -254,11 +258,11 @@ hash = "6098c9a5a60db51532487265e343612d1b0f2e5f5c45670d5a709b263bcf7a0b"
 
 [[files]]
 file = "kubejs/data/pneumaticcraft/loot_tables/custom/rare_dungeon_loot.json"
-hash = "a59a2a51dcf5bcbccf3a59dadeda744c25538ffa856511d2e0494478f7aebc7a"
+hash = "765c4f9e9a494e51253a4e1f9188cbdbcf869f4225cb116b6c88923b66889cfa"
 
 [[files]]
 file = "kubejs/data/pneumaticcraft/loot_tables/custom/uncommon_dungeon_loot.json"
-hash = "b95e8e91084f9d61114243b5ebdf6690f1e30ddf8b0ccabfba4c2d096930685c"
+hash = "8ad3a408e84fad619960d84009c3e40ad5cf96ca315ed0851f00b0fd7e119e42"
 
 [[files]]
 file = "kubejs/data/pneumaticcraft/worldgen/placed_feature/oil_lake_surface.json"
@@ -1107,6 +1111,11 @@ metafile = true
 [[files]]
 file = "mods/modular-routers.pw.toml"
 hash = "6bcf7a39bad33980cfd720cc78b1e2fe703f7cf0635c00a59948a561c66bf2e0"
+metafile = true
+
+[[files]]
+file = "mods/more-mobgriefing-options.pw.toml"
+hash = "0c8b5ccb02d36503fbec9aaaff16cc6b1aa91bd118c3de2b8a9b6e30411e92eb"
 metafile = true
 
 [[files]]

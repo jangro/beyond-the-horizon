@@ -1,0 +1,13 @@
+name = "More MobGriefing Options"
+filename = "MoreMobGriefingOptions-1.20.1-2.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2f8a81a7220b226720040d3345e08bedb888c96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4670103
+project-id = 389013
