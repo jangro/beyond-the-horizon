@@ -11,11 +11,6 @@
  * @const {!string[]}
  */
 const ADVANCEMENTS_TO_REMOVE = [
-  'irons_spellbooks:advancements/grant_patchouli.json',
-  'simplyswords:advancements/grant_book_on_first_join.json',
-  'totw_modded:advancements/derelict_grass_tower.json',
-  'totw_modded:advancements/derelict_tower.json',
-  'totw_modded:advancements/jungle_tower.json',
   'dungeons_arise:advancements/find_heavenly_challenger.json',
   'dungeons_arise:advancements/find_heavenly_conqueror.json',
   'dungeons_arise:advancements/find_heavenly_rider.json',
@@ -26,6 +21,11 @@ const ADVANCEMENTS_TO_REMOVE = [
   'dungeons_arise:advancements/find_scorched_mines.json',
   'dungeons_arise:advancements/find_small_blimp.json',
   'dungeons_arise:advancements/find_wishing_well.json',
+  'irons_spellbooks:advancements/grant_patchouli.json',
+  'simplyswords:advancements/grant_book_on_first_join.json',
+  'totw_modded:advancements/derelict_grass_tower.json',
+  'totw_modded:advancements/derelict_tower.json',
+  'totw_modded:advancements/jungle_tower.json',
 ];
 
 /**

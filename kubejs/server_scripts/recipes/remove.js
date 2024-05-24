@@ -20,9 +20,9 @@ ServerEvents.recipes(event => {
   [
     'aether:aether_saddle',
     'immersive_aircraft:hull',
+    'rats:upgrades/aristocrat_upgrade',
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
     'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
     /wardrobe:.*backpack/,
-    'rats:upgrades/aristocrat_upgrade',
   ].forEach((recipeID) => event.remove({id: recipeID}));
 });

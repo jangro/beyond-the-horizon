@@ -20,6 +20,7 @@ LootJS.modifiers((event) => {
       context.addLoot(Item.of("rats:tiny_coin", count * factor));
   });
 });
+
 // Make loot max out at half the distance for the following dimensions
 LootJS.modifiers((event) => {
   event
@@ -55,6 +56,10 @@ LootJS.modifiers((event) => {
     .addWeightedLoot(
       [4, 12],
       [
+        LootEntry.withChance({item: 'minecraft:diamond', count: 3}, 0.1),
+        LootEntry.withChance({item: 'minecraft:gold', count: 3}, 0.1),
+        LootEntry.withChance({item: 'minecraft:emerald', count: 3}, 0.1),
+
         LootEntry.withChance({item: 'ae2:item_storage_cell_16k', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:spatial_storage_cell_2', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:spatial_pylon', count: 3}, 1),
@@ -75,6 +80,24 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'ae2:calculation_processor', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:engineering_processor', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:certus_quartz_crystal', count: 3}, 0.1),
+
+        LootEntry.withChance({item: 'create:precision_mechanism', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:copper_backtank', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:copper_diving_helmet', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:copper_diving_boots', count: 1}, 0.1),
+        LootEntry.withChance({item: 'create:item_vault', count: 3}, 0.1),
+        LootEntry.withChance({item: 'create:mechanical_crafter', count: 4}, 0.02),
+        LootEntry.withChance({item: 'create:electron_tube', count: 2}, 0.1),
+        LootEntry.withChance({item: 'create:brass_ingot', count: 6}, 0.1),
+
+        LootEntry.withChance({item: 'pneumaticcraft:printed_circuit_board', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:module_expansion_card', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:smart_chest', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:medium_tank', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:flux_compressor', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:advanced_liquid_compressor', count: 1}, 0.1),
+        LootEntry.withChance({item: 'pneumaticcraft:plastic_sheets', count: 12}, 0.1),
+
         LootEntry.withChance({item: 'powah:dielecric_paste', count: 48}, 1),
         LootEntry.withChance({item: 'powah:charged_snowball', count: 3}, 0.1),
         LootEntry.withChance({item: 'powah:battery_starter', count: 1}, 1),
@@ -97,18 +120,7 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'powah:thermo_generator_starter', count: 1}, 1),
         LootEntry.withChance({item: 'powah:thermo_generator_basic', count: 1}, 0.5),
         LootEntry.withChance({item: 'powah:thermo_generator_hardened', count: 1}, 0.1),
-        LootEntry.withChance({item: 'minecraft:diamond', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:gold', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:emerald', count: 3}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:printed_circuit_board', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:module_expansion_card', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:smart_chest', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:medium_tank', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:flux_compressor', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:advanced_liquid_compressor', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:plastic_sheets', count: 12}, 0.1),
-        LootEntry.withChance({item: 'smallships:cannon', count: 1}, 0.01),
-        LootEntry.withChance({item: 'smallships:cannon_ball', count: 3}, 0.1),
+        
         LootEntry.withChance({item: 'rats:rat_skull', count: 1}, 0.05),
         LootEntry.withChance({item: 'rats:contaminated_food', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:plague_stew', count: 1}, 0.05),
@@ -120,14 +132,9 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'rats:rat_upgrade_time_manipulator', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_platter', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_aristocrat', count: 1}, 0.05),
-        LootEntry.withChance({item: 'create:precision_mechanism', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:copper_backtank', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:copper_diving_helmet', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:copper_diving_boots', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:item_vault', count: 3}, 0.1),
-        LootEntry.withChance({item: 'create:mechanical_crafter', count: 4}, 0.02),
-        LootEntry.withChance({item: 'create:electron_tube', count: 2}, 0.1),
-        LootEntry.withChance({item: 'create:brass_ingot', count: 6}, 0.1),
+        
+        LootEntry.withChance({item: 'smallships:cannon', count: 1}, 0.01),
+        LootEntry.withChance({item: 'smallships:cannon_ball', count: 3}, 0.1),
       ]
     );
 });

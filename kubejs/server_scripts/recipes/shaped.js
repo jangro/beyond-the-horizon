@@ -26,25 +26,6 @@ ServerEvents.recipes(event => {
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
 
-  event.shaped('immersive_aircraft:hull', [
-      'LLL',
-      'IGI',
-      'LLL'
-  ], {
-      L: 'aether:skyroot_log',
-      I: '#forge:ingots/iron',
-      G: 'aether:enchanted_gravitite'
-  }).id(`${ID_PREFIX}immersive_aircraft_hull`);
-
-  event.shaped('irons_spellbooks:upgrade_orb', [
-    'ACA',
-    'CEC',
-    'ACA'
-  ], {
-      A: 'irons_spellbooks:arcane_ingot',
-      C: 'irons_spellbooks:cinder_essence',
-      E: 'endrem:magical_eye'
-  }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
   // Minecraft
   event.shaped('minecraft:saddle', [
@@ -56,6 +37,27 @@ ServerEvents.recipes(event => {
     L: '#forge:leather',
     I: '#forge:ingots/iron'
   }).id(`${ID_PREFIX}saddle`);
+  
+  // Immersive Aircraft
+  event.shaped('immersive_aircraft:hull', [
+    'LLL',
+    'IGI',
+    'LLL'
+  ], { 
+    L: 'aether:skyroot_log',
+    I: '#forge:ingots/iron',
+    G: 'aether:enchanted_gravitite'
+  }).id(`${ID_PREFIX}immersive_aircraft_hull`);
 
+  // Iron's Spellbooks
+  event.shaped('irons_spellbooks:upgrade_orb', [
+    'ACA',
+    'CEC',
+    'ACA'
+  ], {
+      A: 'irons_spellbooks:arcane_ingot',
+      C: 'irons_spellbooks:cinder_essence',
+      E: 'endrem:magical_eye'
+  }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
 });
