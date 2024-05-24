@@ -104,9 +104,9 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
       .addEntityLootModifier("rats:black_death")
-      .removeLoot('rats:token_piece')
-      .addLoot(LootEntry.of('rats:token_piece').when((c) => c.randomChance(0.1)));
+      .removeLoot('rats:token_piece');
 });
+
 LootJS.modifiers((event) => {
   event
       .addEntityLootModifier("rats:pied_piper")

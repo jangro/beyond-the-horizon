@@ -119,6 +119,7 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'rats:rat_upgrade_chicken_mount', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_time_manipulator', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_platter', count: 1}, 0.1),
+        LootEntry.withChance({item: 'rats:rat_upgrade_aristocrat', count: 1}, 0.05),
         LootEntry.withChance({item: 'create:precision_mechanism', count: 1}, 0.1),
         LootEntry.withChance({item: 'create:copper_backtank', count: 1}, 0.1),
         LootEntry.withChance({item: 'create:copper_diving_helmet', count: 1}, 0.1),

@@ -2,9 +2,9 @@
 
 /**
  * @file JEI Blacklist for Beyond the Horizon
- * 
+ *
  * For consistency, Item / Fluid IDs should be in the order of Minecraft entries first, then by mod in alphabetical order.
- *  
+ *
  */
 
 /**
@@ -16,6 +16,7 @@ JEIEvents.hideItems(event => {
     /upgrade_aquatic:.*bedroll/,
     /valhelsia_structures:.*sleeping_bag/,
     /wardrobe:.*backpack/,
-    /waystones:.*/
+    /waystones:.*/,
+    'rats:rat_upgrade_aristocrat',
   ]);
 });
