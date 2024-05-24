@@ -20,6 +20,8 @@ ServerEvents.recipes(event => {
   [
     'aether:aether_saddle',
     'immersive_aircraft:hull',
+    'pneumaticcraft:speed_upgrade',
+    'pneumaticcraft:speed_upgrade_from_glycerol',
     'rats:upgrades/aristocrat_upgrade',
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
     'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
