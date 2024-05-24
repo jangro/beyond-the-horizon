@@ -23,6 +23,6 @@ ServerEvents.recipes(event => {
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
     'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
     /wardrobe:.*backpack/,
-    'rats:rat_upgrade_aristocrat',
+    'rats:upgrades/aristocrat_upgrade',
   ].forEach((recipeID) => event.remove({id: recipeID}));
 });
