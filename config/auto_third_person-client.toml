@@ -19,7 +19,7 @@ configVersion = 7
 	swim = false
 	#If 'true', the customPattern will be used, and riding anything matching it will toggle third person.
 	#Default: false
-	custom = false
+	custom = true
 	#If 'true', the ignorePattern will be used, and anything matching it will be ignored.
 	#Default: false
 	useIgnore = false
