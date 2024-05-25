@@ -5,8 +5,12 @@ file = "config/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "49f970980bba349d9a0528dc8a5c3a04748dea5250adf406d6dc0f94d3ff430f"
+
+[[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
-hash = "f2a52448262e1167219eaa07f76f26e6192b34017fc8082f33df82620e603ddd"
+hash = "efc7b47dfed6a0b0a0abf8afd8928f01c5d264c1e66c26688a6dad8e35b911f9"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -37,12 +41,16 @@ file = "config/artifacts/common.json5"
 hash = "81f6cb543a1b262b92ee68b9ae58955c1374bccef9c4b2237e7a709dd2680b47"
 
 [[files]]
+file = "config/auto_third_person-client.toml"
+hash = "1593d96e19ed1fccd401d704d6bfb7b8efbaf9b2eb641be0734de267327bf8da"
+
+[[files]]
 file = "config/betterdays-common.toml"
 hash = "b5be8bad368b4c24c85fb83a568d420f28d212fe7be048c7ff498f4702da9d44"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "ff29e5135387cad02db16a3e528a3c756c0fee9e3e2cbf3517ce12eaafdbfd71"
+hash = "6176534b6a720a22ac337f7abb89e846af2fde39617010b85879a959d2f12be9"
 
 [[files]]
 file = "config/fml.toml"
@@ -63,6 +71,10 @@ hash = "a6e78b4f2025bb5f2c313f268a78c07820ad2a72ce47fcad34be4bc92ded5d25"
 [[files]]
 file = "config/integrateddynamics-common.toml"
 hash = "2b1526ed7cf8433914ff2bd6de590742570aae953ee5ded73df01a5aa50f0bc6"
+
+[[files]]
+file = "config/inventoryhud-client.toml"
+hash = "632870008acf4949eb1f3c0f6ff0f32fc498a3058292d8ddb960046736a0f7a8"
 
 [[files]]
 file = "config/jade/jade.json"
@@ -126,11 +138,11 @@ hash = "b7e7d2b51ed8f03454173efa91fd7273bb79ee4e3efd9546cc1c1794e2f92efd"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "8131c27d13b9b0540f7bb4fdce5f48d886e4408db21027e35185abbceb548112"
+hash = "749d580a4eadfafa6a6f21f83f6cf96886c4aa406e4d41607f24e23b80ac571b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "880328d96f18e4eaf6a96370b302d9df92cc924c709979721d94d2891c4193c4"
+hash = "beb67ebc1119c8f109889d799a48a3ded0fe14f620080fc9dcbc16e3b63cc697"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -146,7 +158,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "1d4211f4afcaeb5ce9bebbf30289306d35b45feccb7a0fac224e727bc3589a11"
+hash = "0668d5f60eda66f6177df1613e0c42896552624c7849f8a0fc71ec7ce02cab11"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -282,7 +294,7 @@ hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
 [[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
-hash = "d4ec94e3dfa85535b6598aa12b3bc95a9a7b46dab0710b9fefcc3e107d245946"
+hash = "083c6c778563fc5f25ee68c0011a5fa6e7ebd74fc6b578db30e76883c3d476f4"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
@@ -306,7 +318,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "71bef38e618c4c8c753dc0d88d643ee41753f136136920d8b487be95e661e35c"
+hash = "95ee9032112978810f1de8dd587dfa6e41b0e6ea9c26255f6af1653ac96534fc"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/consts.js"
@@ -318,11 +330,15 @@ hash = "fc6c4b0ae4c8b1e334c495ab97d42125317e3d4c897e15872e440e7bf7d57c4c"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
-hash = "3ba60f043ec28b69e47df8211653b5574275d73c060e38ac56e82ecec4e58186"
+hash = "9c6d8c3a9a9cbe96efe6545704fa32cd0b14101b1ac1230cec484ac75d964f41"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "d7b4af2374f491645691c103461d8e239b61cd1d8040ae4f65173601a9ff42a6"
+hash = "50b99d9c13e58c9fb12390dc6644faf79a039163e145800217bd9b4ddf31fb1b"
+
+[[files]]
+file = "kubejs/server_scripts/loot_tables/trades.js"
+hash = "aa8fdc95f4a586dbb7bb615b5528e1fdeff1cff2449af9d9bbfe1523aa3d4c5c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create.js"
@@ -334,11 +350,11 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "1bdf9e599f695098f80380416ba363ce53f93b793f2f97368c45d21c63508f64"
+hash = "a2a8ceeb41eed5591aea4527485bd068b5ffe554a1e1d581169c75699597d4c1"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "5ab9e9787d474327a48a55618e6ee54b47d6e28d9032fa26e6f79b1b8385eeed"
+hash = "143069753704a4f3c2147476afa673623a63e549b54dacae845b9e755c1cdd0c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
@@ -350,11 +366,11 @@ hash = "7168e6ea89e721e1d7ce51b03d66a8cea05d98d6d35c42fcfd134d8f75edc831"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
-hash = "db654abfed53d653e9e1a9aa0098d7f3bf1b49609d9605f307ac701ea5954ad9"
+hash = "1b132b17e280e599998e8f7196ea638e7904782c7e11fc56b39f3d2faaf43ec4"
 
 [[files]]
 file = "kubejs/server_scripts/tags/entity_type.js"
-hash = "3ac626dd1cc9bfc3a806079d99b86d7234e127707dfba256ed8a26be671bf881"
+hash = "96046b2bbf6129994c8cf461692a3811f52cdf8f83b2c368e564b00566daf6fe"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item_tags.js"
@@ -499,6 +515,11 @@ hash = "eb1248ff3daa6e53f30711e5f848faba42f8327b851277dba4a323885ac0d5d6"
 metafile = true
 
 [[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "9f547ab30cc07d0831d0a066032a832dcb16dd7a5aa77c4c7efeaa29d8c10431"
+metafile = true
+
+[[files]]
 file = "mods/betterdays.pw.toml"
 hash = "2c4d3a816b518862d317c2c83eabcf2072c87e395f11a6e2c978fb4926ea3178"
 metafile = true
@@ -546,6 +567,11 @@ metafile = true
 [[files]]
 file = "mods/butchers-delight.pw.toml"
 hash = "159896d791b8879e561fce55ca2b3e7fc9377b3a3484a831ac9a0e2a560dae9e"
+metafile = true
+
+[[files]]
+file = "mods/buzzier-bees.pw.toml"
+hash = "43ea0b2c562f25ba5a7dd0fe2a6694bed02af4ae4aa39bffe7bbf92ae31a5f87"
 metafile = true
 
 [[files]]
@@ -1606,7 +1632,7 @@ hash = "b79add29860cb5c5bcaaa948c88251afc4be752a487cd4a5b033bf817c1d30cf"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/intro.json"
-hash = "9118ee8db05edf62d4d89fe1a2b23dee86062ced3a6b1fddbf9db91f457e1a84"
+hash = "ae3e1e0f8a363766c2a7c78d6ff8fc897da159e9ec0cd8327d80b2a13e23762b"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/mobs.json"
@@ -1630,7 +1656,7 @@ hash = "e23b657f155242d4ee210b68196cd8c0e39cc699f9fdf09404c1f6f8ba9f0e5b"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/the_beginning.json"
-hash = "029afb1714c8e2d39851ad52737d26152166ff6deaffce87f681d05a7802063f"
+hash = "67b634a43cc8a6c7685b0ce21e5f34ed9f6870855e4f372a2ef3b2fbd1c22369"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/categories/tools_armor.json"
@@ -1646,11 +1672,11 @@ hash = "c6c6715525c093266bb69c464d998c5714325007b94795b19ded53ac12eb936d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/butchering.json"
-hash = "096983385c1979f181cebb75f7b4e8689c4916f874b168cc0cc205b7f02f4955"
+hash = "46a69094e8d850ddcf340d99bf772f216148d95a2ce9a912f97ddc39204e4a12"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/carry_on.json"
-hash = "158a1204508429235907b730124068ae78ff88147b63466aa2d2eb5fdcd2ebc5"
+hash = "51da41231fb56ff07b56873ab6e94f363e617bd5b64008ab2324109fc5817fc2"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/days_and_nights.json"
@@ -1658,51 +1684,51 @@ hash = "950e19a6a566df5644ad1c6a0afc35ef9dc72ad033bac21be7c14b75ab72a727"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/eccentric_tome.json"
-hash = "71e73c9b3035875d38bae2314b8b38d7682da52f6427697195d0516a6185c8c0"
+hash = "2e64ff21d225322a6f5aa538fce21016575c2f593a6ae5f2c83c40caa2d3d87a"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/end_remastered.json"
-hash = "7a868229ab55c41901219de6d1d6cbc2733765946828b99549f2554db793e5e2"
+hash = "0307c1883f051a94007011ca3515485169591bf9bcff10dd03403b715d1c8f1f"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/farming.json"
-hash = "4e29fa69be08772902b3985ed81574a93f983e8ea95adca8d91d3ce82ac6c984"
+hash = "3f142354d7b501c60f114bd29797fe277d9d32860b9aec26c1c86adb5ed037a5"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/jei.json"
-hash = "92e9cc73c1681d274982298f6982f354626a49c5a702b86ee0dafdbc108102d5"
+hash = "a0588e8e7ba7ba50e8d9d2264e27c586e86f7864932a45084ff2d89b7a1796ae"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/journey_map.json"
-hash = "506b823fb3387d00bc3b429fcf5261859d2c015fcfea46881a234504581c2fec"
+hash = "3006ff9bec2faf8021a1f49fc3c24ba6883130b9a9d83092cb46ae66c6ef3862"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/mining.json"
-hash = "674825374f44578aa87944e1e84f3e50a15f20a3b27f67182f4d295846f2e82b"
+hash = "69359930b2797a97f1e3f7a0528c933eba7d56c01eee684418425f55828eadbb"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/mob_spawning.json"
-hash = "97177c5828d723e9e6b47a2d9e71003f06401da78121cb3ae25f62a3ca8d2e44"
+hash = "363ef64c579088237acb945e327940f9d82f7deffef96ef01d7b33132a5a8306"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/mountains.json"
-hash = "7c716f147d927afc73ae16f99c9eaa5502da7be6c616fd67aed939f188496708"
+hash = "89be45c5915624290bfde5042966ff857ba7e0f8f3cea5f5ff2b056bc90d285e"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/villagers.json"
-hash = "ec93265bc38ab239e97ff9df553fb6fcd5b5ba3f135673d2d909f10cd825be77"
+hash = "1610d872657f32b9339709f47bc8bafa7bb383c1c6a38ae7f414cefabdc72037"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/building/building_tools.json"
-hash = "38c78006de66c2b2eebd2caf7b4e42b746399939c339c576b15e3d497d1020b7"
+hash = "1274884cfafc7878b32c6fc5534bcb5472a76f60a7e8d52aa1537ea2111273b1"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/building/clayworks.json"
-hash = "e642c154ec734065f307f7d2c14a85647354abf3e94e39a0bea6cdc1dd4b4c32"
+hash = "6d3e61ce6d7c1111d92294cc366891a150f867482df847b6ae374daad2b31d4f"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/building/hearth_and_home.json"
-hash = "72ca2d15e6666e2b46ff1f3e9570d4627ccca52624543e9528877dabdb072ff8"
+hash = "e190bc9b05916c209677969ae01d47edc25e34e7a4131deae6ae2cdff16e0fd9"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/dimensions/the_aether.json"
@@ -1854,23 +1880,23 @@ hash = "186e63141267a29b4349c53812f09217cd64dc5ee5ed27c6f4e940ca8af53f9d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/ae2_storage.json"
-hash = "c917e8bb6f9131e7779b14c7b8912888007dac8781a666f7a71cebb59ed234cc"
+hash = "790185d8e09af1e9ddaee3fc1e200a7dd64cd9848129d8d690ed69466444bf7d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/ender_storage.json"
-hash = "74a51e219b2730346a3dbba1c6f86546c865c70204631292d30fb3649ca73ded"
+hash = "a9ee8200c2a5ba6a4759b081af21944fbfdc55f85da39dfc2c6ba870a4eb7f67"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/id_storage.json"
-hash = "c6f066f20b405c6582ac6ad27b57568efb171fd75598c5fb6a8f70bd4c1e789a"
+hash = "74327a6dd7bf4053e76a62b66c2df89b2d60a446596bc161d81ecd6eb6a3df2a"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_drawers.json"
-hash = "7db68da272db61d94fb61f07aa06f3df2bdd3748f6446578865037ae585a4785"
+hash = "c3072012bf1cbab9d8e1734b77b6f4c03d458d7830980214c1cd51295384e942"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_racks.json"
-hash = "3d6125d90ac44a07d8bbc99f89675855704bbe0a0f608871b56d8b00e3ffbdbe"
+hash = "087b528a5285bd52280b590758fa42bdb8df617065f2b2f69c4f75e9e8606a6d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/travelers_backpacks.json"
@@ -1886,7 +1912,7 @@ hash = "ce6c30deeaf008c108007d1b490b530747597df1005030fbf59ed5726775a78e"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_beginning/backstory.json"
-hash = "c09ead1434eb6f9756530b94a2c6e2ff23a7ff6f9085dc106f06d385525cae25"
+hash = "81c60d0e8f740ac6f5d0b0edd832fedd841b62327b526d7d7ab9e1b19100da6f"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_beginning/rats.json"
@@ -1894,7 +1920,7 @@ hash = "ca737a8ff3cbcee351d869437bf9801fd83d23b85d317b28e15b3e9333887048"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_beginning/the_end.json"
-hash = "7a7d102300c207f19a5fa3576eb1d3b3917ce3157035811084c7d24dfb99a0b7"
+hash = "cc8e4b12202e2039c0700735c4d083f1d3bb08be224b6524edc6449755bdc14c"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/tools_armor/simply_swords.json"
@@ -1937,7 +1963,7 @@ file = "patchouli_books/bth_guide_book/en_us/entries/world_gen/aquamirae.json"
 hash = "e14c4c818d3dee5de2756687e1334d1be00f14762e909849359c886ec3d3542f"
 
 [[files]]
-file = "resourcepacks/BTH Panorama.zip"
+file = "resourcepacks/BTH-Panorama.zip"
 hash = "bff7f043bc12f4bfd3494e7f01e6b9b2271bf88f3da68d0deeef52893a34cbec"
 
 [[files]]
