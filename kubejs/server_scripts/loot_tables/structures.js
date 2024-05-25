@@ -58,9 +58,8 @@ LootJS.modifiers((event) => {
       [
         LootEntry.withChance({item: 'minecraft:diamond', count: 3}, 0.1),
         LootEntry.withChance({item: 'minecraft:gold', count: 3}, 0.1),
-        lootentry.withchance({item: 'minecraft:emerald', count: 3}, 0.1),
-        lootentry.withchance({item: 'minecraft:rotten_flesh', count: 1}, 1),
-
+        LootEntry.withChance({item: 'minecraft:emerald', count: 3}, 0.1),
+        LootEntry.withChance({item: 'minecraft:rotten_flesh', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:item_storage_cell_16k', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:spatial_storage_cell_2', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:spatial_pylon', count: 3}, 1),
@@ -81,7 +80,6 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'ae2:calculation_processor', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:engineering_processor', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:certus_quartz_crystal', count: 3}, 0.1),
-
         LootEntry.withChance({item: 'create:precision_mechanism', count: 1}, 1),
         LootEntry.withChance({item: 'create:copper_backtank', count: 1}, 0.1),
         LootEntry.withChance({item: 'create:copper_diving_helmet', count: 1}, 0.1),
@@ -96,13 +94,9 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'create:railway_casing', count: 3}, 1),
         LootEntry.withChance({item: 'create:controls', count: 1}, 0.01),
         LootEntry.withChance({item: 'create:track_station', count: 1}, 0.5),
-
-        lootentry.withchance({item: 'domesticationinnovation:rotten_apple', count: 1}, 1),
-
-        lootentry.withchance({item: 'farmersdelight:rotten_tomato', count: 1}, 1),
-
-        lootentry.withchance({item: 'forbidden_arcanus:rotten_leather', count: 1}, 1),
-
+        LootEntry.withChance({item: 'domesticationinnovation:rotten_apple', count: 1}, 1),
+        LootEntry.withChance({item: 'farmersdelight:rotten_tomato', count: 1}, 1),
+        LootEntry.withChance({item: 'forbidden_arcanus:rotten_leather', count: 1}, 1),
         LootEntry.withChance({item: 'pneumaticcraft:printed_circuit_board', count: 1}, 1),
         LootEntry.withChance({item: 'pneumaticcraft:module_expansion_card', count: 1}, 1),
         LootEntry.withChance({item: 'pneumaticcraft:smart_chest', count: 1}, 0.1),
@@ -111,7 +105,6 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'pneumaticcraft:advanced_liquid_compressor', count: 1}, 0.02),
         LootEntry.withChance({item: 'pneumaticcraft:advanced_pressure_tube', count: 6}, 0.5),
         LootEntry.withChance({item: 'pneumaticcraft:plastic_sheets', count: 12}, 1),
-
         LootEntry.withChance({item: 'powah:dielecric_paste', count: 48}, 1),
         LootEntry.withChance({item: 'powah:charged_snowball', count: 3}, 0.1),
         LootEntry.withChance({item: 'powah:battery_starter', count: 1}, 1),
@@ -134,7 +127,6 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'powah:thermo_generator_starter', count: 1}, 1),
         LootEntry.withChance({item: 'powah:thermo_generator_basic', count: 1}, 0.5),
         LootEntry.withChance({item: 'powah:thermo_generator_hardened', count: 1}, 0.1),
-        
         LootEntry.withChance({item: 'rats:rat_skull', count: 1}, 0.05),
         LootEntry.withChance({item: 'rats:contaminated_food', count: 1}, 1),
         LootEntry.withChance({item: 'rats:nether_cheese', count: 3}, 1),
@@ -155,7 +147,6 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'rats:rat_upgrade_time_manipulator', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_platter', count: 1}, 0.1),
         LootEntry.withChance({item: 'rats:rat_upgrade_aristocrat', count: 1}, 0.05),
-        
         LootEntry.withChance({item: 'smallships:cannon', count: 1}, 0.01),
         LootEntry.withChance({item: 'smallships:cannon_ball', count: 3}, 0.1),
       ]
