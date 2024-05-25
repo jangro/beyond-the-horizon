@@ -6,7 +6,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "49f970980bba349d9a0528dc8a5c3a04748dea5250adf406d6dc0f94d3ff430f"
+hash = "22ca82cfb7a3c81b8516007062e58d1141474b8c92a4ee8fdda1652089b2f8a3"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
@@ -50,7 +50,7 @@ hash = "b5be8bad368b4c24c85fb83a568d420f28d212fe7be048c7ff498f4702da9d44"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "6176534b6a720a22ac337f7abb89e846af2fde39617010b85879a959d2f12be9"
+hash = "f624f30deae52eca1b017b6d4e8c906de2f60c1a5f5b3a92e4993f8cf8b6d861"
 
 [[files]]
 file = "config/fml.toml"
@@ -334,7 +334,7 @@ hash = "9c6d8c3a9a9cbe96efe6545704fa32cd0b14101b1ac1230cec484ac75d964f41"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "50b99d9c13e58c9fb12390dc6644faf79a039163e145800217bd9b4ddf31fb1b"
+hash = "730ceb4dc38aadb82beb12fe71d184d83f3964d632b63ce6add844b58340b001"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
@@ -421,7 +421,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "573265f970ac718fa4b646f1b43dd44588c0e1e55a34e2cb2ff1bea5e9157264"
+hash = "09c677f5c83baf5ba5fa27528522283d192eb0ee024955b98954e87f27a0bfc5"
 metafile = true
 
 [[files]]
@@ -651,7 +651,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "14e2b2f26aff8192baac5ba50948aa131bd7b70ce0c1bf703804a0b08ead7dd0"
+hash = "d991200509d9cac4beac85ae96ee2bda9feb38fb622679493c18e0f4639eead8"
 metafile = true
 
 [[files]]
@@ -761,7 +761,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "f4d41750be3841d73640ba8f4da3ec8e2e8baef4afef7ecb55dd4afd10588d34"
+hash = "ef203cfb9e4703fc48e154ccc2da9f0a1af4770d49f403f3ed0a581e5498a515"
 metafile = true
 
 [[files]]
@@ -816,7 +816,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "daf9caa49dc95f5fbeeb41f28f106715049186fc11b6055500440a78e1a86237"
+hash = "a7d0f91019a257ee87593ba65ae2bcb0c254c0238831a07ab7fdcc567dade188"
 metafile = true
 
 [[files]]
@@ -1021,7 +1021,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "8c70a47d8aa85254c3fef53d6d2ae211bcbe846632b949d1dbe68f4b36b52746"
+hash = "6cd49e589306f7419b852e0c16121a9ae9a8b9edf99b4324337e4f7bbe4a9b61"
 metafile = true
 
 [[files]]
@@ -1116,7 +1116,7 @@ metafile = true
 
 [[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
-hash = "7a2430a4542e6a76bce2dd2ad59fbf1d2be6f48d0308666eeb1f0a1854e1bd78"
+hash = "f8d4dd5e5722e11ec5765885a46af1b69fdc447215c493ff93c556ff1f6e45f6"
 metafile = true
 
 [[files]]
@@ -1126,7 +1126,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "e6f24338ac57e778ccb4db948c6d021472d7cf1139096c75a48dc217b0d0075f"
+hash = "16ee2efea9e170bb70e88f124b74ebee93a4b534286aa2b777080bf7d0db1741"
 metafile = true
 
 [[files]]
@@ -1261,7 +1261,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "7c06fb40a6113c0c483726efb30a817d56683c1abf39d751d637f3e53291a21f"
+hash = "f5c50b0df269c233b8278590c4d436ca59a0cccbf88e1daea8296c95023ba0fd"
 metafile = true
 
 [[files]]
@@ -1311,7 +1311,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "d64f9f2bec28a62c595d5be6c34bc11bd77970ddbcfc81cdafe6a4b4eabbc731"
+hash = "2ebc9366a396634d88e2ca05600797edf48edd1005318256aa35e4ffc740e516"
 metafile = true
 
 [[files]]
@@ -1331,7 +1331,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "d68e3dec94d4da1500d1bdfa4901507d86165ab8ccd6ece218636ebab86b43bc"
+hash = "41364c70f851df4ce18af9d57b426075c4348713f177297de90d8c42ae7004e4"
 metafile = true
 
 [[files]]
@@ -1341,7 +1341,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backups.pw.toml"
-hash = "96061d270d73559c6f94dc3e448faaacd0724b2f823880c3a3f56de6f9bcc218"
+hash = "bac0e6557f54b428ec06c687957469f2d1d01d71bc9f9c5adb4696ce6651c6f2"
 metafile = true
 
 [[files]]
