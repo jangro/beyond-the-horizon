@@ -334,7 +334,7 @@ hash = "9c6d8c3a9a9cbe96efe6545704fa32cd0b14101b1ac1230cec484ac75d964f41"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "730ceb4dc38aadb82beb12fe71d184d83f3964d632b63ce6add844b58340b001"
+hash = "34aeed65be83a1ebb05baf5749f87faf1af17d8ce93fddef2b67b2ee26eb9ed5"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
