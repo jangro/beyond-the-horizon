@@ -1,11 +1,11 @@
 {
-    "name": "A Galloping Adventure",
+    "name": "Horse Adventures",
     "icon": "minecraft:saddle",
     "category": "patchouli:travel",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Legend has it that the horses of Beyond the Horizon were blessed by a wandering druid, giving them remarkable abilities. $(br2)They can now swim through water like majestic seahorses and pass through leaves with the grace of a ghost. $(br2)No more getting stuck on branches or falling off your horse when it touches water! Your trusty steed is now the ultimate off-road vehicle."
+            "text": "Horses in Beyond the Horizon have been upgraded with amazing abilities. $(br2)They can now swim through water and pass through leaves easily. $(br2)No more getting stuck on branches or falling off your horse in water! Your trusty steed is now the ultimate off-road vehicle."
         },
         {
             "type": "patchouli:crafting",

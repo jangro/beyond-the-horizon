@@ -13,11 +13,11 @@
         },
         {
             "type": "patchouli:text",
-            "text": "To fully automate your farms, employ the $(l:mod_info/create)Create mod$()'s harvester contraptions or $(l:mod_info/immersive_engineering)Garden Cloches$() from Immersive Engineering. These setups allow for the automatic harvesting and optimal growth of crops, streamlining your food production."
+            "text": "To fully automate your farms, employ the $(l:mod_info/create)Create mod$()'s harvester. This setup allows for the automatic harvesting and collection of crops, streamlining your food production and maximizing efficiency. Garden Cloches from $(l:mod_info/immersive_engineering)Immersive Engineering$() allow full-scale automation of any crop. Additionally, consider using $(l:mod_info/rats)Rats$() and $(l:mod_info/ars_nouveau)Ars Nouveau$() rituals for more innovative farming methods."
         },
         {
             "type": "patchouli:text",
-            "text": "Setting up a $(l:mod_info/minecolonies)Mine Colony$() will put the power of an entire colony behind your farming efforts, significantly boosting your agricultural productivity."
+            "text": "Setting up a $(l:mod_info/minecolonies)Mine Colony$() will put the power of an entire colony behind your farming efforts, further enhancing your agricultural productivity."
         }
     ]
 }

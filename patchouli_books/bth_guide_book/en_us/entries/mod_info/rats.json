@@ -1,0 +1,23 @@
+{
+    "name": "Rats",
+    "icon": "rats:cheese",
+    "category": "patchouli:mod_info",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Rats mod introduces intelligent rats that can be tamed and trained to perform various tasks. These tasks range from simple item collection to complex farming and combat roles. Discover how these helpful rodents can assist you in your adventures."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Getting Started$() $(br2)To begin, you'll need to tame a rat using cheese. Once tamed, rats can be trained to perform specific tasks using a Rat Upgrade combined with a Cheese Staff."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Advanced Farming$() $(br2)Rats can be incredibly useful for farming. Equip them with a Farmer upgrade, and they'll automatically harvest and replant crops for you. This makes them an invaluable asset for maintaining large farms."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Additional Utilities$() $(br2)Beyond farming, rats can be upgraded to perform a variety of roles including item transportation, cooking, and even defending your base from hostile mobs. Experiment with different upgrades to maximize their potential."
+        }
+    ]
+}

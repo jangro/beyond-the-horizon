@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "To open the full-screen map, press 'J' (by default). $(br2)Create waypoints by right-clicking anywhere on the map, and toggle them on or off as needed. $(br2)JourneyMap also lets you track mobs, animals, and players, making exploration safer and easier."
+            "text": "To open the full-screen map, press $(k:journeymap.map_toggle_alt). $(br2)Create waypoints by right-clicking anywhere on the map, and toggle them on or off as needed. $(br2)JourneyMap also lets you track mobs, animals, and players, making exploration safer and easier."
         },
         {
             "type": "patchouli:text",

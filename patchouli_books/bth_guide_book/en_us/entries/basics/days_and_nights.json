@@ -2,15 +2,24 @@
     "name": "Days and Nights",
     "icon": "minecraft:clock",
     "category": "patchouli:intro",
-    "status": "complete",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Welcome to the new time cycle, where days and nights are longer. $(br2)Days now last 30 minutes and nights 20 minutes, giving you a full 50 minutes per day to explore the world."
+            "text": "Days and nights are now longer, days are 30 minutes, nights are 20 minutes for a total of 50 minutes per full day! $(br2)Under the sky, you're safe from mobs as they won't spawn. Except phantoms. Make sure to sleep once in a while to keep them away."
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Keep Phantoms at Bay$()$(br)Under the open sky, you're safe from mobs, as they won't spawn out in the open. Except for phantoms. Make sure to sleep once in a while to keep them at bay.$(br2)$(l)Pass the Time$() $(br)You can always sleep to pass the night. And if you ever want to skip a long day, make a hammock. $(br2)The Ritual of Moonlight from Ars Nouveau can be used to skip the day entirely."
+            "text": "You can always sleep to pass the night. Alternatively, the Ritual of Moonlight from Ars Nouveau can be used to skip the day."
+        },
+        {
+            "type": "patchouli:image",
+            "images": ["bth:images/guide/bloodmoon.png"],
+            "title": "Blood Moon",
+            "border": true
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Be aware of the Blood Moon! During a Blood Moon, hostile mobs will spawn even in the overworld in large numbers. $(br2)To make matters worse, you cannot sleep through a Blood Moon. Be prepared and stay vigilant!"
         }
     ]
 }

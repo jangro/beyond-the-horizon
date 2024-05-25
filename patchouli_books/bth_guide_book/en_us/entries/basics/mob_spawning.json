@@ -2,16 +2,15 @@
     "name": "Mob Spawning",
     "icon": "minecraft:iron_sword",
     "category": "patchouli:intro",
-	"sortnum": 1,
+    "sortnum": 1,
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "Hostile mobs won't spawn at night in the overworld under the stars"
-                },
-                                {
+            "text": "Hostile mobs won't spawn at night in the overworld under the stars. $(br2)Phantoms can still spawn, so be sure to get some rest. A sleeping bag is perfect for that on-the-go adventurer!"
+        },
+        {
             "type": "patchouli:text",
-            "text": "Phantoms can still spawn, so be sure to get some rest. A sleeping bag is perfect for that on-the-go adventurer!"
-                }
-
+            "text": "Be aware of the Blood Moon! During a Blood Moon, hostile mobs will spawn in large numbers. $(br2)To make matters worse, you cannot sleep through a Blood Moon. Be prepared and stay vigilant!"
+        }
     ]
 }

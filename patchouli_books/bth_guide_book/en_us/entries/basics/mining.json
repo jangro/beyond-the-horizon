@@ -16,9 +16,9 @@
             "recipe": "forbidden_arcanus:golden_blacksmith_gavel",
             "text": "Craft the gavel from $(l:mod_info/forbidden_arcanus)Forbidden & Arcanus$() to boost your ore drops. It's like having your own personal leprechaun, minus the rainbows."
         },
-                {
+        {
             "type": "patchouli:text",
-            "text": "Once you have silk touch, you can automate ore doubling with the squeezer from ($l:integrated_dynamics)Integrated Dynamics, and the crushing wheel from $(l:mod_info/forbidden_arcanus)Create$()."
+            "text": "Once you have silk touch, you can automate ore doubling with the squeezer from $(l:mod_info/integrated_dynamics)Integrated Dynamics$(), and the crushing wheel from $(l:mod_info/create)Create$()."
         }
     ]
 }

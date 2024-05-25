@@ -1,16 +1,33 @@
 {
     "name": "Mountaineering",
-    "icon": "minecraft:emerald",
+    "icon": "minecraft:diamond_pickaxe",
     "category": "patchouli:intro",
     "pages": [
-                {
+        {
             "type": "patchouli:text",
-            "text": "Mountains aren't only nice to look at. They bring lots of benefits. There are lots of them in this pack. At higher altitudes, you can find lots of iron, coal, and emeralds right on the surface. "
-                },
-                                {
+            "text": "Early game, you'll want to maximize your ore yield. Head to the $(l:intro/mountains)mountains$() for the most coal and iron, and even some emeralds!"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "bth:images/guide/mountains.png"
+            ],
+            "title": "The Mountains",
+            "border": true,
+            "text": "Explore the vast and resource-rich mountains to find valuable ores and hidden treasures."
+        },
+        {
             "type": "patchouli:text",
-            "text": " You will find special towers in the mountains that give an even better view, and have some special features you won't want to miss!"
-                }
-
+            "text": "Legend has it that gold pickaxes possess fortune enchants, making them perfect for targeted mining. They break fast but can pay for themselves quickly!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "forbidden_arcanus:golden_blacksmith_gavel",
+            "text": "Craft the gavel from $(l:mod_info/forbidden_arcanus)Forbidden & Arcanus$() to boost your ore drops. It's like having your own personal leprechaun, minus the rainbows."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "Once you have silk touch, you can automate ore doubling with the squeezer from $(l:mod_info/integrated_dynamics)Integrated Dynamics$(), and the crushing wheel from $(l:mod_info/create)Create$()."
+        }
     ]
 }

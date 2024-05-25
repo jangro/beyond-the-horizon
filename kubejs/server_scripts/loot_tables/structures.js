@@ -58,8 +58,8 @@ LootJS.modifiers((event) => {
       [
         LootEntry.withChance({item: 'minecraft:diamond', count: 3}, 0.1),
         LootEntry.withChance({item: 'minecraft:gold', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:emerald', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:rotten_flesh', count: 1}, 1),
+        lootentry.withchance({item: 'minecraft:emerald', count: 3}, 0.1),
+        lootentry.withchance({item: 'minecraft:rotten_flesh', count: 1}, 1),
 
         LootEntry.withChance({item: 'ae2:item_storage_cell_16k', count: 1}, 1),
         LootEntry.withChance({item: 'ae2:spatial_storage_cell_2', count: 1}, 1),
@@ -97,11 +97,11 @@ LootJS.modifiers((event) => {
         LootEntry.withChance({item: 'create:controls', count: 1}, 0.01),
         LootEntry.withChance({item: 'create:track_station', count: 1}, 0.5),
 
-        LootEntry.withChance({item: 'domesticationinnovation:rotten_apple', count: 1}, 1),
+        lootentry.withchance({item: 'domesticationinnovation:rotten_apple', count: 1}, 1),
 
-        LootEntry.withChance({item: 'farmersdelight:rotten_tomato', count: 1}, 1),
+        lootentry.withchance({item: 'farmersdelight:rotten_tomato', count: 1}, 1),
 
-        LootEntry.withChance({item: 'forbidden_arcanus:rotten_leather', count: 1}, 1),
+        lootentry.withchance({item: 'forbidden_arcanus:rotten_leather', count: 1}, 1),
 
         LootEntry.withChance({item: 'pneumaticcraft:printed_circuit_board', count: 1}, 1),
         LootEntry.withChance({item: 'pneumaticcraft:module_expansion_card', count: 1}, 1),

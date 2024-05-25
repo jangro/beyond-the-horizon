@@ -1,15 +1,26 @@
 {
-    "name": "Astikor Carts Redux",
+    "name": "Astikor Carts",
     "icon": "astikorcarts:wheel",
     "category": "patchouli:travel",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Astikor Carts Redux adds horse-drawn carts to Minecraft, making travel and farming much easier. Hitch up your horse, llama, or mule and hit the road in style!"
+            "text": "Astikor Carts Redux adds horse-drawn carts to Minecraft, making travel and farming much easier. Hitch up your horse or mule and hit the road in style!"
         },
         {
-            "type": "patchouli:text",
-            "text": "Available Carts: - Plow Cart: Till a 3x3 area of land at once. - Storage Cart: Carry extra items while traveling. - Animal Cart: Bring your furry friends along on your journey."
+            "type": "patchouli:crafting",
+            "recipe": "astikorcarts:plow",
+            "text": "Plow Cart: Till a 3x3 area of land at once. Ideal for preparing your fields quickly and efficiently."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "astikorcarts:supply_cart",
+            "text": "Supply Cart: Carry extra items while traveling. Perfect for long journeys where you need to bring more supplies."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "astikorcarts:animal_cart",
+            "text": "Animal Cart: Bring your furry friends along on your journey. This cart allows you to transport animals with ease."
         },
         {
             "type": "patchouli:text",
