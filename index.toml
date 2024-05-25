@@ -1550,6 +1550,11 @@ hash = "fd6c9a3053d6426fbc9ede6e52a38b9de5d8dc7eb015ca7b98139c2fc0b282ac"
 metafile = true
 
 [[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "0604af4500f5e7ea46e38f7faef3459023c305b3155eacbf406e600073f643d9"
 metafile = true
