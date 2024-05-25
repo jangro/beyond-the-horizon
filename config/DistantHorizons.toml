@@ -386,7 +386,7 @@ _version = 2
 			# Higher values mean the matching is more strict.
 			# 
 			# 
-			multiverseSimilarityRequiredPercent = "0.2"
+			multiverseSimilarityRequiredPercent = "0.0"
 			# If true Distant Horizons will attempt to communicate with the connected 
 			# server in order to improve multiverse support. 
 			# 
