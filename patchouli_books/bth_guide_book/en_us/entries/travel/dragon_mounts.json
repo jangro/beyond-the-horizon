@@ -5,23 +5,47 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Dragon Mounts Legacy lets you hatch and ride dragons across the skies! $(br2)Explore the world with your loyal companion and dominate the skies."
+            "text": "$(l)Dragon Mounts Legacy$() lets you hatch the Ender Dragon egg. Once hatched, you can tame your dragon and watch it grow into an adult. Once it's large enough, you can ride your dragon across the skies."
         },
         {
             "type": "patchouli:text",
-            "text": "To hatch an Aether Dragon, find a Dragon Egg and place it at a height of 170 or above in the Overworld. $(br2)Right-click the egg to hatch it."
+            "text": "$(l)Obtaining a dragon egg:$() Just like in vanilla Minecraft, after you beat the Ender Dragon, its egg will spawn atop the pillar at the center. Left-click it so it teleports somewhere safe on the ground. After that, right-click it to start the hatching process and immediately left-click it again to pick it up. If you need more eggs, simply revive the Ender Dragon and beat it again; a new egg will spawn."
         },
         {
             "type": "patchouli:text",
-            "text": "To hatch other types of dragons, place the Dragon Egg in specific environments: $(br2)- Magma blocks for Fire Dragon $(br2)- Water for Water Dragon $(br2)- Snow and ice blocks for Ice Dragon $(br2)The environment around the egg determines the dragon type."
+            "text": "$(l)Hatching and transforming the dragon egg:$() While in your inventory, the hatching process will be paused. To resume the hatching process, simply place down the egg. Depending on where you place the egg, it may hatch into different types of dragons!"
         },
         {
             "type": "patchouli:text",
-            "text": "Once your dragon hatches, raise it to adulthood by feeding it. $(br2)Craft a Dragon Saddle to ride your dragon and soar through the skies with its powerful wings!"
+            "text": "$(l)Possible dragons and how to hatch them:$() $(br2)- Forest dragon: place the egg surrounded by leaves $(br2)- Fire dragon: place the egg surrounded by magma blocks OR lava $(br2)- Ice dragon: place the egg surrounded by snow or ice blocks $(br2)- Water dragon: place the egg surrounded by water"
         },
         {
             "type": "patchouli:text",
-            "text": "Breeding Dragons: You can breed dragons using specific items unique to each dragon type. For example, breed Fire Dragons with Blaze Powder and Ice Dragons with Packed Ice. The crossbreeding system allows custom addons to define new breeds."
+            "text": "- Nether dragon: place the egg surrounded by blackstone or basalt blocks $(br2)- Aether dragon: place the egg at y level 201 or above $(br2)- Ghost dragon: place egg at y level -1 or below AND in darkness"
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Taming your dragon:$() Once your dragon hatches, it will behave as a wild animal and start wandering. It may also attack animals, so beware. To tame it, feed it with fish. It can take dozens of fish to tame a baby dragon, and the longer you take to start feeding it, the more fish you'll need to tame it."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Tamed dragon behavior:$() Your dragon will follow you and teleport to you if it gets too far. $(br2)Crouch + right-click your dragon to toggle between 'Sit' and 'Follow'. $(br2)Your dragon will attack hostile mobs and protect you."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)From baby to adult dragon:$() Your dragon hatches as a baby dragon with low health and attack. With time, it will gradually grow in size, as well as gain more health and attack. You can speed up growth by feeding it fish."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Riding your dragon:$() Once your dragon is big enough, you can ride it! Put a saddle on it and right-click to mount it. By default, the dragon will fly in the direction your mouse is pointing at. To dismount, press shift. $(br2)In the mod's config, you can turn on 'alternative flight mode'. Test it out and see which mode you prefer. $(br2)Note: only the owner of the dragon can control it."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Healing your dragon:$() If your dragon has taken damage, its head will hang lower. Feed it meat to heal it."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Breeding dragons:$() You can breed dragons using fish to activate love mode. $(br2)A new egg will spawn matching the type of one of its parents. The hatching process of the new egg starts automatically, but you can still pick it up and place it somewhere else, or even transform it."
         }
     ]
 }

@@ -1,7 +1,7 @@
 {
     "name": "Traveler's Backpacks",
     "icon": "travelersbackpack:standard",
-    "category": "patchouli:travel",
+    "category": "patchouli:storage",
     "pages": [
         {
             "type": "patchouli:text",
@@ -9,11 +9,41 @@
         },
         {
             "type": "patchouli:text",
+            "text": "The backpack also features a built-in tool switcher. Press the $(k:travelersbackpack.cycle_tool)$() key and use the scroll wheel to change tools. This makes managing your tools easier and more efficient."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "travelersbackpack:standard",
+            "title": "Standard Backpack",
             "text": "Start by crafting a Traveler's Backpack using leather, wool, and a chest. $(br2)Equip the backpack to access its storage, and use the crafting grid for on-the-go crafting."
         },
         {
+            "type": "patchouli:crafting",
+            "recipe": "travelersbackpack:iron",
+            "title": "Iron Backpack",
+            "text": "For more storage, craft an Iron Backpack, which provides additional slots for your items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "travelersbackpack:magma_cube",
+            "title": "Magma Cube Backpack",
+            "text": "Magma Cube Backpack: Grants immunity to fire."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "travelersbackpack:squid",
+            "title": "Squid Backpack",
+            "text": "Squid Backpack: Provides night vision and water breathing."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "travelersbackpack:creeper",
+            "title": "Creeper Backpack",
+            "text": "Creeper Backpack: When you're about to die, it causes an explosion, grants fire immunity, and restores health!"
+        },
+        {
             "type": "patchouli:text",
-            "text": "The backpack includes two fluid tanks for carrying water, lava, or any other fluid. $(br2)Upgrade your backpack with different colors and patterns to match your style."
+            "text": "There are many more backpacks available. Look in $(l:mod_info/jei)JEI$() for more info and how to craft them. Some backpacks cannot be crafted and must be found in loot."
         }
     ]
 }

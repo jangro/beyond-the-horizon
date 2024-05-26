@@ -1,23 +1,27 @@
 {
     "name": "Galosphere",
-    "icon": "galosphere:bronze_ingot",
+    "icon": "galosphere:silver_ingot",
     "category": "patchouli:mod_info",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "$(l)Galosphere: Beyond the Ores$() $(br2)Galosphere brings a plethora of new metals, ores, and materials to Minecraft, expanding the world with powerful gear and tools. Venture into the depths and explore new biomes to uncover these resources!"
+            "text": "$(l)Galosphere: Beyond the Ores$() $(br2)Galosphere adds new biomes, mechanics, and resources to enhance your underground adventures. Explore Crystal Canyons and Lichen Caves, and gather unique materials like Allurite shards, Lumiere shards, and Silver Ingots."
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Key Features$() $(br2)- $(l)Bronze$(): Craft tools and gear with this strong alloy. $(br2)- $(l)Nickel$(): Mine this versatile metal for a range of new crafting recipes. $(br2)- $(l)Tungsten$(): Create durable tools with exceptional durability."
+            "text": "$(l)Key Features$() $(br2)- $(l)Crystal Canyons$(): A biome filled with glowing crystals and rare resources. $(br2)- $(l)Lichen Caves$(): Lush caves with unique flora and new mobs."
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)More to Discover$() $(br2)- $(l)Topaz$(): Harness the magic of this rare gem for enchanting items. $(br2)- $(l)Onyx$(): Find onyx deep in the caves and craft mystical artifacts. $(br2)- $(l)Galena$(): Combine with other metals to form unique alloys."
+            "text": "$(l)New Resources$() $(br2)- $(l)Allurite Shard$(): Used in crafting powerful tools and armor. $(br2)- $(l)Lumiere Shard$(): Emits light and is used in various recipes. $(br2)- $(l)Silver Ingot$(): Craft Sterling Armor and Silver Bombs. $(br2)- $(l)Salt$(): A basic resource used in various recipes."
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)Exploring New Biomes$() $(br2)Galosphere introduces new biomes teeming with rare resources and challenging enemies. Gather your tools and venture into the depths to uncover the mysteries of this expanded world!"
+            "text": "$(l)New Mobs$() $(br2)- $(l)Sparkle$(): A small, luminescent creature found in Crystal Canyons. $(br2)- $(l)Spectre$(): A ghostly entity haunting the Lichen Caves."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(l)Exploring New Biomes$() $(br2)Galosphere introduces biomes rich with resources and unique challenges. Gather your gear and delve into the depths to uncover the mysteries of these new environments!"
         }
     ]
 }
