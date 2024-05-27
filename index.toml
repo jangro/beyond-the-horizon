@@ -17,6 +17,10 @@ file = "config/PeacefulSurface_Rules/DefaultRule.json"
 hash = "efc7b47dfed6a0b0a0abf8afd8928f01c5d264c1e66c26688a6dad8e35b911f9"
 
 [[files]]
+file = "config/adfinders/Targets/forbidden_arcanus.cfg"
+hash = "ff953967ff32ba5894121024f83459448fe6b3ae8172014fde1ca6e8275239e5"
+
+[[files]]
 file = "config/aether-client.toml"
 hash = "09acf009b9236754c89ee5892237ac1f22d31a6c7e0aadadebc5f8ad22e339af"
 
@@ -403,6 +407,11 @@ hash = "66371520ba5a4687c5842ae3d8bbaf0cb42c49e37011ceba0e28563be696be52"
 [[files]]
 file = "mods/DistantHorizons-forge-2.0.4-a-dev-server-7c07c1e5-1.20.1.jar"
 hash = "87fce232dbc25a18b8e93369a08a3665738fadf9d141e274a15ed52d6a92681e"
+
+[[files]]
+file = "mods/advanced-finders.pw.toml"
+hash = "9c593afd0560a0796a51ccdddf082caf92abaaf71ac2f0335d4454aedb523658"
+metafile = true
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -927,6 +936,11 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
+metafile = true
+
+[[files]]
+file = "mods/forgeendertech.pw.toml"
+hash = "b1bd52732b6a50ea4e1db3eec1428cf78bc86d80ab97ba136b89f5cc4ac92a17"
 metafile = true
 
 [[files]]
