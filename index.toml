@@ -674,6 +674,11 @@ hash = "e4a4617539a9b86d1c55832eeff9116386655525cb4d5fa01034a5c5c16037a6"
 metafile = true
 
 [[files]]
+file = "mods/cofh-core.pw.toml"
+hash = "20fcd633516ef654e4a1546ab7e1cd4e22bc96a087544ae583f85df9b7a65468"
+metafile = true
+
+[[files]]
 file = "mods/colds-easy-paxel-lite.pw.toml"
 hash = "605b97233da523c8fda697a275ebcc519a786a778a64d8bd3fee25e06c6351ab"
 metafile = true
@@ -876,6 +881,11 @@ metafile = true
 [[files]]
 file = "mods/enlightend.pw.toml"
 hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
+metafile = true
+
+[[files]]
+file = "mods/ensorcellation.pw.toml"
+hash = "26830051cbffc53b0bd40d11a66b04d304f2f2c20bd6a199aaa40e4dd4390614"
 metafile = true
 
 [[files]]
