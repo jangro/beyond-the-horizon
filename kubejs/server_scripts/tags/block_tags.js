@@ -115,4 +115,9 @@ ServerEvents.tags('block', event => {
     'engineersdecor:steel_table'
   ]);
 
+  event.add('tetra:scannable', [
+    'forbidden_arcanus:stella_arcanum',
+    'irons_spellbooks:arcane_debris'
+  ]);
+
 });
