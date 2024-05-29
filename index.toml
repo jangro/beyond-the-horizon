@@ -1373,6 +1373,11 @@ hash = "9fb58a86ebcd43b8f3dd47d9c5b510f6d8dfd2e6bf4b2765d9328d00e3cef51e"
 metafile = true
 
 [[files]]
+file = "mods/rpg-parties.pw.toml"
+hash = "3385f6f546978485dbdc5e34f384dbbd3fd17728c37e820bde60ed799cd21132"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
 metafile = true

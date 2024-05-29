@@ -1,0 +1,13 @@
+name = "RPG Parties"
+filename = "mmoparties-2.4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25f29f61da6f79863bdf7c7945fe890dca809540"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5190999
+project-id = 574957
