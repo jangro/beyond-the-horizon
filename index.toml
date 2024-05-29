@@ -5,6 +5,10 @@ file = "build_pack.bat"
 hash = "890ecb4d4c22b91fcfad452f1193dfb976634154f55b1fbe468071585cd92348"
 
 [[files]]
+file = "build_pack.sh"
+hash = "0a1e5c4b0b4eb5c974f96ceaca4d389976e672880f53c6eafd1afc23bea90bad"
+
+[[files]]
 file = "config/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
@@ -390,7 +394,7 @@ hash = "7c19da7a3d6858e60ef416df11f8cc67fc15581db5ce665ff3aefab976df595b"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_tags.js"
-hash = "1b132b17e280e599998e8f7196ea638e7904782c7e11fc56b39f3d2faaf43ec4"
+hash = "8de81047829958e91e80e5ac0bdb11c80ce2ea5feb8ac354ae0a32bcbb77c027"
 
 [[files]]
 file = "kubejs/server_scripts/tags/entity_type.js"
