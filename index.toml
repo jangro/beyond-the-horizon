@@ -944,11 +944,6 @@ hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
 metafile = true
 
 [[files]]
-file = "mods/forgeendertech.pw.toml"
-hash = "b1bd52732b6a50ea4e1db3eec1428cf78bc86d80ab97ba136b89f5cc4ac92a17"
-metafile = true
-
-[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "ffe84c799fa2f0b4c931dfc2b46042e8eeb730037436d5ad1abd2ff21df3e956"
 metafile = true
