@@ -61,6 +61,10 @@ file = "config/carryon-common.toml"
 hash = "f624f30deae52eca1b017b6d4e8c906de2f60c1a5f5b3a92e4993f8cf8b6d861"
 
 [[files]]
+file = "config/chunkloaders-common.toml"
+hash = "c95b8fa0c4eefa48ee549467d107db2e2582a10844e916d2b00d80ec72842c5a"
+
+[[files]]
 file = "config/fml.toml"
 hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 
@@ -631,6 +635,11 @@ metafile = true
 [[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "d5d15e9ecea179026322633a340e6bf2668d5a7a66cf666829ffc3c732378380"
+metafile = true
+
+[[files]]
+file = "mods/chunk-loaders.pw.toml"
+hash = "639857fb6b3f29345a30ea5e727a15ec7c3c63a8559d743bf9807155f8a311ab"
 metafile = true
 
 [[files]]
