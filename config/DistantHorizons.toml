@@ -412,7 +412,7 @@ _version = 2
 				# Leave empty to let client use the IP used to connect to the MC server.
 				# 
 				# 
-				connectIpOverride = "51.81.229.161"
+				connectIpOverride = ""
 				# Overrides the port that is sent to the client for connecting to DH server.
 				# Set to 0 to use port from serverPort.
 				# 
