@@ -14,7 +14,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "22ca82cfb7a3c81b8516007062e58d1141474b8c92a4ee8fdda1652089b2f8a3"
+hash = "d1498f044f3da3badd90001204a2d1142458b362f5c8fe7322f089cb75eb9b5c"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
@@ -515,11 +515,6 @@ metafile = true
 [[files]]
 file = "mods/auto-third-person.pw.toml"
 hash = "078ad67d3e0fb2f6ac7702ddd819e83fd08994aaba380bfa14916a7b0846cb6b"
-metafile = true
-
-[[files]]
-file = "mods/automobility.pw.toml"
-hash = "5e3ff30d77ab34aba80c887c01838d408a20e4730726c98feffbf15c568a7b5b"
 metafile = true
 
 [[files]]
