@@ -182,7 +182,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "0668d5f60eda66f6177df1613e0c42896552624c7849f8a0fc71ec7ce02cab11"
+hash = "c0a4d91607215189413e27c9166a86d0cbf10f11c8702a9503b754f5eae23272"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -1990,6 +1990,16 @@ hash = "e14c4c818d3dee5de2756687e1334d1be00f14762e909849359c886ec3d3542f"
 [[files]]
 file = "resourcepacks/BTH-Panorama.zip"
 hash = "bff7f043bc12f4bfd3494e7f01e6b9b2271bf88f3da68d0deeef52893a34cbec"
+
+[[files]]
+file = "resourcepacks/mt-ct-d-a.pw.toml"
+hash = "59ac9af3f1779068f7a91af8c7ad85b9d72f6af954afdde66a9bb512d22d83e2"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mt-ct-d.pw.toml"
+hash = "702a124569851f2d588a68e5dad851eba2551e9a13c7c6153a19cd9cab9af5e7"
+metafile = true
 
 [[files]]
 file = "resourcepacks/spawn-animations.pw.toml"
