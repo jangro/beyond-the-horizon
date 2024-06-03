@@ -1,13 +1,13 @@
 name = "Structurize"
-filename = "structurize-1.20.1-1.0.733-RELEASE.jar"
+filename = "structurize-1.20.1-1.0.736-BETA.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "90d0643b55a241aed12834c6cb354910ae18eb46"
+hash = "fa2c9954fb516a06acd96aaf906c847f8198150d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5335495
+file-id = 5392584
 project-id = 298744
