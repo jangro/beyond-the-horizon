@@ -538,6 +538,11 @@ hash = "eb1248ff3daa6e53f30711e5f848faba42f8327b851277dba4a323885ac0d5d6"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "a167c88b43b73530c14b77d8cfa8c3546ee665ffa317f0451a6767e46bdae0de"
+metafile = true
+
+[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "9f547ab30cc07d0831d0a066032a832dcb16dd7a5aa77c4c7efeaa29d8c10431"
 metafile = true
@@ -1098,11 +1103,6 @@ hash = "1ac0fe6c2fd0edf6d2584746d2ee816e6975d004a1f4f9b25d48d4350b659cfa"
 metafile = true
 
 [[files]]
-file = "mods/kleeslabs.pw.toml"
-hash = "49a0eddb7f8ebeb781012ae0871d0de67a503357ce2041ec85504126f0852a5e"
-metafile = true
-
-[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "826c59a1e607641acb85f1e23a2bb7183a2f0a9ccd19ea4f01bbc9d94d480acf"
 metafile = true
@@ -1555,6 +1555,11 @@ metafile = true
 [[files]]
 file = "mods/valhelsia-structures.pw.toml"
 hash = "9f2c16f52891ba7d1442115421baaedc93a0bff1b7288311a8ac4a48cdf6f180"
+metafile = true
+
+[[files]]
+file = "mods/vertical-slabs-compat.pw.toml"
+hash = "d8e60b645a09fbe279a2aab94de7b3ee0425c0d50eaf5b4cfac8d9332619ce86"
 metafile = true
 
 [[files]]
