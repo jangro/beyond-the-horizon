@@ -182,7 +182,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "c0a4d91607215189413e27c9166a86d0cbf10f11c8702a9503b754f5eae23272"
+hash = "03c964854a9efecd5e85b491f6b723885e9cf60a1020d7472d607987875fddbe"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -575,6 +575,11 @@ metafile = true
 [[files]]
 file = "mods/botarium.pw.toml"
 hash = "098dce9973ba88740458098f574f77cd8611b8aa9584916746ca135ef533309a"
+metafile = true
+
+[[files]]
+file = "mods/building-but-better.pw.toml"
+hash = "6134ba97b499d9b0c9e0dff15f4fe17e4a49f306728b341964711c246524014a"
 metafile = true
 
 [[files]]
