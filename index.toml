@@ -1374,6 +1374,11 @@ hash = "3e8983a16f2969a7c4305d105a7bf0f5fa4a6ad5414a95fffd825335b2dbb453"
 metafile = true
 
 [[files]]
+file = "mods/shoulder-surfing-reloaded.pw.toml"
+hash = "ab2206031602bb57b52460ff63d3e895d2b4511732db19440f60603e76e9a604"
+metafile = true
+
+[[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "bac0e6557f54b428ec06c687957469f2d1d01d71bc9f9c5adb4696ce6651c6f2"
 metafile = true
