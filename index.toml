@@ -449,7 +449,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "8b4f9e47ef0310c6f97eb087089c9ea17b81209b2931054a6f3d6d73a3ea45de"
+hash = "7a9a75caa24d2a20a2910f0c0a66875a8ed788edb3e47c0b289fad7ab976c225"
 metafile = true
 
 [[files]]
@@ -524,7 +524,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
+hash = "7326f4a85591cb390d744ffc76f8daa1bb056aa0e0dcc9d27b6c661d10c441de"
 metafile = true
 
 [[files]]
@@ -564,7 +564,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "475a3bafbd5a7b6e8a7f8008f9a137e25a7c0d3474cca99eaa8bfa313899b408"
+hash = "6299edab7c031a3f8a8fd59bc19a22213d9c4a4f745a2ae04f4ac78086f38355"
 metafile = true
 
 [[files]]
@@ -734,7 +734,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
-hash = "78cacc203857570841308fa2b833f50b5bec688dd326ac2f3be50d3b4c60f3cd"
+hash = "9a6d944e6518ef55ec14dcdac4ec8fad74f02572874d37769590aeca616ad4d5"
 metafile = true
 
 [[files]]
@@ -854,7 +854,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "a7d0f91019a257ee87593ba65ae2bcb0c254c0238831a07ab7fdcc567dade188"
+hash = "918263be0aed824b1937924910a0c7638c32044b25d88f3876506641c161221b"
 metafile = true
 
 [[files]]
