@@ -46,7 +46,7 @@ hash = "81f6cb543a1b262b92ee68b9ae58955c1374bccef9c4b2237e7a709dd2680b47"
 
 [[files]]
 file = "config/auto_third_person-client.toml"
-hash = "1593d96e19ed1fccd401d704d6bfb7b8efbaf9b2eb641be0734de267327bf8da"
+hash = "b89f0d153af5ddabaaee9aee009f8792be9ba17e8680fd59633c4308bd27f7cb"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -111,6 +111,10 @@ hash = "bbc1a25893aa85a8cf9d987ad61466bcb7347d6f68f86f347a31772851032d54"
 [[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "08007722225a7fcdc26de76a82b59800e0f014b8c36da677cd9b60f2f3873bde"
+
+[[files]]
+file = "config/smallships-client.toml"
+hash = "6d8189f7c245b31731025dc443f9740309e6d9231f575de218d3066c886b68e9"
 
 [[files]]
 file = "config/smallships-common.toml"
@@ -1374,7 +1378,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "ab2206031602bb57b52460ff63d3e895d2b4511732db19440f60603e76e9a604"
+hash = "928389109107836b90e5af822ed388f674d8eb5dba00cf83f64b831560fcf683"
 metafile = true
 
 [[files]]

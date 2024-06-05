@@ -48,7 +48,7 @@ configVersion = 7
 	customPattern = "^automobility:.*"
 	#Entity IDs that match this regular expression will be ignored if the 'useIgnore' option is enabled.
 	#Default: ^examplemod:example$
-	ignorePattern = "^examplemod:example$"
+	ignorePattern = ""
 
 #Automatically exiting from third person.
 [restoration]
@@ -59,7 +59,7 @@ configVersion = 7
 	#If 'true', pressing f5 after mounting something will prevent your camera
 	#from being automatically restored to first-person when you dismount.
 	#Default: true
-	cancelAutoRestore = true
+	cancelAutoRestore = false
 
 #Other stuff I threw in the mod.
 [extras]
