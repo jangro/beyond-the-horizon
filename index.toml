@@ -109,6 +109,10 @@ file = "config/rats-common.toml"
 hash = "bbc1a25893aa85a8cf9d987ad61466bcb7347d6f68f86f347a31772851032d54"
 
 [[files]]
+file = "config/shouldersurfing-client.toml"
+hash = "08007722225a7fcdc26de76a82b59800e0f014b8c36da677cd9b60f2f3873bde"
+
+[[files]]
 file = "config/smallships-common.toml"
 hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
