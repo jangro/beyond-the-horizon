@@ -917,11 +917,6 @@ hash = "4261092badf3e3529ea82c20894410e718433ef57b8dc46cd65f83cbfc4d270b"
 metafile = true
 
 [[files]]
-file = "mods/experimental-settings-disabler.pw.toml"
-hash = "f517e9859936fc5370fdd7cf80d3a6157d87f2e55b7fada135de64a5bbd1aef8"
-metafile = true
-
-[[files]]
 file = "mods/exposure.pw.toml"
 hash = "1bd064b812416bc467c2b236cc2904f00f9d36b0e994f5623d3e31897a1eb2d3"
 metafile = true
