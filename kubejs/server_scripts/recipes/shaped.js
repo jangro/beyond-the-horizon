@@ -50,6 +50,15 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}immersive_aircraft_hull`);
 
   // Iron's Spellbooks
+  event.shaped('irons_spellbooks:silver_ring', [
+    'ES ',
+    'S S',
+    ' S '
+  ], {
+      S: '#forge:ingots/silver',
+      E: 'irons_spellbooks:arcane_essence'
+  }).id(`${ID_PREFIX}irons_silver_ring`);
+  
   event.shaped('irons_spellbooks:upgrade_orb', [
     'ACA',
     'CEC',
