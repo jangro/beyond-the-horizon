@@ -1,3 +1,4 @@
+// priority: 10
 
 /**
  * @file Structure loot table injection / replacement for Beyond the Horizon.
@@ -43,9 +44,9 @@ function rnd(min, max) {
 // For Ratlantis shipwrecks, we clear the loot table to remove all overworld loot.
 LootJS.modifiers((event) => {
   event
-    .addLootTypeModifier("chest")
-    .anyDimension(["rats:ratlantis"])
-    //.anyStructure("minecraft:shipwreck", false) // doesn't work?!
+    .addLootTypeModifier('chest')
+    .anyDimension(['rats:ratlantis'])
+    //.anyStructure('minecraft:shipwreck', false) // doesn't work?!
     .apply((context) => {
       // Clear the loot in shipwrecks but not ghostships (limit to under Y=80)
       let p = context.getBlockPos();
@@ -163,18 +164,18 @@ LootJS.modifiers((event) => {
 // Add a random amount (10-30) of tiny coins to all loot chests in Ratlantis
 LootJS.modifiers((event) => {
   event
-    .addLootTypeModifier("chest")
-    .anyDimension(["rats:ratlantis"])
+    .addLootTypeModifier('chest')
+    .anyDimension(['rats:ratlantis'])
     .randomChance(0.5)
     .apply((context) => {
-      context.addLoot(Item.of("rats:tiny_coin", Math.floor(Math.random() * 21) + 10));
+      context.addLoot(Item.of('rats:tiny_coin', Math.floor(Math.random() * 21) + 10));
     });
 });
 
 // Add increased chance of coins and increase number of coins in dungeons
 LootJS.modifiers((event) => {
   event
-    .addLootTypeModifier("chest")
+    .addLootTypeModifier('chest')
     .randomChance(0.3)
     .anyStructure([
       'dungeons_arise:abandoned_temple',
