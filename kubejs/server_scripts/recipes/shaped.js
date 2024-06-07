@@ -16,26 +16,6 @@
 ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:crafting/'; // Recipe ID
 
-  /**
-   * Adds a new fluid crafting shaped recipe.
-   * 
-   * Note: Inputs are not the same as regular shaped crafting keys.
-   * Look at the existing PneumaticCraft recipes for an example.
-   * 
-   * @param {*} output Item(s) to craft.
-   * @param {*} pattern The pattern for the shaped recipe (same as in event.shaped(...)).
-   * @param {JsonObject} inputs Recipe ingredients (may include fluids).
-   */
-  const shapedFluid = (output, pattern, inputs) => {
-    return event.custom({
-      type: 'immersiveengineering:shaped_fluid',
-      category: 'misc',
-      key: inputs,
-      pattern: pattern,
-      result: Item.of(output).toJson(),
-    });
-  };
-
   // Beyond the Horizon
   event.shaped(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT), [
     ' S ',
@@ -89,13 +69,13 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
   // PneumaticCraft: Repressurized
-  shapedFluid('pneumaticcraft:speed_upgrade', [
+  event.shaped('pneumaticcraft:speed_upgrade', [
     'LSL',
     'SFS',
     'LSL'
   ], {
-    S: {item: 'minecraft:sugar'},
-    L: {tag: 'pneumaticcraft:upgrade_components'},
+    S: 'minecraft:sugar',
+    L: '#pneumaticcraft:upgrade_components',
     F: {
       type: 'immersiveengineering:fluid',
       amount: 1000,
@@ -103,13 +83,13 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}speed_upgrade`);
 
-  shapedFluid('2x pneumaticcraft:speed_upgrade', [
+  event.shaped('2x pneumaticcraft:speed_upgrade', [
     'LSL',
     'SFS',
     'LSL'
   ], {
-    S: {item: 'pneumaticcraft:glycerol'},
-    L: {tag: 'pneumaticcraft:upgrade_components'},
+    S: 'pneumaticcraft:glycerol',
+    L: '#pneumaticcraft:upgrade_components',
     F: {
       type: 'immersiveengineering:fluid',
       amount: 1000,
