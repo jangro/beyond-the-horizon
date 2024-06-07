@@ -32,6 +32,10 @@ ServerEvents.tags('block', event => {
     'alexscaves:radrock_uranium_ore',
   ]);
 
+  event.add('forge:storage_blocks/arcane_gold', [
+    'forbidden_arcanus:deorum_block',
+  ]);
+
   // Create Tags
   event.add('create:fan_processing_catalysts/haunting', [
     'valhelsia_structures:soul_brazier',

@@ -42,10 +42,8 @@ ServerEvents.tags('item', event => {
     'alexscaves:radrock_uranium_ore',
   ]);
 
-    event.add('forge:storage_blocks/arcane_gold', [
+  event.add('forge:storage_blocks/arcane_gold', [
     'forbidden_arcanus:deorum_block',
   ]);
-  
-
 
 });
