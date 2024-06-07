@@ -13,10 +13,10 @@
 JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
+    'rats:rat_upgrade_aristocrat',
     /upgrade_aquatic:.*bedroll/,
     /valhelsia_structures:.*sleeping_bag/,
     /wardrobe:.*backpack/,
     /waystones:.*/,
-    'rats:rat_upgrade_aristocrat',
   ]);
 });
