@@ -49,6 +49,15 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}immersive_aircraft_hull`);
 
   // Iron's Spellbooks
+  event.shaped('irons_spellbooks:cooldown_ring', [
+    'RA ',
+    'A A',
+    ' A '
+  ], {
+      A: '#forge:ingots/arcane_gold',
+      R: 'irons_spellbooks:cooldown_rune'
+  }).id(`${ID_PREFIX}irons_cooldown_ring`);
+  
   event.shaped('irons_spellbooks:silver_ring', [
     'ES ',
     'S S',
