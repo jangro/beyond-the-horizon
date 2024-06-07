@@ -16,6 +16,26 @@
 ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:crafting/'; // Recipe ID
 
+  /**
+   * Adds a new fluid crafting shaped recipe.
+   * 
+   * Note: Inputs are not the same as regular shaped crafting keys.
+   * Look at the existing PneumaticCraft recipes for an example.
+   * 
+   * @param {*} output Item(s) to craft.
+   * @param {*} pattern The pattern for the shaped recipe (same as in event.shaped(...)).
+   * @param {JsonObject} inputs Recipe ingredients (may include fluids).
+   */
+  const shapedFluid = (output, pattern, inputs) => {
+    return event.custom({
+      type: 'immersiveengineering:shaped_fluid',
+      category: 'misc',
+      key: inputs,
+      pattern: pattern,
+      result: Item.of(output).toJson(),
+    });
+  };
+
   // Beyond the Horizon
   event.shaped(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT), [
     ' S ',
@@ -25,7 +45,6 @@ ServerEvents.recipes(event => {
     S: '#forge:bookshelves',
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
-
 
   // Minecraft
   event.shaped('minecraft:saddle', [
@@ -69,27 +88,33 @@ ServerEvents.recipes(event => {
       E: 'endrem:magical_eye'
   }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
-  // Fix broken PNC:R recipes (lubricant missing)
-  // NOTE: We can only use a bucket of lubricant, not any tank containing 1000mb
-  // of lubricant but that's fine. At least, speed upgrades aren't OP anymore.
-  event.shaped('pneumaticcraft:speed_upgrade', [
+  // PneumaticCraft: Repressurized
+  shapedFluid('pneumaticcraft:speed_upgrade', [
     'LSL',
     'SFS',
     'LSL'
   ], {
-    S: 'minecraft:sugar',
-    L: '#pneumaticcraft:upgrade_components',
-    F: 'pneumaticcraft:lubricant_bucket'
+    S: {item: 'minecraft:sugar'},
+    L: {tag: 'pneumaticcraft:upgrade_components'},
+    F: {
+      type: 'immersiveengineering:fluid',
+      amount: 1000,
+      tag: 'forge:lubricant'
+    }
   }).id(`${ID_PREFIX}speed_upgrade`);
 
-  event.shaped('2x pneumaticcraft:speed_upgrade', [
+  shapedFluid('2x pneumaticcraft:speed_upgrade', [
     'LSL',
     'SFS',
     'LSL'
   ], {
-    S: 'pneumaticcraft:glycerol',
-    L: '#pneumaticcraft:upgrade_components',
-    F: 'pneumaticcraft:lubricant_bucket'
+    S: {item: 'pneumaticcraft:glycerol'},
+    L: {tag: 'pneumaticcraft:upgrade_components'},
+    F: {
+      type: 'immersiveengineering:fluid',
+      amount: 1000,
+      tag: 'forge:lubricant'
+    }
   }).id(`${ID_PREFIX}speed_upgrade_from_glycerol`);
 
 });
