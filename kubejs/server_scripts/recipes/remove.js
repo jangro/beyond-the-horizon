@@ -18,8 +18,15 @@ ServerEvents.recipes(event => {
 
   // Remove recipes by recipe ID:
   [
+    'minecraft:bread',
     'aether:aether_saddle',
+    'create:smelting/bread', 
+    'create:smoking/bread', 
+    'eidolon:raven_feather_arrows',
     'immersive_aircraft:hull',
+    'minecolonies:baked_bread',
+    'minecolonies:baked_bread_campfire_cooking', 
+    'minecolonies:baked_bread_smoking', 
     'pneumaticcraft:speed_upgrade',
     'pneumaticcraft:speed_upgrade_from_glycerol',
     'rats:upgrades/aristocrat_upgrade',
