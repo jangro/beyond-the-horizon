@@ -175,12 +175,7 @@ ServerEvents.recipes(event => {
   // Nugget Compatibility
   replaceInput('galosphere:silver_nugget', '#forge:nuggets/silver');
   replaceInput('immersiveengineering:nugget_silver', '#forge:nuggets/silver');
-
-  // Plate Compatibility
-  replaceInput('create:iron_sheet', '#forge:plates/iron');
-  replaceInput('create:golden_sheet', '#forge:plates/gold');
-  replaceInput('createaddition:zinc_sheet', '#forge:plates/zinc');
-
+  
   // Ore Compatibility
   replaceInput('eidolon:silver_ore', '#forge:ores/silver');
   replaceInput('eidolon:deep_silver_ore', '#forge:ores/silver');
@@ -188,6 +183,11 @@ ServerEvents.recipes(event => {
   replaceInput('galosphere:deepslate_silver_ore', '#forge:ores/silver');
   replaceInput('immersiveengineering:ore_silver', '#forge:ores/silver');
   replaceInput('immersiveengineering:deepslate_ore_silver', '#forge:ores/silver');
+
+  // Plate Compatibility
+  replaceInput('create:iron_sheet', '#forge:plates/iron');
+  replaceInput('create:golden_sheet', '#forge:plates/gold');
+  replaceInput('createaddition:zinc_sheet', '#forge:plates/zinc');
 
   // Raw Material Compatibility
   replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
