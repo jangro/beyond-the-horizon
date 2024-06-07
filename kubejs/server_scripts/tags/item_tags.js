@@ -23,6 +23,25 @@ ServerEvents.tags('item', event => {
   event.add('forge:dough/wheat', [
     'minecolonies:bread_dough',
   ]);
+  
+  event.add('forge:dusts', [
+    'create:cinder_flour',
+    'create:wheat_flour',
+  ]);
+
+  event.add('forge:dusts/flour', [
+    'create:cinder_flour',
+    'create:wheat_flour',
+  ]);
+  
+  event.add('forge:flour', [
+    'create:cinder_flour',
+    'pneumaticcraft:wheat_flour',
+  ]);
+
+  event.add('forge:flour/wheat', [
+    'pneumaticcraft:wheat_flour',
+  ]);
 
   event.add('forge:ingots/arcane_gold', [
     'forbidden_arcanus:deorum_ingot',
