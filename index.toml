@@ -1222,6 +1222,11 @@ hash = "6c8692d70b479f1220be4db321f2ce1c561a80802841ed488de0942650280458"
 metafile = true
 
 [[files]]
+file = "mods/nebulus-oak-tree.pw.toml"
+hash = "d1a86850895a5512d2a3ab7ffbb3427cfad43ce54a42241de7f53091d5c72719"
+metafile = true
+
+[[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
 metafile = true
