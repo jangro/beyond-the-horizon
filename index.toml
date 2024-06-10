@@ -557,6 +557,11 @@ hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
+file = "mods/blazingbamboo.pw.toml"
+hash = "4ea359ac5284d768167a20b3c5f6edaea613a21a2b6d3fc51589fa6b6f55c403"
+metafile = true
+
+[[files]]
 file = "mods/blockui.pw.toml"
 hash = "858d148713ff16c7a8f554b2b8e100fb04257da00c44757646a0dc0c8b3ae32f"
 metafile = true
