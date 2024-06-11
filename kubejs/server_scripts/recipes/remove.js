@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
     'create:smoking/bread', 
     'eidolon:raven_feather_arrows',
     'immersive_aircraft:hull',
+    'immersive_aircraft:hull_reinforcement',
     'minecolonies:baked_bread',
     'minecolonies:baked_bread_campfire_cooking', 
     'minecolonies:baked_bread_smoking', 
