@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
     G: 'aether:enchanted_gravitite'
   }).id(`${ID_PREFIX}immersive_aircraft_hull`);
 
-  event.shaped('immersive_aircraft:hull', [
+  event.shaped('immersive_aircraft:hull_reinforcement', [
     'III',
     'LLL',
     'III'
