@@ -48,6 +48,15 @@ ServerEvents.recipes(event => {
     G: 'aether:enchanted_gravitite'
   }).id(`${ID_PREFIX}immersive_aircraft_hull`);
 
+  event.shaped('immersive_aircraft:hull', [
+    'III',
+    'LLL',
+    'III'
+  ], { 
+    L: 'aether:skyroot_log',
+    I: '#forge:ingots/iron',
+  }).id(`${ID_PREFIX}immersive_aircraft:hull_reinforcement_bth`);
+
   // Iron's Spellbooks
   event.shaped('irons_spellbooks:cooldown_ring', [
     'RA ',
