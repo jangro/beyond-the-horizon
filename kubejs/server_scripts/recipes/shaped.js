@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
   ], { 
     L: 'aether:skyroot_log',
     I: '#forge:ingots/iron',
-  }).id(`${ID_PREFIX}immersive_aircraft:hull_reinforcement_bth`);
+  }).id(`${ID_PREFIX}immersive_aircraft_hull_reinforcement`);
 
   // Iron's Spellbooks
   event.shaped('irons_spellbooks:cooldown_ring', [
