@@ -6,6 +6,7 @@
     {
       "type": "dragonmounts:biome",
       "biome_tag": "aether:is_aether"
+      "points": 3
     }
   ],
   "immunities": [
