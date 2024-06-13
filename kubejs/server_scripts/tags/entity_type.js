@@ -11,9 +11,10 @@ ServerEvents.tags('entity_type', event => {
 
   // Blacklist some overpowered drygmy mobs (mainly bosses).
   event.add('ars_nouveau:drygmy_blacklist', [
+    'aquamirae:captain_cornelia',
     'artifacts:mimic',
     'irons_spellbooks:dead_king',
-    'aquamirae:captain_cornelia',
+    // TODO: Some other Iron's entities should probably be added here.
     'rats:black_death',
     'rats:dutchrat',
     'rats:rat_king',
@@ -21,7 +22,6 @@ ServerEvents.tags('entity_type', event => {
     'rats:neo_ratlantean',
     'rats:rat_baron',
     'rats:pirat',
-    // TODO: Some other Iron's entities should probably be added here.
   ]);
 
   // Expand Ars Nouveau Magic Find to other mobs.
@@ -35,5 +35,11 @@ ServerEvents.tags('entity_type', event => {
     'irons_spellbooks:pyromancer',
     'minecraft:evoker',
     'minecraft:illusioner',
+  ]);
+
+  event.add('forbidden_arcanus:quantum_catcher_blacklisted', [
+    // Picking up these mobs causes the game to disconnect from a server.
+    'alexsmobs:cachalot_whale',
+    'alexsmobs:giant_squid',
   ]);
 });
