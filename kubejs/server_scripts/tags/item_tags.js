@@ -79,37 +79,6 @@ ServerEvents.tags('item', event => {
     
     'alexscaves:sea_staff',
     
-    'ars_nouveau:enchanters_eye',
-    'ars_nouveau:enchanters_mirror',
-    'ars_nouveau:enchanters_sword',
-    'ars_nouveau:spell_bow',
-
-    'ars_nouveau:wand',
-    'ars_nouveau:hood',
-    'ars_nouveau:robe',
-    'ars_nouveau:legs',
-    'ars_nouveau:boot',
-
-    'ars_elemental:air_hat',
-    'ars_elemental:air_robes',
-    'ars_elemental:air_leggings',
-    'ars_elemental:air_boots',
-    'ars_elemental:aqua_hat',
-    'ars_elemental:aqua_robes',
-    'ars_elemental:aqua_leggings',
-    'ars_elemental:aqua_boots',
-    'ars_elemental:earth_hat',
-    'ars_elemental:earth_robes',
-    'ars_elemental:earth_leggings',
-    'ars_elemental:earth_boots',
-    'ars_elemental:fire_hat',
-    'ars_elemental:fire_robes',
-    'ars_elemental:fire_leggings',
-    'ars_elemental:fire_boots',
-
-    'ars_elemental:spell_crossbow',
-    'ars_elemental:spell_horn',
-    
     'botania:rods',
     
     'eidolon:bonechill_wand',
