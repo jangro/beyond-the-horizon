@@ -5,7 +5,7 @@
  */
 
 // Not currently used but leaving this here for future work on actually removing the coin trade entirely.
-const PLAGUE_DOCTOR_TRADES = Java.loadClass("com.github.alexthe666.rats.server.misc.PlagueDoctorTrades").PLAGUE_DOCTOR_TRADES;
+//const PLAGUE_DOCTOR_TRADES = Java.loadClass("com.github.alexthe666.rats.server.misc.PlagueDoctorTrades").PLAGUE_DOCTOR_TRADES;
 
 // Disable the coin trade (how to just remove it?!)
 MoreJSEvents.playerStartTrading((event) => {
