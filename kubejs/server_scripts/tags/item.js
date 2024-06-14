@@ -98,6 +98,5 @@ ServerEvents.tags('item', event => {
     /irons_spellbooks:.*_chestplate$/,
     /irons_spellbooks:.*_leggings$/,
     /irons_spellbooks:.*_boots$/,
-
   ]);
 });
