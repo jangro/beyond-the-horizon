@@ -1,13 +1,13 @@
 name = "Lucky's Wardrobe"
-filename = "wardrobe-1.0.3-1.20.1.jar"
+filename = "wardrobe-1.0.3.1-forge-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fa8507bfb4f61625e6a8b1782f27b405844ab5e0"
+hash = "7985d6e0032af7ab65c6013dfcd03b5797af69ee"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5156264
+file-id = 5409881
 project-id = 968067
