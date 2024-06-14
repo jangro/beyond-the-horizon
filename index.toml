@@ -266,7 +266,7 @@ hash = "69682ca821bf84005e8003f8995e3a0bdfc8b74fbf56274adad0e2f4014d4592"
 
 [[files]]
 file = "kubejs/data/dragonmounts/dragonmounts/dragon_breeds/aether.json"
-hash = "528f89805d5bc0122360c8c1252557fb0ae23a75df310937f2c97ccbb63f12a2"
+hash = "ce556ef09c09a7f74e813e1cd4cdf92513800a9d3bb62c21e8a9e1dc5e937c48"
 
 [[files]]
 file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
@@ -390,7 +390,7 @@ hash = "ab31de5dee6d1fbc43a7b919030ddf3105b0b0246b134ce81c88c16da920569f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "554f75b3afea7f700727a14dfb191766673753b005edfe03a4f35c098988fc64"
+hash = "d51e841a85a9e53a80e4b48e3e872e881ed182dbbbdd33b120f5eb57d2e54bc2"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
