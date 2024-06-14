@@ -37,6 +37,10 @@ file = "config/alexsmobs/fly_spawns.json"
 hash = "a1597532f68de4c24f55080585e0a63fcbfd2ca4919790c1b57d438c2c036565"
 
 [[files]]
+file = "config/appleskin-client.toml"
+hash = "b30361435b13117248a411f218389592ad132b3ed557b109a22befae56a69e03"
+
+[[files]]
 file = "config/ars_nouveau-common.toml"
 hash = "732702004fcc02128294ff9b4f30b1a07dd15977b64f24d019464c4c6ccc6b1a"
 
@@ -49,8 +53,16 @@ file = "config/auto_third_person-client.toml"
 hash = "b89f0d153af5ddabaaee9aee009f8792be9ba17e8680fd59633c4308bd27f7cb"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "eab87ce67ba21e7d7a69495b46480e4d23e559b0f7a460caed44c09ffa1baa90"
+
+[[files]]
 file = "config/betterdays-common.toml"
 hash = "b5be8bad368b4c24c85fb83a568d420f28d212fe7be048c7ff498f4702da9d44"
+
+[[files]]
+file = "config/betterendisland-forge-1_20.toml"
+hash = "9feed9bbb26e2ed73a7bdbbeead0a27d7779fde38b511cd39d81027ff8d6e38c"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -67,6 +79,10 @@ hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 [[files]]
 file = "config/forge-client.toml"
 hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
+
+[[files]]
+file = "config/immersiveengineering-client.toml"
+hash = "d43f72f04db9e4e10f20b9351e9e40baebd342097feff54ee85a5ba59ffa9f95"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -91,6 +107,10 @@ hash = "ec852433f0693e5f5b13fc7220573272b14e95af05c73aef70932916999c7fbe"
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
 hash = "71f75de4eac0fa8d3a8ccae7be06611c5a70706ab9b5cfbc82afcece5d371ec3"
+
+[[files]]
+file = "config/kiwi-client.yaml"
+hash = "4b52b20bd3a1c92d7724dd5ed1d57900a053b79070b0281854e7f4681728e236"
 
 [[files]]
 file = "config/mutantmonsters-common.toml"
@@ -170,11 +190,15 @@ hash = "749d580a4eadfafa6a6f21f83f6cf96886c4aa406e4d41607f24e23b80ac571b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "beb67ebc1119c8f109889d799a48a3ded0fe14f620080fc9dcbc16e3b63cc697"
+hash = "a7db2b6fe8e98b29cde848a6774fc83c88a37bb309ef5567a9da268e52be8d9e"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
 hash = "46cd84dab26b653e47f02d3afaedaf1b287edffe18b82961cbf07a01a362b1fc"
+
+[[files]]
+file = "kubejs/client_scripts/jei_remove_recipes.js"
+hash = "224fe75155e7fdfa691cd6f6778a2a2a955568d51ff57abedb68ca3dc2d0ed31"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -239,6 +263,10 @@ hash = "b2be846ca8e3b5f37d29c3a8148d0884b692504e93ecbf2189ebb242319bee0f"
 [[files]]
 file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/sand.json"
 hash = "69682ca821bf84005e8003f8995e3a0bdfc8b74fbf56274adad0e2f4014d4592"
+
+[[files]]
+file = "kubejs/data/dragonmounts/dragonmounts/dragon_breeds/aether.json"
+hash = "528f89805d5bc0122360c8c1252557fb0ae23a75df310937f2c97ccbb63f12a2"
 
 [[files]]
 file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
@@ -346,27 +374,27 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "95ee9032112978810f1de8dd587dfa6e41b0e6ea9c26255f6af1653ac96534fc"
+hash = "92142250a9976e0b7b4f4b38328d9d58e34f9e100483baa84d3bfc92f6af367f"
 
 [[files]]
-file = "kubejs/server_scripts/loot_tables/consts.js"
-hash = "cfba99918ad17d000eec2727c08266799b1b947d3a964853e844250e221af627"
+file = "kubejs/server_scripts/loot_tables/constants.js"
+hash = "2e7ced6e50502aec59f5661af7a154597ce5bb93259feda2317d7c9f7e350237"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/generic.js"
-hash = "fc6c4b0ae4c8b1e334c495ab97d42125317e3d4c897e15872e440e7bf7d57c4c"
+hash = "cd31ce11bfaa68b2b3ab2e20b49361b007d6e648b4e44e2fa941919266edd274"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
-hash = "9c6d8c3a9a9cbe96efe6545704fa32cd0b14101b1ac1230cec484ac75d964f41"
+hash = "ab31de5dee6d1fbc43a7b919030ddf3105b0b0246b134ce81c88c16da920569f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "6841048638592a9f1212a5dc8171083b1e7f964869b981c6bda1771c39a2e1e1"
+hash = "554f75b3afea7f700727a14dfb191766673753b005edfe03a4f35c098988fc64"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
-hash = "aa8fdc95f4a586dbb7bb615b5528e1fdeff1cff2449af9d9bbfe1523aa3d4c5c"
+hash = "def21971ac0ffe5ad17f8405d63373b0f9830f73767661bfe46a6b54e88b706d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create.js"
@@ -378,35 +406,39 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "a2a8ceeb41eed5591aea4527485bd068b5ffe554a1e1d581169c75699597d4c1"
+hash = "c4f5149f0cf500ac0457bce4cdf4a89c595aaad9143388645a7470f404760d03"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/replace.js"
+hash = "f8ab783624d2b1c32212e3ffdbd68567b995adc80f27dd79095f841569c820e4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "143069753704a4f3c2147476afa673623a63e549b54dacae845b9e755c1cdd0c"
+hash = "063d038c637c2ad32ca3ae3ee9efcbef2d51ff54f05407d28a62495abdfb4224"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "10309964cda82cdc7168d276cdb35e42035ecdbfb2dc8260bbaf71d649226b27"
+hash = "a962efb82d3e10982e636362a811b730ed0094632cb471d2068a7011cec92a86"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
 hash = "7168e6ea89e721e1d7ce51b03d66a8cea05d98d6d35c42fcfd134d8f75edc831"
 
 [[files]]
-file = "kubejs/server_scripts/tags/block_entity_type_tags.js"
-hash = "7c19da7a3d6858e60ef416df11f8cc67fc15581db5ce665ff3aefab976df595b"
+file = "kubejs/server_scripts/tags/block.js"
+hash = "a5d0ac96d1c00e086cc045b0f57feeadeec7a0be88df5552239a012005034069"
 
 [[files]]
-file = "kubejs/server_scripts/tags/block_tags.js"
-hash = "8de81047829958e91e80e5ac0bdb11c80ce2ea5feb8ac354ae0a32bcbb77c027"
+file = "kubejs/server_scripts/tags/block_entity_type.js"
+hash = "a5c8e03f765a44572d18cc6903bba5e1e2a0018bf7ecf48b717d3f0ee0f50431"
 
 [[files]]
 file = "kubejs/server_scripts/tags/entity_type.js"
-hash = "96046b2bbf6129994c8cf461692a3811f52cdf8f83b2c368e564b00566daf6fe"
+hash = "9267ffd193603db9a5ddb5ad04ea8d2cbd47ffe2b38bcb3ef636adfa1516fc71"
 
 [[files]]
-file = "kubejs/server_scripts/tags/item_tags.js"
-hash = "e1e49ab5eeb61cd8edf74b179a871f2c7ed0493b2cab1573a4835bacae191585"
+file = "kubejs/server_scripts/tags/item.js"
+hash = "8bb9469ab86fd7b908afa813250f85635a7c2d06d3aa75e9e3bce866d81a9424"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
@@ -1342,6 +1374,11 @@ hash = "1d72ac6ec515db48cb89dae58345b514524f195bc5ab1942d1ce9fb91d30defd"
 metafile = true
 
 [[files]]
+file = "mods/radiant-gear.pw.toml"
+hash = "9ad6b9b7c7b20ed2acab2c74a4ed07eea820f23e751671a5840e7f4d7bb415a6"
+metafile = true
+
+[[files]]
 file = "mods/rats.pw.toml"
 hash = "b866bd3d88a52bb8a83c6552f84a94b0f364b002a22859cf38f8cddf72d1b20e"
 metafile = true
@@ -1878,7 +1915,7 @@ hash = "47301ad776a5e9c4f6fb9557b046314ff133fabf0e26ac6ac616ba01c8ed72cf"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/forbidden_arcanus.json"
-hash = "846702e0ccf455cd14ac1d8ba96770e98a22be8b652a7024d25bc7ea4314490b"
+hash = "6c7ab35a76043e199abdd0380635eedd0651696a92beacf80458d11997f78cb2"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/galosphere.json"
