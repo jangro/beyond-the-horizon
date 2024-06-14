@@ -79,7 +79,7 @@ ServerEvents.tags('item', event => {
     
     'alexscaves:sea_staff',
     
-    'botania:rods',
+    '#botania:rods',
     
     'eidolon:bonechill_wand',
     'eidolon:soulfire_wand',
