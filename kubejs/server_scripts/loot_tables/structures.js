@@ -220,12 +220,12 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyStructure(["totw_modded:regular", "totw_modded:ice"], false)
     .addWeightedLoot([
-      Item.of(desert_map).withChance(1),
-      Item.of(flower_forest_map).withChance(1),
-      Item.of(jungle_map).withChance(1),
-      Item.of(swamp_map).withChance(1),
-      Item.of(lush_caves_map).withChance(1),
-      Item.of(cherry_grove_map).withChance(1),
+      Item.of(DESERT_MAP).withChance(1),
+      Item.of(FLOWER_FOREST_MAP).withChance(1),
+      Item.of(JUNGLE_MAP).withChance(1),
+      Item.of(SWAMP_MAP).withChance(1),
+      Item.of(LUSH_CAVES_MAP).withChance(1),
+      Item.of(CHERRY_GROVE_MAP).withChance(1),
     ]);
 });
 
@@ -235,7 +235,7 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyStructure(["incendium:piglin_village"], false)
     .randomChance(0.1) // 10% per chest
-    .addLoot(forbidden_castle_map)
+    .addLoot(FORBIDDEN_CASTLE_MAP)
 });
 
 // Add Aquamirae Shelter map to the following structures
@@ -253,7 +253,7 @@ LootJS.modifiers((event) => {
       'towns_and_towers:wreckage_ocean',
       ], false)
     .randomChance(0.1)
-    .addLoot(aquamirae_shelter_map);
+    .addLoot(AQUAMIRAE_SHELTER_MAP);
 });
 
 // Add Jungle and Desert temple maps to the following structures
@@ -287,8 +287,8 @@ LootJS.modifiers((event) => {
       'towns_and_towers:village_sparse_jungle',
       'valhelsia_structures:desert_house',
     ], false)
-    .addLoot(LootEntry.of(jungle_temple_map).when((c) => c.randomChance(0.1)))
-    .addLoot(LootEntry.of(desert_temple_map).when((c) => c.randomChance(0.1)));
+    .addLoot(LootEntry.of(JUNGLE_TEMPLE_MAP).when((c) => c.randomChance(0.1)))
+    .addLoot(LootEntry.of(DESERT_TEMPLE_MAP).when((c) => c.randomChance(0.1)));
 });
 
 // Add Ancient City map to the following structures with different chances
@@ -297,21 +297,21 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyStructure(["betteroceanmonuments:ocean_monument"], false)
     .randomChance(0.1)
-    .addLoot(ancient_city_map)
+    .addLoot(ANCIENT_CITY_MAP)
 });
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["betterstrongholds"], false)
     .randomChance(0.05)
-    .addLoot(ancient_city_map)
+    .addLoot(ANCIENT_CITY_MAP)
 });
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["alexscaves:underground_cabin"], false)
     .randomChance(0.5)
-    .addLoot(ancient_city_map)
+    .addLoot(ANCIENT_CITY_MAP)
 });
 
 // Any loot chest in a deep dark biome should have a chance to contain an Ancient City map
@@ -320,14 +320,14 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyBiome("minecraft:deep_dark")
     .randomChance(0.2)
-    .addLoot(ancient_city_map)
+    .addLoot(ANCIENT_CITY_MAP)
 });
 // But, remove maps to Ancient Cities from Ancient City loot chests
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["minecraft:ancient_city"], false)
-    .removeLoot(ancient_city_map)
+    .removeLoot(ANCIENT_CITY_MAP)
 });
 
 // Add Evoker Fort and Mansion maps to the following structures with different chances
@@ -341,8 +341,8 @@ LootJS.modifiers((event) => {
       'ctov:pillager_outpost_plains',
       'dungeons_arise:illager_windmill',
     ], false)
-    .addLoot(LootEntry.of(evoker_fort_map).when((c) => c.randomChance(0.05)))
-    .addLoot(LootEntry.of(mansion_map).when((c) => c.randomChance(0.05)));
+    .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.05)));
 });
 LootJS.modifiers((event) => {
   event
@@ -362,8 +362,8 @@ LootJS.modifiers((event) => {
       'ctov:pillager_outpost_taiga',
       'hunters_return:hunter_house',
     ], false)
-    .addLoot(LootEntry.of(evoker_fort_map).when((c) => c.randomChance(0.1)))
-    .addLoot(LootEntry.of(mansion_map).when((c) => c.randomChance(0.1)));
+    .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.1)))
+    .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.1)));
 });
 
 // Add Impaled Icebreaker and Snowy Plains maps to the following structures with different chances
@@ -371,8 +371,8 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["irons_spellbooks:mountain_tower"], false)
-    .addLoot(LootEntry.of(impaled_icebreaker_map).when((c) => c.randomChance(0.1)))
-    .addLoot(LootEntry.of(snowy_plains_map).when((c) => c.randomChance(0.1)));
+    .addLoot(LootEntry.of(IMPALED_ICEBREAKER_MAP).when((c) => c.randomChance(0.1)))
+    .addLoot(LootEntry.of(SNOWY_PLAINS_MAP).when((c) => c.randomChance(0.1)));
 
 });
 LootJS.modifiers((event) => {
@@ -380,7 +380,7 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyStructure(["dungeons_arise:lighthouse"], false)
     .randomChance(1) // Only one chest in this structure
-    .addLoot(impaled_icebreaker_map)
+    .addLoot(IMPALED_ICEBREAKER_MAP)
 });
 
 // Add cursed eye to the Forbidden Castle
