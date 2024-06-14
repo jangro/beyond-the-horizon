@@ -5,7 +5,7 @@
   "habitats": [
     {
       "type": "dragonmounts:biome",
-      "biome_tag": "aether:is_aether"
+      "biome_tag": "aether:is_aether",
       "points": 3
     }
   ],
