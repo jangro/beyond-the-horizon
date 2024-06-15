@@ -1,12 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
-file = "build_pack.bat"
-hash = "890ecb4d4c22b91fcfad452f1193dfb976634154f55b1fbe468071585cd92348"
+file = "complementary-reimagined.pw.toml"
+hash = "170a8817f93b22938e19e75afc44cc9d42f0ced575ce3c3dc9b3a2fee102f657"
+metafile = true
 
 [[files]]
-file = "build_pack.sh"
-hash = "0a1e5c4b0b4eb5c974f96ceaca4d389976e672880f53c6eafd1afc23bea90bad"
+file = "complementary-unbound.pw.toml"
+hash = "e74c97603f36a8a204afe5c7dfd04e55eaf91aa617ed565acdd2aa791e2c0bb8"
+metafile = true
 
 [[files]]
 file = "config/Advancedperipherals/world.toml"
@@ -54,7 +56,7 @@ hash = "b89f0d153af5ddabaaee9aee009f8792be9ba17e8680fd59633c4308bd27f7cb"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "eab87ce67ba21e7d7a69495b46480e4d23e559b0f7a460caed44c09ffa1baa90"
+hash = "e8a115a753aa6ce8d6f97d7e7ef58fd520368440ae0278f222169bfa657d4076"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -2076,3 +2078,11 @@ metafile = true
 file = "resourcepacks/xalis-bushy-leaves.pw.toml"
 hash = "8cf6e23385d2c850f847d21682137acd11a580228bd5923e1a6452cf2fa88d89"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.2.1.zip.txt"
+hash = "b7c47e74f1450089cc5dbedb58ba0a4f17310717eeb011338a7653ed601c8117"
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.2.1.zip.txt"
+hash = "5483633d4099bd57bb9302654ef386cb2092c8a562468b6440c98316149daf59"
