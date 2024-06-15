@@ -7,3 +7,8 @@
 /docs/
 /LICENSE
 /README.md
+
+# Exclude build scripts + executables.
+*.bat
+*.sh
+*.exe

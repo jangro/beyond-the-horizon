@@ -11,5 +11,8 @@ packwiz
 # Exclude Visual Studio folder
 /.vs/
 
+# Exclude Visual Studio Code folder
+/.vscode/
+
 # Exclude macOS folder metadata
 **/.DS_Store
