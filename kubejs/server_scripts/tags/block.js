@@ -95,6 +95,10 @@ ServerEvents.tags('block', event => {
     'engineersdecor:steel_table'
   ]);
 
+  event.add('minecraft:slabs', [
+    'engineersdecor:dark_shingle_roof_slab',
+  ]);
+
   // Forge Tags
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
