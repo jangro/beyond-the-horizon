@@ -30,6 +30,7 @@ soundCategory_voice:1.0
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.m
 key_key.cadmus.open_claim_map:key.keyboard.apostrophe
+key_chunkloaders.keys.open_screen:key.keyboard.semicolon
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.unknown
