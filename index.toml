@@ -861,6 +861,11 @@ hash = "127755a295858228bdbc4e696c06adf201eee057e8ed67e785c9180af139d557"
 metafile = true
 
 [[files]]
+file = "mods/double-doors.pw.toml"
+hash = "a25d0d16d3da4c91a5b924e6372218b5b308eab4d07de5f5d48b801e08b506fc"
+metafile = true
+
+[[files]]
 file = "mods/dragon-mounts-legacy.pw.toml"
 hash = "cec3ebfb61f6fad75016c75e9a57ba99b24b1a2740570904bbe515de42e521b4"
 metafile = true
