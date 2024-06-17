@@ -88,11 +88,7 @@ hash = "d43f72f04db9e4e10f20b9351e9e40baebd342097feff54ee85a5ba59ffa9f95"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "dcac4fe35dbce16fe17aea3ef0ff8e0c69e09f467fbd7c7faef618a16b3c356c"
-
-[[files]]
-file = "config/incontrol/spawner.json"
-hash = "a6e78b4f2025bb5f2c313f268a78c07820ad2a72ce47fcad34be4bc92ded5d25"
+hash = "4de2aa4f9a4237ceb88066e84180902bafbd6a4553a1f0493910db9af25fbef7"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -121,6 +117,10 @@ hash = "65f84a46e132a23a6b293dd66fa0cbaa8acc751dbf0029fdbeccfce517ea4e7a"
 [[files]]
 file = "config/neapolitan-common.toml"
 hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "9fab789ecde809745097e76f67dfd65b4d292dccfbbe30433013e34ac17d5871"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -152,7 +152,7 @@ hash = "180f42cfadce8242e12138462b23e974003dabdf28d9d776dd8071eb3d2fb50a"
 
 [[files]]
 file = "defaultconfigs/moremobgriefingoptions-server.toml"
-hash = "1d7d811f179c638ec52e77db6791b5a71b7f2113543e846b93e434b7203f7f0b"
+hash = "355b208e79fa05da1eb5ba3a1e89fbfa644d8ed23bcdfbf1f883767ded639b92"
 
 [[files]]
 file = "journeymap/config/5.9/journeymap.core.config"
@@ -416,7 +416,7 @@ hash = "a7dddca4b8e468b1fef165d1b0b87e0a1b7e02d7af969441ed390b91d3246f81"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
-hash = "f8ab783624d2b1c32212e3ffdbd68567b995adc80f27dd79095f841569c820e4"
+hash = "5baaa682010a31838080b128ea40c3b2b85ae9b4ff972e08537e15ec84703a9b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
