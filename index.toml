@@ -68,7 +68,7 @@ hash = "9feed9bbb26e2ed73a7bdbbeead0a27d7779fde38b511cd39d81027ff8d6e38c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "f624f30deae52eca1b017b6d4e8c906de2f60c1a5f5b3a92e4993f8cf8b6d861"
+hash = "9b4ae56a1c963fdcbd993e0acdcc62fbb224c4bfc96fab757c9dc8669a26a8cb"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -212,7 +212,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "03c964854a9efecd5e85b491f6b723885e9cf60a1020d7472d607987875fddbe"
+hash = "1162aa3c444668794f09fdb8824c55a41ac2558e3c2fe2defdc6cce290717c4e"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -399,6 +399,10 @@ file = "kubejs/server_scripts/loot_tables/trades.js"
 hash = "def21971ac0ffe5ad17f8405d63373b0f9830f73767661bfe46a6b54e88b706d"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/clayworks.js"
+hash = "921cce13c01ebe4fcdeaaeb1a6118f9e9bdcf85f7f8f1acbeb16a5cb0e1076d1"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/create.js"
 hash = "7404346031e1256f70d256beed4ace05315bc83c64b46b15cb3aa102585a7e12"
 
@@ -408,7 +412,7 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "c4f5149f0cf500ac0457bce4cdf4a89c595aaad9143388645a7470f404760d03"
+hash = "a7dddca4b8e468b1fef165d1b0b87e0a1b7e02d7af969441ed390b91d3246f81"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -423,12 +427,16 @@ file = "kubejs/server_scripts/recipes/shapeless.js"
 hash = "a962efb82d3e10982e636362a811b730ed0094632cb471d2068a7011cec92a86"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/woodworks.js"
+hash = "52cd557274b3e9f897880196729a2fa7c24e09e6c9b4d01f0a1ea5e4054730d6"
+
+[[files]]
 file = "kubejs/server_scripts/tags/biome.js"
 hash = "7168e6ea89e721e1d7ce51b03d66a8cea05d98d6d35c42fcfd134d8f75edc831"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block.js"
-hash = "a5d0ac96d1c00e086cc045b0f57feeadeec7a0be88df5552239a012005034069"
+hash = "2d5fbe8ef9a20f49d210c7775f6c8b5a1d25aaaab8bea92bc79f820ea35cb280"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_entity_type.js"
@@ -918,11 +926,6 @@ metafile = true
 [[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "ef1706c2908bd1b66bf1c64eebd77f84162d248060c94760f0c25ed194726c5f"
-metafile = true
-
-[[files]]
-file = "mods/engineers-decor-ported.pw.toml"
-hash = "8770cea178822e648ec3fbf57730f4f828d2f47ae45d813ccc6cc0f475b952fd"
 metafile = true
 
 [[files]]
@@ -1915,10 +1918,6 @@ hash = "cff5bd8311ae15b74b2b780677218c9384b6cfbd14998bf69c5f01b775541764"
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/eidolon.json"
 hash = "68e7c7a9ee5c4a972083b5e7e05a877b10a364668730565c43dc8fbb4ccef811"
-
-[[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/engineers_decor.json"
-hash = "47301ad776a5e9c4f6fb9557b046314ff133fabf0e26ac6ac616ba01c8ed72cf"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/forbidden_arcanus.json"

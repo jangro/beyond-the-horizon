@@ -2474,6 +2474,3 @@
 	#automobility:automobile mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"automobility:automobile" = "DEFAULT"
-	#engineersdecor:et_chair mobGriefing
-	#Allowed Values: DEFAULT, TRUE, FALSE
-	"engineersdecor:et_chair" = "DEFAULT"

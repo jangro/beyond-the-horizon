@@ -117,7 +117,6 @@ ServerEvents.recipes(event => {
     'botania:glass_pickaxe',
     'botania:lens_normal',
     'botania:prism',
-    'engineersdecor:independent/panzerglass_block_recipe',
     'enlightened_end:gas_jar',
     'enlightened_end:xenon_laser',
     'littlelogistics:fluid_barge',
