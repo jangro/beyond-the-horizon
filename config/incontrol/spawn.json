@@ -22,18 +22,5 @@
       "perchunk": true
     },
     "result": "deny"
-  },
-  {
-    "mob": "irons_spellbooks:priest",
-    "dimension": "minecraft:overworld",
-    "structuretags": "ctov:village",
-    "block": "tag:minecraft:planks",
-    "result": "default"
-  },
-  {
-    "mob": "irons_spellbooks:priest",
-    "dimension": "minecraft:overworld",
-    "incontrol": true,
-    "result": "deny"
   }
 ]
