@@ -239,6 +239,22 @@ file = "kubejs/data/afk_display/functions/uninstall.mcfunction"
 hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
 
 [[files]]
+file = "kubejs/data/bth_structures/structures/ruined_hangar.nbt"
+hash = "f06f16304111a4f84cbf087fd5e8f3ecdd15fb38fa7393f09caaa3f5a6a960e2"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/ruined_hangar.json"
+hash = "a1654f2c6c0a583a116bede9bcf626000393eedd65ee31c967b167e86465f6b4"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/ruined_hangar.json"
+hash = "477e73ee8fc622eee26319be6014d7047151b1ade98a1920b94949f332cd429a"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/ruined_hangar.json"
+hash = "d1aba000bf004c8a8e8b1c62b61648ef462be06f86c390616e2c2a72571d675f"
+
+[[files]]
 file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
 hash = "bdc2ce99055fa5a847c46357ea52f1af9898c8eaaa971e0e6a6697325a8e4a0f"
 
