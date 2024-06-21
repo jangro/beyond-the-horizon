@@ -4,7 +4,7 @@
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
-    "start_pool": "bth_structures:ruined_hangar",
+    "start_pool": "bth_structures:ruined_hangar/hangar",
     "size": 1,
     "start_height": {
         "absolute": 0

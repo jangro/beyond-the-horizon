@@ -1,0 +1,13 @@
+{
+    "name": "bth_structures:ruined_hangar",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "bth_structures:ruined_hangar/bunker",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+    }]
+}
