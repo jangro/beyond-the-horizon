@@ -1556,6 +1556,11 @@ hash = "9fb58a86ebcd43b8f3dd47d9c5b510f6d8dfd2e6bf4b2765d9328d00e3cef51e"
 metafile = true
 
 [[files]]
+file = "mods/rustic-engineer.pw.toml"
+hash = "66e9e789128d7640dd8427c767ecfb217cc44af8d1ef78153136b74b3b9c7b79"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "a84f8e46ba2d693bfbdec682ca66213e2e0783395c9af34f8b22d460d3952a4c"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Rustic Engineer"
+filename = "rustic_engineer-1.20.1-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5577f299d45eb0948e420f781f7ca468b26ea580"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5456467
+project-id = 1026067
