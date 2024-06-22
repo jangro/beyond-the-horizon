@@ -1,0 +1,13 @@
+{
+    "name": "bth_structures:aether_portal_floating",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "bth_structures:aether_portal_floating",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+    }]
+}

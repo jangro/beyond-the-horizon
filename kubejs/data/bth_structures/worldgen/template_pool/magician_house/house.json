@@ -1,0 +1,13 @@
+{
+    "name": "bth_structures:magician_house",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "bth_structures:magician_house/house",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+    }]
+}
