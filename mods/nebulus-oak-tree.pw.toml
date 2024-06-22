@@ -1,13 +1,13 @@
-name = "Nebulus oak tree"
-filename = "nebulus_oak_tree-1.0.0-forge-1.20.1.jar"
+name = "Nebulus' Oak Tree"
+filename = "NebulusOakTree+M.1.20.1+ForM.2.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f229ad4cd1f8a9c33a5beca25e59afd79225eb84"
+hash = "80f05c421f95fe727036836838fbaac584fc29a9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5403703
+file-id = 5438104
 project-id = 1031927
