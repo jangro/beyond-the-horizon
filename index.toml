@@ -1281,6 +1281,11 @@ hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-ars-nouveau.pw.toml"
+hash = "50dde309aba5227016d9901bac4d439899107b495e31671aa150f6788e414570"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
 metafile = true

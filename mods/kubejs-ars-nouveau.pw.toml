@@ -1,0 +1,13 @@
+name = "KubeJS Ars Nouveau"
+filename = "kubejsarsnouveau-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e54620c7e9879768d947827325f1e133b75c283d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4920407
+project-id = 833926
