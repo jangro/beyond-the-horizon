@@ -75,6 +75,10 @@ file = "config/chunkloaders-common.toml"
 hash = "c95b8fa0c4eefa48ee549467d107db2e2582a10844e916d2b00d80ec72842c5a"
 
 [[files]]
+file = "config/create_connected-common.toml"
+hash = "b69d9e2e150fff2484fc355d14fd8c700231d85821cc5cf0248b7530ce3e5702"
+
+[[files]]
 file = "config/fml.toml"
 hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 
@@ -239,28 +243,132 @@ file = "kubejs/data/afk_display/functions/uninstall.mcfunction"
 hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
 
 [[files]]
-file = "kubejs/data/bth_structures/structures/ruined_hangar.nbt"
-hash = "350dad349e552c6aa68a4533ed49cc5e6a7cef45710c9e31ac8fa08d1a2c84db"
+file = "kubejs/data/bth_structures/structures/aether_portal_floating.nbt"
+hash = "fd52c8781dcd6a4cfe246e6af46dcc7fdead99b3dbdd37e5c1336f85b102d486"
 
 [[files]]
-file = "kubejs/data/bth_structures/structures/ruined_hangar_basement.nbt"
-hash = "9573d67fd533cfe46b8e15cc201d912e54d651c9d35bcf8e6b35df52d7632b17"
+file = "kubejs/data/bth_structures/structures/aether_portal_framed.nbt"
+hash = "a5315b176dce702057e3bda39873bc285a257cf6cf42a56de88712b0a652d498"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/battle_grounds.nbt"
+hash = "5cc5a30ee89e447cb4f17ba73acda37f669c6ff91df69175ae37d3846bd3db25"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
+hash = "ae6ab4f4717125b32183312a84425530df0b626c1ca6598407ea3065d074f756"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/magician_house/house.nbt"
+hash = "55194b2236a11446f1baabb40e1f527e6ac8f1b73b36b67f3d79a381a9b5fb5d"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/ruined_hangar/bunker.nbt"
+hash = "784e9fa0637596ca388e455ec3558613c9c287e55bb17176c15527b648b043af"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/ruined_hangar/hangar.nbt"
+hash = "7f633f07d7afe141bff1cbfcaa66fb3d8528bf6fe5d0877a48cdb973a286f94b"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/tinkerer_house/basement.nbt"
+hash = "5ecfa2b926842938f8d338939c49f6f38d5412a544f2c019a7a244082eab2114"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/tinkerer_house/house.nbt"
+hash = "241f0902e3f6689f48c212ac9e88ef22824a6f0e4fe6fee9ef10c3e871bd3efa"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/tinkerer_house/pool.nbt"
+hash = "98c31932227b1971753477367ef9cfa463d6b90e3dab514d10a30b2feb7c0d50"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_floating.json"
+hash = "9f60fef63e188de3c6daa39dea5949d7f94165e4d70506d2828f75cb4931fc7d"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_framed.json"
+hash = "5253cfa0649a8cc1f3fd77d5097f5b7eb7c4116af169040956e2a692d6308410"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/battle_grounds.json"
+hash = "ab8786f33aff6e6c470ac645d11cfdcd1ddbab0c139f6a02f8b1fbcb5aec6f03"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/magician_house.json"
+hash = "d79a28a1f71352322e84378a6ab7311bdb8d93d4e42f13bac19c3713347a5ff3"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/ruined_hangar.json"
-hash = "a1654f2c6c0a583a116bede9bcf626000393eedd65ee31c967b167e86465f6b4"
+hash = "eb06d7a804fbb77c0a577a4b11c06b82669f99e125c558a021f39cb93c259fa3"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tinkerer_house.json"
+hash = "575770270b46cfbd0a71d9050128bad6485818418d8d20ee610d138836c23312"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_floating.json"
+hash = "460c430b75512128adf6edab09a3be9dddde6750b7bb543caac04fe85b99d79e"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_framed.json"
+hash = "3cfe4f510ed876d41f600fe6b10ec885810c9792227e2bf79fd99cb8e265ef1f"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/battle_grounds.json"
+hash = "32dfdea53b43dce42eeb0b6af8999e5933ca9e5ffeb72f944bab13ee8adce649"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/magician_house.json"
+hash = "641468b90f174c1e9dc2a72da13c94c625c7e44c2f63b50ce43e05382177d221"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/ruined_hangar.json"
-hash = "477e73ee8fc622eee26319be6014d7047151b1ade98a1920b94949f332cd429a"
+hash = "8b1ebe3c158408ba4973e15f6646bbac3fb97834654717131d003cb8d9c6b180"
 
 [[files]]
-file = "kubejs/data/bth_structures/worldgen/template_pool/ruined_hangar.json"
-hash = "d1aba000bf004c8a8e8b1c62b61648ef462be06f86c390616e2c2a72571d675f"
+file = "kubejs/data/bth_structures/worldgen/structure_set/tinkerer_house.json"
+hash = "c6c89616589f1ae53be1fb440feb4ecdfa026c9fd9a7cd9e057aeed9d5f7e95a"
 
 [[files]]
-file = "kubejs/data/bth_structures/worldgen/template_pool/ruined_hangar_basement.json"
-hash = "35c1a303b1e73b715c2458f37d7a418ead8c2edffc73e64d759d8e9c47eda7e6"
+file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_floating.json"
+hash = "416c8f75c5f3e953e9f5dfa7dceb2fe848e28423a810922639f069112bfadf72"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_framed.json"
+hash = "cd405bb5ed0c268f24bef48c60d2ad557c5398e782746be35cff38d5212616bd"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/battle_grounds.json"
+hash = "696d01272538d90f888f40dfc3e7ea1e4c48605fbdff82ae0034d832d05fcf39"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/magician_house/basement.json"
+hash = "d538faa97c620b253a5df0b102a6670bb831c8e165d64666e7b2786c67da2da8"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/magician_house/house.json"
+hash = "cc5a48cc3a0218b6cedc3de19c632c5084b3aa2e73d2c41cb5e740a44944353d"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/ruined_hangar/bunker.json"
+hash = "6e68f53e297ca4f52376dbd52cf56a90f4f5ab3a3e7f9cc916854729f47594b8"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/ruined_hangar/hangar.json"
+hash = "8d0c66e198ba3b3c5e3fcf508547f1d8228cecfb3ff99eb4afbb95ad7dd0adbe"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/tinkerer_house/basement.json"
+hash = "d1fd790ccfb6972d7e4ca92b7851ce2904c548ca2b6d407eb1f587fc661b3ce5"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/tinkerer_house/house.json"
+hash = "eaef1694a32b30a989e3ada82a184bc4a60109b73783ba3d10bd6705d5e9de54"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/tinkerer_house/pool.json"
+hash = "a2bdbf76b9f866f4bfd75133b6b7f300792889056645d53a0ed4e5f045c506d3"
 
 [[files]]
 file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
