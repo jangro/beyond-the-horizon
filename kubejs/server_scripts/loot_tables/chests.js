@@ -8,6 +8,55 @@
  * Chest Loot Table Event Handler
  */
 ServerEvents.chestLootTables(event => {
+  // BTH Structures
+  event.modify('bth_structures:aether_portal_framed', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:carrot');
+    });
+  });
+
+  event.modify('bth_structures:battle_grounds', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:potato');
+    });
+  });
+
+  event.modify('bth_structures:magician_house_loft', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:oak_log');
+    });
+  });
+
+  event.modify('bth_structures:ruined_hangar_bunker', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:spruce_log');
+    });
+  });
+
+  event.modify('bth_structures:tinkerer_house_attic', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:string');
+    });
+  });
+
+  event.modify('bth_structures:tinkerer_house_basement', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:cobblestone');
+    });
+  });
+
+  event.modify('bth_structures:tinkerer_house_safe', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:diamond');
+    });
+  });
+
+  event.modify('bth_structures:tinkerer_house_topsecret', table => {
+    table.addPool(pool => {
+      pool.addItem('minecraft:emerald');
+    });
+  });
+
   // Additional Cooking Chest Loot (Valhelsia Structures)
   [
     'valhelsia_structures:desert_house',
