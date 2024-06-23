@@ -13,6 +13,7 @@ ServerEvents.tags('entity_type', event => {
   event.add('ars_nouveau:drygmy_blacklist', [
     'aquamirae:captain_cornelia',
     'artifacts:mimic',
+    'irons_spellbooks:citadel_keeper', // In-game as "Ancient Knight"
     'irons_spellbooks:dead_king',
     // TODO: Some other Iron's entities should probably be added here.
     'rats:black_death',
