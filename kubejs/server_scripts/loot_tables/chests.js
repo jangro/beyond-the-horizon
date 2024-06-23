@@ -11,49 +11,116 @@ ServerEvents.chestLootTables(event => {
   // BTH Structures
   event.modify('bth_structures:aether_portal_framed', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:carrot');
+      // TODO: add random durability
+      pool.addItem('aether:zanite_pickaxe', 10).enchantWithLevels(2, true);
+      pool.addItem('aether:valkyrie_pickaxe', 10).enchantWithLevels(1, true);
+      pool.addItem('aether:golden_parachute', 10);
+    });
+    table.addPool(pool => {
+      pool.rolls = [3, 6];
+      pool.addItem('aether:enchanted_berry', 10, [1, 5]);
+      pool.addItem('quark:bottled_cloud', 1);
+      pool.addItem('aether:golden_dart', 10, [8, 32]);
+      pool.addItem('aether:gold_dart_shooter', 1);
+      pool.addItem('aether:golden_ring', 3);
+      pool.addItem('aether:zanite_ring', 3);
+      pool.addItem('aether:iron_gloves', 5);
+      pool.addItem('aether:golden_gloves', 5);
+      pool.addItem('aether:white_cape', 6);
+      pool.addItem('aether:book_of_lore', 1);
+      pool.addItem('aether:ambrosium_torch', 10, [4, 10]);
     });
   });
 
   event.modify('bth_structures:battle_grounds', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:potato');
+      pool.rolls = [4, 8];
+      pool.addItem('ae2:nether_quartz_sword', 10);
+      pool.addItem('aether:enhanced_dart', 10, [8, 32]);
+      pool.addItem('aether:enhanced_dart_shooter', 10);
+      pool.addItem('aether:holy_sword', 10);
+      pool.addItem('aether:ice_pendant', 10);
+      pool.addItem('aether:lightning_knife', 10);
+      pool.addItem('aether:lightning_sword', 10);
+      pool.addItem('aether:obsidian_gloves', 10);
+      pool.addItem('aether:phoenix_chestplate', 10);
+      pool.addItem('aether:pig_slayer', 10);
+      pool.addItem('aether:valkyrie_helmet', 10);
+      pool.addItem('aether:valkyrie_lance', 10);
+      pool.addItem('aether:zanite_axe', 10);
+      pool.addItem('endrem:nether_eye', 10);
+      pool.addItem('immersive_armors:wither_boots', 10);
+      pool.addItem('immersive_armors:wither_chestplate', 10);
+      pool.addItem('immersive_armors:wither_helmet', 10);
+      pool.addItem('immersive_armors:wither_leggings', 10);
+      pool.addItem('irons_spellsbooks:keeper_flamberge', 10);
+      pool.addItem('nethersdelight:warped_moldy_meat', 10);
+      pool.addItem('travelersbackpack:nether', 10);
     });
   });
 
   event.modify('bth_structures:magician_house_loft', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:oak_log');
+      pool.rolls = [3, 6];
+      pool.addItem('forbidden_arcanus:arcance_crystal_dust', 10, [2, 4]);
+      pool.addItem('forbidden_arcanus:arcane_bone_meal', 10);
+      pool.addItem('forbidden_arcanus:edelwood_bucket', 10, [1, 2]);
+      pool.addItem('forbidden_arcanus:golden_blacksmith_gavel', 10);
+      pool.addItem('forbidden_arcanus:sanity_meter', 10);
+      pool.addItem('forbidden_arcanus:spawner_scrap', 10);
+      pool.addItem('forbidden_arcanus:test_tube', 10, [1, 3]);
+      pool.addItem('minecraft:blaze_powder', 10, [1, 3]);
+      pool.addItem('minecraft:bone_meal', 10, [1, 8]);
+      pool.addItem('minecraft:gunpowder', 10, [1, 4]);
+      pool.addItem('minecraft:lapis_lazuli', 10, [4, 16]);
+      pool.addItem('minecraft:phantom_membrane', 10, [1, 3]);
+      pool.addItem('minecraft:redstone', 10, [1, 12]);
     });
   });
 
   event.modify('bth_structures:ruined_hangar_bunker', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:spruce_log');
+      pool.rolls = [1, 2];
+      pool.addItem('immersive_aircraft:eco_engine');
+      pool.addItem('immersive_aircraft:sturdy_pipes');
+      pool.addItem('immersive_aircraft:enhanced_propeller');
+      pool.addItem('immersive_aircraft:heavy_crossbow');
     });
   });
 
   event.modify('bth_structures:tinkerer_house_attic', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:string');
+      pool.rolls = [3, 6];
+      // TODO: add something interesting
+      pool.addItem('minecraft:cobweb');
     });
   });
 
   event.modify('bth_structures:tinkerer_house_basement', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:cobblestone');
+      pool.addItem('galosphere:salted_jerky', 1, [1, 6]);
     });
   });
 
   event.modify('bth_structures:tinkerer_house_safe', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:diamond');
+      pool.addItem('minecraft:diamond', 1, [1, 4]);
+    });
+    table.addPool(pool => {
+      pool.addItem('artifacts:crystal_heart', 3);
+      pool.addItem('rats:tiny_coin', 10, [8, 16]);
     });
   });
 
   event.modify('bth_structures:tinkerer_house_topsecret', table => {
     table.addPool(pool => {
-      pool.addItem('minecraft:emerald');
+      pool.addItem('pneumaticcraft:vortex_tube');
+    });
+    table.addPool(pool => {
+      pool.addItem('pneumaticcraft:heat_sink');
+    });
+    table.addPool(pool => {
+      pool.addItem('pneumaticcraft:pressure_tube', 1, [2, 8]);
     });
   });
 
