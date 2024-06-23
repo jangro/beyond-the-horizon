@@ -252,7 +252,7 @@ hash = "4151e7d5fda12292b278fec209234de92ade7fb776e2015f28d3490a39a3b679"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/battle_grounds.nbt"
-hash = "33e3e91a21b4708d1fcb5233fa2636246f1d7e8db802eeb7e611561ca4d5bb5f"
+hash = "f05630d0b76141652feed56456b29a11d2a1aaf7d23bddd1bc4149aaa66daadb"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -268,19 +268,15 @@ hash = "c8d5f819d673bf97acc0cc7b05dac6ecab30d54d4d9e7bcc9b5ab3df3a299a6e"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/hangar.nbt"
-hash = "8e3a53390c2f75138ccb0768f6d748bf9d26f1f5b548d55a2c633856bdbd0363"
+hash = "00eb13a8b1cb324479ccda75c64cbf8ec08791b642f9b724fc1d3d305cea067c"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tinkerer_house/basement.nbt"
-hash = "bc66030bfd5fb73eaadde81076e8bfafca05bdd5abdcbf2f189460b12829ee0a"
+hash = "251aede3161957f94939bfe02887c8ca8584124cf28c4725b86bf8880fda9ae3"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tinkerer_house/house.nbt"
-hash = "fea48d55ca316159bf86aa2935c5b005747d70568b10293a98610e749b9b0f9b"
-
-[[files]]
-file = "kubejs/data/bth_structures/structures/tinkerer_house/pool.nbt"
-hash = "98c31932227b1971753477367ef9cfa463d6b90e3dab514d10a30b2feb7c0d50"
+hash = "2e4f7db71e338ff404fa41000664e591dbe57170b38d08f5531dd1dc2230f9b3"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_floating.json"
@@ -365,10 +361,6 @@ hash = "d1fd790ccfb6972d7e4ca92b7851ce2904c548ca2b6d407eb1f587fc661b3ce5"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/tinkerer_house/house.json"
 hash = "eaef1694a32b30a989e3ada82a184bc4a60109b73783ba3d10bd6705d5e9de54"
-
-[[files]]
-file = "kubejs/data/bth_structures/worldgen/template_pool/tinkerer_house/pool.json"
-hash = "a2bdbf76b9f866f4bfd75133b6b7f300792889056645d53a0ed4e5f045c506d3"
 
 [[files]]
 file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
@@ -508,7 +500,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "6b4d0b01b36570c7f0e9901698b58bbff4b328a1c4dcb603f1c0b6ebe17c576f"
+hash = "918c1d95a0029c51bab1266297b47ecf15847c460ea18130bc1fbef60704d923"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
