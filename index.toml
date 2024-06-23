@@ -128,7 +128,7 @@ hash = "9fab789ecde809745097e76f67dfd65b4d292dccfbbe30433013e34ac17d5871"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "cfa4a5ab2385b9adc71c944ff9e6cf30da6248be8a39921e026de3b51b5a0ee4"
+hash = "2cf1734db0607998e759dc422996de51033781f74bea588cca9a635d6b8ead46"
 
 [[files]]
 file = "config/rats-common.toml"
@@ -248,11 +248,11 @@ hash = "fd52c8781dcd6a4cfe246e6af46dcc7fdead99b3dbdd37e5c1336f85b102d486"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/aether_portal_framed.nbt"
-hash = "a5315b176dce702057e3bda39873bc285a257cf6cf42a56de88712b0a652d498"
+hash = "4151e7d5fda12292b278fec209234de92ade7fb776e2015f28d3490a39a3b679"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/battle_grounds.nbt"
-hash = "5cc5a30ee89e447cb4f17ba73acda37f669c6ff91df69175ae37d3846bd3db25"
+hash = "33e3e91a21b4708d1fcb5233fa2636246f1d7e8db802eeb7e611561ca4d5bb5f"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -260,23 +260,23 @@ hash = "ae6ab4f4717125b32183312a84425530df0b626c1ca6598407ea3065d074f756"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/house.nbt"
-hash = "55194b2236a11446f1baabb40e1f527e6ac8f1b73b36b67f3d79a381a9b5fb5d"
+hash = "3c3121ef3c68f363109aac97df08f4a55c62d0e8d14cd8d288144a2976742aa3"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/bunker.nbt"
-hash = "784e9fa0637596ca388e455ec3558613c9c287e55bb17176c15527b648b043af"
+hash = "c8d5f819d673bf97acc0cc7b05dac6ecab30d54d4d9e7bcc9b5ab3df3a299a6e"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/hangar.nbt"
-hash = "7f633f07d7afe141bff1cbfcaa66fb3d8528bf6fe5d0877a48cdb973a286f94b"
+hash = "8e3a53390c2f75138ccb0768f6d748bf9d26f1f5b548d55a2c633856bdbd0363"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tinkerer_house/basement.nbt"
-hash = "5ecfa2b926842938f8d338939c49f6f38d5412a544f2c019a7a244082eab2114"
+hash = "bc66030bfd5fb73eaadde81076e8bfafca05bdd5abdcbf2f189460b12829ee0a"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tinkerer_house/house.nbt"
-hash = "241f0902e3f6689f48c212ac9e88ef22824a6f0e4fe6fee9ef10c3e871bd3efa"
+hash = "fea48d55ca316159bf86aa2935c5b005747d70568b10293a98610e749b9b0f9b"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tinkerer_house/pool.nbt"
@@ -508,7 +508,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "92142250a9976e0b7b4f4b38328d9d58e34f9e100483baa84d3bfc92f6af367f"
+hash = "6b4d0b01b36570c7f0e9901698b58bbff4b328a1c4dcb603f1c0b6ebe17c576f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
@@ -531,8 +531,12 @@ file = "kubejs/server_scripts/loot_tables/trades.js"
 hash = "def21971ac0ffe5ad17f8405d63373b0f9830f73767661bfe46a6b54e88b706d"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/arsnouveau.js"
+hash = "a7e939bed068075604813cd03d828fc0fbba61702a8eadbf7901da7f7b001254"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/clayworks.js"
-hash = "921cce13c01ebe4fcdeaaeb1a6118f9e9bdcf85f7f8f1acbeb16a5cb0e1076d1"
+hash = "5f94b8429881ad377548c8259c605aedc4889e6313f2c2b325149525f2a28c4d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create.js"
@@ -544,7 +548,7 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "a7dddca4b8e468b1fef165d1b0b87e0a1b7e02d7af969441ed390b91d3246f81"
+hash = "2898aaf94ec38e57c92f080e419cddc4d07fcad07359576ebb82689bd46b2c71"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -560,7 +564,7 @@ hash = "a962efb82d3e10982e636362a811b730ed0094632cb471d2068a7011cec92a86"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/woodworks.js"
-hash = "52cd557274b3e9f897880196729a2fa7c24e09e6c9b4d01f0a1ea5e4054730d6"
+hash = "6f74225d4132cf097315a9c675a9d9d5d892c5cab0d08d39a9f72671ffc83d29"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
@@ -576,7 +580,7 @@ hash = "a5c8e03f765a44572d18cc6903bba5e1e2a0018bf7ecf48b717d3f0ee0f50431"
 
 [[files]]
 file = "kubejs/server_scripts/tags/entity_type.js"
-hash = "9267ffd193603db9a5ddb5ad04ea8d2cbd47ffe2b38bcb3ef636adfa1516fc71"
+hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item.js"
