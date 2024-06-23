@@ -20,6 +20,8 @@ ServerEvents.recipes(event => {
   [
     'minecraft:bread',
     'aether:aether_saddle',
+    'ars_nouveau:drygmy_charm',
+    'ars_nouveau:whirlisprig_charm',
     'create:smelting/bread', 
     'create:smoking/bread', 
     'eidolon:raven_feather_arrows',
