@@ -1,4 +1,4 @@
-// priority: 90
+// priority: 10
 
 /**
  * @file Additions, removals, and changes for Woodworks sawmill recipes in Beyond the Horizon.
