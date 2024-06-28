@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#minecraft:is_mountain",
+    "biomes": "#bth_structures:has_structure/aether_portal_floating",
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
