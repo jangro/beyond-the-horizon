@@ -1,13 +1,13 @@
 name = "Midnighttigger's Default Connected Textures"
-filename = "Midnighttiggers-CTM-Default_1.20.2_V2.zip"
+filename = "Midnighttiggers-FCT-Default_1.20_V3.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e6435de805b70fb76bac7a4c470725708b6f2ab7"
+hash = "12f71bc1dd7312aa3b3f08d2702b6c10beca3336"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4894415
+file-id = 5470241
 project-id = 885553

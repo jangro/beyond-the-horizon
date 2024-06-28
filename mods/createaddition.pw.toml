@@ -1,13 +1,13 @@
 name = "Create Crafts & Additions"
-filename = "createaddition-1.20.1-1.2.3.jar"
+filename = "createaddition-1.20.1-1.2.4c.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dcb0f28ce8d77d8ef2d2f1004c5520f66e5ca0ef"
+hash = "167bc7a5a3c09b4ba4a1aae8d4206bcdaa0f531b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5099752
+file-id = 5473648
 project-id = 439890
