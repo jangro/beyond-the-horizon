@@ -52,7 +52,7 @@ hash = "81f6cb543a1b262b92ee68b9ae58955c1374bccef9c4b2237e7a709dd2680b47"
 
 [[files]]
 file = "config/auto_third_person-client.toml"
-hash = "b89f0d153af5ddabaaee9aee009f8792be9ba17e8680fd59633c4308bd27f7cb"
+hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
@@ -68,7 +68,7 @@ hash = "9feed9bbb26e2ed73a7bdbbeead0a27d7779fde38b511cd39d81027ff8d6e38c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "9b4ae56a1c963fdcbd993e0acdcc62fbb224c4bfc96fab757c9dc8669a26a8cb"
+hash = "bf6e537395e199c31519f2a965b916ba21fbd7e0673122e2be0a38b91036d0ea"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -159,23 +159,23 @@ file = "defaultconfigs/moremobgriefingoptions-server.toml"
 hash = "355b208e79fa05da1eb5ba3a1e89fbfa644d8ed23bcdfbf1f883767ded639b92"
 
 [[files]]
-file = "journeymap/config/5.9/journeymap.core.config"
+file = "journeymap/config/5.10/journeymap.core.config"
 hash = "1e3f075040a1fee87f9dfd3d318ab5bae8b98d394981d88b284e4381b99e2304"
 
 [[files]]
-file = "journeymap/config/5.9/journeymap.fullmap.config"
+file = "journeymap/config/5.10/journeymap.fullmap.config"
 hash = "e604113284728101353044e59c6bb23dfb851dcc69771bc5a29b80cc40a54240"
 
 [[files]]
-file = "journeymap/config/5.9/journeymap.minimap.config"
+file = "journeymap/config/5.10/journeymap.minimap.config"
 hash = "5dbe7c9c96b472d748f91c9a07f12e447acb27934bf38b858a359a473c620c88"
 
 [[files]]
-file = "journeymap/config/5.9/journeymap.minimap2.config"
+file = "journeymap/config/5.10/journeymap.minimap2.config"
 hash = "37e946404488996275c67ddfe5a87a527d129eb784e4e986f98c63b2c972a803"
 
 [[files]]
-file = "journeymap/config/5.9/journeymap.waypoint.config"
+file = "journeymap/config/5.10/journeymap.waypoint.config"
 hash = "b7e7d2b51ed8f03454173efa91fd7273bb79ee4e3efd9546cc1c1794e2f92efd"
 
 [[files]]
@@ -427,6 +427,10 @@ file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
 
 [[files]]
+file = "kubejs/data/graveyard/dimension_type/past.json"
+hash = "8cc1b0c68e190e003decb969c62ca81d0bf2279a3488655a39070693f33e643c"
+
+[[files]]
 file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/waystone_default.json"
 hash = "7ebf4726b29f68b5187f209db0cd9bb60e0c089e60cc7cb22804a0e8f4aef8b5"
 
@@ -461,6 +465,10 @@ hash = "8ad3a408e84fad619960d84009c3e40ad5cf96ca315ed0851f00b0fd7e119e42"
 [[files]]
 file = "kubejs/data/pneumaticcraft/worldgen/placed_feature/oil_lake_surface.json"
 hash = "976596fb665ec85a6e78e268b4d1858f20d9cd3d49a4f3a12725307e0808dc22"
+
+[[files]]
+file = "kubejs/data/rats/dimension_type/ratlantis_type.json"
+hash = "bd7740b6d832421a669535bb8d6c2eb211056642fd7b6d614d097c8c98dc8304"
 
 [[files]]
 file = "kubejs/data/vanillatweaks/advancements/afk_display.json"
@@ -583,8 +591,8 @@ file = "kubejs/startup_scripts/misc.js"
 hash = "66371520ba5a4687c5842ae3d8bbaf0cb42c49e37011ceba0e28563be696be52"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.0.4-a-dev-3fb4d5a2-1.20.1.jar"
-hash = "4de7d564c67fd41d8e75f590c9e530b3b9cad5e2927ccc6b9027eceed2f7c7d4"
+file = "mods/DistantHorizons-forge-2.1.3-a-dev-9b139575-1.20.1.jar"
+hash = "f77c718ef9f728f8af8c9ac6e7838f258fdb77d2de51db645c0eb244410b1e1e"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
