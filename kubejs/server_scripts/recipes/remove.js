@@ -16,6 +16,9 @@ ServerEvents.recipes(event => {
   // Remove all Waystones recipes
   event.remove({mod: `waystones`});
 
+  // Remove all Rustic Engineer recipes, we add our own for a subset of the items
+  event.remove({mod: `rustic_engineer`});
+
   // Remove recipes by recipe ID:
   [
     'minecraft:bread',

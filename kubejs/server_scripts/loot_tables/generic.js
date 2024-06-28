@@ -17,3 +17,7 @@ ServerEvents.genericLootTables((event) => {
   });
 });
 
+
+LootJS.modifiers((event) => {
+    event.removeGlobalModifier("@rustic_engineer");
+});
