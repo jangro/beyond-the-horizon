@@ -14,7 +14,13 @@ ServerEvents.tags('item', event => {
     'ecologics:walnut',
     'alexscaves:pine_nuts',
   ]);
-  
+
+  event.add('bth:mechanical_soul', [
+    'botania:spark',
+    'ars_elememental:anima_essence',
+    'advancedperipherals:weak_automata_core',
+  ]);
+
   // Forge Tags
   event.add('forge:dough', [
     'minecolonies:bread_dough',

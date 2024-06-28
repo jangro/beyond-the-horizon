@@ -115,4 +115,66 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}speed_upgrade_from_glycerol`);
 
+  // Rustic Engineer
+  event.shaped('rustic_engineer:spider_mech_item', [
+    'ESC',
+    'LLV',
+    'TTT'
+  ], {
+    E: 'immersive_aircraft:steel_boiler',
+    S: 'create:yellow_seat',
+    C: 'create:contraption_controls',
+    L: 'forbidden_arcanus:aurum_log',
+    V: 'pneumaticcraft:vortex_cannon',
+    T: 'create:steam_engine'
+  }).id(`${ID_PREFIX}spider_mech_item`);
+
+  event.shaped('rustic_engineer:dragonfly_item', [
+    'ESC',
+    'LGL',
+    'WHW'
+  ], {
+    E: 'immersive_aircraft:engine',
+    S: 'create:yellow_seat',
+    C: 'create:contraption_controls',
+    L: 'immersive_aircraft:sail',
+    G: 'create_connected:six_way_gearbox',
+    W: 'rats:dragon_wing',
+    H: 'immersive_aircraft:hull'
+  }).id(`${ID_PREFIX}dragonfly_item`);
+
+  event.shaped('rustic_engineer:wooden_cube_sleep', [
+    ' G ',
+    ' S ',
+    ' L '
+  ], {
+    G: 'immersive_aircraft:industrial_gears',
+    S: '#bth:mechanical_soul',
+    L: 'forbidden_arcanus:aurum_log'
+  }).id(`${ID_PREFIX}wooden_cube_sleep`);
+
+  event.shaped('rustic_engineer:clock_key', [
+    ' C ',
+    ' K ',
+    '   '
+  ], {
+    C: 'minecraft:clock',
+    K: 'supplementaries:key'
+  }).id(`${ID_PREFIX}clock_key`);
+
+  // Alex's Caves
+  event.shaped('alexscaves:submarine', [
+    'TWW',
+    'ERC',
+    'PXP'
+  ], {
+    T: 'immersiveengineering:toolupgrade_drill_waterproof',
+    W: 'createdeco:copper_window',
+    E: 'immersive_aircraft:engine',
+    R: 'minecraft:redstone_block',
+    C: 'create:contraption_controls',
+    P: 'create:propeller',
+    X: 'immersive_aircraft:enhanced_propeller'
+  }).id(`${ID_PREFIX}submarine`);
+
 });
