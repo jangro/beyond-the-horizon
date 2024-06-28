@@ -1,6 +1,7 @@
 name = "Rustic Engineer"
 filename = "rustic_engineer-1.20.1-1.0.6.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

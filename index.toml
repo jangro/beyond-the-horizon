@@ -1566,7 +1566,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustic-engineer.pw.toml"
-hash = "66e9e789128d7640dd8427c767ecfb217cc44af8d1ef78153136b74b3b9c7b79"
+hash = "e9b3a8239df14bc6fa0d0e9ca6e7efb12ce94a29886efbe7f8cc401ea4a8b94a"
 metafile = true
 
 [[files]]
