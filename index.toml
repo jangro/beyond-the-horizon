@@ -1645,11 +1645,6 @@ hash = "ce92a2870c50085508caf9b680efffdfdd50b54e240e7bf047b6833c66ac139e"
 metafile = true
 
 [[files]]
-file = "mods/storage-racks.pw.toml"
-hash = "13cdf90ed8be8ca4b1d0890801bae817a31114a1d43f713332b398b47690b316"
-metafile = true
-
-[[files]]
 file = "mods/structurize.pw.toml"
 hash = "31271eeeaf61f75b0bdf44b56c355453babdc0a60666ccdaf176d6b5117e1508"
 metafile = true
