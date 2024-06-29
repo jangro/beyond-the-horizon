@@ -14,6 +14,9 @@ JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
     'buzzier_bees:honey_apple',
+    'cofh_core:experience',
+    'cofh_core:honey',
+    'cofh_core:potion',
     'immersive_aircraft:propeller',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
