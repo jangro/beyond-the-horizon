@@ -24,12 +24,10 @@ ServerEvents.tags('item', event => {
   // Forge Tags
   event.add('forge:dough', [
     'minecolonies:bread_dough',
-    'pneumaticcraft:sourdough'
   ]);
 
   event.add('forge:dough/wheat', [
     'minecolonies:bread_dough',
-    'pneumaticcraft:sourdough',
   ]);
   
   event.add('forge:dusts', [
