@@ -13,10 +13,12 @@
 JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
+    'bbb:rope',
     'buzzier_bees:honey_apple',
     'cofh_core:experience',
     'cofh_core:honey',
     'cofh_core:potion',
+    'farmersdelight:rope',
     'immersive_aircraft:propeller',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
