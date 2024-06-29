@@ -13,6 +13,7 @@
 JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
+    'buzzier_bees:honey_apple',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
     'rats:rat_upgrade_aristocrat',
