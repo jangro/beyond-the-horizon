@@ -13,6 +13,7 @@
 JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
+    'incubation:fried_egg',
     'rats:rat_upgrade_aristocrat',
     'rustic_engineer:abyssal_submarine_item',
     'rustic_engineer:air_ship_item',
