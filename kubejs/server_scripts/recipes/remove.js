@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     'create:smoking/bread', 
     'eidolon:raven_feather_arrows',
     'everycomp:abnww/enlightened_end/indigo_boards_from_indigo_logs_sawing',
+    /incubation:fried_egg.*/,
     'immersive_aircraft:hull',
     'immersive_aircraft:hull_reinforcement',
     'minecolonies:baked_bread',
