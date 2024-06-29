@@ -248,6 +248,9 @@ ServerEvents.recipes(event => {
   replaceOutput('createaddition:copper_wire', 'immersiveengineering:wire_copper');
   replaceOutput('createaddition:electrum_wire', 'immersiveengineering:wire_electrum');
 
+  // Rods
+  replaceOutput('createaddition:iron_rod', 'immersiveengineering:stick_iron');
+
   // Ore
   replaceOutput('galosphere:silver_ore', 'eidolon:silver_ore');
   replaceOutput('galosphere:deepslate_silver_ore', 'eidolon:deep_silver_ore');

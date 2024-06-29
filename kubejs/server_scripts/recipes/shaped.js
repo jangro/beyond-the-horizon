@@ -26,17 +26,39 @@ ServerEvents.recipes(event => {
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
 
-  // Minecraft
-  event.shaped('minecraft:saddle', [
-    'LLL',
-    'SLS',
-    'I I'
+  // Create Crafts & Additions
+  event.shaped(Item.of('createaddition:brass_rod', 2), [
+    ' I ',
+    ' I ',
+    '   '
   ], {
-    S: '#forge:string',
-    L: '#forge:leather',
-    I: '#forge:ingots/iron'
-  }).id(`${ID_PREFIX}saddle`);
-  
+    I: '#forge:ingots/brass',
+  }).id(`${ID_PREFIX}createaddition_brass_rod`);
+
+  event.shaped(Item.of('createaddition:copper_rod', 2), [
+    ' I ',
+    ' I ',
+    '   '
+  ], {
+    I: '#forge:ingots/copper',
+  }).id(`${ID_PREFIX}createaddition_copper_rod`);
+
+  event.shaped(Item.of('createaddition:electrum_rod', 2), [
+    ' I ',
+    ' I ',
+    '   '
+  ], {
+    I: '#forge:ingots/electrum',
+  }).id(`${ID_PREFIX}createaddition_electrum_rod`);
+
+  event.shaped(Item.of('createaddition:gold_rod', 2), [
+    ' I ',
+    ' I ',
+    '   '
+  ], {
+    I: '#forge:ingots/gold',
+  }).id(`${ID_PREFIX}createaddition_gold_rod`);
+
   // Immersive Aircraft
   event.shaped('immersive_aircraft:hull', [
     'LLL',
@@ -56,6 +78,31 @@ ServerEvents.recipes(event => {
     L: 'aether:skyroot_log',
     I: '#forge:ingots/iron',
   }).id(`${ID_PREFIX}immersive_aircraft_hull_reinforcement`);
+
+  // Immersive Engineering
+  event.shaped(Item.of('immersiveengineering:stick_aluminum', 2), [
+    ' I ',
+    ' I ',
+    '   '
+  ], {
+    I: '#forge:ingots/aluminum',
+  }).id(`${ID_PREFIX}immersiveengineering_stick_aluminum`);
+
+  event.shaped(Item.of('immersiveengineering:stick_iron', 2), [
+    ' I ',
+    ' I ',
+    '   '
+  ], {
+    I: '#forge:ingots/iron',
+  }).id(`${ID_PREFIX}immersiveengineering_stick_iron`);
+
+  event.shaped(Item.of('immersiveengineering:stick_steel', 2), [
+    ' I ',
+    ' I ',
+    '   '
+  ], {
+    I: '#forge:ingots/steel',
+  }).id(`${ID_PREFIX}immersiveengineering_stick_steel`);
 
   // Iron's Spellbooks
   event.shaped('irons_spellbooks:cooldown_ring', [
@@ -85,6 +132,17 @@ ServerEvents.recipes(event => {
       C: 'irons_spellbooks:cinder_essence',
       E: 'endrem:magical_eye'
   }).id(`${ID_PREFIX}irons_upgrade_orb`);
+
+  // Minecraft
+  event.shaped('minecraft:saddle', [
+    'LLL',
+    'SLS',
+    'I I'
+  ], {
+    S: '#forge:string',
+    L: '#forge:leather',
+    I: '#forge:ingots/iron'
+  }).id(`${ID_PREFIX}saddle`);
 
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:speed_upgrade', [

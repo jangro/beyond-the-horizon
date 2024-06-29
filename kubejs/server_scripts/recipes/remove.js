@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
     'immersive_aircraft:hull',
     'immersive_aircraft:hull_reinforcement',
     'immersive_aircraft:propeller',
+    /immersiveengineering:crafting\/stick.*/,
     'minecolonies:baked_bread',
     'minecolonies:baked_bread_campfire_cooking', 
     'minecolonies:baked_bread_smoking',
