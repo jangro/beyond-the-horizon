@@ -22,6 +22,7 @@ JEIEvents.hideItems(event => {
     'immersive_aircraft:propeller',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
+    /quark:.*shingles.*/,
     'rats:rat_upgrade_aristocrat',
     'rustic_engineer:abyssal_submarine_item',
     'rustic_engineer:air_ship_item',

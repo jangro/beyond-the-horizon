@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
     'neapolitan:milk_bottle',
     'pneumaticcraft:speed_upgrade',
     'pneumaticcraft:speed_upgrade_from_glycerol',
+    /quark:.*shingles.*/,
     'rats:upgrades/aristocrat_upgrade',
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
     'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
