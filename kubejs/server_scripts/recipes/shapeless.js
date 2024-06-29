@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
   // Create
   event.shapeless('create:brass_sheet', ['#forge:ingots/brass', 'immersiveengineering:hammer']).id(`${ID_PREFIX}brass_sheet_hammering`);
 
+  // Create Crafts & Additions
+  event.shapeless('createaddition:gold_wire', ['#forge:plates/gold', 'immersiveengineering:wirecutter']).id(`${ID_PREFIX}gold_wire_cutting`);
+  event.shapeless('createaddition:iron_wire', ['#forge:plates/iron', 'immersiveengineering:wirecutter']).id(`${ID_PREFIX}iron_wire_cutting`);
+
   // Farmer's Delight
   event.shapeless('farmersdelight:organic_compost', [
     'minecraft:dirt', 

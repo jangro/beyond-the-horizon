@@ -16,6 +16,8 @@ JEIEvents.hideItems(event => {
     'bbb:rope',
     'buzzier_bees:honey_apple',
     /clayworks:.*terracotta_brick.*/,
+    'createaddition:copper_wire',
+    'createaddition:electrum_wire',
     'cofh_core:experience',
     'cofh_core:honey',
     'cofh_core:potion',

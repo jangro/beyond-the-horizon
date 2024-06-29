@@ -244,10 +244,6 @@ ServerEvents.recipes(event => {
   replaceOutput('immersiveengineering:plate_gold', 'create:golden_sheet');
   replaceOutput('immersiveengineering:plate_iron', 'create:iron_sheet');
 
-  // Wires
-  replaceOutput('createaddition:copper_wire', 'immersiveengineering:wire_copper');
-  replaceOutput('createaddition:electrum_wire', 'immersiveengineering:wire_electrum');
-
   // Rods
   replaceOutput('createaddition:iron_rod', 'immersiveengineering:stick_iron');
 
@@ -268,6 +264,10 @@ ServerEvents.recipes(event => {
   replaceOutput('galosphere:raw_silver_block', 'eidolon:raw_silver_block');
   replaceOutput('immersiveengineering:raw_block_silver', 'eidolon:raw_silver_block');
   replaceOutput('immersiveengineering:raw_block_uranium', 'alexscaves:block_of_uranium');
+
+  // Wires
+  replaceOutput('createaddition:copper_wire', 'immersiveengineering:wire_copper');
+  replaceOutput('createaddition:electrum_wire', 'immersiveengineering:wire_electrum');
 
   // Misc
   replaceOutput('bbb:rope', 'supplementaries:rope');
