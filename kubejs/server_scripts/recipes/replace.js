@@ -220,6 +220,9 @@ ServerEvents.recipes(event => {
   // Wire Compatibility
   replaceInput('immersiveengineering:wire_copper', '#forge:wires/copper');
 
+  // Propeller Compatibility
+  replaceInput('immersive_aircraft:propeller', 'create:propeller');
+
   // ----- Output Unification -----
   // Ingots
   replaceOutput('immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot');

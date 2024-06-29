@@ -14,6 +14,7 @@ JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
     'buzzier_bees:honey_apple',
+    'immersive_aircraft:propeller',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
     'rats:rat_upgrade_aristocrat',

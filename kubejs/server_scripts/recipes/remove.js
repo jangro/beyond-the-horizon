@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
     /incubation:fried_egg.*/,
     'immersive_aircraft:hull',
     'immersive_aircraft:hull_reinforcement',
+    'immersive_aircraft:propeller',
     'minecolonies:baked_bread',
     'minecolonies:baked_bread_campfire_cooking', 
     'minecolonies:baked_bread_smoking',
