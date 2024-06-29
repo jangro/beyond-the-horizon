@@ -26,6 +26,7 @@ ServerEvents.recipes(event => {
     'ars_nouveau:drygmy_charm',
     'ars_nouveau:whirlisprig_charm',
     'buzzier_bees:honey/honey_apple',
+    /clayworks:.*terracotta_brick.*/,
     'create:smelting/bread', 
     'create:smoking/bread', 
     'eidolon:raven_feather_arrows',
