@@ -239,14 +239,14 @@ ServerEvents.recipes(event => {
   // that convert to raw material, not an ingot.
 
   // Plates
-  replaceOutput('immersiveengineering:plate_gold', 'create:golden_sheet');
-  replaceOutput('immersiveengineering:plate_iron', 'create:iron_sheet');
   replaceOutput('immersiveengineering:plate_copper', 'create:copper_sheet');
   replaceOutput('immersiveengineering:plate_electrum', 'createaddition:electrum_sheet');
+  replaceOutput('immersiveengineering:plate_gold', 'create:golden_sheet');
+  replaceOutput('immersiveengineering:plate_iron', 'create:iron_sheet');
 
   // Wires
-  replaceOutput('immersiveengineering:wire_copper', 'createaddition:copper_wire');
-  replaceOutput('immersiveengineering:wire_electrum', 'createaddition:electrum_wire');
+  replaceOutput('createaddition:copper_wire', 'immersiveengineering:wire_copper');
+  replaceOutput('createaddition:electrum_wire', 'immersiveengineering:wire_electrum');
 
   // Ore
   replaceOutput('galosphere:silver_ore', 'eidolon:silver_ore');
