@@ -238,6 +238,16 @@ ServerEvents.recipes(event => {
   // Note: Unsure of how best to handle Alex's Caves Uranium Shards, as they're nuggets but ones
   // that convert to raw material, not an ingot.
 
+  // Plates
+  replaceOutput('immersiveengineering:plate_gold', 'create:golden_sheet');
+  replaceOutput('immersiveengineering:plate_iron', 'create:iron_sheet');
+  replaceOutput('immersiveengineering:plate_copper', 'create:copper_sheet');
+  replaceOutput('immersiveengineering:plate_electrum', 'createaddition:electrum_sheet');
+
+  // Wires
+  replaceOutput('immersiveengineering:wire_copper', 'createaddition:copper_wire');
+  replaceOutput('immersiveengineering:wire_electrum', 'createaddition:electrum_wire');
+
   // Ore
   replaceOutput('galosphere:silver_ore', 'eidolon:silver_ore');
   replaceOutput('galosphere:deepslate_silver_ore', 'eidolon:deep_silver_ore');
