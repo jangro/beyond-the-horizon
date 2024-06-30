@@ -45,9 +45,8 @@ StartupEvents.recipeSchemaRegistry((e) => {
       new $RecipeSchema(
         outputItem.key('result'),
         inputItem.key('input'),
-        intNumber.key('energy').optional(2400),
-        // TODO: This works for replacing outputs, but to add new
-        // recipes we need a mold entry.
+        anyString.key('mold'),
+        intNumber.key('energy').alwaysWrite().optional(2400),
       )
     )
 
