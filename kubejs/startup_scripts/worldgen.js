@@ -14,7 +14,7 @@ WorldgenEvents.remove(event => {
       'immersiveengineering:deepslate_ore_silver',
       'immersiveengineering:ore_lead',
       'immersiveengineering:ore_silver',
-      'rustic_engineer:solarite_ore_deep_slate'
+      'rustic_engineer:solarite_ore_deep_slate',
       'rustic_engineer:solarite_ore_stone',
     ]
   })
