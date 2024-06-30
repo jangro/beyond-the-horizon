@@ -38,6 +38,8 @@ JEIEvents.hideItems(event => {
     'immersiveengineering:plate_iron',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
+    'powah:uraninite_raw',
+    /powah:.*uraninite_ore.*/,
     /quark:.*shingles.*/,
     'rats:rat_upgrade_aristocrat',
     'rustic_engineer:abyssal_submarine_item',

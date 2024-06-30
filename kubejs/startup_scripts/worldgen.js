@@ -4,16 +4,18 @@
  * @file Worldgen modifications for Beyond the Horizon.
  */
 
+/*
+ * NOTES:
+ *
+ * Immersive Engineering ores can not be disabled here, use IE config.
+ */
 
 WorldgenEvents.remove(event => {
   event.removeOres(props => {
     props.blocks = [
       'galosphere:deepslate_silver_ore',
       'galosphere:silver_ore',
-      'immersiveengineering:deepslate_ore_lead',
-      'immersiveengineering:deepslate_ore_silver',
-      'immersiveengineering:ore_lead',
-      'immersiveengineering:ore_silver',
+      /powah:.*uraninite.*/,
       'rustic_engineer:solarite_ore_deep_slate',
       'rustic_engineer:solarite_ore_stone',
     ]
