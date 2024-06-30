@@ -40,6 +40,17 @@ StartupEvents.recipeSchemaRegistry((e) => {
       new $RecipeSchema(outputItem.key('result'), inputItem.key('input'))
     )
 
+    e.register(
+      'immersiveengineering:metal_press',
+      new $RecipeSchema(
+        outputItem.key('result'),
+        inputItem.key('input'),
+        intNumber.key('energy').optional(2400),
+        // TODO: This works for replacing outputs, but to add new
+        // recipes we need a mold entry.
+      )
+    )
+
     /*
       XXX: in this state it only works for one item in, one item out
       recipes so 'count' needs to be fixed as well, in addition to
