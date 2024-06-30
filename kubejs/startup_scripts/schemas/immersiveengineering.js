@@ -33,38 +33,28 @@ StartupEvents.recipeSchemaRegistry((e) => {
   const inputFluidOrItem = Components.get('inputFluidOrItem')()
   const outputFluidOrItem = Components.get('outputFluidOrItem')()
 
-  let $HeatCondition, heatCondition
-  if (Platform.isLoaded('create')) {
-    $HeatCondition = Java.loadClass(
-      'com.simibubi.create.content.processing.recipe.HeatCondition'
-    )
-    heatCondition = Components.get('enum')({ class: $HeatCondition })
-  }
-
-  // Create Crafts & Additions
-  if (Platform.isLoaded('createaddition')) {
+  // Immersive Engineering
+  if (Platform.isLoaded('immersiveengineering')) {
     e.register(
-      'createaddition:rolling',
+      'immersiveengineering:hammer_crushing',
       new $RecipeSchema(outputItem.key('result'), inputItem.key('input'))
     )
+
+    /*
+      XXX: in this state it only works for one item in, one item out
+      recipes so 'count' needs to be fixed as well, in addition to
+      secondaries.
     e.register(
-      'createaddition:charging',
+      'immersiveengineering:crusher',
       new $RecipeSchema(
         outputItem.key('result'),
         inputItem.key('input'),
-        intNumber.key('energy'),
-        intNumber.key('maxChargeRate').optional(0)
+        intNumber.key('energy').optional(6000),
+        // TODO: add secondaries
       )
     )
-    e.register(
-      'createaddition:liquid_burning',
-      new $RecipeSchema(
-        fluidOrTagInput.key('input'),
-        intNumber.key('burnTime'),
-        bool.key('superheated').optional(false)
-      )
-    )
+    */
 
-    console.log('Recipe Schemas for createaddition loaded.')
+    console.log('Recipe Schemas for create loaded.')
   }
 })

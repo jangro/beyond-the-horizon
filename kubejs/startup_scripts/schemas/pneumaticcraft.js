@@ -33,14 +33,6 @@ StartupEvents.recipeSchemaRegistry((e) => {
   const inputFluidOrItem = Components.get('inputFluidOrItem')()
   const outputFluidOrItem = Components.get('outputFluidOrItem')()
 
-  let $HeatCondition, heatCondition
-  if (Platform.isLoaded('create')) {
-    $HeatCondition = Java.loadClass(
-      'com.simibubi.create.content.processing.recipe.HeatCondition'
-    )
-    heatCondition = Components.get('enum')({ class: $HeatCondition })
-  }
-
   // PneumaticCraft: Repressurized
   if (Platform.isLoaded('pneumaticcraft')) {
     let pncrAmadronIO = new $RecipeComponentBuilder(3)
@@ -188,6 +180,7 @@ StartupEvents.recipeSchemaRegistry((e) => {
       'pneumaticcraft:crafting_shaped_pressurizable',
       $ShapedRecipeSchema.SCHEMA
     )
+
     console.log('Recipe Schemas for pneumaticcraft loaded.')
   }
 })
