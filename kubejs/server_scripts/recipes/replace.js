@@ -213,8 +213,8 @@ ServerEvents.recipes(event => {
 
   // Storage Block Compatibility
   replaceInput('galosphere:silver_block', '#forge:storage_blocks/silver');
-  replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
   replaceInput('immersiveengineering:raw_block_silver', '#forge:storage_blocks/raw_silver');
+  replaceInput('immersiveengineering:storage_silver', '#forge:storage_blocks/silver');
   replaceInput('immersiveengineering:storage_uranium', '#forge:storage_blocks/uranium');
 
   // Wire Compatibility
@@ -231,11 +231,11 @@ ServerEvents.recipes(event => {
   replaceOutput('immersiveengineering:ingot_silver', 'eidolon:silver_ingot');
 
   // Nuggets
-  replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
-  replaceOutput('pneumaticcraft:copper_nugget', 'create:copper_nugget');
-  replaceOutput('immersiveengineering:nugget_electrum', 'createaddition:electrum_nugget');
   replaceOutput('galosphere:silver_nugget', 'eidolon:silver_nugget');
+  replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
+  replaceOutput('immersiveengineering:nugget_electrum', 'createaddition:electrum_nugget');
   replaceOutput('immersiveengineering:nugget_silver', 'immersiveengineering:silver_nugget');
+  replaceOutput('pneumaticcraft:copper_nugget', 'create:copper_nugget');
   // Note: Unsure of how best to handle Alex's Caves Uranium Shards, as they're nuggets but ones
   // that convert to raw material, not an ingot.
 
@@ -254,10 +254,10 @@ ServerEvents.recipes(event => {
   replaceOutput('createaddition:iron_rod', 'immersiveengineering:stick_iron');
 
   // Ore
-  replaceOutput('galosphere:silver_ore', 'eidolon:silver_ore');
   replaceOutput('galosphere:deepslate_silver_ore', 'eidolon:deep_silver_ore');
-  replaceOutput('immersiveengineering:ore_silver', 'eidolon:silver_ore');
+  replaceOutput('galosphere:silver_ore', 'eidolon:silver_ore');
   replaceOutput('immersiveengineering:deepslate_ore_silver', 'eidolon:deep_silver_ore');
+  replaceOutput('immersiveengineering:ore_silver', 'eidolon:silver_ore');
 
   // Raw Materials
   replaceOutput('galosphere:raw_silver', 'eidolon:raw_silver');
@@ -265,11 +265,11 @@ ServerEvents.recipes(event => {
   replaceOutput('immersiveengineering:raw_uranium', 'alexscaves:uranium');
 
   // Storage Blocks
-  replaceOutput('galosphere:silver_block', 'eidolon:silver_block');
-  replaceOutput('immersiveengineering:storage_silver', 'eidolon:silver_block');
   replaceOutput('galosphere:raw_silver_block', 'eidolon:raw_silver_block');
+  replaceOutput('galosphere:silver_block', 'eidolon:silver_block');
   replaceOutput('immersiveengineering:raw_block_silver', 'eidolon:raw_silver_block');
   replaceOutput('immersiveengineering:raw_block_uranium', 'alexscaves:block_of_uranium');
+  replaceOutput('immersiveengineering:storage_silver', 'eidolon:silver_block');
 
   // Wires
   replaceOutput('createaddition:copper_wire', 'immersiveengineering:wire_copper');
