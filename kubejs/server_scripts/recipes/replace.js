@@ -225,8 +225,9 @@ ServerEvents.recipes(event => {
 
   // ----- Output Unification -----
   // Ingots
-  replaceOutput('immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot');
   replaceOutput('galosphere:silver_ingot', 'eidolon:silver_ingot');
+  replaceOutput('immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot');
+  replaceOutput('immersiveengineering:ingot_lead', 'eidolon:lead_ingot');
   replaceOutput('immersiveengineering:ingot_silver', 'eidolon:silver_ingot');
 
   // Nuggets
