@@ -21,13 +21,7 @@ ServerEvents.recipes(event => {
       xp = 0.1;
     }
 
-    event.custom({
-      type: 'clayworks:baking',
-      ingredient: InputItem.of(input).ingredient.toJson(),
-      result: Item.of(output).toJson(),
-      experience: xp,
-      cookingtime: 100
-    }).id(`${ID_PREFIX}${OutputItem.of(output).item.id.replace(':', '/')}_from_${InputItem.of(input).ingredient.first.id.replace(':', '_')}`);
+    event.recipes.clayworks.baking(output, input, xp).id(`${ID_PREFIX}${OutputItem.of(output).item.id.replace(':', '/')}_from_${InputItem.of(input).ingredient.first.id.replace(':', '_')}`);
   };
 
   // Applied Energistics 2

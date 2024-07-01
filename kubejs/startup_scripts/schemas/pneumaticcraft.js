@@ -1,13 +1,6 @@
 // priority: 100
 
 StartupEvents.recipeSchemaRegistry((e) => {
-  const $RecipeSchema = Java.loadClass(
-    'dev.latvian.mods.kubejs.recipe.schema.RecipeSchema'
-  )
-  const $RecipeComponentBuilder = Java.loadClass(
-    'dev.latvian.mods.kubejs.recipe.component.RecipeComponentBuilder'
-  )
-
   // Input/output component types
   const Components = e.components
 
@@ -165,9 +158,6 @@ StartupEvents.recipeSchemaRegistry((e) => {
       ).addConstructor(() => {})
     )
 
-    let $ShapedRecipeSchema = Java.loadClass(
-      'dev.latvian.mods.kubejs.recipe.schema.minecraft.ShapedRecipeSchema'
-    )
     e.register(
       'pneumaticcraft:compressor_upgrade_crafting',
       $ShapedRecipeSchema.SCHEMA

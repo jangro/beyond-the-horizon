@@ -25,6 +25,32 @@ ServerEvents.recipes(event => {
     S: '#forge:bookshelves',
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
+  
+  // Minecraft
+  event.shaped('minecraft:saddle', [
+    'LLL',
+    'SLS',
+    'I I'
+  ], {
+    S: '#forge:string',
+    L: '#forge:leather',
+    I: '#forge:ingots/iron'
+  }).id(`${ID_PREFIX}saddle`);
+  
+  // Alex's Caves
+  event.shaped('alexscaves:submarine', [
+    'TWW',
+    'ERC',
+    'PXP'
+  ], {
+    T: 'immersiveengineering:toolupgrade_drill_waterproof',
+    W: 'createdeco:copper_window',
+    E: 'immersive_aircraft:engine',
+    R: 'minecraft:redstone_block',
+    C: 'create:contraption_controls',
+    P: 'create:propeller',
+    X: 'immersive_aircraft:enhanced_propeller'
+  }).id(`${ID_PREFIX}submarine`);
 
   // Create Crafts & Additions
   event.shaped(Item.of('createaddition:brass_rod', 2), [
@@ -133,17 +159,6 @@ ServerEvents.recipes(event => {
       E: 'endrem:magical_eye'
   }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
-  // Minecraft
-  event.shaped('minecraft:saddle', [
-    'LLL',
-    'SLS',
-    'I I'
-  ], {
-    S: '#forge:string',
-    L: '#forge:leather',
-    I: '#forge:ingots/iron'
-  }).id(`${ID_PREFIX}saddle`);
-
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:speed_upgrade', [
     'LSL',
@@ -219,20 +234,4 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clock',
     K: 'supplementaries:key'
   }).id(`${ID_PREFIX}clock_key`);
-
-  // Alex's Caves
-  event.shaped('alexscaves:submarine', [
-    'TWW',
-    'ERC',
-    'PXP'
-  ], {
-    T: 'immersiveengineering:toolupgrade_drill_waterproof',
-    W: 'createdeco:copper_window',
-    E: 'immersive_aircraft:engine',
-    R: 'minecraft:redstone_block',
-    C: 'create:contraption_controls',
-    P: 'create:propeller',
-    X: 'immersive_aircraft:enhanced_propeller'
-  }).id(`${ID_PREFIX}submarine`);
-
 });

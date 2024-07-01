@@ -1,13 +1,6 @@
 // priority: 100
 
 StartupEvents.recipeSchemaRegistry((e) => {
-  const $RecipeSchema = Java.loadClass(
-    'dev.latvian.mods.kubejs.recipe.schema.RecipeSchema'
-  )
-  const $RecipeComponentBuilder = Java.loadClass(
-    'dev.latvian.mods.kubejs.recipe.component.RecipeComponentBuilder'
-  )
-
   // Input/output component types
   const Components = e.components
 
