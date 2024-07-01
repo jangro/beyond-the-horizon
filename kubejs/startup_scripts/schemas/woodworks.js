@@ -10,7 +10,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
   if (Platform.isLoaded('woodworks')) {
     // Sawmill Recipes
     event.register('woodworks:sawmill', new $RecipeSchema(
-      components.get('outputItem')().key('result'),
+      components.get('anyString')().key('result'), // Using string here as Woodworks doesn't use normal results.
       components.get('inputItem')().key('ingredient'),
       components.get('intNumber')().key('count').optional(1)
     ));
