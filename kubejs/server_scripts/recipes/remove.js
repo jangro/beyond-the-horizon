@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
   // Remove recipes for all sleeping bags & bedrolls.
   COLORS.forEach((color) => event.remove({id: `upgrade_aquatic:${color}_bedroll`}));
   COLORS.forEach((color) => event.remove({id: `valhelsia_structures:${color}_sleeping_bag`}));
- 
+
   // Remove all Waystones recipes
   event.remove({mod: `waystones`});
 
@@ -54,4 +54,10 @@ ServerEvents.recipes(event => {
     'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
     /wardrobe:.*backpack/,
   ].forEach((recipeID) => event.remove({id: recipeID}));
+
+  // Remove IE dusts that are replaced by Create crushed ores
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
+    event.remove({id: `immersiveengineering:dust_${material}`})
+  );
+
 });

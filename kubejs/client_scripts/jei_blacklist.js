@@ -58,4 +58,10 @@ JEIEvents.hideItems(event => {
     /wardrobe:.*backpack/,
     /waystones:.*/,
   ]);
+
+  // Hide IE dusts that are replaced by Create crushed raw ores.
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
+    event.hide(`immersiveengineering:dust_${material}`)
+  );
+
 });

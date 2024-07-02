@@ -105,4 +105,11 @@ ServerEvents.tags('item', event => {
     /irons_spellbooks:.*_leggings$/,
     /irons_spellbooks:.*_boots$/,
   ]);
+
+  // Tag Create crushed raw ores so they can replace IE dusts
+  // XXX: OK to to tag them as dusts? Could it cause some incompatibilities elsewhere?
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
+    event.add(`forge:dusts/${material}`, `create:crushed_raw_${material}`)
+  );
+
 });

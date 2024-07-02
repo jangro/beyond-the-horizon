@@ -12,7 +12,9 @@ StartupEvents.recipeSchemaRegistry((e) => {
   const floatNumber = Components.get('floatNumber')()
 
   const inputItem = Components.get('inputItem')()
+  const inputItemArray = Components.get('inputItemArray')()
   const outputItem = Components.get('outputItem')()
+  const outputItemArray = Components.get('outputItemArray')()
   const inputFluid = Components.get('inputFluid')()
   const fluidTag = Components.get('tag')({ registry: 'fluid' })
   const fluidOrTagInput = inputFluid.or(
@@ -25,6 +27,16 @@ StartupEvents.recipeSchemaRegistry((e) => {
 
   const inputFluidOrItem = Components.get('inputFluidOrItem')()
   const outputFluidOrItem = Components.get('outputFluidOrItem')()
+
+  let baseIngredient = new $RecipeComponentBuilder(1)
+      .add(anyString.key('item'))
+
+  let crusherOutputItem = outputItem.or(
+    new $RecipeComponentBuilder(2)
+      .add(baseIngredient.key('base_ingredient'))
+      .add(intNumber.key('count')) // count doesn't transfer on replaceOutput
+      .outputRole()
+  )
 
   // Immersive Engineering
   if (Platform.isLoaded('immersiveengineering')) {
@@ -43,20 +55,16 @@ StartupEvents.recipeSchemaRegistry((e) => {
       )
     )
 
-    /*
-      XXX: in this state it only works for one item in, one item out
-      recipes so 'count' needs to be fixed as well, in addition to
-      secondaries.
+    // FIXME: add secondaries and count (not easy!)
     e.register(
       'immersiveengineering:crusher',
       new $RecipeSchema(
-        outputItem.key('result'),
+        crusherOutputItem.key('result'),
         inputItem.key('input'),
-        intNumber.key('energy').optional(6000),
-        // TODO: add secondaries
+        intNumber.key('energy').alwaysWrite().optional(6000),
+        outputItemArray.key('secondaries').alwaysWrite().optional([]),
       )
     )
-    */
 
     console.log('Recipe Schemas for create loaded.')
   }

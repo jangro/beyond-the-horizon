@@ -239,11 +239,6 @@ ServerEvents.recipes(event => {
   // Note: Unsure of how best to handle Alex's Caves Uranium Shards, as they're nuggets but ones
   // that convert to raw material, not an ingot.
 
-  // Dusts, grits and crushed ores
-  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
-    replaceOutput('immersiveengineering:dust_' + material, 'create:crushed_raw_' + material)
-  );
-
   // Plates
   replaceOutput('immersiveengineering:plate_copper', 'create:copper_sheet');
   replaceOutput('immersiveengineering:plate_electrum', 'createaddition:electrum_sheet');
