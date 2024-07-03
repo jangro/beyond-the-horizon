@@ -571,12 +571,12 @@ file = "kubejs/server_scripts/recipes/immersiveengineering.js"
 hash = "95203c97e175dc6ab5db921cce48172ad07fa7b57a9462e68c14c8914332bf92"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/integrateddynamics.js"
-hash = "7de47f876725913e9d74c3ccc80a839cd961a269f50df440b3fec80c8d8d5822"
+file = "kubejs/server_scripts/recipes/powah.js"
+hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "76187a7a190970741f921c6370c664ba65120521f3e8356e149b5d9fb708da29"
+hash = "e983123c7a6c948af9319e3a8264f06e73ac45f39883d306dc33460cd91266f0"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -616,7 +616,7 @@ hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item.js"
-hash = "2dc81aeeb98795393de2c23164a1626ea9416a3df8d142bb39937385bc13d8b8"
+hash = "d63515ecc3649e16602df15289e50d382049d8a13bb9516ebf28af22d44e181b"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
@@ -637,10 +637,6 @@ hash = "9a406ee1cb9174fc7eaba005ed84e22964daedb2be28d96211ce729b37bd1c88"
 [[files]]
 file = "kubejs/startup_scripts/schemas/immersiveengineering.js"
 hash = "6cc52fc30d73f7cc232b454d694e5cf5086b7e3d5fdad50a5d02197cd059d6c9"
-
-[[files]]
-file = "kubejs/startup_scripts/schemas/integrateddynamics.js"
-hash = "1c5d217eb8d29ed185dc4422d2947f5b2ca6b6e196ed7d8a9d838475887038ff"
 
 [[files]]
 file = "kubejs/startup_scripts/schemas/pneumaticcraft.js"
@@ -1356,6 +1352,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-powah.pw.toml"
+hash = "bb7517dcbfe61d2597c6207de46d5ad27434b9ec34d9e12215a04aace54b1432"
 metafile = true
 
 [[files]]

@@ -64,6 +64,7 @@ ServerEvents.recipes(event => {
     'neapolitan:milk_bottle',
     'pneumaticcraft:speed_upgrade',
     'pneumaticcraft:speed_upgrade_from_glycerol',
+    'powah:energizing/uranium_to_uraninite',
     'powah:energizing/uraninite_from_ore',
     'powah:energizing/uraninite_from_ore_dense',
     'powah:energizing/uraninite_from_ore_poor',
