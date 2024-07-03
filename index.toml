@@ -91,6 +91,10 @@ file = "config/immersiveengineering-client.toml"
 hash = "d43f72f04db9e4e10f20b9351e9e40baebd342097feff54ee85a5ba59ffa9f95"
 
 [[files]]
+file = "config/immersiveengineering-common.toml"
+hash = "db354a6357bb12b9b773b8432f00279634912721dfc29ba95c08b6d21013676f"
+
+[[files]]
 file = "config/incontrol/spawn.json"
 hash = "4de2aa4f9a4237ceb88066e84180902bafbd6a4553a1f0493910db9af25fbef7"
 
@@ -155,6 +159,10 @@ file = "config/waystones-common.toml"
 hash = "180f42cfadce8242e12138462b23e974003dabdf28d9d776dd8071eb3d2fb50a"
 
 [[files]]
+file = "defaultconfigs/immersiveengineering-server.toml"
+hash = "080d7deb8e69fd2f0b1541701c2b3a67d840a7d550100009f679f72b874f0fbe"
+
+[[files]]
 file = "defaultconfigs/moremobgriefingoptions-server.toml"
 hash = "355b208e79fa05da1eb5ba3a1e89fbfa644d8ed23bcdfbf1f883767ded639b92"
 
@@ -196,7 +204,7 @@ hash = "749d580a4eadfafa6a6f21f83f6cf96886c4aa406e4d41607f24e23b80ac571b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "a7db2b6fe8e98b29cde848a6774fc83c88a37bb309ef5567a9da268e52be8d9e"
+hash = "86dba6f2aff764313d68f9ae811a1a9c82f894121b3f48fe64e18010d645d85a"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -279,8 +287,16 @@ file = "kubejs/data/bth_structures/structures/tinkerer_house/house.nbt"
 hash = "2e4f7db71e338ff404fa41000664e591dbe57170b38d08f5531dd1dc2230f9b3"
 
 [[files]]
+file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/aether_portal_floating.json"
+hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
+
+[[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_floating.json"
-hash = "9f60fef63e188de3c6daa39dea5949d7f94165e4d70506d2828f75cb4931fc7d"
+hash = "e2ee9a7c422b5679c9b49d207bf92a441e25a4e3e70320fb3be2cd0ea060c4b0"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_floating_aether.json"
+hash = "775504c847666251c77daa07818570e01ec8a1edaaf08803ac60557bc6f210b9"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_framed.json"
@@ -307,6 +323,10 @@ file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_floating
 hash = "460c430b75512128adf6edab09a3be9dddde6750b7bb543caac04fe85b99d79e"
 
 [[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_floating_aether.json"
+hash = "d221317408178190b014139397e9b73e449e6f1f83fa1d8dac525a30158d0292"
+
+[[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_framed.json"
 hash = "3cfe4f510ed876d41f600fe6b10ec885810c9792227e2bf79fd99cb8e265ef1f"
 
@@ -320,15 +340,19 @@ hash = "641468b90f174c1e9dc2a72da13c94c625c7e44c2f63b50ce43e05382177d221"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/ruined_hangar.json"
-hash = "8b1ebe3c158408ba4973e15f6646bbac3fb97834654717131d003cb8d9c6b180"
+hash = "faf5756b393e1419e3cdac0abc9c76d91683d49f09af6edd3762df0964f93af1"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/tinkerer_house.json"
-hash = "c6c89616589f1ae53be1fb440feb4ecdfa026c9fd9a7cd9e057aeed9d5f7e95a"
+hash = "8efc4b153f6614cbafce0441ea019502ba6bcd0a46e1a592662ee0f47df87614"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_floating.json"
 hash = "416c8f75c5f3e953e9f5dfa7dceb2fe848e28423a810922639f069112bfadf72"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_floating_aether.json"
+hash = "bbe77fed92d372e36e80c041c833d69f0c6c0ea7059c2ccc383cdf314f212402"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_framed.json"
@@ -496,7 +520,11 @@ hash = "8f055290898c890bc6111150ae6158a515c00a015d209f774979827557967750"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "815b40551212af4abd348b3024f76c8dc5c504b8f15220883186e519d4bd5c7d"
+
+[[files]]
+file = "kubejs/server_scripts/loot_tables/blocks.js"
+hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
@@ -528,35 +556,47 @@ hash = "a7e939bed068075604813cd03d828fc0fbba61702a8eadbf7901da7f7b001254"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/clayworks.js"
-hash = "5f94b8429881ad377548c8259c605aedc4889e6313f2c2b325149525f2a28c4d"
+hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create.js"
-hash = "7404346031e1256f70d256beed4ace05315bc83c64b46b15cb3aa102585a7e12"
+hash = "d86d7365ad98f930ea396e4051d6b2a4b732a8283ffca2e643166c0aeea136c9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
 hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/immersiveengineering.js"
+hash = "95203c97e175dc6ab5db921cce48172ad07fa7b57a9462e68c14c8914332bf92"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/integrateddynamics.js"
+hash = "7de47f876725913e9d74c3ccc80a839cd961a269f50df440b3fec80c8d8d5822"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "2898aaf94ec38e57c92f080e419cddc4d07fcad07359576ebb82689bd46b2c71"
+hash = "76187a7a190970741f921c6370c664ba65120521f3e8356e149b5d9fb708da29"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
-hash = "5baaa682010a31838080b128ea40c3b2b85ae9b4ff972e08537e15ec84703a9b"
+hash = "228088117a748d28d33f7ef7c87e9421ab833183c220fe1cc398de045b856e43"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "063d038c637c2ad32ca3ae3ee9efcbef2d51ff54f05407d28a62495abdfb4224"
+hash = "332bf68f6d1627ea714854e8da9e753cd8f7ce63a6f5b6f4ac8105a8160689c9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "a962efb82d3e10982e636362a811b730ed0094632cb471d2068a7011cec92a86"
+hash = "4d6118b1eb789ec37c4a07697816950403ea51897482fb604b1bbe6f9ae3077f"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/smelting.js"
+hash = "0b3942c623f52174dcf38930615fefe2d5daf3848ca24223cbefede292247cb5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/woodworks.js"
-hash = "6f74225d4132cf097315a9c675a9d9d5d892c5cab0d08d39a9f72671ffc83d29"
+hash = "271cff5af189d7aefc2b6025496f750fbbf7fd875e811bfa6482cfa42b02abe8"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
@@ -576,19 +616,47 @@ hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item.js"
-hash = "8bb9469ab86fd7b908afa813250f85635a7c2d06d3aa75e9e3bce866d81a9424"
+hash = "2dc81aeeb98795393de2c23164a1626ea9416a3df8d142bb39937385bc13d8b8"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
 hash = "66371520ba5a4687c5842ae3d8bbaf0cb42c49e37011ceba0e28563be696be52"
 
 [[files]]
-file = "kubejs/startup_scripts/worldgen.js"
-hash = "5cc35097f4f7708d5027d4f444694367137b15c7a41e28936b92c3dec651624e"
+file = "kubejs/startup_scripts/schemas/clayworks.js"
+hash = "d867b78e32194ff4edc094d7b36bfdcc2ea4c243b2e4693a7a540615eef7d815"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.1.3-a-dev-18ccbbbb-1.20.1.jar"
-hash = "71dc49821a310edce441b2b4660a1dc8cfd5ce4eb4e0470ae4a1f6091e7e3387"
+file = "kubejs/startup_scripts/schemas/constants.js"
+hash = "1006fe7b56d09d74ed346c80736ad07e43dc8d38238f7de4403ee844c7ec1664"
+
+[[files]]
+file = "kubejs/startup_scripts/schemas/createaddition.js"
+hash = "9a406ee1cb9174fc7eaba005ed84e22964daedb2be28d96211ce729b37bd1c88"
+
+[[files]]
+file = "kubejs/startup_scripts/schemas/immersiveengineering.js"
+hash = "6cc52fc30d73f7cc232b454d694e5cf5086b7e3d5fdad50a5d02197cd059d6c9"
+
+[[files]]
+file = "kubejs/startup_scripts/schemas/integrateddynamics.js"
+hash = "1c5d217eb8d29ed185dc4422d2947f5b2ca6b6e196ed7d8a9d838475887038ff"
+
+[[files]]
+file = "kubejs/startup_scripts/schemas/pneumaticcraft.js"
+hash = "7cb79afe09b12af5809de750263934d17f9ddac833a099d1a5c2e38c956626b3"
+
+[[files]]
+file = "kubejs/startup_scripts/schemas/woodworks.js"
+hash = "98928656d911f8890c50ec59ded9b098fbb53a3c24830d8fe47629454aec6374"
+
+[[files]]
+file = "kubejs/startup_scripts/worldgen.js"
+hash = "25c288e3682374b99112b9cb2eef06a29f14e821333fee822b91bbd3b259dfa9"
+
+[[files]]
+file = "mods/DistantHorizons-forge-2.1.3-a-dev-994c86d5-1.20.1.jar"
+hash = "87b77106d86f5bf8fc6af5c4bc8d7636675abd0c0fe81b3031e0035c7938bbaa"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
