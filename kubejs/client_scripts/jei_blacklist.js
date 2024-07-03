@@ -19,6 +19,7 @@ JEIEvents.hideItems(event => {
     'cofh_core:experience',
     'cofh_core:honey',
     'cofh_core:potion',
+    'create:crushed_raw_uranium',
     'createaddition:copper_wire',
     'createaddition:electrum_wire',
     'farmersdelight:rope',
@@ -30,12 +31,19 @@ JEIEvents.hideItems(event => {
     'immersive_aircraft:propeller',
     'immersiveengineering:deepslate_ore_lead',
     'immersiveengineering:deepslate_ore_silver',
+    'immersiveengineering:dust_uranium',
+    'immersiveengineering:ingot_uranium',
+    'immersiveengineering:nugget_uranium',
     'immersiveengineering:ore_lead',
     'immersiveengineering:ore_silver',
     'immersiveengineering:plate_copper',
     'immersiveengineering:plate_electrum',
     'immersiveengineering:plate_gold',
     'immersiveengineering:plate_iron',
+    'immersiveengineering:raw_block_uranium',
+    'immersiveengineering:raw_uranium',
+    'immersiveengineering:slab_storage_uranium',
+    'immersiveengineering:storage_uranium',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
     'powah:uraninite_raw',
@@ -54,13 +62,14 @@ JEIEvents.hideItems(event => {
     /rustic_engineer:.*solarite*/,
     /rustic_engineer:book.*/,
     /upgrade_aquatic:.*bedroll/,
+    'v_slab_compat:immersiveengineering/storage_uranium_vertical_slab',
     /valhelsia_structures:.*sleeping_bag/,
     /wardrobe:.*backpack/,
     /waystones:.*/,
   ]);
 
   // Hide IE dusts that are replaced by Create crushed raw ores.
-  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>
     event.hide(`immersiveengineering:dust_${material}`)
   );
 

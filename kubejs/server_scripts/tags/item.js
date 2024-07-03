@@ -75,6 +75,15 @@ ServerEvents.tags('item', event => {
     'alexscaves:radrock_uranium_ore',
   ]);
 
+  // XXX: Doesn't work. How to remove raw_material tags?
+  // event.removeAll('alexscaves:uranium');
+  event.add('forge:ingots/uranium', [
+    'alexscaves:uranium',
+  ]);
+  event.add('forge:ingots', [
+    'alexscaves:uranium',
+  ]);
+
   event.add('forge:storage_blocks/arcane_gold', [
     'forbidden_arcanus:deorum_block',
   ]);
@@ -108,8 +117,14 @@ ServerEvents.tags('item', event => {
 
   // Tag Create crushed raw ores so they can replace IE dusts
   // XXX: OK to to tag them as dusts? Could it cause some incompatibilities elsewhere?
-  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>
     event.add(`forge:dusts/${material}`, `create:crushed_raw_${material}`)
   );
+
+  [
+    'immersiveengineering:raw_uranium',
+    'immersiveengineering:ingot_uranium',
+    'immersiveengineering:nugget_uranium',
+  ].forEach((tag) => event.removeAll(tag));
 
 });

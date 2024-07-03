@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
   ).id(`${ID_PREFIX}crusher/diamond_grit`);
 
   // Replace IE recipes to switch grit/dust for Create crushed ores
-  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver', 'uranium'].forEach((material) =>
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>
     {
       event.remove({id: `immersiveengineering:crusher/ingot_${material}`});
       event.remove({id: `immersiveengineering:crusher/ore_${material}`});

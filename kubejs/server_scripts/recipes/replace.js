@@ -137,6 +137,7 @@ ServerEvents.recipes(event => {
   replaceInput('forbidden_arcanus:obsidian_ingot', '#forge:ingots/obsidian');
   replaceInput('galosphere:silver_ingot', '#forge:ingots/silver');
   replaceInput('immersiveengineering:ingot_silver', '#forge:ingots/silver');
+  replaceInput('#forge:ingots/uranium', 'alexscaves:uranium');
 
   // Leather Compatibility
   replaceInputID([
@@ -229,6 +230,7 @@ ServerEvents.recipes(event => {
   replaceOutput('immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot');
   replaceOutput('immersiveengineering:ingot_lead', 'eidolon:lead_ingot');
   replaceOutput('immersiveengineering:ingot_silver', 'eidolon:silver_ingot');
+  replaceOutput('immersiveengineering:ingot_uranium', 'alexscaves:uranium');
 
   // Nuggets
   replaceOutput('galosphere:silver_nugget', 'eidolon:silver_nugget');
@@ -257,13 +259,11 @@ ServerEvents.recipes(event => {
   // Raw Materials
   replaceOutput('galosphere:raw_silver', 'eidolon:raw_silver');
   replaceOutput('immersiveengineering:raw_silver', 'eidolon:raw_silver');
-  replaceOutput('immersiveengineering:raw_uranium', 'alexscaves:uranium');
 
   // Storage Blocks
   replaceOutput('galosphere:raw_silver_block', 'eidolon:raw_silver_block');
   replaceOutput('galosphere:silver_block', 'eidolon:silver_block');
   replaceOutput('immersiveengineering:raw_block_silver', 'eidolon:raw_silver_block');
-  replaceOutput('immersiveengineering:raw_block_uranium', 'alexscaves:block_of_uranium');
   replaceOutput('immersiveengineering:storage_silver', 'eidolon:silver_block');
 
   // Wires
