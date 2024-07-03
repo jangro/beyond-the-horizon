@@ -710,7 +710,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "13eea9cf2b49019ed8d8cd8d27176672b418113cfdc9194ffd9d0f28ccc7d4eb"
+hash = "63b91450f071765252995689ec91545c92c06f44c2e72a51a934333dab176590"
 metafile = true
 
 [[files]]
@@ -825,7 +825,7 @@ metafile = true
 
 [[files]]
 file = "mods/botarium.pw.toml"
-hash = "098dce9973ba88740458098f574f77cd8611b8aa9584916746ca135ef533309a"
+hash = "008c942efc2e2ec221dd1a760b4a50e2f24ede37747731ba794f5e845554adcb"
 metafile = true
 
 [[files]]
@@ -875,7 +875,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "6b88a233322871d83ebe6e0cf8b5542d0c03fe222b9de33922f8c28e2f5c96e7"
+hash = "57569ea0a12e26483ca660233605fc159ce5e01917839d0c64289b612ad72f25"
 metafile = true
 
 [[files]]
@@ -940,7 +940,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "651ed7a3b96a5cac6460ee68db74719adadbc44b48a9fc3cde796be744059b84"
+hash = "2c2fea3639b62b11118584b1586d097f08428b172a5dc7dc1595f19cb52df763"
 metafile = true
 
 [[files]]
@@ -1065,7 +1065,7 @@ metafile = true
 
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
-hash = "127755a295858228bdbc4e696c06adf201eee057e8ed67e785c9180af139d557"
+hash = "518f74ded0b3d8c381b27219664095b14bd53a4db0be2e25b637bbf8f445d3dd"
 metafile = true
 
 [[files]]
@@ -1080,7 +1080,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "39058d3425411a193bca7d6abf38423fae7513af0dea70b59b92c6b506db58f5"
+hash = "cca66cfc8723e4166879d5f455558e2bb767c8e65ca681d1edaac9905db47000"
 metafile = true
 
 [[files]]
@@ -1095,7 +1095,7 @@ metafile = true
 
 [[files]]
 file = "mods/eidolon-repraised.pw.toml"
-hash = "8e0159b792e707f4a25a4755b2abc73587dbca8fb70af90932eeaa1ecb1d7c61"
+hash = "a591bb7242f1dbd79cc316205ac386ed9a7c4dd17d9035611fc707f1cb26155f"
 metafile = true
 
 [[files]]
@@ -1105,7 +1105,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "7f20560b8c13e7067d52427cfa0e2c480cc1d8939412ee478f6cee1b4feb5608"
+hash = "7f0f38bf5470613668913263b716fc3eb5afc4b141e3e704121be4489fbafd39"
 metafile = true
 
 [[files]]
@@ -1125,7 +1125,7 @@ metafile = true
 
 [[files]]
 file = "mods/ends-delight.pw.toml"
-hash = "b3090495e3cc14afdb1225d0b8636aa7f85676f031f17126d3330f8be750cdab"
+hash = "05bd2cd6cfe475dda10434109bd5aba325655d0df4935a4a6b77ef760a58f94d"
 metafile = true
 
 [[files]]
@@ -1145,7 +1145,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "2fe88383667ae22bbdf0375d39fa7300e7dbabfbd558fe03783543fee349c714"
+hash = "d3fd0fff20cf03bf16bd900e80bcc3e67122456ec1fe7b5a18e9cf04d8ed0ec8"
 metafile = true
 
 [[files]]
@@ -1165,7 +1165,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "a47372474713ed9b1182a5ccaab68f294febc909ab3669941083d70209d10ba9"
+hash = "8bf97a4550406d9c7b0bf9a8bf2ab216439c2689b47edc96b387bca5e7033ac8"
 metafile = true
 
 [[files]]
@@ -1315,7 +1315,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "212633e875f70f3990a8064079e116dae6b957363c2d67776cc56debb2e64c7b"
+hash = "c309e7c7ee8233136eca526d44d6c6b6a2411f11eb6fe0394e81df1dc6de355f"
 metafile = true
 
 [[files]]
@@ -1340,7 +1340,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "7a576add4c716fdb2cc1146869f0d46020a2022559c54c787f35750079a99599"
+hash = "f39439d1dede99f1a93b8b6f959a83342ac4b26219cbca6445c36edacde57f5e"
 metafile = true
 
 [[files]]
@@ -1410,7 +1410,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "dff6d8e66c7058d7304b9b37896d64fb5da575d348063ac9748cf71a4b8d5545"
+hash = "90405e9db04b32b26646450fa4a13ce96d62e77e338f02986fceeced4c33be11"
 metafile = true
 
 [[files]]
@@ -1715,7 +1715,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurize.pw.toml"
-hash = "31271eeeaf61f75b0bdf44b56c355453babdc0a60666ccdaf176d6b5117e1508"
+hash = "14206de3a3b63fe0e9da926deecfcdf708c1d3eca44b6b4ccb1f247947c218ff"
 metafile = true
 
 [[files]]
