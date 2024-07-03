@@ -121,10 +121,12 @@ ServerEvents.tags('item', event => {
     event.add(`forge:dusts/${material}`, `create:crushed_raw_${material}`)
   );
 
-  [
-    'immersiveengineering:raw_uranium',
-    'immersiveengineering:ingot_uranium',
-    'immersiveengineering:nugget_uranium',
-  ].forEach((tag) => event.removeAll(tag));
+  // Remove tags from IE ores and ingots so our options get picked instead
+  event.get('forge:raw_materials/lead').remove('immersiveengineering:raw_lead');
+  event.get('forge:raw_materials/silver').remove('immersiveengineering:raw_silver');
+  event.get('forge:raw_materials/uranium').remove('immersiveengineering:raw_uranium');
 
+  event.get('forge:ingots/lead').remove('immersiveengineering:ingot_lead');
+  event.get('forge:ingots/silver').remove('immersiveengineering:ingot_silver');
+  event.get('forge:ingots/uranium').remove('immersiveengineering:ingot_uranium');
 });
