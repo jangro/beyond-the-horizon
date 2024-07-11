@@ -1,0 +1,22 @@
+{
+    "structures": [
+        {
+        "structure": "bth_structures:tower_forest",
+        "weight": 1
+    },
+        {
+        "structure": "bth_structures:tower_frozen",
+        "weight": 1
+    },
+        {
+        "structure": "bth_structures:tower_scarlet",
+        "weight": 1
+    }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 25,
+        "separation": 10,
+        "salt": 17497278
+    }
+}

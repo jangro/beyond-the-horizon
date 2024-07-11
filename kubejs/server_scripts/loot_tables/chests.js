@@ -124,6 +124,51 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  event.modify('bth_structures:tower_top', table => {
+    table.addPool(pool => {
+      pool.addItem('paraglider:paraglider', 5);
+      pool.addItem('paraglider:deku_leaf', 1);
+    });
+    table.addPool(pool => {
+      pool.addItem('paraglider:spirit_orb', 1, [1, 4]).randomChance(0.5);
+    });
+    table.addPool(pool => {
+      pool.addItem(DESERT_MAP);
+      pool.addItem(FLOWER_FOREST_MAP);
+      pool.addItem(JUNGLE_MAP);
+      pool.addItem(SWAMP_MAP);
+      pool.addItem(LUSH_CAVES_MAP);
+      pool.addItem(CHERRY_GROVE_MAP);
+    });
+    table.addPool(pool => {
+      pool.addItem('rats:tiny_coin', 1, [8, 16]).randomChance(0.5);
+    });
+    table.addPool(pool => {
+      pool.addItem('minecraft:spyglass').randomChance(0.5);
+    });
+    table.addPool(pool => {
+      pool.addItem('galosphere:salted_jerky', 1, [1, 6]).randomChance(0.5);
+    });
+  });
+
+  event.modify('bth_structures:watch_tower_top', table => {
+    table.addPool(pool => {
+      pool.addItem('paraglider:paraglider', 5);
+      pool.addItem('paraglider:deku_leaf', 1);
+    });
+    table.addPool(pool => {
+      pool.addItem(DESERT_MAP);
+      pool.addItem(FLOWER_FOREST_MAP);
+      pool.addItem(JUNGLE_MAP);
+      pool.addItem(SWAMP_MAP);
+      pool.addItem(LUSH_CAVES_MAP);
+      pool.addItem(CHERRY_GROVE_MAP);
+    });
+    table.addPool(pool => {
+      pool.addItem('minecraft:spyglass');
+    });
+  });
+
   // Additional Cooking Chest Loot (Valhelsia Structures)
   [
     'valhelsia_structures:desert_house',

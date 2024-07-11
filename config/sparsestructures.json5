@@ -52,13 +52,6 @@
       "factor": 2
     },
 
-    // Make towers generate about 500 blocks apart
-    // Limited to mountain biomes by kubejs script.
-    {
-      "structure": "totw_modded:overworld",
-      "factor": 0.5
-    },
-
     {
       "structure": "ctov:villages",
       "factor": 2

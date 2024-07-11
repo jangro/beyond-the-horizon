@@ -23,9 +23,6 @@ const ADVANCEMENTS_TO_REMOVE = [
   'dungeons_arise:advancements/find_wishing_well.json',
   'irons_spellbooks:advancements/grant_patchouli.json',
   'simplyswords:advancements/grant_book_on_first_join.json',
-  'totw_modded:advancements/derelict_grass_tower.json',
-  'totw_modded:advancements/derelict_tower.json',
-  'totw_modded:advancements/jungle_tower.json',
 ];
 
 /**

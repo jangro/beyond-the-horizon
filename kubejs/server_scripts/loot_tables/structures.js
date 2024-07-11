@@ -213,22 +213,6 @@ LootJS.modifiers((event) => {
       });
   });
 
-
-// Add biome maps to towers. The first successful roll will be added.
-LootJS.modifiers((event) => {
-  event
-    .addLootTypeModifier("chest")
-    .anyStructure(["totw_modded:regular", "totw_modded:ice"], false)
-    .addWeightedLoot([
-      Item.of(DESERT_MAP).withChance(1),
-      Item.of(FLOWER_FOREST_MAP).withChance(1),
-      Item.of(JUNGLE_MAP).withChance(1),
-      Item.of(SWAMP_MAP).withChance(1),
-      Item.of(LUSH_CAVES_MAP).withChance(1),
-      Item.of(CHERRY_GROVE_MAP).withChance(1),
-    ]);
-});
-
 // Add Forbidden Castle map to Piglin villages
 LootJS.modifiers((event) => {
   event

@@ -1,0 +1,26 @@
+{
+    "structures": [
+        {
+        "structure": "bth_structures:tower_forest_skylands_autumn",
+        "weight": 1
+    },
+        {
+        "structure": "bth_structures:tower_forest_skylands_summer",
+        "weight": 1
+    },
+        {
+        "structure": "bth_structures:tower_forest_skylands_spring",
+        "weight": 1
+    },
+        {
+        "structure": "bth_structures:tower_frozen_skylands_winter",
+        "weight": 1
+    }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 25,
+        "separation": 20,
+        "salt": 23517321
+    }
+}

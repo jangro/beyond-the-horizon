@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "terralith:skylands_winter",
+    "step": "fluid_springs",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "bth_structures:tower_frozen",
+    "size": 1,
+    "start_height": {
+        "absolute": 264
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}
