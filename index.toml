@@ -152,7 +152,7 @@ hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "a3d66c169b0d6ef9681456d7464d43c621dbc77569af33498f29438175edefb5"
+hash = "16da1355bd0af57555d08905b4e164c70f734c3860fe45d3c2ebc737af6d3e9d"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -172,15 +172,15 @@ hash = "1e3f075040a1fee87f9dfd3d318ab5bae8b98d394981d88b284e4381b99e2304"
 
 [[files]]
 file = "journeymap/config/5.10/journeymap.fullmap.config"
-hash = "e604113284728101353044e59c6bb23dfb851dcc69771bc5a29b80cc40a54240"
+hash = "083582b5abe0c227adf301c224e7396c46546f4c82d66acb0f6415e7f76b92b9"
 
 [[files]]
 file = "journeymap/config/5.10/journeymap.minimap.config"
-hash = "5dbe7c9c96b472d748f91c9a07f12e447acb27934bf38b858a359a473c620c88"
+hash = "256180780798631585f0cd792fad07419c55d22c3a14a24c43df89eaa505d298"
 
 [[files]]
 file = "journeymap/config/5.10/journeymap.minimap2.config"
-hash = "37e946404488996275c67ddfe5a87a527d129eb784e4e986f98c63b2c972a803"
+hash = "a0bbada2233c2bd6358ab41872e32a22ec3609a9640e9ccbdf56ad32d0451639"
 
 [[files]]
 file = "journeymap/config/5.10/journeymap.waypoint.config"
@@ -287,7 +287,39 @@ file = "kubejs/data/bth_structures/structures/tinkerer_house/house.nbt"
 hash = "2e4f7db71e338ff404fa41000664e591dbe57170b38d08f5531dd1dc2230f9b3"
 
 [[files]]
+file = "kubejs/data/bth_structures/structures/tower_forest.nbt"
+hash = "522d0fdeef84262540528f4112d7064a178b568576c6feab13e3ad0b715809a0"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/tower_frozen.nbt"
+hash = "0d2a26c7a7e3063fb99ff90af907870e3a26aec11608874dee44c5e3a77798e7"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/tower_scarlet.nbt"
+hash = "25697bae3699c0eacc30901065aa46e5d4ccaf840bb5790807e42f95fed5490b"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/watch_tower.nbt"
+hash = "ffe73fde03afee43821c004a46eafe778fa8646a6a42ec61130b65049633c893"
+
+[[files]]
 file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/aether_portal_floating.json"
+hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
+
+[[files]]
+file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_forest.json"
+hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
+
+[[files]]
+file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_forest_meadow.json"
+hash = "1fdde993e2a7f5f36f7a1f1ce31fbfe962988a68e3501d65807a14cbaac21158"
+
+[[files]]
+file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_frozen.json"
+hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
+
+[[files]]
+file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_scarlet.json"
 hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
 
 [[files]]
@@ -319,6 +351,42 @@ file = "kubejs/data/bth_structures/worldgen/structure/tinkerer_house.json"
 hash = "575770270b46cfbd0a71d9050128bad6485818418d8d20ee610d138836c23312"
 
 [[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_forest.json"
+hash = "2ea5afd1da52d9d9a062265e4b5a54be2f5c2ca4d4629fb71627ab89a1267139"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_forest_meadow.json"
+hash = "094ff704c83da19af10d252d55ab40f1ddaf47143f456ce78f9598b0a24a7f53"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_forest_skylands_autumn.json"
+hash = "6e6cf998180489e6d0944ad0f204ee94d3acffcfb703df2c17286c87e71b7d09"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_forest_skylands_spring.json"
+hash = "ad36b7618d4ddd25369ca98bc361142787bc829aa684fea0b4ec8a7cb7810e7e"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_forest_skylands_summer.json"
+hash = "6c94d3e5e84c044cf035056a9988f9d5b4f3d6ba47c70e5698604b8051d454a2"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_frozen.json"
+hash = "50770c2589e14ca9f97142de8466cfe6e3ad48496dad30f66d12592e23375b85"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_frozen_skylands_winter.json"
+hash = "b9a5209b3f1b00f1c2e857414f8331c291ebc799cb6a843de67f469c3298ec8b"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/tower_scarlet.json"
+hash = "9bba7befb837ca09e533dd02dd7d9d5b209ff339d91822aaf7d216e2ece40be0"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/watch_tower.json"
+hash = "736831c8bd0da49f3d2bf68aca3df305aceb122071b81ca3fe7c725861a10467"
+
+[[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_floating.json"
 hash = "460c430b75512128adf6edab09a3be9dddde6750b7bb543caac04fe85b99d79e"
 
@@ -345,6 +413,22 @@ hash = "faf5756b393e1419e3cdac0abc9c76d91683d49f09af6edd3762df0964f93af1"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/tinkerer_house.json"
 hash = "8efc4b153f6614cbafce0441ea019502ba6bcd0a46e1a592662ee0f47df87614"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/tower_forest_meadow.json"
+hash = "2b93edbdd9b574dd5c18cde4bc3cd0f2806668f1bab5925f06c50f8ef21365e9"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/towers.json"
+hash = "cf923e9ce5ffee411970fcb4ee970f9a3914272f1d3bc89ac01293b1bd52f037"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/towers_skylands.json"
+hash = "4b7d8a94d00581159e654df5e2678769494c150e29d31139c58b445fc7a0d12d"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure_set/watch_tower.json"
+hash = "ea514ae7ab4d5b274eada4abb94303940192750292cfd8ab22ce8715f3a3f062"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_floating.json"
@@ -385,6 +469,22 @@ hash = "d1fd790ccfb6972d7e4ca92b7851ce2904c548ca2b6d407eb1f587fc661b3ce5"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/tinkerer_house/house.json"
 hash = "eaef1694a32b30a989e3ada82a184bc4a60109b73783ba3d10bd6705d5e9de54"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/tower_forest.json"
+hash = "aa70760ef2b0d83b25b61fdaf63a0dd3b0874136499a13dd62f06a530395a9a5"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/tower_frozen.json"
+hash = "00cef0f9ed0a9404170c12c0625641c27fb3e879bf30fc303a5bb3232b836b41"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/tower_scarlet.json"
+hash = "654bca6c511ed1404282e79bfcc47151a74e32ddc633fde5e0a42cc73c22a310"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/watch_tower.json"
+hash = "f5a3936f68bbbfa34324a0e8983359372221bca11e7e62ea0064f1bebc864288"
 
 [[files]]
 file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
@@ -500,7 +600,7 @@ hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
 [[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
-hash = "083c6c778563fc5f25ee68c0011a5fa6e7ebd74fc6b578db30e76883c3d476f4"
+hash = "7a64ec5d47d0c2188bcf129852ccc9e1810f40eef2662fff9ed27a8816725742"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
@@ -528,7 +628,7 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "918c1d95a0029c51bab1266297b47ecf15847c460ea18130bc1fbef60704d923"
+hash = "137ce8163d5434d2ea17bae7475c428585c71ace326b9f2242fb386d78d56833"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
@@ -544,7 +644,7 @@ hash = "ab31de5dee6d1fbc43a7b919030ddf3105b0b0246b134ce81c88c16da920569f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "d51e841a85a9e53a80e4b48e3e872e881ed182dbbbdd33b120f5eb57d2e54bc2"
+hash = "fa221a37912ea39d7a78fb7803a0a6e39f75448a4365fc52dd68a8b223083239"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
@@ -600,7 +700,7 @@ hash = "271cff5af189d7aefc2b6025496f750fbbf7fd875e811bfa6482cfa42b02abe8"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "7168e6ea89e721e1d7ce51b03d66a8cea05d98d6d35c42fcfd134d8f75edc831"
+hash = "1464eb21173bcdb601f21679154aeb045e21ff9305f1756176f9760759914f55"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block.js"
@@ -617,6 +717,10 @@ hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 [[files]]
 file = "kubejs/server_scripts/tags/item.js"
 hash = "d63515ecc3649e16602df15289e50d382049d8a13bb9516ebf28af22d44e181b"
+
+[[files]]
+file = "kubejs/server_scripts/tags/structure.js"
+hash = "fc90ffbe2f3068ecfcee46c056da02c11e3689585ec79752a1ef151970185616"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
@@ -2277,7 +2381,7 @@ hash = "e14c4c818d3dee5de2756687e1334d1be00f14762e909849359c886ec3d3542f"
 
 [[files]]
 file = "resourcepacks/BTH-Panorama.zip"
-hash = "bff7f043bc12f4bfd3494e7f01e6b9b2271bf88f3da68d0deeef52893a34cbec"
+hash = "33bf872267b60f9729f55c1844a1e1c60a97cc2ca96a4baa7768f987047adf2a"
 
 [[files]]
 file = "resourcepacks/mt-ct-d-a.pw.toml"
