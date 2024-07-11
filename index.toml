@@ -1740,6 +1740,11 @@ hash = "1e6efbcc9bc0653d549548285eadab162435855b484fd4846adc2c38fade5aba"
 metafile = true
 
 [[files]]
+file = "mods/taxdeepvillager.pw.toml"
+hash = "dd1bbacecedea4f2b8966b47aa1e4b706cd891b1fbfbf6fb94fd34d3617c21cb"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "a943b190ae8648304ae8f33c139ee59a0f90f2f30c997e4fcb4f246aed4f9a0a"
 metafile = true
