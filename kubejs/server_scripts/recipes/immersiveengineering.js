@@ -72,8 +72,4 @@ ServerEvents.recipes(event => {
   event.recipes.immersiveengineering.hammer_crushing('ae2:fluix_dust', 'ae2:fluix_crystal').id(`${ID_PREFIX}hammer_crushing/fluix_crystal`);
   event.recipes.immersiveengineering.hammer_crushing('ae2:sky_dust', 'ae2:sky_stone_block').id(`${ID_PREFIX}hammer_crushing/sky_stone_block`);
 
-
-  // Create
-  event.recipes.immersiveengineering.hammer_crushing('create:brass_sheet', '#forge:ingots/brass').id(`${ID_PREFIX}hammer_crushing/brass_ingot`);
-
 });
