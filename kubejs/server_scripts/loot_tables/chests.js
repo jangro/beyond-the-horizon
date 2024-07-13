@@ -124,13 +124,14 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  // The chest on top of BTH Towers (forest, frozen, and scarlet)
   event.modify('bth_structures:tower_top', table => {
     table.addPool(pool => {
       pool.addItem('paraglider:paraglider', 5);
       pool.addItem('paraglider:deku_leaf', 1);
     });
     table.addPool(pool => {
-      pool.addItem('paraglider:spirit_orb', 1, [1, 4]).randomChance(0.5);
+      pool.addItem('paraglider:stamina_vessel').randomChance(0.8);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_MAP);
@@ -151,10 +152,14 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  // Chest in the cabin of the industrial watch tower
   event.modify('bth_structures:watch_tower_top', table => {
     table.addPool(pool => {
       pool.addItem('paraglider:paraglider', 5);
       pool.addItem('paraglider:deku_leaf', 1);
+    });
+    table.addPool(pool => {
+      pool.addItem('paraglider:stamina_vessel').randomChance(0.8);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_MAP);

@@ -159,6 +159,16 @@ ServerEvents.recipes(event => {
       E: 'endrem:magical_eye'
   }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
+  event.shaped('paraglider:paraglider', [
+    'SLS',
+    'LSL',
+    'SVS'
+  ], {
+      S: '#forge:rods/wooden',
+      L: '#forge:leather',
+      V: 'paraglider:stamina_vessel'
+  }).id(`${ID_PREFIX}paraglider`);
+
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:speed_upgrade', [
     'LSL',

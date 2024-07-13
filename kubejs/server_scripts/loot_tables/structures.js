@@ -378,3 +378,12 @@ LootJS.modifiers((event) => {
     .randomChance(0.05)
     .addLoot("endrem:cursed_eye")
 });
+
+// Add stamina vessel to chests in mountain biomes
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyBiome("#minecraft:is_mountain")
+    .randomChance(0.1)
+    .addLoot("paraglider:stamina_vessel")
+});

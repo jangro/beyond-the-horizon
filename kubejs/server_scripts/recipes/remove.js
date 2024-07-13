@@ -62,6 +62,7 @@ ServerEvents.recipes(event => {
     'minecolonies:baked_bread_campfire_cooking', 
     'minecolonies:baked_bread_smoking',
     'neapolitan:milk_bottle',
+    'paraglider:paraglider',
     'pneumaticcraft:speed_upgrade',
     'pneumaticcraft:speed_upgrade_from_glycerol',
     'powah:energizing/uranium_to_uraninite',
