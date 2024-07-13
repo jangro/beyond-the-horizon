@@ -176,7 +176,6 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
-    .randomChance(0.3)
     .anyStructure([
       'dungeons_arise:abandoned_temple',
       'dungeons_arise:aviary',
@@ -202,14 +201,15 @@ LootJS.modifiers((event) => {
       'dungeons_arise:mushroom_village',
       'dungeons_arise:plague_asylum',
       'dungeons_arise:scorched_mines',
-      'dungeons_arise:shiraz_place',
+      'dungeons_arise:shiraz_palace',
       'dungeons_arise:small_prairie_house',
       'dungeons_arise:thornborn_towers',
       'dungeons_arise:typhon',
       'dungeons_arise:undead_pirate_ship',
       ], false)
       .apply((context) => {
-        context.addLoot(Item.of("rats:tiny_coin", Math.floor(Math.random() * 21) + 0));
+        context.addLoot(LootEntry.of('rats:tiny_coin', Math.floor(Math.random() * 21) + 0).when((c) => c.randomChance(0.3)));
+        context.addLoot(LootEntry.of('paraglider:stamina_vessel').when((c) => c.randomChance(0.1)));
       });
   });
 
