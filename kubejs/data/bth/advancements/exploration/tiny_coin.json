@@ -1,0 +1,33 @@
+{
+  "parent": "bth:exploration/root",
+  "criteria": {
+    "tiny_coin": {
+      "conditions": {
+        "items": [
+          {
+          "items": [
+            "rats:tiny_coin"
+          ]
+        }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": "The path to Ratlantis",
+    "description": "Start collecting coins for the portal to Ratlants",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rats:tiny_coin"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    [
+    "tiny_coin"
+  ]
+  ]
+}

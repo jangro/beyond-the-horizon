@@ -1,0 +1,38 @@
+{
+  "parent": "bth:exploration/tiny_coin",
+  "criteria": {
+    "token": {
+      "conditions": {
+        "items": [
+          {
+          "items": [
+            "rats:chunky_cheese_token"
+          ]
+        }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "title": "The portal to Ratlants",
+    "description": "Craft the Chunky Cheese Token",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "rats:chunky_cheese_token"
+    },
+    "show_toast": false
+  },
+  "rewards": {
+    "loot": [
+      "bth:heart_container"
+    ]
+  },
+  "requirements": [
+    [
+    "token"
+  ]
+  ]
+}

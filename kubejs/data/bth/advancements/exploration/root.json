@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "title": "Beyond The Horizon",
+    "description": "Your adventure starts here",
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:leather_boots"
+    },
+    "show_toast": true
+  }
+}

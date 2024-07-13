@@ -1,0 +1,73 @@
+{
+  "parent": "bth:exploration/root",
+
+  "criteria": {
+    "tower_forest": {
+      "conditions": {
+        "player": [
+          {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structure": "bth_structures:tower_forest"
+            }
+          }
+        }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "tower_frozen": {
+      "conditions": {
+        "player": [
+          {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structure": "bth_structures:tower_frozen"
+            }
+          }
+        }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "tower_scarlet": {
+      "conditions": {
+        "player": [
+          {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structure": "bth_structures:tower_scarlet"
+            }
+          }
+        }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "title": "I can see my house from here",
+    "description": "Find your first tower",
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "paraglider:paraglider"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    [
+    "tower_forest",
+    "tower_frozen",
+    "tower_scarlet"
+  ]
+  ]
+}

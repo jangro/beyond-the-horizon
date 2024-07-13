@@ -22,6 +22,8 @@ const ADVANCEMENTS_TO_REMOVE = [
   'dungeons_arise:advancements/find_small_blimp.json',
   'dungeons_arise:advancements/find_wishing_well.json',
   'irons_spellbooks:advancements/grant_patchouli.json',
+  'paraglider:advancements/statues_bargain.json',
+  'paraglider:advancements/pray_to_the_goddess.json',
   'simplyswords:advancements/grant_book_on_first_join.json',
 ];
 
