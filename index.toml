@@ -128,7 +128,7 @@ hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "9fab789ecde809745097e76f67dfd65b4d292dccfbbe30433013e34ac17d5871"
+hash = "1c24090f0839cc6112164c1f6bd6e601b229ecc5adf901f92616ed07d9732f54"
 
 [[files]]
 file = "config/paraglider-common.toml"
@@ -2428,9 +2428,9 @@ hash = "8cf6e23385d2c850f847d21682137acd11a580228bd5923e1a6452cf2fa88d89"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.2.1.zip.txt"
-hash = "99ac6b23e88766a357e456025a1f62972f33a4e109499450eadde8698a7f2610"
+file = "shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt"
+hash = "5408673dad53abcddca637adafb63b392a82a8ec5b5fda06672a3630b3702097"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.2.1.zip.txt"
-hash = "337563d6c80042fe4081c508ddbfa1face3d3d7f459cc75db823d02509c7fcdb"
+file = "shaderpacks/ComplementaryUnbound_r5.2.2.zip.txt"
+hash = "bfbddf8737585cf0696adff4742a65ca2126eae02b4a05e85e6483a5a3a3a560"
