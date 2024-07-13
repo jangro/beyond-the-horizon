@@ -60,4 +60,20 @@ ServerEvents.recipes(event => {
     'minecraft:nether_gold_ore'
   ).id(`${ID_PREFIX}crusher/nether_gold`);
 
+  // AE2 dusts from crusher
+  event.recipes.immersiveengineering.crusher('ae2:certus_quartz_dust', '#ae2:all_certus_quartz').id(`${ID_PREFIX}crusher/certus_quartz`);
+  event.recipes.immersiveengineering.crusher('ae2:ender_dust', 'minecraft:ender_pearl').id(`${ID_PREFIX}crusher/ender_pearl`);
+  event.recipes.immersiveengineering.crusher('ae2:fluix_dust', 'ae2:fluix_crystal').id(`${ID_PREFIX}crusher/fluix_crystal`);
+  event.recipes.immersiveengineering.crusher('ae2:sky_dust', 'ae2:sky_stone_block').id(`${ID_PREFIX}crusher/sky_stone_block`);
+
+  // AE2 dusts from hammering
+  event.recipes.immersiveengineering.hammer_crushing('ae2:certus_quartz_dust', '#ae2:all_certus_quartz').id(`${ID_PREFIX}hammer_crushing/certus_quartz`);
+  event.recipes.immersiveengineering.hammer_crushing('ae2:ender_dust', 'minecraft:ender_pearl').id(`${ID_PREFIX}hammer_crushing/ender_pearl`);
+  event.recipes.immersiveengineering.hammer_crushing('ae2:fluix_dust', 'ae2:fluix_crystal').id(`${ID_PREFIX}hammer_crushing/fluix_crystal`);
+  event.recipes.immersiveengineering.hammer_crushing('ae2:sky_dust', 'ae2:sky_stone_block').id(`${ID_PREFIX}hammer_crushing/sky_stone_block`);
+
+
+  // Create
+  event.recipes.immersiveengineering.hammer_crushing('create:brass_sheet', '#forge:ingots/brass').id(`${ID_PREFIX}hammer_crushing/brass_ingot`);
+
 });
