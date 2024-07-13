@@ -12,7 +12,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:spyglass"
     },
     "show_toast": true
   }
