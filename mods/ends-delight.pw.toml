@@ -1,13 +1,13 @@
 name = "End's Delight"
-filename = "ends_delight-1.20.1-2.3.jar"
+filename = "ends_delight-1.20.1-2.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8ca7396d459009edf05b73cb366cd33ae943914d"
+hash = "ad59f7943ff93920948fba7f47edff92e74cb463"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5483124
+file-id = 5516009
 project-id = 662675
