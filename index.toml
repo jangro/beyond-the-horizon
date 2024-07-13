@@ -56,7 +56,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "e8a115a753aa6ce8d6f97d7e7ef58fd520368440ae0278f222169bfa657d4076"
+hash = "f789fd00a7629ee49bfce7747e7f7a858d6f8b23ca0453e0433c653041a7eb17"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -132,7 +132,7 @@ hash = "9fab789ecde809745097e76f67dfd65b4d292dccfbbe30433013e34ac17d5871"
 
 [[files]]
 file = "config/paraglider-common.toml"
-hash = "c376da1f609ffb631f35b05cb347eb44b81c49789fbc4864894bf54451e46bbe"
+hash = "b13b0a83760d0e4dc9b9ecb0fe8fe61842bf032b78e5e3fed837234d772bc1e7"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -208,7 +208,7 @@ hash = "749d580a4eadfafa6a6f21f83f6cf96886c4aa406e4d41607f24e23b80ac571b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "86dba6f2aff764313d68f9ae811a1a9c82f894121b3f48fe64e18010d645d85a"
+hash = "e6c423cc453b687c0b711f5ec6b5ecdb4dc49da8f7d3f96977b723a4b59b7936"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -253,6 +253,26 @@ hash = "80d6629345be68d593cc893c13d486c1196c4f5f5933fea363885cb671f24194"
 [[files]]
 file = "kubejs/data/afk_display/functions/uninstall.mcfunction"
 hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
+
+[[files]]
+file = "kubejs/data/bth/advancements/exploration/chunky_cheese_token.json"
+hash = "4d34a18a867f03124d425ae0000d0bd1e1da1e8b9756104d25116ce632251f65"
+
+[[files]]
+file = "kubejs/data/bth/advancements/exploration/root.json"
+hash = "e59e3edb713515ab14401396ea4747dfc93327c306c91b08a0d76a6ae4f4160a"
+
+[[files]]
+file = "kubejs/data/bth/advancements/exploration/tiny_coin.json"
+hash = "03735130a85dd5d9c9240ccbcd5ec5121597b30a4f4a4f33f35b64d4ebc3a3e2"
+
+[[files]]
+file = "kubejs/data/bth/advancements/exploration/tower.json"
+hash = "e54e97323e4a51178a757714893b1735336ec63986be0f833f29bf24a682eb06"
+
+[[files]]
+file = "kubejs/data/bth/loot_tables/heart_container.json"
+hash = "eaee815db31b77766ae0c3893e4b7b420c38d72c7e1ace56d9aa82e2d56193c4"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/aether_portal_floating.nbt"
@@ -604,7 +624,7 @@ hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
 [[files]]
 file = "kubejs/server_scripts/advancements/remove.js"
-hash = "7a64ec5d47d0c2188bcf129852ccc9e1810f40eef2662fff9ed27a8816725742"
+hash = "d4991832d346bab52d7ea557db8febd0d00d39ca574ad3318208c350002c701d"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
@@ -632,7 +652,7 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "137ce8163d5434d2ea17bae7475c428585c71ace326b9f2242fb386d78d56833"
+hash = "1d18ab92f22b1b89b3178d7fa0a7118d7b549335b62dc02aa349a2ff8a003fb4"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
@@ -648,7 +668,7 @@ hash = "ab31de5dee6d1fbc43a7b919030ddf3105b0b0246b134ce81c88c16da920569f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "fa221a37912ea39d7a78fb7803a0a6e39f75448a4365fc52dd68a8b223083239"
+hash = "af2dfff98c3fb2d4fdc9b4d4096b2f76a475f6e1f2eb6df04c6533c83f8ca5b4"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
@@ -672,7 +692,7 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering.js"
-hash = "95203c97e175dc6ab5db921cce48172ad07fa7b57a9462e68c14c8914332bf92"
+hash = "2e37f68f452b8a07f4d9d2868d3a79599933b5cea444f4785b37775220756378"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/powah.js"
@@ -680,7 +700,7 @@ hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "e983123c7a6c948af9319e3a8264f06e73ac45f39883d306dc33460cd91266f0"
+hash = "9c00706c48f244c2c6e90ba95fd6a9c1d4fe455d7704e593986e2d6ff5da84aa"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -688,11 +708,11 @@ hash = "228088117a748d28d33f7ef7c87e9421ab833183c220fe1cc398de045b856e43"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "332bf68f6d1627ea714854e8da9e753cd8f7ce63a6f5b6f4ac8105a8160689c9"
+hash = "73b7034b0846cc876e1886cc632fb8591aa37fbc516c31eb9efffae61e6dec19"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "4d6118b1eb789ec37c4a07697816950403ea51897482fb604b1bbe6f9ae3077f"
+hash = "577a218339c7fe02f96df9a75a8c1dc62331c9f30611f7196112e533de909c42"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/smelting.js"
