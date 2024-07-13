@@ -12,8 +12,8 @@ ServerEvents.chestLootTables(event => {
   event.modify('bth_structures:aether_portal_framed', table => {
     table.addPool(pool => {
       // TODO: add random durability
-      pool.addItem('aether:zanite_pickaxe', 10).enchantWithLevels(2, true);
-      pool.addItem('aether:valkyrie_pickaxe', 10).enchantWithLevels(1, true);
+      pool.addItem('aether:zanite_pickaxe', 10).enchantWithLevels(2, true).damage([0.3, 0.9]);
+      pool.addItem('aether:valkyrie_pickaxe', 10).enchantWithLevels(1, true).damage([0.3, 0.9]);
       pool.addItem('aether:golden_parachute', 10);
     });
     table.addPool(pool => {
@@ -35,24 +35,24 @@ ServerEvents.chestLootTables(event => {
   event.modify('bth_structures:battle_grounds', table => {
     table.addPool(pool => {
       pool.rolls = [4, 8];
-      pool.addItem('ae2:nether_quartz_sword', 10);
+      pool.addItem('ae2:nether_quartz_sword', 10).damage([0.3, 0.9]);
       pool.addItem('aether:enhanced_dart', 10, [8, 32]);
       pool.addItem('aether:enhanced_dart_shooter', 10);
-      pool.addItem('aether:holy_sword', 10);
+      pool.addItem('aether:holy_sword', 10).damage([0.3, 0.9]);
       pool.addItem('aether:ice_pendant', 10);
       pool.addItem('aether:lightning_knife', 10);
-      pool.addItem('aether:lightning_sword', 10);
-      pool.addItem('aether:obsidian_gloves', 10);
-      pool.addItem('aether:phoenix_chestplate', 10);
-      pool.addItem('aether:pig_slayer', 10);
-      pool.addItem('aether:valkyrie_helmet', 10);
-      pool.addItem('aether:valkyrie_lance', 10);
-      pool.addItem('aether:zanite_axe', 10);
+      pool.addItem('aether:lightning_sword', 10).damage([0.3, 0.9]);
+      pool.addItem('aether:obsidian_gloves', 10).damage([0.3, 0.9]);
+      pool.addItem('aether:phoenix_chestplate', 10).damage([0.3, 0.9]);
+      pool.addItem('aether:pig_slayer', 10).damage([0.3, 0.9]);
+      pool.addItem('aether:valkyrie_helmet', 10).damage([0.3, 0.9]);
+      pool.addItem('aether:valkyrie_lance', 10).damage([0.3, 0.9]);
+      pool.addItem('aether:zanite_axe', 10).damage([0.3, 0.9]);
       pool.addItem('endrem:nether_eye', 10);
-      pool.addItem('immersive_armors:wither_boots', 10);
-      pool.addItem('immersive_armors:wither_chestplate', 10);
-      pool.addItem('immersive_armors:wither_helmet', 10);
-      pool.addItem('immersive_armors:wither_leggings', 10);
+      pool.addItem('immersive_armors:wither_boots', 10).damage([0.3, 0.9]);
+      pool.addItem('immersive_armors:wither_chestplate', 10).damage([0.3, 0.9]);
+      pool.addItem('immersive_armors:wither_helmet', 10).damage([0.3, 0.9]);
+      pool.addItem('immersive_armors:wither_leggings', 10).damage([0.3, 0.9]);
       pool.addItem('irons_spellsbooks:keeper_flamberge', 10);
       pool.addItem('nethersdelight:warped_moldy_meat', 10);
       pool.addItem('travelersbackpack:nether', 10);
@@ -65,7 +65,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('forbidden_arcanus:arcance_crystal_dust', 10, [2, 4]);
       pool.addItem('forbidden_arcanus:arcane_bone_meal', 10);
       pool.addItem('forbidden_arcanus:edelwood_bucket', 10, [1, 2]);
-      pool.addItem('forbidden_arcanus:golden_blacksmith_gavel', 10);
+      pool.addItem('forbidden_arcanus:golden_blacksmith_gavel', 10).damage([0.3, 0.9]);
       pool.addItem('forbidden_arcanus:sanity_meter', 10);
       pool.addItem('forbidden_arcanus:spawner_scrap', 10);
       pool.addItem('forbidden_arcanus:test_tube', 10, [1, 3]);
