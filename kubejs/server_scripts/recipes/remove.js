@@ -73,6 +73,7 @@ ServerEvents.recipes(event => {
     'powah:smelting/uraninite_from_raw',
     'powah:smelting/uraninite_from_raw_blasting',
     /quark:.*shingles.*/,
+    'quark:tweaks/crafting/utility/bent/bread',
     'rats:upgrades/aristocrat_upgrade',
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
     'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
