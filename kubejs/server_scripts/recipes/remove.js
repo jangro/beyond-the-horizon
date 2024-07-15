@@ -80,6 +80,7 @@ ServerEvents.recipes(event => {
     'v_slab_compat:immersiveengineering/storage_uranium',
     'v_slab_compat:immersiveengineering/storage_uranium_stonecutter',
     /wardrobe:.*backpack/,
+    /woodworks:.*ladder$/,
   ].forEach((recipeID) => event.remove({id: recipeID}));
 
   // Remove IE dusts that are replaced by Create crushed ores
