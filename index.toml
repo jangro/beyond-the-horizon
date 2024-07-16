@@ -56,7 +56,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "f789fd00a7629ee49bfce7747e7f7a858d6f8b23ca0453e0433c653041a7eb17"
+hash = "016dcf76041b1eafb3b1853cc419282aaa39862497efb93780540a411ec06bf0"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -157,6 +157,10 @@ hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 [[files]]
 file = "config/sparsestructures.json5"
 hash = "16da1355bd0af57555d08905b4e164c70f734c3860fe45d3c2ebc737af6d3e9d"
+
+[[files]]
+file = "config/structurecredits-config.json"
+hash = "aa9e181a64dc290799bd8e696e60c03265d4ce7eeaca4f73a4057a7aa14c0f69"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -432,7 +436,7 @@ hash = "641468b90f174c1e9dc2a72da13c94c625c7e44c2f63b50ce43e05382177d221"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/ruined_hangar.json"
-hash = "faf5756b393e1419e3cdac0abc9c76d91683d49f09af6edd3762df0964f93af1"
+hash = "068b8b2037e36f509b6b779e60aee83e81610dc507ee2ef49bb1512d51cc282f"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/tinkerer_house.json"
@@ -452,7 +456,7 @@ hash = "4b7d8a94d00581159e654df5e2678769494c150e29d31139c58b445fc7a0d12d"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/watch_tower.json"
-hash = "ea514ae7ab4d5b274eada4abb94303940192750292cfd8ab22ce8715f3a3f062"
+hash = "6be27bd70e251822ac9e62ce13cf2e796c4a92f7735ae8f8748205c9bf226273"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/aether_portal_floating.json"
@@ -515,28 +519,88 @@ file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
 hash = "bdc2ce99055fa5a847c46357ea52f1af9898c8eaaa971e0e6a6697325a8e4a0f"
 
 [[files]]
-file = "kubejs/data/ctov/worldgen/template_pool/village/common/waystone/mossy.json"
-hash = "5f7cd97ee576f8bd5cbb05dcc5b0e614f282edfef9f2c5c1152d0f0badcea1c3"
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/beach.json"
+hash = "98578cb0df7077f57b17daf53a66f5fde896c141c4ab004a9075026369485de3"
 
 [[files]]
-file = "kubejs/data/ctov/worldgen/template_pool/village/common/waystone/normal.json"
-hash = "c877036d0b731614544f7de1b44bec7c4cb8bac4b0da9d17fb3b40375a3b7628"
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/christmas.json"
+hash = "ae62266894ba7a949ab553f240510cbba86a779a87d3cf997a47f0f4d179902f"
 
 [[files]]
-file = "kubejs/data/ctov/worldgen/template_pool/village/common/waystone/sand.json"
-hash = "7330bdd9fda7ac6092f32356d6692c1c485e9a72524df93e1d4f7c3f06a84293"
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/dark_forest.json"
+hash = "23aece92aa70a6963008cafaf1a0ea7f2c2f0a1648c5d9759af4a6de13dea0e1"
 
 [[files]]
-file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/mossy.json"
-hash = "b1a0b63cb056d05ae8ed391a1ea820449c339dae2578dc417339a7deaa34d9e2"
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/desert.json"
+hash = "f616f5eadb1f047164fa320afd4aa5b6dbe9b1dd51db0c07a428321c647a1679"
 
 [[files]]
-file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/normal.json"
-hash = "b2be846ca8e3b5f37d29c3a8148d0884b692504e93ecbf2189ebb242319bee0f"
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/desert_oasis.json"
+hash = "cbaa58b9e7b3b04310a382e9b781a0805f5106a2930995763b649f0ca937f32d"
 
 [[files]]
-file = "kubejs/data/ctov/worldgen/template_pool/village/waystone/sand.json"
-hash = "69682ca821bf84005e8003f8995e3a0bdfc8b74fbf56274adad0e2f4014d4592"
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/jungle.json"
+hash = "4e5cab7b02c7c2f2f6760df58fcda0e830fed8ac8b52493cc4ad992807f7f2d1"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/jungle_tree.json"
+hash = "f3b5bb6c935d7eb77ddcafb18cee5b4f6ff1305856062e0a1f207328f0aa4de3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/mesa.json"
+hash = "62ef8e05013afc8ba12ceb683c37c1594744afd18cdc3e5ecfc4c2d040af8dec"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/mesa_fortified.json"
+hash = "f1e383b51eda0a2b30b6b242b3fec4af4749935f5ae70cda2ff5e0bbdb44f5d6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/mountain.json"
+hash = "0bb7ffce6d1d08f26e97ecedb43a81a50e1650cf6f8d7d45ae031a22c8d671ca"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/mountain_alpine.json"
+hash = "b8b876d0e770871d2ddbc5f6c3a3b688e6586c72d38c6b9d0ae7b497c5fb1723"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/mushroom.json"
+hash = "3f0d327d313f92a420694dc67e2945e54c3c9c15546e3c9dda39fa59df4491ce"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/plains.json"
+hash = "2e1bfe797fbe14e2e6dcc3b964108f306c828b4b5a3aa36bf216c1423863ee0c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/plains_fortified.json"
+hash = "87d7bfc14a8cfa1dde6b8ab162d6719f3c3ae1c2bf89eff6fe9120b5674cee2b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/savanna.json"
+hash = "1f22029a39881da4b6dff5ea7858c84ec3e1a701fc76cab0817d5957e24ab0a1"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/savanna_na.json"
+hash = "91bfdbadf5c9df7309d2389fa777a4559e202c0e3b94287b4173dbe8974adf3d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/snowy.json"
+hash = "7f0657ecf6a3969460547e3a71ce49016fbee6dceb050e165d08a2d0353300ea"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/swamp.json"
+hash = "9727b9392c74ea227a12fba5a685dd4dbf3410ed5b86e31c8d7bed6f03d7df04"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/swamp_fortified.json"
+hash = "4eedf5c6d268ba409349a86b6698efce29631a4a486012daedeb1a1b0abdf2d6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/taiga.json"
+hash = "31f2ffc81db24a73638a9e43a6742f96895afd34465838195f5d19b5c4a18fed"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/taiga_fortified.json"
+hash = "0288ae08f850af1374af34f8d28c07c4d158e031847a08329f5bbc9c2c7db1ac"
 
 [[files]]
 file = "kubejs/data/dragonmounts/dragonmounts/dragon_breeds/aether.json"
@@ -652,7 +716,7 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "1d18ab92f22b1b89b3178d7fa0a7118d7b549335b62dc02aa349a2ff8a003fb4"
+hash = "c0674d736415f740be63849178b5462ae7472b1cde8d84c62a050ccb315c1216"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
@@ -668,7 +732,7 @@ hash = "ab31de5dee6d1fbc43a7b919030ddf3105b0b0246b134ce81c88c16da920569f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "af2dfff98c3fb2d4fdc9b4d4096b2f76a475f6e1f2eb6df04c6533c83f8ca5b4"
+hash = "3714784717e9286da7bf96938c08ee1bde925089730264d836cdff48ce14b49e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
@@ -700,7 +764,7 @@ hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "9c00706c48f244c2c6e90ba95fd6a9c1d4fe455d7704e593986e2d6ff5da84aa"
+hash = "bfb105c80a005162483c81c0fae386775208d9113a338632028dae93513a4746"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -779,8 +843,8 @@ file = "kubejs/startup_scripts/worldgen.js"
 hash = "25c288e3682374b99112b9cb2eef06a29f14e821333fee822b91bbd3b259dfa9"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.1.3-a-dev-994c86d5-1.20.1.jar"
-hash = "87b77106d86f5bf8fc6af5c4bc8d7636675abd0c0fe81b3031e0035c7938bbaa"
+file = "mods/DistantHorizons-forge-2.1.3-a-dev-80ccab21-1.20.1.jar"
+hash = "235984fd3e7f55203551ef8eaaa26a8c842fe80d5d9cbbde079b46ca13e1157c"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
