@@ -1128,7 +1128,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "2c2fea3639b62b11118584b1586d097f08428b172a5dc7dc1595f19cb52df763"
+hash = "ff6e9aa6f8ec35a78cb456729d189e16775b7b11e02e1cef2f1fcc0e20d08f6e"
 metafile = true
 
 [[files]]
@@ -1158,7 +1158,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "ecde06eae0428afe6d44435db3030d7073668e18427daa7b1e2930d4f33445fa"
+hash = "af7dd8a66c475ed33b8b5b618c44e0d4823fe7cc86052789a4ffff62fb971b64"
 metafile = true
 
 [[files]]
@@ -1208,7 +1208,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "2f27bc6b84433eb0bec1338dadba55037635ab7eb7209bc4609f539c89c4c65d"
+hash = "c1fa8e6889d3dffd9708de9d59aeeaefec66ff013b0bc32de2e23ec9199c66e9"
 metafile = true
 
 [[files]]
@@ -1253,7 +1253,7 @@ metafile = true
 
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
-hash = "518f74ded0b3d8c381b27219664095b14bd53a4db0be2e25b637bbf8f445d3dd"
+hash = "ac9e325de2ca1030bdf19789f676285ae573feb839ecb518cc7bc9f0b82d68e2"
 metafile = true
 
 [[files]]
@@ -1288,7 +1288,7 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-slot.pw.toml"
-hash = "3dfbf226e9b5e0f4277c48e545533e9427af919c2a1f9c2d77dcb36d6619d86e"
+hash = "3596795f8df47c5d72f12f34eafcc6d50ebaac681becdc79d97a20a587a7ecef"
 metafile = true
 
 [[files]]
@@ -1348,7 +1348,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "ae14c3df07bf08c23687eeb2045a1e3debc80fd7d7c05ef51e1cbcfb1392fde0"
+hash = "4a570674e13731dfe4c2fc7e4a45706a9fb8a1edface67ff2ee8322f446a0a5a"
 metafile = true
 
 [[files]]
@@ -1368,7 +1368,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-respite.pw.toml"
-hash = "9d2e7382b15470556a9a821163a3e557fa98768e46c901a26d40979c22bfdc5d"
+hash = "49431cb48a66b264c2cb7702c7bb80155d1a59a42d384348e30700ce0ebc1e4c"
 metafile = true
 
 [[files]]
@@ -1498,7 +1498,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "23dff10d5a444a09e5ca0a0d9823e692b79cf33bb18ae8459c2bda879d279405"
+hash = "19b3b36cbdecd4c67c95002070a6c61898b351fe7910bf0f01b711f734abd116"
 metafile = true
 
 [[files]]
@@ -1513,12 +1513,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "8e564ffebd3892f46ebad830733cb9f68e45895c53da42526aec2cbe7b5a9707"
+hash = "7324f361203515a8881061d912355d0dcc8307b755b487bed250a54c54e9aaa0"
 metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "f85d238a2efeab467e28ac5766b1acbabe90f8fba0a017f0b08e888ff08b5104"
+hash = "b3685b9962a2af90f9b7742ec11b48bb9e0c0899f9280f9cd6bb72bb6a63694c"
 metafile = true
 
 [[files]]
@@ -1608,7 +1608,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "386b87e727133a4c9eeed36af36b839d4fd0c761fd180695e863aaaaf0a4d926"
+hash = "97a03bea8346864bd967e6457a0f57a046fb2c1adc8b49de2ee452335c77b96d"
 metafile = true
 
 [[files]]
@@ -1618,7 +1618,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "a57bc1e770ea4c0caae72f0de43960ebfc446b2d3b75744111e4bc75298b208b"
+hash = "c1afff20462c9e2100ac2ba31ac71e9d235608efde7997e3f3f07a2241c6d3bf"
 metafile = true
 
 [[files]]
@@ -1953,12 +1953,12 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "7cd5ba3f6e15a5bb367a6e7e3549f2f89b86e8936fc1e3de959ce47068abd991"
+hash = "85a71671d0de5a84f67b7b9b14d7582c7b73967feea8301a180867496aa7e535"
 metafile = true
 
 [[files]]
 file = "mods/tetracelium.pw.toml"
-hash = "8164fd27023d823cf34ddee1850c0e75bc6d9d178cf58bb93576ce42588e98e8"
+hash = "ac57aa765179cd46a344f31c549e7626426fc5bdff9cecc9da10bc4c00ea0a86"
 metafile = true
 
 [[files]]
@@ -2008,7 +2008,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-backpack.pw.toml"
-hash = "4de745bf044302b2fe9eadfbe9c4bbd2db9c8d8d6e486a8bbffa9858632ef9b6"
+hash = "bd82f1cc04d24400bef737273eec8615355fa54d5fee3038ffa6af8e59c849c2"
 metafile = true
 
 [[files]]
