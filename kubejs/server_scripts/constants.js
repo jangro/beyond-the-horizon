@@ -44,3 +44,19 @@ const COLORS = [
   'red',
   'black'
 ];
+
+const VANILLA_WOOD_LOG_TYPES = [
+  'acacia',
+  'bamboo',
+  'birch',
+  'cherry',
+  'dark_oak',
+  'jungle',
+  'mangrove',
+  'spruce',
+];
+
+const VANILLA_WOOD_STEM_TYPES = [
+  'crimson',
+  'warped'
+];

@@ -70,6 +70,7 @@ JEIEvents.hideItems(event => {
     /valhelsia_structures:.*sleeping_bag/,
     /wardrobe:.*backpack/,
     /waystones:.*/,
+    /woodworks:.*ladder/,
   ]);
 
   // Hide IE dusts that are replaced by Create crushed raw ores.

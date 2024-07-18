@@ -88,4 +88,13 @@ ServerEvents.recipes(event => {
     event.remove({id: `immersiveengineering:dust_${material}`})
   );
 
+  // Remove ladders from Woodworks sawmill so we can add the ones from BBB
+  VANILLA_WOOD_LOG_TYPES.forEach((type) => {
+    event.remove({id: `woodworks:${type}_ladder_from_${type}_logs_sawing`});
+    event.remove({id: `woodworks:${type}_ladder_from_${type}_planks_sawing`});
+  });
+  VANILLA_WOOD_STEM_TYPES.forEach((type) => {
+    event.remove({id: `woodworks:${type}_ladder_from_${type}_stems_sawing`});
+    event.remove({id: `woodworks:${type}_ladder_from_${type}_planks_sawing`});
+  });
 });
