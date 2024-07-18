@@ -4,10 +4,19 @@
 set -e
 
 # Get version from pack metadata
-version=$(grep -e "^version" pack.toml | cut -f3 -d' ' | tr -d '"')
+pack_version=$(grep -e "^version" pack.toml | cut -f3 -d' ' | tr -d '"')
+bcc_version=$(grep -e "modpackVersion" config/bcc-common.toml | cut -f3 -d' ' | tr -d '"')
+
+if [[ "${pack_version}" != "${bcc_version}" ]]
+then
+    echo "\n==> Error: version in pack.toml (${pack_version}) and config/bcc-common.toml (${bcc_version}) does not match\n"
+    exit 1
+fi
+
+git tag | grep -q ${pack_version} || echo "\n==> Warning: missing git tag for version ${pack_version}\n"
 
 # Run the commands with the extracted version
 ./packwiz curseforge export -s server
-mv -v "Beyond the Horizon-${version}.zip" "bth-${version}-server.zip"
+mv -v "Beyond the Horizon-${pack_version}.zip" "bth-${pack_version}-server.zip"
 ./packwiz curseforge export
-mv -v "Beyond the Horizon-${version}.zip" "bth-${version}.zip"
+mv -v "Beyond the Horizon-${pack_version}.zip" "bth-${pack_version}.zip"
