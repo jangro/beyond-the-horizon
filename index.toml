@@ -212,7 +212,7 @@ hash = "749d580a4eadfafa6a6f21f83f6cf96886c4aa406e4d41607f24e23b80ac571b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "e6c423cc453b687c0b711f5ec6b5ecdb4dc49da8f7d3f96977b723a4b59b7936"
+hash = "672beb8ddf50d105ff64ce9a5946a166ed565b0670d50ed594fba567e79650fa"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -277,6 +277,10 @@ hash = "e54e97323e4a51178a757714893b1735336ec63986be0f833f29bf24a682eb06"
 [[files]]
 file = "kubejs/data/bth/loot_tables/heart_container.json"
 hash = "eaee815db31b77766ae0c3893e4b7b420c38d72c7e1ace56d9aa82e2d56193c4"
+
+[[files]]
+file = "kubejs/data/bth/loot_tables/stamina_vessel.json"
+hash = "3974b3e1e8cf8a052bdc35723f92faba3ab37fa0f1b5c1acce1d8a66318b9520"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/aether_portal_floating.nbt"
@@ -651,6 +655,26 @@ file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/wayst
 hash = "1c354eeb51fba2cc705d89fe4a45117edfcc6f1d11337e107d4f34e8be4d760a"
 
 [[files]]
+file = "kubejs/data/minecraft/advancements/end/kill_dragon.json"
+hash = "5ecd5e313b58a5a4d3fb9cabfd390fb79ecc2b31830b8a9399a876def3292110"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/husbandry/balanced_diet.json"
+hash = "a13e165854e8855acbbd3a3ac0fb06e770b671e61f9f21213022c357f71e105d"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/explore_nether.json"
+hash = "ce19ce7977fc0349b88bfc44876f8919712e94188c7aee4ae82ad738ebb68894"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/nether/summon_wither.json"
+hash = "111aadd486a15cecfe8f7dfa89369c41e18660222ca82001e2b5e3848a708bf4"
+
+[[files]]
+file = "kubejs/data/minecraft/advancements/story/enter_the_end.json"
+hash = "d5f6031d3484eb23033b251cac8a3d24dfc0843e57bce908368f45f40ff15867"
+
+[[files]]
 file = "kubejs/data/minecraft/enhancedcelestials/lunar/dimension_settings/overworld.json"
 hash = "eec51e856f288e5cd1d075fe6cde2531e57f96b936858d19c44ebf22d4ddac3c"
 
@@ -692,7 +716,7 @@ hash = "d4991832d346bab52d7ea557db8febd0d00d39ca574ad3318208c350002c701d"
 
 [[files]]
 file = "kubejs/server_scripts/constants.js"
-hash = "fcbb2ef3eba35ad8ebd644da1f60c47e31fde640a563fe2ff6d5e816d799a4be"
+hash = "b73b12277a20e90a7f94c3216693d65d813af657ff323a79bf39b2e071499412"
 
 [[files]]
 file = "kubejs/server_scripts/dev/commands.js"
@@ -764,7 +788,7 @@ hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "bfb105c80a005162483c81c0fae386775208d9113a338632028dae93513a4746"
+hash = "e160cd81fff5e365a04039fbd0df84c1b2a86fc3648e8943807a439aa8e29dff"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -784,7 +808,7 @@ hash = "0b3942c623f52174dcf38930615fefe2d5daf3848ca24223cbefede292247cb5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/woodworks.js"
-hash = "271cff5af189d7aefc2b6025496f750fbbf7fd875e811bfa6482cfa42b02abe8"
+hash = "79b555678e63d9966c80d2d4759d7e39f0258e01cd172a25c1c692ac683ae17c"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
