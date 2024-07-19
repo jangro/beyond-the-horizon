@@ -1,0 +1,74 @@
+{
+  "parent": "bth:exploration/chunky_cheese_token",
+  "criteria": {
+    "loot_shipwreck_map": {
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_map",
+        "player": [
+          {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "rats:ratlantis"
+            }
+          }
+        }
+        ]
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "loot_shipwreck_supply": {
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_supply",
+        "player": [
+          {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "rats:ratlantis"
+            }
+          }
+        }
+        ]
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "loot_shipwreck_treasure": {
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_treasure",
+        "player": [
+          {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "dimension": "rats:ratlantis"
+            }
+          }
+        }
+        ]
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "title": "Endless Riches",
+    "description": "Loot a shipwreck in Ratlantis",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    [
+    "loot_shipwreck_map",
+    "loot_shipwreck_supply",
+    "loot_shipwreck_treasure"
+  ]
+  ]
+}

@@ -260,7 +260,11 @@ hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/chunky_cheese_token.json"
-hash = "4d34a18a867f03124d425ae0000d0bd1e1da1e8b9756104d25116ce632251f65"
+hash = "9f11307f872183367ed74ec200864117b3793dfd385ebad3c789584c82fa40ea"
+
+[[files]]
+file = "kubejs/data/bth/advancements/exploration/ratlantis_loot.json"
+hash = "c98aab93407722748499e20d7fc08ccc4d71a0dd927e7d37f719c0c1e7aed71f"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/root.json"
