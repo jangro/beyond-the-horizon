@@ -95,6 +95,41 @@
     },
 
     {
+      "structure": "terralith:mage_tower",
+      "factor": 2
+    },
+
+    {
+      "structure": "terralith:rubble_desert",
+      "factor": 2
+    },
+
+    {
+      "structure": "terralith:rubble_forest",
+      "factor": 2
+    },
+
+    {
+      "structure": "terralith:rubble_jungle",
+      "factor": 2
+    },
+
+    {
+      "structure": "terralith:rubble_mesa",
+      "factor": 2
+    },
+
+    {
+      "structure": "terralith:rubble_mountain",
+      "factor": 2
+    },
+
+    {
+      "structure": "terralith:rubble_taiga",
+      "factor": 2
+    },
+
+    {
       "structure": "aquamirae:ice_maze",
       "factor": 2
     },

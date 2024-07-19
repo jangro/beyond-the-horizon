@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "UPDATING.md"
+hash = "28daf0174b873886012b67093c15c4b44fa85d6508e73f3dbd0ae4fc70564863"
+
+[[files]]
 file = "complementary-reimagined.pw.toml"
 hash = "8f8f05944c6f7cebd1d8ca6f07edb8a809575f79cd672f84e359c8153174a3a2"
 metafile = true
@@ -156,7 +160,7 @@ hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "16da1355bd0af57555d08905b4e164c70f734c3860fe45d3c2ebc737af6d3e9d"
+hash = "574266bf7c9ffe62ff36cdcae1fcbbc56e81bfaed6a257b4a9d7e213f036a8f2"
 
 [[files]]
 file = "config/structurecredits-config.json"
@@ -239,6 +243,10 @@ file = "kubejs/config/packicon.png"
 hash = "48462b68452ec88cee27b58a63682185a683de916cf30f334b084259390f9bad"
 
 [[files]]
+file = "kubejs/data/aether/advancements/gold_dungeon.json"
+hash = "747f71a8e32726ab8f4e19106fe9173a7266d3b34499681e1536c2df434a1573"
+
+[[files]]
 file = "kubejs/data/afk_display/functions/check_afk.mcfunction"
 hash = "98951f8730cd6883cde6e729395abc01e4711843dfeccd1828c635dc20f12900"
 
@@ -257,6 +265,22 @@ hash = "80d6629345be68d593cc893c13d486c1196c4f5f5933fea363885cb671f24194"
 [[files]]
 file = "kubejs/data/afk_display/functions/uninstall.mcfunction"
 hash = "0f6195a6d2ec3dc0ffc3df8c4ca4d074c7aeefdd6791294faeada117f1516780"
+
+[[files]]
+file = "kubejs/data/aquamirae/advancements/adventure/obtain_shell_horn.json"
+hash = "279a140e09c3f206039ac13e19fb6993b2c1bcbb62afdbd88fbb1110a7b41768"
+
+[[files]]
+file = "kubejs/data/ars_nouveau/advancements/wilden_tribute.json"
+hash = "f4d3927a5c8ccb35711ea6d75ca97506fb378335fc0df9a5d8197a58397d3e8f"
+
+[[files]]
+file = "kubejs/data/betterdeserttemples/advancements/temple_clear.json"
+hash = "944e940c90c1bba3bee6b3f3da08e454631ea9cd4c095a8ed98d206e8050f898"
+
+[[files]]
+file = "kubejs/data/botania/advancements/main/gaia_guardian_kill.json"
+hash = "57eaa19fa979ddc4969b43d5b939b5ee44b35343fc7594ba34c86ba8d2ac8b1c"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/chunky_cheese_token.json"
@@ -659,6 +683,10 @@ file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/wayst
 hash = "1c354eeb51fba2cc705d89fe4a45117edfcc6f1d11337e107d4f34e8be4d760a"
 
 [[files]]
+file = "kubejs/data/minecraft/advancements/adventure/hero_of_the_village.json"
+hash = "5bec6c0c92539b57c7c33a42558f790c6658a57380404e32ec6206f78d513a3f"
+
+[[files]]
 file = "kubejs/data/minecraft/advancements/end/kill_dragon.json"
 hash = "5ecd5e313b58a5a4d3fb9cabfd390fb79ecc2b31830b8a9399a876def3292110"
 
@@ -836,7 +864,7 @@ hash = "d63515ecc3649e16602df15289e50d382049d8a13bb9516ebf28af22d44e181b"
 
 [[files]]
 file = "kubejs/server_scripts/tags/structure.js"
-hash = "fc90ffbe2f3068ecfcee46c056da02c11e3689585ec79752a1ef151970185616"
+hash = "f40895530b400c958f7561e5fed4921eb6c204ebcb49a0e8dd08b733c98c3043"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
