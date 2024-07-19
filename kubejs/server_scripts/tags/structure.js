@@ -7,7 +7,7 @@
  */
 
 /**
- * Biome Tag Event Handler
+ * Structure Tag Event Handler
  */
 ServerEvents.tags('worldgen/structure', event => {
 
