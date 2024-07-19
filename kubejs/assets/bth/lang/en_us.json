@@ -1,4 +1,18 @@
 {
+  
+  "bth.comment.advancements": "----- Advancements -----",
+  "bth.advancements.exploration.chunky_cheese_token.title": "The Portal to Ratlantis",
+  "bth.advancements.exploration.ratlantis_loot.title": "Endless Riches",
+  "bth.advancements.exploration.root.title": "Beyond The Horizon",
+  "bth.advancements.exploration.tiny_coin.title": "The Road to Ratlantis",
+  "bth.advancements.exploration.tower.title": "I can see my house from here!",
+
+  "bth.advancements.exploration.chunky_cheese_token.description": "Craft the Chunky Cheese Token.",
+  "bth.advancements.exploration.ratlantis_loot.description": "Loot a shipwreck in Ratlantis.",
+  "bth.advancements.exploration.root.description": "Your adventure starts here!",
+  "bth.advancements.exploration.tiny_coin.description": "Start collecting coins for the portal to Ratlantis.",
+  "bth.advancements.exploration.tower.description": "Find your first ancient tower.",
+
   "bth.comment.chat": "-----Chat Messages-----",
   "bth.chat.first_start_message": "Welcome to Beyond the Horizon!",
 
@@ -17,5 +31,4 @@
   "filled_map.impaled_icebreaker": "Impaled Ratlantis Ship",
   "filled_map.better_desert_temple": "Possible location of Old Eye",
   "filled_map.better_jungle_temple": "Possible location of Rogue Eye"
-
 }

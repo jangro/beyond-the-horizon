@@ -15,8 +15,12 @@
     }
   },
   "display": {
-    "title": "The portal to Ratlantis",
-    "description": "Craft the Chunky Cheese Token",
+    "title": {
+      "translate": "bth.advancements.exploration.chunky_cheese_token.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.chunky_cheese_token.description"
+    },
     "announce_to_chat": true,
     "frame": "task",
     "hidden": false,

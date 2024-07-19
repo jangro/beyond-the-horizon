@@ -5,8 +5,12 @@
     }
   },
   "display": {
-    "title": "Beyond The Horizon",
-    "description": "Your adventure starts here",
+    "title": {
+      "translate": "bth.advancements.exploration.root.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.root.description"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "announce_to_chat": true,
     "frame": "task",

@@ -54,8 +54,12 @@
     }
   },
   "display": {
-    "title": "Endless Riches",
-    "description": "Loot a shipwreck in Ratlantis",
+    "title": {
+      "translate": "bth.advancements.exploration.ratlantis_loot.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.ratlantis_loot.description"
+    },
     "announce_to_chat": true,
     "frame": "task",
     "hidden": false,

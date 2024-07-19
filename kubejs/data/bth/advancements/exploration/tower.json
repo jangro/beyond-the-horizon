@@ -52,8 +52,12 @@
     }
   },
   "display": {
-    "title": "I can see my house from here",
-    "description": "Find your first tower",
+    "title": {
+      "translate": "bth.advancements.exploration.tower.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.tower.description"
+    },
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
     "announce_to_chat": true,
     "frame": "task",

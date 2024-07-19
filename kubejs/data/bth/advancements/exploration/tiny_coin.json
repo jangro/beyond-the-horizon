@@ -15,8 +15,12 @@
     }
   },
   "display": {
-    "title": "The path to Ratlantis",
-    "description": "Start collecting coins for the portal to Ratlants",
+    "title": {
+      "translate": "bth.advancements.exploration.tiny_coin.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.tiny_coin.description"
+    },
     "announce_to_chat": true,
     "frame": "task",
     "hidden": false,
