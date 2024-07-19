@@ -21,6 +21,9 @@ ServerEvents.tags('item', event => {
     'advancedperipherals:weak_automata_core',
   ]);
 
+  // Minecraft Tags
+  // (none yet)
+
   // Forge Tags
   event.add('forge:dough', [
     'minecolonies:bread_dough',
@@ -34,6 +37,12 @@ ServerEvents.tags('item', event => {
     'create:cinder_flour',
     'create:wheat_flour',
   ]);
+  
+  // Tag Create crushed raw ores as dusts so they can replace IE dusts in recipes.
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) => {
+    event.add(`forge:dusts/`, `create:crushed_raw_${material}`);
+    event.add(`forge:dusts/${material}`, `create:crushed_raw_${material}`);
+  });
 
   event.add('forge:dusts/flour', [
     'create:cinder_flour',
@@ -49,6 +58,17 @@ ServerEvents.tags('item', event => {
     'pneumaticcraft:wheat_flour',
   ]);
 
+  // Remove tags from IE ingots so our options get picked instead.
+  // [Vaelzan]: This is probably not the best way to handle this as it prevents them being used
+  //            as inputs in recipes too (in case a player somehow obtains some).
+  event.get('forge:ingots/lead').remove('immersiveengineering:ingot_lead');
+  event.get('forge:ingots/silver').remove('immersiveengineering:ingot_silver');
+  event.get('forge:ingots/uranium').remove('immersiveengineering:ingot_uranium');
+
+  event.add('forge:ingots', [
+    'alexscaves:uranium',
+  ]);
+
   event.add('forge:ingots/arcane_gold', [
     'forbidden_arcanus:deorum_ingot',
   ]); 
@@ -56,6 +76,10 @@ ServerEvents.tags('item', event => {
   event.add('forge:nuggets/arcane_gold', [
     'forbidden_arcanus:deorum_nugget',
   ]); 
+  
+  event.add('forge:ingots/uranium', [
+    'alexscaves:uranium',
+  ]);
   
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
@@ -74,15 +98,13 @@ ServerEvents.tags('item', event => {
   event.add('forge:ores/uranium', [
     'alexscaves:radrock_uranium_ore',
   ]);
-
-  // XXX: Doesn't work. How to remove raw_material tags?
-  // event.removeAll('alexscaves:uranium');
-  event.add('forge:ingots/uranium', [
-    'alexscaves:uranium',
-  ]);
-  event.add('forge:ingots', [
-    'alexscaves:uranium',
-  ]);
+  
+  // Remove tags from IE ores so our options get picked instead.
+  // [Vaelzan]: This is probably not the best way to handle this as it prevents them being used
+  //            as inputs in recipes too (in case a player somehow obtains some).
+  event.get('forge:raw_materials/lead').remove('immersiveengineering:raw_lead');
+  event.get('forge:raw_materials/silver').remove('immersiveengineering:raw_silver');
+  event.get('forge:raw_materials/uranium').remove('immersiveengineering:raw_uranium');
 
   event.add('forge:storage_blocks/arcane_gold', [
     'forbidden_arcanus:deorum_block',
@@ -115,18 +137,4 @@ ServerEvents.tags('item', event => {
     /irons_spellbooks:.*_boots$/,
   ]);
 
-  // Tag Create crushed raw ores so they can replace IE dusts
-  // XXX: OK to to tag them as dusts? Could it cause some incompatibilities elsewhere?
-  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>
-    event.add(`forge:dusts/${material}`, `create:crushed_raw_${material}`)
-  );
-
-  // Remove tags from IE ores and ingots so our options get picked instead
-  event.get('forge:raw_materials/lead').remove('immersiveengineering:raw_lead');
-  event.get('forge:raw_materials/silver').remove('immersiveengineering:raw_silver');
-  event.get('forge:raw_materials/uranium').remove('immersiveengineering:raw_uranium');
-
-  event.get('forge:ingots/lead').remove('immersiveengineering:ingot_lead');
-  event.get('forge:ingots/silver').remove('immersiveengineering:ingot_silver');
-  event.get('forge:ingots/uranium').remove('immersiveengineering:ingot_uranium');
 });

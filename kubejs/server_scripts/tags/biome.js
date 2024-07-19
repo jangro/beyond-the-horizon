@@ -27,9 +27,7 @@ ServerEvents.tags('worldgen/biome', event => {
   ];
 
   // Create mountain tag for towers (more mountainous mountains than regular is_mountain).
-  tower_mountains.forEach(mountainBiomeID => {
-      event.add('bth:is_tower_mountain', mountainBiomeID);
-  });
+  event.add('bth:is_tower_mountain', tower_mountains);
 
   // Create biome tag for scarlet tower
   event.add('bth:is_scarlet_tower_mountain', 'terralith:scarlet_mountains');
@@ -112,6 +110,8 @@ ServerEvents.tags('worldgen/biome', event => {
   ]);
 
   // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
+  // [Vaelzan]: It uses the Minecraft jungle temple tag by default, so that might be why you couldn't remove the individual biome.
+  // TODO: It's probably better to modify that tag instead and leave YUNG's one alone?
   event.removeAll('betterjungletemples:has_structure/better_jungle_temple');
   event.add('betterjungletemples:has_structure/better_jungle_temple', ['minecraft:jungle', 'minecraft:sparse_jungle', 'minecraft:bamboo_jungle']);
 

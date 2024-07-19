@@ -10,7 +10,7 @@
  * Structure Tag Event Handler
  */
 ServerEvents.tags('worldgen/structure', event => {
-
+  // Beyond the Horizon Tags
   event.add('bth_structures:tower', [
     'bth_structures:tower_forest',
     'bth_structures:tower_frozen',
@@ -23,7 +23,12 @@ ServerEvents.tags('worldgen/structure', event => {
     'bth_structures:tower_forest_skylands_summer',
     'bth_structures:tower_frozen_skylands_winter',
   ]);
+  
+  // Minecraft Tags
 
+  // Forge Tags
+
+  // Supplementaries Tags
   event.add('supplementaries:way_sign_destinations', [
     'bth_structures:tower_forest',
     'bth_structures:tower_frozen',
