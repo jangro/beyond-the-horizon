@@ -60,7 +60,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "7d66af075ab62e524a0a0dca333ee5a6462cd4dedb4b32f851ff1e985fbce81f"
+hash = "d77fd4dc5f11279b5115cd00900566d5bc605449f69f7356f2a9485da7a7d13e"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -212,7 +212,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "749d580a4eadfafa6a6f21f83f6cf96886c4aa406e4d41607f24e23b80ac571b"
+hash = "c5c40bb7950723b0a08a42e6b02d8317ee74a57f2db18780c672b43fbbefee8b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
@@ -284,23 +284,23 @@ hash = "57eaa19fa979ddc4969b43d5b939b5ee44b35343fc7594ba34c86ba8d2ac8b1c"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/chunky_cheese_token.json"
-hash = "9f11307f872183367ed74ec200864117b3793dfd385ebad3c789584c82fa40ea"
+hash = "cac68233f25d85c3b4f633af1b78e7d43259586ff516b98b0f1d81161a218eef"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/ratlantis_loot.json"
-hash = "c98aab93407722748499e20d7fc08ccc4d71a0dd927e7d37f719c0c1e7aed71f"
+hash = "941c5d7cb84787876e8d239b206268291c592aeb1cdf25331094f18e2530e6af"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/root.json"
-hash = "e59e3edb713515ab14401396ea4747dfc93327c306c91b08a0d76a6ae4f4160a"
+hash = "bdf249ba1903aed69465ab6beab1d6a2e38041dc8fac6ad54d12de051206d44d"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/tiny_coin.json"
-hash = "03735130a85dd5d9c9240ccbcd5ec5121597b30a4f4a4f33f35b64d4ebc3a3e2"
+hash = "519c2aca424ebbf9f1d8af477c3bf06faaf82ad2cfd07c5707942124a62a79a3"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/tower.json"
-hash = "e54e97323e4a51178a757714893b1735336ec63986be0f833f29bf24a682eb06"
+hash = "54ae2ba47699c85e8c14e5f2339a33bcfd4de321081a19d369236ae4e98c7111"
 
 [[files]]
 file = "kubejs/data/bth/loot_tables/heart_container.json"
@@ -844,7 +844,7 @@ hash = "79b555678e63d9966c80d2d4759d7e39f0258e01cd172a25c1c692ac683ae17c"
 
 [[files]]
 file = "kubejs/server_scripts/tags/biome.js"
-hash = "1464eb21173bcdb601f21679154aeb045e21ff9305f1756176f9760759914f55"
+hash = "1b2134053473c624d11334733ddc6bdfab5116dc643fc74da5ef8a64f6e4791f"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block.js"
@@ -860,11 +860,11 @@ hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item.js"
-hash = "d63515ecc3649e16602df15289e50d382049d8a13bb9516ebf28af22d44e181b"
+hash = "1d1d0b1718313d89d28cf9d2b2cb7f6243b43c4b4124d80cf155fe0125c31caa"
 
 [[files]]
 file = "kubejs/server_scripts/tags/structure.js"
-hash = "f40895530b400c958f7561e5fed4921eb6c204ebcb49a0e8dd08b733c98c3043"
+hash = "e991a92d5d5fe4648681de141b149eeccd591c3e96c81c5a6e4e6bfbb759443e"
 
 [[files]]
 file = "kubejs/startup_scripts/misc.js"
