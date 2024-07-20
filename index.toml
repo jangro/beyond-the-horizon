@@ -1009,7 +1009,7 @@ metafile = true
 
 [[files]]
 file = "mods/bagus-lib.pw.toml"
-hash = "e30334d2d1274ad6219b3f14bda308f94e396c9150b68b0424222b9f52089767"
+hash = "5679558cb00a89ba8be506103e6216846f97200595de492d0c326956a96dff7e"
 metafile = true
 
 [[files]]
@@ -1214,7 +1214,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "af7dd8a66c475ed33b8b5b618c44e0d4823fe7cc86052789a4ffff62fb971b64"
+hash = "bdc5d0c97d71d57111e3d59d48062035567efd74b25d4155e223ffe8e5a6d5f1"
 metafile = true
 
 [[files]]
@@ -1409,7 +1409,7 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "15950be9c381a26936b3d695229a39eacc53631b0c98cfd1e40cd7b8e304670c"
+hash = "b3a2a3288a8a8c4541f53a62ac26cee6c73b0cc2a6970985e1aa660a164a216b"
 metafile = true
 
 [[files]]
@@ -1569,7 +1569,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "7324f361203515a8881061d912355d0dcc8307b755b487bed250a54c54e9aaa0"
+hash = "9899e9e582ecaf09d1d0c8c432b80f49cea1cd684d1c0d3321435d717536d553"
 metafile = true
 
 [[files]]
@@ -1894,7 +1894,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "14134e708ec8e9bee6329df46e188b33a07ed86cff9657a597f53def05cb15df"
+hash = "84298e5c4783b70dd8ea6abdda79b67b12a584f7420f6e72bbb5f91ea7875b35"
 metafile = true
 
 [[files]]
@@ -1904,7 +1904,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "0cc77c393fc982f333589127781d57a31a690c87debd0007d937f9b1ab86526d"
+hash = "482d648b6c8472e38f0b528232081910d6c7965e2a494c30d8fe37982f798fb2"
 metafile = true
 
 [[files]]
