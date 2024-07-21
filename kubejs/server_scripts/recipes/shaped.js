@@ -35,6 +35,14 @@ ServerEvents.recipes(event => {
     S: '#forge:string',
     R: ['minecraft:rabbit_hide', 'farmersdelight:canvas']
   }).id(`${ID_PREFIX}bundle`);
+  
+  event.shaped('minecraft:chest', [
+    'PPP',
+    'P P',
+    'PPP'
+  ], {
+    P: '#minecraft:planks',
+  }).id(`${ID_PREFIX}chest`);
 
   event.shaped('minecraft:saddle', [
     'LLL',
