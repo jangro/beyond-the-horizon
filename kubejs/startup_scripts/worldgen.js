@@ -19,5 +19,5 @@ WorldgenEvents.remove(event => {
       'rustic_engineer:solarite_ore_deep_slate',
       'rustic_engineer:solarite_ore_stone',
     ]
-  })
-})
+  });
+});

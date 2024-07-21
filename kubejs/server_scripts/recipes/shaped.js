@@ -27,6 +27,15 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
   
   // Minecraft
+  event.shaped('minecraft:bundle', [
+    'SRS',
+    'R R',
+    'RRR'
+  ], {
+    S: '#forge:string',
+    R: ['minecraft:rabbit_hide', 'farmersdelight:canvas']
+  }).id(`${ID_PREFIX}bundle`);
+
   event.shaped('minecraft:saddle', [
     'LLL',
     'SLS',
