@@ -2505,10 +2505,6 @@ file = "patchouli_books/bth_guide_book/en_us/entries/travel/astikor_carts.json"
 hash = "9687eb56e4f2b2b1b09cce57a66a3cf36d32419be28c05d7b2acbd2454705a75"
 
 [[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/travel/automobility.json"
-hash = "f37f927839fa59610d7f9292465e748f4697ee631a11c15c997d380689f824ed"
-
-[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/dragon_mounts.json"
 hash = "17ac96f59f8d6599712ba95623bf2700a25aade7df2cb6bb022f8e998d1c4077"
 
