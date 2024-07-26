@@ -18,6 +18,12 @@ ServerEvents.recipes(event => {
     'immersiveengineering:mold_rod'
   ).id(`${ID_PREFIX}metalpress/prismarine_rod`);
 
+  event.recipes.immersiveengineering.metal_press(
+    'createdeco:andesite_sheet',
+    'create:andesite_alloy',
+    'immersiveengineering:mold_plate'
+  ).id(`${ID_PREFIX}metalpress/andesite_sheet`);
+
   // Added for BTH to match Create's recipe
   event.recipes.immersiveengineering.crusher(
     'createaddition:diamond_grit',

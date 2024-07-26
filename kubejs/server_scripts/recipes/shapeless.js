@@ -18,6 +18,8 @@ ServerEvents.recipes(event => {
 
   // Create
   event.shapeless('create:brass_sheet', ['#forge:ingots/brass', 'immersiveengineering:hammer']).id(`${ID_PREFIX}hammer/brass_sheet`);
+  event.shapeless('createaddition:zinc_sheet', ['#forge:ingots/zinc', 'immersiveengineering:hammer']).id(`${ID_PREFIX}hammer/zinc_sheet`);
+  event.shapeless('createdeco:andesite_sheet', ['create:andesite_alloy', 'immersiveengineering:hammer']).id(`${ID_PREFIX}hammer/andesite_sheet`);
 
   // Create Crafts & Additions
   event.shapeless('createaddition:gold_wire', ['#forge:plates/gold', 'immersiveengineering:wirecutter']).id(`${ID_PREFIX}cutter/gold_wire`);

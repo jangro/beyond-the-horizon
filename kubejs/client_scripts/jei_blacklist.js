@@ -22,6 +22,7 @@ JEIEvents.hideItems(event => {
     'create:crushed_raw_uranium',
     'createaddition:copper_wire',
     'createaddition:electrum_wire',
+    'createdeco:zinc_sheet',
     'farmersdelight:rope',
     'galosphere:deepslate_silver_ore',
     'galosphere:raw_silver',

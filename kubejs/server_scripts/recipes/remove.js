@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
     'create:smelting/bread',
     'create:smelting/ingot_uranium_compat_immersiveengineering',
     'create:smoking/bread',
+    'createdeco:pressing/zinc_sheet',
     'eidolon:raven_feather_arrows',
     'everycomp:abnww/enlightened_end/indigo_boards_from_indigo_logs_sawing',
     /incubation:fried_egg.*/,
