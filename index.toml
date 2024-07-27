@@ -60,7 +60,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "104ede5527711d3e4a3914edbbb0d76f51f2499575480a5b717e5d3cc42f5d21"
+hash = "3aebe3896aa2d52e08a12e4dd2820d942ef332d9d30bca404f0f3e93583274c0"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -240,7 +240,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "3573fd34a5e7f7d29f0f75210cf7f8ec419e0f48f4e1df0a3afdb9024bc0afe5"
+hash = "30987df4ec3b8323a0cb1d8fab626dc1e355d78a28559539030c0f4884f19c59"
 
 [[files]]
 file = "kubejs/config/packicon.png"
