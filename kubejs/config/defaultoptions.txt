@@ -31,7 +31,9 @@ key_chunkloaders.keys.open_screen:key.keyboard.semicolon
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_key.ars_nouveau.open_book:key.keyboard.o
 key_key.cadmus.open_claim_map:key.keyboard.apostrophe
+key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.m
 key_key.wands.area_diagonal_spread:key.keyboard.unknown
@@ -54,3 +56,4 @@ key_key.wands.wand_rotate:key.keyboard.unknown
 key_key.wands.wand_undo:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.sort_container:key.mouse.middle
+key_Swap shoulder:key.keyboard.unknown
