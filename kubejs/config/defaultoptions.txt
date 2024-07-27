@@ -55,5 +55,6 @@ key_key.wands.wand_palette_mode:key.keyboard.unknown
 key_key.wands.wand_rotate:key.keyboard.unknown
 key_key.wands.wand_undo:key.keyboard.unknown
 key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_quark.keybind.sort_container:key.mouse.middle
 key_Swap shoulder:key.keyboard.unknown
