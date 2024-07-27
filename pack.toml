@@ -1,6 +1,6 @@
 name = "Beyond the Horizon"
 author = "BTH Team"
-version = "0.30"
+version = "0.31"
 pack-format = "packwiz:1.1.0"
 
 [index]
