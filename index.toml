@@ -958,7 +958,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "e9cfa647bc5dee08e0816424376c48de34ed21285bc510431a93975e365dafcd"
+hash = "d7feb9d52456bf8475759c29d5611735ece5a032d0d1eeeaa53721eae74e6ac7"
 metafile = true
 
 [[files]]
@@ -988,7 +988,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "c36e4c0f2c6def9ec97b1689db41a2b29f36bd02315428316e5ec0c2a22731a4"
+hash = "49d61232f33cbc7303469d09678a6bdac49ee54c91763d1f46bec34790a174cf"
 metafile = true
 
 [[files]]
@@ -998,7 +998,7 @@ metafile = true
 
 [[files]]
 file = "mods/astikor-carts-redux.pw.toml"
-hash = "9c55eeb7b61f7180cbd99a833b9fab5cb9121f747610f9eefd6be7361d1d0a7b"
+hash = "a4838b0bd5565b81a9693b9063ffd69eeefcf4dad68cc97ab94b82c90a2ebac6"
 metafile = true
 
 [[files]]
@@ -1013,7 +1013,7 @@ metafile = true
 
 [[files]]
 file = "mods/bagus-lib.pw.toml"
-hash = "5679558cb00a89ba8be506103e6216846f97200595de492d0c326956a96dff7e"
+hash = "8d95069691fb246b26a0201a362b413e0119cb770876c83db9650c6f3749c77d"
 metafile = true
 
 [[files]]
@@ -1148,7 +1148,7 @@ metafile = true
 
 [[files]]
 file = "mods/citadel.pw.toml"
-hash = "454a06dd8f4f896dc23545a1ea4dcf304ca1265cdfe6c98b729d2943fb0b0341"
+hash = "c9a1b8b06cb1cdceeea4dff51db30f91d682bfadae03917fd73bb5ec0ebc833e"
 metafile = true
 
 [[files]]
@@ -1188,7 +1188,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "ff6e9aa6f8ec35a78cb456729d189e16775b7b11e02e1cef2f1fcc0e20d08f6e"
+hash = "68cd4bde8cc202bddf698715333aa523d5153cbe13ddb1ceb989eef2d262956d"
 metafile = true
 
 [[files]]
@@ -1218,7 +1218,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "bdc5d0c97d71d57111e3d59d48062035567efd74b25d4155e223ffe8e5a6d5f1"
+hash = "a678f13d916475b068db2d6ee53e58713f2eb8bebf7cd728c52c45107596f08a"
 metafile = true
 
 [[files]]
@@ -1303,7 +1303,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclops-core.pw.toml"
-hash = "9420095c09381c58d2b261b72cd518a546701fcc18ddca39a48d2bfb2a6f3e74"
+hash = "b0223d367bc69b611934bd5893910943a3fef7d0e435a213eb00565414cd6732"
 metafile = true
 
 [[files]]
@@ -1328,7 +1328,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "cca66cfc8723e4166879d5f455558e2bb767c8e65ca681d1edaac9905db47000"
+hash = "20b92fb52b49dd2f6b3dde11325f3b5c4eaa207c2ba949468a60996a34696401"
 metafile = true
 
 [[files]]
@@ -1348,12 +1348,12 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-slot.pw.toml"
-hash = "3596795f8df47c5d72f12f34eafcc6d50ebaac681becdc79d97a20a587a7ecef"
+hash = "9565551f7919f385360c08dbc215c78ba3bb2af825bd596cd531a9abc08d35ed"
 metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "faf5eba1cdf9cd91262521ad032f689f237727f47e5c3b7518e6fff0dc7a90ac"
+hash = "bd2a3ca83020447357221c18bd1fbc85312e5aa355aa4b5528d2025cae9e219f"
 metafile = true
 
 [[files]]
@@ -1408,12 +1408,12 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "4a570674e13731dfe4c2fc7e4a45706a9fb8a1edface67ff2ee8322f446a0a5a"
+hash = "cf50cf5584f8d81bb9ee22aa3d55f1e62ac4fda53cd04d06c9ccdd7c521f4a71"
 metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "b3a2a3288a8a8c4541f53a62ac26cee6c73b0cc2a6970985e1aa660a164a216b"
+hash = "40957d154f6fdedac034bf32bca6299b29d270532fcc5468e52e8ef8c741bb94"
 metafile = true
 
 [[files]]
@@ -1538,22 +1538,22 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "8fd822a5dde2425d202a9e81871c2571e45f185ba87286f49fad33131063bb6f"
+hash = "ee9f90b492c8e380ef2b3d133b567977693044b6277ee9602eb07035abfeb939"
 metafile = true
 
 [[files]]
 file = "mods/integrated-terminals.pw.toml"
-hash = "7861ddd0ba6c0da4708391bb8b7c6196bbf6c876d2ac774c735a77c42671cbe3"
+hash = "7ae06ffbe9f3367fbd5214be8f956612721f6931f48123c5bdf4849bda5d8b7c"
 metafile = true
 
 [[files]]
 file = "mods/integrated-tunnels.pw.toml"
-hash = "2163c7612873d0d56aedce3d164534b899da0bec98c945e31dd1db4c551237d2"
+hash = "c2eba7b813b0aa6b4358f052dc0bc936753fbcfc6af54770ccb5ae0496796f28"
 metafile = true
 
 [[files]]
 file = "mods/inventory-hud-forge.pw.toml"
-hash = "bd171f4a28884e473c65f54a9e7cfae011e1f61af02d455b6204555199d7476c"
+hash = "febb4cd66a6bc24f4eae98b0d25dfd30ce21b28a9d708c12ee52c3ede6846e3e"
 metafile = true
 
 [[files]]
@@ -1573,7 +1573,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "9899e9e582ecaf09d1d0c8c432b80f49cea1cd684d1c0d3321435d717536d553"
+hash = "cc33d58e581cfa7d9b651d8e5143e568faa2c61b6640f73706f0489863fb76f4"
 metafile = true
 
 [[files]]
@@ -1593,7 +1593,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "0b0e7313f9677aea247e4245e51c623844c8477f95f7cd2c644d5c7871f0af8b"
+hash = "f5533c392e1cc14d7cd8e9b7a1c7ca69f10abf9c79468fe97c45cf9b5703ff6b"
 metafile = true
 
 [[files]]
@@ -1633,7 +1633,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "988c14c1f21cd9bb29463da59a3ea67b8307bc88cc2bbaac35000acb6a2bb8c5"
+hash = "9dd77e0e4b8cfd147b1c2d9ae6ec26cde0333b2998b861d9ddad39a3f191054d"
 metafile = true
 
 [[files]]
@@ -1673,7 +1673,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "97a03bea8346864bd967e6457a0f57a046fb2c1adc8b49de2ee452335c77b96d"
+hash = "81ca24438b9a4b80204182ef72f38997a3e946884c26e225c8e18fe30cc71d85"
 metafile = true
 
 [[files]]
@@ -1683,7 +1683,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "c1afff20462c9e2100ac2ba31ac71e9d235608efde7997e3f3f07a2241c6d3bf"
+hash = "200dc9d52925894d95675e92cb306f0982a3af0cb0376722c4422bd530685b24"
 metafile = true
 
 [[files]]
@@ -1873,7 +1873,7 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "2ebc9366a396634d88e2ca05600797edf48edd1005318256aa35e4ffc740e516"
+hash = "73f52912d24a121d62ea8c8f7ed00ac8e6ac7cec1a7253ca0cecb24d7cb9f61a"
 metafile = true
 
 [[files]]
@@ -1903,7 +1903,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "84298e5c4783b70dd8ea6abdda79b67b12a584f7420f6e72bbb5f91ea7875b35"
+hash = "fb91b41e7a3921f55326939ec7046e53fb765329ec591bf6d43bae804a541a31"
 metafile = true
 
 [[files]]
@@ -1913,7 +1913,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "482d648b6c8472e38f0b528232081910d6c7965e2a494c30d8fe37982f798fb2"
+hash = "d40e9b58bab540b4be99b828c3faa0e3f9e5c677d4664ea46493c1a89cafa1b3"
 metafile = true
 
 [[files]]
@@ -1938,7 +1938,7 @@ metafile = true
 
 [[files]]
 file = "mods/small-ships.pw.toml"
-hash = "3ffd38de3835a191215be1bdbcb3cfbce7353859ec541a2cb1529ba36d983471"
+hash = "a2641c9187ec8485df45b2fb25c901f835da50ffe4d9601e4ecc81fc9036eb55"
 metafile = true
 
 [[files]]
@@ -2063,7 +2063,7 @@ metafile = true
 
 [[files]]
 file = "mods/trade-cycling.pw.toml"
-hash = "12b6239f5ef79e5db05bf73f15187a3478627b3a1e8a437c88cff9e767665be6"
+hash = "965b4213f3398daf0d48667676363d51f6c0218fb204ef29d25cb21e57cd87d5"
 metafile = true
 
 [[files]]
@@ -2078,7 +2078,7 @@ metafile = true
 
 [[files]]
 file = "mods/treechop.pw.toml"
-hash = "ad6b7c1e84ff4fa28658862544431c88deb5bd25aff91684f4871ba148968eb7"
+hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
 metafile = true
 
 [[files]]
