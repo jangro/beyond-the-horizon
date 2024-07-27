@@ -60,7 +60,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "8c2503012194cb9e5ef2ae753b1aab07f9a4c9259c3333c53224b9ae9ba6f893"
+hash = "104ede5527711d3e4a3914edbbb0d76f51f2499575480a5b717e5d3cc42f5d21"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -167,6 +167,10 @@ file = "config/structurecredits-config.json"
 hash = "aa9e181a64dc290799bd8e696e60c03265d4ce7eeaca4f73a4057a7aa14c0f69"
 
 [[files]]
+file = "config/treechop-common.toml"
+hash = "4333407620c09603733eec367d72b5ea1ed56f8b2dcdd516b2ad99f2411f3d7a"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "180f42cfadce8242e12138462b23e974003dabdf28d9d776dd8071eb3d2fb50a"
 
@@ -216,7 +220,7 @@ hash = "88aa48f605fe9c30741e1ea2af110effb693942fbde5138b10b48b2407a35c99"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "672beb8ddf50d105ff64ce9a5946a166ed565b0670d50ed594fba567e79650fa"
+hash = "8e0cb4e97c37c6d4493b152e1f59e945ddf1eb3881c0674a777f7082eeb3cee1"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -812,7 +816,7 @@ hash = "a632f771a6599611cec21ab8151e2893eecf4eb04b8c0a8025ca817d00532213"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/immersiveengineering.js"
-hash = "2e37f68f452b8a07f4d9d2868d3a79599933b5cea444f4785b37775220756378"
+hash = "88f09f6093cae603b65fbc2872b6d8c53ddb6fd654de812bac78026648f37ce9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/powah.js"
@@ -820,7 +824,7 @@ hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "6f5fd42619fd483acfde71bcc9701ab022fff0164177cc083aa4a4ad303f760a"
+hash = "965de8da83134389af81cc7bd394ef3b8cc6bb4b3144ef3e7243654aaca0a32d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -832,7 +836,7 @@ hash = "3ad9c8d76924511e484456fcb1eb8cc08662ac892d38c96c32c46f9ab4638ecf"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
-hash = "577a218339c7fe02f96df9a75a8c1dc62331c9f30611f7196112e533de909c42"
+hash = "7a4913a341a8ae164021393dcd231ec9e655ecbb533e1f850915c9b8c4d02bb4"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/smelting.js"
@@ -903,8 +907,8 @@ file = "kubejs/startup_scripts/worldgen.js"
 hash = "2e2da1fa6a4c95eb138f35ee7ec08033cc95588f3cab36352fa02df262339c59"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.1.3-a-dev-c7aab012-1.20.1.jar"
-hash = "27415202dbae8375e319b1380acd25e8867b7680fc6eb6a498ede5caf97e6a88"
+file = "mods/DistantHorizons-forge-2.1.3-a-dev-0ca93e31-1.20.1.jar"
+hash = "aaa517b9e83878a38aec5ad8eb60f7e05e3fac0a5bd03c6615298abc66529b0d"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
