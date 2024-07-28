@@ -19,6 +19,21 @@
  */
 ServerEvents.tags('block', event => {
 
+  // Minecraft Tags
+  event.add('minecraft:mineable/pickaxe', [
+    'createdeco:andesite_bars',
+    'createdeco:andesite_bars_overlay',
+    'createdeco:brass_bars',
+    'createdeco:brass_bars_overlay',
+    'createdeco:copper_bars',
+    'createdeco:copper_bars_overlay',
+    'createdeco:industrial_iron_bars',
+    'createdeco:industrial_iron_bars_overlay',
+    'createdeco:zinc_bars',
+    'createdeco:zinc_bars_overlay',
+    'graveyard:dark_iron_bars',
+  ]);
+
   // Forge Tags
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
@@ -49,6 +64,20 @@ ServerEvents.tags('block', event => {
 
   event.add('create:fan_processing_catalysts/smoking', [
     'valhelsia_structures:brazier',
+  ]);
+  
+  event.add('create:wrench_pickup', [
+    'createdeco:andesite_bars',
+    'createdeco:andesite_bars_overlay',
+    'createdeco:brass_bars',
+    'createdeco:brass_bars_overlay',
+    'createdeco:copper_bars',
+    'createdeco:copper_bars_overlay',
+    'createdeco:industrial_iron_bars',
+    'createdeco:industrial_iron_bars_overlay',
+    'createdeco:zinc_bars',
+    'createdeco:zinc_bars_overlay',
+    'graveyard:dark_iron_bars',
   ]);
 
   // Tetra Tags
