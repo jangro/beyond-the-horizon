@@ -188,6 +188,7 @@ ServerEvents.recipes(event => {
   replaceInput('create:iron_sheet', '#forge:plates/iron');
   replaceInput('create:golden_sheet', '#forge:plates/gold');
   replaceInput('createaddition:zinc_sheet', '#forge:plates/zinc');
+  replaceInput('createdeco:zinc_sheet', '#forge:plates/zinc');
 
   // Raw Material Compatibility
   replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
