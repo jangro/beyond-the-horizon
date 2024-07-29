@@ -17,7 +17,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal in a Lost Castle to protect all realms from the Dragon. They crafted 16 unique Eyes $(l:the_beginning/the_end)and scattered them across dimensions$(), within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes and unlock the gateway to the End. Is this you?"
+            "text": "$(l)The End: Remastered$()$(br2)Centuries ago, the Aether's elders locked The End behind a portal in a Lost Castle to protect all realms from the Dragon. They crafted 16 unique Eyes $(l:the_beginning/the_end)and scattered them across dimensions$(), within structures guarded by dangerous creatures. Only the worthy, through courage, wisdom, and strength, could gather these Eyes, retrieve a map from a cartographer and unlock the gateway to the End. Is this you?"
         },
         {
             "type": "patchouli:text",
