@@ -22,7 +22,9 @@ ServerEvents.recipes(event => {
   // Remove recipes by recipe ID:
   [
     'minecraft:bread',
+    'minecraft:piston',
     'aether:aether_saddle',
+    'aether:swet_lead',
     'ars_nouveau:drygmy_charm',
     'ars_nouveau:whirlisprig_charm',
     'buzzier_bees:honey/honey_apple',

@@ -11,7 +11,6 @@ ServerEvents.chestLootTables(event => {
   // BTH Structures
   event.modify('bth_structures:aether_portal_framed', table => {
     table.addPool(pool => {
-      // TODO: add random durability
       pool.addItem('aether:zanite_pickaxe', 10).enchantWithLevels(2, true).damage([0.3, 0.9]);
       pool.addItem('aether:valkyrie_pickaxe', 10).enchantWithLevels(1, true).damage([0.3, 0.9]);
       pool.addItem('aether:golden_parachute', 10);
@@ -250,7 +249,7 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
-  // Add Old Eye to the hidden chest in the Pharao's room
+  // Add Old Eye to the hidden chest in the Pharaoh's room
   event.modify('betterdeserttemples:pharaoh_hidden', table => {
     table.addPool(pool => {
       pool.addItem('endrem:old_eye');
