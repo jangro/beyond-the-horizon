@@ -996,7 +996,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "49d61232f33cbc7303469d09678a6bdac49ee54c91763d1f46bec34790a174cf"
+hash = "1c58589bd40ef2a776a098c54e63b8c76ad045536989a469dd3d05ec7a5d0da2"
 metafile = true
 
 [[files]]
@@ -1006,7 +1006,7 @@ metafile = true
 
 [[files]]
 file = "mods/astikor-carts-redux.pw.toml"
-hash = "a4838b0bd5565b81a9693b9063ffd69eeefcf4dad68cc97ab94b82c90a2ebac6"
+hash = "6d7488c03c6ce1b0f06e030bb90094d3b029ccfb01c20de674488710f8ad2891"
 metafile = true
 
 [[files]]
@@ -1031,7 +1031,7 @@ metafile = true
 
 [[files]]
 file = "mods/bareback-horse-riding.pw.toml"
-hash = "c4e9ab06f212b982c0388095627d31ee5da9c298c43ba4f69d1998dea40bc0b8"
+hash = "cfc42d965c5eb4901427f18d783d31d33175922d6a8ef58cf4b13e2f59a35c9e"
 metafile = true
 
 [[files]]
@@ -1131,7 +1131,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "cc3328e6b0892ef1671863a4df0112d70ff3bcb5c378134a60f28b547dc49729"
+hash = "bb74ac24a525f4b048b4b1cad814401206a3a5e377a264c3f809ae44bbdd6491"
 metafile = true
 
 [[files]]
@@ -1196,7 +1196,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "68cd4bde8cc202bddf698715333aa523d5153cbe13ddb1ceb989eef2d262956d"
+hash = "7974e66b2677eae99179bbc124f6ac990acf2e01294ed0997b3a15a828f03017"
 metafile = true
 
 [[files]]
@@ -1231,7 +1231,7 @@ metafile = true
 
 [[files]]
 file = "mods/corgilib.pw.toml"
-hash = "d4b959f7066425f5c511eea6a644f4250d94616ecd53487bbd7f9124d9c72328"
+hash = "1a36243c1696994d8f2ad7db76d25742374cdba91eddb72fde8dac8000ec9ed1"
 metafile = true
 
 [[files]]
@@ -1246,7 +1246,7 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
-hash = "e19f570bd00435d3b5961573f9c92defda357a329b62959d2fbff80def500fc2"
+hash = "36950330fa81e3934baabe651bd935da738e97200539570a7d5a16cb4db4eb9b"
 metafile = true
 
 [[files]]
@@ -1326,7 +1326,7 @@ metafile = true
 
 [[files]]
 file = "mods/double-doors.pw.toml"
-hash = "a25d0d16d3da4c91a5b924e6372218b5b308eab4d07de5f5d48b801e08b506fc"
+hash = "0b4ba1babc1ac58e27d41b810a2e68f58cfb140b4dfe3fe5da35f8a0fa2ecf59"
 metafile = true
 
 [[files]]
@@ -1336,7 +1336,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "20b92fb52b49dd2f6b3dde11325f3b5c4eaa207c2ba949468a60996a34696401"
+hash = "5793372ab63f8659ded5b79f8d91c6b1ee55673d1c879b1c4eb471a6535751a5"
 metafile = true
 
 [[files]]
@@ -1416,7 +1416,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "cf50cf5584f8d81bb9ee22aa3d55f1e62ac4fda53cd04d06c9ccdd7c521f4a71"
+hash = "253960d0037b358833c4cf4e375f9998af4440e43e97ac1d205259b733ac2f9e"
 metafile = true
 
 [[files]]
@@ -1486,7 +1486,7 @@ metafile = true
 
 [[files]]
 file = "mods/healing-campfire.pw.toml"
-hash = "c6e2af6ffe9bc64b16ac4a16d2da5a2d8cbf1135670440524edf94459f4da973"
+hash = "c13c08f6d9ad7a8f2939f6bb5e55f7953fc465d8d29756b957035fc1dbf05a8a"
 metafile = true
 
 [[files]]
@@ -1581,7 +1581,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "cc33d58e581cfa7d9b651d8e5143e568faa2c61b6640f73706f0489863fb76f4"
+hash = "9a3dc151c77f3c20c1ac0021a60c4e1af8874f1ab7127593c16300636e5ccebc"
 metafile = true
 
 [[files]]
@@ -1681,7 +1681,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "81ca24438b9a4b80204182ef72f38997a3e946884c26e225c8e18fe30cc71d85"
+hash = "65cf6a91b7ac919e4c935fb87203595e794124cb8eaeccca7bc0653fc1a25f98"
 metafile = true
 
 [[files]]
@@ -1751,7 +1751,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-hostiles-around-campfire.pw.toml"
-hash = "871e7395faee7edab6adad1ac9b0e06541a569194e3c98fc3b2202d6e37d61ba"
+hash = "ebfb40a0367ec078b5141d71efdad35afcca1b5bc8d728e5b71bb4311354f3b3"
 metafile = true
 
 [[files]]
@@ -2116,7 +2116,7 @@ metafile = true
 
 [[files]]
 file = "mods/villager-names.pw.toml"
-hash = "5655edd001450f0638ecf39834a40b6de50ed43e63b3c6b8565dbf20896561d1"
+hash = "25d37e71f7f9149c137f969fc5b5fe999b153d6dbbf8852cc1c3ead380a69d73"
 metafile = true
 
 [[files]]

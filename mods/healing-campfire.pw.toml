@@ -1,13 +1,13 @@
 name = "Healing Campfire"
-filename = "healingcampfire-1.20.1-6.0.jar"
+filename = "healingcampfire-1.20.1-6.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "50e74255b2d9287e6e27b9d930d9bfc73e4cc015"
+hash = "0155985524ded9e7aa1edc63e1904e89856b53d3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5482497
+file-id = 5572420
 project-id = 342623
