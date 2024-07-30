@@ -273,6 +273,10 @@
       "structure": "graveyard:small_savanna_grave_structure",
       "factor": 2
     },
+    {
+      "structure": "tlc:lost_castle",
+      "factor": 0.5
+    },
 
   ]
 }
