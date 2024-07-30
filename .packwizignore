@@ -7,6 +7,7 @@
 /docs/
 /LICENSE
 /README.md
+/UPDATING.md
 
 # Exclude build scripts + executables.
 *.bat
