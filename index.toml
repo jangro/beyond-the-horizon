@@ -1325,11 +1325,6 @@ hash = "ac9e325de2ca1030bdf19789f676285ae573feb839ecb518cc7bc9f0b82d68e2"
 metafile = true
 
 [[files]]
-file = "mods/double-doors.pw.toml"
-hash = "0b4ba1babc1ac58e27d41b810a2e68f58cfb140b4dfe3fe5da35f8a0fa2ecf59"
-metafile = true
-
-[[files]]
 file = "mods/dragon-mounts-legacy.pw.toml"
 hash = "cec3ebfb61f6fad75016c75e9a57ba99b24b1a2740570904bbe515de42e521b4"
 metafile = true
