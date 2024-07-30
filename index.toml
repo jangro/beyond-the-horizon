@@ -143,6 +143,10 @@ file = "config/rats-common.toml"
 hash = "bbc1a25893aa85a8cf9d987ad61466bcb7347d6f68f86f347a31772851032d54"
 
 [[files]]
+file = "config/ring-of-return-general.toml"
+hash = "b780bf70991281a843eb25bab4febc04bf1b1cba8c6818e39aeaa205a8fb4436"
+
+[[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "08007722225a7fcdc26de76a82b59800e0f014b8c36da677cd9b60f2f3873bde"
 
@@ -177,26 +181,6 @@ hash = "080d7deb8e69fd2f0b1541701c2b3a67d840a7d550100009f679f72b874f0fbe"
 [[files]]
 file = "defaultconfigs/moremobgriefingoptions-server.toml"
 hash = "355b208e79fa05da1eb5ba3a1e89fbfa644d8ed23bcdfbf1f883767ded639b92"
-
-[[files]]
-file = "journeymap/config/5.10/journeymap.core.config"
-hash = "1e3f075040a1fee87f9dfd3d318ab5bae8b98d394981d88b284e4381b99e2304"
-
-[[files]]
-file = "journeymap/config/5.10/journeymap.fullmap.config"
-hash = "083582b5abe0c227adf301c224e7396c46546f4c82d66acb0f6415e7f76b92b9"
-
-[[files]]
-file = "journeymap/config/5.10/journeymap.minimap.config"
-hash = "256180780798631585f0cd792fad07419c55d22c3a14a24c43df89eaa505d298"
-
-[[files]]
-file = "journeymap/config/5.10/journeymap.minimap2.config"
-hash = "a0bbada2233c2bd6358ab41872e32a22ec3609a9640e9ccbdf56ad32d0451639"
-
-[[files]]
-file = "journeymap/config/5.10/journeymap.waypoint.config"
-hash = "b7e7d2b51ed8f03454173efa91fd7273bb79ee4e3efd9546cc1c1794e2f92efd"
 
 [[files]]
 file = "kubejs/assets/bth/images/guide/bloodmoon.png"
@@ -236,7 +220,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "30987df4ec3b8323a0cb1d8fab626dc1e355d78a28559539030c0f4884f19c59"
+hash = "326dbb28f4950d70f620822c23891bac9c4174b6df9396fedcfabd0ed621fadb"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -772,7 +756,7 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/chests.js"
-hash = "c0674d736415f740be63849178b5462ae7472b1cde8d84c62a050ccb315c1216"
+hash = "fa4a7a27b0dc2a4b54bd196d0e142561328f18e6b75beaa3f9bd3e37d78ae628"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
@@ -820,7 +804,7 @@ hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "965de8da83134389af81cc7bd394ef3b8cc6bb4b3144ef3e7243654aaca0a32d"
+hash = "94de3f74d40ba19fbe08cc78cfa36546a4a840267f938818b7102aad191ed292"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
@@ -1439,6 +1423,21 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "688b011ac6619ffe9b237336b63b4e14a355a1d1fa30793e1b600a223c488369"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "3e6cd0338e376c0b84fbdbc7fed1b97637782087721c694a0bd6092694331c51"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "a4a0adb85269712ade2399503b6365b87847cac8f34f674c535564bda184bcce"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "76c3828b4e7288b79d6b0ca1418410539082a749650f9c85c6b03cf53ed1221e"
 metafile = true
 
 [[files]]
