@@ -20,7 +20,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
-hash = "efc7b47dfed6a0b0a0abf8afd8928f01c5d264c1e66c26688a6dad8e35b911f9"
+hash = "d731579b2ea812f9572afaef3721b164e33092b6d260b968e16a12bebbbd69a8"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -60,7 +60,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "3aebe3896aa2d52e08a12e4dd2820d942ef332d9d30bca404f0f3e93583274c0"
+hash = "8d2a6f29191e2f33765ff3b6bbf92e2d9d7209ab30988b5fea02a5ce798b8614"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -72,7 +72,7 @@ hash = "9feed9bbb26e2ed73a7bdbbeead0a27d7779fde38b511cd39d81027ff8d6e38c"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "bf6e537395e199c31519f2a965b916ba21fbd7e0673122e2be0a38b91036d0ea"
+hash = "d24e46f467c96804fc4ba802c8ff7420f413d880dfc23d684c1d88f4fca0808f"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -81,6 +81,10 @@ hash = "c95b8fa0c4eefa48ee549467d107db2e2582a10844e916d2b00d80ec72842c5a"
 [[files]]
 file = "config/create_connected-common.toml"
 hash = "b69d9e2e150fff2484fc355d14fd8c700231d85821cc5cf0248b7530ce3e5702"
+
+[[files]]
+file = "config/doubledoors.json5"
+hash = "8e7d97c8f9a5dbc0d34fa969e87170399d87a45de85c651ff55c5d71b4691be2"
 
 [[files]]
 file = "config/fml.toml"
@@ -160,7 +164,7 @@ hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "574266bf7c9ffe62ff36cdcae1fcbbc56e81bfaed6a257b4a9d7e213f036a8f2"
+hash = "1af1c2fc41a64b125e01a27d4f4ac2f6b6e3787d3a9d13d269efe515fd605bc8"
 
 [[files]]
 file = "config/structurecredits-config.json"
@@ -216,7 +220,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "88aa48f605fe9c30741e1ea2af110effb693942fbde5138b10b48b2407a35c99"
+hash = "8b8cc4e7a7ac520b29fd2ce659ddeca38c9a2a98176e5d6226e82119594a14bf"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
@@ -788,7 +792,7 @@ hash = "92d5a0722a1b5dbfe73fb43bedad85718a8fa006eca48225c8f2d37c5231ec1f"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/mobs.js"
-hash = "ab31de5dee6d1fbc43a7b919030ddf3105b0b0246b134ce81c88c16da920569f"
+hash = "e9a9799b355f3ba9076a85e0dba27be1191a9b458f05a4ea440c7d7c8ba8ccdf"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
@@ -828,7 +832,7 @@ hash = "965de8da83134389af81cc7bd394ef3b8cc6bb4b3144ef3e7243654aaca0a32d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
-hash = "b14477b974caf0138a63461f8b91f3b3484d45e6b4c9ee576b11c0d7f19747d5"
+hash = "c75f457b161ef68a4eace533e0b58ca516ccca6676cf8cfb4bfa3f1ec9fd0486"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
@@ -852,7 +856,7 @@ hash = "1b2134053473c624d11334733ddc6bdfab5116dc643fc74da5ef8a64f6e4791f"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block.js"
-hash = "2d5fbe8ef9a20f49d210c7775f6c8b5a1d25aaaab8bea92bc79f820ea35cb280"
+hash = "d6996fa25a5413ad1ae247b851b4f28a524aef83c2a3c6a3fadf2738c4e55fe4"
 
 [[files]]
 file = "kubejs/server_scripts/tags/block_entity_type.js"
@@ -907,8 +911,8 @@ file = "kubejs/startup_scripts/worldgen.js"
 hash = "2e2da1fa6a4c95eb138f35ee7ec08033cc95588f3cab36352fa02df262339c59"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.1.3-a-dev-0ca93e31-1.20.1.jar"
-hash = "aaa517b9e83878a38aec5ad8eb60f7e05e3fac0a5bd03c6615298abc66529b0d"
+file = "mods/DistantHorizons-forge-2.1.3-a-dev-bbf62f7e-1.20.1.jar"
+hash = "faa9f4bdbc42f7a0242340a0d80274b0b1e4e592a79fcc84fda4ad24ae012dd6"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -2486,7 +2490,7 @@ hash = "ce6c30deeaf008c108007d1b490b530747597df1005030fbf59ed5726775a78e"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_beginning/backstory.json"
-hash = "cfae15bb1b7529b5d3187ddaa48589243fa3e905281294ddd64d6885df72efe2"
+hash = "4babc339056b3af86c7667e4e8f29d60edcbd4eecb9518b22690ae536d2a4044"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_beginning/rats.json"
