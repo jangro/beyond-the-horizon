@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "UPDATING.md"
-hash = "16a9a6ffa7c063fa5de30fea207a1de3ef9b870ea13874b6ee08e10c9930cdf2"
-
-[[files]]
 file = "complementary-reimagined.pw.toml"
 hash = "8f8f05944c6f7cebd1d8ca6f07edb8a809575f79cd672f84e359c8153174a3a2"
 metafile = true
@@ -60,7 +56,7 @@ hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "8d2a6f29191e2f33765ff3b6bbf92e2d9d7209ab30988b5fea02a5ce798b8614"
+hash = "fee68968a5e5bd326917bb626fde3150ffcbb3e344f4674fd7d1ca02d038c906"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -81,10 +77,6 @@ hash = "c95b8fa0c4eefa48ee549467d107db2e2582a10844e916d2b00d80ec72842c5a"
 [[files]]
 file = "config/create_connected-common.toml"
 hash = "b69d9e2e150fff2484fc355d14fd8c700231d85821cc5cf0248b7530ce3e5702"
-
-[[files]]
-file = "config/doubledoors.json5"
-hash = "8e7d97c8f9a5dbc0d34fa969e87170399d87a45de85c651ff55c5d71b4691be2"
 
 [[files]]
 file = "config/fml.toml"
@@ -975,11 +967,6 @@ hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
-file = "mods/argonauts.pw.toml"
-hash = "2ee8c7ca5102799792e9231bb1f11d3d4deb3fa8dc9cd68720a8878e92937e27"
-metafile = true
-
-[[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "b4cc8e095b7f51683e7938042c97cae5a281fa353a4fb421a8182b39de08825f"
 metafile = true
@@ -1107,11 +1094,6 @@ metafile = true
 [[files]]
 file = "mods/buzzier-bees.pw.toml"
 hash = "43ea0b2c562f25ba5a7dd0fe2a6694bed02af4ae4aa39bffe7bbf92ae31a5f87"
-metafile = true
-
-[[files]]
-file = "mods/cadmus.pw.toml"
-hash = "b84628727ed06fe253934876a58eb3714f0624f6dc5fc882270bd36b296b29a8"
 metafile = true
 
 [[files]]
