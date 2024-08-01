@@ -70,34 +70,30 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}submarine`);
 
   // Create Crafts & Additions
-  event.shaped(Item.of('createaddition:brass_rod', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x createaddition:brass_rod', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/brass',
   }).id(`${ID_PREFIX}createaddition_brass_rod`);
 
-  event.shaped(Item.of('createaddition:copper_rod', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x createaddition:copper_rod', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/copper',
   }).id(`${ID_PREFIX}createaddition_copper_rod`);
 
-  event.shaped(Item.of('createaddition:electrum_rod', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x createaddition:electrum_rod', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/electrum',
   }).id(`${ID_PREFIX}createaddition_electrum_rod`);
 
-  event.shaped(Item.of('createaddition:gold_rod', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x createaddition:gold_rod', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/gold',
   }).id(`${ID_PREFIX}createaddition_gold_rod`);
@@ -123,26 +119,23 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}immersive_aircraft_hull_reinforcement`);
 
   // Immersive Engineering
-  event.shaped(Item.of('immersiveengineering:stick_aluminum', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x immersiveengineering:stick_aluminum', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/aluminum',
   }).id(`${ID_PREFIX}immersiveengineering_stick_aluminum`);
 
-  event.shaped(Item.of('immersiveengineering:stick_iron', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x immersiveengineering:stick_iron', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/iron',
   }).id(`${ID_PREFIX}immersiveengineering_stick_iron`);
 
-  event.shaped(Item.of('immersiveengineering:stick_steel', 2), [
-    ' I ',
-    ' I ',
-    '   '
+  event.shaped('2x immersiveengineering:stick_steel', [
+    'I',
+    'I'
   ], {
     I: '#forge:ingots/steel',
   }).id(`${ID_PREFIX}immersiveengineering_stick_steel`);
