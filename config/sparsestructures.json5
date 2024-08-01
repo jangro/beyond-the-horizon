@@ -53,6 +53,11 @@
     },
 
     {
+      "structure": "minecraft:swamp_hut",
+      "factor": 2
+    },
+
+    {
       "structure": "ctov:villages",
       "factor": 2
     },
@@ -202,7 +207,7 @@
     },
     {
       "structure": "valhelsia_structures:witch_huts",
-      "factor": 1
+      "factor": 2
     },
 
     {
