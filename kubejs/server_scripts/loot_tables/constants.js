@@ -51,3 +51,12 @@ const SWAMP_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:sw
 const JUNGLE_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:jungle",targetBiomeColor:009933,targetBiomeUnderground:0b}');
 const LUSH_CAVES_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:lush_caves",targetBiomeColor:ccff66,targetBiomeUnderground:0b}');
 const CHERRY_GROVE_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:cherry_grove",targetBiomeColor:ff66cc,targetBiomeUnderground:0b}');
+
+const DRAGON_EGG_AETHER = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:aether"}}');
+const DRAGON_EGG_END = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:end"}}');
+const DRAGON_EGG_FIRE = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:fire"}}');
+const DRAGON_EGG_FOREST = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:forest"}}');
+const DRAGON_EGG_GHOST = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:ghost"}}');
+const DRAGON_EGG_ICE = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:ice"}}');
+const DRAGON_EGG_NETHER = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:nether"}}');
+const DRAGON_EGG_WATER = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:water"}}');

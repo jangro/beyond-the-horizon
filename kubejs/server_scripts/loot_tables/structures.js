@@ -387,3 +387,75 @@ LootJS.modifiers((event) => {
     .randomChance(0.1)
     .addLoot("paraglider:stamina_vessel")
 });
+
+// Dragon Egg: aether
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["#aether:dungeons"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_AETHER)
+});
+// Dragon Egg: end
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["minecraft:end_city"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_END)
+});
+// Dragon Egg: fire
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["betterdeserttemples:desert_temple"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_FIRE)
+});
+// Dragon Egg: forest
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["betterjungletemples:jungle_temple"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_FOREST)
+});
+// Dragon Egg: ghost
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["graveyard:crypt"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_GHOST)
+});
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["rats:dutchrat_ship"], false)
+    .randomChance(0.10)
+    .addLoot(DRAGON_EGG_GHOST)
+});
+// Dragon Egg: ice
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["aquamirae:ship"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_ICE)
+});
+// Dragon Egg: nether
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["incendium:forbidden_castle"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_NETHER)
+});
+// Dragon Egg: water
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["seavil:undersea_village"], false)
+    .randomChance(0.05)
+    .addLoot(DRAGON_EGG_WATER)
+});
