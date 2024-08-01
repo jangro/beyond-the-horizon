@@ -135,6 +135,10 @@ file = "config/paraglider-common.toml"
 hash = "b13b0a83760d0e4dc9b9ecb0fe8fe61842bf032b78e5e3fed837234d772bc1e7"
 
 [[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
+
+[[files]]
 file = "config/quark-common.toml"
 hash = "2cf1734db0607998e759dc422996de51033781f74bea588cca9a635d6b8ead46"
 
@@ -160,7 +164,7 @@ hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "1af1c2fc41a64b125e01a27d4f4ac2f6b6e3787d3a9d13d269efe515fd605bc8"
+hash = "67495e5d69f22217501b7dfafdaca88059d0f49d9f40aba299d1ce71e18d1a50"
 
 [[files]]
 file = "config/structurecredits-config.json"
@@ -760,7 +764,7 @@ hash = "fa4a7a27b0dc2a4b54bd196d0e142561328f18e6b75beaa3f9bd3e37d78ae628"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
-hash = "2e7ced6e50502aec59f5661af7a154597ce5bb93259feda2317d7c9f7e350237"
+hash = "fe43656e865b6c238c1f54b575a1181ce4b6af433a0e6777265b2b9c35a641ae"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/generic.js"
@@ -772,7 +776,7 @@ hash = "e9a9799b355f3ba9076a85e0dba27be1191a9b458f05a4ea440c7d7c8ba8ccdf"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "3714784717e9286da7bf96938c08ee1bde925089730264d836cdff48ce14b49e"
+hash = "576f1ca4e73b662dafeeaf110217b686fee05e4c10739c53dbffd9e75246c821"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
@@ -844,7 +848,7 @@ hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 
 [[files]]
 file = "kubejs/server_scripts/tags/item.js"
-hash = "1d1d0b1718313d89d28cf9d2b2cb7f6243b43c4b4124d80cf155fe0125c31caa"
+hash = "4d4ad702f1089d488636a3d99b32cb216c3574097c48ca1a71540b41d16feb57"
 
 [[files]]
 file = "kubejs/server_scripts/tags/structure.js"
@@ -1301,6 +1305,16 @@ hash = "5793372ab63f8659ded5b79f8d91c6b1ee55673d1c879b1c4eb471a6535751a5"
 metafile = true
 
 [[files]]
+file = "mods/easy-anvils.pw.toml"
+hash = "3b17a2980b74426f94633164b0c068f8afa025eabee0e0bd1a32c5965361c028"
+metafile = true
+
+[[files]]
+file = "mods/easy-magic.pw.toml"
+hash = "6e00b7d2b9e48e4286f7313f848b2520ebb26315672bfa4a27bef23d02db2ca8"
+metafile = true
+
+[[files]]
 file = "mods/eccentric-tome.pw.toml"
 hash = "cae1dba77a14bdc6857c29406920d9cc704561e7b6f21b4688800b77a062a4f2"
 metafile = true
@@ -1601,11 +1615,6 @@ hash = "07efd4cf1c3424849a3b79a7213a3655ebdada80fd901dba0cdcae11d1bbb6af"
 metafile = true
 
 [[files]]
-file = "mods/lapis-reserve.pw.toml"
-hash = "92a593afc5f1c188a65c5cf451eeb9bfe0d34f4d5354258e337ada2c0d8b701f"
-metafile = true
-
-[[files]]
 file = "mods/let-me-despawn.pw.toml"
 hash = "f19f61fcce9df3befee6d0d6096a93a9646f93766b2523b27e7903da81e4269b"
 metafile = true
@@ -1816,6 +1825,11 @@ hash = "9bac04b6a94fb18d5064e5202eeaa3ecdc858c35f7867724e867f7b7e96018eb"
 metafile = true
 
 [[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "4436b25feb03d8d2454071c6b912a197c696934fc84dd92ddf0ae93642cc282c"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "8a8e0f6db0afb5c64f8efb17c1b2e7a937fee57a8fd41f70ca6d74eaee60e822"
 metafile = true
@@ -1928,6 +1942,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "9935c85e1d899d5bd69e83b51070cdca5ae9dc138bb6ccde8f76aac214df0cc0"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "f809175840d6a626965624c859928a6ac5f1d78f31b990ab3288f752352bb41a"
 metafile = true
 
 [[files]]
@@ -2504,7 +2523,7 @@ hash = "e14c4c818d3dee5de2756687e1334d1be00f14762e909849359c886ec3d3542f"
 
 [[files]]
 file = "resourcepacks/BTH-Panorama.zip"
-hash = "33bf872267b60f9729f55c1844a1e1c60a97cc2ca96a4baa7768f987047adf2a"
+hash = "cd0ee3936e59931b64bcb87d12b746992552f9fadfbe64e7f0843e282526aed9"
 
 [[files]]
 file = "resourcepacks/mt-ct-d-a.pw.toml"
