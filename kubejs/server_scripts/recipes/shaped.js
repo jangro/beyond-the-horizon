@@ -148,6 +148,15 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}immersiveengineering_stick_steel`);
 
   // Iron's Spellbooks
+  event.shaped('8x irons_spellbooks:cinder_essence', [
+    'AAA',
+    'AFA',
+    'AAA'
+  ], {
+      A: 'irons_spellbooks:arcane_essence',
+      F: 'ars_nouveau:fire_essence'
+  }).id(`${ID_PREFIX}cinder_essence_from_fire_essence`);
+
   event.shaped('irons_spellbooks:cooldown_ring', [
     'RA ',
     'A A',
