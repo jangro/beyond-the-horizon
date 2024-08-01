@@ -11,14 +11,14 @@ ServerEvents.tags('item', event => {
 
   // Beyond the Horizon Tags
   event.add('bth:nuts', [
-    'ecologics:walnut',
     'alexscaves:pine_nuts',
+    'ecologics:walnut',
   ]);
 
   event.add('bth:mechanical_soul', [
-    'botania:spark',
-    'ars_elememental:anima_essence',
     'advancedperipherals:weak_automata_core',
+    'ars_elememental:anima_essence',
+    'botania:spark',
   ]);
 
   // Minecraft Tags
@@ -40,7 +40,7 @@ ServerEvents.tags('item', event => {
   
   // Tag Create crushed raw ores as dusts so they can replace IE dusts in recipes.
   ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) => {
-    event.add(`forge:dusts/`, `create:crushed_raw_${material}`);
+    event.add(`forge:dusts`, `create:crushed_raw_${material}`);
     event.add(`forge:dusts/${material}`, `create:crushed_raw_${material}`);
   });
 
