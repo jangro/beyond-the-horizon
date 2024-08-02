@@ -222,6 +222,15 @@ LootJS.modifiers((event) => {
     .addLoot(FORBIDDEN_CASTLE_MAP)
 });
 
+// Add Piglin Village map to Nether Fortress
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["betterfortresses:fortress"], false)
+    .randomChance(0.05) // 5% per chest
+    .addLoot(PIGLIN_VILLAGE_MAP)
+});
+
 // Add Aquamirae Shelter map to the following structures
 LootJS.modifiers((event) => {
   event

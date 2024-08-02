@@ -9,6 +9,11 @@ const AQUAMIRAE_SHELTER_MAP =
            display:{Name:\'{"translate":"filled_map.aquamirae_shelter"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"aquamirae:shelter",zoomLevel:2}');
 
+const PIGLIN_VILLAGE_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.piglin_village",\
+           display:{Name:\'{"translate":"filled_map.piglin_village"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"incendium:piglin_village",zoomLevel:2}');
+
 const FORBIDDEN_CASTLE_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.forbidden_castle",\
            display:{Name:\'{"translate":"filled_map.forbidden_castle"}\'},maxSearchRadius:100,skinKnown:1b,\
