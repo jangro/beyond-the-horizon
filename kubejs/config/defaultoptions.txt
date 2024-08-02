@@ -37,6 +37,7 @@ key_key.ftbteams.open_gui:key.keyboard.p
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.m
+key_key.socialInteractions:key.keyboard.unknown
 key_key.wands.area_diagonal_spread:key.keyboard.unknown
 key_key.wands.clear_wand:key.keyboard.unknown
 key_key.wands.inc_sel_block:key.keyboard.unknown
