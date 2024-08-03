@@ -442,6 +442,12 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
     .anyStructure(["seavil:undersea_village"], false)
-    .randomChance(0.05)
+    .randomChance(0.10)
+    .addLoot(DRAGON_EGG_WATER)
+});
+LootJS.modifiers((event) => {
+  event
+    .addLootTableModifier("betteroceanmonuments:chests/upper_side_chamber")
+    .randomChance(0.50)
     .addLoot(DRAGON_EGG_WATER)
 });
