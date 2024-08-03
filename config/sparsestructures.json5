@@ -283,5 +283,10 @@
       "factor": 0.5
     },
 
+    {
+      "structure": "betterfortresses:fortress",
+      "factor": 1.5
+    },
+
   ]
 }
