@@ -940,6 +940,11 @@ hash = "c51928175be6640cc4fc40a9a0b92454f4ad50c4ff93c8db4c802b29389a45a6"
 metafile = true
 
 [[files]]
+file = "mods/applied-botanics-addon.pw.toml"
+hash = "276ce628e43d33191605204300202bae93973005a5ed51eb74908f12ce200253"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
 hash = "ce0e9fa014aa89feba5a400cdf445299f7c1450fff978b15dbd72fbc8cec7552"
 metafile = true
