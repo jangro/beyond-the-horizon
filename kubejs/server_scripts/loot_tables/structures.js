@@ -451,3 +451,37 @@ LootJS.modifiers((event) => {
     .randomChance(0.50)
     .addLoot(DRAGON_EGG_WATER)
 });
+
+// Add modded loot to nether fortress
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["betterfortresses:fortress"], false)
+
+    // 5% chance items
+    .addLoot(LootEntry.of('farmersrespite:blazing_chili', 2).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of('farmersrespite:coffee_beans', 5).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of('nethersdelight:crimson_fungus_colony').when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of('nethersdelight:hoglin_sirloin', 2).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of('nethersdelight:nether_skewer', 3).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of('nethersdelight:plate_of_stuffed_hoglin_snout').when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of('nethersdelight:warped_fungus_colony').when((c) => c.randomChance(0.05)))
+
+    // 1% chance rare items
+    .addLoot(LootEntry.of('aether:netherite_gloves').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('easypaxellite:netherite_paxel').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('forbidden_arcanus:netherite_blacksmith_gavel').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:robe_boots').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:robe_chestplate').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:robe_helmet').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:robe_leggings').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:wither_boots').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:wither_chestplate').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:wither_helmet').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('immersive_armors:wither_leggings').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('nethersdelight:netherite_machete').when((c) => c.randomChance(0.1)))
+    .addLoot(LootEntry.of('pneumaticcraft:drill_bit_netherite').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('rats:rat_upgrade_asbestos').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('rats:rat_upgrade_demon').when((c) => c.randomChance(0.01)))
+    .addLoot(LootEntry.of('wands:netherite_wand').when((c) => c.randomChance(0.01)))
+});
