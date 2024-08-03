@@ -48,12 +48,17 @@
     },
 
     {
-      "structure": "minecraft:ocean_monuments",
+      "structure": "minecraft:swamp_hut",
       "factor": 2
     },
 
     {
-      "structure": "minecraft:swamp_hut",
+      "structure": "betterfortresses:fortress",
+      "factor": 1.5
+    },
+
+    {
+      "structure": "betteroceanmonuments:ocean_monument",
       "factor": 2
     },
 
@@ -281,11 +286,6 @@
     {
       "structure": "tlc:lost_castle",
       "factor": 0.5
-    },
-
-    {
-      "structure": "betterfortresses:fortress",
-      "factor": 1.5
     },
 
   ]
