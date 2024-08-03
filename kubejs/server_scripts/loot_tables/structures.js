@@ -46,119 +46,96 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
     .anyDimension(['rats:ratlantis'])
-    //.anyStructure('minecraft:shipwreck', false) // doesn't work?!
+    // .anyStructure(['minecraft:shipwreck'], false) // doesn't work?!
     .apply((context) => {
-      // Clear the loot in shipwrecks but not ghostships (limit to under Y=80)
+      // Change the loot in shipwrecks but not ghostships (limit to under Y=80 since anyStructure
+      // condition doesn't work)
       let p = context.getBlockPos();
       if (p.y < 80) {
-        context.removeLoot(Ingredient.all);
+        context.removeLoot('minecraft:book');
+        context.removeLoot('minecraft:feather');
+        context.removeLoot('minecraft:paper');
+        context.removeLoot(/minecraft:.*glass_pane/);
+        context.removeLoot('minecolonies:scroll_buff');
+
+        context.addLoot(LootEntry.of('ae2:annihilation_core').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:calculation_processor').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:cell_component_16k').when((c) => c.randomChance(0.01)));
+        context.addLoot(LootEntry.of('ae2:cell_component_1k').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:cell_component_4k').when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('ae2:certus_quartz_crystal', 8).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('ae2:engineering_processor').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:fluix_crystal', 8).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('ae2:fluix_dust', 8).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('ae2:fluix_glass_cable', 8).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:formation_core').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:logic_processor').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('ae2:spatial_cell_component_2').when((c) => c.randomChance(0.03)));
+        context.addLoot(LootEntry.of('ae2:spatial_pylon').when((c) => c.randomChance(0.05)));
+
+        context.addLoot(LootEntry.of('create:andesite_casing', 4).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:belt_connector', 5).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('create:brass_ingot', 6).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('create:cogwheel', 2).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('create:copper_backtank').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:copper_casing').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:copper_diving_boots').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:copper_diving_helmet').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:electron_tube', 2).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:item_vault', 6).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:large_cogwheel', 1).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('create:mechanical_crafter', 4).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:precision_mechanism').when((c) => c.randomChance(0.01)));
+        context.addLoot(LootEntry.of('create:railway_casing', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:shaft', 8).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:sturdy_sheet', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('create:track', 8).when((c) => c.randomChance(0.1)));
+
+        context.addLoot(LootEntry.of('pneumaticcraft:advanced_pressure_tube', 6).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:aphorism_tile', 2).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:large_tank').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:module_expansion_card').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:plastic_sheets', 12).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:printed_circuit_board').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:smart_chest').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('pneumaticcraft:turbine_rotor', 3).when((c) => c.randomChance(0.1)));
+
+        context.addLoot(LootEntry.of('powah:capacitor_basic', 4).when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('powah:capacitor_basic_large', 4).when((c) => c.randomChance(0.01)));
+        context.addLoot(LootEntry.of('powah:capacitor_basic_tiny', 4).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('powah:dielectric_casing', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('powah:dielectric_paste', 32).when((c) => c.randomChance(0.2)));
+        context.addLoot(LootEntry.of('powah:energy_cable_basic', 16).when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('powah:energy_cable_starter', 16).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('powah:photo_electric_plate', 2).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('powah:steel_energized', 6).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('powah:thermoelectric_plate', 2).when((c) => c.randomChance(0.1)));
+
+        context.addLoot(LootEntry.of('rats:contaminated_food').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:filth').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:ghost_pirat_ectoplasm', 2).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:marbled_cheese', 4).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:nether_cheese', 2).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:pirat_cutlass').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:plague_stew').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:rat_paw').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:rat_skull').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_aristocrat').when((c) => c.randomChance(0.01)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_basic').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_chicken_mount').when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_ender').when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_health').when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_ore_doubling').when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_platter').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_speed').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:rat_upgrade_time_manipulator').when((c) => c.randomChance(0.01)));
+        context.addLoot(LootEntry.of('rats:string_cheese', 4).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('rats:trash_can').when((c) => c.randomChance(0.1)));
+
+        context.addLoot(LootEntry.of('smallships:cannon').when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('smallships:cannon_ball', 3).when((c) => c.randomChance(0.1)));
       }
     })
-    .addWeightedLoot(
-      [4, 12],
-      [
-        LootEntry.withChance({item: 'minecraft:diamond', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:gold', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:emerald', count: 3}, 0.1),
-        LootEntry.withChance({item: 'minecraft:rotten_flesh', count: 1}, 1),
-
-        LootEntry.withChance({item: 'ae2:cell_component_1k', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:cell_component_4k', count: 1}, 0.5),
-        LootEntry.withChance({item: 'ae2:cell_component_16k', count: 1}, 0.1),
-        LootEntry.withChance({item: 'ae2:spatial_cell_component_2', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:spatial_pylon', count: 3}, 1),
-        LootEntry.withChance({item: 'ae2:energy_cell', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:fluix_glass_cable', count: 10}, 1),
-        LootEntry.withChance({item: 'ae2:storage_bus', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:export_bus', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:import_bus', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:formation_core', count: 1}, 0.5),
-        LootEntry.withChance({item: 'ae2:annihilation_core', count: 1}, 0.5),
-        LootEntry.withChance({item: 'ae2:wireless_booster', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:sky_stone_tank', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:logic_processor', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:calculation_processor', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:engineering_processor', count: 1}, 1),
-        LootEntry.withChance({item: 'ae2:certus_quartz_crystal', count: 5}, 1),
-        LootEntry.withChance({item: 'ae2:fluix_crystal', count: 5}, 1),
-
-        LootEntry.withChance({item: 'create:cogwheel', count: 2}, 1),
-        LootEntry.withChance({item: 'create:large_cogwheel', count: 1}, 1),
-        LootEntry.withChance({item: 'create:belt_connecter', count: 5}, 1),
-        LootEntry.withChance({item: 'create:shaft', count: 5}, 1),
-        LootEntry.withChance({item: 'create:andesite_casing', count: 3}, 1),
-        LootEntry.withChance({item: 'create:precision_mechanism', count: 1}, 1),
-        LootEntry.withChance({item: 'create:copper_backtank', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:copper_diving_helmet', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:copper_diving_boots', count: 1}, 0.1),
-        LootEntry.withChance({item: 'create:copper_casing', count: 3}, 1),
-        LootEntry.withChance({item: 'create:item_vault', count: 3}, 0.1),
-        LootEntry.withChance({item: 'create:mechanical_crafter', count: 4}, 0.02),
-        LootEntry.withChance({item: 'create:electron_tube', count: 2}, 1),
-        LootEntry.withChance({item: 'create:brass_ingot', count: 6}, 1),
-        LootEntry.withChance({item: 'create:track', count: 8}, 1),
-        LootEntry.withChance({item: 'create:sturdy_sheet', count: 1}, 1),
-        LootEntry.withChance({item: 'create:railway_casing', count: 3}, 1),
-        LootEntry.withChance({item: 'create:controls', count: 1}, 0.01),
-        LootEntry.withChance({item: 'create:track_station', count: 1}, 0.5),
-
-        LootEntry.withChance({item: 'domesticationinnovation:rotten_apple', count: 1}, 1),
-
-        LootEntry.withChance({item: 'farmersdelight:rotten_tomato', count: 1}, 1),
-
-        LootEntry.withChance({item: 'forbidden_arcanus:rotten_leather', count: 1}, 1),
-
-        LootEntry.withChance({item: 'pneumaticcraft:printed_circuit_board', count: 1}, 1),
-        LootEntry.withChance({item: 'pneumaticcraft:module_expansion_card', count: 1}, 1),
-        LootEntry.withChance({item: 'pneumaticcraft:smart_chest', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:large_tank', count: 1}, 0.1),
-        LootEntry.withChance({item: 'pneumaticcraft:turbine_rotor', count: 1}, 1),
-        LootEntry.withChance({item: 'pneumaticcraft:advanced_pressure_tube', count: 6}, 0.5),
-        LootEntry.withChance({item: 'pneumaticcraft:plastic_sheets', count: 12}, 1),
-        LootEntry.withChance({item: 'pneumaticcraft:aphorism_tile', count: 1}, 1),
-
-        LootEntry.withChance({item: 'powah:capacitor_basic_tiny', count: 4}, 1),
-        LootEntry.withChance({item: 'powah:capacitor_basic', count: 4}, 1),
-        LootEntry.withChance({item: 'powah:capacitor_basic_large', count: 4}, 1),
-        LootEntry.withChance({item: 'powah:dielecric_paste', count: 32}, 1),
-        LootEntry.withChance({item: 'powah:dielecric_casing', count: 3}, 1),
-        LootEntry.withChance({item: 'powah:thermoelectic_plate', count: 1}, 1),
-        LootEntry.withChance({item: 'powah:charged_snowball', count: 3}, 0.02),
-        LootEntry.withChance({item: 'powah:steel_energized', count: 12}, 1),
-        LootEntry.withChance({item: 'powah:crystal_blazing', count: 12}, 0.5),
-        LootEntry.withChance({item: 'powah:crystal_niotic', count: 12}, 0.1),
-        LootEntry.withChance({item: 'powah:crystal_spirited', count: 12}, 0.05),
-        LootEntry.withChance({item: 'powah:crystal_nitro', count: 12}, 0.01),
-        LootEntry.withChance({item: 'powah:energy_cable_starter', count: 36}, 1),
-        LootEntry.withChance({item: 'powah:energy_cable_basic', count: 36}, 0.5),
-        LootEntry.withChance({item: 'powah:energy_cable_hardened', count: 36}, 0.1),
-        LootEntry.withChance({item: 'powah:photo_electric_pane', count: 1}, 1),
-
-        LootEntry.withChance({item: 'rats:rat_skull', count: 1}, 0.05),
-        LootEntry.withChance({item: 'rats:contaminated_food', count: 1}, 1),
-        LootEntry.withChance({item: 'rats:nether_cheese', count: 3}, 1),
-        LootEntry.withChance({item: 'rats:string_cheese', count: 5}, 1),
-        LootEntry.withChance({item: 'rats:marbled_cheese', count: 6}, 1),
-        LootEntry.withChance({item: 'rats:rat_paw', count: 1}, 1),
-        LootEntry.withChance({item: 'rats:filth', count: 1}, 1),
-        LootEntry.withChance({item: 'rats:pirat_cutlass', count: 1}, 0.05),
-        LootEntry.withChance({item: 'rats:trash_can', count: 1}, 0.05),
-        LootEntry.withChance({item: 'rats:plague_stew', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:ghost_pirat_ectoplasm', count: 2}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_basic', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_speed', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_health', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_ender', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_ore_doubling', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_chicken_mount', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_time_manipulator', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_platter', count: 1}, 0.1),
-        LootEntry.withChance({item: 'rats:rat_upgrade_aristocrat', count: 1}, 0.05),
-
-        LootEntry.withChance({item: 'smallships:cannon', count: 1}, 0.01),
-        LootEntry.withChance({item: 'smallships:cannon_ball', count: 3}, 0.1),
-      ]
-    );
 });
 
 // Add a random amount (10-30) of tiny coins to all loot chests in Ratlantis
@@ -166,7 +143,7 @@ LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
     .anyDimension(['rats:ratlantis'])
-    .randomChance(0.5)
+    .randomChance(0.3)
     .apply((context) => {
       context.addLoot(Item.of('rats:tiny_coin', Math.floor(Math.random() * 21) + 10));
     });
