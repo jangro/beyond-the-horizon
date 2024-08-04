@@ -272,6 +272,7 @@ ServerEvents.recipes(event => {
   replaceOutput('createaddition:electrum_wire', 'immersiveengineering:wire_electrum');
 
   // Misc
+  replaceInput('rats:raw_plastic', 'pneumaticcraft:plastic');
   replaceInput('bbb:rope', 'supplementaries:rope');
   replaceInput('farmersdelight:rope', 'supplementaries:rope');
   replaceOutput('bbb:rope', 'supplementaries:rope');
