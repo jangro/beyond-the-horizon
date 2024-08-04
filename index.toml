@@ -52,7 +52,7 @@ hash = "81f6cb543a1b262b92ee68b9ae58955c1374bccef9c4b2237e7a709dd2680b47"
 
 [[files]]
 file = "config/auto_third_person-client.toml"
-hash = "c972503a104f75dec8f16704b9a02ede8f055aa7f75e69ff95d410cff6677e0c"
+hash = "17d0980a5387c782633dbf61a540c5eb49c28d116446b008e55415a738fc959a"
 
 [[files]]
 file = "config/bcc-common.toml"
@@ -163,12 +163,32 @@ file = "config/smallships-common.toml"
 hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
 
 [[files]]
+file = "config/sound_physics_remastered/allowed_sounds.properties"
+hash = "0b8661ac203c4318d1e2d7b13a30c149c5f59dd8eb30b124ceb65e9be044125f"
+
+[[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "1590646f82dfd9079ef3917eec3b6a1c07183731b052d4ea1de5cc54dea5de99"
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "81332e55cf8bf279500a187667182c0c0f2e2c4ee76d7a0b0a7297dcb29f67b7"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "6ba5658b585ce9b7c5b8aa1adc13792baeb6e33831ab983d1981f130ba5e75b2"
+
+[[files]]
 file = "config/sparsestructures.json5"
-hash = "67495e5d69f22217501b7dfafdaca88059d0f49d9f40aba299d1ce71e18d1a50"
+hash = "7b8b96c9ce182f84f5234a032d0016b7f35c2ac52c574b61a257eec7d2779270"
 
 [[files]]
 file = "config/structurecredits-config.json"
 hash = "aa9e181a64dc290799bd8e696e60c03265d4ce7eeaca4f73a4057a7aa14c0f69"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "22a014d528da3425ce5c9602ed3939ba558e2301e5fb2c87c350f655736e26df"
 
 [[files]]
 file = "config/treechop-common.toml"
@@ -200,11 +220,11 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "c0f0055125f226014d2c86df4f7194fd6bd40be4f3d1369e82c0fec668c1ca1a"
+hash = "401231f9e2da0f4344e4acce4d6452f372007c72a3a242fbe0d0c5b2b68a84ba"
 
 [[files]]
 file = "kubejs/client_scripts/jei_blacklist.js"
-hash = "8e0cb4e97c37c6d4493b152e1f59e945ddf1eb3881c0674a777f7082eeb3cee1"
+hash = "34199d09089e21cd754dafbfc3f3850710e7f03cf3c15a4695f62d51c7f790e5"
 
 [[files]]
 file = "kubejs/client_scripts/jei_information.js"
@@ -224,7 +244,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "326dbb28f4950d70f620822c23891bac9c4174b6df9396fedcfabd0ed621fadb"
+hash = "ea414f67fdcd323bdd7ff15eeb20c42f2ff9a3c8fb09ba119dcedb23471956c5"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -297,6 +317,10 @@ hash = "eaee815db31b77766ae0c3893e4b7b420c38d72c7e1ace56d9aa82e2d56193c4"
 [[files]]
 file = "kubejs/data/bth/loot_tables/stamina_vessel.json"
 hash = "3974b3e1e8cf8a052bdc35723f92faba3ab37fa0f1b5c1acce1d8a66318b9520"
+
+[[files]]
+file = "kubejs/data/bth/recipes/plastic.json"
+hash = "442e2f11e8ef57efa75b7d795e3eebc14f645f9630ad7005151ced78c2daf328"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/aether_portal_floating.nbt"
@@ -764,7 +788,7 @@ hash = "fa4a7a27b0dc2a4b54bd196d0e142561328f18e6b75beaa3f9bd3e37d78ae628"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/constants.js"
-hash = "fe43656e865b6c238c1f54b575a1181ce4b6af433a0e6777265b2b9c35a641ae"
+hash = "f6207adf1d24ae3732572157886ce3b93c6a0fa6ac004e73628c778a56b0ee50"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/generic.js"
@@ -775,8 +799,12 @@ file = "kubejs/server_scripts/loot_tables/mobs.js"
 hash = "e9a9799b355f3ba9076a85e0dba27be1191a9b458f05a4ea440c7d7c8ba8ccdf"
 
 [[files]]
+file = "kubejs/server_scripts/loot_tables/replace.js"
+hash = "9d70b494e77ab0f2898e5675cb6124c7754b417676ebbd802753a72da7c18ca6"
+
+[[files]]
 file = "kubejs/server_scripts/loot_tables/structures.js"
-hash = "576f1ca4e73b662dafeeaf110217b686fee05e4c10739c53dbffd9e75246c821"
+hash = "53c2e4d291a2b5490bc73c6fbf90088cc26d86d2dc6f400d17ef74e78ac6a598"
 
 [[files]]
 file = "kubejs/server_scripts/loot_tables/trades.js"
@@ -792,7 +820,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create.js"
-hash = "d86d7365ad98f930ea396e4051d6b2a4b732a8283ffca2e643166c0aeea136c9"
+hash = "16bf31d794ed271596ce418ebb34af1ff5a8d7e3315000e494d25c5977aaee0b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/furniture_fix.js"
@@ -808,15 +836,15 @@ hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/remove.js"
-hash = "94de3f74d40ba19fbe08cc78cfa36546a4a840267f938818b7102aad191ed292"
+hash = "40721ac45afbd30b09ca2b3d3af9066590e1694efd34ad17349e55e60bdf788e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/replace.js"
-hash = "c75f457b161ef68a4eace533e0b58ca516ccca6676cf8cfb4bfa3f1ec9fd0486"
+hash = "b1ef49a405a86d1682c0c5b9a0840a24d73d498a7012759108854592d306ff6b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shaped.js"
-hash = "cb908456f0eeb79e79505e328ebadda4aed13eb7be2fa523381c3104e404a00e"
+hash = "e00c43d2469983e91287f7890b9bcb1d0374b6f0390f600461c675bc9d0676e8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/shapeless.js"
@@ -825,6 +853,10 @@ hash = "7a4913a341a8ae164021393dcd231ec9e655ecbb533e1f850915c9b8c4d02bb4"
 [[files]]
 file = "kubejs/server_scripts/recipes/smelting.js"
 hash = "0b3942c623f52174dcf38930615fefe2d5daf3848ca24223cbefede292247cb5"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/smithing.js"
+hash = "cfa5963eaac6c356524b1c03b440a04d6a6dfc082cb5093d73023c741d71314a"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/woodworks.js"
@@ -852,7 +884,7 @@ hash = "4d4ad702f1089d488636a3d99b32cb216c3574097c48ca1a71540b41d16feb57"
 
 [[files]]
 file = "kubejs/server_scripts/tags/structure.js"
-hash = "8a0341d20d459be81d94c7d6392e64d6f3b68d07a558e7d637d3473f86c4c81b"
+hash = "e63f2c2d935ca698a8798cff7d61d50869ebcea7ee21797070f7c04d2fd93f05"
 
 [[files]]
 file = "kubejs/startup_scripts/creative_tabs.js"
@@ -1906,7 +1938,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustic-engineer.pw.toml"
-hash = "21fc8c27b024f8a1a4d85983f3fd38b578b3d2be312cd7a0fd0c5d96b17e25da"
+hash = "ec919c668eb3f4a87716802cb1ba99b2a56544b1953b3ee35e96b206fdeb8b64"
 metafile = true
 
 [[files]]
