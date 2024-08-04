@@ -263,4 +263,14 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clock',
     K: 'supplementaries:key'
   }).id(`${ID_PREFIX}clock_key`);
+
+  event.shaped('supplementaries:quiver', [
+    'LS ',
+    'LS ',
+    'LS '
+  ], {
+    L: '#forge:leather',
+    S: '#forge:string'
+  }).id(`${ID_PREFIX}quiver`);
+
 });
