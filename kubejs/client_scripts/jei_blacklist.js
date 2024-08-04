@@ -47,6 +47,7 @@ JEIEvents.hideItems(event => {
     'immersiveengineering:storage_uranium',
     'incubation:fried_egg',
     'neapolitan:milk_bottle',
+    'nethersdelight:blackstone_furnace',
     'paraglider:spirit_orb',
     'paraglider:anti_vessel',
     'paraglider:essence',
