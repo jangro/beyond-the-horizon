@@ -64,6 +64,7 @@ JEIEvents.hideItems(event => {
     'rustic_engineer:golden_pieces',
     'rustic_engineer:hydraulic_press',
     'rustic_engineer:movable_parts',
+    'rustic_engineer:pipe_wrench',
     'rustic_engineer:tool_mech',
     /rustic_engineer:.*solarite*/,
     /rustic_engineer:book.*/,
