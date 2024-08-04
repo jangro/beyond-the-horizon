@@ -37,6 +37,7 @@ ServerEvents.tags('worldgen/structure', event => {
     'bth_structures:tinkerer_house',
     'bth_structures:magician_house',
     '#ctov:village',
+    '#terralith:fortified_villages',
     '#towns_and_towers:town',
   ]);
 
