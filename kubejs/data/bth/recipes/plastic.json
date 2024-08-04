@@ -1,0 +1,16 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+    "type": "pneumaticcraft:stacked_item",
+    "count": 3,
+    "item": "rats:raw_plastic"
+  }
+  ],
+  "pressure": 2,
+  "results": [
+    {
+    "item": "pneumaticcraft:plastic"
+  }
+  ]
+}
