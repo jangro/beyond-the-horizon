@@ -1,13 +1,13 @@
 name = "Hunter'sReturn"
-filename = "hunters_return-1.20.1-11.4.7.jar"
+filename = "hunters_return-1.20.1-11.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4b2ff0cbef833deb8f02350f81e29e4966a0d66f"
+hash = "64ffb6daa4756296a3df35a40bdc26c969676dd3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5287202
+file-id = 5580223
 project-id = 318857
