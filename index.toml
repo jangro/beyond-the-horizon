@@ -1322,6 +1322,11 @@ hash = "ef203cfb9e4703fc48e154ccc2da9f0a1af4770d49f403f3ed0a581e5498a515"
 metafile = true
 
 [[files]]
+file = "mods/curious-armor-stands.pw.toml"
+hash = "1275fb7993a387d6f4fdabd062661d3df11767d942de4c7c4ae00d6d27168488"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "b0223d367bc69b611934bd5893910943a3fef7d0e435a213eb00565414cd6732"
 metafile = true
