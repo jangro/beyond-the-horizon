@@ -1187,6 +1187,11 @@ hash = "98952c950b934d7897e58d3602dab4a1ec64d63fa672d11b1320c7c09ef026fa"
 metafile = true
 
 [[files]]
+file = "mods/clickable-advancements.pw.toml"
+hash = "588807da8d9fcf5b9670a0b9804d8a3c400a4985b23e8aa7368f4e7c6e721f80"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "d4512023e6eb03c5045365468de16cebe1aea7f14f6cb94902d72848f69c79ce"
 metafile = true
