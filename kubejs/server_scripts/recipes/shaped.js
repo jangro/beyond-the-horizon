@@ -158,6 +158,14 @@ ServerEvents.recipes(event => {
       A: '#forge:ingots/arcane_gold',
       R: 'irons_spellbooks:cooldown_rune'
   }).id(`${ID_PREFIX}irons_cooldown_ring`);
+
+  event.shaped('irons_spellbooks:heavy_chain_necklace', [
+    'CCC',
+    'C C',
+    'CCC'
+  ], {
+      C: 'minecraft:chain',
+  }).id(`${ID_PREFIX}irons_heavy_chain_necklace`);
   
   event.shaped('irons_spellbooks:silver_ring', [
     'ES ',
