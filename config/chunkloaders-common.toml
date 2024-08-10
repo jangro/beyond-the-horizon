@@ -5,7 +5,7 @@
 
     # After how many minutes of offline time should players' chunk loaders be disabled? Use -1 to disable the inactivity timeout.
     # Allowed range: -1 ~ 525600 - Default: 10080
-    inactivityTimeout = 0
+    inactivityTimeout = 1
 
     # Chunk loaders from before version 1.2.0 are not bound to a player. Should these chunk loaders' loaded chunks stay loaded?
     # Allowed values: true, false - Default: true
