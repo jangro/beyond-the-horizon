@@ -1,14 +1,14 @@
 {
-  "parent": "aether:regen_stone",
+  "parent": "aether:gold_dungeon",
   "criteria": {
-    "kill_sun_spirit": {
+    "kill_boss": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "aether:sun_spirit"
+              "type": "lost_aether_content:aerwhale_king"
             }
           }
         ]
@@ -19,21 +19,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "advancement.aether.gold_dungeon.desc"
+      "translate": "advancement.lost_aether_content.platinum_dungeon.desc"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "aether:gold_dungeon_key"
+      "item": "lost_aether_content:platinum_key"
     },
     "show_toast": true,
     "title": {
-      "translate": "advancement.aether.gold_dungeon"
+      "translate": "advancement.lost_aether_content.platinum_dungeon"
     }
   },
   "requirements": [
     [
-      "kill_sun_spirit"
+      "kill_boss"
     ]
   ],
   "rewards": {
