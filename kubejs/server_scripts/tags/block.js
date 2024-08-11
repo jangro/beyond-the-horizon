@@ -82,6 +82,7 @@ ServerEvents.tags('block', event => {
 
   // Tetra Tags
   event.add('tetra:scannable', [
+    'aether:gravitite_ore',
     'forbidden_arcanus:stella_arcanum',
     'irons_spellbooks:arcane_debris'
   ]);

@@ -29,6 +29,6 @@ JEIEvents.information(event => {
   addInfo('eccentrictome:tome', ['bth.information.eccentrictome.filled_eccentric_tome', 'bth.information.eccentrictome.reverting']);
 
   // Tetra
-  addInfo(['minecraft:ancient_debris', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum'], 'bth.information.tetra.scannable_blocks');
+  addInfo(['minecraft:ancient_debris', 'aether:gravitite_ore', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum'], 'bth.information.tetra.scannable_blocks');
 
 });
