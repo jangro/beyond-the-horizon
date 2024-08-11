@@ -937,6 +937,11 @@ hash = "7885154390b9961ed757a8f2178a09ab00f20a90d53fa9ba13851474a3d6fbe8"
 metafile = true
 
 [[files]]
+file = "mods/aether-delight.pw.toml"
+hash = "c1e73cda7be31eaa0cb6afbd430eae9ad811e6cbb1091abf09c6bc86f527dc0e"
+metafile = true
+
+[[files]]
 file = "mods/aether-villages.pw.toml"
 hash = "f4503692ffa85cb95c668f556a225eb81ec9d8ff830b2d0c24c63aaf9499cf18"
 metafile = true
