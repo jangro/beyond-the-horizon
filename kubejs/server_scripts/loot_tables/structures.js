@@ -190,6 +190,17 @@ LootJS.modifiers((event) => {
       });
   });
 
+// Add Aether dungeon maps to Aether village chests
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(["aether_villages:olympic_citadel"], false)
+    .addLoot(LootEntry.of(AETHER_BRONZE_DUNGEON_MAP).when((c) => c.randomChance(0.16)))
+    .addLoot(LootEntry.of(AETHER_SILVER_DUNGEON_MAP).when((c) => c.randomChance(0.12)))
+    .addLoot(LootEntry.of(AETHER_GOLD_DUNGEON_MAP).when((c) => c.randomChance(0.08)))
+    .addLoot(LootEntry.of(AETHER_PLATINUM_DUNGEON_MAP).when((c) => c.randomChance(0.04)))
+});
+
 // Add Forbidden Castle map to Piglin villages
 LootJS.modifiers((event) => {
   event

@@ -9,6 +9,26 @@ const AQUAMIRAE_SHELTER_MAP =
            display:{Name:\'{"translate":"filled_map.aquamirae_shelter"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"aquamirae:shelter",zoomLevel:2}');
 
+const AETHER_BRONZE_DUNGEON_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.aether_bronze_dungeon",\
+           display:{Name:\'{"translate":"filled_map.aether_bronze_dungeon"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"aether:bronze_dungeon",zoomLevel:2}');
+
+const AETHER_GOLD_DUNGEON_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.aether_gold_dungeon",\
+           display:{Name:\'{"translate":"filled_map.aether_gold_dungeon"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"aether:gold_dungeon",zoomLevel:2}');
+
+const AETHER_SILVER_DUNGEON_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.aether_silver_dungeon",\
+           display:{Name:\'{"translate":"filled_map.aether_silver_dungeon"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"aether:silver_dungeon",zoomLevel:2}');
+
+const AETHER_PLATINUM_DUNGEON_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.aether_platinum_dungeon",\
+           display:{Name:\'{"translate":"filled_map.aether_platinum_dungeon"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"lost_aether_content:platinum_dungeon",zoomLevel:2}');
+
 const PIGLIN_VILLAGE_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.piglin_village",\
            display:{Name:\'{"translate":"filled_map.piglin_village"}\'},maxSearchRadius:100,skinKnown:1b,\
