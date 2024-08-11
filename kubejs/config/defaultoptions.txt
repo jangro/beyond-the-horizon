@@ -34,6 +34,7 @@ key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_key.ars_nouveau.open_book:key.keyboard.o
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.p
+key_key.integratedterminals.terminal.portable.open:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.journeymap.create_waypoint:key.keyboard.unknown
 key_key.journeymap.map_toggle_alt:key.keyboard.m
