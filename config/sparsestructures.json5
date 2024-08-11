@@ -49,6 +49,32 @@
       "factor": 2
     },
 
+    // Aether (and add-ons)
+    {
+      "structure": "aether:bronze_dungeon",
+      "factor": 2.0
+    },
+    {
+      "structure": "aether:gold_dungeon",
+      "factor": 2.0
+    },
+    {
+      "structure": "aether:silver_dungeon",
+      "factor": 2.0
+    },
+    {
+      "structure": "aether_villages:olympic_citadel",
+      "factor": 2.0
+    },
+    {
+      "structure": "deep_aether:lake_oasis",
+      "factor": 1.5
+    },
+    {
+      "structure": "lost_aether_content:platinum_dungeon",
+      "factor": 2.0
+    },
+
     // Applied Energistics 2
     {
       "structure": "ae2:meteorite",
