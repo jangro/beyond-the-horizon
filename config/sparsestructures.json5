@@ -27,118 +27,35 @@
     //
     // tip : the same spread factors rules apply here
 
+    // Minecraft
     {
       "structure": "minecraft:villages",
       "factor": 2.5
     },
-
     {
       "structure": "minecraft:bastion_remnant",
       "factor": 2
     },
-
     {
       "structure": "minecraft:pillager_outposts",
       "factor": 5
     },
-
     {
       "structure": "minecraft:ruined_portals",
       "factor": 2
     },
-
     {
       "structure": "minecraft:swamp_hut",
       "factor": 2
     },
 
+    // Applied Energistics 2
     {
-      "structure": "betterfortresses:fortress",
-      "factor": 1.5
-    },
-
-    {
-      "structure": "betteroceanmonuments:ocean_monument",
+      "structure": "ae2:meteorite",
       "factor": 2
     },
 
-    {
-      "structure": "ctov:villages",
-      "factor": 2
-    },
-    {
-      "structure": "ctov:pillager_outposts",
-      "factor": 2
-    },
-
-    {
-      "structure": "hunters_return:hunter_house",
-      "factor": 3
-    },
-
-    {
-      "structure": "eidolon:stray_tower",
-      "factor": 1
-    },
-
-    {
-      "structure": "irons_spellbooks:mountain_tower",
-      "factor": 2
-    },
-
-    {
-      "structure": "towns_and_towers:other",
-      "factor": 2
-    },
-    {
-      "structure": "towns_and_towers:towers",
-      "factor": 2
-    },
-    {
-      "structure": "towns_and_towers:towns",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rare_village",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:mage_tower",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rubble_desert",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rubble_forest",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rubble_jungle",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rubble_mesa",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rubble_mountain",
-      "factor": 2
-    },
-
-    {
-      "structure": "terralith:rubble_taiga",
-      "factor": 2
-    },
-
+    // Aquamirae
     {
       "structure": "aquamirae:ice_maze",
       "factor": 2
@@ -156,11 +73,27 @@
       "factor": 2
     },
 
+    // Yung's Better Structures
     {
-      "structure": "ae2:meteorite",
+      "structure": "betterfortresses:fortress",
+      "factor": 1.5
+    },
+    {
+      "structure": "betteroceanmonuments:ocean_monument",
       "factor": 2
     },
 
+    // Choice-Theorem's Overhauled Villages
+    {
+      "structure": "ctov:villages",
+      "factor": 2
+    },
+    {
+      "structure": "ctov:pillager_outposts",
+      "factor": 2
+    },
+
+    // When Dungeons Aries
     {
       "structure": "dungeons_arise:major_structures",
       "factor": 4
@@ -170,51 +103,13 @@
       "factor": 4
     },
 
+    // Edidolon
     {
-      "structure": "valhelsia_structures:big_trees",
-      "factor": 1.5
-    },
-    {
-      "structure": "valhelsia_structures:castle_ruins",
-      "factor": 2
-    },
-    {
-      "structure": "valhelsia_structures:castles",
-      "factor": 2
-    },
-    {
-      "structure": "valhelsia_structures:deep_spawner_rooms",
-      "factor": 1.5
-    },
-    {
-      "structure": "valhelsia_structures:desert_houses",
+      "structure": "eidolon:stray_tower",
       "factor": 1
     },
-    {
-      "structure": "valhelsia_structures:forges",
-      "factor": 2
-    },
-    {
-      "structure": "valhelsia_structures:player_houses",
-      "factor": 1.0
-    },
-    {
-      "structure": "valhelsia_structures:spawner_dungeons",
-      "factor": 1.5
-    },
-    {
-      "structure": "valhelsia_structures:spawner_rooms",
-      "factor": 1.5
-    },
-    {
-      "structure": "valhelsia_structures:tower_ruins",
-      "factor": 2
-    },
-    {
-      "structure": "valhelsia_structures:witch_huts",
-      "factor": 2
-    },
 
+    // The Graveyard
     {
       "structure": "graveyard:altar_structure",
       "factor": 2
@@ -283,9 +178,117 @@
       "structure": "graveyard:small_savanna_grave_structure",
       "factor": 2
     },
+
+    // Hunter's Return
+    {
+      "structure": "hunters_return:hunter_house",
+      "factor": 3
+    },
+
+    // Iron's Spells and Spellbooks
+    {
+
+      "factor": 2
+    },
+
+    // Terralith
+    {
+      "structure": "terralith:rare_village",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:mage_tower",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:rubble_desert",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:rubble_forest",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:rubble_jungle",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:rubble_mesa",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:rubble_mountain",
+      "factor": 2
+    },
+    {
+      "structure": "terralith:rubble_taiga",
+      "factor": 2
+    },
+
+    // Towns and Towers
+    {
+      "structure": "towns_and_towers:other",
+      "factor": 2
+    },
+    {
+      "structure": "towns_and_towers:towers",
+      "factor": 2
+    },
+    {
+      "structure": "towns_and_towers:towns",
+      "factor": 2
+    },
+
+    // The Lost Castle
     {
       "structure": "tlc:lost_castle",
       "factor": 0.5
+    },
+
+    // Valhelsia Structures
+    {
+      "structure": "valhelsia_structures:big_trees",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:castle_ruins",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:castles",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:deep_spawner_rooms",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:desert_houses",
+      "factor": 1
+    },
+    {
+      "structure": "valhelsia_structures:forges",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:player_houses",
+      "factor": 1.0
+    },
+    {
+      "structure": "valhelsia_structures:spawner_dungeons",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:spawner_rooms",
+      "factor": 1.5
+    },
+    {
+      "structure": "valhelsia_structures:tower_ruins",
+      "factor": 2
+    },
+    {
+      "structure": "valhelsia_structures:witch_huts",
+      "factor": 2
     },
 
   ]
