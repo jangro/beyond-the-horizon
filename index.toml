@@ -932,6 +932,11 @@ hash = "008f4b4782a92c6a8995f26159433659d9b5bdfc5a736614a142666c4d235b3c"
 metafile = true
 
 [[files]]
+file = "mods/aeroblender.pw.toml"
+hash = "7885154390b9961ed757a8f2178a09ab00f20a90d53fa9ba13851474a3d6fbe8"
+metafile = true
+
+[[files]]
 file = "mods/aether-villages.pw.toml"
 hash = "f4503692ffa85cb95c668f556a225eb81ec9d8ff830b2d0c24c63aaf9499cf18"
 metafile = true
@@ -1344,6 +1349,11 @@ metafile = true
 [[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "b0223d367bc69b611934bd5893910943a3fef7d0e435a213eb00565414cd6732"
+metafile = true
+
+[[files]]
+file = "mods/deep-aether.pw.toml"
+hash = "6ca2ffc95ff19d972d0a73cb93e314ac2f016dd0325def70791e731d2ee5851a"
 metafile = true
 
 [[files]]
@@ -2079,6 +2089,11 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "a943b190ae8648304ae8f33c139ee59a0f90f2f30c997e4fcb4f246aed4f9a0a"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
 metafile = true
 
 [[files]]
