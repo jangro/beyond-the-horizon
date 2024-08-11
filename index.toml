@@ -1427,11 +1427,6 @@ hash = "918263be0aed824b1937924910a0c7638c32044b25d88f3876506641c161221b"
 metafile = true
 
 [[files]]
-file = "mods/ender-storage-1-8.pw.toml"
-hash = "638f7c447dbe7dc2e85e4bf89d70fb41632db940a57de498094f2be57fa6c18d"
-metafile = true
-
-[[files]]
 file = "mods/endremastered.pw.toml"
 hash = "48c89e386fe1dc47dedfce02ccbc9a55ca899e94348ae470a77b3b7022496a58"
 metafile = true
