@@ -53,6 +53,7 @@ const VANILLA_WOOD_LOG_TYPES = [
   'dark_oak',
   'jungle',
   'mangrove',
+  'oak',
   'spruce',
 ];
 

@@ -25,4 +25,7 @@ ServerEvents.recipes(event => {
     event.recipes.woodworks.sawmill(`bbb:${type}_ladder`, `#minecraft:${type}_stems`, 4).id(`${ID_PREFIX}${type}_ladder_from_${type}_stem`);
     event.recipes.woodworks.sawmill(`bbb:${type}_ladder`, `minecraft:${type}_planks`, 1).id(`${ID_PREFIX}${type}_ladder_from_${type}_planks`);
   });
+
+  event.recipes.woodworks.sawmill(`minecraft:ladder`, `#minecraft:oak_logs`, 4).id(`${ID_PREFIX}vanilla_ladder_from_oak_log`);
+  event.recipes.woodworks.sawmill(`minecraft:ladder`, `minecraft:oak_planks`, 1).id(`${ID_PREFIX}vanilla_ladder_from_oak_planks`);
 });

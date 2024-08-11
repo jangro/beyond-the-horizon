@@ -281,4 +281,13 @@ ServerEvents.recipes(event => {
     S: '#forge:string'
   }).id(`${ID_PREFIX}quiver`);
 
+  event.shaped('4x minecraft:ladder', [
+    'S S',
+    'SPS',
+    'S S'
+  ], {
+    S: 'minecraft:stick',
+    P: 'minecraft:oak_planks'
+  }).id(`${ID_PREFIX}vanilla_ladder`);
+
 });
