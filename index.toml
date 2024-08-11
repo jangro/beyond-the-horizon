@@ -942,6 +942,11 @@ hash = "c1e73cda7be31eaa0cb6afbd430eae9ad811e6cbb1091abf09c6bc86f527dc0e"
 metafile = true
 
 [[files]]
+file = "mods/aether-emissivity.pw.toml"
+hash = "720148fd3b42f2750655ba73e1d217ff79690f8d74e1f89eff5d2a3b871dc6af"
+metafile = true
+
+[[files]]
 file = "mods/aether-villages.pw.toml"
 hash = "f4503692ffa85cb95c668f556a225eb81ec9d8ff830b2d0c24c63aaf9499cf18"
 metafile = true
