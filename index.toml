@@ -1747,6 +1747,11 @@ hash = "a4ff567d52fe55984cc0cb93430a4c8f01dc00b14fbd6e25a077dbd179f534fb"
 metafile = true
 
 [[files]]
+file = "mods/mighty-mail.pw.toml"
+hash = "62cbc36bcadc18478adcbd138ed6f976f9625ec75c687acdb83b26fbda8d08b2"
+metafile = true
+
+[[files]]
 file = "mods/minecolonies.pw.toml"
 hash = "65cf6a91b7ac919e4c935fb87203595e794124cb8eaeccca7bc0653fc1a25f98"
 metafile = true
