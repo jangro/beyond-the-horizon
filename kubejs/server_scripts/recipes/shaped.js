@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
     'SSS',
     'S S'
   ], {
-    P: '#forge:rods/wooden',
+    S: '#forge:rods/wooden',
   }).id(`${ID_PREFIX}ladder`);
 
   event.shaped('minecraft:saddle', [
