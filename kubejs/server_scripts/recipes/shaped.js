@@ -44,6 +44,14 @@ ServerEvents.recipes(event => {
     P: '#minecraft:planks',
   }).id(`${ID_PREFIX}chest`);
 
+  event.shaped('minecraft:ladder', [
+    'S S',
+    'SSS',
+    'S S'
+  ], {
+    P: '#forge:rods/wooden',
+  }).id(`${ID_PREFIX}ladder`);
+
   event.shaped('minecraft:saddle', [
     'LLL',
     'SLS',
