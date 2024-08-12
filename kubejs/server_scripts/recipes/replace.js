@@ -277,4 +277,7 @@ ServerEvents.recipes(event => {
   replaceInput('farmersdelight:rope', 'supplementaries:rope');
   replaceOutput('bbb:rope', 'supplementaries:rope');
   replaceOutput('farmersdelight:rope', 'supplementaries:rope');
+
+  // Changes in specific recipes.
+  replaceInputID('minecraft:copper_ingot', 'minecraft:copper_block', ['minecraft:copper_block', 'minecraft:waxed_copper_block']);
 });

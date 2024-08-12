@@ -22,6 +22,7 @@ ServerEvents.recipes(event => {
   // Remove recipes by recipe ID:
   [
     'minecraft:bread',
+    'minecraft:copper_ingot_from_waxed_copper_block',
     'minecraft:piston',
     'aether:aether_saddle',
     'aether:swet_lead',
@@ -56,6 +57,7 @@ ServerEvents.recipes(event => {
     'immersiveengineering:crafting/hammercrushing_uranium',
     'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
     'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
+    'immersiveengineering:crafting/nugget_copper_to_ingot_copper',
     'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium',
     'immersiveengineering:crafting/raw_block_uranium_to_raw_uranium',
     'immersiveengineering:crafting/raw_hammercrushing_uranium',
@@ -63,6 +65,7 @@ ServerEvents.recipes(event => {
     'immersiveengineering:crafting/storage_uranium_from_slab',
     'immersiveengineering:crafting/storage_uranium_to_ingot_uranium',
     'immersiveengineering:crafting/storage_uranium_to_slab',
+    'immersiveengineering:smelting/ingot_iron_from_dust',
     'immersiveengineering:smelting/ingot_silver',
     'immersiveengineering:smelting/ingot_silver2',
     'immersiveengineering:smelting/ingot_silver_from_blasting',
@@ -86,6 +89,7 @@ ServerEvents.recipes(event => {
     'neapolitan:milk_bottle',
     'nethersdelight:blackstone_furnace',
     'paraglider:paraglider',
+    'pneumaticcraft:copper_ingot_from_nugget',
     'pneumaticcraft:speed_upgrade',
     'pneumaticcraft:speed_upgrade_from_glycerol',
     'powah:energizing/uranium_to_uraninite',
