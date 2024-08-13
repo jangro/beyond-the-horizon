@@ -213,7 +213,7 @@
 
     // Iron's Spells and Spellbooks
     {
-
+      "structure": "irons_spellbooks:mountain_tower",
       "factor": 2
     },
 
