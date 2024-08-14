@@ -205,6 +205,15 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}paraglider`);
 
   // PneumaticCraft: Repressurized
+  event.shaped('pneumaticcraft:omnidirectional_hopper', [
+    'CLC',
+    'CLC',
+    ' C '
+  ], {
+    C: '#forge:ingots/compressed_iron',
+    L: '#minecraft:logs',
+  }).id(`${ID_PREFIX}omnidirectional_hopper_easy`);
+
   event.shaped('pneumaticcraft:speed_upgrade', [
     'LSL',
     'SFS',
