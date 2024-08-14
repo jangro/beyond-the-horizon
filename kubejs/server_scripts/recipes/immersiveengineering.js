@@ -24,6 +24,12 @@ ServerEvents.recipes(event => {
     'immersiveengineering:mold_plate'
   ).id(`${ID_PREFIX}metalpress/andesite_sheet`);
 
+  event.recipes.immersiveengineering.metal_press(
+    'createdeco:netherite_sheet',
+    '#forge:ingots/netherite',
+    'immersiveengineering:mold_plate'
+  ).id(`${ID_PREFIX}metalpress/netherite_sheet`);
+
   // Added for BTH to match Create's recipe
   event.recipes.immersiveengineering.crusher(
     'createaddition:diamond_grit',
