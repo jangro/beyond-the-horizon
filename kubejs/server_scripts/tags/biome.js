@@ -11,36 +11,21 @@
  */
 ServerEvents.tags('worldgen/biome', event => {
 
-  // This list contain all biomes with is_mountain tag. Commented out are the less mountainous ones.
-  const tower_mountains = [
-    // 'minecraft:cherry_grove',
-    'minecraft:frozen_peaks',
-    'minecraft:jagged_peaks',
-    'minecraft:snowy_slopes',
-    'minecraft:stony_peaks',
-    'terralith:caldera',
-    'terralith:emerald_peaks',
-    'terralith:rocky_mountains',
-    // 'terralith:scarlet_mountains'
-    // 'terralith:volcanic_peaks',
-    // 'terralith:snowy_cherry_grove',
-  ];
-
-  // Create mountain tag for towers (more mountainous mountains than regular is_mountain).
-  event.add('bth:is_tower_mountain', tower_mountains);
-
   // Create biome tag for scarlet tower
-  event.add('bth:is_scarlet_tower_mountain', 'terralith:scarlet_mountains');
-  event.add('bth:is_scarlet_tower_mountain', 'terralith:volcanic_peaks');
+  event.add('bth:is_scarlet_tower_biome', 'terralith:scarlet_mountains');
+  event.add('bth:is_scarlet_tower_biome', 'terralith:volcanic_peaks');
 
-  // Fill Snowy Moutain Biome tag.
+  // Create biome tag for forest towers (snowy biomes removed below)
+  event.add('bth:is_forest_tower_biome', event.get('minecraft:is_mountain').getObjectIds());
+
+  // Fill Snowy Mountain Biome tag and remove snowy biomes from forest tower tag.
   const snowy_biomes = event.get('forge:is_snowy').getObjectIds();
-  const tower_mountain_biomes = event.get('bth:is_tower_mountain').getObjectIds();
+  const forest_and_snowy_tower_biomes = event.get('bth:is_forest_tower_biome').getObjectIds();
   snowy_biomes.forEach(snowyBiomeID => {
-    tower_mountain_biomes.forEach(mountainBiomeID => {
+    forest_and_snowy_tower_biomes.forEach(mountainBiomeID => {
       if (snowyBiomeID == mountainBiomeID) {
-        event.add('bth:is_frozen_tower_mountain', mountainBiomeID);
-        event.get('bth:is_tower_mountain').remove(mountainBiomeID);
+        event.add('bth:is_frozen_tower_biome', mountainBiomeID);
+        event.get('bth:is_forest_tower_biome').remove(mountainBiomeID);
       }
     });
   });
@@ -80,22 +65,18 @@ ServerEvents.tags('worldgen/biome', event => {
 
     'terralith:has_structure/witch_hut',
 
-    // XXX: Remove this one for one. The exclusion_zone option doesn't work and I don't
-    // want the meadow tower to spawn too close to the mountain towers.
-    'bth_structures:has_structure/tower_forest_meadow',
-
     // We plan to have spires only generate in Glacio when adding Ad Astra so disable it here
     'terralith:has_structure/spire',
 
   ].forEach((tag) => event.removeAll(tag));
 
   // Eidolon - Stray Towers spawn only in snowy mountains.
-  event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_frozen_tower_mountain');
+  event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_frozen_tower_biome');
 
   // BTH - Tower biome settings
-  event.add('bth_structures:has_structure/tower_frozen', '#bth:is_frozen_tower_mountain');
-  event.add('bth_structures:has_structure/tower_forest', '#bth:is_tower_mountain');
-  event.add('bth_structures:has_structure/tower_scarlet', '#bth:is_scarlet_tower_mountain');
+  event.add('bth_structures:has_structure/tower_frozen', '#bth:is_frozen_tower_biome');
+  event.add('bth_structures:has_structure/tower_forest', '#bth:is_forest_tower_biome');
+  event.add('bth_structures:has_structure/tower_scarlet', '#bth:is_scarlet_tower_biome');
 
   // Prevent hunter's houses from spawning in yellowstone biomes. Yellowstone biome is tagged
   // #minecraft:is_taiga and hunter houses generate in that tag so we have to remove all, then add

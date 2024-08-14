@@ -184,7 +184,7 @@ hash = "6ba5658b585ce9b7c5b8aa1adc13792baeb6e33831ab983d1981f130ba5e75b2"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "b8253baa43723fb18ddb3ed37fd59af5bad1a8c9fef6cd4d736365afbf157cea"
+hash = "bb133462d5659b9de454c87780768ee9cb2fea6764552b73f3ffea122eacac06"
 
 [[files]]
 file = "config/structurecredits-config.json"
@@ -387,10 +387,6 @@ file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_fores
 hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
 
 [[files]]
-file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_forest_meadow.json"
-hash = "1fdde993e2a7f5f36f7a1f1ce31fbfe962988a68e3501d65807a14cbaac21158"
-
-[[files]]
 file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_frozen.json"
 hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
 
@@ -429,10 +425,6 @@ hash = "575770270b46cfbd0a71d9050128bad6485818418d8d20ee610d138836c23312"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/tower_forest.json"
 hash = "2ea5afd1da52d9d9a062265e4b5a54be2f5c2ca4d4629fb71627ab89a1267139"
-
-[[files]]
-file = "kubejs/data/bth_structures/worldgen/structure/tower_forest_meadow.json"
-hash = "094ff704c83da19af10d252d55ab40f1ddaf47143f456ce78f9598b0a24a7f53"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/tower_forest_skylands_autumn.json"
@@ -489,10 +481,6 @@ hash = "068b8b2037e36f509b6b779e60aee83e81610dc507ee2ef49bb1512d51cc282f"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/tinkerer_house.json"
 hash = "8efc4b153f6614cbafce0441ea019502ba6bcd0a46e1a592662ee0f47df87614"
-
-[[files]]
-file = "kubejs/data/bth_structures/worldgen/structure_set/tower_forest_meadow.json"
-hash = "2b93edbdd9b574dd5c18cde4bc3cd0f2806668f1bab5925f06c50f8ef21365e9"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/towers.json"
