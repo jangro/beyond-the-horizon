@@ -14,5 +14,8 @@ packwiz
 # Exclude Visual Studio Code folder
 /.vscode/
 
+# Exclude Icons (to avoid uploading copyrighted content into repo - generate using IconExporter mod locally instead).
+/icon-exports-x32/
+
 # Exclude macOS folder metadata
 **/.DS_Store
