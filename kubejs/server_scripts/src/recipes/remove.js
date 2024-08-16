@@ -38,6 +38,7 @@ ServerEvents.recipes(event => {
     'create:crushing/raw_uranium_block',
     'create:crushing/raw_uranium_ore',
     'create:crushing/uranium_ore',
+    'create:industrial_iron_block_from_ingots_iron_stonecutting',
     'create:smelting/bread',
     'create:smelting/ingot_silver_compat_immersiveengineering',
     'create:smelting/ingot_uranium_compat_immersiveengineering',
