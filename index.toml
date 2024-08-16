@@ -1606,6 +1606,11 @@ hash = "e919c1e5ae77026164698e5bacad6b904f4a63c3aa0ed845a90abffd8ac9cc70"
 metafile = true
 
 [[files]]
+file = "mods/integrated-api.pw.toml"
+hash = "f4c2da6dca3b98278e50c31f15ee95f1af75e27e98bea5a68e7f1e6aaff952f0"
+metafile = true
+
+[[files]]
 file = "mods/integrated-crafting.pw.toml"
 hash = "fe4286af21aba85c6eb1d348e344b85738f5f0160ab6f6cd79c6bbbd5435dc00"
 metafile = true
@@ -1613,6 +1618,11 @@ metafile = true
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
 hash = "d66551cc35d00dc1d281b0a73049d55132f67dfd1a49899fb3603670b5e97ada"
+metafile = true
+
+[[files]]
+file = "mods/integrated-stronghold.pw.toml"
+hash = "9e3c25c23c702d64a9e826e8cea8e2e941d2252eeabe72d94d73a25fde7904b3"
 metafile = true
 
 [[files]]
