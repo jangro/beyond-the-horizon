@@ -2001,11 +2001,6 @@ hash = "026acc060ccb0a4e5509d64ef0a0ea884d350e70a15c361e4fe99824a82c158b"
 metafile = true
 
 [[files]]
-file = "mods/ring-of-return-forge.pw.toml"
-hash = "9fb58a86ebcd43b8f3dd47d9c5b510f6d8dfd2e6bf4b2765d9328d00e3cef51e"
-metafile = true
-
-[[files]]
 file = "mods/rustic-engineer.pw.toml"
 hash = "ec919c668eb3f4a87716802cb1ba99b2a56544b1953b3ee35e96b206fdeb8b64"
 metafile = true
