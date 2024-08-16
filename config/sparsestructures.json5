@@ -195,12 +195,6 @@
       "factor": 2
     },
 
-    // Hunter's Return
-    {
-      "structure": "hunters_return:hunter_house",
-      "factor": 3
-    },
-
     // Iron's Spells and Spellbooks
     {
       "structure": "irons_spellbooks:mountain_tower",

@@ -295,7 +295,6 @@ LootJS.modifiers((event) => {
       'ctov:pillager_outpost_snowy',
       'ctov:pillager_outpost_swamp',
       'ctov:pillager_outpost_taiga',
-      'hunters_return:hunter_house',
     ], false)
     .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.1)))
     .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.1)));

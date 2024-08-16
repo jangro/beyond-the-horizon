@@ -66,18 +66,6 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('bth_structures:has_structure/tower_forest', '#bth:is_forest_tower_biome');
   event.add('bth_structures:has_structure/tower_scarlet', '#bth:is_scarlet_tower_biome');
 
-  // Prevent hunter's houses from spawning in yellowstone biomes. Yellowstone biome is tagged
-  // #minecraft:is_taiga and hunter houses generate in that tag so we have to remove all, then add
-  // back only the biomes we want.
-  event.removeAll('hunters_return:has_structure/hunter_house');
-  event.add('hunters_return:has_structure/hunter_house', [
-    '#minecraft:is_forest',
-    'minecraft:old_growth_pine_taiga',
-    'minecraft:old_growth_spruce_taiga',
-    'minecraft:snowy_taiga',
-    'minecraft:taiga',
-  ]);
-
   // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
   // [Vaelzan]: It uses the Minecraft jungle temple tag by default, so that might be why you couldn't remove the individual biome.
   // TODO: It's probably better to modify that tag instead and leave YUNG's one alone?
