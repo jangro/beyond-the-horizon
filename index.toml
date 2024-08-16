@@ -1501,6 +1501,11 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
+file = "mods/fishing-bobber-detector.pw.toml"
+hash = "fc39919e43e19650312ba967cbbc2ea7d1bd14a8fe677b8271dfe63b6e479df9"
+metafile = true
+
+[[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
 metafile = true
