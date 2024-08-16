@@ -240,7 +240,7 @@ LootJS.modifiers((event) => {
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier("chest")
-    .anyStructure(["betterstrongholds"], false)
+    .anyStructure(["integrated_stronghold:stronghold"], false)
     .randomChance(0.05)
     .addLoot(ANCIENT_CITY_MAP)
 });
