@@ -23,6 +23,9 @@ ServerEvents.recipes(event => {
   [
     'minecraft:bread',
     'minecraft:copper_ingot_from_waxed_copper_block',
+    'minecraft:dispenser',
+    'minecraft:dropper',
+    'minecraft:observer',
     'minecraft:piston',
     'aether:aether_saddle',
     'aether:swet_lead',
