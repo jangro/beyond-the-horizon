@@ -84,10 +84,10 @@ ServerEvents.tags('worldgen/biome', event => {
   event.removeAll('hunters_return:has_structure/hunter_house');
   event.add('hunters_return:has_structure/hunter_house', [
     '#minecraft:is_forest',
-    'minecraft:taiga',
-    'minecraft:snowy_taiga',
     'minecraft:old_growth_pine_taiga',
-    'minecraft:old_growth_spruce_taiga'
+    'minecraft:old_growth_spruce_taiga',
+    'minecraft:snowy_taiga',
+    'minecraft:taiga',
   ]);
 
   // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
