@@ -1056,6 +1056,11 @@ hash = "078ad67d3e0fb2f6ac7702ddd819e83fd08994aaba380bfa14916a7b0846cb6b"
 metafile = true
 
 [[files]]
+file = "mods/back-to-bed.pw.toml"
+hash = "51cb7513b477353bdeff3dc9fc5989d2d7e307ae58d19300dbd37e7621e5bdcf"
+metafile = true
+
+[[files]]
 file = "mods/bagus-lib.pw.toml"
 hash = "8d95069691fb246b26a0201a362b413e0119cb770876c83db9650c6f3749c77d"
 metafile = true

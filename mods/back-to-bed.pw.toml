@@ -1,0 +1,13 @@
+name = "Back to Bed"
+filename = "BackToBed-Forge-1.20-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c54c643b99f9565e9a84957701ef3762e7701b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4937634
+project-id = 886555
