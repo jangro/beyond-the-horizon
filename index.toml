@@ -1866,6 +1866,11 @@ hash = "96d09f5521faec9e6a71f1bd0695c05d61b21c6a73f318ffce91241b9828c91b"
 metafile = true
 
 [[files]]
+file = "mods/overloaded-armor-bar.pw.toml"
+hash = "65ba55b95c910d696029b5e1c735241062ea80d5bad76e22e9e79697279cde30"
+metafile = true
+
+[[files]]
 file = "mods/packing-tape.pw.toml"
 hash = "fa2fb29876904417b929e6e47a6ba8d9c043f6f9f730f43ffbf79c7ff918a21e"
 metafile = true
