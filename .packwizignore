@@ -2,9 +2,11 @@
 # See https://git-scm.com/docs/gitignore
 
 /.git/
+/.probe/
 /.vs/
 /.vscode/
 /docs/
+/kubejs/probe/
 /LICENSE
 /README.md
 /UPDATING.md
@@ -13,3 +15,6 @@
 *.bat
 *.sh
 *.exe
+
+# Exclude jsconfig files.
+**/jsconfig.json
