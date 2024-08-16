@@ -11,16 +11,6 @@
  * @const {!string[]}
  */
 const ADVANCEMENTS_TO_REMOVE = [
-  'dungeons_arise:advancements/find_heavenly_challenger.json',
-  'dungeons_arise:advancements/find_heavenly_conqueror.json',
-  'dungeons_arise:advancements/find_heavenly_rider.json',
-  'dungeons_arise:advancements/find_illager_corsair_or_illager_galley.json',
-  'dungeons_arise:advancements/find_mechanical_nest.json',
-  'dungeons_arise:advancements/find_mushroom_house.json',
-  'dungeons_arise:advancements/find_mushroom_mines.json',
-  'dungeons_arise:advancements/find_scorched_mines.json',
-  'dungeons_arise:advancements/find_small_blimp.json',
-  'dungeons_arise:advancements/find_wishing_well.json',
   'irons_spellbooks:advancements/grant_patchouli.json',
   'paraglider:advancements/statues_bargain.json',
   'paraglider:advancements/pray_to_the_goddess.json',

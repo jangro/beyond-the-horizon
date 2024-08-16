@@ -32,18 +32,6 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Remove these structures from all biomes:
   [
-    'dungeons_arise:has_structure/heavenly_challenger_biomes',
-    'dungeons_arise:has_structure/heavenly_conqueror_biomes',
-    'dungeons_arise:has_structure/heavenly_rider_biomes',
-    'dungeons_arise:has_structure/illager_corsair_biomes',
-    'dungeons_arise:has_structure/illager_galley_biomes',
-    'dungeons_arise:has_structure/mechanical_nest_biomes',
-    'dungeons_arise:has_structure/mushroom_house_biomes',
-    'dungeons_arise:has_structure/mushroom_mines_biomes',
-    'dungeons_arise:has_structure/scorched_mines_biomes',
-    'dungeons_arise:has_structure/small_blimp_biomes',
-    'dungeons_arise:has_structure/wishing_well_biomes',
-
     'eidolon:has_structure/stray_tower_biomes',
 
     'minecolonies:has_structure/asian_colony',

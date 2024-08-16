@@ -149,47 +149,6 @@ LootJS.modifiers((event) => {
     });
 });
 
-// Add increased chance of coins and increase number of coins in dungeons
-LootJS.modifiers((event) => {
-  event
-    .addLootTypeModifier('chest')
-    .anyStructure([
-      'dungeons_arise:abandoned_temple',
-      'dungeons_arise:aviary',
-      'dungeons_arise:bandit_towers',
-      'dungeons_arise:bandit_village',
-      'dungeons_arise:bathhouse',
-      'dungeons_arise:coliseum',
-      'dungeons_arise:fishing_hut',
-      'dungeons_arise:foundry',
-      'dungeons_arise:giant_mushroom',
-      'dungeons_arise:greenwood_pub',
-      'dungeons_arise:illager_campsite',
-      'dungeons_arise:illager_fort',
-      'dungeons_arise:illager_windmill',
-      'dungeons_arise:infested_temple',
-      'dungeons_arise:jungle_tree_house',
-      'dungeons_arise:keep_kayra',
-      'dungeons_arise:lighthouse',
-      'dungeons_arise:mechanical_nest',
-      'dungeons_arise:merchant_campsite',
-      'dungeons_arise:mining_system',
-      'dungeons_arise:monastery',
-      'dungeons_arise:mushroom_village',
-      'dungeons_arise:plague_asylum',
-      'dungeons_arise:scorched_mines',
-      'dungeons_arise:shiraz_palace',
-      'dungeons_arise:small_prairie_house',
-      'dungeons_arise:thornborn_towers',
-      'dungeons_arise:typhon',
-      'dungeons_arise:undead_pirate_ship',
-      ], false)
-      .apply((context) => {
-        context.addLoot(LootEntry.of('rats:tiny_coin', Math.floor(Math.random() * 21) + 0).when((c) => c.randomChance(0.3)));
-        context.addLoot(LootEntry.of('paraglider:stamina_vessel').when((c) => c.randomChance(0.1)));
-      });
-  });
-
 // Add Aether dungeon maps to Aether village chests
 LootJS.modifiers((event) => {
   event
@@ -225,7 +184,6 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyStructure([
       'aquamirae:ship',
-      'dungeons_arise:undead_pirate_ship',
       'irons_spellbooks:impaled_icebreaker',
       'minecraft:shipwreck',
       'minecraft:buried_treasure',
@@ -259,7 +217,6 @@ LootJS.modifiers((event) => {
       'betterdeserttemples:desert_temple',
       'ctov:pillager_outpost_jungle',
       'ctov:pillager_outpost_desert',
-      'dungeons_arise:jungle_tree_house',
       'terralith:fortified_desert_village',
       'towns_and_towers:pillager_outpost_desert',
       'towns_and_towers:pillager_outpost_jungle',
@@ -317,10 +274,7 @@ LootJS.modifiers((event) => {
     .addLootTypeModifier("chest")
     .anyStructure([
       'minecraft:mansion',
-      'dungeons_arise:illager_campsite',
-      'dungeons_arise:illager_fort',
       'ctov:pillager_outpost_plains',
-      'dungeons_arise:illager_windmill',
     ], false)
     .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.05)))
     .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.05)));
@@ -355,13 +309,6 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(IMPALED_ICEBREAKER_MAP).when((c) => c.randomChance(0.1)))
     .addLoot(LootEntry.of(SNOWY_PLAINS_MAP).when((c) => c.randomChance(0.1)));
 
-});
-LootJS.modifiers((event) => {
-  event
-    .addLootTypeModifier("chest")
-    .anyStructure(["dungeons_arise:lighthouse"], false)
-    .randomChance(1) // Only one chest in this structure
-    .addLoot(IMPALED_ICEBREAKER_MAP)
 });
 
 // Add cursed eye to the Forbidden Castle

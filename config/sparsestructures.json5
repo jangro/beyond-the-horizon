@@ -119,16 +119,6 @@
       "factor": 2
     },
 
-    // When Dungeons Aries
-    {
-      "structure": "dungeons_arise:major_structures",
-      "factor": 4
-    },
-    {
-      "structure": "dungeons_arise:minor_structures",
-      "factor": 4
-    },
-
     // Edidolon
     {
       "structure": "eidolon:stray_tower",
