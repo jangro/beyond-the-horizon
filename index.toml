@@ -2633,6 +2633,11 @@ file = "resourcepacks/BTH-Panorama.zip"
 hash = "cd0ee3936e59931b64bcb87d12b746992552f9fadfbe64e7f0843e282526aed9"
 
 [[files]]
+file = "resourcepacks/idas-alexs-mobs.pw.toml"
+hash = "5b893e20f0533d7ebb4c5b2320f9d575b4abbe440a55be1827a457587284a0cd"
+metafile = true
+
+[[files]]
 file = "resourcepacks/mt-ct-d-a.pw.toml"
 hash = "7f48eea9549b2e22785bea0694fe9ac2b0f7713de5bab157b1ed00d5ae086263"
 metafile = true
