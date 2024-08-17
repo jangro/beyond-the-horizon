@@ -1631,6 +1631,11 @@ hash = "d66551cc35d00dc1d281b0a73049d55132f67dfd1a49899fb3603670b5e97ada"
 metafile = true
 
 [[files]]
+file = "mods/integrated-scripting.pw.toml"
+hash = "33d2a23459048e6d3472d590047e21afec698cc73a675f851a9cd2825e93b9a0"
+metafile = true
+
+[[files]]
 file = "mods/integrated-stronghold.pw.toml"
 hash = "9e3c25c23c702d64a9e826e8cea8e2e941d2252eeabe72d94d73a25fde7904b3"
 metafile = true
