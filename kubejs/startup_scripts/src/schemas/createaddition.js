@@ -5,7 +5,7 @@
  */
 StartupEvents.recipeSchemaRegistry((event) => {
   // Input/output component types
-  const Components = e.components
+  const Components = event.components
 
   const anyString = Components.get('anyString')();
   const bool = Components.get('bool')();
