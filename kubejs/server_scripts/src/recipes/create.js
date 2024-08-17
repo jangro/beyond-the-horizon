@@ -17,6 +17,20 @@ ServerEvents.recipes(event => {
   // Crushing
   event.recipes.create.crushing([Item.of('rats:plastic_waste').withChance(0.5)], 'rats:garbage_pile').id(`${ID_PREFIX}crushing/plastic_waste_from_garbage_pile`);
 
+  // Mechanical Crafting
+  event.recipes.create.mechanical_crafting('valhelsia_structures:dungeon_door', [
+    'CCCC',
+    'HWWH',
+    'CWWC',
+    'HSSH',
+    'CCCC'
+  ], {
+    C: '#forge:ingots/steel',
+    W: 'minecraft:dark_oak_planks',
+    H: 'create:shaft',
+    S: '#forge:plates/steel',
+  }).id(`${ID_PREFIX}mechanical_crafting/dungeon_door`);
+  
   // Milling
   event.recipes.create.milling([Item.of('rats:plastic_waste').withChance(0.5)], 'rats:garbage_pile').id(`${ID_PREFIX}milling/plastic_waste_from_garbage_pile`);
 
