@@ -2668,6 +2668,11 @@ hash = "c36d4999997ef0262a28fc057d127e76a1363d9ddf51bee56b05b7f8cbe5fe63"
 metafile = true
 
 [[files]]
+file = "resourcepacks/updated-engineering.pw.toml"
+hash = "c98c7bac98106be2d9f0c157a9f7a5dfc961874cbf45c41f8f533d77f64147df"
+metafile = true
+
+[[files]]
 file = "resourcepacks/xalis-bushy-leaves.pw.toml"
 hash = "8cf6e23385d2c850f847d21682137acd11a580228bd5923e1a6452cf2fa88d89"
 metafile = true
