@@ -1,6 +1,6 @@
 name = "xali's Bushy Leaves"
 filename = "xali's Bushy Leaves v3.5.0.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

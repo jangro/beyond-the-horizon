@@ -1,6 +1,6 @@
 name = "Midnighttigger's Default Connected Textures Addons"
 filename = "Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

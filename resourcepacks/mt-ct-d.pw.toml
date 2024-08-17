@@ -1,6 +1,6 @@
 name = "Midnighttigger's Default Connected Textures"
 filename = "Midnighttiggers-FCT-Default_1.20_V4.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

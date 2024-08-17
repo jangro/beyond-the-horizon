@@ -1,6 +1,6 @@
 name = "Updated Engineering"
 filename = "Updated_Engineering_v1.7.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
