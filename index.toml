@@ -1851,6 +1851,11 @@ hash = "165612664bf8ecd6f5d3ff6a6181293cc1233116f72c71c7a1cbb8c59aca1944"
 metafile = true
 
 [[files]]
+file = "mods/nyctophobia-forge.pw.toml"
+hash = "950a0ff04991442b4f1924d7508e5ea48cb5ae2e751d4a4f9857868c53fa380d"
+metafile = true
+
+[[files]]
 file = "mods/ob-aquamirae.pw.toml"
 hash = "cc24ee332a95fcae64ccb5dd9905fc25b2f8a2ccab500add27f0ff05fc130abf"
 metafile = true
