@@ -3,7 +3,8 @@
 /**
  * @file Recipe Schemas for the Integrated Dynamics mod.
  * 
- * Note: When adding recipes, the convention for the mechanical versions of each 
+ * Note: When adding recipes, the convention for the mechanical drying basin
+ * to be 10x faster than the manual version (ie. duration set to one tenth the value).
  */
 
 StartupEvents.recipeSchemaRegistry((event) => {
