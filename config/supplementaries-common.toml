@@ -112,11 +112,11 @@
 		capacity = 12
 		#Allow right click to instantly eat or drink food or potions inside a placed jar.
 		#Disable if you think this ability is op (honey for example). Cookies are excluded
-		drink_from_jar = false
+		drink_from_jar = true
 		#Allows the player to directly drink from jar items
-		drink_from_jar_item = false
+		drink_from_jar_item = true
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
-		jar_auto_detect = false
+		jar_auto_detect = true
 		#Allow Jars to capture small mobs
 		jar_capture = true
 		#Allow Jars to hold cookies
@@ -324,7 +324,7 @@
 [tools]
 	candy = true
 	stasis = true
-	altimeter = true
+	altimeter = false
 
 	[tools.quiver]
 		enabled = true
@@ -335,7 +335,7 @@
 		slots = 6
 		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
 		#Range: 0.0 ~ 1.0
-		quiver_skeleton_spawn_chance = 0.03
+		quiver_skeleton_spawn_chance = 0.0
 		#Allows quiver to only be used when in offhand or in curio slot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
