@@ -5,10 +5,10 @@
       "item": "minecraft:totem_of_undying"
     },
     "title": {
-      "translate": "Eternal Slumber"
+      "translate": "bth.advancements.adventure.temple_clear.title"
     },
     "description": {
-      "translate": "Slay the Pharaoh and free the Temple from his curse"
+      "translate": "bth.advancements.adventure.temple_clear.description"
     },
     "frame": "challenge",
     "show_toast": true,

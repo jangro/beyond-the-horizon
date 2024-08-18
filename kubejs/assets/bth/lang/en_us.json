@@ -1,12 +1,14 @@
 {
   
   "bth.comment.advancements": "----- Advancements -----",
+  "bth.advancements.adventure.temple_clear.title": "Eternal Slumber",
   "bth.advancements.exploration.chunky_cheese_token.title": "The Portal to Ratlantis",
   "bth.advancements.exploration.ratlantis_loot.title": "Endless Riches",
   "bth.advancements.exploration.root.title": "Beyond The Horizon",
   "bth.advancements.exploration.tiny_coin.title": "The Road to Ratlantis",
   "bth.advancements.exploration.tower.title": "I can see my house from here!",
 
+  "bth.advancements.adventure.temple_clear.description": "Slay the Pharaoh and free the Temple from his curse.",
   "bth.advancements.exploration.chunky_cheese_token.description": "Craft the Chunky Cheese Token.",
   "bth.advancements.exploration.ratlantis_loot.description": "Loot a shipwreck in Ratlantis.",
   "bth.advancements.exploration.root.description": "Your adventure starts here!",
