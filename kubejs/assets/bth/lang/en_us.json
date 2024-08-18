@@ -155,5 +155,8 @@
   "biome.terralith.yosemite_lowlands": "Yosemite Lowlands",
   
   "bth.comment.blocks": "----- Blocks -----",
-  "block.tetra.scroll_wall": "Scroll"
+  "block.tetra.scroll_wall": "Scroll",
+
+  "bth.comment.subtitles": "----- Subtitles -----",
+  "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used"
 }
