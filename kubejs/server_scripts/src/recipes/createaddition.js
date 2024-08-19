@@ -33,6 +33,6 @@ ServerEvents.recipes(event => {
   // | Biofuel   | 24000 |  500000 | Yes          | TODO: Add Biofuel to PNC fuels too, not yet implemented.     |
   // +-----------+-------+---------+--------------+--------------------------------------------------------------+
 
-  event.recipes.createaddition.liquid_burning(Fluid.of('#forge:kerosene 1000'), 60000, true).id(`${ID_PREFIX}kerosene_burning`);
-  event.recipes.createaddition.liquid_burning(Fluid.of('#forge:lpg 1000'), 86400, true).id(`${ID_PREFIX}lpg_burning`);
+  event.recipes.createaddition.liquid_burning({fluidTag: 'forge:kerosene', amount: 1000}, 60000, true).id(`${ID_PREFIX}kerosene_burning`);
+  event.recipes.createaddition.liquid_burning({fluidTag: 'forge:lpg', amount: 1000}, 86400, true).id(`${ID_PREFIX}lpg_burning`);
 });
