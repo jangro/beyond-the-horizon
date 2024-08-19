@@ -59,6 +59,10 @@
       "factor": 2.0
     },
     {
+      "structure": "aether:large_aercloud",
+      "factor": 2
+    },
+    {
       "structure": "aether:silver_dungeon",
       "factor": 2.0
     },

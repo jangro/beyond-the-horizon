@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "deep_aether:aerlavender_fields",
+  "features": "deep_aether:sterling_aercloud",
+  "step": "top_layer_modification"
+}
