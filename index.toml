@@ -1681,6 +1681,11 @@ hash = "7142644b6ee70047ec0eec880a44050cf4fd7e42c94f93dbe85ea7630f2d4500"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
+hash = "d750a538b8c2cafca9efda5ba3d0e886b1f116f1fbb8ae08889b6a97902bbc3f"
+metafile = true
+
+[[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "2f4dd47f2ac99a55c332638116596bbdc38a06ac86336bb662e42c604c3a96e6"
 metafile = true
