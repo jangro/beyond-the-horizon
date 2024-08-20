@@ -17,30 +17,30 @@ StartupEvents.recipeSchemaRegistry((event) => {
 
     // Drying Basin Recipes
     event.register('integrateddynamics:drying_basin', new $RecipeSchema(
-      components.get('inputFluid')().key('fluid'),
-      components.get('inputItem')().key('item'),
       components.get('outputFluidOrItem')().key('result'),
-      components.get('intNumber')().key('duration')
+      components.get('intNumber')().key('duration'),
+      components.get('inputFluid')().key('fluid').defaultOptional(),
+      components.get('inputItem')().key('item').defaultOptional()
     ));
 
     // Mechanical Drying Basin Recipes
     event.register('integrateddynamics:mechanical_drying_basin', new $RecipeSchema(
-      components.get('inputFluid')().key('fluid'),
-      components.get('inputItem')().key('item'),
       components.get('outputFluidOrItem')().key('result'),
-      components.get('intNumber')().key('duration')
+      components.get('intNumber')().key('duration'),
+      components.get('inputFluid')().key('fluid').defaultOptional(),
+      components.get('inputItem')().key('item').defaultOptional()
     ));
 
     // Squeezer Recipes
     event.register('integrateddynamics:squeezer', new $RecipeSchema(
-      components.get('inputItem')().key('item'),
-      components.get('outputFluidOrItem')().key('result')
+      components.get('outputFluidOrItem')().key('result'),
+      components.get('inputItem')().key('item')
     ));
 
     // Mechanical Squeezer Recipes
     event.register('integrateddynamics:mechanical_squeezer', new $RecipeSchema(
-      components.get('inputItem')().key('item'),
       components.get('outputFluidOrItem')().key('result'),
+      components.get('inputItem')().key('item'),
       components.get('intNumber')().key('duration')
     ));
   }

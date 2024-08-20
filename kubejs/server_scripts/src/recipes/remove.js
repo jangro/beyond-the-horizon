@@ -61,6 +61,7 @@ ServerEvents.recipes(event => {
     'immersive_aircraft:propeller',
     'immersiveengineering:crafting/hammercrushing_uranium',
     'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
+    'immersiveengineering:crafting/ingot_silver_to_nugget_silver',
     'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
     'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
     'immersiveengineering:crafting/nugget_copper_to_copper_ingot',
