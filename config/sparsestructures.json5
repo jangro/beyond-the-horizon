@@ -30,7 +30,7 @@
     // Minecraft
     {
       "structure": "minecraft:villages",
-      "factor": 2.5
+      "factor": 4
     },
     {
       "structure": "minecraft:bastion_remnant",
@@ -52,11 +52,11 @@
     // Aether (and add-ons)
     {
       "structure": "aether:bronze_dungeon",
-      "factor": 2.0
+      "factor": 2
     },
     {
       "structure": "aether:gold_dungeon",
-      "factor": 2.0
+      "factor": 2
     },
     {
       "structure": "aether:large_aercloud",
@@ -64,19 +64,19 @@
     },
     {
       "structure": "aether:silver_dungeon",
-      "factor": 2.0
+      "factor": 2
     },
     {
       "structure": "aether_villages:olympic_citadel",
-      "factor": 2.0
+      "factor": 2
     },
     {
       "structure": "deep_aether:lake_oasis",
-      "factor": 1.5
+      "factor": 2
     },
     {
       "structure": "lost_aether_content:platinum_dungeon",
-      "factor": 2.0
+      "factor": 2
     },
 
     // Applied Energistics 2
@@ -105,8 +105,12 @@
 
     // Yung's Better Structures
     {
+      "structure": "betterdeserttemples:desert_temple",
+      "factor": 2
+    },
+    {
       "structure": "betterfortresses:fortress",
-      "factor": 1.5
+      "factor": 2
     },
     {
       "structure": "betteroceanmonuments:ocean_monument",
@@ -126,131 +130,136 @@
     // Edidolon
     {
       "structure": "eidolon:stray_tower",
-      "factor": 1
+      "factor": 2
     },
 
     // The Graveyard
     {
-      "structure": "graveyard:altar_structure",
+      "structure": "graveyard:altar",
       "factor": 2
     },
     {
-      "structure": "graveyard:crypt_structure",
+      "structure": "graveyard:crypt",
       "factor": 2
     },
     {
-      "structure": "graveyard:dead_tree_structure",
+      "structure": "graveyard:dead_tree",
       "factor": 2
     },
     {
-      "structure": "graveyard:giant_mushroom_structure",
+      "structure": "graveyard:giant_mushroom",
       "factor": 2
     },
     {
-      "structure": "graveyard:haunted_house_structure",
+      "structure": "graveyard:haunted_house",
       "factor": 2
     },
     {
-      "structure": "graveyard:large_graveyard_structure",
+      "structure": "graveyard:large_graveyard",
       "factor": 2
     },
     {
-      "structure": "graveyard:lich_prison_structure",
+      "structure": "graveyard:lich_prison",
       "factor": 2
     },
     {
-      "structure": "graveyard:medium_graveyard_structure",
+      "structure": "graveyard:medium_graveyard",
       "factor": 2
     },
     {
-      "structure": "graveyard:memorial_tree_structure",
+      "structure": "graveyard:memorial_tree",
       "factor": 2
     },
     {
-      "structure": "graveyard:mushroom_grave_structure",
+      "structure": "graveyard:mushroom_grave",
       "factor": 2
     },
     {
-      "structure": "graveyard:ruins_structure",
+      "structure": "graveyard:ruins",
       "factor": 2
     },
     {
-      "structure": "graveyard:small_desert_grave_structure",
+      "structure": "graveyard:small_desert_grave",
       "factor": 2
     },
     {
-      "structure": "graveyard:small_desert_graveyard_structure",
+      "structure": "graveyard:small_desert_graveyard",
       "factor": 2
     },
     {
-      "structure": "graveyard:small_grave_structure",
+      "structure": "graveyard:small_grave",
       "factor": 2
     },
     {
-      "structure": "graveyard:small_graveyard_structure",
+      "structure": "graveyard:small_graveyard",
       "factor": 2
     },
     {
-      "structure": "graveyard:small_mountain_grave_structure",
+      "structure": "graveyard:small_mountain_grave",
       "factor": 2
     },
     {
-      "structure": "graveyard:small_savanna_grave_structure",
+      "structure": "graveyard:small_savanna_grave",
       "factor": 2
+    },
+
+
+    // Integrated Dungeons and Structures (IDAS)
+    {
+      "structure": "idas:apothecary_abode",
+      "factor": 2
+    },
+    {
+      "structure": "idas:tree_of_wisdom",
+      "factor": 4
     },
 
     // Iron's Spells and Spellbooks
     {
+      "structure": "irons_spellbooks:evoker_fort",
+      "factor": 2
+    },
+    {
+      "structure": "irons_spellbooks:impaled_icebreaker",
+      "factor": 2
+    },
+    {
+      "structure": "irons_spellbooks:mangrove_hut",
+      "factor": 2
+    },
+    {
       "structure": "irons_spellbooks:mountain_tower",
+      "factor": 2
+    },
+    {
+      "structure": "irons_spellbooks:pyromancer_tower",
+      "factor": 2
+    },
+
+    // Tax's deep villages
+    {
+      "structure": "seavil:undersea_village",
       "factor": 2
     },
 
     // Terralith
     {
-      "structure": "terralith:rare_village",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:mage_tower",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:rubble_desert",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:rubble_forest",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:rubble_jungle",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:rubble_mesa",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:rubble_mountain",
-      "factor": 2
-    },
-    {
-      "structure": "terralith:rubble_taiga",
+      "structure": "terralith:mage_complex",
       "factor": 2
     },
 
     // Towns and Towers
     {
       "structure": "towns_and_towers:other",
-      "factor": 2
+      "factor": 4
     },
     {
       "structure": "towns_and_towers:towers",
-      "factor": 2
+      "factor": 4
     },
     {
       "structure": "towns_and_towers:towns",
-      "factor": 2
+      "factor": 4
     },
 
     // The Lost Castle
@@ -262,47 +271,47 @@
     // Valhelsia Structures
     {
       "structure": "valhelsia_structures:big_trees",
-      "factor": 1.5
+      "factor": 2
     },
     {
       "structure": "valhelsia_structures:castle_ruins",
-      "factor": 2
+      "factor": 4
     },
     {
       "structure": "valhelsia_structures:castles",
-      "factor": 2
+      "factor": 4
     },
     {
       "structure": "valhelsia_structures:deep_spawner_rooms",
-      "factor": 1.5
+      "factor": 2
     },
     {
       "structure": "valhelsia_structures:desert_houses",
-      "factor": 1
+      "factor": 4
     },
     {
       "structure": "valhelsia_structures:forges",
-      "factor": 2
+      "factor": 4
     },
     {
       "structure": "valhelsia_structures:player_houses",
-      "factor": 1.0
+      "factor": 3
     },
     {
       "structure": "valhelsia_structures:spawner_dungeons",
-      "factor": 1.5
+      "factor": 2
     },
     {
       "structure": "valhelsia_structures:spawner_rooms",
-      "factor": 1.5
+      "factor": 2
     },
     {
       "structure": "valhelsia_structures:tower_ruins",
-      "factor": 2
+      "factor": 4
     },
     {
       "structure": "valhelsia_structures:witch_huts",
-      "factor": 2
+      "factor": 4
     },
 
   ]

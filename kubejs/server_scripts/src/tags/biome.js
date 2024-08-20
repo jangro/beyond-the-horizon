@@ -32,7 +32,46 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Remove these structures from all biomes:
   [
+    'bth_structures:has_structure/tower_forest',
+    'bth_structures:has_structure/tower_frozen',
+    'bth_structures:has_structure/tower_scarlet',
+
     'eidolon:has_structure/stray_tower_biomes',
+
+    'graveyard:has_structure/altar',
+    'graveyard:has_structure/dead_tree',
+    'graveyard:has_structure/haunted_house',
+    'graveyard:has_structure/giant_mushroom',
+    'graveyard:has_structure/large_graveyard',
+    'graveyard:has_structure/medium_graveyard',
+    'graveyard:has_structure/small_desert_grave',
+    'graveyard:has_structure/small_desert_graveyard',
+    'graveyard:has_structure/small_grave',
+    'graveyard:has_structure/small_graveyard',
+    'graveyard:has_structure/small_mountain_grave',
+    'graveyard:has_structure/small_savanna_grave',
+    'graveyard:has_structure/ruins',
+
+    'idas:has_structure/ancient_mines_biomes',
+    'idas:has_structure/apothecary_abode_biomes',
+    'idas:has_structure/archmages_tower_biomes',
+    'idas:has_structure/bearclaw_inn_biomes',
+    'idas:has_structure/beekeepers_house_biomes',
+    'idas:has_structure/dig_site_biomes',
+    'idas:has_structure/farmhouse_biomes',
+    'idas:has_structure/hauntedhouse_biomes',
+    'idas:has_structure/hunters_cabin_biomes',
+    'idas:has_structure/hermits_hollow_biomes',
+    'idas:has_structure/pillager_fortress_biomes',
+    'idas:has_structure/redhorn_guild_biomes',
+    'idas:has_structure/ruins_of_the_deep_biomes',
+    'idas:has_structure/sunken_ship_coral_biomes',
+    'idas:has_structure/tree_of_wisdom_biomes',
+    'idas:has_structure/witches_treestump_biomes',
+
+    'irons_spellbooks:has_structure/evoker_fort',
+    'irons_spellbooks:has_structure/mountain_tower',
+    'irons_spellbooks:has_structure/pyromancer_tower',
 
     'minecolonies:has_structure/asian_colony',
     'minecolonies:has_structure/caledonia_colony',
@@ -47,24 +86,91 @@ ServerEvents.tags('worldgen/biome', event => {
     'minecolonies:has_structure/shire_colony',
     'minecolonies:has_structure/warpednetherlands_colony',
 
-    'bth_structures:has_structure/tower_forest',
-    'bth_structures:has_structure/tower_frozen',
-    'bth_structures:has_structure/tower_scarlet',
+    'paraglider:has_structure/nether_horned_statue',
+    'paraglider:has_structure/tarrey_town_goddess_statue',
+    'paraglider:has_structure/underground_horned_statue',
 
+    'ribbits:has_structure/ribbit_village',
+
+    'terralith:has_structure/desert_outpost',
+    'terralith:has_structure/fortified_village',
+    'terralith:has_structure/mage_complex',
+    'terralith:has_structure/mage_tower',
+    'terralith:has_structure/rubble_desert',
+    'terralith:has_structure/rubble_forest',
+    'terralith:has_structure/rubble_forest',
+    'terralith:has_structure/rubble_jungle',
+    'terralith:has_structure/rubble_mesa',
+    'terralith:has_structure/rubble_mountain',
+    'terralith:has_structure/spire', // save for Ad Astra's Glacio
     'terralith:has_structure/witch_hut',
 
-    // We plan to have spires only generate in Glacio when adding Ad Astra so disable it here
-    'terralith:has_structure/spire',
+    'valhelsia_structures:has_structure/big_tree',
+    'valhelsia_structures:has_structure/has_forge',
+    'valhelsia_structures:has_structure/spawner_dungeon',
 
   ].forEach((tag) => event.removeAll(tag));
+
+  // BTH
+  event.add('bth:house_biomes', '#minecraft:is_forest');
+
+  // BTH Structures
+  event.add('bth_structures:has_structure/tower_frozen', '#bth:is_frozen_tower_biome');
+  event.add('bth_structures:has_structure/tower_forest', '#bth:is_forest_tower_biome');
+  event.add('bth_structures:has_structure/tower_scarlet', '#bth:is_scarlet_tower_biome');
 
   // Eidolon - Stray Towers spawn only in snowy mountains.
   event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_frozen_tower_biome');
 
-  // BTH - Tower biome settings
-  event.add('bth_structures:has_structure/tower_frozen', '#bth:is_frozen_tower_biome');
-  event.add('bth_structures:has_structure/tower_forest', '#bth:is_forest_tower_biome');
-  event.add('bth_structures:has_structure/tower_scarlet', '#bth:is_scarlet_tower_biome');
+  event.add('graveyard:has_structure/haunted_house', ['nyctophobia:haunted_forest']);
+  event.add('graveyard:has_structure/medium_graveyard', ['#forge:is_spooky']);
+  event.add('graveyard:has_structure/small_grave', ['#forge:is_spooky']);
+  event.add('graveyard:has_structure/ruins', ['#forge:is_spooky']);
+  event.add('graveyard:has_structure/giant_mushroom', ['minecraft:mushroom_fields']);
+
+  // Iron's Spellbooks
+  event.add('irons_spellbooks:has_structure/evoker_fort', ['minecraft:snowy_plains']);
+  event.add('irons_spellbooks:has_structure/mountain_tower', ['minecraft:stony_peaks', 'terralith:rocky_mountains']);
+  event.add('irons_spellbooks:has_structure/pyromancer_tower', ['terralith:volcanic_peaks']);
+
+  // Integrated Dungeons and Structures (IDAS)
+  event.add('bth_idas:brickhouse_biomes', ['minecraft:birch_forest']);
+  event.add('bth_idas:castle_biomes', ['terralith:forested_highlands']);
+  event.add('bth_idas:cottage_biomes', ['minecraft:old_growth_birch_taiga']);
+  event.add('bth_idas:enchanting_tower_biomes', ['ars_nouveau:archwood_forest']);
+  event.add('bth_idas:pillager_camp_biomes', ['minecraft:dark_forest']);
+  event.add('bth_idas:wizard_tower_biomes', ['minecraft:dark_forest']);
+  event.add('bth_idas:tinkers_workshop_biomes', ['minecraft:savanna_plateau']);
+  event.add('bth_idas:tinkers_citadel_biomes', ['terralith:savanna_badlands']);
+  event.add('idas:has_structure/ancient_mines_biomes', ['minecraft:plains']);
+  event.add('idas:has_structure/apothecary_abode_biomes', ['terralith:lavender_forest', 'terralith:lavender_valley', 'terralith:moonlight_valley']);
+  event.add('idas:has_structure/archmages_tower_biomes', ['terralith:moonlight_grove', 'terralith:moonlight_valley']);
+  event.add('idas:has_structure/bearclaw_inn_biomes', ['minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']);
+  event.add('idas:has_structure/beekeepers_house_biomes', ['minecraft:forest']);
+  event.add('idas:has_structure/dig_site_biomes', ['minecraft:plains', 'minecraft:meadow', 'terralith:highlands']);
+  event.add('idas:has_structure/farmhouse_biomes', ['terralith:brushland']);
+  event.add('idas:has_structure/hauntedhouse_biomes', ['nyctophobia:deep_dark_forest']);
+  event.add('idas:has_structure/hermits_hollow_biomes', ['minecraft:plains']);
+  event.add('idas:has_structure/hunters_cabin_biomes', ['terralith:highlands', 'terralith:forested_highlands', 'terralith:lush_valley']);
+  event.add('idas:has_structure/pillager_fortress_biomes', ['terralith:shield']);
+  event.add('idas:has_structure/redhorn_guild_biomes', ['terralith:forested_highlands']);
+  event.add('idas:has_structure/ruins_of_the_deep_biomes', ['minecraft:taiga']);
+  event.add('idas:has_structure/train_ruins_biomes', ['terralith:highlands']);
+  event.add('idas:has_structure/tree_of_wisdom_biomes', ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest', 'terralith:blooming_valley']);
+  event.add('idas:has_structure/witches_treestump_biomes', ['minecraft:dark_forest']);
+
+  // Nebulus Oak Tree (the medium sized custom tree)
+  event.add('bth:nebulus_tree_biomes', ['minecraft:plains']);
+
+  // Ribbit village
+  event.add('ribbits:has_structure/ribbit_village', ['minecraft:swamp']);
+
+  // Terralith
+  event.add('terralith:has_structure/mage_complex', ['terralith:moonlight_grove', 'terralith:moonlight_valley']);
+
+  // Valhelsia Structures
+  event.add('valhelsia_structures:big_tree', ['minecraft:meadow']);
+  event.add('valhelsia_structures:spawner_dungeon', ['minecraft:forest']);
 
   // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
   // [Vaelzan]: It uses the Minecraft jungle temple tag by default, so that might be why you couldn't remove the individual biome.
