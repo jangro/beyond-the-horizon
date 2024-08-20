@@ -1,8 +1,8 @@
 // priority: 100
 
-StartupEvents.recipeSchemaRegistry((e) => {
+StartupEvents.recipeSchemaRegistry((event) => {
   // Input/output component types
-  const Components = e.components
+  const Components = event.components
 
   const anyString = Components.get('anyString')()
   const bool = Components.get('bool')()
@@ -28,44 +28,46 @@ StartupEvents.recipeSchemaRegistry((e) => {
   const inputFluidOrItem = Components.get('inputFluidOrItem')()
   const outputFluidOrItem = Components.get('outputFluidOrItem')()
 
-  let baseIngredient = new $RecipeComponentBuilder(1)
-      .add(anyString.key('item'))
-
-  let crusherOutputItem = outputItem.or(
+  let ieInputItem = inputItem.or(
     new $RecipeComponentBuilder(2)
-      .add(baseIngredient.key('base_ingredient'))
-      .add(intNumber.key('count')) // count doesn't transfer on replaceOutput
+      .add(inputItem.key('base_ingredient'))
+      .add(intNumber.key('count'))
+      .inputRole()
+  );
+
+  let ieOutputItem = outputItem.or(
+    new $RecipeComponentBuilder(2)
+      .add(outputItem.key('base_ingredient'))
+      .add(intNumber.key('count'))
       .outputRole()
-  )
+  );
 
   // Immersive Engineering
   if (Platform.isLoaded('immersiveengineering')) {
-    e.register(
+    event.register(
       'immersiveengineering:hammer_crushing',
       new $RecipeSchema(outputItem.key('result'), inputItem.key('input'))
-    )
+    );
 
-    e.register(
+    event.register(
       'immersiveengineering:metal_press',
       new $RecipeSchema(
-        outputItem.key('result'),
-        inputItem.key('input'),
+        ieOutputItem.key('result'),
+        ieInputItem.key('input'),
         anyString.key('mold'),
         intNumber.key('energy').alwaysWrite().optional(2400),
       )
-    )
+    );
 
-    // FIXME: add secondaries and count (not easy!)
-    e.register(
+    event.register(
       'immersiveengineering:crusher',
       new $RecipeSchema(
-        crusherOutputItem.key('result'),
-        inputItem.key('input'),
+        ieOutputItem.key('result'),
+        ieInputItem.key('input'),
         intNumber.key('energy').alwaysWrite().optional(6000),
         outputItemArray.key('secondaries').alwaysWrite().optional([]),
       )
-    )
+    );
 
-    console.log('Recipe Schemas for create loaded.')
   }
-})
+});

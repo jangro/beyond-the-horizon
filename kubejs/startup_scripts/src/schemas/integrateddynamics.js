@@ -8,12 +8,19 @@
  */
 
 StartupEvents.recipeSchemaRegistry((event) => {
-  const components = event.components;
-
   if (Platform.isLoaded('integrateddynamics')) {
+    const components = event.components;
 
-    // FIXME: This is currently untested and WIP. I suspect that some small tweaks will be needed.
-    // Notably, the squeezer output can take both items and a fluid, and seems to be non-standard format.
+    let idOutputItem = 
+      new $RecipeComponentBuilder(2)
+        .add(components.get('outputItem')().key('item'))
+        .add(components.get('floatNumber')().key('chance').defaultOptional())
+        .outputRole().or(components.get('outputItem')());
+
+    let outputFluidAndOrItem = new $RecipeComponentBuilder(2)
+      .add(idOutputItem.asArray().key('items').defaultOptional())
+      .add(components.get('outputFluid')().key('fluid').defaultOptional())
+      .outputRole();
 
     // Drying Basin Recipes
     event.register('integrateddynamics:drying_basin', new $RecipeSchema(
@@ -33,13 +40,13 @@ StartupEvents.recipeSchemaRegistry((event) => {
 
     // Squeezer Recipes
     event.register('integrateddynamics:squeezer', new $RecipeSchema(
-      components.get('outputFluidOrItem')().key('result'),
+      outputFluidAndOrItem.key('result'),
       components.get('inputItem')().key('item')
     ));
 
     // Mechanical Squeezer Recipes
     event.register('integrateddynamics:mechanical_squeezer', new $RecipeSchema(
-      components.get('outputFluidOrItem')().key('result'),
+      outputFluidAndOrItem.key('result'),
       components.get('inputItem')().key('item'),
       components.get('intNumber')().key('duration')
     ));
