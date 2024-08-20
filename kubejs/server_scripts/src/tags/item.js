@@ -58,13 +58,6 @@ ServerEvents.tags('item', event => {
     'pneumaticcraft:wheat_flour',
   ]);
 
-  // Remove tags from IE ingots so our options get picked instead.
-  // [Vaelzan]: This is probably not the best way to handle this as it prevents them being used
-  //            as inputs in recipes too (in case a player somehow obtains some).
-  event.get('forge:ingots/lead').remove('immersiveengineering:ingot_lead');
-  event.get('forge:ingots/silver').remove('immersiveengineering:ingot_silver');
-  event.get('forge:ingots/uranium').remove('immersiveengineering:ingot_uranium');
-
   event.add('forge:ingots', [
     'alexscaves:uranium',
   ]);
@@ -73,13 +66,13 @@ ServerEvents.tags('item', event => {
     'forbidden_arcanus:deorum_ingot',
   ]); 
   
-  event.add('forge:nuggets/arcane_gold', [
-    'forbidden_arcanus:deorum_nugget',
-  ]); 
-  
   event.add('forge:ingots/uranium', [
     'alexscaves:uranium',
   ]);
+  
+  event.add('forge:nuggets/arcane_gold', [
+    'forbidden_arcanus:deorum_nugget',
+  ]); 
   
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
@@ -98,13 +91,25 @@ ServerEvents.tags('item', event => {
   event.add('forge:ores/uranium', [
     'alexscaves:radrock_uranium_ore',
   ]);
-  
-  // Remove tags from IE ores so our options get picked instead.
-  // [Vaelzan]: This is probably not the best way to handle this as it prevents them being used
-  //            as inputs in recipes too (in case a player somehow obtains some).
-  event.get('forge:raw_materials/lead').remove('immersiveengineering:raw_lead');
-  event.get('forge:raw_materials/silver').remove('immersiveengineering:raw_silver');
-  event.get('forge:raw_materials/uranium').remove('immersiveengineering:raw_uranium');
+
+  event.add('forge:plates', [
+    'createdeco:andesite_sheet',
+    'createdeco:industrial_iron_sheet',
+    'createdeco:netherite_sheet',
+    'immersiveengineering:plate_duroplast',
+  ]);
+
+  event.add('forge:plates/andesite', [
+    'createdeco:andesite_sheet',
+  ]);
+
+  event.add('forge:plates/industrial_iron', [
+    'createdeco:industrial_iron_sheet',
+  ]);
+
+  event.add('forge:plates/netherite', [
+    'createdeco:netherite_sheet',
+  ]);
 
   event.add('forge:storage_blocks/arcane_gold', [
     'forbidden_arcanus:deorum_block',
