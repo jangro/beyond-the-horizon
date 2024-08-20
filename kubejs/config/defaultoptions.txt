@@ -2,7 +2,7 @@ version:3465
 autoJump:false
 enableVsync:false
 realmsNotifications:false
-renderDistance:12
+renderDistance:8
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
