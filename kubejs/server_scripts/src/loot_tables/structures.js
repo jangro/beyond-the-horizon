@@ -225,8 +225,8 @@ LootJS.modifiers((event) => {
       'towns_and_towers:village_sparse_jungle',
       'valhelsia_structures:desert_house',
     ], false)
-    .addLoot(LootEntry.of(JUNGLE_TEMPLE_MAP).when((c) => c.randomChance(0.1)))
-    .addLoot(LootEntry.of(DESERT_TEMPLE_MAP).when((c) => c.randomChance(0.1)));
+    .addLoot(LootEntry.of(JUNGLE_TEMPLE_MAP).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of(DESERT_TEMPLE_MAP).when((c) => c.randomChance(0.05)));
 });
 
 // Add Ancient City map to the following structures with different chances
