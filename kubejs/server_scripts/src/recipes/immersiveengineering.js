@@ -12,30 +12,35 @@ ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:immersiveengineering/';
 
   // Metal Press Recipes - Plates / Sheets
-  event.recipes.immersiveengineering.metal_press(
-    'createdeco:andesite_sheet',
-    'create:andesite_alloy',
-    'immersiveengineering:mold_plate'
-  ).id(`${ID_PREFIX}metalpress/andesite_sheet`);
-  
-  event.recipes.immersiveengineering.metal_press(
-    'createdeco:industrial_iron_sheet',
-    'createdeco:industrial_iron_ingot',
-    'immersiveengineering:mold_plate'
-  ).id(`${ID_PREFIX}metalpress/industrial_iron_sheet`);
 
-  event.recipes.immersiveengineering.metal_press(
-    'createdeco:netherite_sheet',
-    '#forge:ingots/netherite',
-    'immersiveengineering:mold_plate'
-  ).id(`${ID_PREFIX}metalpress/netherite_sheet`);
+  // Ad Astra
+  if (Platform.isLoaded('ad_astra')) {
+    event.recipes.immersiveengineering.metal_press('ad_astra:calorite_plate', '#forge:ingots/calorite', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/calorite_plate`);
+    event.recipes.immersiveengineering.metal_press('ad_astra:desh_plate', '#forge:ingots/desh', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/desh_plate`);
+    event.recipes.immersiveengineering.metal_press('ad_astra:ostrum_plate', '#forge:ingots/ostrum', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/ostrum_plate`);
+  }
+  
+  // Create Deco
+  if (Platform.isLoaded('create')) {
+    if (Platform.isLoaded('createdeco')) {
+      event.recipes.immersiveengineering.metal_press('createdeco:andesite_sheet', 'create:andesite_alloy', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/andesite_sheet`);
+      event.recipes.immersiveengineering.metal_press('createdeco:industrial_iron_sheet', 'createdeco:industrial_iron_ingot', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/industrial_iron_sheet`);
+      event.recipes.immersiveengineering.metal_press('createdeco:netherite_sheet', '#forge:ingots/netherite', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/netherite_sheet`);
+    }
+  }
+
+  if (Platform.isLoaded('pneumaticcraft')) {
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '3x rats:raw_plastic').id(`${ID_PREFIX}metalpress/plastic_from_raw_plastic`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:plastic_bricks').id(`${ID_PREFIX}metalpress/plastic_from_plastic_bricks`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:smooth_plastic_bricks').id(`${ID_PREFIX}metalpress/plastic_from_smooth_plastic_bricks`);
+  }
 
   // Metal Press Recipes - Rods
-  event.recipes.immersiveengineering.metal_press(
-    'upgrade_aquatic:prismarine_rod',
-    'minecraft:prismarine_shard',
-    'immersiveengineering:mold_rod'
-  ).id(`${ID_PREFIX}metalpress/prismarine_rod`);
+
+  // Upgrade Aquatic
+  if (Platform.isLoaded('upgrade_aquatic')) {
+    event.recipes.immersiveengineering.metal_press('upgrade_aquatic:prismarine_rod', 'minecraft:prismarine_shard', 'immersiveengineering:mold_rod').id(`${ID_PREFIX}metalpress/prismarine_rod`);
+  }
 
   // Crusher Recipes
   // Replace IE recipes to switch grit/dust for Create crushed ores
