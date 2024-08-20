@@ -1,19 +1,19 @@
 {
     "name": "Ocean's Delight",
-    "icon": "oceansdelight:raw_clam",
+    "icon": "oceansdelight:guardian",
     "category": "patchouli:food",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Ocean's Delight lets you dive into the depths of the ocean for new ingredients and recipes. $(br2)Harvest clams, fish, and seaweed to cook up a storm."
+            "text": "Ocean's Delight lets you dive into the depths of the ocean for new ingredients and recipes. $(br2)Harvest Guardians, Tentacles, and Sea Pickles to cook up a storm."
         },
         {
             "type": "patchouli:text",
-            "text": "Start by collecting Raw Clams and crafting a Seaweed Steamer. $(br2)Prepare dishes like Steamed Clams, Kelp Wraps, and Grilled Fish for a maritime feast."
+            "text": "Start by doing some fishing, clearing out an Ocean Temple, and harvesting kelp and pickles from the seabed. $(br2)Prepare dishes like Squid Rings, Honey Fried Kelp, Cabbage Wrapped Elder Guardian, and Braised Sea Picles for a maritime feast worthy of Neptune himself."
         },
         {
             "type": "patchouli:text",
-            "text": "Add a splash of saltwater to your meals with Ocean's Delight and satisfy your oceanic cravings with every bite!"
+            "text": "Add a splash of salt to your meals with Ocean's Delight and satisfy your oceanic cravings with every bite!"
         }
     ]
 }

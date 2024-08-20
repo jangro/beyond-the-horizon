@@ -1,6 +1,6 @@
 {
     "name": "Alex's Delight",
-    "icon": "alexsdelight:alexs_meat_stew",
+    "icon": "alexsdelight:kangaroo_stew",
     "category": "patchouli:food",
     "pages": [
         {
@@ -9,11 +9,7 @@
         },
         {
             "type": "patchouli:text",
-            "text": "Start by gathering ingredients like Lobster Tails, Orca Whiskers, and Shoebill Feathers. $(br2)Use them to craft new recipes like Alex's Meat Stew, Shoebill Salad, and more."
-        },
-        {
-            "type": "patchouli:text",
-            "text": "Each dish provides unique effects to aid you on your adventures. $(br2)Boost your health, gain speed, or regenerate faster with these flavorful meals from Alex's Delight!"
+            "text": "Start by gathering ingredients like Kangaroo or Bison Meat. $(br2)Using a Cutting Board and Knife, they can be broken down into usable cuts of meat. $(br2)Use them to craft new recipes like Kangaroo Stew, Bison Burgers, and more."
         }
     ]
 }

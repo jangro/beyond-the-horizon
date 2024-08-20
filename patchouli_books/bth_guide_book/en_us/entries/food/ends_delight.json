@@ -1,15 +1,15 @@
 {
     "name": "End's Delight",
-    "icon": "endsdelight:chorus_cake",
+    "icon": "ends_delight:chorus_fruit_pie",
     "category": "patchouli:food",
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "End's Delight brings new culinary creations to the mysterious End dimension. $(br2)Cook up unique recipes using chorus fruit, Ender pearls, and other exotic ingredients."
+            "text": "End's Delight brings new culinary creations to the mysterious End dimension. $(br2)Cook up unique recipes using Chorus Fruit, Dragon Meat, or even Roasted Shulker."
         },
         {
             "type": "patchouli:text",
-            "text": "Start by crafting a Chorus Cake using chorus fruit and other ingredients. $(br2)Enjoy dishes like Ender Stir Fry and Void Soup, and enhance your meals with Phantom Jelly."
+            "text": "Start by crafting a Chorus Fruit Pie using chorus fruit and other ingredients. $(br2)Enjoy dishes like Ender Noodles and Shulker Soup."
         },
         {
             "type": "patchouli:text",
