@@ -1737,6 +1737,11 @@ hash = "21767a26f0b81ce406431c8e7bef0be3d0f1b8b109b9748a5ebbda1a18417aec"
 metafile = true
 
 [[files]]
+file = "mods/haunted-harvest.pw.toml"
+hash = "13ba709686972ea1e5e4c76d30fea017d49b90bfc0e1528956a035f8e0703b40"
+metafile = true
+
+[[files]]
 file = "mods/healing-campfire.pw.toml"
 hash = "c13c08f6d9ad7a8f2939f6bb5e55f7953fc465d8d29756b957035fc1dbf05a8a"
 metafile = true
