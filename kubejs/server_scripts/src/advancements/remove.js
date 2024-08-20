@@ -14,6 +14,7 @@ const ADVANCEMENTS_TO_REMOVE = [
   'irons_spellbooks:advancements/grant_patchouli.json',
   'paraglider:advancements/statues_bargain.json',
   'paraglider:advancements/pray_to_the_goddess.json',
+  'seavil:advancements/setup_undersea.json',
   'simplyswords:advancements/grant_book_on_first_join.json',
 ];
 
