@@ -11,8 +11,10 @@
  * JEI Item Hiding Event Handler
  */
 JEIEvents.hideItems(event => {
+  // VZ: Why is event.hide(...) marked as deprecated by KubeJS?
   event.hide([
     'ae2:facade',
+    'aether:aether_portal_frame',
     'bbb:rope',
     'buzzier_bees:honey_apple',
     /clayworks:.*terracotta_brick.*/,
