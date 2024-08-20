@@ -9,3 +9,5 @@ Platform.mods.bth.name = 'Beyond the Horizon';
 Platform.mods.kubejs.name = 'Beyond the Horizon';
 Platform.mods.butchersdelight.name = 'Butcher\'s Delight'; // Fix missing punctuation and space.
 Platform.mods.eidolon.name = 'Eidolon: Repraised'; // Fix missing space.
+Platform.mods.tetra.name = 'Tetra'; // Fix capitalisation.
+Platform.mods.tetracelium.name = 'Tetra'; // Fix capitalisation.
