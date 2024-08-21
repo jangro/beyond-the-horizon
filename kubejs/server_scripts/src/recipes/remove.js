@@ -13,11 +13,11 @@ ServerEvents.recipes(event => {
   COLORS.forEach((color) => event.remove({id: `upgrade_aquatic:${color}_bedroll`}));
   COLORS.forEach((color) => event.remove({id: `valhelsia_structures:${color}_sleeping_bag`}));
 
-  // Remove all Waystones recipes
-  event.remove({mod: `waystones`});
-
   // Remove all Rustic Engineer recipes, we add our own for a subset of the items
   event.remove({mod: `rustic_engineer`});
+
+  // Remove all Waystones recipes
+  event.remove({mod: `waystones`});
 
   // Remove recipes by recipe ID:
   [
@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
     'alexscaves:gunpowder_from_sulfur',
     'ars_nouveau:drygmy_charm',
     'ars_nouveau:whirlisprig_charm',
+    'botania:pure_daisy/sand',
     'buzzier_bees:honey/honey_apple',
     /clayworks:.*terracotta_brick.*/,
     'create:blasting/ingot_silver_compat_immersiveengineering',
