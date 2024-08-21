@@ -70,5 +70,16 @@ StartupEvents.recipeSchemaRegistry((event) => {
         components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
       )
     );
+
+    // Blast Furnace Fuel
+    // TODO
+
+    // Fertilizer
+    // TODO
+
+    // Garden Cloche
+    // TODO
+
+    
   }
 });

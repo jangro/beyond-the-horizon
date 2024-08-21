@@ -24,8 +24,20 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.metal_press(output, input, 'immersiveengineering:mold_unpacking').id(`${ID_PREFIX}metal_press/unpacking/${OutputItem.of(output).item.id.replace(':', '/')}_from_${InputItem.of(input).ingredient.first.id.replace(':', '_')}`);
   };
 
-  // Metal Press Recipes - Plates / Sheets
+  // Metal Press Recipes - Gears
+  // Create
+  if (Platform.isLoaded('create')) {
+    event.recipes.immersiveengineering.metal_press('create:cogwheel', 'create:andesite_alloy', 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/cogwheel`);
+  }
+  // Immersive Engineering
+  event.recipes.immersiveengineering.metal_press('immersiveengineering:sawblade', '6x #forge:ingots/steel', 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/sawblade`);
 
+  // PneumaticCraft
+  if (Platform.isLoaded('pneumaticcraft')) {
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:compressed_iron_gear', '4x #forge:ingots/compressed_iron', 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/compressed_iron_gear`);
+  }
+
+  // Metal Press Recipes - Plates / Sheets
   // Ad Astra
   if (Platform.isLoaded('ad_astra')) {
     event.recipes.immersiveengineering.metal_press('ad_astra:calorite_plate', '#forge:ingots/calorite', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metal_press/calorite_plate`);
@@ -60,6 +72,33 @@ ServerEvents.recipes(event => {
   // Upgrade Aquatic
   if (Platform.isLoaded('upgrade_aquatic')) {
     event.recipes.immersiveengineering.metal_press('upgrade_aquatic:prismarine_rod', 'minecraft:prismarine_shard', 'immersiveengineering:mold_rod').id(`${ID_PREFIX}metal_press/prismarine_rod`);
+  }
+
+  // Metal Press Recipes - Unpacking
+  
+  // Minecraft
+  unpack('9x minecraft:dried_kelp', 'minecraft:dried_kelp_block');
+  unpack('4x minecraft:nether_wart', 'minecraft:nether_wart_block');
+
+  // Atmospheric
+  if (Platform.isLoaded('atmospheric')) {
+    unpack('9x atmospheric:aloe_leaves', 'atmospheric:aloe_bundle');
+    unpack('9x atmospheric:barrel_cactus', 'atmospheric:barrel_cactus_batch');
+    unpack('9x atmospheric:passion_vine', 'atmospheric:passion_vine_bundle');
+  }
+
+  // Autumnity
+  if (Platform.isLoaded('autumnity')) {
+    unpack('9x autumnity:snail_goo', 'autumnity:snail_goo_block');
+  }
+
+  // Farmer's Delight
+  // TODO - Fruit + Vegetable Crate Unpacking
+
+  // Neapolitan
+  if (Platform.isLoaded('neapolitan')) {
+    unpack('3x neapolitan:banana', 'neapolitan:banana_bunch');
+    unpack('9x neapolitan:banana', 'neapolitan:banana_crate');
   }
 
   // Crusher Recipes
@@ -98,12 +137,18 @@ ServerEvents.recipes(event => {
     'minecraft:nether_gold_ore'
   ).id(`${ID_PREFIX}crusher/nether_gold`);
 
+  // Minecraft
+  event.recipes.immersiveengineering.crusher('4x minecraft:nether_wart', 'minecraft:nether_wart_block').id(`${ID_PREFIX}crusher/nether_wart`);
+
+  // Applied Energistics
   if (Platform.isLoaded('ae2')) {
     event.recipes.immersiveengineering.crusher('ae2:certus_quartz_dust', '#ae2:all_certus_quartz').id(`${ID_PREFIX}crusher/certus_quartz_dust`);
     event.recipes.immersiveengineering.crusher('ae2:ender_dust', 'minecraft:ender_pearl').id(`${ID_PREFIX}crusher/ender_dust`);
     event.recipes.immersiveengineering.crusher('ae2:fluix_dust', 'ae2:fluix_crystal').id(`${ID_PREFIX}crusher/fluix_dust`);
     event.recipes.immersiveengineering.crusher('ae2:sky_dust', 'ae2:sky_stone_block').id(`${ID_PREFIX}crusher/sky_stone_dust`);
   }
+
+  // Create Crafts & Additions
   if (Platform.isLoaded('createaddition')) {
     event.recipes.immersiveengineering.crusher('createaddition:diamond_grit', '#forge:gems/diamond').id(`${ID_PREFIX}crusher/diamond_grit`);
   }
