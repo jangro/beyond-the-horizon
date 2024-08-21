@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "idas:dig_site/dig_site",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_acacia",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_birch",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_dark_oak",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_oak",
+      "weight": 1
+    },
+    {
+      "structure": "idas:lumber_camp/lumber_camp_spruce",
+      "weight": 1
+    },
+    {
+      "structure": "idas:washing_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 75234855,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

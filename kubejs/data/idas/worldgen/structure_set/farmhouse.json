@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:farmhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 35779037,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

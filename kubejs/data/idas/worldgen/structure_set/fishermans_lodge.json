@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:fishermans_lodge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 31608410,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

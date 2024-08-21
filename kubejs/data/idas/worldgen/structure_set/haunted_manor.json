@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:haunted_manor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 23850499,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

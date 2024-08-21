@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:beekeepers_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 82082766,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

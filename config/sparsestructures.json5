@@ -113,6 +113,10 @@
       "factor": 2
     },
     {
+      "structure": "betterjungletemples:jungle_temple",
+      "factor": 2
+    },
+    {
       "structure": "betteroceanmonuments:ocean_monument",
       "factor": 2
     },
@@ -203,16 +207,7 @@
       "factor": 2
     },
 
-
     // Integrated Dungeons and Structures (IDAS)
-    {
-      "structure": "idas:apothecary_abode",
-      "factor": 2
-    },
-    {
-      "structure": "idas:tree_of_wisdom",
-      "factor": 4
-    },
 
     // Iron's Spells and Spellbooks
     {

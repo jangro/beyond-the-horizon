@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:brickhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 10649577,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

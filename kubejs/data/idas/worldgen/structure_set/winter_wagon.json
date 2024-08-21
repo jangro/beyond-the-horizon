@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:winter_wagon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 27288313,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

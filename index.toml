@@ -43,6 +43,10 @@ file = "config/appleskin-client.toml"
 hash = "b30361435b13117248a411f218389592ad132b3ed557b109a22befae56a69e03"
 
 [[files]]
+file = "config/ars_nouveau-client.toml"
+hash = "609c1ee55979d9a6a110fbddf78414d1555ec58c2289b3e9be12faf150fa1a28"
+
+[[files]]
 file = "config/ars_nouveau-common.toml"
 hash = "732702004fcc02128294ff9b4f30b1a07dd15977b64f24d019464c4c6ccc6b1a"
 
@@ -192,7 +196,7 @@ hash = "6ba5658b585ce9b7c5b8aa1adc13792baeb6e33831ab983d1981f130ba5e75b2"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "cbb881c442e81651ca8f76bc162b20682fea0f8141e9678a0647df5382a0f833"
+hash = "2e86d00c2eb3a1f520261f1548345d06746583f155ca04b14a27dd2d94d7aeca"
 
 [[files]]
 file = "config/structurecredits-config.json"
@@ -240,7 +244,7 @@ hash = "c19e0d6192d636b106d2abbf62ba203ca915b3934779a9b06e82308a56aaeb19"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "68147b116dea4369b796988dc517a5171d7477ce5017886dae82c5d79bdb95f3"
+hash = "6c5a45e141fc4a28affcd8e88f3e0a08744c657495842788b87ed95fd9f01512"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -264,7 +268,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "62e3640f6c02fabcf5a156eb3080a381dbaf0e78dc8efa3fd2c1f4193efa5038"
+hash = "e306da539ce41d55d36f4e0335c7406c91786b8253228827bb32e307965c5b4a"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -456,7 +460,7 @@ hash = "28f0b7f7602caf4bc314c1616213644373edef4f7df12bc24a1ef8f44b298cf3"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_floating.json"
-hash = "e2ee9a7c422b5679c9b49d207bf92a441e25a4e3e70320fb3be2cd0ea060c4b0"
+hash = "6c7e69e4f4fcc17c459a3b3ec4de2d181570c2518cf4730ca3267c77b2f842d7"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/aether_portal_floating_aether.json"
@@ -779,6 +783,10 @@ file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
 
 [[files]]
+file = "kubejs/data/idas/advancements/idas_root.json"
+hash = "0fe1fad195acffbc03bf08dc7fcd23ec655040765abad073ca73a8cdf5de88ce"
+
+[[files]]
 file = "kubejs/data/idas/structures/ancient_mines/ancient_mines_entrance.nbt"
 hash = "c827e80df375c7ff37799bac2e5a42b614ff1b9680435f81385a1644c594de1f"
 
@@ -823,14 +831,6 @@ file = "kubejs/data/idas/worldgen/structure/cottage.json"
 hash = "781fe4e5c59f190e7d7b72fb5bf87b21f134e3cedc9e5db8248f401f85a299e0"
 
 [[files]]
-file = "kubejs/data/idas/worldgen/structure/desert_camp/desert_camp_red.json"
-hash = "77acb013d45476fa47828883e1172723a510d6f7d2caae6529a257c5e968747f"
-
-[[files]]
-file = "kubejs/data/idas/worldgen/structure/desert_market/desert_market_red.json"
-hash = "451594c413b8a9c9b78d227c88ee242ed05932687560bfa158b535f73554eea6"
-
-[[files]]
 file = "kubejs/data/idas/worldgen/structure/enchantingtower.json"
 hash = "d4ef0ec0be8ff1ba3be98f5322258bede589cd5c99c4559413272e26d1e15a39"
 
@@ -849,6 +849,206 @@ hash = "1997cee9600a5bde19c361bd84e7fb6df2d84a4053db838485e1c4abd384e4ac"
 [[files]]
 file = "kubejs/data/idas/worldgen/structure/wizard_tower.json"
 hash = "285728ea84d0d2b25c060cec6a7271d650cdca573bdb5a20f578d724f0521b60"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/abandonedhouse.json"
+hash = "7a8aa56d8f1e46c62adbd325e2c387aaa7318cc4acc394d0ceea2b3b2c1f4eec"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/ancient_mines.json"
+hash = "f7b93891f3f69573b562f8ece85077f39e40cf0dfa4e55e0878b290b608d6a1e"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/apothecary_abode.json"
+hash = "285611c2371a6244f623d8f3812d327948d155e98cad3e3d4cacf6af33e7df13"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/archmages_tower.json"
+hash = "2b5b0adbf489c69bf92dc8a76ec3127da8de2d8db380d30587872839eee7a7ff"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/bazaar.json"
+hash = "aaefb1cdd1959a2fd6ae1c9f73f0db484ebc392dcc376fd3c9655a67ac6d8485"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/bearclaw_inn.json"
+hash = "3294b121a5e5bbe4d70062792559dad3fffe10774c6fa81519bde9a4a634d13a"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/beekeepers_house.json"
+hash = "0f2f43036f686eb792c80c4a989d0324ee2ab19b1234a70da666d11c71b4a75d"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/brickhouse.json"
+hash = "a48a2360d29eedc7e2a3ac81ff067eb5df30d085c88a011c4a45d89ebd1048ad"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/castle.json"
+hash = "ea3b8d13bca41babbdcba56b647796eb82948eccbb47fbd10ebd5eb7b486eef1"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/cottage.json"
+hash = "86081136a0953cad4b18d00262c272e6416461e12e664125a9b37e504b890355"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/desert_camp.json"
+hash = "c5afe51271f749142c083a03ed6b720ba9b88d7083027852f6e97a496129d44d"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/desert_camp_red.json"
+hash = "d446d2b5d47bc04be1616bb8233faf1cf9e31a2521ee6dd87af0053bdc7a0bff"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/desert_market.json"
+hash = "6d511d4537f6e7b4d43cf5592a67f6caa41fb53b531f634401017338c493d0f1"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/desert_market_red.json"
+hash = "266ee60000b5079ab64660e52681d26e119e9d61ca9917f81bcba788c6b38966"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/desert_pyramid.json"
+hash = "5afbe01cdd630aa6515a3abcdb87e46b07deecfc8dc335c19b172974247ce2e1"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/dig_site.json"
+hash = "a4c112e28df162c727a6e395c00e297ab51c0b65ad385bd8f87b96f0ff7cd2a1"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/dig_site_desert.json"
+hash = "d47c0a985838f77d63d934c50dcd9f2f3d5d394359e8c46795448557e23175b3"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/enchantingtower.json"
+hash = "66e3c892d0da9b8a90292ee34c5aa2fa8fd5abe67958b5d5f98cdde48346e778"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/farmhouse.json"
+hash = "67290d5d9a65465ff57d3d37f089543aa18db77a72e65a1d9b7e5cffdea2c653"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/fishermans_lodge.json"
+hash = "5f9f66ab473ffd545ba53b1903f39df874df29e4865916339c72b6a569095aa1"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/forest_den.json"
+hash = "627a025aaa13a273b98b3cf4fd5b0f3cdff53fe8c4da1c69159d3ee62d9e022d"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/frozen_crypt.json"
+hash = "db87b9e427fcbf277b58672b4dae6bee70a321e770bca38857f82d539faf4766"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/haunted_manor.json"
+hash = "04030b7f4dd88c2a48ff5cff9edcf1251fe6476f799bf7fd0e5a92136bec7855"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/hermits_hollow.json"
+hash = "2b2c10f851dd6398c1c051a267cf3ec78bdf186501b2053acdb94c6e3fadce90"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/hunters_cabin.json"
+hash = "8b00fb42a538d758465b7d7bd05f739c64759cd4646b48f099169c9df2f41638"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_common.json"
+hash = "f0f3a2374e5a287038c4919f403417158a7045de714a740ebad46e67ae4c8155"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_rare.json"
+hash = "4445342dbd72214d437de7b4269f09762c50d7ec2c38adfee94f1dfefca90bf7"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/idas_small.json"
+hash = "72b5c8ca3f27bd8ac16bcf016577dcc4af129a8ad5631639bf6ff082bdc3741f"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/labyrinth.json"
+hash = "0024a7dffffea9001ce03faf152dbf18e7abb312866c416e34f827e387e1e97b"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/lumber_camp_acacia.json"
+hash = "a648166ec6d1bf6b6e2f702f7867ed35e89906ce4efb5ae9a20f487d6926da51"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/lumber_camp_birch.json"
+hash = "3947492e87e700c2efde743a5b26b51b91a3d01264a468747f8336b5465b9bc8"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/lumber_camp_dark_oak.json"
+hash = "8f0cf3aa3beb331608e5fffa921dff36750c08f5edcd696693aab518437c7b86"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/lumber_camp_jungle.json"
+hash = "169ea1210b56adc1b774beec7a909161f448742ef665b8dc81e0ccd829f54977"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/lumber_camp_oak.json"
+hash = "41458cc73944113383dceffe41d30f48153a04bba2c7b39b62b88d81baccaa11"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/lumber_camp_spruce.json"
+hash = "b1c2611493b2f92df7f5cc79b8bf73878911bb7b6166feb16e845a10426fb455"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/pillager_camp.json"
+hash = "7bbe96bd30df927cd6c86f67a179d5cd9baca46e1405a455111968816b38af9b"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/pillager_fortress.json"
+hash = "467eeb284a41eb58a81763a6dcf087939355f480c5ce30843a70be06e1e892c2"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/polar_bear_den.json"
+hash = "85f03a2dde6b0c238e24d1f01450fcf70107eb109996e1b971cadfddb2601450"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/redhorn_guild.json"
+hash = "688b05fd4585ea678177bd29859c8c21a9ae5813bc57c66aeebce396768a2f1f"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/ruins_of_the_deep.json"
+hash = "63406ba110bd8f0d8724a210a7e224eca98a9b6400c4030d585bf9f68b19c946"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/sunken_ship_ruins.json"
+hash = "23a740ce1c035f3405d0f87a895e344e8efb28c032f7e8eeb82f8e3ba9b74589"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/tinkers_citadel.json"
+hash = "fde0c9e7102244e35436a26f5b5c3d5d801e04e436b6f136351d2307479d1cb4"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/tinkers_workshop.json"
+hash = "71c26e737e6ac51acad132e5c052b0199963327a4c3dd915e9026e950843c826"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/train_ruins.json"
+hash = "46b009935aafa44384666239d374744baf8b8cbd14a0a41d97b78e23d228a830"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/tree_of_wisdom.json"
+hash = "82532600a6b97d1add74c315c2d90af5fa1fbdf9831db74ae85bee5bfa21429b"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/treetop_tavern.json"
+hash = "a1047851b4af9ca0526becc1dd5ec448ca11a8a5ea840375c1b378f983301aff"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/washing_camp.json"
+hash = "ec1c1f051cd58fc85d6edaa27d55e2f5d404ac6bad2599b1553349e461ca1be3"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/winter_wagon.json"
+hash = "2e87c2a41f9bac332510b922d4dab4f4b51b82f7d7d8f3d818e20e86af232209"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/witches_treestump.json"
+hash = "eaf3149526835e63a7c87754346246dfc598ee984a0a3ec8130eb6773a6bed50"
+
+[[files]]
+file = "kubejs/data/idas/worldgen/structure_set/wizard_tower.json"
+hash = "118f2644e4fe3798357b28f0e8e3488cc040bfa02682243af84be94040012195"
 
 [[files]]
 file = "kubejs/data/kaisyn/worldgen/template_pool/village/modded/waystones/waystone_default.json"
@@ -924,7 +1124,7 @@ hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
 [[files]]
 file = "kubejs/server_scripts/src/advancements/remove.js"
-hash = "98b15a4f99460a8fa3ac3f8000b7bff1f5690f03f1fdafcac3a7371da387ad0b"
+hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
@@ -968,11 +1168,11 @@ hash = "e9a9799b355f3ba9076a85e0dba27be1191a9b458f05a4ea440c7d7c8ba8ccdf"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/replace.js"
-hash = "d07bbc15f3d5378552b84c67ca1d183d01fd0e9a11edcf098bea114df9e3b645"
+hash = "c81b463266fd0c132bd2fd20c20041d09a85c726af6583cb17223c7fed652c7f"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/structures.js"
-hash = "4918442c24f5e954b28a9753ea5e4fd8ea5d164dd9d1c6d0f7b7cb0ae3b4dd69"
+hash = "6e230a2c42dd8c9d3dfe34a49aa50881eaa6bad5e65fc316301e99d311665b38"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
@@ -1003,12 +1203,16 @@ file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
 hash = "f7865ef1f723c24e3e687cc25ad36d4e8227a1951757eda2272698d5c3a2efb6"
 
 [[files]]
+file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
+hash = "04b240a1d4f1d2d8e50f0eeec77d710edffa3ca349ffac8aa1809b07c25c6c8a"
+
+[[files]]
 file = "kubejs/server_scripts/src/recipes/powah.js"
 hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "57daae10ac03b8e1356f2def7f523734ffc2792ee40e42117cb1e2fec1d84278"
+hash = "4f35fbdf92337581dfe47f6d9aefebac8b40c18045a1a55a0407fdf838d94d94"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -1032,11 +1236,11 @@ hash = "cfa5963eaac6c356524b1c03b440a04d6a6dfc082cb5093d73023c741d71314a"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/woodworks.js"
-hash = "c91942a6f496bc1070027217da721a873c757bbffda134e376c30824ac22951a"
+hash = "fc2acb2033cf4948bdf423dfddcc5e0241ff174ddd01aba100194b967fe6b96d"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "3e7396d3cee383cab299293379256ad55a848145e9f099eedef85ae77d660969"
+hash = "6105d437cdbd64b37326be68b1c6028ae6b202b693c08a5705fe077a5fd40630"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
@@ -1068,7 +1272,7 @@ hash = "1224e2ef6bac111e24da2cad9e36c16fccad79e29e1bcf1d7d462f66860f2c57"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
-hash = "042d8bcd570ba73d2eb486f1f280704942d5ef9662cd983e96976bdd38679fa3"
+hash = "419f3225964a4edc2f3a68c390c81302b056a6ae855b6e005394f704910e01e9"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/clayworks.js"
@@ -1084,11 +1288,11 @@ hash = "956b57ca4dede670d6835835d06a18a242ba820c2effeaf5fbcd0514226044e6"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/immersiveengineering.js"
-hash = "6cc52fc30d73f7cc232b454d694e5cf5086b7e3d5fdad50a5d02197cd059d6c9"
+hash = "f58d882c9b588fa93aa005b635aabca6d3332e67f67f4500090f7048de010970"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/integrateddynamics.js"
-hash = "adbf05f8f362602f4034db5b241b2de139512d9d16cfb2061d2461cc478cd62c"
+hash = "ce73a142f51de5053d8139184174be776726780226a3b5b020e4082f8344c4ae"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/pneumaticcraft.js"
@@ -1096,7 +1300,7 @@ hash = "7cb79afe09b12af5809de750263934d17f9ddac833a099d1a5c2e38c956626b3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/woodworks.js"
-hash = "98928656d911f8890c50ec59ded9b098fbb53a3c24830d8fe47629454aec6374"
+hash = "8faa1a59c7ce736d844ba38b3f57974e5928d26fa186aaa1a1da6c5e2c1dea6d"
 
 [[files]]
 file = "kubejs/startup_scripts/src/worldgen.js"
@@ -2512,6 +2716,10 @@ hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true
 
 [[files]]
+file = "observable_announce"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "patchouli_books/bth_guide_book/book.json"
 hash = "c192cc98739e73a19d69a4c8d7f4f0b5271cee1c53eaa6309e218ae1d6594351"
 
@@ -2592,10 +2800,6 @@ file = "patchouli_books/bth_guide_book/en_us/entries/basics/jei.json"
 hash = "a0588e8e7ba7ba50e8d9d2264e27c586e86f7864932a45084ff2d89b7a1796ae"
 
 [[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/basics/journey_map.json"
-hash = "8155cd414458404c82496de7600bac9e1c28b080f4bece7ca620034079aa94a5"
-
-[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/basics/mining.json"
 hash = "602dac7e334e9738a8958eff898a0a2a4e9491d1aa139cc0b73ac6699459e901"
 
@@ -2629,7 +2833,7 @@ hash = "b7b004fdbe4d2f267d74077a179783907b4d4778de99a162ae27a0a7e4fdcb0e"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/food/alexs_delight.json"
-hash = "06455b9b6582d192db18322bc179a475e8890eadbc61c34d40234a304e730945"
+hash = "342758cdb746b292c1ef33968656cbef54376195bb8435984b69d5c44ec72d5f"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/food/alexs_mobs_food.json"
@@ -2641,7 +2845,7 @@ hash = "6902d4296e1f2563cddce759821181e988de8dbda159d53571b0b72a7e2c71dc"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/food/ends_delight.json"
-hash = "7c047d1dd0e9373824e356c1a550062240afa8322fb979d19911212ac2761150"
+hash = "42c41fd960c71fb9c94a16c98c6cf5e423a18f06956b79ca294b7adeb959474b"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/food/farmers_delight.json"
@@ -2657,7 +2861,7 @@ hash = "844e66525db0707006867bc026dc4f424bac4aaabafaad815a357ce57c338200"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/food/oceans_delight.json"
-hash = "5b0d321eab90cfa3cad289f9e0a2c2f8c41a5884ad5d5f0eda4358f6cea1eff2"
+hash = "309a28c913a781f0f43fab82860fdb63d9eb168f288d217c0b2090d138ea9171"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mobs/alexs_mobs.json"
@@ -2741,7 +2945,7 @@ hash = "aa430d440809ebc674f682dd6a43ce0caa09fcf5173dfdf3b208a40367305f35"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/powah.json"
-hash = "f2d67b28dc8787f93853ca5915090e9f1a14c2f3df345b9271e7d8b312c26aa1"
+hash = "24d8454029139cac6523cd2ad16a8e7c32eef99d0cb7d25dd2bbc7ff872118ce"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/mod_info/rats.json"
@@ -2764,10 +2968,6 @@ file = "patchouli_books/bth_guide_book/en_us/entries/storage/ae2_storage.json"
 hash = "790185d8e09af1e9ddaee3fc1e200a7dd64cd9848129d8d690ed69466444bf7d"
 
 [[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/storage/ender_storage.json"
-hash = "a9ee8200c2a5ba6a4759b081af21944fbfdc55f85da39dfc2c6ba870a4eb7f67"
-
-[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/id_storage.json"
 hash = "74327a6dd7bf4053e76a62b66c2df89b2d60a446596bc161d81ecd6eb6a3df2a"
 
@@ -2776,20 +2976,16 @@ file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_drawers.jso
 hash = "c3072012bf1cbab9d8e1734b77b6f4c03d458d7830980214c1cd51295384e942"
 
 [[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_racks.json"
-hash = "087b528a5285bd52280b590758fa42bdb8df617065f2b2f69c4f75e9e8606a6d"
-
-[[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/travelers_backpacks.json"
 hash = "98b1100dce386491e36f56bf189ce5a4f96f4f1b3abf58e01c1e7a6da17e716d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_arts/joy_of_painting.json"
-hash = "258dab676eacf942f4a52d0b8ac94f15bba1d3171fa9df672dd8a607889541c3"
+hash = "0d449ef998701e5cf479b4bea6a35f004b315ad3670aec61fbbbe9666591a09b"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_arts/music_maker.json"
-hash = "ce6c30deeaf008c108007d1b490b530747597df1005030fbf59ed5726775a78e"
+hash = "3a666e4455069efbb00659a38d59cca6ba38cddcb4bd291eca44ea795f95f61c"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_beginning/backstory.json"
@@ -2805,7 +3001,7 @@ hash = "cc8e4b12202e2039c0700735c4d083f1d3bb08be224b6524edc6449755bdc14c"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/tools_armor/simply_swords.json"
-hash = "07a01702ad8e9af25af1b9882d38a35e9fa178e29934fce2dbcbb4067d612715"
+hash = "93216d8357362a7adc70278521da5d4ddc37bd07c15d2e29d8105b9638d6193b"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/aircraft.json"
@@ -2829,7 +3025,7 @@ hash = "b0ee2d938bdfa1117281214c0228ccd59bd36b1d5af9d5ddd5bd87365738b5cd"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/paraglider.json"
-hash = "82c3a5173efb68db816f0cafd245ef5dad2bf967460108f0a83c477c29895480"
+hash = "e53ec895f634bf0d0c20f14aabb8d5eca983eb22bfd12b3f134b7bc7d4e9704d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/travel/small_ships.json"

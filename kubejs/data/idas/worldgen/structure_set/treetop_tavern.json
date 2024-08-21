@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:treetop_tavern",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 33416830,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

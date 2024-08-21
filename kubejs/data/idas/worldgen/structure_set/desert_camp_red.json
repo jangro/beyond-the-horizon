@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:desert_camp/desert_camp_red",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 32907568,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

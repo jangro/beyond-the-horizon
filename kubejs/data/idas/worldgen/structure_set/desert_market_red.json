@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:desert_market/desert_market_red",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 60523932,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

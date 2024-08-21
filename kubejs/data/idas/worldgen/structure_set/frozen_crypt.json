@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:frozen_crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 22305488,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

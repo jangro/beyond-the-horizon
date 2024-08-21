@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 52274236,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

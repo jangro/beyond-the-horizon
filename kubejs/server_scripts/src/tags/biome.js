@@ -52,6 +52,8 @@ ServerEvents.tags('worldgen/biome', event => {
     'graveyard:has_structure/small_savanna_grave',
     'graveyard:has_structure/ruins',
 
+    'hauntedharvest:has_abandoned_farm',
+
     'idas:has_structure/ancient_mines_biomes',
     'idas:has_structure/apothecary_abode_biomes',
     'idas:has_structure/archmages_tower_biomes',
@@ -63,6 +65,8 @@ ServerEvents.tags('worldgen/biome', event => {
     'idas:has_structure/hunters_cabin_biomes',
     'idas:has_structure/hermits_hollow_biomes',
     'idas:has_structure/pillager_fortress_biomes',
+    'idas:has_structure/polar_bear_den_biomes',
+    'idas:has_structure/red_desert_biomes',
     'idas:has_structure/redhorn_guild_biomes',
     'idas:has_structure/ruins_of_the_deep_biomes',
     'idas:has_structure/sunken_ship_coral_biomes',
@@ -107,12 +111,14 @@ ServerEvents.tags('worldgen/biome', event => {
 
     'valhelsia_structures:has_structure/big_tree',
     'valhelsia_structures:has_structure/has_forge',
+    'valhelsia_structures:has_structure/player_house',
     'valhelsia_structures:has_structure/spawner_dungeon',
 
   ].forEach((tag) => event.removeAll(tag));
 
   // BTH
   event.add('bth:house_biomes', '#minecraft:is_forest');
+  event.add('bth:spooky_biomes', ['minecraft:dark_forest', 'nyctophobia:haunted_forest', 'nyctophobia:tall_dark_forest']);
 
   // BTH Structures
   event.add('bth_structures:has_structure/tower_frozen', '#bth:is_frozen_tower_biome');
@@ -122,16 +128,20 @@ ServerEvents.tags('worldgen/biome', event => {
   // Eidolon - Stray Towers spawn only in snowy mountains.
   event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_frozen_tower_biome');
 
+  // The Graveyard
   event.add('graveyard:has_structure/haunted_house', ['nyctophobia:haunted_forest']);
-  event.add('graveyard:has_structure/medium_graveyard', ['#forge:is_spooky']);
-  event.add('graveyard:has_structure/small_grave', ['#forge:is_spooky']);
-  event.add('graveyard:has_structure/ruins', ['#forge:is_spooky']);
+  event.add('graveyard:has_structure/medium_graveyard', ['#bth:spooky_biomes']);
+  event.add('graveyard:has_structure/small_grave', ['#bth:spooky_biomes']);
+  event.add('graveyard:has_structure/ruins', ['#bth:spooky_biomes']);
   event.add('graveyard:has_structure/giant_mushroom', ['minecraft:mushroom_fields']);
+
+  // Haunted Harvest
+  event.add('hauntedharvest:has_abandoned_farm', ['nyctophobia:haunted_forest']);
 
   // Iron's Spellbooks
   event.add('irons_spellbooks:has_structure/evoker_fort', ['minecraft:snowy_plains']);
   event.add('irons_spellbooks:has_structure/mountain_tower', ['minecraft:stony_peaks', 'terralith:rocky_mountains']);
-  event.add('irons_spellbooks:has_structure/pyromancer_tower', ['terralith:volcanic_peaks']);
+  event.add('irons_spellbooks:has_structure/pyromancer_tower', ['terralith:volcanic_peaks', 'terralith:scarlet_mountains', 'terralith:yellowstone']);
 
   // Integrated Dungeons and Structures (IDAS)
   event.add('bth_idas:brickhouse_biomes', ['minecraft:birch_forest']);
@@ -153,6 +163,8 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('idas:has_structure/hermits_hollow_biomes', ['minecraft:plains']);
   event.add('idas:has_structure/hunters_cabin_biomes', ['terralith:highlands', 'terralith:forested_highlands', 'terralith:lush_valley']);
   event.add('idas:has_structure/pillager_fortress_biomes', ['terralith:shield']);
+  event.add('idas:has_structure/polar_bear_den_biomes', ['minecraft:snowy_plains']);
+  event.add('idas:has_structure/red_desert_biomes', ['terralith:ancient_sands', 'terralith:bryce_canyon']);
   event.add('idas:has_structure/redhorn_guild_biomes', ['terralith:forested_highlands']);
   event.add('idas:has_structure/ruins_of_the_deep_biomes', ['minecraft:taiga']);
   event.add('idas:has_structure/train_ruins_biomes', ['terralith:highlands']);
@@ -169,13 +181,12 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('terralith:has_structure/mage_complex', ['terralith:moonlight_grove', 'terralith:moonlight_valley']);
 
   // Valhelsia Structures
-  event.add('valhelsia_structures:big_tree', ['minecraft:meadow']);
-  event.add('valhelsia_structures:spawner_dungeon', ['minecraft:forest']);
+  event.add('valhelsia_structures:has_structure/big_tree', ['minecraft:meadow']);
+  event.add('valhelsia_structures:has_structure/player_house', ['#bth:house_biomes']);
+  event.add('valhelsia_structures:has_structure/spawner_dungeon', ['minecraft:forest']);
 
-  // Prevent jungle temples from spawning in Ratlantis (how to remove a single biome (rats:ratlantis?)
-  // [Vaelzan]: It uses the Minecraft jungle temple tag by default, so that might be why you couldn't remove the individual biome.
-  // TODO: It's probably better to modify that tag instead and leave YUNG's one alone?
-  event.removeAll('betterjungletemples:has_structure/better_jungle_temple');
-  event.add('betterjungletemples:has_structure/better_jungle_temple', ['minecraft:jungle', 'minecraft:sparse_jungle', 'minecraft:bamboo_jungle']);
+  // Prevent jungle temples from spawning in Ratlantis
+  event.removeAll('minecraft:has_structure/jungle_temple');
+  event.add('minecraft:has_structure/jungle_temple', ['minecraft:jungle', 'minecraft:bamboo_jungle']);
 
 });

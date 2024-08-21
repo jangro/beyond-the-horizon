@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:animal_den/polar_bear_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 57057432,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

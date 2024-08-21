@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:dig_site/dig_site_desert",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 73076386,
+    "spacing": 100,
+    "separation": 30,
+    "type": "minecraft:random_spread"
+  }
+}

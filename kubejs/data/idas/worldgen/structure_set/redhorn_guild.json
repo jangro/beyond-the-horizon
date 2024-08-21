@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:redhorn_guild",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 94404454,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:animal_den/forest_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 50938223,
+    "spacing": 50,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

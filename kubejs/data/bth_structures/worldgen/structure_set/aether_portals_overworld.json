@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "bth_structures:aether_portal_framed",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:aether_portal_floating",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 50,
+    "separation": 20,
+    "salt": 63805236
+  }
+}

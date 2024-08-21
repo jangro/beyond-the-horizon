@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:train_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 54885110,
+    "spacing": 100,
+    "separation": 30,
+    "type": "minecraft:random_spread"
+  }
+}
