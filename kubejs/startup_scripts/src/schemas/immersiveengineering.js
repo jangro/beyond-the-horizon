@@ -71,6 +71,9 @@ StartupEvents.recipeSchemaRegistry((event) => {
       )
     );
 
+    // Arc Furnace
+    // TODO
+
     // Blast Furnace Fuel
     // TODO
 
@@ -80,6 +83,6 @@ StartupEvents.recipeSchemaRegistry((event) => {
     // Garden Cloche
     // TODO
 
-    
+
   }
 });
