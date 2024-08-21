@@ -53,5 +53,22 @@ StartupEvents.recipeSchemaRegistry((event) => {
       )
     );
 
+    // Fermenter
+    event.register('immersiveengineering:fermenter',
+      new $RecipeSchema(
+        components.get('outputFluid')().key('fluid'), 
+        components.get('inputItem')().key('input'),
+        components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
+      )
+    );
+
+    // Squeezer
+    event.register('immersiveengineering:squeezer',
+      new $RecipeSchema(
+        components.get('outputFluid')().key('fluid'), 
+        components.get('inputItem')().key('input'),
+        components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
+      )
+    );
   }
 });
