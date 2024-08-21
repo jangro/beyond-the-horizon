@@ -183,13 +183,13 @@ ServerEvents.recipes(event => {
   event.recipes.immersiveengineering.squeezer(Fluid.of('minecraft:water 250'), 'minecraft:snowball').id(`${ID_PREFIX}squeezer/snowball`);
   event.recipes.immersiveengineering.squeezer(Fluid.of('minecraft:water 125'), 'minecraft:snow').id(`${ID_PREFIX}squeezer/snow`);
 
-  // Immersive Engineering
-  event.recipes.immersiveengineering.squeezer(Fluid.of('immersiveengineering:plantoil 120'), '#forge:seeds/hemp').id(`${ID_PREFIX}squeezer/hemp`);
-
   // Ecologics
   if (Platform.isLoaded('ecologics')) {
     event.recipes.immersiveengineering.squeezer(Fluid.of('immersiveengineering:plantoil 100'), 'ecologics:walnut').id(`${ID_PREFIX}squeezer/walnuts`);
   }
+  
+  // Immersive Engineering
+  event.recipes.immersiveengineering.squeezer(Fluid.of('immersiveengineering:plantoil 120'), '#forge:seeds/hemp').id(`${ID_PREFIX}squeezer/hemp`);
 
   // Integrated Dynamics
   if (Platform.isLoaded('integrateddynamics')) {
@@ -197,6 +197,11 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.squeezer(Fluid.of('integrateddynamics:liquid_chorus 125'), 'integrateddynamics:proto_chorus').id(`${ID_PREFIX}squeezer/proto_chorus`);
     event.recipes.immersiveengineering.squeezer(Fluid.of('integrateddynamics:menril_resin 1000'), 'integrateddynamics:menril_log').id(`${ID_PREFIX}squeezer/menril_log`);
     event.recipes.immersiveengineering.squeezer(Fluid.of('integrateddynamics:menril_resin 250'), 'integrateddynamics:menril_planks').id(`${ID_PREFIX}squeezer/menril_planks`);
+  }
+
+  // Starbunclemania
+  if (Platform.isLoaded('starbunclemania')) {
+    event.recipes.immersiveengineering.squeezer(Fluid.of('starbunclemania:source_fluid 100'), 'ars_nouveau:sourceberry_bush').id(`${ID_PREFIX}squeezer/sourceberries`);
   }
 
   // Supplementaries
