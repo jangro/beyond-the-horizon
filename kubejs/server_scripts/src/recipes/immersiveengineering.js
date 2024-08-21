@@ -57,14 +57,14 @@ ServerEvents.recipes(event => {
 
   // PneumaticCraft
   if (Platform.isLoaded('pneumaticcraft')) {
-    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '3x rats:raw_plastic').id(`${ID_PREFIX}metalpress/plastic_from_raw_plastic`);
-    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:plastic_bricks').id(`${ID_PREFIX}metal_press/plastic_from_plastic_bricks`);
-    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:smooth_plastic_bricks').id(`${ID_PREFIX}metal_press/plastic_from_smooth_plastic_bricks`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '3x rats:raw_plastic', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/plastic_from_raw_plastic`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:plastic_bricks', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metal_press/plastic_from_plastic_bricks`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:smooth_plastic_bricks', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metal_press/plastic_from_smooth_plastic_bricks`);
   }
 
   // Tetra
   if (Platform.isLoaded('tetra')) {
-    event.recipes.immersiveengineering.metal_press('tetra:vent_plate', 'tetra:metal_scrap').id(`${ID_PREFIX}metal_press/vent_plate_from_metal_scrap`);
+    event.recipes.immersiveengineering.metal_press('tetra:vent_plate', 'tetra:metal_scrap', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metal_press/vent_plate_from_metal_scrap`);
   }
 
   // Metal Press Recipes - Rods
