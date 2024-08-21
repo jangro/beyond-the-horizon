@@ -79,6 +79,9 @@ ServerEvents.recipes(event => {
   replaceInput('farmersdelight:wheat_dough', '#forge:dough/wheat');
   replaceInput('minecolonies:bread_dough', '#forge:dough/wheat');
 
+  // Dust Compatibility
+  replaceInput('alexscaves:sulfur_dust', '#forge:dusts/sulfur');
+
   // Feather Compatibility
   replaceInputID([
     'minecraft:brush',
@@ -226,6 +229,10 @@ ServerEvents.recipes(event => {
   replaceInput('immersive_aircraft:propeller', 'create:propeller');
 
   // ----- Output Unification -----
+
+  // Dusts
+  replaceOutput('alexscaves:sulfur_dust', 'eidolon:sulfur');
+
   // Ingots
   replaceOutput('galosphere:silver_ingot', 'eidolon:silver_ingot');
   replaceOutput('immersiveengineering:ingot_electrum', 'createaddition:electrum_ingot');

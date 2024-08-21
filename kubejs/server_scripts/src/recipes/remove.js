@@ -29,6 +29,7 @@ ServerEvents.recipes(event => {
     'minecraft:piston',
     'aether:aether_saddle',
     'aether:swet_lead',
+    'alexscaves:gunpowder_from_sulfur',
     'ars_nouveau:drygmy_charm',
     'ars_nouveau:whirlisprig_charm',
     'buzzier_bees:honey/honey_apple',

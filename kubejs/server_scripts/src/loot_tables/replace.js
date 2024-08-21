@@ -9,6 +9,7 @@
 LootJS.modifiers((event) => {
   event
     .addLootTableModifier(/.*/)
+    .replaceLoot('alexscaves:sulfur_dust', 'eidolon:sulfur', true)
     .replaceLoot('farmersdelight:rope', 'supplementaries:rope', true)
     .replaceLoot('galosphere:silver_nugget', 'eidolon:silver_nugget', true)
     .replaceLoot('immersiveengineering:nugget_lead', 'eidolon:lead_nugget', true)

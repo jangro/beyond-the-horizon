@@ -56,6 +56,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
     // Fermenter
     event.register('immersiveengineering:fermenter',
       new $RecipeSchema(
+        // TODO: See below.
         components.get('outputFluid')().key('fluid'), 
         components.get('inputItem')().key('input'),
         components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
@@ -65,9 +66,27 @@ StartupEvents.recipeSchemaRegistry((event) => {
     // Squeezer
     event.register('immersiveengineering:squeezer',
       new $RecipeSchema(
+        // TODO: Finish squeezer support - As seen below it uses unusual
+        // names for the fluid keys, input ingredient ('basePredicate'), etc.
+        // recipe ref:
+        // "fluid": {
+        //"Amount": 120,
+        //"FluidName": "immersiveengineering:plantoil"
+        //},
+
+        //"input": {
+        //  "basePredicate": {
+        //    "tag": "forge:dusts/coal_coke"
+        //  },
+        //  "count": 8
+        //},
+        //"result": {
+        //  "tag": "forge:dusts/hop_graphite"
+        //}
         components.get('outputFluid')().key('fluid'), 
         components.get('inputItem')().key('input'),
-        components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
+        components.get('intNumber')().key('energy').alwaysWrite().optional(6400),
+        ieOutputItem.key('result').defaultOptional(),
       )
     );
 

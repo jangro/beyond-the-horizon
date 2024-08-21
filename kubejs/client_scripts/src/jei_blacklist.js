@@ -15,6 +15,7 @@ JEIEvents.hideItems(event => {
   event.hide([
     'ae2:facade',
     'aether:aether_portal_frame',
+    'alexscaves:sulfur_dust',
     'bbb:rope',
     'buzzier_bees:honey_apple',
     /clayworks:.*terracotta_brick.*/,
@@ -35,6 +36,7 @@ JEIEvents.hideItems(event => {
     'immersive_aircraft:propeller',
     'immersiveengineering:deepslate_ore_lead',
     'immersiveengineering:deepslate_ore_silver',
+    'immersiveengineering:dust_sulfur',
     'immersiveengineering:dust_uranium',
     'immersiveengineering:ingot_silver',
     'immersiveengineering:ingot_uranium',
