@@ -65,6 +65,7 @@ ServerEvents.recipes(event => {
     'immersive_aircraft:hull',
     'immersive_aircraft:hull_reinforcement',
     'immersive_aircraft:propeller',
+    'immersive_aircraft:quadrocopter',
     /immersiveengineering:arcfurnace\/.*uranium.*/,
     'immersiveengineering:crafting/hammercrushing_uranium',
     'immersiveengineering:crafting/ingot_lead_to_nugget_lead',

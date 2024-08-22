@@ -126,6 +126,17 @@ ServerEvents.recipes(event => {
     I: '#forge:ingots/iron',
   }).id(`${ID_PREFIX}immersive_aircraft_hull_reinforcement`);
 
+  event.shaped('immersive_aircraft:quadrocopter', [
+    'PBP',
+    'BEB',
+    'PHP'
+  ], {
+    P: 'create:propeller',
+    B: 'minecraft:bamboo',
+    E: 'immersive_aircraft:engine',
+    H: 'immersive_aircraft:hull'
+  }).id(`${ID_PREFIX}immersive_aircraft_quadrocopter`);
+
   // Immersive Engineering
   event.shaped('2x immersiveengineering:stick_aluminum', [
     'I',
