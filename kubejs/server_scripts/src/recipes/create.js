@@ -46,6 +46,6 @@ ServerEvents.recipes(event => {
   // Splashing
   event.recipes.create.splashing(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}splashing/plastic_waste_from_garbage_pile`);
   event.recipes.create.splashing('valhelsia_structures:unlit_lantern', 'minecraft:lantern').id(`${ID_PREFIX}splashing/unlit_lantern_from_lantern`);
-  event.recipes.create.splashing('valhelsia_structures:unlit_soul_lantern', 'minecraft:lantern').id(`${ID_PREFIX}splashing/unlit_soul_lantern_from_lantern`);
+  event.recipes.create.splashing('valhelsia_structures:unlit_soul_lantern', 'minecraft:soul_lantern').id(`${ID_PREFIX}splashing/unlit_soul_lantern_from_soul_lantern`);
 
 });
