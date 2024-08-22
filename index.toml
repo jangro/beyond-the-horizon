@@ -2161,6 +2161,11 @@ hash = "6bcf7a39bad33980cfd720cc78b1e2fe703f7cf0635c00a59948a561c66bf2e0"
 metafile = true
 
 [[files]]
+file = "mods/more-minecarts.pw.toml"
+hash = "6f8dbef0437c81d94f883fc1077d07c6c6784710ec693daec98202788f4e3098"
+metafile = true
+
+[[files]]
 file = "mods/more-mobgriefing-options.pw.toml"
 hash = "0c8b5ccb02d36503fbec9aaaff16cc6b1aa91bd118c3de2b8a9b6e30411e92eb"
 metafile = true
