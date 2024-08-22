@@ -59,12 +59,45 @@ ServerEvents.tags('item', event => {
   ]);
 
   event.add('forge:ingots', [
+    'alexscaves:azure_neodymium_ingot',
+    'alexscaves:scarlet_neodymium_ingot',
     'alexscaves:uranium',
+    'botania:gaia_ingot',
+    'createdeco:industrial_iron_ingot',
+    'enlightened_end:adamantite_ingot',
+    'enlightened_end:bismuth_ingot',
+    'graveyard:dark_iron_ingot',
+    'irons_spellbooks:arcane_ingot',
   ]);
+
+  event.add('forge:ingots/arcane', [
+    'irons_spellbooks:arcane_ingot',
+  ]); 
 
   event.add('forge:ingots/arcane_gold', [
     'forbidden_arcanus:deorum_ingot',
   ]); 
+
+  event.add('forge:ingots/bismuth', [
+    'enlightened_end:bismuth_ingot',
+  ]); 
+
+  event.add('forge:ingots/dark_iron', [
+    'graveyard:dark_iron_ingot',
+  ]); 
+
+  event.add('forge:ingots/gaia_spirit', [
+    'botania:gaia_ingot',
+  ]); 
+
+  event.add('forge:ingots/industrial_iron', [
+    'graveyard:industrial_iron_ingot',
+  ]); 
+
+  event.add('forge:ingots/neodymium', [
+    'alexscaves:azure_neodymium_ingot',
+    'alexscaves:scarlet_neodymium_ingot',
+  ]);
   
   event.add('forge:ingots/uranium', [
     'alexscaves:uranium',
@@ -110,9 +143,17 @@ ServerEvents.tags('item', event => {
   event.add('forge:plates/netherite', [
     'createdeco:netherite_sheet',
   ]);
+  
+  event.add('forge:storage_blocks', [
+    'graveyard:dark_iron_block',
+  ]);
 
   event.add('forge:storage_blocks/arcane_gold', [
     'forbidden_arcanus:deorum_block',
+  ]);
+
+  event.add('forge:storage_blocks/dark_iron', [
+    'graveyard:dark_iron_block',
   ]);
 
   // Ars Elemental Tags
