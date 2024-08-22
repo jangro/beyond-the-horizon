@@ -2,8 +2,6 @@
 
 ## Intro
 
-### Butchering
-
 ### Days and Nights
 
 ### Mob Spawning
