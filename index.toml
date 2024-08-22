@@ -1496,11 +1496,6 @@ hash = "cbbcae7c56a7306f68ffc4d5c33fa1d85fbf7a3ea44d2f9eea71400c1f05bffa"
 metafile = true
 
 [[files]]
-file = "mods/butchers-delight.pw.toml"
-hash = "159896d791b8879e561fce55ca2b3e7fc9377b3a3484a831ac9a0e2a560dae9e"
-metafile = true
-
-[[files]]
 file = "mods/buzzier-bees.pw.toml"
 hash = "43ea0b2c562f25ba5a7dd0fe2a6694bed02af4ae4aa39bffe7bbf92ae31a5f87"
 metafile = true
