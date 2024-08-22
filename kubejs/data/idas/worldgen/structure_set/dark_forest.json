@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "idas:wizard_tower",
+      "weight": 3
+    },
+    {
+      "structure": "idas:haunted_manor",
+      "weight": 1
+    },
+    {
+      "structure": "idas:pillager_camp",
+      "weight": 3
+    },
+    {
+      "structure": "idas:witches_treestump",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "salt": 65284990,
+    "spacing": 100,
+    "separation": 50,
+    "type": "minecraft:random_spread"
+  }
+}

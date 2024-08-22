@@ -124,7 +124,7 @@
     // Choice-Theorem's Overhauled Villages
     {
       "structure": "ctov:villages",
-      "factor": 2
+      "factor": 1.7
     },
     {
       "structure": "ctov:pillager_outposts",
@@ -212,11 +212,11 @@
     // Iron's Spells and Spellbooks
     {
       "structure": "irons_spellbooks:evoker_fort",
-      "factor": 2
+      "factor": 1.5
     },
     {
       "structure": "irons_spellbooks:impaled_icebreaker",
-      "factor": 2
+      "factor": 1.5
     },
     {
       "structure": "irons_spellbooks:mangrove_hut",
@@ -224,11 +224,11 @@
     },
     {
       "structure": "irons_spellbooks:mountain_tower",
-      "factor": 2
+      "factor": 1.5
     },
     {
       "structure": "irons_spellbooks:pyromancer_tower",
-      "factor": 2
+      "factor": 1.5
     },
 
     // Tax's deep villages
@@ -246,15 +246,15 @@
     // Towns and Towers
     {
       "structure": "towns_and_towers:other",
-      "factor": 4
+      "factor": 3
     },
     {
       "structure": "towns_and_towers:towers",
-      "factor": 4
+      "factor": 3
     },
     {
       "structure": "towns_and_towers:towns",
-      "factor": 4
+      "factor": 2.5
     },
 
     // The Lost Castle
@@ -274,7 +274,7 @@
     },
     {
       "structure": "valhelsia_structures:castles",
-      "factor": 4
+      "factor": 3
     },
     {
       "structure": "valhelsia_structures:deep_spawner_rooms",
@@ -290,7 +290,7 @@
     },
     {
       "structure": "valhelsia_structures:player_houses",
-      "factor": 3
+      "factor": 2.5
     },
     {
       "structure": "valhelsia_structures:spawner_dungeons",

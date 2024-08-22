@@ -1,14 +1,18 @@
 {
   "structures": [
     {
+      "structure": "idas:ancient_mines",
+      "weight": 1
+    },
+    {
       "structure": "idas:cottage",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 79301824,
-    "spacing": 50,
-    "separation": 10,
+    "salt": 75234855,
+    "spacing": 100,
+    "separation": 50,
     "type": "minecraft:random_spread"
   }
 }

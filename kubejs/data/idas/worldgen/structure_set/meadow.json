@@ -1,14 +1,18 @@
 {
   "structures": [
     {
+      "structure": "idas:dig_site/dig_site",
+      "weight": 1
+    },
+    {
       "structure": "idas:hermits_hollow",
       "weight": 1
     }
   ],
   "placement": {
     "salt": 44805996,
-    "spacing": 50,
-    "separation": 10,
+    "spacing": 40,
+    "separation": 30,
     "type": "minecraft:random_spread"
   }
 }
