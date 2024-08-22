@@ -2136,6 +2136,11 @@ hash = "a4ff567d52fe55984cc0cb93430a4c8f01dc00b14fbd6e25a077dbd179f534fb"
 metafile = true
 
 [[files]]
+file = "mods/man-of-many-planes.pw.toml"
+hash = "7b8870d6f9a778577787a1028775a3738ce78d33b69bedb681cb9b3b9bc62678"
+metafile = true
+
+[[files]]
 file = "mods/mighty-mail.pw.toml"
 hash = "62cbc36bcadc18478adcbd138ed6f976f9625ec75c687acdb83b26fbda8d08b2"
 metafile = true
