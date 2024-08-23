@@ -71,7 +71,7 @@ LootJS.modifiers((event) => {
   event.addEntityLootModifier('mutantmonsters:mutant_enderman')
       .pool((pool) => {
           pool.rolls([1, 3]);
-          pool.addLoot("minecraft:ender_pearl");
+          pool.addLoot('minecraft:ender_pearl');
   });
 
 });
