@@ -17,6 +17,17 @@ ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:crafting/'; // Recipe ID
 
   // Beyond the Horizon
+  event.shaped('bth:coconut_maul', [
+    ' HC',
+    ' SH',
+    'R  '
+  ], {
+    H: '#forge:fiber_hemp',
+    C: 'ecologics:coconut_slice',
+    S: 'ecologics:coconut_sapling',
+    R: '#forge:rods/wooden'
+  }).id(`${ID_PREFIX}coconut_maul`);
+
   event.shaped(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT), [
     ' S ',
     'SBS',

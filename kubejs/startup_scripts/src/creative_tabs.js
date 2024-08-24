@@ -7,6 +7,10 @@
  * 
  */
 
+StartupEvents.modifyCreativeTab('minecraft:combat', event => {
+  event.add('bth:coconut_maul');
+});
+
 StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {
   event.add('minecraft:bundle');
 });

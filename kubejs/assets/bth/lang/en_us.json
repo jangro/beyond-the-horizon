@@ -15,31 +15,6 @@
   "bth.advancements.exploration.tiny_coin.description": "Start collecting coins for the portal to Ratlantis.",
   "bth.advancements.exploration.tower.description": "Find your first ancient tower.",
 
-  "bth.comment.chat": "-----Chat Messages-----",
-  "bth.chat.first_start_message": "Welcome to Beyond the Horizon!",
-
-  "bth.comment.jei_information": "-----JEI Information Entries-----",
-  "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
-  "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book.",
-  "bth.information.tetra.scannable_blocks": "Can be detected using a Holosphere upgraded with an Eye of Ender.",
-
-  "bth.comment.maps": "----- Maps -----",
-  "filled_map.pyromancer_tower": "Friendly Pyromancer",
-  "filled_map.cryomancer_tower": "Unfriendly Cryomancer",
-  "filled_map.piglin_village": "Unionized Piglins",
-  "filled_map.forbidden_castle": "Home of the Nether Royalty",
-  "filled_map.aether_bronze_dungeon": "The Slider hides in the rocks",
-  "filled_map.aether_silver_dungeon": "The Valkyrie Queen shows no mercy",
-  "filled_map.aether_gold_dungeon": "The Sun God sees you",
-  "filled_map.aether_platinum_dungeon": "No one escapes the Aerwhale King",
-  "filled_map.aquamirae_shelter": "S.O.S. - Stuck under the ice",
-  "filled_map.ancient_city": "DANGER: ANCIENT CITY",
-  "filled_map.mansion": "Regional Illager HQ Mansion",
-  "filled_map.evoker_fort": "Powerful Evoker Fort",
-  "filled_map.impaled_icebreaker": "Impaled Ratlantis Ship",
-  "filled_map.better_desert_temple": "Possible location of Old Eye",
-  "filled_map.better_jungle_temple": "Possible location of Rogue Eye",
-
   "bth.comment.biomes": "----- Biomes -----",
   "biome.hyperbox.hyperbox": "Hyperbox",
   "biome.terralith.alpha_islands": "Alpha Islands",
@@ -159,6 +134,42 @@
   "bth.comment.blocks": "----- Blocks -----",
   "block.tetra.scroll_wall": "Scroll",
 
+  "bth.comment.chat": "-----Chat Messages-----",
+  "bth.chat.first_start_message": "Welcome to Beyond the Horizon!",
+
+  "bth.comment.death_messages": "----- Death Messages -----",
+  "death.attack.coconut_maul": "%s just got coconut mauled by %s",
+  "death.attack.coconut_maul.item": "%s just got coconut mauled by %s using %s",
+  
+  "bth.comment.items": "----- Items -----",
+  "item.bth.coconut_maul": "Coconut Maul",
+
+  "bth.comment.jei_information": "-----JEI Information Entries-----",
+  "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
+  "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book.",
+  "bth.information.tetra.scannable_blocks": "Can be detected using a Holosphere upgraded with an Eye of Ender.",
+
+  "bth.comment.maps": "----- Maps -----",
+  "filled_map.pyromancer_tower": "Friendly Pyromancer",
+  "filled_map.cryomancer_tower": "Unfriendly Cryomancer",
+  "filled_map.piglin_village": "Unionized Piglins",
+  "filled_map.forbidden_castle": "Home of the Nether Royalty",
+  "filled_map.aether_bronze_dungeon": "The Slider hides in the rocks",
+  "filled_map.aether_silver_dungeon": "The Valkyrie Queen shows no mercy",
+  "filled_map.aether_gold_dungeon": "The Sun God sees you",
+  "filled_map.aether_platinum_dungeon": "No one escapes the Aerwhale King",
+  "filled_map.aquamirae_shelter": "S.O.S. - Stuck under the ice",
+  "filled_map.ancient_city": "DANGER: ANCIENT CITY",
+  "filled_map.mansion": "Regional Illager HQ Mansion",
+  "filled_map.evoker_fort": "Powerful Evoker Fort",
+  "filled_map.impaled_icebreaker": "Impaled Ratlantis Ship",
+  "filled_map.better_desert_temple": "Possible location of Old Eye",
+  "filled_map.better_jungle_temple": "Possible location of Rogue Eye",
+
   "bth.comment.subtitles": "----- Subtitles -----",
-  "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used"
+  "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used",
+
+  "bth.comment.tooltips": "----- Tooltips -----",
+  "tooltip.bth.coconut_maul": "Share this with all ur friends to totally Coconut Maul them."
+
 }
