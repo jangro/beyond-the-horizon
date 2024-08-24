@@ -166,7 +166,7 @@ ServerEvents.tags('worldgen/biome', event => {
     'graveyard:has_structure/haunted_house',
     'graveyard:has_structure/medium_graveyard',
     'graveyard:has_structure/small_grave',
-    'idas:has_structure/hauntedhouse_biomes',
+    'idas:has_structure/hauntedhouse_biomes', // this one doesn't generate for some reason...
   ].forEach((tag) => event.add(tag, ['nyctophobia:deep_dark_forest', 'nyctophobia:haunted_forest']));
 
   // BTH: Taiga
@@ -196,34 +196,18 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Integrated Dungeons and Structures (IDAS)
   // Structures that are not part in our custom structure sets
-
-  // event.add('bth_idas:castle_biomes', ['terralith:forested_highlands']);
-  // event.add('bth_idas:cottage_biomes', ['minecraft:old_growth_birch_forest']);
   event.add('bth_idas:enchanting_tower_biomes', ['ars_nouveau:archwood_forest']);
-  // event.add('bth_idas:pillager_camp_biomes', ['minecraft:dark_forest']);
-  // event.add('bth_idas:wizard_tower_biomes', ['minecraft:dark_forest']);
   event.add('bth_idas:tinkers_workshop_biomes', ['minecraft:savanna_plateau']);
   event.add('bth_idas:tinkers_citadel_biomes', ['terralith:savanna_badlands']);
   event.add('idas:has_structure/apothecary_abode_biomes', ['terralith:lavender_forest', 'terralith:lavender_valley', 'terralith:moonlight_valley']);
   event.add('idas:has_structure/archmages_tower_biomes', ['terralith:moonlight_grove', 'terralith:moonlight_valley']);
-  // event.add('idas:has_structure/bearclaw_inn_biomes', ['minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']);
   event.add('idas:has_structure/beekeepers_house_biomes', ['minecraft:flower_forest']);
-  // event.add('idas:has_structure/dig_site_biomes', ['minecraft:plains', 'minecraft:meadow', 'terralith:highlands']);
-  // event.add('idas:has_structure/farmhouse_biomes', ['terralith:brushland']);
-  // event.add('idas:has_structure/hauntedhouse_biomes', ['nyctophobia:deep_dark_forest', 'minecraft:dark_forest']);
-  // event.add('idas:has_structure/hermits_hollow_biomes', ['minecraft:plains']);
-  // event.add('idas:has_structure/hunters_cabin_biomes', ['terralith:highlands', 'terralith:forested_highlands', 'terralith:lush_valley']);
   event.add('idas:has_structure/pillager_fortress_biomes', ['terralith:shield', 'terralith:snowy_shield', 'terralith:alpine_highlands']);
   event.add('idas:has_structure/polar_bear_den_biomes', ['minecraft:snowy_plains']);
   event.add('idas:has_structure/red_desert_biomes', ['terralith:ancient_sands', 'terralith:bryce_canyon']);
-  // event.add('idas:has_structure/redhorn_guild_biomes', ['terralith:forested_highlands']);
   event.add('idas:has_structure/ruins_of_the_deep_biomes', ['minecraft:taiga']);
   event.add('idas:has_structure/train_ruins_biomes', ['terralith:highlands']);
   event.add('idas:has_structure/tree_of_wisdom_biomes', ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest', 'terralith:blooming_valley']);
-  // event.add('idas:has_structure/witches_treestump_biomes', ['minecraft:dark_forest']);
-
-  // Nebulus Oak Tree (the medium sized custom tree)
-  // event.add('bth:nebulus_tree_biomes', ['minecraft:plains']);
 
   event.add('hauntedharvest:has_abandoned_farm', ['minecraft:forest']);
 

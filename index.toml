@@ -176,7 +176,7 @@ hash = "6d8189f7c245b31731025dc443f9740309e6d9231f575de218d3066c886b68e9"
 
 [[files]]
 file = "config/smallships-common.toml"
-hash = "ee273c762522af938e140cb9192792af4e486760620c8adbb21979186a038aad"
+hash = "f20111d78bcc8b390806f4620bc512445f2609e65c7e4fdf674dae4979e8eb15"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
@@ -1260,7 +1260,7 @@ hash = "fc2acb2033cf4948bdf423dfddcc5e0241ff174ddd01aba100194b967fe6b96d"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "bc58998fdeaec73c41b866b590e43ecb2f1f84f0d8d85c754526ae6faf3533b1"
+hash = "f64b11d822b029b5930844c2abf46cca0aee45550a2eea0e68c0ae1f18ceb8db"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
