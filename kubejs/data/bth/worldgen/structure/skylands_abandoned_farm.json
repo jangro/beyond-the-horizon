@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "hauntedharvest:abandoned_farm/start_pool",
+  "size": 6,
+  "biomes": "terralith:skylands_autumn",
+  "step": "fluid_springs",
+  "terrain_adaptation": "beard_thin",
+  "start_height": {
+    "absolute": 243
+  },
+  "spawn_overrides": {},
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "graveyard:medium_graveyard",
+      "weight": 2
+    },
+    {
+      "structure": "graveyard:small_grave",
+      "weight": 2
+    },
+    {
+      "structure": "graveyard:haunted_house",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 65284990,
+    "spacing": 40,
+    "separation": 30,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

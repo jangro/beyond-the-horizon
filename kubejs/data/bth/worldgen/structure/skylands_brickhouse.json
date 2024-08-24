@@ -5,12 +5,11 @@
   "terrain_height_radius_check": 1,
   "allowed_terrain_height_range": 10,
   "valid_biome_radius_check": 1,
-  "biomes": "#bth:birch_forest",
+  "biomes": "terralith:skylands_spring",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
-  "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "start_height": {
-    "absolute": 0
+    "absolute": 224
   },
   "spawn_overrides": {}
 }

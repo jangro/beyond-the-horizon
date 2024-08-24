@@ -28,10 +28,7 @@
             "terralith:skylands/winter/extend_down",
             "terralith:skylands/dirt_tops"
         ],
-        [
-            "minecraft:lake_lava_underground",
-            "minecraft:lake_lava_surface"
-        ],
+        [],
         [
             "minecraft:amethyst_geode"
         ],
@@ -73,11 +70,8 @@
             "minecraft:disk_gravel"
         ],
         [],
+        [],
         [
-            "minecraft:spring_lava"
-        ],
-        [
-            "terralith:skylands/waterfall",
             "terralith:skylands/lichen",
             "minecraft:glow_lichen",
             "terralith:skylands/winter/trees",

@@ -9,6 +9,6 @@
     "salt": 82082766,
     "spacing": 40,
     "separation": 30,
-    "type": "minecraft:random_spread"
+    "type": "integrated_api:advanced_random_spread"
   }
 }

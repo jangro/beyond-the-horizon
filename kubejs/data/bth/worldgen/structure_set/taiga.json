@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "idas:bearclaw_inn",
+      "weight": 1
+    },
+    {
+      "structure": "idas:hunters_cabin",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:forge",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 19271192,
+    "spacing": 40,
+    "separation": 30,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

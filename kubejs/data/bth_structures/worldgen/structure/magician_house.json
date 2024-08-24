@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "minecraft:dark_forest",
+    "biomes": "#bth_structures:magician_house",
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",

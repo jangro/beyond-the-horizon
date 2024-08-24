@@ -1,11 +1,15 @@
 {
   "structures": [
     {
-      "structure": "idas:dig_site/dig_site",
+      "structure": "nebulusoaktree:oak_tree",
       "weight": 1
     },
     {
       "structure": "idas:hermits_hollow",
+      "weight": 1
+    },
+    {
+      "structure": "idas:farmhouse",
       "weight": 1
     }
   ],
@@ -13,6 +17,6 @@
     "salt": 44805996,
     "spacing": 40,
     "separation": 30,
-    "type": "minecraft:random_spread"
+    "type": "integrated_api:advanced_random_spread"
   }
 }

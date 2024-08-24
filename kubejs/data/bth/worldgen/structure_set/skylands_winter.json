@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "bth:skylands_polar_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "bth_structures:towers_skylands_winter"
+    },
+    "salt": 71902872,
+    "spacing": 25,
+    "separation": 15
+  }
+}
