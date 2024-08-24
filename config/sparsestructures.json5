@@ -137,109 +137,9 @@
       "factor": 2
     },
 
-    // The Graveyard
-    {
-      "structure": "graveyard:altar",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:crypt",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:dead_tree",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:giant_mushroom",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:haunted_house",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:large_graveyard",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:lich_prison",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:medium_graveyard",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:memorial_tree",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:mushroom_grave",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:ruins",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:small_desert_grave",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:small_desert_graveyard",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:small_grave",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:small_graveyard",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:small_mountain_grave",
-      "factor": 2
-    },
-    {
-      "structure": "graveyard:small_savanna_grave",
-      "factor": 2
-    },
-
-    // Integrated Dungeons and Structures (IDAS)
-
-    // Iron's Spells and Spellbooks
-    {
-      "structure": "irons_spellbooks:evoker_fort",
-      "factor": 1.5
-    },
-    {
-      "structure": "irons_spellbooks:impaled_icebreaker",
-      "factor": 1.5
-    },
-    {
-      "structure": "irons_spellbooks:mangrove_hut",
-      "factor": 2
-    },
-    {
-      "structure": "irons_spellbooks:mountain_tower",
-      "factor": 1.5
-    },
-    {
-      "structure": "irons_spellbooks:pyromancer_tower",
-      "factor": 1.5
-    },
-
     // Tax's deep villages
     {
       "structure": "seavil:undersea_village",
-      "factor": 2
-    },
-
-    // Terralith
-    {
-      "structure": "terralith:mage_complex",
       "factor": 2
     },
 
@@ -265,10 +165,6 @@
 
     // Valhelsia Structures
     {
-      "structure": "valhelsia_structures:big_trees",
-      "factor": 2
-    },
-    {
       "structure": "valhelsia_structures:castle_ruins",
       "factor": 4
     },
@@ -283,18 +179,6 @@
     {
       "structure": "valhelsia_structures:desert_houses",
       "factor": 4
-    },
-    {
-      "structure": "valhelsia_structures:forges",
-      "factor": 4
-    },
-    {
-      "structure": "valhelsia_structures:player_houses",
-      "factor": 2.5
-    },
-    {
-      "structure": "valhelsia_structures:spawner_dungeons",
-      "factor": 2
     },
     {
       "structure": "valhelsia_structures:spawner_rooms",

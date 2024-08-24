@@ -32,6 +32,10 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Remove these structures from all biomes:
   [
+    // These have a shaft leading up to skylands so limit biomes or remove completely to avoid that
+    'bettermineshafts:has_structure/better_mineshaft_overgrown',
+    'bettermineshafts:has_structure/better_mineshaft_lush',
+
     'bth_structures:has_structure/tower_forest',
     'bth_structures:has_structure/tower_frozen',
     'bth_structures:has_structure/tower_scarlet',
@@ -39,7 +43,7 @@ ServerEvents.tags('worldgen/biome', event => {
 
     'eidolon:has_structure/stray_tower_biomes',
 
-    // This structure cause crashes during world gen
+    // This structure possibly cause crashes during world gen
     'galosphere:has_structure/pink_salt_shrine',
 
     'graveyard:has_structure/altar',
@@ -48,6 +52,7 @@ ServerEvents.tags('worldgen/biome', event => {
     'graveyard:has_structure/giant_mushroom',
     'graveyard:has_structure/large_graveyard',
     'graveyard:has_structure/medium_graveyard',
+    'graveyard:has_structure/mushroom_grave',
     'graveyard:has_structure/small_desert_grave',
     'graveyard:has_structure/small_desert_graveyard',
     'graveyard:has_structure/small_grave',
@@ -127,45 +132,47 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // BTH: Birch forest
   [
-    'idas:has_structure/ancient_mines_biomes',
     'bth_idas:brickhouse_biomes',
     'bth_idas:cottage_biomes',
+    'idas:has_structure/ancient_mines_biomes',
   ].forEach((tag) => event.add(tag, ['minecraft:birch_forest', 'minecraft:old_growth_birch_forest']));
 
   // BTH: Dark forest
   [
-    'bth_idas:wizard_tower_biomes',
     'bth_idas:pillager_camp_biomes',
-    'idas:has_structure/witches_treestump_biomes',
+    'bth_idas:wizard_tower_biomes',
     'bth_structures:magician_house',
+    'graveyard:has_structure/mushroom_grave',
+    'idas:has_structure/witches_treestump_biomes',
   ].forEach((tag) => event.add(tag, ['minecraft:dark_forest']));
 
   // BTH: Forested highlands
   [
-    'idas:has_structure/redhorn_guild_biomes',
     'bth_idas:castle_biomes',
+    'idas:has_structure/redhorn_guild_biomes',
     'valhelsia_structures:has_structure/castle',
   ].forEach((tag) => event.add(tag, ['terralith:forested_highlands']));
 
   // BTH: Meadow
   [
-    'idas:has_structure/dig_site_biomes',
     'bth_structures:ruined_hangar',
+    'idas:has_structure/dig_site_biomes',
     'valhelsia_structures:has_structure/spawner_dungeon',
   ].forEach((tag) => event.add(tag, ['minecraft:meadow']));
 
   // BTH: Plains
   [
-    'nebulusoaktree:oak_tree_biomes',
-    'idas:has_structure/hermits_hollow_biomes',
     'idas:has_structure/farmhouse_biomes',
+    'idas:has_structure/hermits_hollow_biomes',
+    'nebulusoaktree:oak_tree_biomes',
   ].forEach((tag) => event.add(tag, ['minecraft:plains']));
 
   // BTH: Spooky
   [
+    'graveyard:has_structure/dead_tree',
     'graveyard:has_structure/haunted_house',
     'graveyard:has_structure/medium_graveyard',
-    'graveyard:has_structure/small_grave',
+    'graveyard:has_structure/small_graveyard',
     'idas:has_structure/hauntedhouse_biomes', // this one doesn't generate for some reason...
   ].forEach((tag) => event.add(tag, ['nyctophobia:deep_dark_forest', 'nyctophobia:haunted_forest']));
 
@@ -173,11 +180,17 @@ ServerEvents.tags('worldgen/biome', event => {
   [
     'idas:has_structure/bearclaw_inn_biomes',
     'idas:has_structure/hunters_cabin_biomes',
-    'valhelsia_structures:has_structure/forge',
+    'valhelsia_structures:has_structure/has_forge',
   ].forEach((tag) => event.add(tag, ['minecraft:taiga', 'minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']));
 
   // Houses from various mods
   event.add('bth:house_biomes', ['minecraft:flower_forest', 'minecraft:forest', 'minecraft:cherry_grove', 'terralith:sakura_grove', 'terralith:sakura_valley']);
+
+  // Better Mineshafts (don't let this generate under skylands)
+  event.add('bettermineshafts:has_structure/better_mineshaft_overgrown', ['minecraft:old_growth_birch_forest', 'minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']);
+
+  // BTH Aether portals
+  event.add('bth_structures:has_structure/aether_portal_framed', ['terralith:lavender_forest', 'terralith:lavender_valley', 'terralith:moonlight_grove', 'terralith:moonlight_valley']);
 
   // BTH Towers
   event.add('bth_structures:has_structure/tower_frozen', '#bth:is_frozen_tower_biome');
@@ -188,6 +201,7 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('eidolon:has_structure/stray_tower_biomes', '#bth:is_frozen_tower_biome');
 
   event.add('graveyard:has_structure/ruins', ['terralith:shrubland']);
+  event.add('graveyard:has_structure/dead_tree', ['terralith:ice_marsh']);
 
   // Iron's Spellbooks
   event.add('irons_spellbooks:has_structure/evoker_fort', ['minecraft:snowy_plains']);

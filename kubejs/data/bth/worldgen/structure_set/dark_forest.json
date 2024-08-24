@@ -1,6 +1,10 @@
 {
   "structures": [
     {
+      "structure": "graveyard:mushroom_grave",
+      "weight": 1
+    },
+    {
       "structure": "idas:wizard_tower",
       "weight": 2
     },
