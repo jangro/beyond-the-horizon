@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "idas:dig_site/dig_site",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:ruined_hangar",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:spawner_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:big_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 10391726,
+    "spacing": 40,
+    "separation": 30,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

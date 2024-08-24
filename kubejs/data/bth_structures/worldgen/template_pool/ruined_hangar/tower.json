@@ -1,11 +1,11 @@
 {
-    "name": "bth_structures:watch_tower",
+    "name": "bth_structures:ruined_hangar",
     "fallback": "minecraft:empty",
     "elements": [{
         "weight": 1,
         "element": {
             "element_type": "minecraft:single_pool_element",
-            "location": "bth_structures:watch_tower",
+            "location": "bth_structures:ruined_hangar/tower",
             "processors": "minecraft:empty",
             "projection": "rigid"
         }

@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#minecraft:is_forest",
+    "biomes": ["minecraft:plains", "minecraft:old_growth_birch_forest", "minecraft:savanna"],
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",

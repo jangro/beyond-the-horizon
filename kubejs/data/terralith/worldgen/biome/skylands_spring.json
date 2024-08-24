@@ -29,10 +29,7 @@
             "terralith:skylands/dirt_tops",
             "terralith:skylands/grassy_tops"
         ],
-        [
-            "minecraft:lake_lava_underground",
-            "minecraft:lake_lava_surface"
-        ],
+        [],
         [
             "minecraft:amethyst_geode"
         ],
@@ -74,12 +71,8 @@
             "minecraft:disk_gravel"
         ],
         [],
+        [],
         [
-            "minecraft:spring_lava"
-        ],
-        [
-            "terralith:skylands/waterfall",
-            "terralith:skylands/spring/lake",
             "terralith:skylands/spring/lichen",
             "terralith:sakura/birch_sparse",
             "terralith:skylands/spring/flowers",

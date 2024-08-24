@@ -5,14 +5,18 @@
       "weight": 1
     },
     {
+      "structure": "idas:brickhouse",
+      "weight": 1
+    },
+    {
       "structure": "idas:cottage",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 75234855,
-    "spacing": 100,
-    "separation": 50,
-    "type": "minecraft:random_spread"
+    "salt": 21237855,
+    "spacing": 40,
+    "separation": 30,
+    "type": "integrated_api:advanced_random_spread"
   }
 }

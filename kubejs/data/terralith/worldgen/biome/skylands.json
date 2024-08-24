@@ -30,10 +30,7 @@
             "terralith:skylands/grassy_tops",
             "terralith:skylands/wheat"
         ],
-        [
-            "minecraft:lake_lava_underground",
-            "minecraft:lake_lava_surface"
-        ],
+        [],
         [
             "minecraft:amethyst_geode"
         ],
@@ -75,11 +72,8 @@
             "minecraft:disk_gravel"
         ],
         [],
+        [],
         [
-            "minecraft:spring_lava"
-        ],
-        [
-            "terralith:skylands/waterfall",
             "terralith:skylands/winter/lichen",
             "terralith:skylands/patch_grass",
             "minecraft:glow_lichen",

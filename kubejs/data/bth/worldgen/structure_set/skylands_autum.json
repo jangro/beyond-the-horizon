@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "bth:skylands_abandoned_farm",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 2,
+      "other_set": "bth_structures:towers_skylands_autumn"
+    },
+    "salt": 121931326,
+    "spacing": 25,
+    "separation": 15
+  }
+}

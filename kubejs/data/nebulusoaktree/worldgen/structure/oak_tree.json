@@ -10,6 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": "#bth:nebulus_tree_biomes",
+  "biomes": "#nebulusoaktree:oak_tree_biomes",
   "use_expansion_hack": false
 }
