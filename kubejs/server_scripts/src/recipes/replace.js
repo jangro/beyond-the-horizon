@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
   replaceOutput('galosphere:silver_nugget', 'eidolon:silver_nugget');
   replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
   replaceOutput('immersiveengineering:nugget_electrum', 'createaddition:electrum_nugget');
-  replaceOutput('immersiveengineering:nugget_silver', 'immersiveengineering:silver_nugget');
+  replaceOutput('immersiveengineering:nugget_silver', 'eidolon:silver_nugget');
   replaceOutput('pneumaticcraft:copper_nugget', 'create:copper_nugget');
   // Note: Unsure of how best to handle Alex's Caves Uranium Shards, as they're nuggets but ones
   // that convert to raw material, not an ingot.
