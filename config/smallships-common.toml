@@ -63,26 +63,26 @@ schematicVersion = 5
 			#Range: 1.0 ~ 10000.0
 			shipAttributeCogMaxHealth = 300.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogMaxSpeed = 30.0
+			shipAttributeCogMaxSpeed = 35.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeCogMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogMaxRotationSpeed = 4.5
+			shipAttributeCogMaxRotationSpeed = 5.5
 			#Range: 0.0 ~ 100.0
 			shipAttributeCogAcceleration = 0.015
 			#Range: 0.0 ~ 100.0
-			shipAttributeCogRotationAcceleration = 0.7
+			shipAttributeCogRotationAcceleration = 1.0
 
 		#Default configs for the container of the Cog.
 		[Ship.Cog.Container]
 			#Set container size for the Cog (value must be divisible by 9 and bigger than 0).
-			shipContainerCogContainerSize = 108
+			shipContainerCogContainerSize = 54
 
 		#Cog specific speed modifiers.
 		[Ship.Cog.Modifier]
 			#Specify biome type for the Cog. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierCogBiome = "COLD"
+			shipModifierCogBiome = "NONE"
 
 	[Ship.Brigg]
 
@@ -91,7 +91,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 10000.0
 			shipAttributeBriggMaxHealth = 450.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeBriggMaxSpeed = 35.0
+			shipAttributeBriggMaxSpeed = 30.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeBriggMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
@@ -110,7 +110,7 @@ schematicVersion = 5
 		[Ship.Brigg.Modifier]
 			#Specify biome type for the Brigg. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierBriggBiome = "COLD"
+			shipModifierBriggBiome = "WARM"
 
 	[Ship.Galley]
 
@@ -119,7 +119,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 10000.0
 			shipAttributeGalleyMaxHealth = 200.0
 			#Range: 0.0 ~ 100.0
-			shipAttributeGalleyMaxSpeed = 30.0
+			shipAttributeGalleyMaxSpeed = 40.0
 			#Range: 0.0 ~ 100.0
 			shipAttributeGalleyMaxReverseSpeed = 0.1
 			#Range: 0.0 ~ 100.0
@@ -127,7 +127,7 @@ schematicVersion = 5
 			#Range: 0.0 ~ 100.0
 			shipAttributeGalleyAcceleration = 0.015
 			#Range: 0.0 ~ 100.0
-			shipAttributeGalleyRotationAcceleration = 1.0
+			shipAttributeGalleyRotationAcceleration = 0.7
 
 		#Default configs for the container of the Galley.
 		[Ship.Galley.Container]
@@ -138,7 +138,7 @@ schematicVersion = 5
 		[Ship.Galley.Modifier]
 			#Specify biome type for the Galley. Can be NONE, COLD, NEUTRAL, or WARM
 			#Allowed Values: NONE, COLD, NEUTRAL, WARM
-			shipModifierGalleyBiome = "WARM"
+			shipModifierGalleyBiome = "NEUTRAL"
 
 	[Ship.Drakkar]
 
@@ -160,7 +160,7 @@ schematicVersion = 5
 		#Default configs for the container of the Drakkar.
 		[Ship.Drakkar.Container]
 			#Set container size for the Drakkar (value must be divisible by 9 and bigger than 0).
-			shipContainerDrakkarContainerSize = 54
+			shipContainerDrakkarContainerSize = 108
 
 		#Drakkar specific speed modifiers.
 		[Ship.Drakkar.Modifier]
