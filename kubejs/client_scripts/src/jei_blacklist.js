@@ -29,6 +29,7 @@ JEIEvents.hideItems(event => {
     'farmersdelight:rope',
     'galosphere:deepslate_silver_ore',
     'galosphere:raw_silver',
+    'galosphere:raw_silver_block',
     'galosphere:silver_block',
     'galosphere:silver_ingot',
     'galosphere:silver_nugget',
