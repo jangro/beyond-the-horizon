@@ -1,0 +1,36 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "create:cut_tuff"
+    },
+    {
+      "item": "create:polished_cut_tuff"
+    },
+    {
+      "item": "create:cut_tuff_bricks"
+    },
+    {
+      "item": "create:small_tuff_bricks"
+    },
+    {
+      "item": "create:layered_tuff"
+    },
+    {
+      "item": "quark:polished_tuff"
+    },
+    {
+      "item": "quark:tuff_bricks"
+    },
+    {
+      "item": "quark:chiseled_tuff_bricks"
+    },
+    {
+      "item": "quark:tuff_pillar"
+    }
+  ],
+  "overwrite": false
+}
