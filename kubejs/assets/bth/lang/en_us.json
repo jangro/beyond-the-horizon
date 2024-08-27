@@ -140,8 +140,14 @@
   "bth.comment.death_messages": "----- Death Messages -----",
   "death.attack.coconut_maul": "%s just got coconut mauled by %s",
   "death.attack.coconut_maul.item": "%s just got coconut mauled by %s using %s",
+
+  "bth.comment.enchantments": "----- Enchantments -----",
+  "enchantment.galosphere.enfeeble.desc": "Adds slowness to mobs.",
+  "enchantment.galosphere.rupture.desc": "Extends the duration of pink salt pillars.",
+  "enchantment.galosphere.sustain.desc": "Shatters into shards when it retracts.",
   
   "bth.comment.items": "----- Items -----",
+  "item.bth.adventurers_spellbook": "Adventurers' Spellbook",
   "item.bth.coconut_maul": "Coconut Maul",
 
   "bth.comment.jei_information": "-----JEI Information Entries-----",
