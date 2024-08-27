@@ -56,7 +56,7 @@
 	Crafter = true
 	"Dispensers Place Blocks" = true
 	"Ender Watcher" = true
-	"Feeding Trough" = true
+	"Feeding Trough" = false
 	Gravisand = true
 	"Iron Rod" = true
 	"Metal Buttons" = true
