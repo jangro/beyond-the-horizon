@@ -142,6 +142,20 @@
   "death.attack.coconut_maul.item": "%s just got coconut mauled by %s using %s",
 
   "bth.comment.effects": "----- Effects -----",
+  "effect.deep_aether.moa_bonus_jumps": "Moa Bonus Jumps",
+  "effect.eidolon.light_blessing": "Light Blessing",
+  "effect.tetra.bleeding": "Bleeding",
+  "effect.tetra.stun": "Stun",
+  "effect.tetra.suspended": "Suspended",
+  "effect.tetra.mining_speed": "Mining Speed",
+
+  "bth.comment.effects.descriptions": "----- Effect Descriptions -----",
+  "effect.deep_aether.moa_bonus_jumps.description": "No description yet.",
+  "effect.eidolon.light_blessing.description": "No description yet.",
+  "effect.tetra.bleeding.description": "No description yet.",
+  "effect.tetra.stun.description": "No description yet.",
+  "effect.tetra.suspended.description": "No description yet.",
+  "effect.tetra.mining_speed.description": "No description yet.",
   "effect.galosphere.block_bane.description":"Deals damage to the target when they place a block.",
   "effect.galosphere.astral.description":"Allows the target to phase through blocks.",
 
@@ -153,6 +167,9 @@
   "bth.comment.items": "----- Items -----",
   "item.bth.adventurers_spellbook": "Adventurers' Spellbook",
   "item.bth.coconut_maul": "Coconut Maul",
+  "item.minecraft.tipped_arrow.effect.absorption": "Arrow of Absorption",
+  "item.minecraft.tipped_arrow.effect.astral": "Arrow of Astral",
+  "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin's Grace",
 
   "bth.comment.jei_information": "-----JEI Information Entries-----",
   "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
