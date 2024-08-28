@@ -141,10 +141,14 @@
   "death.attack.coconut_maul": "%s just got coconut mauled by %s",
   "death.attack.coconut_maul.item": "%s just got coconut mauled by %s using %s",
 
+  "bth.comment.effects": "----- Effects -----",
+  "effect.galosphere.block_bane.description":"Deals damage to the target when they place a block.",
+  "effect.galosphere.astral.description":"Allows the target to phase through blocks.",
+
   "bth.comment.enchantments": "----- Enchantments -----",
   "enchantment.galosphere.enfeeble.desc": "Adds slowness to mobs.",
   "enchantment.galosphere.rupture.desc": "Extends the duration of pink salt pillars.",
-  "enchantment.galosphere.sustain.desc": "Shatters into shards when it retracts.",
+  "enchantment.galosphere.sustain.desc":"Pink salt pillars shatter into shards when they retract.",
   
   "bth.comment.items": "----- Items -----",
   "item.bth.adventurers_spellbook": "Adventurers' Spellbook",
