@@ -32,7 +32,7 @@ hash = "3d3dcca39d7747b02a0d9e1edcc52102e363c821b48fba376ee0573d9d06dc85"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "5939f36a6498131472e042fb63fce2b722b46b758c5f7f8ab9676a2ed95bbfde"
+hash = "ad441613184ce2b3832606d01247024a158cd00447990df562dbf3a836be074e"
 
 [[files]]
 file = "config/alexsmobs/fly_spawns.json"
@@ -60,7 +60,7 @@ hash = "17d0980a5387c782633dbf61a540c5eb49c28d116446b008e55415a738fc959a"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "f6abb556bdf4b3b91d20e5ae2f932873f180fb425f36667353063a64ef54c8f2"
+hash = "c5493697e97d9a987716667750c2db46cce05d25c4659d6e54ccd8dd4e47bf80"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -152,7 +152,7 @@ hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "2d5d79355568123ab449acb898813fb7b0369dfaff56573d6ccf0f4c325ab7da"
+hash = "7e7f5efda1fa417d92f7085e8ec8823e0c04a2382eaee0b780a2533253c3911f"
 
 [[files]]
 file = "config/rats-common.toml"
@@ -240,7 +240,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "47b4a8b5e26af400c33ddfef5b7225018966ba6709f0744f51ef1fb401b1fdf4"
+hash = "a0edc6e673b7a66c750c5d5b77215c33a886a1ac14749d325be8c15521b95bb2"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -252,7 +252,7 @@ hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "82bcc4cbca653ded5dd0f200603f1cb050a97897351d3e837554f05f5c197352"
+hash = "b3db3f2defecbb00b2979d9e512dc8e170cc914dfe65caad7cf71af289856e43"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -387,8 +387,28 @@ file = "kubejs/data/bth/advancements/exploration/tower.json"
 hash = "54ae2ba47699c85e8c14e5f2339a33bcfd4de321081a19d369236ae4e98c7111"
 
 [[files]]
+file = "kubejs/data/bth/chiseling_recipes/tuff.json"
+hash = "9b329d5e6c569ecc8ac312159a78710b779300a37582472967652c5d2f8b8cf0"
+
+[[files]]
 file = "kubejs/data/bth/damage_type/coconut_maul.json"
 hash = "1182688786a3e4d30880dcb359d1ad9242719f9f28f967260088802dae1daf18"
+
+[[files]]
+file = "kubejs/data/bth/forbidden_arcanus/hephaestus_forge/input/experience_block.json"
+hash = "5b61eeb129130add59b63effa77abdb4cc41aa7a3766dc79702ed3bc2d21fbb3"
+
+[[files]]
+file = "kubejs/data/bth/forbidden_arcanus/hephaestus_forge/input/experience_gem.json"
+hash = "ba337dd7005174d83487270cf727562b883f0a8a4884d1013205eaba5165443b"
+
+[[files]]
+file = "kubejs/data/bth/forbidden_arcanus/hephaestus_forge/input/experience_nugget.json"
+hash = "7bbb58229661d0dcc1cb08f5da24fccf5e6b7a933c6b84b3a23b66f80f46f004"
+
+[[files]]
+file = "kubejs/data/bth/forbidden_arcanus/hephaestus_forge/input/greater_experience_gem.json"
+hash = "3a88018d384b77b4090eecb3a4c96158dbd49ce5fc4f3d80d831be0bca06ec91"
 
 [[files]]
 file = "kubejs/data/bth/loot_tables/heart_container.json"
