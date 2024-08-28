@@ -45,7 +45,7 @@
 			}
 			id: "386F16E95AB8CD5E"
 			min_required_dependencies: 1
-			subtitle: "Golden tools always have fortune 2, weapons - looting 2"
+			subtitle: "Golden tools always have Fortune II and weapons will have Looting II."
 			tasks: [
 				{
 					id: "4A4630122EAFA6C4"
@@ -125,23 +125,6 @@
 			y: -5.5d
 		}
 		{
-			description: [
-				""
-				"{image:integrateddynamics:aspect/read/boolean/fe/isempty width:16 height:16 align:left}"
-				"{image:integrateddynamics:aspect/read/boolean/redstone/clock width:16 height:16 align:center}"
-				"{image:integrateddynamics:aspect/read/block width:16 height:16 align:right}"
-			]
-			id: "5B3C57587158633F"
-			subtitle: "A simple method to return home after a long journey"
-			tasks: [{
-				id: "714981A2DC5005F0"
-				item: "ring_of_return:ring_of_return"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -5.5d
-		}
-		{
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -150,17 +133,17 @@
 				}
 			}
 			id: "7A545E5DF48EDB9B"
-			subtitle: "Press P to control teams"
+			subtitle: "Press P to control teams."
 			tasks: [{
 				id: "0F6C1CB9029FDB70"
-				title: "Team managment"
+				title: "Team management."
 				type: "checkmark"
 			}]
 			x: 12.5d
 			y: -5.5d
 		}
 		{
-			description: ["Craft a hammer and use it on a regular workbench"]
+			description: ["Craft a hammer and use it on a regular workbench."]
 			icon: {
 				Count: 1
 				id: "tetra:holo"
@@ -176,7 +159,7 @@
 				}
 			}
 			id: "63A1069CA349D4B8"
-			subtitle: "An advanced method that allows you to fine-tune your tools and weapons (and more)"
+			subtitle: "An advanced method that allows you to fine-tune your tools and weapons (and more)."
 			tasks: [
 				{
 					icon: "tetra:basic_workbench"
@@ -205,20 +188,20 @@
 					type: "item"
 				}
 			]
-			title: "New way for tools crafting"
+			title: "New customization options for weapons and tools."
 			x: 9.5d
 			y: -5.5d
 		}
 		{
 			icon: "suppsquared:sack_brown"
 			id: "5E638E39564BB34E"
-			subtitle: "Fortune enchantment affects sack drops"
+			subtitle: "Fortune enchantment affects sack drops."
 			tasks: [{
 				id: "6378AEC6A20C3B4A"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Sack drops"
+			title: "Sack drops."
 			x: 9.0d
 			y: -3.5d
 		}
@@ -248,7 +231,7 @@
 				}
 			}
 			id: "1D5DC03458DE1BF0"
-			subtitle: "You can now place some new markers on maps"
+			subtitle: "You can now place some new markers on maps."
 			tasks: [{
 				id: "579FBED5441967BA"
 				title: "Understand"
@@ -374,7 +357,7 @@
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Linking item to the chat"
+			title: "Linking Items in Chat"
 			x: 13.5d
 			y: -5.5d
 		}
@@ -387,7 +370,7 @@
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Nether portal compass"
+			title: "Nether Portal Compass"
 			x: 8.0d
 			y: -3.5d
 		}

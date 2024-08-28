@@ -45,7 +45,7 @@
 		}
 		{
 			id: "4E7155A51FDBEA52"
-			subtitle: "Pirates say it gave sight to the legendary Black Pearl"
+			subtitle: "Pirates say it gave sight to the legendary Black Pearl."
 			tasks: [{
 				id: "11C002B4B7A16134"
 				item: {
@@ -62,7 +62,7 @@
 		}
 		{
 			id: "3D498D90313D9C5E"
-			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"
+			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world."
 			tasks: [{
 				id: "5DE2EAA59D7ACDA8"
 				item: {
@@ -79,7 +79,7 @@
 		}
 		{
 			id: "2BF3CC73E467999F"
-			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"
+			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner."
 			tasks: [{
 				id: "79A12A92A5A29567"
 				item: {
@@ -96,7 +96,7 @@
 		}
 		{
 			id: "0EEAC7231795131F"
-			subtitle: "It is told that it was forged by the first blacksmiths of time"
+			subtitle: "It is told that it was forged by the first blacksmiths of time."
 			tasks: [{
 				id: "0FF085183E8F1B96"
 				item: {
@@ -113,7 +113,7 @@
 		}
 		{
 			id: "619075120B45FE5F"
-			subtitle: "It was lost by a demon in the battle between the Aether and the Nether"
+			subtitle: "It was lost by a minion in the battle between the Aether and the Nether."
 			tasks: [{
 				id: "69362ECA1F608112"
 				item: {
@@ -130,7 +130,7 @@
 		}
 		{
 			id: "3032F8EE08F7BDEC"
-			subtitle: "Legends say this eye once belonged to one of the great Sandworms"
+			subtitle: "Legends say this eye once belonged to one of the great Sandworms."
 			tasks: [{
 				id: "0494DACB1DA69D28"
 				item: {
@@ -147,7 +147,7 @@
 		}
 		{
 			id: "025BC45147EEFEC2"
-			subtitle: "This eye is believed to have given our ancestors the knowledge of Redstone"
+			subtitle: "This eye is believed to have given our ancestors the knowledge of redstone."
 			tasks: [{
 				id: "7136F783C9291E9D"
 				item: {
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "7ED342D083C40641"
-			subtitle: "A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"
+			subtitle: "A powerful yet destructive artifact; the piglins swore to protect it at the cost of their lives."
 			tasks: [{
 				id: "571C8C47C0C3CF20"
 				item: {
@@ -181,7 +181,7 @@
 		}
 		{
 			id: "2A291BC419B86C7E"
-			subtitle: "A holy talisman said to protect its owner from bad luck"
+			subtitle: "A holy talisman said to protect its owner from bad luck."
 			tasks: [{
 				id: "204F3B477568E891"
 				item: {
@@ -198,7 +198,7 @@
 		}
 		{
 			id: "09B96D2E745CA0F1"
-			subtitle: "It has seen many warriors drown into the depths of the sea"
+			subtitle: "It has seen many warriors drown into the depths of the sea."
 			tasks: [{
 				id: "53E0E6F5D8D4EA4F"
 				item: {
@@ -215,7 +215,7 @@
 		}
 		{
 			id: "203D6061C6FAF298"
-			subtitle: "Without this eye, the Evoker has no power"
+			subtitle: "Without this eye, the Archevoker has no power."
 			tasks: [{
 				id: "59D09144E7E08001"
 				item: {
@@ -249,7 +249,7 @@
 		}
 		{
 			id: "6C143D7B08238AC6"
-			subtitle: "Has witnessed destruction. Maybe it also witnessed your stuff disappear"
+			subtitle: "Has witnessed destruction. Maybe it also witnessed your stuff disappear."
 			tasks: [{
 				id: "13E20B6902A9A661"
 				item: {
@@ -266,7 +266,7 @@
 		}
 		{
 			id: "44EDB755EEED4051"
-			subtitle: "Remembrance of the past lives of those who live in death"
+			subtitle: "Remembrance of the past lives of those who live in death."
 			tasks: [{
 				id: "12AF0F878AEB74C2"
 				item: {
@@ -283,7 +283,7 @@
 		}
 		{
 			id: "18A5B36C235A6304"
-			subtitle: "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"
+			subtitle: "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying."
 			tasks: [{
 				id: "2FFAE2B8040CCF50"
 				item: {
@@ -300,7 +300,7 @@
 		}
 		{
 			id: "04CEF776DC41C8A7"
-			subtitle: "No information about this eye"
+			subtitle: "No information about this eye."
 			tasks: [{
 				id: "00F474FD2D7FDBDF"
 				item: {
