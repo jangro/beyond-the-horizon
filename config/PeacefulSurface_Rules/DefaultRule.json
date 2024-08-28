@@ -22,7 +22,7 @@
   "InvertedAltitudeChecking": false,
   "InvertedBlockLightChecking": false,
   "InvertedSkyLightChecking": false,
-  "mobFilter": "(\\bminecraft:enderman\\b)|(\\bminecraft:slime\\b)|(\\bminecraft:phantom\\b)|(\\bminecraft:vindicator\\b)|(\\bminecraft:evoker\\b)|(\\bminecraft:pillager\\b)|(\\bminecraft:illusioner\\b)",
+  "mobFilter": "(\\bminecraft:enderman\\b)|(\\bminecraft:slime\\b)|(\\bminecraft:phantom\\b)|(\\bminecraft:vindicator\\b)|(\\bminecraft:evoker\\b)|(\\bminecraft:pillager\\b)|(\\bminecraft:illusioner\\b)|(\\bupgrade_aquatic:great_thrasher\\b)|(\\bupgrade_aquatic:thrasher\\b)",
   "dimensionFilter": "(\\bminecraft:the_end\\b)|(\\bminecraft:the_nether\\b)",
   "biomeFilter": "(\\bminecraft:plains\\b)",
   "LightLevel": 0,
