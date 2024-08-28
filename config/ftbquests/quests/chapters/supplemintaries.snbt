@@ -1,0 +1,1053 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "supplemintaries"
+	group: ""
+	icon: "supplementaries:globe"
+	id: "12F9C42AF04EEBF4"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/redstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/flint_and_steel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/item_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Shot blocks will place themselves wherever they land if the position is suitable"
+				""
+				"A Slingshot enchanted with Stasis will be able to shoot in a straight line without being affected by gravity and will additionally gain a white block outline that will indicate where the projectile will land."
+				""
+				"Can be enchanted with &3Quick Charge&r, &3Multi Shot&r and &3Stasis&r."
+			]
+			id: "424D9A1DF04F1901"
+			subtitle: "A tool that can shoot blocks!"
+			tasks: [{
+				id: "5B2662EA947C9E17"
+				item: {
+					Count: 1
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Slingshot"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Its main use is to quickly switch between arrows. To do so use the item and it will open an ingame GUI."
+				"Alternatively shift right click also cycles through selected arrows without opening a GUI."
+				"Alternatively you can access it using a keybind."
+				""
+				"Arrows and item arrows you pick up will go in your quiver if it contains non full stacks of the same kind."
+			]
+			id: "28A02E6D1E4F5D8E"
+			subtitle: "Stores multiple arrows and allows you to quickly change them."
+			tasks: [{
+				id: "7CD8B6F514A219D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Can be bound to a specific pet (or horse) by clicking it on the animal in question."
+				"A bounded flute will only call the pet that it was bound to."
+				"When used will play a random song."
+				"If renamed to the name of an existing song it will play that all the time."
+			]
+			id: "797194AB19CFE439"
+			subtitle: "Can be played to summon nearby non sitting owned pets "
+			tasks: [{
+				id: "783B3F5FD28E7D5F"
+				item: {
+					Count: 1
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "4B36949CD065FCBB"
+			subtitle: "Rotate any kind of rotateable block"
+			tasks: [{
+				id: "3EDCFC36B32ADA4F"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Can be used directly on all those in world."
+				"Can be used on copper like blocks to clean away any waxing and oxidation in one use."
+				"Can be used on pets and sheeps to un wash them."
+				"Can also wash away blackboards, antique globes and maps, sticky pistons and tipped spikes."
+			]
+			id: "4E79F6590377F266"
+			subtitle: "Revert items to their default or white state"
+			tasks: [{
+				id: "557F57C10890920E"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Such explosion will only deal damage to mobs without destroying any block, with the exception of blocks that can be removed by water like tall grass."
+				"When exploding they can ignite nearby creepers."
+				""
+				"Blue Bombs are a more powerful version of bombs and will afflict weakness debuff."
+			]
+			icon: "supplementaries:bomb"
+			id: "0AF6615A80843315"
+			subtitle: "A consumable projectile that will explode wherever it lands"
+			tasks: [
+				{
+					id: "43400CEEAD8F448B"
+					item: "supplementaries:bomb"
+					type: "item"
+				}
+				{
+					id: "28C1AE87005B1062"
+					item: "supplementaries:bomb_blue"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Bomb"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["Shot rope arrows will retain all the ropes they didn't place so remember to pick them back up"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:item/rope_arrow"
+				}
+			}
+			id: "1B166E965623872B"
+			subtitle: "Once shot it will try to deploy a rope coil wherever it lands"
+			tasks: [{
+				id: "649707ECBCBA5B8F"
+				item: {
+					Count: 1
+					id: "supplementaries:rope_arrow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"If enchanted with &3Stasis&r it gains an actual useful functionality which allows it to place fancy soap bubble blocks in mid air wherever you aim."
+				""
+				"The blocks will remain in the air for a while or until they are stepped on."
+				"Soap blocks can be replaced with other blocks, which is useful when building."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "supplementaries:item/bubble_blower"
+				}
+			}
+			id: "4DF782D7E2E59DAF"
+			subtitle: "A fun novelty item which you can use to blow soap bubbles at your friends"
+			tasks: [{
+				id: "1A2088CD077C9388"
+				item: {
+					Count: 1
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Can be used on any sign to change its font to a fancy Antiquable font."
+				"Can be crafted with a map to turn it into a Antique Map, giving it a treasure map like look."
+				"Can be crafted with an original written book to turn it into a Tattered book. Tattered books cant be copied and will use the Antiquable font."
+			]
+			id: "5ED9CA7C6BFDA5FE"
+			subtitle: "Changes the font of objects it interacts with."
+			tasks: [{
+				id: "108E1116E7187CEB"
+				item: "supplementaries:antique_ink"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Similar to cakes they can only be eaten when placed."
+				"Can be placed in a pile of up to 8."
+				"Honey can be poured on them (either via faucet or by clicking with a bottle)."
+				"They can also accept other toppings such as chocolate and syrup."
+				"Pancakes with honey, chocolate or syrup will give a short speed effect when eaten."
+				""
+				"You can also insert a pancake in a jukebox for some sick tunes!"
+			]
+			id: "3EB5ACA017BACC0B"
+			subtitle: "Yummy"
+			tasks: [{
+				id: "318687E5EB4083C3"
+				item: "supplementaries:pancake"
+				type: "item"
+			}]
+			title: "Pancake"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Work only with &3Safes,&r &3Netherite Doors&r, &3Netherite Trapdoors&r and &3Lock Blocks&r"
+				""
+				"To lock a block first rename the key to your desired password, the click on the unbounded block."
+				"To clear the ownership simply shift click with the correct key on the locked block."
+				"To open a locked block you won't need to have the correct key in hand, it just needs to be in your inventory or Curio slot."
+				""
+				"Can be used in a dispenser to open key lockable blocks. Useful with lock blocks"
+			]
+			id: "7FFFF7F7DF3BE4FB"
+			subtitle: "Used to lock Safes, Netherite Doors, Netherite Trapdoors and Lock Blocks"
+			tasks: [{
+				id: "2F8A6D8A30E29F25"
+				item: "supplementaries:key"
+				type: "item"
+			}]
+			title: "Key"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FFFF7F7DF3BE4FB"]
+			description: ["Acts as a sort of upgraded shulker box that is fire resistant."]
+			icon: "supplementaries:safe"
+			id: "1ADC88063B7ADCB3"
+			subtitle: "Can be locked with a key. Once this is done their content will only be available to players that have the correct key"
+			tasks: [{
+				id: "12F5CEA2A79C4C96"
+				type: "checkmark"
+			}]
+			title: "Safe"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FFFF7F7DF3BE4FB"]
+			description: ["By default the door is accessible to anyone until first locked."]
+			icon: "supplementaries:netherite_door"
+			id: "50DE6E1A25DBEAC4"
+			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the door"
+			tasks: [{
+				id: "25CADEE389DA54D9"
+				type: "checkmark"
+			}]
+			title: "Netherite Door"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FFFF7F7DF3BE4FB"]
+			description: ["Once it interacts with a player that holds the correct key it will emit a redstone pulse."]
+			icon: "supplementaries:lock_block"
+			id: "11F68289FDE2CE10"
+			subtitle: "Can be locked with a key similar to safes and netherite doors"
+			tasks: [{
+				id: "1E71D08DEB2D765F"
+				type: "checkmark"
+			}]
+			title: "Lock Block"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FFFF7F7DF3BE4FB"]
+			description: ["By default the trapdoor is accessible to anyone until first locked."]
+			icon: "supplementaries:netherite_trapdoor"
+			id: "14AC1F399D13B863"
+			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the trapdoor"
+			tasks: [{
+				id: "41F727253A171CB7"
+				type: "checkmark"
+			}]
+			title: "Netherite Trapdoor"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"During rain, it emits a signal with a power of 1."
+				"During thundering - with a power of 2."
+				"Also provide strong power to the block below."
+			]
+			id: "44E7ADBFDC06294C"
+			subtitle: "Swing depending on the current weather and output a redstone signal, the strength of which depends on the current weather"
+			tasks: [{
+				id: "2F9B34012426EC4D"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			title: "Wind Vane"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Pretty intuitive to use, you just power one and it will power its adjacent cogs, up to 14 blocks away, just like with redstone dust. "
+				""
+				"The real use for this is to be able to make compact vertical redstone signaling."
+			]
+			id: "58275DB6DF066451"
+			subtitle: "Acts as a form of upgraded redstone in solid block form"
+			tasks: [{
+				id: "594DFCDEF381F0C4"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			title: "Cog Block"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "0A6178D82A037278"
+			subtitle: "Displays a number or a symbol depending on what the received signal strength"
+			tasks: [{
+				id: "04E1DC93F5492476"
+				item: "supplementaries:crystal_display"
+				type: "item"
+			}]
+			title: "Crystal Display"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Works with indirect power when it faces a redstone wire."
+				"Useful to reliably transmit analog power without dispersion."
+				"A signal takes 1 game tick to travel through a relayer."
+			]
+			id: "099A91A1E8AF562E"
+			subtitle: "Observer like block whose purpose is to copy whatever signal it has in front to its back"
+			tasks: [{
+				id: "1A726A61E60DE5DB"
+				item: "supplementaries:relayer"
+				type: "item"
+			}]
+			title: "Relayer"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Twice powerfull as the vanilla piston-slime block setup."
+				"It can also push you up if you were to fall on it from a certain height when it's already extended."
+				"Cannot push blocks like a normal piston, only entities."
+				"Allows entities that stand on an extended one to jump slightly higher."
+			]
+			id: "699182EA223BDA47"
+			subtitle: "It extends like a piston and will propel any entities that lie ontop of it in the direction it's moving"
+			tasks: [{
+				id: "5C626117CEE20426"
+				item: "supplementaries:spring_launcher"
+				type: "item"
+			}]
+			title: "Spring Launcher"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Can be renamed in an anvil to change the name that will be displayed in chat. Rename it \"\" to get rid of it completely."
+				"There must be space before the block to send messages."
+			]
+			id: "498C3B31F012D5CD"
+			subtitle: "Send a message in chat to all players in a certain radius when activated"
+			tasks: [{
+				id: "54A2027EABDAB856"
+				item: "supplementaries:speaker_block"
+				type: "item"
+			}]
+			title: "Speaker Block"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Once powered it will initiate a rotation action which will take time depending on the signal strength it is receiving."
+				"The rotation action will continue regardless if the block is powered or not and it's indicated by a red light on the block itself."
+				"Rotation frequency (or speed for entities) depends on the redstone power the block has."
+				"Rotation period starts at 4 ticks for 15 power and increases linerily until it reaches 60 ticks at 1 power."
+				""
+				"Toggling the block by right clicking will reverse the rotation direction."
+				"Can shuffle inventory content when rotating any inventory block over the horizonta axis."
+				"Also constantly rotates entities that are standing on it (only works when facing upwards)."
+			]
+			id: "5610804960A23D97"
+			subtitle: "Rotates blocks"
+			tasks: [{
+				id: "74592BEDFE8F2223"
+				item: "supplementaries:turn_table"
+				type: "item"
+			}]
+			title: "Turn Table"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "all_started"
+			description: [
+				"Has a single inventory slot which can accept any chain or rope like block."
+				""
+				"When a turn table rotates the block (providing it's connected to the right axis) it will start deploying or retracting the items it's holding in its inventory, depending if it's getting rotated clock-wise or counter clock-wise."
+				"When rotated it will also rotate all the pulleys adjacent to it that are facing the same axis."
+				""
+				"Pulleys can be chained together. This means that all chains and ropes being pulled/pushed by a pulley will have the chance to be accepted by a receiving pulley. When this happens they will also have the chance to be placed horizontally which is usually not possible. This effect has a 6 blocks range. Keep in mind that pulleys will always prioritize the down direction or a direction where a rope /chain is already present when unwinding."
+				"Just like ropes, pulling up or down chains and ropes with a pulley will also bring up and down the last block attached to the chain."
+				""
+				"Pairs well with Turn Table."
+				"Can also be rotated by using a crank."
+				""
+				"&cIt cannot be powered by redstone.&r"
+			]
+			id: "12A0F1A43BB756F4"
+			subtitle: "Сбрасывает верёвку или цепь"
+			tasks: [{
+				id: "623C13293450D5C7"
+				item: "supplementaries:pulley_block"
+				type: "item"
+			}]
+			title: "Pulley Block"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The Hour hand indicates the current in-game hour while the minute hand ticks every irl second."
+				""
+				"Its output can be read with a comparator which will give off a signal from 0 to 15 that is proportional to the in-game time which is from 0 to 24."
+				"Gives off a block update detectable by an observer each time an in-game hour passes."
+				""
+				"Clicking on it will display the current time."
+				"Like all clocks does not work in the nether."
+			]
+			id: "6A111AA679FD828A"
+			subtitle: "Displays the current in-game time."
+			tasks: [{
+				id: "3AC00ADB01033339"
+				item: "supplementaries:clock_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Can be powered with redstone, by right-clicking or by stepping on."
+				"When powered will push air infront of it with frequency that is proportional to its redstone power. All the effects here described are affected by this."
+				""
+				"When pushing air it will push entities that are infront of it away, up to a 5 blocks distance."
+				"Speeds up furnace-like blocks that are right next to it."
+				"Refreshes fire blocks in-front of it. Fire blocks that are up to a 2 blocks distance will be kept alive indefinitely."
+				"Can speed up copper aging if placed right next to one."
+				"If placed in front of a wet sponge that is in contact with a soap block they are able to blow bubbles!"
+			]
+			id: "56EED3C96B90A092"
+			subtitle: "Push air infront of it"
+			tasks: [{
+				id: "7B1252FADDD553FA"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			title: "Bellows"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: ["Basically a an analog lever."]
+			icon: "supplementaries:crank"
+			id: "4047BA82FAC2DFE2"
+			subtitle: "Provides a variable redstone signal that depends on its turn ratio."
+			tasks: [
+				{
+					id: "1CF84950187C7951"
+					item: "supplementaries:crank"
+					type: "item"
+				}
+				{
+					id: "745CB870BB2CDD4A"
+					item: "create:analog_lever"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Crank"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Can be turned on/off by redstone signal or by pressing RMB."
+				""
+				"If placed next to a fluid containing block show a visual fluid tray right below it if it's active."
+				"Can extract items from the inventory below and spill them right below its nozzle with a one second interval."
+				"Once it's connected to a fluid containing block behind it can pour those fluids in any possible fluid container block below it. This will only be possible in 250mb increment."
+				""
+				"Can also interact with blocks below such as concrete powder, dirt (turns to mud) and sugar block."
+				"Can dump fluids in sponges effectively voiding them. The same can already be done with lava cauldrons making them ideal \"trash can\" solutions."
+			]
+			id: "535E4493E31C40F9"
+			subtitle: "Powerful multi purpose block"
+			tasks: [{
+				id: "35F54C1A9D74B541"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			title: "Faucet"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Can be filled with any kind of sand, dust or powder or even slime and honey."
+				"Downward time depends on the material used."
+				"Can give a comparator output that depends on the remaining time."
+				"Can be reset by either rotating twice with a turn table or by shift clicking."
+			]
+			id: "335E7C3E45C4B2F5"
+			subtitle: "Once filled will slowly start falling downward"
+			tasks: [{
+				id: "28A8FD085446D3E3"
+				item: "supplementaries:hourglass"
+				type: "item"
+			}]
+			title: "Hourglass"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			description: ["If unlit it will have its properties reversed."]
+			id: "2E758D49C2595CDB"
+			subtitle: "A mix between a sconce and a lever"
+			tasks: [{
+				id: "018D4FEE2D194A3E"
+				item: "supplementaries:sconce"
+				type: "item"
+			}]
+			title: "Sconce"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			description: ["It's on by default."]
+			id: "52B6BBD4B11D3FC7"
+			subtitle: "Gives off a light output that is inversely proportional to its current redstone power"
+			tasks: [{
+				id: "2F764F2125CDFABB"
+				item: "supplementaries:redstone_illuminator"
+				type: "item"
+			}]
+			title: "Redstone Illuminator"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Just like scaffolding they can only go that far out horizontally from their closest support until they are no longer supported."
+				"Vertical ropes have no hitbox and can be climbed."
+				"Horizontal ropes do have a hitbox and can be walked on, albeit at a slower paste."
+				""
+				"Placing a rope against an existing vertical one will result in the rope getting extended downwards."
+				"Ropes can be placed and will dynamically wrap themselves against many fence like blocks such as walls, beams and posts."
+				""
+				"Falling down ropes will not slow you down but still prevent fall damange."
+				"Can be broken by a projectile."
+			]
+			id: "72C008AA321DD359"
+			subtitle: "A building block that makes movement easier, especially in mines"
+			tasks: [{
+				id: "648C03DCDD1CF31B"
+				item: "supplementaries:rope"
+				type: "item"
+			}]
+			title: "Rope"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Once an item is taken or removed from a pedestal the block will give out a observer detectable update. (This can be prevented if one swaps the item with a sack)."
+				"If an end crystal is placed on a pedestal the block will give off an enchanting power equal to 3 bookshelves. This means that with 5 of such blocks you'll be able to max out an enchanting table."
+			]
+			id: "592E74E7C40A121B"
+			subtitle: "Beautifully displays the object placed on it"
+			tasks: [{
+				id: "2E0EC2A80A6016C0"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			title: "Pedestal"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			description: ["Once packed only you and the recipient will be able to open it and access its content."]
+			icon: "supplementaries:present_black"
+			id: "09B72093F7345C0E"
+			subtitle: "A container block which can hold 1 item stack"
+			tasks: [
+				{
+					id: "34D4C2228586ECF7"
+					item: "supplementaries:present"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5061E8E88FF5F2E1"
+					item: "supplementaries:present_white"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A509C61E55E3E9B"
+					item: "supplementaries:present_light_gray"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "077A29A516CA4573"
+					item: "supplementaries:present_gray"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "639B189EA4AC1A9E"
+					item: "supplementaries:present_black"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58793E8A273701C7"
+					item: "supplementaries:present_brown"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01484AB5A6D7A42E"
+					item: "supplementaries:present_red"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4E55E4F4A10642C0"
+					item: "supplementaries:present_orange"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D8E15B61E398889"
+					item: "supplementaries:present_yellow"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38DF497BFC6B77D3"
+					item: "supplementaries:present_lime"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "43061DAF17B5A214"
+					item: "supplementaries:present_green"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "729731497E785E49"
+					item: "supplementaries:present_cyan"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AB7C118392B2E90"
+					item: "supplementaries:present_light_blue"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "585AEC642DCE5074"
+					item: "supplementaries:present_blue"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B7FC19ABD16EC86"
+					item: "supplementaries:present_purple"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44A27C671D97FD38"
+					item: "supplementaries:present_magenta"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Present"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			description: ["Can be placed next to a wet sponge which is in contact with a bellow to make the setup emit bubble particles."]
+			id: "35EE5A9C6E88F632"
+			subtitle: "Makes entities that walk on it \"slip\""
+			tasks: [{
+				id: "59D271DCBFDB88BE"
+				item: "supplementaries:soap_block"
+				type: "item"
+			}]
+			title: "Soap Block"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"When it's displaying a written book it will only show one page at the time."
+				"The text resolution that is getting displayed depends on the amount of text in a page. Add whitespaces to make it render smaller."
+				"Once given a redstone pulse it will turn the currently displayed page onto the next one."
+				"Can be waxed to prevent interactions."
+			]
+			id: "329FFB73701E1F1A"
+			subtitle: "Can hold and display either a written book, a map or a banner pattern"
+			tasks: [{
+				id: "1BB5FA028113113E"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			title: "Notice Board"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"When eaten it will make baby animals age faster and will set adults in love. Uses the vanilla cooldown."
+				"Can be placed down with dispensers."
+			]
+			id: "383B835C8F3856AB"
+			subtitle: "A layered block that serves as a way to automatically feed animals"
+			tasks: [{
+				id: "128CC20F3648B5F5"
+				item: "supplementaries:fodder"
+				type: "item"
+			}]
+			title: "Fodder"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"They can be pushed with pistons or contraptions and will deal extra damage if they hit something while extending."
+				"Can be infused with lingering potions. To do so either craft them, click on them or pour the potion using a faucet."
+				"They can only accept negative lingering potions and have infinite charge."
+			]
+			id: "455AB40E9A8F4641"
+			subtitle: "Spikes that will slow and damage all the mobs that walk in them"
+			tasks: [{
+				id: "77AA88C9474350E6"
+				item: "supplementaries:bamboo_spikes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["Also prevent the crop from being trampled."]
+			id: "7B50ACBE3A229713"
+			subtitle: "Can support any plant or crop without the need of water"
+			tasks: [{
+				id: "320CD5CEC51006F1"
+				item: "supplementaries:planter"
+				type: "item"
+			}]
+			title: "Planter"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Can also be directly edited without the GUI by holding a dye item."
+				"Will keep its drawing when broken."
+				"Blackboards can be duplicated just like banners."
+				"Can be cleared by using a wet sponge or soap."
+				"Can be waxed to prevent interactions."
+				"Can accept glow ink."
+			]
+			id: "1CE03451460FA13D"
+			subtitle: "Can be written on to create interesting pattern"
+			tasks: [{
+				id: "41069D0F1F258DDE"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			title: "Blackboard"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Allows to make every block into a framed one. To do so simply click on it with said block."
+				"An option to frame an already placed block when clicking on it with this item."
+				""
+				"Using an axe on a framed block will break the frame but not the block contained inside."
+			]
+			icon: "supplementaries:daub_cross_brace"
+			id: "3917E8900E28B30B"
+			subtitle: "Can visually hold any solid block inside"
+			tasks: [
+				{
+					id: "5529728D57D6EDA9"
+					item: "supplementaries:timber_frame"
+					type: "item"
+				}
+				{
+					id: "3712B38C07A13A1B"
+					item: "supplementaries:timber_brace"
+					type: "item"
+				}
+				{
+					id: "23016739A8561080"
+					item: "supplementaries:timber_cross_brace"
+					type: "item"
+				}
+				{
+					id: "007855E1D92D81CC"
+					item: "suppsquared:metal_frame"
+					type: "item"
+				}
+				{
+					id: "3E16706E2F4DC070"
+					item: "suppsquared:metal_brace"
+					type: "item"
+				}
+				{
+					id: "2EBB6917F2A6E200"
+					item: "suppsquared:metal_cross_brace"
+					type: "item"
+				}
+				{
+					id: "14BD91C7310F68F6"
+					item: "supplementaries:daub_frame"
+					type: "item"
+				}
+				{
+					id: "7ADA1B0AE061C875"
+					item: "supplementaries:daub_brace"
+					type: "item"
+				}
+				{
+					id: "23C374040A73BDC8"
+					item: "supplementaries:daub_cross_brace"
+					type: "item"
+				}
+			]
+			title: "Framed blocks"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"When pushed by a piston it can scrape agains any full face iron-like block to produce sparks."
+				"If a flammable block is nearby it will catch fire! This allows to have a on demand durationless flint and steel."
+				"Opposite also works which means you can move an iron block agains a flint block instead."
+				"These interactions also work with Quark magnets."
+			]
+			id: "45E6458B285449BD"
+			subtitle: "A decorative and storage block that can provide a use for your extra flints"
+			tasks: [{
+				id: "53206DFAD7487C87"
+				item: "supplementaries:flint_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			description: ["Negating all fall damage."]
+			id: "2C6072220454E774"
+			subtitle: "Extremely fluffy!"
+			tasks: [{
+				id: "175186FD12F9E00D"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Can hold and display 3 lines of text."
+				"Cats will occasionally sit on it."
+				"One single item can be hidden below it. To do so shift click on any face except the top one."
+			]
+			id: "4DFC015406B24BD2"
+			subtitle: "Welcome home"
+			tasks: [{
+				id: "6C45AF5021712662"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["When powered with redstone it will wave."]
+			id: "2348785EA316D398"
+			subtitle: "Can hold an item in hand"
+			tasks: [{
+				id: "56159CF7EF132640"
+				item: "supplementaries:statue"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Sacks are heavy and when carrying more than 2 the player will have the overencumbered effect applied."
+				"Is a gravity block and will deal damage when it falls on an entity. Damage depends on sack content."
+			]
+			id: "1E412A1E0D9C4138"
+			subtitle: "Acts as an early game shulker box with 9 slots"
+			tasks: [{
+				id: "570C2865D878E09E"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			title: "Sack"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"To do so right or left click a mob with a cage item."
+				"Right click with a full cage to release the mob."
+				"To place the block down you will need to shift right click."
+				""
+				"Captured mobs will not age nor be interactable and some will have some custom animations. Chickens can still lay eggs while captured."
+			]
+			id: "2126B066AD3B25AB"
+			subtitle: "Can be used to capture small animals and mobs"
+			tasks: [{
+				id: "4AD93B79FD0C4E0D"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Can store up to 12 cookie like items."
+				"Just like cages it can store and capture small mobs."
+				"Jars can store up to 12 bottles (or 3k mb) of fluids."
+				"Can drink directly from jars, both in item and block form."
+			]
+			id: "5227EAB65D2DDAD7"
+			subtitle: "Can store cookie like items and fluid."
+			tasks: [{
+				id: "7366967748B7553B"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			description: ["This means that a powered door cannot be opened or closed regardless of its state."]
+			icon: "supplementaries:gold_door"
+			id: "00193A021E51809B"
+			subtitle: "When powered by redstone will disable any interaction with any player"
+			tasks: [
+				{
+					id: "7051CD0698D58BCB"
+					item: "supplementaries:gold_door"
+					type: "item"
+				}
+				{
+					id: "315218BB83327AA8"
+					item: "supplementaries:gold_trapdoor"
+					type: "item"
+				}
+			]
+			title: "Golden Doors and Trapdoors"
+			x: 5.0d
+			y: 4.5d
+		}
+	]
+	title: "Supplemintaries"
+}

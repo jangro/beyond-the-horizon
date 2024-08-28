@@ -1,0 +1,69 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armour"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "62678D689E5E7CCC"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "73D3EB04C4ACB860"
+		tasks: [
+			{
+				id: "00CECBA1D72EF4BB"
+				item: {
+					Count: 1
+					id: "immersive_armors:bone_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "0AAB8C51DFC87B2E"
+				item: {
+					Count: 1
+					id: "immersive_armors:bone_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "6F8A494ED1786438"
+				item: {
+					Count: 1
+					id: "immersive_armors:bone_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "19D2C13805B08A88"
+				item: {
+					Count: 1
+					id: "immersive_armors:bone_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+		]
+		x: -6.5d
+		y: -5.5d
+	}]
+	title: "[WIP] Armour"
+}
