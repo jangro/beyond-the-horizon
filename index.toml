@@ -16,7 +16,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
-hash = "d731579b2ea812f9572afaef3721b164e33092b6d260b968e16a12bebbbd69a8"
+hash = "2a32b28d872f0bb141eb80e160e8af67a7fef23e93925281a337dfedaa2b0145"
 
 [[files]]
 file = "config/aether-client.toml"
@@ -89,6 +89,42 @@ hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 [[files]]
 file = "config/forge-client.toml"
 hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
+hash = "a841f60af4ba656dccff27ec801f5979325aee7a1f68abf82368b78cbe6baa65"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
+hash = "841407da488759b55328a9a6395f2ae66820bdeb8da80791aa1bcb101e4199e7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/irons_spells.snbt"
+hash = "905e249b22534bb933b9935b17f68590e64c9bcbd0c29f4bc7ad7d5b1b8def09"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/quark.snbt"
+hash = "29ed9a0b9f419d816f43164f0eaa3d1def3edca1888c6eb4fb1165aeef2ac5e0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/supplementaries.snbt"
+hash = "3116039fbd6151ef526d08eefccb63d58258d357497a85454af471b92f536f38"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_end.snbt"
+hash = "a4e6a09a7dd38623321ef7849010facc0aad4ac9926c1b8742ed94da21579e52"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/travelling.snbt"
+hash = "57d6692323839ef2b9df77c92c210ebf9efaab29bf49bf20938d078011cb127e"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "3a67f29cdd1b7fc23fa69ba1aefe296c49a112f9e29305df2f47d488a4b7bada"
 
 [[files]]
 file = "config/immersiveengineering-client.toml"
@@ -240,7 +276,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "ac48e71042af937e9ab5d48191318562621d2e1dd3c933d992debc422c8035a7"
+hash = "c3c75d84ca4981a452c148e0d443311b8e482842f9979d7ce5a2ffeb04df423e"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -1272,7 +1308,7 @@ hash = "666e2379f4cc8c96f3fa32bc2624c16f796300954a531198f7c06571d3de59c1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "6054056f917104149e10a3619c2b0fd15c214398bf0eb05df5a1e984359fb552"
+hash = "4c0242d7a8e65b5e3e487a31051c19e1289470fac2a70451b2312c86e5754b72"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -1348,7 +1384,7 @@ hash = "956b57ca4dede670d6835835d06a18a242ba820c2effeaf5fbcd0514226044e6"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/immersiveengineering.js"
-hash = "7733d2f3b18418c32bb3f03da6333e72b7ac5d70f68b23847819ea50202caf7c"
+hash = "6e28ec6c2d3c1a633a3726bd3a48c127e9c41ba85acba7c986adfc407545bf75"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/integrateddynamics.js"
@@ -1533,6 +1569,11 @@ metafile = true
 [[files]]
 file = "mods/blazingbamboo.pw.toml"
 hash = "4ea359ac5284d768167a20b3c5f6edaea613a21a2b6d3fc51589fa6b6f55c403"
+metafile = true
+
+[[files]]
+file = "mods/block-swap.pw.toml"
+hash = "1d093db0add8486b407b1323d2add62c1710469922722ec2531f78ef667ec259"
 metafile = true
 
 [[files]]
