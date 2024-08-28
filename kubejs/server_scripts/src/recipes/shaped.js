@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
   ], {
     H: '#forge:fiber_hemp',
     C: 'ecologics:coconut_slice',
-    S: 'ecologics:coconut_sapling',
+    S: 'ecologics:coconut_seedling',
     R: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}coconut_maul`);
 
