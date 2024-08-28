@@ -512,13 +512,13 @@
 			description: [
 				"It is also capable of transporting a sufficient amount of cargo."
 				""
-				"Shields, also with banner patterns, can be attatched to grand additional defense."
+				"Shields, also with banner patterns, can be attached to grant additional defense."
 				""
-				"With its ice breaker abbility, it proves to be a promising vessel in cold and icy oceans."
+				"With its icebreaker ability, it proves to be a promising vessel in cold and icy oceans."
 			]
 			icon: "smallships:oak_drakkar"
 			id: "2B36B82E8FE1C7BB"
-			subtitle: "The Drakkar is specifically designed for cold water environments, capable of breaking ice in its path"
+			subtitle: "The Drakkar is specifically designed for cold water environments, capable of breaking ice in its path."
 			tasks: [
 				{
 					id: "4403C7063095B9A0"

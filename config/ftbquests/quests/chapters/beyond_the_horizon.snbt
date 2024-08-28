@@ -649,7 +649,7 @@
 			]
 			icon: "minecraft:scaffolding"
 			id: "3EB7EF62044B9BDE"
-			subtitle: "Right clicking on a Scaffold with a block will attempt to place the block at the end of the Scaffold chain"
+			subtitle: "Right clicking on a Scaffold with a block will attempt to replace the block at the end of the Scaffold chain"
 			tasks: [{
 				id: "1702A766806B4D5E"
 				title: "Understand"
@@ -682,7 +682,7 @@
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "354C7B4A8008A531"
-			subtitle: "Nearby monsters run away in cowardice"
+			subtitle: "Nearby monsters run away in cowardice."
 			tasks: [{
 				id: "7E0DBCB524FECF77"
 				title: "Understand"
@@ -695,7 +695,7 @@
 		{
 			icon: "minecraft:piston"
 			id: "2FF5FB2938BE9E5C"
-			subtitle: "Pistons are allowed to move Tile Entities (blocks with extra data attached, like Chests or Furnaces)"
+			subtitle: "Pistons are allowed to move Tile Entities (blocks with extra data attached, like Chests or Furnaces)."
 			tasks: [{
 				id: "040EBFEC21FBE3FA"
 				title: "Understand"
@@ -715,7 +715,7 @@
 			]
 			icon: "minecraft:dispenser"
 			id: "4D52B75D2FFA17F9"
-			subtitle: "Dispensers are allowed to place blocks in the world"
+			subtitle: "Dispensers are allowed to place blocks in the world."
 			tasks: [{
 				id: "583D5FD62C264F98"
 				title: "Understand"
@@ -728,7 +728,7 @@
 		{
 			icon: "minecraft:chain"
 			id: "2AF635C9A39F5F1B"
-			subtitle: "Chains can now connect blocks together when a piston moves them"
+			subtitle: "Chains can now connect blocks together when a piston moves them."
 			tasks: [{
 				id: "51AD270EFE035299"
 				title: "Understand"
@@ -748,7 +748,7 @@
 				}
 			}
 			id: "45A60F30FE07D68C"
-			subtitle: "The tip of a vine can now be right clicked with Shears"
+			subtitle: "The tip of a vine can now be right-clicked with Shears.."
 			tasks: [{
 				id: "646B18B1F7C13716"
 				title: "Understand"
@@ -897,19 +897,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "A set of useful information that will come in handy during your trip"
+			subtitle: "A set of useful information that will come in handy during your trip."
 			tasks: [{
 				id: "099EF6FB81C54F80"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Getting start"
+			title: "Getting Started"
 			x: 8.5d
 			y: -8.0d
 		}
 		{
 			description: [
-				"Increases maximum health by 1 for each heart eaten."
+				"Increases your maximum hearts by 1 for each heart eaten."
 				""
 				"These hearts can be obtained by completing great achievements."
 			]
