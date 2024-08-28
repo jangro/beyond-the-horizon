@@ -240,7 +240,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "a0edc6e673b7a66c750c5d5b77215c33a886a1ac14749d325be8c15521b95bb2"
+hash = "ac48e71042af937e9ab5d48191318562621d2e1dd3c933d992debc422c8035a7"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -2733,6 +2733,11 @@ metafile = true
 [[files]]
 file = "mods/woodworks.pw.toml"
 hash = "fd6c9a3053d6426fbc9ede6e52a38b9de5d8dc7eb015ca7b98139c2fc0b282ac"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
 metafile = true
 
 [[files]]
