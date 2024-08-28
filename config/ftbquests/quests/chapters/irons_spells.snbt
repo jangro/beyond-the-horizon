@@ -1,0 +1,4369 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells"
+	group: ""
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:scroll"
+		tag: {
+			ISB_Spells: {
+				data: [{
+					id: "irons_spellbooks:ascension"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 0b
+			}
+		}
+	}
+	id: "529863295F3FB653"
+	images: [
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "irons_spellbooks:item/scroll_eldritch"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/info"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5FFC7A8048BC650C"
+			subtitle: "The Holy school is centered around support, healing, and buffing allies."
+			tasks: [{
+				id: "00301155A37773A1"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "Holy magic"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/ice_rune"
+				}
+			}
+			id: "6D46B1A605A04BE9"
+			subtitle: "The Ice school is centered around damage and crowd control."
+			tasks: [{
+				id: "6454F8F463BDE1C5"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			title: "Frost magic"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			icon: "irons_spellbooks:lightning_rune"
+			id: "52B98FB81E05F53B"
+			subtitle: "The Lightning school is centered around concentrated damage."
+			tasks: [{
+				id: "201E923E0CFEE26A"
+				item: "irons_spellbooks:lightning_rune"
+				type: "item"
+			}]
+			title: "Lightning magic"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			icon: "irons_spellbooks:nature_rune"
+			id: "1C623F82BF0611AE"
+			subtitle: "The Nature school is focused on applying debuffs to enemies, with elements of damage to finish them off."
+			tasks: [{
+				id: "59956592AB9D5145"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			title: "Nature magic"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			icon: "irons_spellbooks:fire_rune"
+			id: "2084739E817DD197"
+			subtitle: "The Fire school is centered around damage and damage over time."
+			tasks: [{
+				id: "283801FEE244AD80"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			title: "Fire magic"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			icon: "irons_spellbooks:evocation_rune"
+			id: "784BE338677490B5"
+			subtitle: "The Evocation school is themed around magical trickery and conjuration, covering the broadest range of offensive, defensive, and utility spells."
+			tasks: [{
+				id: "54AA8A1E8C6F8DAB"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			title: "Evocation magic"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			icon: "irons_spellbooks:ender_rune"
+			id: "54FA294EAFF09CCF"
+			subtitle: "The Ender school is themed around all things arcane and mystical, with spells that range from damage to utility to mobility."
+			tasks: [{
+				id: "38B371DBBD36DD30"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			title: "Ender magic"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:item/blood_rune"
+				}
+			}
+			id: "52C7C09BB8289628"
+			subtitle: "BloodThe Blood school is themed around evil; you will find elements of necromancy, wither, and blood magic here, with spells focusing on damage that buffs the caster."
+			tasks: [{
+				id: "5A6D4F758FBEE61D"
+				item: "irons_spellbooks:blood_rune"
+				type: "item"
+			}]
+			title: "Blood magic"
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Use Eldritch scrolls to learn eldritch spells"
+				"{image:irons_spellbooks:item/eldritch_manuscript width:32 height:32 align:center}"
+			]
+			icon: "minecraft:echo_shard"
+			id: "4DBFF18C1E2E8B36"
+			shape: "hexagon"
+			subtitle: "The Eldritch school is not like the others. It is an ancient and powerful way of magic, one that has all but been forgotten"
+			tasks: [
+				{
+					id: "0338D0F39DAA2298"
+					item: "minecraft:echo_shard"
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7A57110225575CB8"
+					item: "irons_spellbooks:eldritch_manuscript"
+					type: "item"
+				}
+			]
+			title: "Eldritch magic"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/planar_sight.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "461EF28E672C91B4"
+			invisible: true
+			shape: "square"
+			subtitle: "Shift your vision in between planes, gaining the ability to see creatures through solid material."
+			tasks: [{
+				id: "00A0929D9E3F0A9C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:planar_sight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Planar Sight"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/abyssal_shroud.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "587C0FA60280A1D6"
+			invisible: true
+			shape: "square"
+			subtitle: "Cloak yourself with the shadows of the abyss, granting the ability to evade any attack for a short duration of time."
+			tasks: [{
+				id: "10240F9998974BC1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:abyssal_shroud"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Abyssal Shroud"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/eldritch_blast.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "18FA3B73EB986984"
+			invisible: true
+			shape: "square"
+			subtitle: "Fire rays of pure, devastating energy."
+			tasks: [{
+				id: "6E75D1CEE07BDF45"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:eldritch_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Eldritch Blast"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sculk_tentacles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3D55FE37FAD87BD4"
+			invisible: true
+			shape: "square"
+			subtitle: "From where you look, erupt a mass of sculk energy in the form of wailing tentacles, damaging and blinding creatures caught in the chaos."
+			tasks: [{
+				id: "295BD9C3DC7B2583"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sculk_tentacles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sculk Tentacles"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sonic_boom.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "79EE4E4F348C1C7B"
+			invisible: true
+			shape: "square"
+			subtitle: "Blast forth a sonic boom of immense power, passing through solid material with ease and harming the first creature in its path."
+			tasks: [{
+				id: "0CCBFA729B3D6B6E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sonic_boom"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sonic Boom"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/telekinesis.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7CE5A368E47F482C"
+			invisible: true
+			shape: "square"
+			subtitle: "Reach out with a spectral force and grip a creature, forcing them towards your gaze. Creatures are susceptible to kinetic damage."
+			tasks: [{
+				id: "279A1F5FF2FC01BC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:telekinesis"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Telekinesis"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["{@pagebreak}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blaze_storm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "64BF6DE048AC21AA"
+			rewards: [{
+				id: "2126C05F7E8A550C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Unleash a barrage of blaze fireballs, shooting rapidly but wildly in front of you and igniting any creatures or blocks hit."
+			tasks: [{
+				id: "43498FEF9B118A6F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blaze_storm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blaze Storm"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/burning_dash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5FBE30F3D425C434"
+			shape: "square"
+			subtitle: "Quickly launch yourself forward in a haze of fire, searing creatures you pass through while in a blaze."
+			tasks: [{
+				id: "3D2EBEE0861A34AC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:burning_dash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Burning Dash"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fire_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "05042CED9DF40AE5"
+			shape: "square"
+			subtitle: "Spew a cone of fire outwards, igniting creatures and blocks in its path."
+			tasks: [{
+				id: "2DA4F47F0174430C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fire_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fire Breath"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fireball.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "52722741E16ADD55"
+			shape: "square"
+			subtitle: "Throw a ball of fire, exploding and dealing massive damage on impact."
+			tasks: [{
+				id: "650DD9C544D01393"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fireball"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fireball"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firebolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "78A25557C4BF992B"
+			shape: "square"
+			subtitle: "Shoot a small projectile of fire, igniting whatever it hits."
+			tasks: [{
+				id: "485B2531D58EE96E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firebolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Firebolt"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/flaming_barrage.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "394EA19EBE41E6EC"
+			shape: "square"
+			subtitle: "Cast to select targets, which at the end of recasting, will each be under barrage of small fireballs."
+			tasks: [{
+				id: "2A6EF494EDB7EA6B"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_barrage"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Flaming Barrage"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/flaming_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5EFDC9F7CE8F828E"
+			shape: "square"
+			subtitle: "Unleash a sweeping melee attack in the form of a wreath of flames. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			tasks: [{
+				id: "266979DCF179BFDF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:flaming_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Flaming Strike"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heat_surge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5D067FAC251C86B6"
+			shape: "square"
+			subtitle: "Emanate a surge of fiery magic, igniting and rending creatures in a radius around you. Rended creatures have reduced armor."
+			tasks: [{
+				id: "3A2FC885B9F83064"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heat_surge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Heat Surge"
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magma_bomb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "20F3719B40BAF0B6"
+			shape: "square"
+			subtitle: "Launch a bomb made from magma, exploding on impact and leaving a field of fire where it lands"
+			tasks: [{
+				id: "4A249975AA30768C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magma_bomb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magma Bomb"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/scorch.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6DB956CF4D16CB12"
+			shape: "square"
+			subtitle: "Erupt a scorch of fiery magic, damaging creatures in the zone and leaving a field of fire."
+			tasks: [{
+				id: "25B3DCA1DF3CF0FC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:scorch"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Scorch"
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wall_of_fire.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "66498B8F31BD431F"
+			shape: "square"
+			subtitle: "Recast to place anchor points, which erupts into a wall of fire when the cast finishes, or when the maximum length is reached. This wall blocks projectiles and ignites creatures that pass through it."
+			tasks: [{
+				id: "26978E3BC31EC3A6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wall_of_fire"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wall of Fire"
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/acupuncture.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "34FCD3DCDB805845"
+			shape: "square"
+			subtitle: "Around a targeted creature, create a field of blood needles in every direction, shooting down and healing you for 25% of damage done"
+			tasks: [{
+				id: "53976AC5DBF6F41D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:acupuncture"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Acupuncture"
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_needles.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7C567B724287B19F"
+			shape: "square"
+			subtitle: "Create a ring of needles made from blood and fire them forward, skewering targets and healing you for 25% of damage done"
+			tasks: [{
+				id: "3D221D7110DEDDBB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_needles"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blood Needles"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_slash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "11CFCB84D544B611"
+			shape: "square"
+			subtitle: "Slash forward to send out a concentrated blade of blood, slicing through creatures and healing for 15% of damage done."
+			tasks: [{
+				id: "27867BDBA9222354"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blood Slash"
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blood_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6EE8B66A4F31C91C"
+			shape: "square"
+			subtitle: "Instantaneously teleport to where you are looking, or directly behind any targeted creature. Gain a short duration of true invisibility upon reaching your destination."
+			tasks: [{
+				id: "5E62025CA0C7D9BD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blood_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blood Step"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/devour.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "04E55B301237F14B"
+			shape: "square"
+			subtitle: "Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the ancient magician known as Yorhavich"
+			tasks: [{
+				id: "6ABDD53045061E6A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:devour"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Devour"
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heartstop.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0EFA169E521A73F6"
+			shape: "square"
+			subtitle: "Cast to inflict yourself with Heartstop, an effect that makes you temporarily invulnerable. However, once it wears off, you take 50% of all damage accumulated while under its effects."
+			tasks: [{
+				id: "408F07357E341763"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heartstop"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Heartstop"
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/raise_dead.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2E2C3D02696C2298"
+			shape: "square"
+			subtitle: "Cast to summon undead minions from the earth beneath you. The higher the power, the better equipment they will have."
+			tasks: [{
+				id: "0A20D76542159184"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:raise_dead"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Raise Dead"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ray_of_siphoning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6BB9C0339C46FFBB"
+			shape: "square"
+			subtitle: "Hold to cast a ray of necrotic energy that siphons health from creatures it hits, damaging them and healing you for 100% of damage done."
+			tasks: [{
+				id: "2CF8CCDAD152BA72"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ray Of Siphoning"
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/sacrifice.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "54922EBD779EF184"
+			shape: "square"
+			subtitle: "Target one of your magic summons to cause them to explode, killing them instantly, and dealing large damage in the area around them. The summon's remaining health boosts the damage dealt and radius of explosion."
+			tasks: [{
+				id: "3AF2B37CAA7C14E7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:sacrifice"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Sacrifice"
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wither_skull.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0174D6794BC14B32"
+			shape: "square"
+			subtitle: "Launch a wither skull forward that explodes in a small radius around the impact. The higher the level, the faster the projectile."
+			tasks: [{
+				id: "2D80D0BDC95906C9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wither_skull"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wither Skull"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/black_hole.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "47E6BAC77BA59093"
+			shape: "square"
+			subtitle: "Around a targeted location, create a fissure into the void, manifesting a black hole that will suck in nearby creatures and slowly crush them to death"
+			tasks: [{
+				id: "7B1B830B4055E7C0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:black_hole"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Black Hole"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Interrupt player and mob casting"
+				"Banishes summoned shield , blood slash , creeper head"
+				"Banishes summoned creatures"
+				"Removes root"
+				"Removes mob effects like fortify or evasion"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/counterspell.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "0A50879F77A82D85"
+			shape: "square"
+			subtitle: "Stop effects of other magic"
+			tasks: [{
+				id: "7F5AC069BE9177AD"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Counterspell"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/dragon_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DC9E88A5EE200B6"
+			shape: "square"
+			subtitle: "Hold to spew a cone of dragon breath forwards. Each time a creature is hit, there is a chance to create a pool of dragon breath at their feet."
+			tasks: [{
+				id: "6184AAC6662345FF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:dragon_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Dragon Breath"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/echoing_strikes.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4EA50CAF62FCD50A"
+			shape: "square"
+			subtitle: "While under the effects of the spell, non-magical attacks will leave an echo of ender energy behind, shortly thereafter exploding with an echo of the original attack's damage."
+			tasks: [{
+				id: "4BEAEF3B5A6E5B63"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Echoing Strikes"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/evasion.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3F51C96AF372AAD1"
+			shape: "square"
+			subtitle: "Cast to imbue yourself with ender energy. Upon being attacked while under its effects, you will immediately teleport within a short radius and avoid taking any damage. Only a finite amount of hits can be dodged before the effect immediately wears off."
+			tasks: [{
+				id: "6DFC393F41F190D5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:evasion"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Evasion"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magic_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46B574404FE263A6"
+			shape: "square"
+			subtitle: "Hold to charge a piercing arrow made of arcane energy. This arrow has no gravity and can travel through blocks."
+			tasks: [{
+				id: "0EDCCC979E802A30"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magic Arrow"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/portal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "09A524E6ECDFD5E9"
+			shape: "square"
+			subtitle: "Creates two portals that allows players to travel back and forth between them."
+			tasks: [
+				{
+					id: "28A15E441EADBA31"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "124FF6F46C74406D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03E8A3EFA3247CA7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:portal"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Portal"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/recall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D8B5735A8E735A5"
+			shape: "square"
+			subtitle: "Warps you back to your spawn location, or world spawn if there is none."
+			tasks: [{
+				id: "4BE6CEDE538707BC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:recall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Recall"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/starfall.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "50BA6B940B1C9527"
+			shape: "square"
+			subtitle: "Target a single area and continuously rain down arcane comets from above for the duration of the spell"
+			tasks: [{
+				id: "09FA88693A4E8578"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:starfall"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Starfall"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_ender_chest.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "33447D646C027194"
+			shape: "square"
+			subtitle: "Apparate your Ender Chest inventory upon casting."
+			tasks: [{
+				id: "59E985698DF222F6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_ender_chest"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Summon Ender Chest"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/teleport.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23D9F676599C974B"
+			shape: "square"
+			subtitle: "Instantaneously teleport to where you are looking, leaving nothing but a cloud of ender energy behind."
+			tasks: [{
+				id: "762CF98391E9C203"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:teleport"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Teleport"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/magic_missile.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "56C07209A8A2139E"
+			shape: "square"
+			subtitle: "Shoot a bolt of concentrated arcane magic. Also a trademark of every wizard."
+			tasks: [{
+				id: "0E233C11B1C1539C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:magic_missile"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Magic Missile"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/arrow_volley.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1164BA8F16BF413E"
+			shape: "square"
+			subtitle: "Around a targeted creature or block, summon a rolling wave of magical arrows from the sky."
+			tasks: [{
+				id: "651D94CDABB9AA62"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:arrow_volley"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Arrow Volley"
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/chain_creeper.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4571B69D0EC1EFA6"
+			shape: "square"
+			subtitle: "Around a targeted creature or block, conjure a ring of creeper heads that falls to the ground and explodes. Any creature killed by this blast will conjure another, smaller, ring of creeper heads. This can chain multiple times."
+			tasks: [{
+				id: "01E48EA956ECE7B9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_creeper"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Chain Creeper"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fang_strike.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6DB87EC19CF16B24"
+			shape: "square"
+			subtitle: "Conjure a line of evoker fangs in front of you, in classic illager fashion."
+			tasks: [{
+				id: "0E713CAEA04AE8F5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fang_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fang Strike"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fang_ward.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6D084ADFEEA9A0EF"
+			shape: "square"
+			subtitle: "Conjure protective rings of evoker fangs around you, in classic illager fashion."
+			tasks: [{
+				id: "780C138299165EE0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fang_ward"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fang Ward"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firecracker.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "77FDA17C83578D4B"
+			shape: "square"
+			subtitle: "Instantaneously conjure a firework where you look that explodes in a small radius around it."
+			tasks: [{
+				id: "13F8277BC0C58783"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firecracker"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Firecracker"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/gust.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "084796FC4DDE0D4E"
+			shape: "square"
+			subtitle: "Conjure a strong gust of wind, knocking back creatures in a conical shape, causing damage if they impact a wall"
+			tasks: [{
+				id: "6171F424F7611D0C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:gust"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Gust"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/invisibility.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1AED69D6D4CF341A"
+			shape: "square"
+			subtitle: "Cast to briefly grant yourself true invisibility, which hides armor and held items, but immediately wears off upon dealing damage. Mobs also lose aggro."
+			tasks: [{
+				id: "5DA146B1D253021D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:invisibility"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Invisibility"
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lob_creeper.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "01BD93FD5380A3AC"
+			shape: "square"
+			subtitle: "Lob the head of a creeper forward that explodes in a medium radius around the impact. The higher the level, the faster the projectile."
+			tasks: [{
+				id: "654EB277FB1AF0DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lob_creeper"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Lob Creeper"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/shield.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "711A9C081DA1E6D3"
+			shape: "square"
+			subtitle: "Conjure a stationary shield of arcane energy where you look that will block projectiles and prevent creatures from passing."
+			tasks: [{
+				id: "78C1AC78D6236377"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:shield"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Shield"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/slow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4A068451F0E7EA88"
+			shape: "square"
+			subtitle: "In a radius around a targeted creature, apply the Slowed effect to enemies, decreasing movement speed, attack speed, mining speed, mana regeneration, and cast time for a duration."
+			tasks: [{
+				id: "0EDDEFB8C59DEC1D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:slow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Slow"
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/spectral_hammer.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4AECEACACE5CB6C4"
+			shape: "square"
+			subtitle: "Conjure a spectral hammer out from where you look that will mine all connected stone-type blocks in a cube where it hits, leaving only ores and rubble behind."
+			tasks: [{
+				id: "490BE2F22BEEAB50"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:spectral_hammer"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Spectral Hammer"
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_horse.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "309F3C51764B5E72"
+			shape: "square"
+			subtitle: "Conjure a spectral steed that will follow you around and only let you ride. The horse's speed, health, and jump height scales with spell power."
+			tasks: [{
+				id: "6155F4587C5A293D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_horse"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Summon Horse"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_vex.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "20E14F00A7EF9452"
+			shape: "square"
+			subtitle: "Cast to conjure vexes that will follow, protect, and fight for you."
+			tasks: [{
+				id: "1F2B845AC0550889"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_vex"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Summon Vex"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wololo.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6C87FAB0249CA091"
+			shape: "square"
+			subtitle: "Wololo!"
+			tasks: [{
+				id: "21CBF10B2B35417F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wololo"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wololo"
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/angel_wing.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "30DFF086B00CDBB2"
+			shape: "square"
+			subtitle: "Cast to gain wings made of holy energy, acting as an elytra, for a brief period of time."
+			tasks: [{
+				id: "37DFA46766AE9609"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:angel_wing"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Angel Wing"
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blessing_of_life.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2839D10D16E7F51E"
+			shape: "square"
+			subtitle: "Cast to target any creature, showing a glowing outline. Completing the cast will heal this creature."
+			tasks: [{
+				id: "1FA7F22C691A6834"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blessing_of_life"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blessing Of Life"
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/divine_smite.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7917F1D8E6176365"
+			shape: "square"
+			subtitle: "With a fervor of holy energy, swing forth your weapon, doing a melee area attack. This spell is uninterruptible. The damage scales off of your held weapon's melee damage and enchantments."
+			tasks: [{
+				id: "466C637941DF69C4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:divine_smite"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Divine Smite"
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/fortify.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6D4F6397F129EE19"
+			shape: "square"
+			subtitle: "Upon casting, fortify every friendly creature within a radius around you, giving them temporary HP."
+			tasks: [{
+				id: "55464AA9FBC21B88"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:fortify"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Fortify"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/greater_heal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1F6B2F0496BF329E"
+			shape: "square"
+			subtitle: "A more powerful but much slower version of heal, this spell will completely heal yourself upon being casted."
+			tasks: [{
+				id: "5EC397908132EB59"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:greater_heal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Greater Heal"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/guiding_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2D8B8DA3C9293CCD"
+			shape: "square"
+			subtitle: "Fire a slow bolt of holy energy. Creatures hit will gain the Guided effect, homing nearby projectiles in towards them"
+			tasks: [{
+				id: "1EBECEA527DACFEA"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:guiding_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Guiding Bolt"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/haste.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "42E62E00C6E77055"
+			shape: "square"
+			subtitle: "In a radius around a targeted creature, or yourself if no creature is targeted, apply the Hastened effect, increasing movement speed, attack speed, mining speed, mana regeneration, and cast time reduction for a duration."
+			tasks: [{
+				id: "3FC33E14F699AD0D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:haste"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Haste"
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			hide: false
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/heal.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4E864208804FBA46"
+			shape: "square"
+			subtitle: "Cast to infuse yourself with holy energy and immediately regain health."
+			tasks: [{
+				id: "0D1D45EF74AD0874"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:heal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Heal"
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/healing_circle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "23A1A47894E1CEB8"
+			shape: "square"
+			subtitle: "Around a targeted creature or block, place a stationary circle of holy magic that heals allies within"
+			tasks: [{
+				id: "6B50BA80EBA5AEC9"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:healing_circle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Healing Circle"
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/wisp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "10CC6BC52C658BDC"
+			shape: "square"
+			subtitle: "Conjure a projectile of holy energy that will float towards nearby targets and deal damage upon impact."
+			tasks: [{
+				id: "6F73E32FAE90C372"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:wisp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Wisp"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/cone_of_cold.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "49184739FC23FA4D"
+			shape: "square"
+			subtitle: "Hold to cast out a cone of cold energy, freezing creatures in its path."
+			tasks: [{
+				id: "47CF4B872E1418A0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:cone_of_cold"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Cone Of Cold"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/frost_step.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "40EA0A65E13F7EAB"
+			shape: "square"
+			subtitle: "Instantaneously teleport to where you are looking, leaving behind a shadow of ice. This shadow will shatter after 3 seconds or upon taking any damage, shooting out icicles in every direction."
+			tasks: [{
+				id: "4430CCF65C614881"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:frost_step"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Frost Step"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/frostwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "77EDF548D39AEF96"
+			shape: "square"
+			subtitle: "Cascade a wave of frost magic in a radius around you, afflicting creatures with chilled. Chilled creatures are slowed, and have their incoming freeze time doubled."
+			tasks: [{
+				id: "56DCBCEF7A151B46"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:frostwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Frostwave"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ice_block.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5BA5CC9E9BA67619"
+			shape: "square"
+			subtitle: "Conjure a giant chunk of ice above a targeted creature or block. After a short delay, it will fall down and explode for area frost damage, doing additional damage to any creatures hit on the way down."
+			tasks: [{
+				id: "71D0DF9CE53A9100"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ice_block"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ice Block"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/icicle.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4A790C7B4E7C9A44"
+			shape: "square"
+			subtitle: "Fire a piercing bolt of cold energy in the form of an icicle, freezing those it touches."
+			tasks: [{
+				id: "47C54FE5554D4817"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:icicle"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Icicle"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ray_of_frost.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "5BF66A8EB5C27D54"
+			shape: "square"
+			tasks: [{
+				id: "318F6402FA975FA5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ray_of_frost"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ray Of Frost"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/summon_polar_bear.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "37DB76DF7EEC9CC1"
+			shape: "square"
+			subtitle: "Cast to summon a polar bear who will follow, protect, and fight for you, as well as providing a mount."
+			tasks: [{
+				id: "5A74AA52F30FFC7A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:summon_polar_bear"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Summon Polar Bear"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ascension.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "06C88AAAD05EFFCC"
+			shape: "square"
+			subtitle: "Cast to strike lightning at your feet and ascend quickly into the air, and gain reduced gravity for the next few seconds."
+			tasks: [{
+				id: "1068AFD3774C33ED"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ascension"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ascension"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/ball_lightning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "4DE794DE317DF3B3"
+			shape: "square"
+			subtitle: "Conjure an orb of lightning that slowly moves forward, damaging creatures it phases through and bouncing off blocks."
+			tasks: [{
+				id: "39E0CDA3934FA89D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:ball_lightning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ball Lightning"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/chain_lightning.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "46FEC22AA8E22243"
+			shape: "square"
+			subtitle: "Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures"
+			tasks: [{
+				id: "7D35BA9F75CEECA0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:chain_lightning"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Chain Lightning"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/charge.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "1700885208337609"
+			shape: "square"
+			subtitle: "Imbue yourself with the power of lightning, increasing your speed and combat abilities."
+			tasks: [{
+				id: "2194A61DB814A12F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:charge"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Charge"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/electrocute.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "2EEAF9EDC2085858"
+			shape: "square"
+			subtitle: "Hold to manifest a cone of electrical energy, damaging creatures in its path."
+			tasks: [{
+				id: "7AF2F8882594CBAB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:electrocute"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Electrocute"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lightning_bolt.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "73DA876C6B35F311"
+			shape: "square"
+			subtitle: "Down from the heavens, summon a bolt of lightning."
+			tasks: [{
+				id: "12D725FE5C9EAAB1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_bolt"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Lightning Bolt"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/lightning_lance.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "3341D5C8BED3A0A3"
+			shape: "square"
+			subtitle: "Hold to charge a spear made of lightning. Release to throw it like a javelin, dealing high damage to the creature it hits."
+			tasks: [{
+				id: "01821866800BAEEC"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:lightning_lance"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Lightning Lance"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/shockwave.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "58A1874E6C623430"
+			shape: "square"
+			subtitle: "Coalesce a surge of electrical power, and unleash it in a devastating shockwave, blasting exposed creatures."
+			tasks: [{
+				id: "2A63DE9429D43F74"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:shockwave"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Shockwave"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/thunderstorm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "79FF384713ABFCD8"
+			shape: "square"
+			subtitle: "Cast to conjure a thunderstorm centered around yourself, which strikes nearby creatures within sight with a small bolt of lightning every 2 seconds for the spell's duration."
+			tasks: [{
+				id: "290FD1F404EB5713"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:thunderstorm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Thunderstorm"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/acid_orb.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "44BD776617D0E432"
+			shape: "square"
+			subtitle: "Spit an orb of acid, splashing in a radius upon impact and rending creatures hit, melting away and reducing their armor"
+			tasks: [{
+				id: "686221AE0DA19965"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:acid_orb"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Acid Spit"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/blight.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "381B0A3B808B7004"
+			shape: "square"
+			subtitle: "Target a creature to blight them, reducing their incoming healing and outgoing damage"
+			tasks: [{
+				id: "221BCEA15A050BC4"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Blight"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/earthquake.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "19882BDEF9DECAE2"
+			shape: "square"
+			subtitle: "Conjure an earthquake around a targeted creature or location, causing tremors to ripple through the ground, damaging and slowing creatures in the area."
+			tasks: [{
+				id: "132808E03952C3AF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:earthquake"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Earthquake"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/firefly_swarm.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7F84C23C313E0BF9"
+			shape: "square"
+			subtitle: "Emanate a swarm of violent fireflies, following a targeted creature and dealing aoe damage. If the initial target dies, the last harmed creature will be targeted."
+			tasks: [{
+				id: "673F5D918328B23D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:firefly_swarm"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Firefly Swarm"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/gluttony.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6C6CBA36CD3E5257"
+			shape: "square"
+			subtitle: "Turn your stomach into an arcane furnace, turning eaten food into mana for a duration."
+			tasks: [{
+				id: "739CB807E24C8C0E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:gluttony"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Gluttony"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/mob_effect/oakskin.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "7E0949404FCF6F1C"
+			shape: "square"
+			subtitle: "The great power of oak infuses itself into your skin, granting damage reduction of any incoming damage for a duration."
+			tasks: [{
+				id: "10B2F1AB202DD2DE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:oakskin"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Oakskin"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_arrow.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "757AC0052C4D92B3"
+			shape: "square"
+			subtitle: "Charge a powerful arrow, imbued with poison magic, that will release a poisonous cloud upon impact"
+			tasks: [{
+				id: "711A7DFE38B84410"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_arrow"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poison Arrow"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_breath.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "27816321823042E7"
+			shape: "square"
+			subtitle: "Spew forth a cone of poison, damaging and poisoning creatures in its reach"
+			tasks: [{
+				id: "712623CBFA8566BE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_breath"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poison Spray"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/poison_splash.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "729AEEA9EB61FF37"
+			shape: "square"
+			subtitle: "Around a targeted creature or block, conjure a wave of poisonous magic that splashes down, damaging creatures hit and leaving behind a poisonous cloud"
+			tasks: [{
+				id: "00BD5F35DD09DDFF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:poison_splash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Poison Splash"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/root.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6CCB58DC5162F598"
+			shape: "square"
+			subtitle: "Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement"
+			tasks: [{
+				id: "0885A7B7B89B4E3F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:root"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Root"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/spider_aspect.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "6F751D658EAB4A5D"
+			shape: "square"
+			subtitle: "Instill yourself with poisonous magic, dealing additional melee, ranged, or spell damage creatures that are poisoned"
+			tasks: [{
+				id: "1AD5D962F40C461E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:spider_aspect"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Aspect of the Spider"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "irons_spellbooks:textures/gui/spell_icons/stomp.png"
+				}
+			}
+			icon_scale: 1.4d
+			id: "178CF795805FBF3F"
+			shape: "square"
+			subtitle: "With a magic force, stomp the ground in front of you and send a short tremor forward through the ground, damaging creatures in its path."
+			tasks: [{
+				id: "510C77496647C2DF"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:stomp"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Stomp"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "588B720757D1CAB7"
+			shape: "rsquare"
+			subtitle: "Used to customize the spell book"
+			tasks: [{
+				id: "109354D4CE78942F"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			title: "Inscription Table"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "7A92871ED681157F"
+			shape: "rsquare"
+			subtitle: "Used to create spells"
+			tasks: [{
+				id: "6A5C6AFA62154A35"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			title: "Scroll Forge"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Using ink and scrolls, you can increase the level of scrolls."
+				"Allows you to improve items with upgrade orbs."
+				"Allows you to increase the capacity of the spell book."
+			]
+			id: "06A71AE66FD06968"
+			shape: "rsquare"
+			subtitle: "Used to improve items"
+			tasks: [{
+				id: "0E7AEB973767C57D"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			title: "Arcane Anvil"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"You can spray scrolls on ink here."
+				"You can improve ink here."
+			]
+			id: "3B66253B6D5388FF"
+			shape: "rsquare"
+			subtitle: "Used for working with ink and potions."
+			tasks: [{
+				id: "787F9C309A473676"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			title: "Alchemist Cauldron"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Can be equipped in the left hand."
+				"When equipped, pressing RMB will cast the current spell."
+			]
+			icon: "irons_spellbooks:artificer_cane"
+			id: "3B8EAE4FDCA05E67"
+			shape: "circle"
+			subtitle: "Boosts spells when equipped"
+			tasks: [
+				{
+					id: "59DDEE79C03B5E32"
+					item: "irons_spellbooks:blood_staff"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02187F0AD245D39C"
+					item: "irons_spellbooks:graybeard_staff"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "090AFEC20C94D746"
+					item: "irons_spellbooks:ice_staff"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36F745EA44ABE806"
+					item: "irons_spellbooks:artificer_cane"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BEFD94ACF766F89"
+					item: "irons_spellbooks:lightning_rod"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Magic stuffs"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"The quality of the ink affects the power of the scrolls created."
+				"Some scrolls only require high-quality ink."
+			]
+			icon: "irons_spellbooks:common_ink"
+			id: "53DC9A5CF68C84D5"
+			shape: "circle"
+			subtitle: "Used to create magic scrolls"
+			tasks: [
+				{
+					id: "5E8CACE3FDB8B9C9"
+					item: "irons_spellbooks:common_ink"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "733D04BE5A8A65BD"
+					item: "irons_spellbooks:uncommon_ink"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "705D197B931AF451"
+					item: "irons_spellbooks:rare_ink"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1ACE75B83A8BA57B"
+					item: "irons_spellbooks:epic_ink"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "600E0A63C840A06F"
+					item: "irons_spellbooks:legendary_ink"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Inks"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"One item can be upgraded up to 3 times."
+				""
+				"Can be used on any piece of armor."
+				"Can be used on Staffs."
+				"Can be used on Spell Books."
+			]
+			icon: "irons_spellbooks:upgrade_orb"
+			id: "2865334DD8DAB586"
+			shape: "circle"
+			subtitle: "Used to improve armor"
+			tasks: [
+				{
+					id: "1246CFAA2FF2F8CD"
+					item: "irons_spellbooks:upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E41378FBBA0932A"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E49A2B1EB4BFAC6"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3623C4A1097C4794"
+					item: "irons_spellbooks:lightning_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26CB5FED8F9A5188"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "283EEAF92FAF0472"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58F5745DE2D3E867"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F72A7F6CB3BDFAA"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BD1736F139AF151"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C128F59D5AC3D1C"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "368438F61E6F539A"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "25379EAF7BA3AD06"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Upgrade Orbs"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: ["To upgrade capacity, combine a &aSpell Book&r and &aLesser Spell Slot Improvement&r on the &bArcane Anvil&r."]
+			id: "48CBE8361506CA28"
+			shape: "diamond"
+			subtitle: "Improves Spell Book capacity, up to 12 Slots"
+			tasks: [{
+				id: "4D8FDE0B3DDEB22A"
+				item: "irons_spellbooks:lesser_spell_slot_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"All basic &3Spell Books&r can be crafted from a combination of vanilla and arcane materials."
+				"Each futher tier crafted increases the slot count of the spell book and often comes with extra bonuses, increasing the power and quantity of spells it can contain."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "5626E43438CCA6BF"
+			shape: "circle"
+			subtitle: "Can hold multiple spells"
+			tasks: [
+				{
+					id: "2A9DEE646EECF410"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:iron_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 6
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B1E49D20AE933AB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:copper_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 5
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10DFFED1546C426E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CDF2279E18B69A8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:diamond_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67DEAEC4567C584B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:gold_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 8
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79ADC6CEB73F4775"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:dragonskin_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Spell Books"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Can only be acquired by taking it from its undead owner."
+				""
+				"The spells in the book are locked, but can be improved."
+				"By combining a Spell Book in the Arcane Anvil with a higher level scroll of the same spell from the Spell Book."
+			]
+			id: "658C312ACFA0115A"
+			shape: "diamond"
+			subtitle: "An ancient book holding a host of dark spells"
+			tasks: [{
+				id: "6A72554F9681766E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Can be dropped by Evokers or their more powerful casting cousin, Archevokers."
+				""
+				"The spells in the book are locked, but can be improved."
+				"By combining a Spell Book in the Arcane Anvil with a higher level scroll of the same spell from the Spell Book."
+			]
+			id: "09288748C3158E41"
+			shape: "diamond"
+			subtitle: "A book full of foundational illager magicl"
+			tasks: [{
+				id: "1F3C2260973374A8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"They can be looted from equally rotten places all across the Overworld."
+				""
+				"&7What may have once been a more powerful book has since rotted away, leaving but three pages.&r"
+			]
+			id: "0A09D61DC2061A01"
+			shape: "diamond"
+			subtitle: "Yet, still more powerful than most Overworld spell books"
+			tasks: [{
+				id: "1ECE6E4FB3D33389"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["The trick is killing them and hoping it doesn't turn into ash."]
+			id: "07F36F2B65B98328"
+			shape: "diamond"
+			subtitle: "Every Blaze, unbeknownst to them, comes with one of these tucked away"
+			tasks: [{
+				id: "59E4CFDF81461FD2"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:blaze_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: ["Building a reputation with the villagers, especially by freeing captives from the Archevoker, will ensure one falls into your hands eventually."]
+			id: "346DC035C0E16986"
+			shape: "diamond"
+			subtitle: "A regular book with a little blessing makes a suitable channel for divine magic"
+			tasks: [{
+				id: "24AB49624019F871"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["The book may be blessed anew if a proper remedy were applied."]
+			id: "699C8E14223E8223"
+			shape: "diamond"
+			subtitle: "A strong magical energy still persists within the Rotten Spell Book"
+			tasks: [{
+				id: "2701DF896E7BB617"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Can be found sparsely in abadoned structures."
+				"Also drops from enemies who wield magic."
+			]
+			id: "639FF6600F71C061"
+			shape: "octagon"
+			subtitle: "Basic material"
+			tasks: [{
+				id: "157E135E530BD01B"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Dropped from Ancient Knights, which can be awakened by breaking armor piles."]
+			id: "24B9A744A69E6209"
+			shape: "octagon"
+			subtitle: "Advanced material"
+			tasks: [{
+				id: "3B7D1C96A4A3F100"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+	]
+	title: "Iron's Spells"
+}
