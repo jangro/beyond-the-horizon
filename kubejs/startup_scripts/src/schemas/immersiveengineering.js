@@ -57,7 +57,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
     event.register('immersiveengineering:fermenter',
       new $RecipeSchema(
         // TODO: See below.
-        components.get('outputFluid')().key('fluid').optionalDefault(),  
+        components.get('outputFluid')().key('fluid').defaultOptional(),  
         components.get('inputItem')().key('input'),
         components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
       )
@@ -83,7 +83,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
         //"result": {
         //  "tag": "forge:dusts/hop_graphite"
         //}
-        components.get('outputFluid')().key('fluid').optionalDefault(), 
+        components.get('outputFluid')().key('fluid').defaultOptional(), 
         components.get('inputItem')().key('input'),
         components.get('intNumber')().key('energy').alwaysWrite().optional(6400),
         ieOutputItem.key('result').defaultOptional(),
