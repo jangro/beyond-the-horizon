@@ -34,7 +34,7 @@
 		{
 			dependencies: ["55FAE20E07CDC9C9"]
 			id: "02674AD6B512CA57"
-			subtitle: "Sturdy, has 3 seats, and a bunch of weapons."
+			subtitle: "Sturdy, has 3 seats, and a bunch of weapon options."
 			tasks: [{
 				id: "1BB3FF3DB83BA907"
 				item: "immersive_aircraft:warship"
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "3A643C9F794E6B0C"
-			subtitle: "Fast, one seat, medium difficulty."
+			subtitle: "Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"
 			tasks: [{
 				id: "28CC36B4CF226782"
 				item: "immersive_aircraft:biplane"
@@ -56,7 +56,7 @@
 		}
 		{
 			id: "51AEDA51AC0D8F9B"
-			subtitle: "Human-powered primitive dual seater. Trusty, yet neither the fastest nor the easiest to fly. Needs a good initial push to get the rotor spinning."
+			subtitle: "Human-powered primitive dual seater. Trusty, yet not the fastest and consumes hunger quickly. Needs a good initial push to get the rotor spinning."
 			tasks: [{
 				id: "07EA7B8F8DAF0E36"
 				item: "immersive_aircraft:gyrodyne"
@@ -79,20 +79,20 @@
 		{
 			id: "2397C81EE3B470C0"
 			shape: "rsquare"
-			subtitle: "Mysterious material that allows objects to float in the air"
+			subtitle: "A mysterious material from the Aether that defies gravity."
 			tasks: [{
 				id: "7C7C85F71CA27E63"
 				item: "aether:enchanted_gravitite"
 				type: "item"
 			}]
-			title: "The source of fly"
+			title: "The Source of Flight"
 			x: -1.0d
 			y: -12.5d
 		}
 		{
-			description: ["Flies faster than other dragons"]
+			description: ["Rumors say it flies faster than other dragons"]
 			id: "69428975C73FD77D"
-			subtitle: "Place the egg in Aether"
+			subtitle: "Place the egg in the Aether dimension."
 			tasks: [{
 				id: "69EE1492F3067FC1"
 				item: {
@@ -113,7 +113,7 @@
 		}
 		{
 			id: "092E550A6E2D1783"
-			subtitle: "Defeating an Ender Dragon and carefully collecting its egg."
+			subtitle: "Defeat the Ender Dragon to obtain its egg. Convert other dragon eggs by surrounding them with Dragon's Breath."
 			tasks: [{
 				id: "2C53D1AF3E471066"
 				item: {
@@ -134,7 +134,7 @@
 		}
 		{
 			id: "5299590EAB306EE7"
-			subtitle: "Place the egg next to lava."
+			subtitle: "Place the egg adjacent to lava or magma blocks."
 			tasks: [{
 				id: "0E04E2C61113F416"
 				item: {
@@ -155,7 +155,7 @@
 		}
 		{
 			id: "6967D1E14FFDC359"
-			subtitle: "Place the egg in a forest or area with dense vegetation."
+			subtitle: "Place the egg in a forest biome, or adjacent to leaf blocks."
 			tasks: [{
 				id: "45FAB88602FC721F"
 				item: {
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "54C54AD77F75E2CA"
-			subtitle: "Place the egg deep underground in complete darkness."
+			subtitle: "Place the egg below y-level 0 and in complete darkness."
 			tasks: [{
 				id: "3702F64EDCF84D24"
 				item: {
@@ -197,7 +197,7 @@
 		}
 		{
 			id: "51D920C52C7DC153"
-			subtitle: "Place the egg in a cold biome, or give it a cold atmosphere."
+			subtitle: "Place the egg in a cold biome, or adjacent to snow or ice blocks."
 			tasks: [{
 				id: "6BB92A95B27B1457"
 				item: {
@@ -218,7 +218,7 @@
 		}
 		{
 			id: "2F60A94264EE2797"
-			subtitle: "Place the egg in the Nether, or create a Nether atmosphere for it."
+			subtitle: "Place the egg in the Nether, or adjacent to black stone or soul soil blocks."
 			tasks: [{
 				id: "0193FFF7434F02A3"
 				item: {
@@ -240,7 +240,7 @@
 		{
 			description: ["Can swim."]
 			id: "03EB66929B4A2B3F"
-			subtitle: "Place the egg near water."
+			subtitle: "Place the egg adjacent to water or coral blocks."
 			tasks: [{
 				id: "6B56A0037049A92A"
 				item: {
@@ -264,10 +264,10 @@
 				"Once the egg is placed, it takes approximately 600 seconds for it to hatch."
 				"During this time, ensure the egg is safe from any disturbances."
 				""
-				"After hatching, it is crucial to tame the dragon by feeding it fish."
+				"After hatching, it is crucial to tame the dragon by feeding it fish. The longer you take to tame the dragon after it hatches, the more fish it will require before it's tamed."
 				"Tamed dragons will obey commands and defend you against hostile mobs."
 				""
-				"To ride a dragon, use the saddle on it."
+				"To ride a dragon, use a saddle on it."
 			]
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
@@ -298,21 +298,23 @@
 				"{@pagebreak}"
 				"                      &6Care:&r"
 				""
-				"Over time, your submarine will begin to oxidize."
-				"If wanting to reverse the stages of oxidation on a Submarine, interacting with an oxidized Submarine while holding an axe will remove one stage of oxidation from it."
-				"Honeycomb can also be applied to the Submarine similarly to many other copper blocks to completely prevent oxidation from progressing."
-				"Lightning bolts that strike nearby an unwaxed Submarine will completely reset the its level of oxidation."
+				"Over time, your submarine will begin to oxidize. This only affects how the submarine looks."
+				"To reverse the stages of oxidation, interact with an oxidized Submarine while holding an axe."
+				"Honeycomb can also be applied to a Submarine similarly to prevent oxidation from progressing."
+				"Lightning bolts that strike near an unwaxed Submarine will completely reset its level of oxidation."
 				""
-				"Similarly to an iron golem, a Submarine will begin to crack depending on how much health is depleted from it"
-				"Fortunately, one can repair a cracked Submarine with the use of copper ingots. If a copper ingot is held and used on a Submarine that visibly has cracks, it will remove up to 10 built-up damage from the Submarine and repair fractures dealt by exactly one level of damage."
+				"Submarines will begin to show cracks depending on how much damage they've taken."
+				"Fortunately, one can repair a damaged Submarine with the use of copper ingots. Interact with a Submarine while holding a copper ingot to repair it by up to 10 damage per ingot."
 				""
-				"&cWarning - if the submarine breaks, a small amount of copper will fall out of it.&r"
+				"&cWarning - if the submarine completely breaks, only a small amount of copper be left.&r"
 				"{@pagebreak}"
 				"                    &6Building:&r"
 				""
-				"For construction you will need have &a20 of any type of copper&r block (including cut copper), &a6 Depth Glass&r, and most importantly an &aEnigmatic Engine &r- which can only be obtained as a drop from slaying the formiable Hullbreaker."
+				"You can craft a submarine in a crafting table or by building a multi-block structure."
 				""
-				"Once you has all these materials, construction of a new Submarine can begin by surrounding the Enigmatic Engine with a 3x3x3 copper cube. Once this is done, a 3x2 hole should remain in the structure exposing the Enigmatic Engine - filling this gap with 6 Depth Glass blocks will mark the front of the Submarine and ultimately transform the structure into a brand new Submarine."
+				"For the multiblock structure, you will need &a20 of any type of copper&r block (including cut copper), &a6 Depth Glass&r, and an &aEnigmatic Engine &r- which can only be obtained as a drop from the Hullbreaker."
+				""
+				"Place down the Enigmatic Engine and surround it with a 3x3x3 copper cube. Then, break a 3x2 hole in the copper cube exposing the Enigmatic Engine. Finally, fill this 3x2 gap with 6 Depth Glass blocks and it will transform into the Submarine."
 			]
 			id: "503478F788C7407E"
 			subtitle: "Underwater travel"
