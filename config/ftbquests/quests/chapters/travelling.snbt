@@ -134,7 +134,7 @@
 		}
 		{
 			id: "5299590EAB306EE7"
-			subtitle: "Place the egg next to the lava"
+			subtitle: "Place the egg next to lava."
 			tasks: [{
 				id: "0E04E2C61113F416"
 				item: {
@@ -155,7 +155,7 @@
 		}
 		{
 			id: "6967D1E14FFDC359"
-			subtitle: "Place the egg in a forest or area with dense vegetation"
+			subtitle: "Place the egg in a forest or area with dense vegetation."
 			tasks: [{
 				id: "45FAB88602FC721F"
 				item: {
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "54C54AD77F75E2CA"
-			subtitle: "Place the egg deep underground in complete darkness"
+			subtitle: "Place the egg deep underground in complete darkness."
 			tasks: [{
 				id: "3702F64EDCF84D24"
 				item: {
@@ -197,7 +197,7 @@
 		}
 		{
 			id: "51D920C52C7DC153"
-			subtitle: "Place the egg in a cold biome, or give it a cold atmosphere"
+			subtitle: "Place the egg in a cold biome, or give it a cold atmosphere."
 			tasks: [{
 				id: "6BB92A95B27B1457"
 				item: {
@@ -218,7 +218,7 @@
 		}
 		{
 			id: "2F60A94264EE2797"
-			subtitle: "Place the egg in the Nether, or create a Nether atmosphere for it"
+			subtitle: "Place the egg in the Nether, or create a Nether atmosphere for it."
 			tasks: [{
 				id: "0193FFF7434F02A3"
 				item: {
@@ -240,7 +240,7 @@
 		{
 			description: ["Can swim."]
 			id: "03EB66929B4A2B3F"
-			subtitle: "Place the egg near a water source"
+			subtitle: "Place the egg near water."
 			tasks: [{
 				id: "6B56A0037049A92A"
 				item: {
@@ -261,7 +261,7 @@
 		}
 		{
 			description: [
-				"Once the egg is set in motion, it takes approximately 600 seconds for it to hatch."
+				"Once the egg is placed, it takes approximately 600 seconds for it to hatch."
 				"During this time, ensure the egg is safe from any disturbances."
 				""
 				"After hatching, it is crucial to tame the dragon by feeding it fish."
@@ -272,21 +272,21 @@
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
 			shape: "rsquare"
-			subtitle: "Don't forget to tame your dragon"
+			subtitle: "Don't forget to tame your dragon."
 			tasks: [{
 				id: "062BE2B3CAFEF001"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "How to care of a dragon"
+			title: "Dragon Taming 101"
 			x: 6.0d
 			y: -12.0d
 		}
 		{
 			description: [
-				"There are 2 ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
+				"There are two ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
 				""
-				"              &6Overal information:&r"
+				"              &6General information:&r"
 				""
 				"Movement - WASD"
 				"Dive - Left Ctrl"
@@ -328,7 +328,7 @@
 			description: [
 				"          &6Works for all ship types&r"
 				""
-				"Press \"R\" to open/close the Ships Sail."
+				"Press \"R\" to open/close the ship's sail."
 				"Or Press \"W\" to increase and \"S\" to decrease the Sail."
 				""
 				"To dismount a entity from the ship, right-click the entity."
@@ -343,7 +343,7 @@
 			]
 			icon: "smallships:oak_cog"
 			id: "50DDB3487B02E281"
-			subtitle: "An excellent maneuverable boat for travel"
+			subtitle: "An excellent maneuverable boat for travel."
 			tasks: [
 				{
 					id: "3C69F2B8B700FCD3"
@@ -399,7 +399,7 @@
 			dependencies: ["50DDB3487B02E281"]
 			icon: "smallships:oak_brigg"
 			id: "324603BC9B286351"
-			subtitle: "Large, strong and roomy. The best choice for transporting large quantities of goods"
+			subtitle: "Large, strong and roomy. The best choice for transporting large quantities of goods."
 			tasks: [
 				{
 					id: "4F441602537CAFDD"
@@ -455,7 +455,7 @@
 			dependencies: ["50DDB3487B02E281"]
 			icon: "smallships:oak_galley"
 			id: "38C1F6F879582507"
-			subtitle: "Incredibly fast boat, will take you to any end of the world in the blink of an eye"
+			subtitle: "Incredibly fast boat, will take you to any end of the world in the blink of an eye."
 			tasks: [
 				{
 					id: "17A7601011B69AD4"

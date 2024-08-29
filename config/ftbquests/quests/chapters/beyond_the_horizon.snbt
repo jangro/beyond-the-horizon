@@ -271,7 +271,7 @@
 		{
 			icon: "minecraft:experience_bottle"
 			id: "7C26DABC180C1E3C"
-			subtitle: "By shift clicking on an enchanting table with a bottle or jar you will be able to bottle some of your experience inside it"
+			subtitle: "By right-clicking on an enchanting table with a bottle or jar you will be able to bottle some of your experience inside it."
 			tasks: [{
 				id: "670461B0C8532F20"
 				title: "Understand"
@@ -284,7 +284,7 @@
 		{
 			icon: "minecraft:stripped_oak_log"
 			id: "13E11BD1BA2C7CBE"
-			subtitle: "Axes can be used in dispensers to strip or scrape blocks"
+			subtitle: "Axes can be used in dispensers to strip or scrape blocks."
 			tasks: [{
 				id: "05B8FAED63B712AA"
 				title: "Understand"
@@ -351,7 +351,7 @@
 				}
 			}
 			id: "551819C1F41CB014"
-			subtitle: "Pressing Ctrl+Shift+T when the cursor is over an item will link it to the chat"
+			subtitle: "Pressing Shift+T when the cursor is over an item will link it to the chat."
 			tasks: [{
 				id: "1C574D789AB49FC3"
 				title: "Understand"
@@ -385,7 +385,7 @@
 				}
 			}
 			id: "388AAB6A4437CFB6"
-			subtitle: "Item frames can be painted using dyes at a crafting table"
+			subtitle: "Item frames can be painted using dyes at a crafting table."
 			tasks: [
 				{
 					id: "1A8A64247BCC5BB6"
@@ -618,8 +618,8 @@
 		}
 		{
 			description: [
-				"Breaking grass or crops with a hoe will break a 3x3 of them."
-				"A Diamond Hoe will break a 5x5 instead."
+				"Breaking grass or crops with a hoe will break a 3x3 area of them."
+				"A Diamond Hoe will break a 5x5 area instead."
 				""
 				"If you put Fortune on the hoe, it'll also apply that effect to everything it breaks."
 			]
