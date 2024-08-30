@@ -11,7 +11,10 @@
 ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:powah/';
 
-  // .energizing([inputs, ...], output, energy)
-  event.recipes.powah.energizing(['alexscaves:uranium'], 'powah:uraninite', 3000);
+  // Aether
+  event.recipes.powah.energizing(['aether:cold_aercloud', 'aether:blue_aercloud', 'aether:golden_aercloud'], 'deep_aether:sterling_aercloud', 10000).id(`${ID_PREFIX}energizing/sterling_aercloud`);
+
+  // Powah
+  event.recipes.powah.energizing(['alexscaves:uranium'], 'powah:uraninite', 3000).id(`${ID_PREFIX}energizing/uraninite`);
 
 });
