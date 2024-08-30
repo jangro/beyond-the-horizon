@@ -2532,6 +2532,11 @@ hash = "5bcf63bcf23dadc8246f3ccd88a234a3b0716403fd015cac6c54d1123f4357e1"
 metafile = true
 
 [[files]]
+file = "mods/serverconfig-updater.pw.toml"
+hash = "74d266052c0ad2203ed80d71680698e1ee973952929ae1267101282cab5b320e"
+metafile = true
+
+[[files]]
 file = "mods/shoppy.pw.toml"
 hash = "3e8983a16f2969a7c4305d105a7bf0f5fa4a6ad5414a95fffd825335b2dbb453"
 metafile = true
