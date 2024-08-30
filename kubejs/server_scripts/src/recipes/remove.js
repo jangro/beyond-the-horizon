@@ -103,6 +103,8 @@ ServerEvents.recipes(event => {
     'minecolonies:baked_bread',
     'minecolonies:baked_bread_campfire_cooking', 
     'minecolonies:baked_bread_smoking',
+    'moreminecarts:chunk_loader',
+    'moreminecarts:minecart_with_chunk_loader',
     'neapolitan:milk_bottle',
     'nethersdelight:blackstone_furnace',
     'paraglider:paraglider',

@@ -59,6 +59,8 @@ JEIEvents.hideItems(event => {
     'immersiveengineering:storage_silver',
     'immersiveengineering:storage_uranium',
     'incubation:fried_egg',
+    'moreminecarts:chunk_loader',
+    'moreminecarts:minecart_with_chunk_loader',
     'neapolitan:milk_bottle',
     'nethersdelight:blackstone_furnace',
     'paraglider:spirit_orb',
