@@ -60,7 +60,7 @@ hash = "17d0980a5387c782633dbf61a540c5eb49c28d116446b008e55415a738fc959a"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "c5493697e97d9a987716667750c2db46cce05d25c4659d6e54ccd8dd4e47bf80"
+hash = "2bf11de8f7bb341087b1994f566d7fe699ccc0331ab80753ec7fd85101b29067"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -96,7 +96,7 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "a841f60af4ba656dccff27ec801f5979325aee7a1f68abf82368b78cbe6baa65"
+hash = "a1d2ca3442877e5244d1062e52471a0e8e0a80df28c2b5b9c7f6e2052abd88cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
@@ -120,7 +120,7 @@ hash = "a4e6a09a7dd38623321ef7849010facc0aad4ac9926c1b8742ed94da21579e52"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "57d6692323839ef2b9df77c92c210ebf9efaab29bf49bf20938d078011cb127e"
+hash = "5cbb257f95252406ee15141479713f6d4d95c4f0f5068088a2951e589f164bb1"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1384,7 +1384,7 @@ hash = "956b57ca4dede670d6835835d06a18a242ba820c2effeaf5fbcd0514226044e6"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/immersiveengineering.js"
-hash = "6e28ec6c2d3c1a633a3726bd3a48c127e9c41ba85acba7c986adfc407545bf75"
+hash = "82473a320ece96aa598f5b3b6987c057f8fe6b6a624232f3b6a7c1457c659d1e"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/integrateddynamics.js"
@@ -2714,11 +2714,6 @@ metafile = true
 [[files]]
 file = "mods/trading-post.pw.toml"
 hash = "d4230c3d47d1630348daf1ef7bba1201367aa39cdf6ad585ae3aca59e1bb6614"
-metafile = true
-
-[[files]]
-file = "mods/travelers-backpack.pw.toml"
-hash = "bd82f1cc04d24400bef737273eec8615355fa54d5fee3038ffa6af8e59c849c2"
 metafile = true
 
 [[files]]
