@@ -88,13 +88,24 @@ ServerEvents.recipes(event => {
     X: 'immersive_aircraft:enhanced_propeller'
   }).id(`${ID_PREFIX}submarine`);
 
+  // Chunkloaders
+  event.shaped('chunkloaders:single_chunk_loader', [
+    'ILI',
+    'LPL',
+    'ILI'
+  ], {
+    I: 'forbidden_arcanus:obsidian_ingot',
+    P: '#bth:pcb',
+    L: 'integrateddynamics:logic_director',
+  }).id(`${ID_PREFIX}single_chunk_loader`);
+
   // Computer Craft / Advanced Peripherals
   event.shaped('advancedperipherals:chunk_controller', [
     'IRI',
     'RCR',
     'IRI'
   ], {
-    C: 'chunkloaders:basic_chunk_loader',
+    C: 'chunkloaders:single_chunk_loader',
     I: 'minecraft:iron_ingot',
     R: 'minecraft:redstone',
   }).id(`${ID_PREFIX}chunk_controller`);
@@ -222,13 +233,11 @@ ServerEvents.recipes(event => {
 
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:chunkloader_upgrade', [
-    'LPL',
-    'ECE',
-    'LPL'
+    'L L',
+    ' C ',
+    'L L'
   ], {
-    E: 'minecraft:ender_eye',
     C: 'chunkloaders:single_chunk_loader',
-    P: 'pneumaticcraft:printed_circuit_board',
     L: '#pneumaticcraft:upgrade_components',
   }).id(`${ID_PREFIX}chunkloader_upgrade`);
 
@@ -242,12 +251,11 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}omnidirectional_hopper_easy`);
 
   event.shaped('pneumaticcraft:programmable_controller', [
-    'SCR',
+    'CRC',
     'PDT',
     'INI'
   ], {
-    C: 'chunkloaders:basic_chunk_loader',
-    S: 'chunkloaders:single_chunk_loader',
+    C: 'chunkloaders:single_chunk_loader',
     R: 'pneumaticcraft:remote',
     P: 'pneumaticcraft:printed_circuit_board',
     D: 'pneumaticcraft:drone',

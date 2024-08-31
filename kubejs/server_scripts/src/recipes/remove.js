@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
     'ars_nouveau:whirlisprig_charm',
     'botania:pure_daisy/sand',
     'buzzier_bees:honey/honey_apple',
+    'chunkloaders:basic_chunk_loader',
     /clayworks:.*terracotta_brick.*/,
     'create:blasting/ingot_silver_compat_immersiveengineering',
     'create:blasting/ingot_uranium_compat_immersiveengineering',

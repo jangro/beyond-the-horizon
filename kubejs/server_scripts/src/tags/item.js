@@ -21,6 +21,11 @@ ServerEvents.tags('item', event => {
     'botania:spark',
   ]);
 
+  event.add('bth:pcb', [
+    'immersiveengineering:circuit_board',
+    'pneumaticcraft:printed_circuit_board',
+  ]);
+
   // Minecraft Tags
   // (none yet)
 
