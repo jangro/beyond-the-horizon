@@ -328,7 +328,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "e306da539ce41d55d36f4e0335c7406c91786b8253228827bb32e307965c5b4a"
+hash = "9de233cf8bd057167308b955d795181a41efa56bc7e46fe86b581d0b1ec4a771"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -2238,6 +2238,11 @@ metafile = true
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
 hash = "f19f61fcce9df3befee6d0d6096a93a9646f93766b2523b27e7903da81e4269b"
+metafile = true
+
+[[files]]
+file = "mods/limited-chunkloading.pw.toml"
+hash = "ec4a1d920bd1b52bc31dc6546870bee92e450a4d6accfcd6cf96fd6b6f594be9"
 metafile = true
 
 [[files]]
