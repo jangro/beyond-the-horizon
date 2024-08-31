@@ -1,0 +1,232 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+{
+	// Generates all block states for all blocks in the registry.
+	"generate_all_known_states": false,
+	// Whether blocks are replaced in existing chunks.
+	"retro_gen": true,
+	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
+	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
+	   Example:
+	    "state_swapper": [
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:oak_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:birch_leaves",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"distance": "7",
+	    				"persistent": "true"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "x"
+	    			}
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:birch_log",
+	    			// Properties define the state of this block/fluid.
+	    			"Properties": {
+	    				"axis": "z"
+	    			}
+	    		}
+	    	},
+	    	{
+	    		"new": {
+	    			"Name": "minecraft:jungle_planks",
+	    		},
+	    		"old": {
+	    			"Name": "minecraft:acacia_planks",
+	    			}
+	    		}
+	    	}
+	    ]
+	*/
+	"state_swapper": [],
+	/* A map of blocks that specifies what the "old" block is and what its "new" block is.
+	   Example:
+	   	"swapper": {
+	   		"minecraft:coarse_dirt": "minecraft:dirt",
+	   		"minecraft:diamond_block": "minecraft:emerald_block"
+	   	}
+	*/
+	"swapper": {
+		// Ladders
+		"quark:acacia_ladder": "bbb:acacia_ladder",
+		"quark:bamboo_ladder": "bbb:bamboo_ladder",
+		"quark:birch_ladder": "bbb:birch_ladder",
+		"quark:cherry_ladder": "bbb:cherry_ladder",
+		"quark:crimson_ladder": "bbb:crimson_ladder",
+		"quark:dark_oak_ladder": "bbb:dark_oak_ladder",
+		"quark:jungle_ladder": "bbb:jungle_ladder",
+		"quark:mangrove_ladder": "bbb:mangrove_ladder",
+		"quark:spruce_ladder": "bbb:spruce_ladder",
+		"quark:warped_ladder": "bbb:warped_ladder",
+		"woodworks:acacia_ladder": "bbb:acacia_ladder",
+		"woodworks:bamboo_ladder": "bbb:bamboo_ladder",
+		"woodworks:birch_ladder": "bbb:birch_ladder",
+		"woodworks:cherry_ladder": "bbb:cherry_ladder",
+		"woodworks:crimson_ladder": "bbb:crimson_ladder",
+		"woodworks:dark_oak_ladder": "bbb:dark_oak_ladder",
+		"woodworks:jungle_ladder": "bbb:jungle_ladder",
+		"woodworks:mangrove_ladder": "bbb:mangrove_ladder",
+		"woodworks:spruce_ladder": "bbb:spruce_ladder",
+		"woodworks:warped_ladder": "bbb:warped_ladder",
+
+		// Bookshelves
+		"quark:acacia_bookshelf": "woodworks:acacia_bookshelf",
+		"quark:bamboo_bookshelf": "woodworks:bamboo_bookshelf",
+		"quark:birch_bookshelf": "woodworks:birch_bookshelf",
+		"quark:cherry_bookshelf": "woodworks:cherry_bookshelf",
+		"quark:crimson_bookshelf": "woodworks:crimson_bookshelf",
+		"quark:dark_oak_bookshelf": "woodworks:dark_oak_bookshelf",
+		"quark:jungle_bookshelf": "woodworks:jungle_bookshelf",
+		"quark:mangrove_bookshelf": "woodworks:mangrove_bookshelf",
+		"quark:spruce_bookshelf": "woodworks:spruce_bookshelf",
+		"quark:warped_bookshelf": "woodworks:warped_bookshelf",
+
+		// Shingles
+	   	"quark:shingles": "hearth_and_home:shingles",
+	   	"quark:black_shingles": "hearth_and_home:black_shingles",
+	   	"quark:blue_shingles": "hearth_and_home:blue_shingles",
+	   	"quark:brown_shingles": "hearth_and_home:brown_shingles",
+	   	"quark:cyan_shingles": "hearth_and_home:cyan_shingles",
+	   	"quark:gray_shingles": "hearth_and_home:gray_shingles",
+	   	"quark:green_shingles": "hearth_and_home:green_shingles",
+	   	"quark:light_blue_shingles": "hearth_and_home:light_blue_shingles",
+	   	"quark:light_gray_shingles": "hearth_and_home:light_gray_shingles"
+	   	"quark:lime_shingles": "hearth_and_home:lime_shingles",
+	   	"quark:magenta_shingles": "hearth_and_home:magenta_shingles",
+	   	"quark:orange_shingles": "hearth_and_home:orange_shingles",
+	   	"quark:pink_shingles": "hearth_and_home:pink_shingles",
+	   	"quark:purple_shingles": "hearth_and_home:purple_shingles",
+	   	"quark:red_shingles": "hearth_and_home:red_shingles",
+	   	"quark:white_shingles": "hearth_and_home:white_shingles",
+	   	"quark:yellow_shingles": "hearth_and_home:yellow_shingles",
+
+	   	"quark:shingles_stairs": "hearth_and_home:shingle_stairs",
+	   	"quark:black_shingles_stairs": "hearth_and_home:black_shingle_stairs",
+	   	"quark:blue_shingles_stairs": "hearth_and_home:blue_shingle_stairs",
+	   	"quark:brown_shingles_stairs": "hearth_and_home:brown_shingle_stairs",
+	   	"quark:cyan_shingles_stairs": "hearth_and_home:cyan_shingle_stairs",
+	   	"quark:gray_shingles_stairs": "hearth_and_home:gray_shingle_stairs",
+	   	"quark:green_shingles_stairs": "hearth_and_home:green_shingle_stairs",
+	   	"quark:light_blue_shingles_stairs": "hearth_and_home:light_blue_shingle_stairs",
+	   	"quark:light_gray_shingles_stairs": "hearth_and_home:light_gray_shingle_stairs"
+	   	"quark:lime_shingles_stairs": "hearth_and_home:lime_shingle_stairs",
+	   	"quark:magenta_shingles_stairs": "hearth_and_home:magenta_shingle_stairs",
+	   	"quark:orange_shingles_stairs": "hearth_and_home:orange_shingle_stairs",
+	   	"quark:pink_shingles_stairs": "hearth_and_home:pink_shingle_stairs",
+	   	"quark:purple_shingles_stairs": "hearth_and_home:purple_shingle_stairs",
+	   	"quark:red_shingles_stairs": "hearth_and_home:red_shingle_stairs",
+	   	"quark:white_shingles_stairs": "hearth_and_home:white_shingle_stairs",
+	   	"quark:yellow_shingles_stairs": "hearth_and_home:yellow_shingle_stairs",
+
+	   	"quark:shingles_slab": "hearth_and_home:shingle_slab",
+	   	"quark:black_shingles_slab": "hearth_and_home:black_shingle_slab",
+	   	"quark:blue_shingles_slab": "hearth_and_home:blue_shingle_slab",
+	   	"quark:brown_shingles_slab": "hearth_and_home:brown_shingle_slab",
+	   	"quark:cyan_shingles_slab": "hearth_and_home:cyan_shingle_slab",
+	   	"quark:gray_shingles_slab": "hearth_and_home:gray_shingle_slab",
+	   	"quark:green_shingles_slab": "hearth_and_home:green_shingle_slab",
+	   	"quark:light_blue_shingles_slab": "hearth_and_home:light_blue_shingle_slab",
+	   	"quark:light_gray_shingles_slab": "hearth_and_home:light_gray_shingle_slab"
+	   	"quark:lime_shingles_slab": "hearth_and_home:lime_shingle_slab",
+	   	"quark:magenta_shingles_slab": "hearth_and_home:magenta_shingle_slab",
+	   	"quark:orange_shingles_slab": "hearth_and_home:orange_shingle_slab",
+	   	"quark:pink_shingles_slab": "hearth_and_home:pink_shingle_slab",
+	   	"quark:purple_shingles_slab": "hearth_and_home:purple_shingle_slab",
+	   	"quark:red_shingles_slab": "hearth_and_home:red_shingle_slab",
+	   	"quark:white_shingles_slab": "hearth_and_home:white_shingle_slab",
+	   	"quark:yellow_shingles_slab": "hearth_and_home:yellow_shingle_slab",
+
+		// Terracotta bricks
+	   	"clayworks:terracotta_bricks": "hearth_and_home:terracotta_bricks",
+	   	"clayworks:black_terracotta_bricks": "hearth_and_home:black_terracotta_bricks",
+	   	"clayworks:blue_terracotta_bricks": "hearth_and_home:blue_terracotta_bricks",
+	   	"clayworks:brown_terracotta_bricks": "hearth_and_home:brown_terracotta_bricks",
+	   	"clayworks:cyan_terracotta_bricks": "hearth_and_home:cyan_terracotta_bricks",
+	   	"clayworks:gray_terracotta_bricks": "hearth_and_home:gray_terracotta_bricks",
+	   	"clayworks:green_terracotta_bricks": "hearth_and_home:green_terracotta_bricks",
+	   	"clayworks:light_blue_terracotta_bricks": "hearth_and_home:light_blue_terracotta_bricks",
+	   	"clayworks:light_gray_terracotta_bricks": "hearth_and_home:light_gray_terracotta_bricks"
+	   	"clayworks:lime_terracotta_bricks": "hearth_and_home:lime_terracotta_bricks",
+	   	"clayworks:magenta_terracotta_bricks": "hearth_and_home:magenta_terracotta_bricks",
+	   	"clayworks:orange_terracotta_bricks": "hearth_and_home:orange_terracotta_bricks",
+	   	"clayworks:pink_terracotta_bricks": "hearth_and_home:pink_terracotta_bricks",
+	   	"clayworks:purple_terracotta_bricks": "hearth_and_home:purple_terracotta_bricks",
+	   	"clayworks:red_terracotta_bricks": "hearth_and_home:red_terracotta_bricks",
+	   	"clayworks:white_terracotta_bricks": "hearth_and_home:white_terracotta_bricks",
+	   	"clayworks:yellow_terracotta_bricks": "hearth_and_home:yellow_terracotta_bricks",
+
+	   	"clayworks:terracotta_brick_stairs": "hearth_and_home:terracotta_brick_stairs",
+	   	"clayworks:black_terracotta_brick_stairs": "hearth_and_home:black_terracotta_brick_stairs",
+	   	"clayworks:blue_terracotta_brick_stairs": "hearth_and_home:blue_terracotta_brick_stairs",
+	   	"clayworks:brown_terracotta_brick_stairs": "hearth_and_home:brown_terracotta_brick_stairs",
+	   	"clayworks:cyan_terracotta_brick_stairs": "hearth_and_home:cyan_terracotta_brick_stairs",
+	   	"clayworks:gray_terracotta_brick_stairs": "hearth_and_home:gray_terracotta_brick_stairs",
+	   	"clayworks:green_terracotta_brick_stairs": "hearth_and_home:green_terracotta_brick_stairs",
+	   	"clayworks:light_blue_terracotta_brick_stairs": "hearth_and_home:light_blue_terracotta_brick_stairs",
+	   	"clayworks:light_gray_terracotta_brick_stairs": "hearth_and_home:light_gray_terracotta_brick_stairs"
+	   	"clayworks:lime_terracotta_brick_stairs": "hearth_and_home:lime_terracotta_brick_stairs",
+	   	"clayworks:magenta_terracotta_brick_stairs": "hearth_and_home:magenta_terracotta_brick_stairs",
+	   	"clayworks:orange_terracotta_brick_stairs": "hearth_and_home:orange_terracotta_brick_stairs",
+	   	"clayworks:pink_terracotta_brick_stairs": "hearth_and_home:pink_terracotta_brick_stairs",
+	   	"clayworks:purple_terracotta_brick_stairs": "hearth_and_home:purple_terracotta_brick_stairs",
+	   	"clayworks:red_terracotta_brick_stairs": "hearth_and_home:red_terracotta_brick_stairs",
+	   	"clayworks:white_terracotta_brick_stairs": "hearth_and_home:white_terracotta_brick_stairs",
+	   	"clayworks:yellow_terracotta_brick_stairs": "hearth_and_home:yellow_terracotta_brick_stairs",
+
+	   	"clayworks:terracotta_brick_slab": "hearth_and_home:terracotta_brick_slab",
+	   	"clayworks:black_terracotta_brick_slab": "hearth_and_home:black_terracotta_brick_slab",
+	   	"clayworks:blue_terracotta_brick_slab": "hearth_and_home:blue_terracotta_brick_slab",
+	   	"clayworks:brown_terracotta_brick_slab": "hearth_and_home:brown_terracotta_brick_slab",
+	   	"clayworks:cyan_terracotta_brick_slab": "hearth_and_home:cyan_terracotta_brick_slab",
+	   	"clayworks:gray_terracotta_brick_slab": "hearth_and_home:gray_terracotta_brick_slab",
+	   	"clayworks:green_terracotta_brick_slab": "hearth_and_home:green_terracotta_brick_slab",
+	   	"clayworks:light_blue_terracotta_brick_slab": "hearth_and_home:light_blue_terracotta_brick_slab",
+	   	"clayworks:light_gray_terracotta_brick_slab": "hearth_and_home:light_gray_terracotta_brick_slab"
+	   	"clayworks:lime_terracotta_brick_slab": "hearth_and_home:lime_terracotta_brick_slab",
+	   	"clayworks:magenta_terracotta_brick_slab": "hearth_and_home:magenta_terracotta_brick_slab",
+	   	"clayworks:orange_terracotta_brick_slab": "hearth_and_home:orange_terracotta_brick_slab",
+	   	"clayworks:pink_terracotta_brick_slab": "hearth_and_home:pink_terracotta_brick_slab",
+	   	"clayworks:purple_terracotta_brick_slab": "hearth_and_home:purple_terracotta_brick_slab",
+	   	"clayworks:red_terracotta_brick_slab": "hearth_and_home:red_terracotta_brick_slab",
+	   	"clayworks:white_terracotta_brick_slab": "hearth_and_home:white_terracotta_brick_slab",
+	   	"clayworks:yellow_terracotta_brick_slab": "hearth_and_home:yellow_terracotta_brick_slab"
+	}
+}
