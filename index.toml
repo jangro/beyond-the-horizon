@@ -1866,6 +1866,11 @@ hash = "1275fb7993a387d6f4fdabd062661d3df11767d942de4c7c4ae00d6d27168488"
 metafile = true
 
 [[files]]
+file = "mods/cyanide.pw.toml"
+hash = "f2419ee1583f6e485673b0a8aa0da7ff3baf0c2eb0ab39d99d25ede1acf9a43c"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "4e355444c9ba867efee881ce25fed108ae73184829c9ff1751d9b9c5acb07ab3"
 metafile = true
