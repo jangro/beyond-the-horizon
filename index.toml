@@ -143,6 +143,10 @@ file = "config/integrateddynamics-common.toml"
 hash = "2b1526ed7cf8433914ff2bd6de590742570aae953ee5ded73df01a5aa50f0bc6"
 
 [[files]]
+file = "config/integratedterminals-common.toml"
+hash = "2d4df3df464b04dc96b70037d4119881105c3068187199775cf1cb6e83b0e616"
+
+[[files]]
 file = "config/inventoryhud-client.toml"
 hash = "632870008acf4949eb1f3c0f6ff0f32fc498a3058292d8ddb960046736a0f7a8"
 
@@ -199,6 +203,10 @@ file = "config/responsive-shields.toml"
 hash = "7ed2af0e3aaa243326d39fe54c4baa18d21d56f5dd73ec833047dc2eeedac11b"
 
 [[files]]
+file = "config/serverconfigupdater-common.toml"
+hash = "0fe8456f48bda088d5e66b7b7ee59a27e6f854b66b678c528f30d7cd80d74de3"
+
+[[files]]
 file = "config/shouldersurfing-client.toml"
 hash = "08007722225a7fcdc26de76a82b59800e0f014b8c36da677cd9b60f2f3873bde"
 
@@ -243,6 +251,10 @@ file = "config/supplementaries-common.toml"
 hash = "9a6a69b8a893b6f2ca0a8324c7962d2011e469d8108d582d04d733d5551dade1"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "348e236eb5e01f2373962c6f3d7c7cee4366f982c8bb2d6479cda4d0270cc402"
+
+[[files]]
 file = "config/treechop-common.toml"
 hash = "4333407620c09603733eec367d72b5ea1ed56f8b2dcdd516b2ad99f2411f3d7a"
 
@@ -261,6 +273,10 @@ hash = "080d7deb8e69fd2f0b1541701c2b3a67d840a7d550100009f679f72b874f0fbe"
 [[files]]
 file = "defaultconfigs/moremobgriefingoptions-server.toml"
 hash = "355b208e79fa05da1eb5ba3a1e89fbfa644d8ed23bcdfbf1f883767ded639b92"
+
+[[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/images/guide/bloodmoon.png"
@@ -288,7 +304,7 @@ hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "b3db3f2defecbb00b2979d9e512dc8e170cc914dfe65caad7cf71af289856e43"
+hash = "aa39331b787c613ea97fbc7cbe1b2008579016b009a11e608052fc4776999287"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -1155,6 +1171,10 @@ file = "kubejs/data/minecraft/tags/functions/load.json"
 hash = "5369ee6d8ed73045e4eab2e4ce4ef1691724ba322157860b1a817a6eb961f52a"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
+hash = "b350a8945a933470e931a4efb72b6dd4e4a1ea42ad5c368c709cbf81b4855571"
+
+[[files]]
 file = "kubejs/data/nebulusoaktree/worldgen/structure/oak_tree.json"
 hash = "0f3930b47301c034feada713cda8477ec02f8f53bfa6736cdf70bf67d0d582ad"
 
@@ -1197,6 +1217,10 @@ hash = "94db10af42da16507ca7e8734adc5b4bda8ad9808d883496f95e98d35953da4c"
 [[files]]
 file = "kubejs/data/terralith/worldgen/density_function/overworld/skylands/noise.json"
 hash = "1cb82983aa35004d260fb9aae337571580214e3bfc034bd379823b537a7b2d32"
+
+[[files]]
+file = "kubejs/data/terralith/worldgen/placed_feature/mountains/scarlet/remove_steep_snow.json"
+hash = "37e28d482723aa42bc9256f3f7bbcaeb11bc9941333191e8c02c3a47c9188c40"
 
 [[files]]
 file = "kubejs/data/vanillatweaks/tags/functions/uninstall.json"
@@ -1296,11 +1320,11 @@ hash = "adb8b26b6f0cc1ef87f6cccb9f56ef398a2d5255c8afbe672378b0d2e8a27618"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/powah.js"
-hash = "b3c114457a414fcc4806c9c5058f8f428d187631383f2c0e65c3e5f3c0618eca"
+hash = "5c2e29991c0d1b1d268da8779f8a3cfec3cb18ae9b87dc7e62e85fb2e8474bd5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "710684a8829f1c408c957bfb35b38e0a4614df8fbd9bc09652e6f1af91296105"
+hash = "0d1802545b6fb25090295b7e7113aff5e143762e5ed8d52d99e163c4b22d07e1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
