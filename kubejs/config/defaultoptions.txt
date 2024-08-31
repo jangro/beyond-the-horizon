@@ -28,17 +28,25 @@ soundCategory_ambient:0.5
 soundCategory_voice:1.0
 
 key_chunkloaders.keys.open_screen:key.keyboard.semicolon
+
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
+
 key_key.ars_nouveau.open_book:key.keyboard.o
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.ftbteams.open_gui:key.keyboard.p
 key_key.integratedterminals.terminal.portable.open:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
-key_key.journeymap.create_waypoint:key.keyboard.unknown
-key_key.journeymap.map_toggle_alt:key.keyboard.m
 key_key.socialInteractions:key.keyboard.unknown
+
+key_key.voice_chat:key.keyboard.comma
+key_key.voice_chat_adjust_volumes:key.keyboard.unknown
+key_key.voice_chat_group:key.keyboard.period
+key_key.voice_chat_settings:key.keyboard.unknown
+key_key.voice_chat_toggle_recording:key.keyboard.unknown
+key_key.disable_voice_chat:key.keyboard.unknown
+
 key_key.wands.area_diagonal_spread:key.keyboard.unknown
 key_key.wands.clear_wand:key.keyboard.unknown
 key_key.wands.inc_sel_block:key.keyboard.unknown
@@ -57,7 +65,9 @@ key_key.wands.wand_orientation:key.keyboard.unknown
 key_key.wands.wand_palette_mode:key.keyboard.unknown
 key_key.wands.wand_rotate:key.keyboard.unknown
 key_key.wands.wand_undo:key.keyboard.unknown
+
 key_quark.keybind.change_hotbar:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.unknown
 key_quark.keybind.sort_container:key.mouse.middle
+
 key_Swap shoulder:key.keyboard.unknown
