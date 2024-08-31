@@ -256,4 +256,16 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  // All chalk loot was removed in generic.js, add back one type
+  event.modify('minecraft:simple_dungeon', table => {
+    table.addPool(pool => {
+      pool.addItem('chalk:white_chalk').randomChance(0.2);
+    });
+  });
+  event.modify('minecraft:abandoned_mineshaft', table => {
+    table.addPool(pool => {
+      pool.addItem('chalk:white_chalk').randomChance(0.2);
+    });
+  });
+
 });
