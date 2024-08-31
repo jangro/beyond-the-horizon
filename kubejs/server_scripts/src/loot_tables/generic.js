@@ -18,12 +18,10 @@ ServerEvents.genericLootTables((event) => {
 });
 
 
-// Rustic Engineer is heavily modified by BTH. Remove all loot.
 LootJS.modifiers((event) => {
-    event.removeGlobalModifier("@rustic_engineer");
-});
-
-// Chalk mod adds a lot of unstackable loot. Remove all and add back sparsely.
-LootJS.modifiers((event) => {
-    event.removeGlobalModifier("@chalk");
+  // Rustic Engineer is heavily modified by BTH. Remove all loot.
+  event.removeGlobalModifier("@rustic_engineer");
+    
+  // Chalk mod adds a lot of unstackable loot. Remove all and add back sparsely.
+  event.removeGlobalModifier("@chalk");
 });

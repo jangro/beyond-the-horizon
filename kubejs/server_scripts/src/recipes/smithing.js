@@ -14,6 +14,6 @@ ServerEvents.recipes(event => {
     'minecraft:netherite_upgrade_smithing_template',
     'forbidden_arcanus:diamond_blacksmith_gavel',
     'minecraft:netherite_ingot'
-  )
+  );
 
 });
