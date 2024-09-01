@@ -63,6 +63,7 @@ ServerEvents.recipes(event => {
     'galosphere:silver_ingot_from_smelting_raw_silver',
     'galosphere:silver_ingot_from_smelting_silver_ore',
     'galosphere:silver_nugget',
+    'hyperbox:hyperbox',
     /incubation:fried_egg.*/,
     'integrateddynamics:blasting/menril_log_coal',
     'integrateddynamics:blasting/menril_log_filled_coal',

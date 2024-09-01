@@ -170,6 +170,18 @@ ServerEvents.recipes(event => {
     I: '#forge:ingots/gold',
   }).id(`${ID_PREFIX}createaddition_gold_rod`);
 
+  // Hyperbox
+  event.shaped('hyperbox:hyperbox', [
+    'OPO',
+    'ESE',
+    'OPO'
+  ], {
+    S: 'ae2:spatial_cell_component_16',
+    P: 'ae2:spatial_pylon',
+    O: 'minecraft:obsidian',
+    E: 'minecraft:ender_eye'
+  }).id(`${ID_PREFIX}hyperbox`);
+
   // Immersive Aircraft
   event.shaped('immersive_aircraft:hull', [
     'LLL',
