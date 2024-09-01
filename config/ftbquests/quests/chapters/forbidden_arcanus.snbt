@@ -519,7 +519,7 @@
 			y: -3.0d
 		}
 	]
-	order_index: 8
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -563,6 +563,7 @@
 			]
 			icon: "forbidden_arcanus:hephaestus_forge"
 			id: "2D3B7BBCA8BA2E62"
+			min_width: 400
 			shape: "rsquare"
 			subtitle: "The Hephaestus Forge is needed for every player that wants to dive deep into the world of forbidden magic"
 			tasks: [
@@ -851,6 +852,7 @@
 				"Due to their enhanced mining technique Gavels have a 30% chance of duplicating mined Ores."
 			]
 			id: "3345EE5D4B0AA0A9"
+			min_width: 300
 			subtitle: "Allows you to dig faster and mine more ores"
 			tasks: [
 				{
@@ -1478,6 +1480,7 @@
 			]
 			icon: "forbidden_arcanus:arcane_crystal_obelisk"
 			id: "0846A563C7A38C88"
+			min_width: 400
 			tasks: [
 				{
 					id: "32464D7FC3EB5A3D"
@@ -1518,6 +1521,7 @@
 			]
 			icon: "forbidden_arcanus:darkstone_pedestal"
 			id: "09E727E5B1CDB91F"
+			min_width: 400
 			tasks: [
 				{
 					id: "5E295274E0746B72"

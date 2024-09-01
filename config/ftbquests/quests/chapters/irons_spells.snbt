@@ -87,7 +87,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -214,19 +214,11 @@
 			id: "4DBFF18C1E2E8B36"
 			shape: "hexagon"
 			subtitle: "The Eldritch school is not like the others. It is an ancient and powerful way of magic, one that has all but been forgotten"
-			tasks: [
-				{
-					id: "0338D0F39DAA2298"
-					item: "minecraft:echo_shard"
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "7A57110225575CB8"
-					item: "irons_spellbooks:eldritch_manuscript"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "7A57110225575CB8"
+				item: "irons_spellbooks:eldritch_manuscript"
+				type: "item"
+			}]
 			title: "Eldritch magic"
 			x: 1.0d
 			y: 4.5d
@@ -790,7 +782,7 @@
 			icon_scale: 1.4d
 			id: "20F3719B40BAF0B6"
 			shape: "square"
-			subtitle: "Launch a bomb made from magma, exploding on impact and leaving a field of fire where it lands"
+			subtitle: "Launch a bomb made from magma, exploding on impact and leaving a field of fire where it lands."
 			tasks: [{
 				id: "4A249975AA30768C"
 				item: {
@@ -904,7 +896,7 @@
 			icon_scale: 1.4d
 			id: "34FCD3DCDB805845"
 			shape: "square"
-			subtitle: "Around a targeted creature, create a field of blood needles in every direction, shooting down and healing you for 25% of damage done"
+			subtitle: "Around a targeted creature, create a field of blood needles in every direction, shooting down and healing you for 25% of damage done."
 			tasks: [{
 				id: "53976AC5DBF6F41D"
 				item: {
@@ -942,7 +934,7 @@
 			icon_scale: 1.4d
 			id: "7C567B724287B19F"
 			shape: "square"
-			subtitle: "Create a ring of needles made from blood and fire them forward, skewering targets and healing you for 25% of damage done"
+			subtitle: "Create a ring of needles made from blood and fire them forward, skewering targets and healing you for 25% of damage done."
 			tasks: [{
 				id: "3D221D7110DEDDBB"
 				item: {
@@ -1056,7 +1048,7 @@
 			icon_scale: 1.4d
 			id: "04E55B301237F14B"
 			shape: "square"
-			subtitle: "Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the ancient magician known as Yorhavich"
+			subtitle: "Pull in a nearby creature and attack them with a bite, leeching 15% of damage done as health. If the creature is killed, you temporarily gain additional max HP. Created by the ancient magician known as Yorhavich."
 			tasks: [{
 				id: "6ABDD53045061E6A"
 				item: {
@@ -1284,7 +1276,7 @@
 			icon_scale: 1.4d
 			id: "47E6BAC77BA59093"
 			shape: "square"
-			subtitle: "Around a targeted location, create a fissure into the void, manifesting a black hole that will suck in nearby creatures and slowly crush them to death"
+			subtitle: "Around a targeted location, create a fissure into the void, manifesting a black hole that will suck in nearby creatures and slowly crush them to death."
 			tasks: [{
 				id: "7B1B830B4055E7C0"
 				item: {
@@ -1329,7 +1321,7 @@
 			icon_scale: 1.4d
 			id: "0A50879F77A82D85"
 			shape: "square"
-			subtitle: "Stop effects of other magic"
+			subtitle: "Stop effects of other magic."
 			tasks: [{
 				id: "7F5AC069BE9177AD"
 				item: {
@@ -1520,72 +1512,28 @@
 			id: "09A524E6ECDFD5E9"
 			shape: "square"
 			subtitle: "Creates two portals that allows players to travel back and forth between them."
-			tasks: [
-				{
-					id: "28A15E441EADBA31"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:scroll"
-						tag: {
-							ISB_Spells: {
-								data: [{
-									id: "irons_spellbooks:portal"
-									index: 0
-									level: 1
-									locked: 1b
-								}]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 0b
-							}
+			tasks: [{
+				id: "28A15E441EADBA31"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
 						}
 					}
-					match_nbt: true
-					type: "item"
 				}
-				{
-					id: "124FF6F46C74406D"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:scroll"
-						tag: {
-							ISB_Spells: {
-								data: [{
-									id: "irons_spellbooks:portal"
-									index: 0
-									level: 2
-									locked: 1b
-								}]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "03E8A3EFA3247CA7"
-					item: {
-						Count: 1
-						id: "irons_spellbooks:scroll"
-						tag: {
-							ISB_Spells: {
-								data: [{
-									id: "irons_spellbooks:portal"
-									index: 0
-									level: 3
-									locked: 1b
-								}]
-								maxSpells: 1
-								mustEquip: 0b
-								spellWheel: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+				match_nbt: true
+				type: "item"
+			}]
 			title: "Portal"
 			x: -5.0d
 			y: 5.0d
@@ -1639,7 +1587,7 @@
 			icon_scale: 1.4d
 			id: "50BA6B940B1C9527"
 			shape: "square"
-			subtitle: "Target a single area and continuously rain down arcane comets from above for the duration of the spell"
+			subtitle: "Target a single area and continuously rain down arcane comets from above for the duration of the spell."
 			tasks: [{
 				id: "09FA88693A4E8578"
 				item: {
@@ -1981,7 +1929,7 @@
 			icon_scale: 1.4d
 			id: "084796FC4DDE0D4E"
 			shape: "square"
-			subtitle: "Conjure a strong gust of wind, knocking back creatures in a conical shape, causing damage if they impact a wall"
+			subtitle: "Conjure a strong gust of wind, knocking back creatures in a conical shape, causing damage if they impact a wall."
 			tasks: [{
 				id: "6171F424F7611D0C"
 				item: {
@@ -2513,7 +2461,7 @@
 			icon_scale: 1.4d
 			id: "2D8B8DA3C9293CCD"
 			shape: "square"
-			subtitle: "Fire a slow bolt of holy energy. Creatures hit will gain the Guided effect, homing nearby projectiles in towards them"
+			subtitle: "Fire a slow bolt of holy energy. Creatures hit will gain the Guided effect, homing nearby projectiles in towards them."
 			tasks: [{
 				id: "1EBECEA527DACFEA"
 				item: {
@@ -2628,7 +2576,7 @@
 			icon_scale: 1.4d
 			id: "23A1A47894E1CEB8"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, place a stationary circle of holy magic that heals allies within"
+			subtitle: "Around a targeted creature or block, place a stationary circle of holy magic that heals allies within."
 			tasks: [{
 				id: "6B50BA80EBA5AEC9"
 				item: {
@@ -2894,6 +2842,7 @@
 			icon_scale: 1.4d
 			id: "5BF66A8EB5C27D54"
 			shape: "square"
+			subtitle: "Fire a beam of cold energy, dealing low damage but immediately applying freeze to the creature hit."
 			tasks: [{
 				id: "318F6402FA975FA5"
 				item: {
@@ -3045,7 +2994,7 @@
 			icon_scale: 1.4d
 			id: "46FEC22AA8E22243"
 			shape: "square"
-			subtitle: "Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures"
+			subtitle: "Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures."
 			tasks: [{
 				id: "7D35BA9F75CEECA0"
 				item: {
@@ -3311,7 +3260,7 @@
 			icon_scale: 1.4d
 			id: "44BD776617D0E432"
 			shape: "square"
-			subtitle: "Spit an orb of acid, splashing in a radius upon impact and rending creatures hit, melting away and reducing their armor"
+			subtitle: "Spit an orb of acid, splashing in a radius upon impact and rending creatures hit, melting away and reducing their armor."
 			tasks: [{
 				id: "686221AE0DA19965"
 				item: {
@@ -3349,7 +3298,7 @@
 			icon_scale: 1.4d
 			id: "381B0A3B808B7004"
 			shape: "square"
-			subtitle: "Target a creature to blight them, reducing their incoming healing and outgoing damage"
+			subtitle: "Target a creature to blight them, reducing their incoming healing and outgoing damage."
 			tasks: [{
 				id: "221BCEA15A050BC4"
 				item: {
@@ -3539,7 +3488,7 @@
 			icon_scale: 1.4d
 			id: "757AC0052C4D92B3"
 			shape: "square"
-			subtitle: "Charge a powerful arrow, imbued with poison magic, that will release a poisonous cloud upon impact"
+			subtitle: "Charge a powerful arrow, imbued with poison magic, that will release a poisonous cloud upon impact."
 			tasks: [{
 				id: "711A7DFE38B84410"
 				item: {
@@ -3577,7 +3526,7 @@
 			icon_scale: 1.4d
 			id: "27816321823042E7"
 			shape: "square"
-			subtitle: "Spew forth a cone of poison, damaging and poisoning creatures in its reach"
+			subtitle: "Spew forth a cone of poison, damaging and poisoning creatures in its reach."
 			tasks: [{
 				id: "712623CBFA8566BE"
 				item: {
@@ -3615,7 +3564,7 @@
 			icon_scale: 1.4d
 			id: "729AEEA9EB61FF37"
 			shape: "square"
-			subtitle: "Around a targeted creature or block, conjure a wave of poisonous magic that splashes down, damaging creatures hit and leaving behind a poisonous cloud"
+			subtitle: "Around a targeted creature or block, conjure a wave of poisonous magic that splashes down, damaging creatures hit and leaving behind a poisonous cloud."
 			tasks: [{
 				id: "00BD5F35DD09DDFF"
 				item: {
@@ -3653,7 +3602,7 @@
 			icon_scale: 1.4d
 			id: "6CCB58DC5162F598"
 			shape: "square"
-			subtitle: "Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement"
+			subtitle: "Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement."
 			tasks: [{
 				id: "0885A7B7B89B4E3F"
 				item: {
@@ -3691,7 +3640,7 @@
 			icon_scale: 1.4d
 			id: "6F751D658EAB4A5D"
 			shape: "square"
-			subtitle: "Instill yourself with poisonous magic, dealing additional melee, ranged, or spell damage creatures that are poisoned"
+			subtitle: "Instill yourself with poisonous magic, dealing additional melee, ranged, or spell damage creatures that are poisoned."
 			tasks: [{
 				id: "1AD5D962F40C461E"
 				item: {
@@ -3759,7 +3708,7 @@
 		{
 			id: "588B720757D1CAB7"
 			shape: "rsquare"
-			subtitle: "Used to customize the spell book"
+			subtitle: "Used to customize the spell book."
 			tasks: [{
 				id: "109354D4CE78942F"
 				item: "irons_spellbooks:inscription_table"
@@ -3772,7 +3721,7 @@
 		{
 			id: "7A92871ED681157F"
 			shape: "rsquare"
-			subtitle: "Used to create spells"
+			subtitle: "Used to create spells."
 			tasks: [{
 				id: "6A5C6AFA62154A35"
 				item: "irons_spellbooks:scroll_forge"
@@ -3790,7 +3739,7 @@
 			]
 			id: "06A71AE66FD06968"
 			shape: "rsquare"
-			subtitle: "Used to improve items"
+			subtitle: "Used to improve items."
 			tasks: [{
 				id: "0E7AEB973767C57D"
 				item: "irons_spellbooks:arcane_anvil"
@@ -3825,36 +3774,31 @@
 			icon: "irons_spellbooks:artificer_cane"
 			id: "3B8EAE4FDCA05E67"
 			shape: "circle"
-			subtitle: "Boosts spells when equipped"
+			subtitle: "Boosts spells when equipped."
 			tasks: [
 				{
 					id: "59DDEE79C03B5E32"
 					item: "irons_spellbooks:blood_staff"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "02187F0AD245D39C"
 					item: "irons_spellbooks:graybeard_staff"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "090AFEC20C94D746"
 					item: "irons_spellbooks:ice_staff"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "36F745EA44ABE806"
 					item: "irons_spellbooks:artificer_cane"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5BEFD94ACF766F89"
 					item: "irons_spellbooks:lightning_rod"
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -3870,36 +3814,31 @@
 			icon: "irons_spellbooks:common_ink"
 			id: "53DC9A5CF68C84D5"
 			shape: "circle"
-			subtitle: "Used to create magic scrolls"
+			subtitle: "Used to create magic scrolls."
 			tasks: [
 				{
 					id: "5E8CACE3FDB8B9C9"
 					item: "irons_spellbooks:common_ink"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "733D04BE5A8A65BD"
 					item: "irons_spellbooks:uncommon_ink"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "705D197B931AF451"
 					item: "irons_spellbooks:rare_ink"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1ACE75B83A8BA57B"
 					item: "irons_spellbooks:epic_ink"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "600E0A63C840A06F"
 					item: "irons_spellbooks:legendary_ink"
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -3918,12 +3857,11 @@
 			icon: "irons_spellbooks:upgrade_orb"
 			id: "2865334DD8DAB586"
 			shape: "circle"
-			subtitle: "Used to improve armor"
+			subtitle: "Used to improve armor."
 			tasks: [
 				{
 					id: "1246CFAA2FF2F8CD"
 					item: "irons_spellbooks:upgrade_orb"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -4001,7 +3939,7 @@
 			description: ["To upgrade capacity, combine a &aSpell Book&r and &aLesser Spell Slot Improvement&r on the &bArcane Anvil&r."]
 			id: "48CBE8361506CA28"
 			shape: "diamond"
-			subtitle: "Improves Spell Book capacity, up to 12 Slots"
+			subtitle: "Improves Spell Book capacity, up to 12 Slots."
 			tasks: [{
 				id: "4D8FDE0B3DDEB22A"
 				item: "irons_spellbooks:lesser_spell_slot_upgrade"
@@ -4029,7 +3967,7 @@
 			}
 			id: "5626E43438CCA6BF"
 			shape: "circle"
-			subtitle: "Can hold multiple spells"
+			subtitle: "Can hold multiple spells."
 			tasks: [
 				{
 					id: "2A9DEE646EECF410"
@@ -4134,14 +4072,14 @@
 		}
 		{
 			description: [
-				"Can only be acquired by taking it from its undead owner."
+				"Can be dropped by Evokers or their more powerful casting cousin, Archevokers."
 				""
 				"The spells in the book are locked, but can be improved."
 				"By combining a Spell Book in the Arcane Anvil with a higher level scroll of the same spell from the Spell Book."
 			]
 			id: "658C312ACFA0115A"
 			shape: "diamond"
-			subtitle: "An ancient book holding a host of dark spells"
+			subtitle: "A book full of foundational illager magicl"
 			tasks: [{
 				id: "6A72554F9681766E"
 				item: {
@@ -4182,14 +4120,14 @@
 		}
 		{
 			description: [
-				"Can be dropped by Evokers or their more powerful casting cousin, Archevokers."
+				"Can only be acquired by taking it from its undead owner."
 				""
 				"The spells in the book are locked, but can be improved."
 				"By combining a Spell Book in the Arcane Anvil with a higher level scroll of the same spell from the Spell Book."
 			]
 			id: "09288748C3158E41"
 			shape: "diamond"
-			subtitle: "A book full of foundational illager magicl"
+			subtitle: "An ancient book holding a host of dark spells."
 			tasks: [{
 				id: "1F3C2260973374A8"
 				item: {
@@ -4243,7 +4181,7 @@
 			]
 			id: "0A09D61DC2061A01"
 			shape: "diamond"
-			subtitle: "Yet, still more powerful than most Overworld spell books"
+			subtitle: "Yet, still more powerful than most Overworld spell books."
 			tasks: [{
 				id: "1ECE6E4FB3D33389"
 				item: {
@@ -4267,7 +4205,7 @@
 			description: ["The trick is killing them and hoping it doesn't turn into ash."]
 			id: "07F36F2B65B98328"
 			shape: "diamond"
-			subtitle: "Every Blaze, unbeknownst to them, comes with one of these tucked away"
+			subtitle: "Every Blaze, unbeknownst to them, comes with one of these tucked away."
 			tasks: [{
 				id: "59E4CFDF81461FD2"
 				item: {
@@ -4291,7 +4229,7 @@
 			description: ["Building a reputation with the villagers, especially by freeing captives from the Archevoker, will ensure one falls into your hands eventually."]
 			id: "346DC035C0E16986"
 			shape: "diamond"
-			subtitle: "A regular book with a little blessing makes a suitable channel for divine magic"
+			subtitle: "A regular book with a little blessing makes a suitable channel for divine magic."
 			tasks: [{
 				id: "24AB49624019F871"
 				item: {
@@ -4315,7 +4253,7 @@
 			description: ["The book may be blessed anew if a proper remedy were applied."]
 			id: "699C8E14223E8223"
 			shape: "diamond"
-			subtitle: "A strong magical energy still persists within the Rotten Spell Book"
+			subtitle: "A strong magical energy still persists within the Rotten Spell Book."
 			tasks: [{
 				id: "2701DF896E7BB617"
 				item: {
@@ -4342,7 +4280,7 @@
 			]
 			id: "639FF6600F71C061"
 			shape: "octagon"
-			subtitle: "Basic material"
+			subtitle: "Basic material."
 			tasks: [{
 				id: "157E135E530BD01B"
 				item: "irons_spellbooks:arcane_essence"
@@ -4355,7 +4293,7 @@
 			description: ["Dropped from Ancient Knights, which can be awakened by breaking armor piles."]
 			id: "24B9A744A69E6209"
 			shape: "octagon"
-			subtitle: "Advanced material"
+			subtitle: "Advanced material."
 			tasks: [{
 				id: "3B7D1C96A4A3F100"
 				item: "irons_spellbooks:cinder_essence"

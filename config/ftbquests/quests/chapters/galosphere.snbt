@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "galosphere"
+	group: ""
+	icon: "galosphere:lumiere_cluster"
+	id: "09817A15141FD41E"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/redstone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			height: 0.8d
+			image: "ftbchunks:textures/faces/minecraft/zombie_villager.png"
+			rotation: 0.0d
+			width: 0.8d
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/chainmail_chestplate"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/flint_and_steel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/item_frame"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -5.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Crafted from &eLeather Armor&r using &aSilver Upgrade&r."
+				""
+				"- Reduces damage dealt by Illagers/Vexes/Evoker fangs."
+				"- Player does not fall into the snow."
+				"- Grants the effect of immunity to freezing."
+				""
+				"And finally - you can attach a banner to your helmet - take the banner in your hand and press RMB."
+			]
+			icon: {
+				Count: 1
+				id: "galosphere:sterling_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "41FE928801BC0E3F"
+			shape: "diamond"
+			subtitle: "Additionally reduces damage from Illageres"
+			tasks: [
+				{
+					id: "36C37CA8B4711FE7"
+					item: "galosphere:silver_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "564EF882326E9A2C"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37E0E201F5881BD5"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC59F68AAD8CE97"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "396173701C20F423"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sterling Set"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			description: ["If you add 1 &eLumiere Shard&r to the compost, you will get &aGlowstone Dust&r instead of &aBone Meal&r."]
+			icon: "galosphere:lumiere_shard"
+			id: "77D18C87D1C6ABCF"
+			subtitle: "Lumiere allows composting of Glowstone Dust."
+			tasks: [
+				{
+					id: "46625D7831DEDADD"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "6520A1E810977D15"
+					item: "galosphere:lumiere_shard"
+					type: "item"
+				}
+			]
+			title: "Glowdust production"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"If you place another block above a charged Lumiere block, the charge will be transferred to the block above and change it."
+				""
+				"Currently working with &aCobblestone&r, &aRed Sand&r and &aGranite&r."
+			]
+			icon: "galosphere:charged_lumiere_block"
+			id: "44520E291F8088B3"
+			subtitle: "The Lumiere block that is struck by lightning is charged."
+			tasks: [
+				{
+					id: "31D1BA5DE64B4489"
+					item: "galosphere:charged_lumiere_block"
+					type: "item"
+				}
+				{
+					id: "43386944E9B1F1CC"
+					item: "galosphere:lumiere_block"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Charges with Alurit Blocks."
+				"Maximum 4 charges."
+				"Teleportation consumes a charge."
+				"Works within a radius of 16 blocks."
+				""
+				"Also prevents damage taken from teleportation with pearls."
+				"Also work with Chorus Fruit."
+			]
+			icon: "galosphere:warped_anchor"
+			id: "35A479D48C1A1B49"
+			subtitle: "Teleports you to itself if your ender pearl falls nearby."
+			tasks: [
+				{
+					id: "60D0BA54E2AC8BE2"
+					item: "galosphere:warped_anchor"
+					type: "item"
+				}
+				{
+					id: "616A008C7992F979"
+					item: "galosphere:allurite_block"
+					type: "item"
+				}
+			]
+			title: "Warped Anchor"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Charged with an Lumiere Block."
+				"Works for 20 seconds."
+				""
+				"Highlights blocks that have enough light in yellow, and blocks that don't have enough light in blue (blocks that monsters can spawn on)."
+				"Highlights all monsters within range."
+				"Emits a redstone signal equal to the number of monsters."
+				"Can be activated by redstone."
+			]
+			icon: "galosphere:monstrometer"
+			id: "15A8F10FA0B26E39"
+			subtitle: "Creates an Aluritic aura around Monstromer."
+			tasks: [
+				{
+					id: "0EEDC613905213A8"
+					item: "galosphere:monstrometer"
+					type: "item"
+				}
+				{
+					id: "1352BDD4C756AE36"
+					item: "galosphere:lumiere_block"
+					type: "item"
+				}
+			]
+			title: "Monstrometer"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Emits a redstone signal depending on the weight of the block."]
+			id: "41DA0E6E81B76A2A"
+			subtitle: "Weighs the block above it."
+			tasks: [{
+				id: "4127D63E53B0454C"
+				item: "galosphere:silver_balance"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"If placed on top of a filled composter downwards, it will randomly turn the compost into coarse dirt."
+				""
+				"If placed on top of a copper block, it has a higher chance of aging it."
+			]
+			id: "05B90AF132F8C45A"
+			subtitle: "Affects blocks below it."
+			tasks: [{
+				id: "4F9B32276C7A2A3A"
+				item: "galosphere:pink_salt_straw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"If activated with redstone, it becomes solid and does not allow entities to pass through it."
+				"Also, monsters can't pass through it."
+			]
+			id: "73A8E1D13946F79D"
+			subtitle: "Takes the shape of another block and does not interfere with movement."
+			tasks: [{
+				id: "0D41F65FDDE2C76D"
+				item: "galosphere:shadow_frame"
+				type: "item"
+			}]
+			title: "Shadow Frame"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"Can move any entities (objects, monsters, players, etc.)"
+				"Additionally, entities lose their attraction power while interacting with &aStranded Membrane Block&r."
+			]
+			id: "55C80A1A9A0C7EF2"
+			subtitle: "Moves objects that come into contact with it."
+			tasks: [{
+				id: "38DE65462DA0557E"
+				item: "galosphere:stranded_membrane_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "447E43546836726D"
+			subtitle: "Enhances an item by applying the Soulbound effect to it."
+			tasks: [{
+				id: "39520FFCA6741F6C"
+				item: "galosphere:preserved_template"
+				type: "item"
+			}]
+			title: "Preserved effect"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"If you look down - creates columns around you."
+				"If you look to the side - creates a long strip of columns in the direction of your gaze."
+			]
+			id: "53B561A1AFD1FE0E"
+			subtitle: "Creates columns that deal damage to enemies."
+			tasks: [{
+				id: "5D1BB10B174734CD"
+				item: {
+					Count: 1
+					id: "galosphere:saltbound_tablet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Can be grown using &aGlow Lichen&r."
+				"Also, if you feed it &aGlow Lichen&r, the tail will grow faster."
+				""
+				"Using the RMB pickaxe on them will collect their tail. (Don't worry, it will grow back in time)."
+				""
+				"&eFortune's enchantment&r increases the amount of resource mined."
+				"&eSilk Touch enchantment&r will now yield clusters instead of shards."
+			]
+			icon: "galosphere:sparkle_spawn_egg"
+			id: "3584B763D919FAF5"
+			shape: "square"
+			subtitle: "Cuties living in the Crystal Caves."
+			tasks: [{
+				icon: "minecraft:glow_lichen"
+				id: "34E74EE8A1930386"
+				observe_type: 5
+				timer: 0L
+				title: "Meet Sparkle"
+				to_observe: "galosphere:sparkle"
+				type: "observation"
+			}]
+			title: "Sparkles"
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			description: ["If there is an &aAmethyst&r, &aAllurite&r, or &aLumiere&r Cluster near a &eSparkle&r, the &eSparkle&r will bite it, forming a &aGlinted&r version."]
+			icon: "galosphere:glinted_amethyst_cluster"
+			id: "470EBDD4D98FCA2D"
+			subtitle: "They appear as a result of Sparkles eating regular crystals."
+			tasks: [
+				{
+					id: "16B2432C672A4F91"
+					item: "galosphere:glinted_amethyst_cluster"
+					type: "item"
+				}
+				{
+					id: "01D178AEDDE66487"
+					item: "galosphere:glinted_allurite_cluster"
+					type: "item"
+				}
+				{
+					id: "4059964B78DDD00D"
+					item: "galosphere:glinted_lumiere_cluster"
+					type: "item"
+				}
+			]
+			title: "Glinted Clusters"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: ["Allows you to move freely through blocks."]
+			id: "281F285D738A0F88"
+			subtitle: "Applies the Astral effect when used."
+			tasks: [{
+				id: "028E88095212F5CE"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "galosphere:astral"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"Can be grown like bamboo."
+				"&aLichen Cordyceps&r replenishes air if eaten underwater."
+				""
+				"&aGolden Lichen Cordyceps&r restores a lot of air and allows you to get an additional 4 air bubbles on top of the maximum."
+			]
+			icon: "galosphere:lichen_cordyceps"
+			id: "6D15A1BAD30B6BB2"
+			subtitle: "The plant looks like bamboo, but grows underground."
+			tasks: [
+				{
+					id: "539BACB5D6086E98"
+					item: "galosphere:lichen_cordyceps"
+					type: "item"
+				}
+				{
+					id: "7A3441811B63DEF5"
+					item: "galosphere:golden_lichen_cordyceps"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"If you move too far away from the &eSpectre&r, it may disappear, so if you want to catch it, use one of 2 methods:"
+				"- Give it a name, use a name tag on it."
+				"- Catch him in a bottle."
+				""
+				"If you feed &eSpectre&r with &aAlurite Shard&r, you will be able to use his help."
+				"To do this, right-click the &eSpectre&r with the &aSpyglass&r, after which you will be able to see through the eyes of the &eSpectre&r when using the &aSpyglass&r."
+				""
+				"First person view is useful in the dark."
+				"Third person view is useful in the light."
+			]
+			icon: "galosphere:spectre_spawn_egg"
+			id: "783959FC0D3CAC7C"
+			shape: "square"
+			subtitle: "A firefly-like creature that can be found underground."
+			tasks: [
+				{
+					id: "16A5012CE6C8F76A"
+					item: "galosphere:allurite_shard"
+					type: "item"
+				}
+				{
+					icon: "minecraft:spyglass"
+					id: "53AB9116AC6C21D5"
+					observe_type: 5
+					timer: 0L
+					title: "Meet Spectre"
+					to_observe: "galosphere:spectre"
+					type: "observation"
+				}
+			]
+			title: "Spectres"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			description: ["On land it emits a faint light, but glows very brightly underwater."]
+			id: "28EA701DD35B1776"
+			subtitle: "Covers everything with glowing moss."
+			tasks: [{
+				id: "71225441DE735E29"
+				item: "galosphere:glow_flare"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Crafted from &eLeather Armor&r using &aSilver Upgrade&r."
+				""
+				"- Reduces damage dealt by Illagers/Vexes/Evoker fangs."
+				"- Horse does not fall into the snow."
+				"- Grants the effect of immunity to freezing."
+				""
+				"And finally - you can attach a banner to your horse - take the banner in your hand and press RMB on the horse."
+			]
+			id: "7413D6F521FD1CF7"
+			shape: "diamond"
+			subtitle: "Allows the horse to easily overcome mountains."
+			tasks: [{
+				id: "3BB32E5DC7706860"
+				item: "galosphere:sterling_horse_armor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"The &aSilver Bomb&r can be upgraded at the &aCombution Table&r."
+				""
+				"&aGunpowder&r - Increases explosion radius and damage."
+				"&aSlime&r - The bomb additionally bounces off surfaces."
+				"&aString&r - Adds a delay before explosion."
+				""
+				"Each modifier can be upgraded up to 3 times."
+			]
+			icon: {
+				Count: 1
+				id: "galosphere:silver_bomb"
+				tag: { }
+			}
+			id: "0A0C812AA3874EC1"
+			subtitle: "A throwable bomb that explodes, damaging enemies and breaking blocks."
+			tasks: [
+				{
+					id: "0FA7BD4ACFCF6463"
+					item: {
+						Count: 1
+						id: "galosphere:silver_bomb"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4857F7ABB8020B99"
+					item: "galosphere:combustion_table"
+					type: "item"
+				}
+				{
+					id: "0CECFE713735FEB5"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					id: "6462D7C4643BB77B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "5CBCFDE3F4C0853E"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			title: "Silver Bomb"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "72D23F8F9F0F5E1E"
+			subtitle: "Throws a Spectre, allowing you to see through the Spectre's eyes at the landing location."
+			tasks: [{
+				id: "040956B730D79BA9"
+				item: "galosphere:spectre_flare"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+	]
+	title: "Galosphere"
+}

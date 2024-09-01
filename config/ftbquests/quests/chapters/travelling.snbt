@@ -16,8 +16,8 @@
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.5d
+			x: -3.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["479F5EE637931DF5"]
@@ -28,41 +28,42 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -10.5d
+			x: -1.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["55FAE20E07CDC9C9"]
 			id: "02674AD6B512CA57"
-			subtitle: "Sturdy, has 3 seats, and a bunch of weapon options."
+			subtitle: "Sturdy, has 3 seats, and a bunch of weapons."
 			tasks: [{
 				id: "1BB3FF3DB83BA907"
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.5d
+			x: 0.0d
+			y: -12.5d
 		}
 		{
 			id: "3A643C9F794E6B0C"
-			subtitle: "Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"
+			subtitle: "Fast, one seat, medium difficulty."
 			tasks: [{
 				id: "28CC36B4CF226782"
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: 0.5d
+			title: "Biplane"
+			x: -1.5d
 			y: -11.5d
 		}
 		{
 			id: "51AEDA51AC0D8F9B"
-			subtitle: "Human-powered primitive dual seater. Trusty, yet not the fastest and consumes hunger quickly. Needs a good initial push to get the rotor spinning."
+			subtitle: "Human-powered primitive dual seater. Trusty, yet neither the fastest nor the easiest to fly. Needs a good initial push to get the rotor spinning."
 			tasks: [{
 				id: "07EA7B8F8DAF0E36"
 				item: "immersive_aircraft:gyrodyne"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -11.5d
 		}
 		{
@@ -73,26 +74,26 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.0d
 			y: -11.5d
 		}
 		{
 			id: "2397C81EE3B470C0"
 			shape: "rsquare"
-			subtitle: "A mysterious material from the Aether that defies gravity."
+			subtitle: "Mysterious material that allows objects to float in the air."
 			tasks: [{
 				id: "7C7C85F71CA27E63"
 				item: "aether:enchanted_gravitite"
 				type: "item"
 			}]
-			title: "The Source of Flight"
-			x: -1.0d
-			y: -12.5d
+			title: "The source of fly"
+			x: -1.5d
+			y: -13.5d
 		}
 		{
-			description: ["Rumors say it flies faster than other dragons"]
+			description: ["Flies faster than other dragons"]
 			id: "69428975C73FD77D"
-			subtitle: "Place the egg in the Aether dimension."
+			subtitle: "Place the egg in Aether."
 			tasks: [{
 				id: "69EE1492F3067FC1"
 				item: {
@@ -108,12 +109,12 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -13.0d
 		}
 		{
 			id: "092E550A6E2D1783"
-			subtitle: "Defeat the Ender Dragon to obtain its egg. Convert other dragon eggs by surrounding them with Dragon's Breath."
+			subtitle: "Defeating an Ender Dragon and carefully collecting its egg."
 			tasks: [{
 				id: "2C53D1AF3E471066"
 				item: {
@@ -129,12 +130,12 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -13.5d
 		}
 		{
 			id: "5299590EAB306EE7"
-			subtitle: "Place the egg adjacent to lava or magma blocks."
+			subtitle: "Place the egg next to the lava."
 			tasks: [{
 				id: "0E04E2C61113F416"
 				item: {
@@ -150,12 +151,12 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -13.0d
 		}
 		{
 			id: "6967D1E14FFDC359"
-			subtitle: "Place the egg in a forest biome, or adjacent to leaf blocks."
+			subtitle: "Place the egg in a forest or area with dense vegetation."
 			tasks: [{
 				id: "45FAB88602FC721F"
 				item: {
@@ -171,12 +172,12 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -12.0d
 		}
 		{
 			id: "54C54AD77F75E2CA"
-			subtitle: "Place the egg below y-level 0 and in complete darkness."
+			subtitle: "Place the egg deep underground in complete darkness."
 			tasks: [{
 				id: "3702F64EDCF84D24"
 				item: {
@@ -192,12 +193,12 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: -11.0d
 		}
 		{
 			id: "51D920C52C7DC153"
-			subtitle: "Place the egg in a cold biome, or adjacent to snow or ice blocks."
+			subtitle: "Place the egg in a cold biome, or give it a cold atmosphere."
 			tasks: [{
 				id: "6BB92A95B27B1457"
 				item: {
@@ -213,12 +214,12 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -10.5d
 		}
 		{
 			id: "2F60A94264EE2797"
-			subtitle: "Place the egg in the Nether, or adjacent to black stone or soul soil blocks."
+			subtitle: "Place the egg in the Nether, or create a Nether atmosphere for it."
 			tasks: [{
 				id: "0193FFF7434F02A3"
 				item: {
@@ -234,13 +235,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -11.0d
 		}
 		{
 			description: ["Can swim."]
 			id: "03EB66929B4A2B3F"
-			subtitle: "Place the egg adjacent to water or coral blocks."
+			subtitle: "Place the egg near a water source."
 			tasks: [{
 				id: "6B56A0037049A92A"
 				item: {
@@ -256,37 +257,37 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -12.0d
 		}
 		{
 			description: [
-				"Once the egg is placed, it takes approximately 600 seconds for it to hatch."
+				"Once the egg is set in motion, it takes approximately 600 seconds for it to hatch."
 				"During this time, ensure the egg is safe from any disturbances."
 				""
-				"After hatching, it is crucial to tame the dragon by feeding it fish. The longer you take to tame the dragon after it hatches, the more fish it will require before it's tamed."
+				"After hatching, it is crucial to tame the dragon by feeding it fish."
 				"Tamed dragons will obey commands and defend you against hostile mobs."
 				""
-				"To ride a dragon, use a saddle on it."
+				"To ride a dragon, use the saddle on it."
 			]
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
 			shape: "rsquare"
-			subtitle: "Don't forget to tame your dragon."
+			subtitle: "Don't forget to tame your dragon"
 			tasks: [{
 				id: "062BE2B3CAFEF001"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Dragon Taming 101"
-			x: 6.0d
+			title: "How to care of a dragon"
+			x: 6.5d
 			y: -12.0d
 		}
 		{
 			description: [
-				"There are two ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
+				"There are 2 ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
 				""
-				"              &6General information:&r"
+				"              &6Overal information:&r"
 				""
 				"Movement - WASD"
 				"Dive - Left Ctrl"
@@ -298,26 +299,24 @@
 				"{@pagebreak}"
 				"                      &6Care:&r"
 				""
-				"Over time, your submarine will begin to oxidize. This only affects how the submarine looks."
-				"To reverse the stages of oxidation, interact with an oxidized Submarine while holding an axe."
-				"Honeycomb can also be applied to a Submarine similarly to prevent oxidation from progressing."
-				"Lightning bolts that strike near an unwaxed Submarine will completely reset its level of oxidation."
+				"Over time, your submarine will begin to oxidize."
+				"If wanting to reverse the stages of oxidation on a Submarine, interacting with an oxidized Submarine while holding an axe will remove one stage of oxidation from it."
+				"Honeycomb can also be applied to the Submarine similarly to many other copper blocks to completely prevent oxidation from progressing."
+				"Lightning bolts that strike nearby an unwaxed Submarine will completely reset the its level of oxidation."
 				""
-				"Submarines will begin to show cracks depending on how much damage they've taken."
-				"Fortunately, one can repair a damaged Submarine with the use of copper ingots. Interact with a Submarine while holding a copper ingot to repair it by up to 10 damage per ingot."
+				"Similarly to an iron golem, a Submarine will begin to crack depending on how much health is depleted from it"
+				"Fortunately, one can repair a cracked Submarine with the use of copper ingots. If a copper ingot is held and used on a Submarine that visibly has cracks, it will remove up to 10 built-up damage from the Submarine and repair fractures dealt by exactly one level of damage."
 				""
-				"&cWarning - if the submarine completely breaks, only a small amount of copper be left.&r"
+				"&cWarning - if the submarine breaks, a small amount of copper will fall out of it.&r"
 				"{@pagebreak}"
 				"                    &6Building:&r"
 				""
-				"You can craft a submarine in a crafting table or by building a multi-block structure."
+				"For construction you will need have &a20 of any type of copper&r block (including cut copper), &a6 Depth Glass&r, and most importantly an &aEnigmatic Engine &r- which can only be obtained as a drop from slaying the formiable Hullbreaker."
 				""
-				"For the multiblock structure, you will need &a20 of any type of copper&r block (including cut copper), &a6 Depth Glass&r, and an &aEnigmatic Engine &r- which can only be obtained as a drop from the Hullbreaker."
-				""
-				"Place down the Enigmatic Engine and surround it with a 3x3x3 copper cube. Then, break a 3x2 hole in the copper cube exposing the Enigmatic Engine. Finally, fill this 3x2 gap with 6 Depth Glass blocks and it will transform into the Submarine."
+				"Once you has all these materials, construction of a new Submarine can begin by surrounding the Enigmatic Engine with a 3x3x3 copper cube. Once this is done, a 3x2 hole should remain in the structure exposing the Enigmatic Engine - filling this gap with 6 Depth Glass blocks will mark the front of the Submarine and ultimately transform the structure into a brand new Submarine."
 			]
 			id: "503478F788C7407E"
-			subtitle: "Underwater travel"
+			subtitle: "Underwater travel."
 			tasks: [{
 				id: "5DC59496BA79096E"
 				item: "alexscaves:submarine"
@@ -330,7 +329,7 @@
 			description: [
 				"          &6Works for all ship types&r"
 				""
-				"Press \"R\" to open/close the ship's sail."
+				"Press \"R\" to open/close the Ships Sail."
 				"Or Press \"W\" to increase and \"S\" to decrease the Sail."
 				""
 				"To dismount a entity from the ship, right-click the entity."
@@ -394,8 +393,8 @@
 				}
 			]
 			title: "Cog"
-			x: -1.0d
-			y: -7.0d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["50DDB3487B02E281"]
@@ -450,8 +449,8 @@
 				}
 			]
 			title: "Brigg"
-			x: -2.5d
-			y: -5.5d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["50DDB3487B02E281"]
@@ -506,8 +505,8 @@
 				}
 			]
 			title: "Galley"
-			x: -1.0d
-			y: -5.5d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["50DDB3487B02E281"]
@@ -568,48 +567,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: -5.5d
-		}
-		{
-			id: "1477ABC496E4BAFB"
-			invisible: true
-			shape: "hexagon"
-			subtitle: "You can create your own ship block by block"
-			tasks: [{
-				id: "504685B3AEE1376E"
-				item: "littlecontraptions:contraption_barge"
-				type: "item"
-			}]
-			title: "[WIP] Ship made of blocks"
-			x: 2.5d
-			y: -8.5d
-		}
-		{
-			id: "7EFD7BDEDF1E2E37"
-			invisible: true
-			shape: "hexagon"
-			tasks: [{
-				id: "3986D63A71019046"
-				item: "littlelogistics:seater_barge"
-				type: "item"
-			}]
-			title: "[WIP]"
-			x: 3.5d
-			y: -8.5d
-		}
-		{
-			id: "39181A071D6316E1"
-			invisible: true
-			shape: "hexagon"
-			tasks: [{
-				id: "13BF94999F7A562E"
-				item: "littlelogistics:tug"
-				type: "item"
-			}]
-			title: "[WIP]"
-			x: 1.5d
-			y: -8.5d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -626,8 +585,8 @@
 				item: "astikorcarts:animal_cart"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -646,43 +605,22 @@
 				item: "astikorcarts:supply_cart"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
-		}
-		{
-			description: [
-				"To equip a backpack, put in a back slot or keep it in your inventory."
-				""
-				"The backpack can be opened using B key."
-			]
-			id: "152B146B4FD5262F"
-			subtitle: "Backpacks will help you on long journeys"
-			tasks: [{
-				id: "03B31FD21153B4E5"
-				item: {
-					Count: 1
-					id: "sophisticatedbackpacks:backpack"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "Backpack"
-			x: 4.5d
-			y: -5.5d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			icon: "galosphere:sterling_horse_armor"
 			id: "41883D7A4D016FE6"
 			shape: "rsquare"
-			subtitle: "Yes, yes! Horses no longer drown and throw you off"
+			subtitle: "Yes, yes! Horses no longer drown and throw you off."
 			tasks: [{
 				id: "3633DC1B27D66348"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Horse can swim"
-			x: 6.0d
-			y: -7.0d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			description: [
@@ -699,6 +637,368 @@
 			}]
 			x: 2.5d
 			y: -13.5d
+		}
+		{
+			dependencies: ["3A643C9F794E6B0C"]
+			id: "5C9B6A9DB8F72845"
+			subtitle: "There is currently no precise information about this aircraft."
+			tasks: [{
+				id: "2FD95A814FF75B6A"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3A643C9F794E6B0C"]
+			id: "5ED3C714622B8FB6"
+			subtitle: "There is currently no precise information about this aircraft."
+			tasks: [{
+				id: "46B58D998244C0CD"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			description: ["You can put it on the Bask slot, after which Backpack will be available by pressing the &aB&r button."]
+			id: "080AA50EB030E608"
+			subtitle: "Backpacks will help you on long journeys."
+			tasks: [{
+				id: "34183187D1C1BBC8"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4E7155A51FDBEA52"
+				"3D498D90313D9C5E"
+				"2BF3CC73E467999F"
+				"04CEF776DC41C8A7"
+				"7ED342D083C40641"
+				"2A291BC419B86C7E"
+				"18A5B36C235A6304"
+				"09B96D2E745CA0F1"
+				"0EEAC7231795131F"
+				"203D6061C6FAF298"
+				"619075120B45FE5F"
+				"3032F8EE08F7BDEC"
+				"025BC45147EEFEC2"
+				"44EDB755EEED4051"
+				"0F27998656531188"
+				"6C143D7B08238AC6"
+			]
+			icon_scale: 0.9d
+			id: "43F459A83C683494"
+			min_required_dependencies: 12
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "Collect 12 different eyes and then activate the portal."
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "20E01A30E937B145"
+				observe_type: 0
+				timer: 0L
+				title: "Activate portal to the End"
+				to_observe: "minecraft:end_portal"
+				type: "observation"
+			}]
+			title: "Go to the End"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			id: "4E7155A51FDBEA52"
+			shape: "diamond"
+			subtitle: "Pirates say it gave sight to the legendary Black Pearl."
+			tasks: [{
+				id: "11C002B4B7A16134"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			id: "3D498D90313D9C5E"
+			shape: "diamond"
+			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world."
+			tasks: [{
+				id: "5DE2EAA59D7ACDA8"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			id: "2BF3CC73E467999F"
+			shape: "diamond"
+			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner."
+			tasks: [{
+				id: "79A12A92A5A29567"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			id: "0EEAC7231795131F"
+			shape: "diamond"
+			subtitle: "It is told that it was forged by the first blacksmiths of time."
+			tasks: [{
+				id: "0FF085183E8F1B96"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "619075120B45FE5F"
+			shape: "diamond"
+			subtitle: "It was lost by a minion in the battle between the Aether and the Nether."
+			tasks: [{
+				id: "69362ECA1F608112"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			id: "3032F8EE08F7BDEC"
+			shape: "diamond"
+			subtitle: "Legends say this eye once belonged to one of the great Sandworms."
+			tasks: [{
+				id: "0494DACB1DA69D28"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			id: "025BC45147EEFEC2"
+			shape: "diamond"
+			subtitle: "This eye is believed to have given our ancestors the knowledge of redstone."
+			tasks: [{
+				id: "7136F783C9291E9D"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "7ED342D083C40641"
+			shape: "diamond"
+			subtitle: "A powerful yet destructive artifact; the piglins swore to protect it at the cost of their lives."
+			tasks: [{
+				id: "571C8C47C0C3CF20"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "2A291BC419B86C7E"
+			shape: "diamond"
+			subtitle: "A holy talisman said to protect its owner from bad luck."
+			tasks: [{
+				id: "204F3B477568E891"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "09B96D2E745CA0F1"
+			shape: "diamond"
+			subtitle: "It has seen many warriors drown into the depths of the sea."
+			tasks: [{
+				id: "53E0E6F5D8D4EA4F"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "203D6061C6FAF298"
+			shape: "diamond"
+			subtitle: "Without this eye, the Archevoker has no power."
+			tasks: [{
+				id: "59D09144E7E08001"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "0F27998656531188"
+			shape: "diamond"
+			subtitle: "This pupil is believed to have seen the ancient brewing recipes that were lost in time."
+			tasks: [{
+				id: "77EE5CC16314B5F3"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "6C143D7B08238AC6"
+			shape: "diamond"
+			subtitle: "Has witnessed destruction. Maybe it also witnessed your stuff disappear."
+			tasks: [{
+				id: "13E20B6902A9A661"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "44EDB755EEED4051"
+			shape: "diamond"
+			subtitle: "Remembrance of the past lives of those who live in death."
+			tasks: [{
+				id: "12AF0F878AEB74C2"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			id: "18A5B36C235A6304"
+			shape: "diamond"
+			subtitle: "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying."
+			tasks: [{
+				id: "2FFAE2B8040CCF50"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			id: "04CEF776DC41C8A7"
+			shape: "diamond"
+			subtitle: "No information about this eye."
+			tasks: [{
+				id: "00F474FD2D7FDBDF"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
 		}
 	]
 	title: "Traveling"

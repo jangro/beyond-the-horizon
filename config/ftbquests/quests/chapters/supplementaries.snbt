@@ -31,7 +31,7 @@
 			y: 1.5d
 		}
 	]
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -95,7 +95,7 @@
 				"If renamed to the name of an existing song it will play that all the time."
 			]
 			id: "797194AB19CFE439"
-			subtitle: "Can be played to summon nearby non sitting owned pets "
+			subtitle: "Can be played to summon nearby non sitting owned pets."
 			tasks: [{
 				id: "783B3F5FD28E7D5F"
 				item: {
@@ -112,7 +112,7 @@
 		}
 		{
 			id: "4B36949CD065FCBB"
-			subtitle: "Rotate any kind of rotateable block"
+			subtitle: "Rotate any kind of rotateable block."
 			tasks: [{
 				id: "3EDCFC36B32ADA4F"
 				item: {
@@ -253,7 +253,7 @@
 				"You can also insert a pancake in a jukebox for some sick tunes!"
 			]
 			id: "3EB5ACA017BACC0B"
-			subtitle: "Yummy"
+			subtitle: "Yummy."
 			tasks: [{
 				id: "318687E5EB4083C3"
 				item: "supplementaries:pancake"
@@ -274,7 +274,7 @@
 				"Can be used in a dispenser to open key lockable blocks. Useful with lock blocks"
 			]
 			id: "7FFFF7F7DF3BE4FB"
-			subtitle: "Used to lock Safes, Netherite Doors, Netherite Trapdoors and Lock Blocks"
+			subtitle: "Used to lock Safes, Netherite Doors, Netherite Trapdoors and Lock Blocks."
 			tasks: [{
 				id: "2F8A6D8A30E29F25"
 				item: "supplementaries:key"
@@ -289,7 +289,7 @@
 			description: ["Acts as a sort of upgraded shulker box that is fire resistant."]
 			icon: "supplementaries:safe"
 			id: "1ADC88063B7ADCB3"
-			subtitle: "Can be locked with a key. Once this is done their content will only be available to players that have the correct key"
+			subtitle: "Can be locked with a key. Once this is done their content will only be available to players that have the correct key."
 			tasks: [{
 				id: "12F5CEA2A79C4C96"
 				type: "checkmark"
@@ -303,7 +303,7 @@
 			description: ["By default the door is accessible to anyone until first locked."]
 			icon: "supplementaries:netherite_door"
 			id: "50DE6E1A25DBEAC4"
-			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the door"
+			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the door."
 			tasks: [{
 				id: "25CADEE389DA54D9"
 				type: "checkmark"
@@ -317,7 +317,7 @@
 			description: ["Once it interacts with a player that holds the correct key it will emit a redstone pulse."]
 			icon: "supplementaries:lock_block"
 			id: "11F68289FDE2CE10"
-			subtitle: "Can be locked with a key similar to safes and netherite doors"
+			subtitle: "Can be locked with a key similar to safes and netherite doors."
 			tasks: [{
 				id: "1E71D08DEB2D765F"
 				type: "checkmark"
@@ -331,7 +331,7 @@
 			description: ["By default the trapdoor is accessible to anyone until first locked."]
 			icon: "supplementaries:netherite_trapdoor"
 			id: "14AC1F399D13B863"
-			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the trapdoor"
+			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the trapdoor."
 			tasks: [{
 				id: "41F727253A171CB7"
 				type: "checkmark"
@@ -347,7 +347,7 @@
 				"Also provide strong power to the block below."
 			]
 			id: "44E7ADBFDC06294C"
-			subtitle: "Swing depending on the current weather and output a redstone signal, the strength of which depends on the current weather"
+			subtitle: "Swing depending on the current weather and output a redstone signal, the strength of which depends on the current weather."
 			tasks: [{
 				id: "2F9B34012426EC4D"
 				item: "supplementaries:wind_vane"
@@ -364,7 +364,7 @@
 				"The real use for this is to be able to make compact vertical redstone signaling."
 			]
 			id: "58275DB6DF066451"
-			subtitle: "Acts as a form of upgraded redstone in solid block form"
+			subtitle: "Acts as a form of upgraded redstone in solid block form."
 			tasks: [{
 				id: "594DFCDEF381F0C4"
 				item: "supplementaries:cog_block"
@@ -376,7 +376,7 @@
 		}
 		{
 			id: "0A6178D82A037278"
-			subtitle: "Displays a number or a symbol depending on what the received signal strength"
+			subtitle: "Displays a number or a symbol depending on what the received signal strength."
 			tasks: [{
 				id: "04E1DC93F5492476"
 				item: "supplementaries:crystal_display"
@@ -393,7 +393,7 @@
 				"A signal takes 1 game tick to travel through a relayer."
 			]
 			id: "099A91A1E8AF562E"
-			subtitle: "Observer like block whose purpose is to copy whatever signal it has in front to its back"
+			subtitle: "Observer like block whose purpose is to copy whatever signal it has in front to its back."
 			tasks: [{
 				id: "1A726A61E60DE5DB"
 				item: "supplementaries:relayer"
@@ -411,7 +411,7 @@
 				"Allows entities that stand on an extended one to jump slightly higher."
 			]
 			id: "699182EA223BDA47"
-			subtitle: "It extends like a piston and will propel any entities that lie ontop of it in the direction it's moving"
+			subtitle: "It extends like a piston and will propel any entities that lie ontop of it in the direction it's moving."
 			tasks: [{
 				id: "5C626117CEE20426"
 				item: "supplementaries:spring_launcher"
@@ -427,7 +427,7 @@
 				"There must be space before the block to send messages."
 			]
 			id: "498C3B31F012D5CD"
-			subtitle: "Send a message in chat to all players in a certain radius when activated"
+			subtitle: "Send a message in chat to all players in a certain radius when activated."
 			tasks: [{
 				id: "54A2027EABDAB856"
 				item: "supplementaries:speaker_block"
@@ -449,7 +449,7 @@
 				"Also constantly rotates entities that are standing on it (only works when facing upwards)."
 			]
 			id: "5610804960A23D97"
-			subtitle: "Rotates blocks"
+			subtitle: "Rotates blocks."
 			tasks: [{
 				id: "74592BEDFE8F2223"
 				item: "supplementaries:turn_table"
@@ -476,7 +476,7 @@
 				"&cIt cannot be powered by redstone.&r"
 			]
 			id: "12A0F1A43BB756F4"
-			subtitle: "Сбрасывает верёвку или цепь"
+			subtitle: "Throws down a rope or chain."
 			tasks: [{
 				id: "623C13293450D5C7"
 				item: "supplementaries:pulley_block"
@@ -518,7 +518,7 @@
 				"If placed in front of a wet sponge that is in contact with a soap block they are able to blow bubbles!"
 			]
 			id: "56EED3C96B90A092"
-			subtitle: "Push air infront of it"
+			subtitle: "Push air infront of it."
 			tasks: [{
 				id: "7B1252FADDD553FA"
 				item: "supplementaries:bellows"
@@ -562,7 +562,7 @@
 				"Can dump fluids in sponges effectively voiding them. The same can already be done with lava cauldrons making them ideal \"trash can\" solutions."
 			]
 			id: "535E4493E31C40F9"
-			subtitle: "Powerful multi purpose block"
+			subtitle: "Powerful multi purpose block."
 			tasks: [{
 				id: "35F54C1A9D74B541"
 				item: "supplementaries:faucet"
@@ -580,7 +580,7 @@
 				"Can be reset by either rotating twice with a turn table or by shift clicking."
 			]
 			id: "335E7C3E45C4B2F5"
-			subtitle: "Once filled will slowly start falling downward"
+			subtitle: "Once filled will slowly start falling downward."
 			tasks: [{
 				id: "28A8FD085446D3E3"
 				item: "supplementaries:hourglass"
@@ -593,7 +593,7 @@
 		{
 			description: ["If unlit it will have its properties reversed."]
 			id: "2E758D49C2595CDB"
-			subtitle: "A mix between a sconce and a lever"
+			subtitle: "A mix between a sconce and a lever."
 			tasks: [{
 				id: "018D4FEE2D194A3E"
 				item: "supplementaries:sconce"
@@ -606,7 +606,7 @@
 		{
 			description: ["It's on by default."]
 			id: "52B6BBD4B11D3FC7"
-			subtitle: "Gives off a light output that is inversely proportional to its current redstone power"
+			subtitle: "Gives off a light output that is inversely proportional to its current redstone power."
 			tasks: [{
 				id: "2F764F2125CDFABB"
 				item: "supplementaries:redstone_illuminator"
@@ -629,7 +629,7 @@
 				"Can be broken by a projectile."
 			]
 			id: "72C008AA321DD359"
-			subtitle: "A building block that makes movement easier, especially in mines"
+			subtitle: "A building block that makes movement easier, especially in mines."
 			tasks: [{
 				id: "648C03DCDD1CF31B"
 				item: "supplementaries:rope"
@@ -645,7 +645,7 @@
 				"If an end crystal is placed on a pedestal the block will give off an enchanting power equal to 3 bookshelves. This means that with 5 of such blocks you'll be able to max out an enchanting table."
 			]
 			id: "592E74E7C40A121B"
-			subtitle: "Beautifully displays the object placed on it"
+			subtitle: "Beautifully displays the object placed on it."
 			tasks: [{
 				id: "2E0EC2A80A6016C0"
 				item: "supplementaries:pedestal"
@@ -659,105 +659,12 @@
 			description: ["Once packed only you and the recipient will be able to open it and access its content."]
 			icon: "supplementaries:present_black"
 			id: "09B72093F7345C0E"
-			subtitle: "A container block which can hold 1 item stack"
-			tasks: [
-				{
-					id: "34D4C2228586ECF7"
-					item: "supplementaries:present"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5061E8E88FF5F2E1"
-					item: "supplementaries:present_white"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1A509C61E55E3E9B"
-					item: "supplementaries:present_light_gray"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "077A29A516CA4573"
-					item: "supplementaries:present_gray"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "639B189EA4AC1A9E"
-					item: "supplementaries:present_black"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "58793E8A273701C7"
-					item: "supplementaries:present_brown"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "01484AB5A6D7A42E"
-					item: "supplementaries:present_red"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4E55E4F4A10642C0"
-					item: "supplementaries:present_orange"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7D8E15B61E398889"
-					item: "supplementaries:present_yellow"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "38DF497BFC6B77D3"
-					item: "supplementaries:present_lime"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "43061DAF17B5A214"
-					item: "supplementaries:present_green"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "729731497E785E49"
-					item: "supplementaries:present_cyan"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3AB7C118392B2E90"
-					item: "supplementaries:present_light_blue"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "585AEC642DCE5074"
-					item: "supplementaries:present_blue"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3B7FC19ABD16EC86"
-					item: "supplementaries:present_purple"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "44A27C671D97FD38"
-					item: "supplementaries:present_magenta"
-					optional_task: true
-					type: "item"
-				}
-			]
+			subtitle: "A container block which can hold 1 item stack."
+			tasks: [{
+				id: "34D4C2228586ECF7"
+				item: "supplementaries:present"
+				type: "item"
+			}]
 			title: "Present"
 			x: 1.0d
 			y: 3.5d
@@ -765,7 +672,7 @@
 		{
 			description: ["Can be placed next to a wet sponge which is in contact with a bellow to make the setup emit bubble particles."]
 			id: "35EE5A9C6E88F632"
-			subtitle: "Makes entities that walk on it \"slip\""
+			subtitle: "Makes entities that walk on it \"slip\"."
 			tasks: [{
 				id: "59D271DCBFDB88BE"
 				item: "supplementaries:soap_block"
@@ -783,7 +690,7 @@
 				"Can be waxed to prevent interactions."
 			]
 			id: "329FFB73701E1F1A"
-			subtitle: "Can hold and display either a written book, a map or a banner pattern"
+			subtitle: "Can hold and display either a written book, a map or a banner pattern."
 			tasks: [{
 				id: "1BB5FA028113113E"
 				item: "supplementaries:notice_board"
@@ -799,7 +706,7 @@
 				"Can be placed down with dispensers."
 			]
 			id: "383B835C8F3856AB"
-			subtitle: "A layered block that serves as a way to automatically feed animals"
+			subtitle: "A layered block that serves as a way to automatically feed animals."
 			tasks: [{
 				id: "128CC20F3648B5F5"
 				item: "supplementaries:fodder"
@@ -816,7 +723,7 @@
 				"They can only accept negative lingering potions and have infinite charge."
 			]
 			id: "455AB40E9A8F4641"
-			subtitle: "Spikes that will slow and damage all the mobs that walk in them"
+			subtitle: "Spikes that will slow and damage all the mobs that walk in them."
 			tasks: [{
 				id: "77AA88C9474350E6"
 				item: "supplementaries:bamboo_spikes"
@@ -828,7 +735,7 @@
 		{
 			description: ["Also prevent the crop from being trampled."]
 			id: "7B50ACBE3A229713"
-			subtitle: "Can support any plant or crop without the need of water"
+			subtitle: "Can support any plant or crop without the need of water."
 			tasks: [{
 				id: "320CD5CEC51006F1"
 				item: "supplementaries:planter"
@@ -848,7 +755,7 @@
 				"Can accept glow ink."
 			]
 			id: "1CE03451460FA13D"
-			subtitle: "Can be written on to create interesting pattern"
+			subtitle: "Can be written on to create interesting pattern."
 			tasks: [{
 				id: "41069D0F1F258DDE"
 				item: "supplementaries:blackboard"
@@ -867,7 +774,7 @@
 			]
 			icon: "supplementaries:daub_cross_brace"
 			id: "3917E8900E28B30B"
-			subtitle: "Can visually hold any solid block inside"
+			subtitle: "Can visually hold any solid block inside."
 			tasks: [
 				{
 					id: "5529728D57D6EDA9"
@@ -927,7 +834,7 @@
 				"These interactions also work with Quark magnets."
 			]
 			id: "45E6458B285449BD"
-			subtitle: "A decorative and storage block that can provide a use for your extra flints"
+			subtitle: "A decorative and storage block that can provide a use for your extra flints."
 			tasks: [{
 				id: "53206DFAD7487C87"
 				item: "supplementaries:flint_block"
@@ -955,7 +862,7 @@
 				"One single item can be hidden below it. To do so shift click on any face except the top one."
 			]
 			id: "4DFC015406B24BD2"
-			subtitle: "Welcome home"
+			subtitle: "Welcome home."
 			tasks: [{
 				id: "6C45AF5021712662"
 				item: "supplementaries:doormat"
@@ -967,7 +874,7 @@
 		{
 			description: ["When powered with redstone it will wave."]
 			id: "2348785EA316D398"
-			subtitle: "Can hold an item in hand"
+			subtitle: "Can hold an item in hand."
 			tasks: [{
 				id: "56159CF7EF132640"
 				item: "supplementaries:statue"
@@ -982,7 +889,7 @@
 				"Is a gravity block and will deal damage when it falls on an entity. Damage depends on sack content."
 			]
 			id: "1E412A1E0D9C4138"
-			subtitle: "Acts as an early game shulker box with 9 slots"
+			subtitle: "Acts as an early game shulker box with 9 slots."
 			tasks: [{
 				id: "570C2865D878E09E"
 				item: "supplementaries:sack"
@@ -1001,7 +908,7 @@
 				"Captured mobs will not age nor be interactable and some will have some custom animations. Chickens can still lay eggs while captured."
 			]
 			id: "2126B066AD3B25AB"
-			subtitle: "Can be used to capture small animals and mobs"
+			subtitle: "Can be used to capture small animals and mobs."
 			tasks: [{
 				id: "4AD93B79FD0C4E0D"
 				item: "supplementaries:cage"
@@ -1031,7 +938,7 @@
 			description: ["This means that a powered door cannot be opened or closed regardless of its state."]
 			icon: "supplementaries:gold_door"
 			id: "00193A021E51809B"
-			subtitle: "When powered by redstone will disable any interaction with any player"
+			subtitle: "When powered by redstone will disable any interaction with any player."
 			tasks: [
 				{
 					id: "7051CD0698D58BCB"
@@ -1049,5 +956,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Supplementaries"
+	title: "Supplemintaries"
 }
