@@ -15,6 +15,23 @@ ServerEvents.genericLootTables((event) => {
       pool.addItem('endrem:lost_eye').randomChance(0.01);
     });
   });
+
+
+  // BTH custom fishing loot table, added as a separate loot table in addition to
+  // fish, junk and treasure loot tables. Estimated twice as rare as treasure loot.
+  // See: kubejs/data/minecraft/loot_tables/gameplay/fishing.json
+  event.modify('bth:fishing', table => {
+    table.addPool(pool => {
+      pool.addItem(TINKERS_CITADEL_MAP).weight(3);
+      pool.addItem(TINKERS_WORKSHOP_MAP).weight(10);
+      pool.addItem(ANCIENT_MINES_MAP).weight(10);
+      pool.addItem(TREE_OF_WISDOM_MAP).weight(3);
+      pool.addItem(ARCHMAGES_TOWER_MAP).weight(3);
+      pool.addItem(HAUNTED_MANOR_MAP).weight(10);
+      pool.addItem(TRAIN_RUINS_MAP).weight(10);
+    });
+  });
+
 });
 
 
