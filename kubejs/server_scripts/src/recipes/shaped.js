@@ -88,6 +88,70 @@ ServerEvents.recipes(event => {
     X: 'immersive_aircraft:enhanced_propeller'
   }).id(`${ID_PREFIX}submarine`);
 
+  // Building Gadgets
+  event.shaped('buildinggadgets2:gadget_building', [
+    'IRI',
+    'SPS',
+    'IBI'
+  ], {
+    S: 'minecraft:dispenser',
+    R: 'minecraft:redstone',
+    I: 'minecraft:iron_ingot',
+    P: '#bth:pcb',
+    B: '#bth:battery',
+  }).id(`${ID_PREFIX}gadget_`);
+
+  event.shaped('buildinggadgets2:gadget_exchanging', [
+    'IRI',
+    'SPS',
+    'IBI'
+  ], {
+    S: 'minecraft:ender_pearl',
+    R: 'minecraft:redstone',
+    I: 'minecraft:iron_ingot',
+    P: '#bth:pcb',
+    B: '#bth:battery',
+  }).id(`${ID_PREFIX}gadget_exchanging`);
+
+  event.shaped('buildinggadgets2:gadget_copy_paste', [
+    'IRI',
+    'SPT',
+    'IBI'
+  ], {
+    S: 'minecraft:ender_eye',
+    T: 'create:super_glue',
+    R: 'minecraft:redstone',
+    I: 'minecraft:iron_ingot',
+    P: '#bth:pcb',
+    B: '#bth:battery',
+  }).id(`${ID_PREFIX}gadget_copy_paste`);
+
+  event.shaped('buildinggadgets2:gadget_cut_paste', [
+    'IRI',
+    'SPT',
+    'IBI'
+  ], {
+    S: 'ars_nouveau:void_prism',
+    T: 'create:super_glue',
+    R: 'minecraft:redstone',
+    I: 'minecraft:iron_ingot',
+    P: '#bth:pcb',
+    B: '#bth:battery',
+  }).id(`${ID_PREFIX}gadget_cut_paste`);
+
+  event.shaped('buildinggadgets2:gadget_destruction', [
+    'IRI',
+    'SPS',
+    'IBI'
+  ], {
+    S: 'ars_nouveau:void_prism',
+    R: 'minecraft:redstone',
+    I: 'minecraft:iron_ingot',
+    P: '#bth:pcb',
+    B: '#bth:battery',
+  }).id(`${ID_PREFIX}gadget_destruction`);
+
+
   // Chunkloaders
   event.shaped('chunkloaders:single_chunk_loader', [
     ' P ',
