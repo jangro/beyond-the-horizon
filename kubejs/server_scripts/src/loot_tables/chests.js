@@ -31,10 +31,9 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
-  event.modify('bth_structures:battle_grounds', table => {
+  event.modify('bth_structures:battle_grounds/aether', table => {
     table.addPool(pool => {
       pool.rolls = [4, 8];
-      pool.addItem('ae2:nether_quartz_sword', 10).damage([0.3, 0.9]);
       pool.addItem('aether:enhanced_dart', 10, [8, 32]);
       pool.addItem('aether:enhanced_dart_shooter', 10);
       pool.addItem('aether:holy_sword', 10).damage([0.3, 0.9]);
@@ -47,6 +46,17 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('aether:valkyrie_helmet', 10).damage([0.3, 0.9]);
       pool.addItem('aether:valkyrie_lance', 10).damage([0.3, 0.9]);
       pool.addItem('aether:zanite_axe', 10).damage([0.3, 0.9]);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:blessing_of_life",index:0,level:9,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 5);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:heal",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:divine_smite",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 5);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:haste",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
+    });
+  });
+
+  event.modify('bth_structures:battle_grounds/nether', table => {
+    table.addPool(pool => {
+      pool.rolls = [4, 8];
+      pool.addItem('ae2:nether_quartz_sword', 10).damage([0.3, 0.9]);
       pool.addItem('endrem:nether_eye', 10);
       pool.addItem('immersive_armors:wither_boots', 10).damage([0.3, 0.9]);
       pool.addItem('immersive_armors:wither_chestplate', 10).damage([0.3, 0.9]);
@@ -54,6 +64,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('immersive_armors:wither_leggings', 10).damage([0.3, 0.9]);
       pool.addItem('irons_spellsbooks:keeper_flamberge', 10);
       pool.addItem('nethersdelight:warped_moldy_meat', 10);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:blaze_storm",index:0,level:7,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 6);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:fire_breath",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
+      pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_barrage",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 3);
     });
   });
 
