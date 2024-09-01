@@ -88,7 +88,6 @@ JEIEvents.hideItems(event => {
     /rustic_engineer:book.*/,
     /upgrade_aquatic:.*bedroll/,
     'v_slab_compat:immersiveengineering/storage_uranium_vertical_slab',
-    /valhelsia_structures:.*sleeping_bag/,
     /wardrobe:.*backpack/,
     /waystones:.*/,
     /woodworks:.*ladder/,

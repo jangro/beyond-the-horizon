@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
 
   // Remove recipes for all sleeping bags & bedrolls.
   COLORS.forEach((color) => event.remove({id: `upgrade_aquatic:${color}_bedroll`}));
-  COLORS.forEach((color) => event.remove({id: `valhelsia_structures:${color}_sleeping_bag`}));
 
   // Remove all Rustic Engineer recipes, we add our own for a subset of the items
   event.remove({mod: `rustic_engineer`});
