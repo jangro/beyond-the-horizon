@@ -36,7 +36,16 @@ ServerEvents.recipes(event => {
     S: '#forge:bookshelves',
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
-  
+
+  event.shaped('5x enlightened_end:void_shale', [
+    'SES',
+    'ESE',
+    'SES'
+  ], {
+    E: 'forbidden_arcanus:ender_pearl_fragment',
+    S: 'quark:shale',
+  }).id(`${ID_PREFIX}void_shale`);
+
   // Minecraft
   event.shaped('minecraft:bundle', [
     'SRS',
