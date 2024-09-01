@@ -69,6 +69,41 @@ const IMPALED_ICEBREAKER_MAP =
            display:{Name:\'{"translate":"filled_map.impaled_icebreaker"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"irons_spellbooks:impaled_icebreaker",zoomLevel:2}');
 
+const TINKERS_CITADEL_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.tinkers_citadel",\
+           display:{Name:\'{"translate":"filled_map.tinkers_citadel"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:tinkers_citadel",zoomLevel:2}');
+
+const TINKERS_WORKSHOP_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.tinkers_workshop",\
+           display:{Name:\'{"translate":"filled_map.tinkers_workshop"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:tinkers_workshop",zoomLevel:2}');
+
+const ANCIENT_MINES_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.ancient_mines",\
+           display:{Name:\'{"translate":"filled_map.ancient_mines"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:ancient_mines",zoomLevel:2}');
+
+const TREE_OF_WISDOM_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.tree_of_wisdom",\
+           display:{Name:\'{"translate":"filled_map.tree_of_wisdom"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:tree_of_wisdom",zoomLevel:2}');
+
+const ARCHMAGES_TOWER_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.archmages_tower",\
+           display:{Name:\'{"translate":"filled_map.archmages_tower"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:archmages_tower",zoomLevel:2}');
+
+const HAUNTED_MANOR_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.haunted_manor",\
+           display:{Name:\'{"translate":"filled_map.haunted_manor"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:haunted_manor",zoomLevel:2}');
+
+const TRAIN_RUINS_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.train_ruins",\
+           display:{Name:\'{"translate":"filled_map.train_ruins"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"idas:train_ruins",zoomLevel:2}');
+
 const DESERT_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:desert",targetBiomeColor:8381695,targetBiomeUnderground:0b}');
 const FLOWER_FOREST_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:flower_forest",targetBiomeColor:ffff00,targetBiomeUnderground:0b}');
 const SNOWY_PLAINS_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:snowy_plains",targetBiomeColor:ffffff,targetBiomeUnderground:0b}');
