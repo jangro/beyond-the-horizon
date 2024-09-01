@@ -210,7 +210,7 @@ ServerEvents.recipes(event => {
   ], {
     G: 'create:super_glue',
     C: 'chunkloaders:advanced_chunk_loader',
-    E: 'enlightened_end:bismuth_ingot',
+    E: 'enlightened_end:malachite',
   }).id(`${ID_PREFIX}ultimate_chunk_loader`);
 
   // Computer Craft / Advanced Peripherals
