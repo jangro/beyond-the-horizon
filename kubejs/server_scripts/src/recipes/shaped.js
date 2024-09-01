@@ -37,15 +37,6 @@ ServerEvents.recipes(event => {
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
 
-  event.shaped('5x enlightened_end:void_shale', [
-    'SES',
-    'ESE',
-    'SES'
-  ], {
-    E: 'forbidden_arcanus:ender_pearl_fragment',
-    S: 'quark:shale',
-  }).id(`${ID_PREFIX}void_shale`);
-
   // Minecraft
   event.shaped('minecraft:bundle', [
     'SRS',
@@ -98,14 +89,14 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}submarine`);
 
   // Ars Nouveau
-  event.shaped('ars_nouveau:void_prism', [
-    'SSS',
-    'SPS',
-    'SSS'
-  ], {
-    P: 'ars_nouveau:spell_prism',
-    S: 'enlightened_end:void_shale',
-  }).id(`${ID_PREFIX}void_prism`);
+  // event.shaped('ars_nouveau:void_prism', [
+  //   'SSS',
+  //   'SPS',
+  //   'SSS'
+  // ], {
+  //   P: 'ars_nouveau:spell_prism',
+  //   S: 'enlightened_end:void_shale',
+  // }).id(`${ID_PREFIX}void_prism`);
 
   // Building Gadgets
   event.shaped('buildinggadgets2:gadget_building', [
@@ -210,7 +201,7 @@ ServerEvents.recipes(event => {
   ], {
     G: 'create:super_glue',
     C: 'chunkloaders:advanced_chunk_loader',
-    E: 'enlightened_end:malachite',
+    E: 'betterend:thallasium_ingot',
   }).id(`${ID_PREFIX}ultimate_chunk_loader`);
 
   // Computer Craft / Advanced Peripherals
@@ -358,14 +349,14 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}paraglider`);
 
   // Modular Routers
-  event.shaped('modularrouters:void_module', [
-    ' S ',
-    'SMS',
-    ' S '
-  ], {
-    M: 'modularrouters:blank_module',
-    S: 'enlightened_end:void_shale',
-  }).id(`${ID_PREFIX}modularrouters/void_module`);
+  // event.shaped('modularrouters:void_module', [
+  //   ' S ',
+  //   'SMS',
+  //   ' S '
+  // ], {
+  //   M: 'modularrouters:blank_module',
+  //   S: 'enlightened_end:void_shale',
+  // }).id(`${ID_PREFIX}modularrouters/void_module`);
 
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:chunkloader_upgrade', [
@@ -476,25 +467,25 @@ ServerEvents.recipes(event => {
     K: 'supplementaries:key'
   }).id(`${ID_PREFIX}clock_key`);
 
-  event.shaped('sophisticatedbackpacks:void_upgrade', [
-    ' P ',
-    'SUS',
-    'RSR'
-  ], {
-    P: 'minecraft:ender_pearl',
-    S: 'enlightened_end:void_shale',
-    R: 'minecraft:redstone',
-    U: 'sophisticatedbackpacks:upgrade_base'
-  }).id(`${ID_PREFIX}sophisticatedbackpacks/void_upgrade`);
+  // event.shaped('sophisticatedbackpacks:void_upgrade', [
+  //   ' P ',
+  //   'SUS',
+  //   'RSR'
+  // ], {
+  //   P: 'minecraft:ender_pearl',
+  //   S: 'enlightened_end:void_shale',
+  //   R: 'minecraft:redstone',
+  //   U: 'sophisticatedbackpacks:upgrade_base'
+  // }).id(`${ID_PREFIX}sophisticatedbackpacks/void_upgrade`);
 
-  event.shaped('storagedrawers:void_upgrade', [
-    'SSS',
-    'SUS',
-    'SSS'
-  ], {
-    S: 'enlightened_end:void_shale',
-    U: 'storagedrawers:upgrade_template'
-  }).id(`${ID_PREFIX}storagedrawers/void_upgrade`);
+  // event.shaped('storagedrawers:void_upgrade', [
+  //   'SSS',
+  //   'SUS',
+  //   'SSS'
+  // ], {
+  //   S: 'enlightened_end:void_shale',
+  //   U: 'storagedrawers:upgrade_template'
+  // }).id(`${ID_PREFIX}storagedrawers/void_upgrade`);
 
   event.shaped('supplementaries:quiver', [
     'LS ',

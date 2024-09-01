@@ -1104,7 +1104,7 @@ hash = "d0f23b18397147f0f8de74205f79e4d69ff4ed83e2d6ec3e19338a7d8c061a00"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/bearclaw_inn.json"
-hash = "82c76824f061bd79924133f4ed0b259b03297cae97f085c0455e7b84b0a8a419"
+hash = "96f1e4a832fa8d5ac2263ce7d30fb09a6d5e5735a16b49b6f379b3d31e3df21d"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/beekeepers_house.json"
@@ -1420,7 +1420,7 @@ hash = "a7e939bed068075604813cd03d828fc0fbba61702a8eadbf7901da7f7b001254"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/botania.js"
-hash = "4caf35359b724b257fcc35befa3b17887244604f5859f6509e032b643b3b409d"
+hash = "83f331d534fffb524a7312235652bbf61596f897425b040d5641d8a7a4c73c0d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/clayworks.js"
@@ -1452,15 +1452,15 @@ hash = "5c2e29991c0d1b1d268da8779f8a3cfec3cb18ae9b87dc7e62e85fb2e8474bd5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "fa674bbea62303e9d28b9a4d9fe5ea56d5625196da6d1db9009c550a780bba13"
+hash = "11e1a8fbfd37b2156c8b784203042d81f81b61b4fb35965ba2c1a756d9328052"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "666e2379f4cc8c96f3fa32bc2624c16f796300954a531198f7c06571d3de59c1"
+hash = "2f72d157c70ec8562709771082369a0b4bf03333612cbe5add44fe5577b1cc23"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "da76129cd72805909e5d98e3366ec2b261ccd2f3d3010dcdb76ad7617e3bde14"
+hash = "5c2c3b355a6a14478c5c50fcd994511635ab30a5f5b47554d9e3357184d8ac39"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -1476,7 +1476,7 @@ hash = "16bce52926b47e8cb727028a90b8209f64a0dac61646eedbda43cbffb81f7eaa"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/woodworks.js"
-hash = "fc2acb2033cf4948bdf423dfddcc5e0241ff174ddd01aba100194b967fe6b96d"
+hash = "379da7e4c8f6760326ae33e01cc648d5ba6eedfe73d7eda8660d0497e33557bd"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
@@ -1500,11 +1500,11 @@ hash = "a45abd1798bb91b30aad4c3c4a03f58af9172105bc0c9f0b125fe2a1a0dedb47"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/fluid.js"
-hash = "2d2d19435eb9fd8858811a7f429d00ea1066743962c059c11452d586fdbc40ca"
+hash = "d403ea7ee8d909977a8f73032d65e27f63fbd1ed5614191a29f0ad1519803424"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "73a06810a0e69c0a861137e059d7c86d5ee5cd13385613ddbcf17227458685f5"
+hash = "df5c3b4981249692bbb0d3aeb4d2362efce8268b5e91a228d8b9c7667e5cdddb"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
@@ -2091,11 +2091,6 @@ metafile = true
 [[files]]
 file = "mods/enhanced-celestials.pw.toml"
 hash = "39880e14c5b46496c6c9fd5cdeed67bca74bb99de9f273270918184a525d0942"
-metafile = true
-
-[[files]]
-file = "mods/enlightend.pw.toml"
-hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
 metafile = true
 
 [[files]]

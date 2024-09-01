@@ -39,11 +39,4 @@ ServerEvents.recipes(event => {
   event.recipes.botania.orechid('immersiveengineering:deepslate_ore_nickel', 'minecraft:deepslate', 100).id(`${ID_PREFIX}orechid/deepslate_nickel_ore`);
   event.recipes.botania.orechid('irons_spellbooks:arcane_debris', 'minecraft:deepslate', 10).id(`${ID_PREFIX}orechid/arcane_debris`);
 
-  // Orechid - End Stone
-  event.recipes.botania.orechid('enlightened_end:bismuth_ore', 'minecraft:end_stone', 900).id(`${ID_PREFIX}orechid/bismuth_ore`);
-  event.recipes.botania.orechid('enlightened_end:irradium_ore', 'minecraft:end_stone', 450).id(`${ID_PREFIX}orechid/irradium_ore`);
-  event.recipes.botania.orechid('enlightened_end:malachite_ore', 'minecraft:end_stone', 1200).id(`${ID_PREFIX}orechid/malachite_ore`);
-  event.recipes.botania.orechid('enlightened_end:adamantite_node', 'minecraft:end_stone', 30).id(`${ID_PREFIX}orechid/adamantite_ore`);
-
-
 });

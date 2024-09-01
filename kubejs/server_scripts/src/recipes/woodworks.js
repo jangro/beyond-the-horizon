@@ -13,9 +13,6 @@ ServerEvents.recipes(event => {
   // TODO: A *lot* of Every Compat's Sawmill recipes are straight-up broken (wrong input item/tag ID, for example). 
   // Need to remove and recreate them correctly.
 
-  // Enlightend
-  event.recipes.woodworks.sawmill('4x everycomp:abnww/enlightened_end/indigo_boards', '#enlightened_end:indigo_stems').id(`${ID_PREFIX}indigo_boards_from_indigo_stems`);
-
   // Add ladders from BBB to Woodworks sawmill (original recipes removed in remove.js)
   VANILLA_WOOD_LOG_TYPES.forEach((type) => {
     event.recipes.woodworks.sawmill(`4x bbb:${type}_ladder`, `#minecraft:${type}_logs`).id(`${ID_PREFIX}${type}_ladder_from_${type}_log`);
