@@ -71,6 +71,10 @@ file = "config/betterendisland-forge-1_20.toml"
 hash = "9feed9bbb26e2ed73a7bdbbeead0a27d7779fde38b511cd39d81027ff8d6e38c"
 
 [[files]]
+file = "config/blockswap/block_swap.json5"
+hash = "96fac196bc9595dc417033097ae2ce1d70356b10727f7c052a9f4121257975ba"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "e63482150d19f92d7f726863479296301c5465e7da058f998fa497c7f5871e1f"
 
@@ -112,7 +116,7 @@ hash = "29ed9a0b9f419d816f43164f0eaa3d1def3edca1888c6eb4fb1165aeef2ac5e0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
-hash = "3116039fbd6151ef526d08eefccb63d58258d357497a85454af471b92f536f38"
+hash = "1c7886033c555852381f04a7debfbbf857761deed0a3a2ccfe6473b040f9f60b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_end.snbt"
@@ -161,6 +165,10 @@ hash = "71f75de4eac0fa8d3a8ccae7be06611c5a70706ab9b5cfbc82afcece5d371ec3"
 [[files]]
 file = "config/kiwi-client.yaml"
 hash = "4b52b20bd3a1c92d7724dd5ed1d57900a053b79070b0281854e7f4681728e236"
+
+[[files]]
+file = "config/limitedchunks.json"
+hash = "a963a32e070230c255b91c1636f406147cbd2ad79466143874ae161ceb0fed5e"
 
 [[files]]
 file = "config/modularrouters-common.toml"
@@ -755,6 +763,90 @@ file = "kubejs/data/cristellib/data_packs/load_waystone_patch_pack.json"
 hash = "bdc2ce99055fa5a847c46357ea52f1af9898c8eaaa971e0e6a6697325a8e4a0f"
 
 [[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/beach.json"
+hash = "2f32b07230d7bf1c09408f3e7b40faf5e5d216af206c529edb7812de518e5031"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/christmas.json"
+hash = "5a95b9c2eb75b92e4c32f501957ae87048fc24cc753baeaadd991a210fce0881"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/dark_forest.json"
+hash = "da26ced6dfaed7b43d5c0f5bef58b9d5441474b95d8a42a341962f7f3defd130"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/desert.json"
+hash = "b131c3e4bfdc567cbcd8476d991afaeba2e32bcb3e832c8e5f56cdd22528116f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/desert_oasis.json"
+hash = "126d684d887b6452922713f12ba1c95b5eae1ae3f0746005511990148715e4f1"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/jungle.json"
+hash = "59c87ed139ebec28cde991514bc929e576cc3eadbe16b1dc7da27c11ae0e4744"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/jungle_tree.json"
+hash = "65962bcf2b7712243a056f896be7f6143a8622c669b3bfe5cf3374e7b8f45ed0"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mesa.json"
+hash = "cf75fc8f4aaaa07e39c40bd49531f7206f73e555d102e88ba7de7b43c8205d98"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mesa_fortified.json"
+hash = "69b35feacf7993988ee361c018cb3d5cd0fc3a0f65b0b32d1203c4980571d01e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mountain.json"
+hash = "1f8cb55fbb69f67e1cb9195592a726958728a77477940e42641c7160e67ef308"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mountain_alpine.json"
+hash = "be2daa2b2b723b324c5a65583abdf17a5372c9c42aec3e63268d9006772ae232"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mushroom.json"
+hash = "580950e0d7f0b7b88f6b23960550d542f6d18aef04e3d086ba52794a002984f2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/plains.json"
+hash = "0ffcee8ec51a42a8b254282c3c66f8c325aa22f40ec4987a206278bde06a5140"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/plains_fortified.json"
+hash = "34dfa02a2bdcc57b6c4c064b967de5934e5e2eaa0450327737a7fac16b2ec5ed"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/savanna.json"
+hash = "783fe9f84551a12605126eadb97c1adbb5c6117d3dd100280c2c66c5f67e2a21"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/savanna_na.json"
+hash = "92cebbb18c93b6c74fb414166c5eb8f63a8fb5030515d6f40521fda667012d19"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/snowy.json"
+hash = "540909b9a29a51d0d73c276e7efb1924dfd3aa2f52f316726dbddfc190e00365"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/swamp.json"
+hash = "2caa03d39c5da00390e6d8f3f0df2a6cc2d24a4c8d749138fa1e5c2bebc7f13c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/swamp_fortified.json"
+hash = "734f60040ac8d925ba02db867a71a4d2c74662b533ec3b410e5968502fa1bfdd"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/taiga.json"
+hash = "d204bfdccb723e4ec0664af354b0da626e60819269945875521a4e54bae986f1"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/taiga_fortified.json"
+hash = "e6a675002cf5432a8f2394c1141a4363327b7a0e72c240c6ce3cbb6fe12964f8"
+
+[[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/beach.json"
 hash = "ba8915f9486747606e8678f4c2c430932921940d1a4c108cfab10d2f0289e654"
 
@@ -1195,6 +1287,38 @@ file = "kubejs/data/pneumaticcraft/worldgen/placed_feature/oil_lake_surface.json
 hash = "976596fb665ec85a6e78e268b4d1858f20d9cd3d49a4f3a12725307e0808dc22"
 
 [[files]]
+file = "kubejs/data/revampedvillages/structures/desert/center/fountain.nbt"
+hash = "c6e7e082964ce7d40544a98945c9cf36622e35037d9b6e5a0694481e6a5941ac"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/desert/center/well.nbt"
+hash = "50db4568e74c949fedd308270f1dbe445ce5fff9e7d50828afba553800b41061"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/plains/center/fountain.nbt"
+hash = "14522b785860fb21f1d1926c6358f6ba3da86e819bc45f1550c9c980ca0ff58f"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/plains/center/small_market.nbt"
+hash = "40cef6b37b751589c913bdca090df9511f658748f406d63e46a1228a9773bde7"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/plains/center/well.nbt"
+hash = "e307ee7e5aa4e28f4c0dee80099f5280301d471175e75296e2d202046dbad09d"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/savanna/center/skull.nbt"
+hash = "e5db526ae796c26e36e0621c41f75d009d3bab23099dbf0b5e29b0cedee73bce"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/snowy/center/tree.nbt"
+hash = "dee3ccfeff0e44480d680e0c2149072042e13e7f6cd59a85b0c29625c66e785e"
+
+[[files]]
+file = "kubejs/data/revampedvillages/structures/taiga/center/statue.nbt"
+hash = "ff669b6c0ea1bc76e91122bd0af1db40c2d9d3f9eb344632b1a3a9ed8b39e30b"
+
+[[files]]
 file = "kubejs/data/terralith/worldgen/biome/skylands.json"
 hash = "4f34c9d2772f67d048f6ecb18d4dc398f138eafb8e06e5d11bf812375484cca9"
 
@@ -1260,7 +1384,7 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "fa4a7a27b0dc2a4b54bd196d0e142561328f18e6b75beaa3f9bd3e37d78ae628"
+hash = "47823e612b893ad478e304b3f49469453b111f7c6ac20e70a3f8e1d04e5a29bb"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
@@ -1268,7 +1392,7 @@ hash = "44db4fc7d6162273ff21a00fb3f83f2d99570f15c9359ac9d2c4226834e0e984"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "92d5a0722a1b5dbfe73fb43bedad85718a8fa006eca48225c8f2d37c5231ec1f"
+hash = "0f660c195ddd0e40ca1e83b0175013b0eb8df60f3558882c2bfd95a4ff0ed9df"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -1324,7 +1448,7 @@ hash = "5c2e29991c0d1b1d268da8779f8a3cfec3cb18ae9b87dc7e62e85fb2e8474bd5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "0d1802545b6fb25090295b7e7113aff5e143762e5ed8d52d99e163c4b22d07e1"
+hash = "4f704c3be95d5680fa9cceeb3ac2f438097346b9239a4d613377cc6800fe2d28"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -1332,7 +1456,7 @@ hash = "666e2379f4cc8c96f3fa32bc2624c16f796300954a531198f7c06571d3de59c1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "4c0242d7a8e65b5e3e487a31051c19e1289470fac2a70451b2312c86e5754b72"
+hash = "e371b90af53987b686295c0f9d745ec6477482fec5ba36e60dcddca9957b9237"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -1344,7 +1468,7 @@ hash = "3727d0c0de3c81dbc4b4b387bff8c4ca57df51d59147237501d6dd1e401ca8ec"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smithing.js"
-hash = "cfa5963eaac6c356524b1c03b440a04d6a6dfc082cb5093d73023c741d71314a"
+hash = "16bce52926b47e8cb727028a90b8209f64a0dac61646eedbda43cbffb81f7eaa"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/woodworks.js"
@@ -1376,7 +1500,7 @@ hash = "2d2d19435eb9fd8858811a7f429d00ea1066743962c059c11452d586fdbc40ca"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "b1db88960e734de568ec88810a8064ec34c1c46f03b27e47d650a58ca170ef93"
+hash = "73a06810a0e69c0a861137e059d7c86d5ee5cd13385613ddbcf17227458685f5"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
@@ -1388,7 +1512,7 @@ hash = "5e39248a1f4fa8a2ff8d851b83c3dfa40fbb427a4bd74e19c13a765a2f1d9a04"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "0115509a8359a594def844ac45c8b2db59dfa8ce6f4937a21a2edfae586b2b86"
+hash = "34da0395abca3440d927e99b0c1e9267d6a115875278de1bdb9a0bee90e64407"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -3131,10 +3255,6 @@ hash = "74327a6dd7bf4053e76a62b66c2df89b2d60a446596bc161d81ecd6eb6a3df2a"
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/storage/storage_drawers.json"
 hash = "c3072012bf1cbab9d8e1734b77b6f4c03d458d7830980214c1cd51295384e942"
-
-[[files]]
-file = "patchouli_books/bth_guide_book/en_us/entries/storage/travelers_backpacks.json"
-hash = "98b1100dce386491e36f56bf189ce5a4f96f4f1b3abf58e01c1e7a6da17e716d"
 
 [[files]]
 file = "patchouli_books/bth_guide_book/en_us/entries/the_arts/joy_of_painting.json"

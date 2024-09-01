@@ -651,11 +651,9 @@
 		}
 		{
 			description: [
-				"To put on a backpack, take it in your hands and press RMB."
+				"To equip a backpack, put in a back slot or keep it in your inventory."
 				""
-				"In opened GUI - in the lower left corner, click the equip button"
-				""
-				"Now the backpack will be available by pressing the B button"
+				"The backpack can be opened using B key."
 			]
 			id: "152B146B4FD5262F"
 			subtitle: "Backpacks will help you on long journeys"
@@ -663,12 +661,12 @@
 				id: "03B31FD21153B4E5"
 				item: {
 					Count: 1
-					id: "travelersbackpack:standard"
+					id: "sophisticatedbackpacks:backpack"
 					tag: { }
 				}
 				type: "item"
 			}]
-			title: "Traveler's Backpack"
+			title: "Backpack"
 			x: 4.5d
 			y: -5.5d
 		}

@@ -54,7 +54,6 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('immersive_armors:wither_leggings', 10).damage([0.3, 0.9]);
       pool.addItem('irons_spellsbooks:keeper_flamberge', 10);
       pool.addItem('nethersdelight:warped_moldy_meat', 10);
-      pool.addItem('travelersbackpack:nether', 10);
     });
   });
 
