@@ -15,13 +15,33 @@ ServerEvents.tags('item', event => {
     'ecologics:walnut',
   ]);
 
+  event.add('bth:battery', [
+    'ae2:energy_cell',
+    'ae2:dense_energy_cell',
+    'powah:battery_starter',
+    'powah:battery_basic',
+    'powah:battery_hardened',
+    'powah:battery_blazing',
+    'powah:battery_niotic',
+    'powah:battery_spirited',
+    'powah:battery_nitro',
+    'integrateddynamics:energy_battery',
+    'createaddition:modular_accumulator',
+    'immersiveengineering:capacitor_lv',
+    'immersiveengineering:capacitor_mv',
+    'immersiveengineering:capacitor_hv',
+  ]);
+
   event.add('bth:mechanical_soul', [
     'advancedperipherals:weak_automata_core',
-    'ars_elememental:anima_essence',
+    'ars_elemental:anima_essence',
     'botania:spark',
+    'forbidden_arcanus:soul',
+    'quark:soul_bead',
   ]);
 
   event.add('bth:pcb', [
+    'create_connected:control_chip',
     'immersiveengineering:circuit_board',
     'pneumaticcraft:printed_circuit_board',
   ]);

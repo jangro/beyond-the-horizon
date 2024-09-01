@@ -90,14 +90,45 @@ ServerEvents.recipes(event => {
 
   // Chunkloaders
   event.shaped('chunkloaders:single_chunk_loader', [
-    'ILI',
-    'LPL',
-    'ILI'
+    ' P ',
+    'IBI',
+    'ICI'
   ], {
-    I: 'forbidden_arcanus:obsidian_ingot',
+    C: 'minecraft:crying_obsidian',
     P: '#bth:pcb',
-    L: 'integrateddynamics:logic_director',
+    B: '#bth:battery',
+    I: 'forbidden_arcanus:obsidian_ingot'
   }).id(`${ID_PREFIX}single_chunk_loader`);
+
+  event.shaped('chunkloaders:basic_chunk_loader', [
+    'CDC',
+    'DGD',
+    'CDC'
+  ], {
+    D: 'eidolon:pewter_ingot',
+    G: 'create:super_glue',
+    C: 'chunkloaders:single_chunk_loader',
+  }).id(`${ID_PREFIX}basic_chunk_loader`);
+
+  event.shaped('chunkloaders:advanced_chunk_loader', [
+    'QCQ',
+    'QGQ',
+    'QCQ'
+  ], {
+    Q: 'minecraft:quartz',
+    G: 'create:super_glue',
+    C: 'chunkloaders:basic_chunk_loader',
+  }).id(`${ID_PREFIX}advanced_chunk_loader`);
+
+  event.shaped('chunkloaders:ultimate_chunk_loader', [
+    'EEE',
+    'CGC',
+    'EEE'
+  ], {
+    G: 'create:super_glue',
+    C: 'chunkloaders:advanced_chunk_loader',
+    E: 'enlightened_end:bismuth_ingot',
+  }).id(`${ID_PREFIX}ultimate_chunk_loader`);
 
   // Computer Craft / Advanced Peripherals
   event.shaped('advancedperipherals:chunk_controller', [
@@ -233,11 +264,12 @@ ServerEvents.recipes(event => {
 
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:chunkloader_upgrade', [
-    'L L',
-    ' C ',
-    'L L'
+    'LRL',
+    'RCR',
+    'LRL'
   ], {
     C: 'chunkloaders:single_chunk_loader',
+    R: 'minecraft:redstone',
     L: '#pneumaticcraft:upgrade_components',
   }).id(`${ID_PREFIX}chunkloader_upgrade`);
 
