@@ -88,6 +88,16 @@ ServerEvents.recipes(event => {
     X: 'immersive_aircraft:enhanced_propeller'
   }).id(`${ID_PREFIX}submarine`);
 
+  // Ars Nouveau
+  event.shaped('ars_nouveau:void_prism', [
+    'SSS',
+    'SPS',
+    'SSS'
+  ], {
+    P: 'ars_nouveau:spell_prism',
+    S: 'enlightened_end:void_shale',
+  }).id(`${ID_PREFIX}void_prism`);
+
   // Building Gadgets
   event.shaped('buildinggadgets2:gadget_building', [
     'IRI',
@@ -338,6 +348,16 @@ ServerEvents.recipes(event => {
       V: 'paraglider:stamina_vessel'
   }).id(`${ID_PREFIX}paraglider`);
 
+  // Modular Routers
+  event.shaped('modularrouters:void_module', [
+    ' S ',
+    'SMS',
+    ' S '
+  ], {
+    M: 'modularrouters:blank_module',
+    S: 'enlightened_end:void_shale',
+  }).id(`${ID_PREFIX}modularrouters/void_module`);
+
   // PneumaticCraft: Repressurized
   event.shaped('pneumaticcraft:chunkloader_upgrade', [
     'LRL',
@@ -446,6 +466,26 @@ ServerEvents.recipes(event => {
     C: 'minecraft:clock',
     K: 'supplementaries:key'
   }).id(`${ID_PREFIX}clock_key`);
+
+  event.shaped('sophisticatedbackpacks:void_upgrade', [
+    ' P ',
+    'SUS',
+    'RSR'
+  ], {
+    P: 'minecraft:ender_pearl',
+    S: 'enlightened_end:void_shale',
+    R: 'minecraft:redstone',
+    U: 'sophisticatedbackpacks:upgrade_base'
+  }).id(`${ID_PREFIX}sophisticatedbackpacks/void_upgrade`);
+
+  event.shaped('storagedrawers:void_upgrade', [
+    'SSS',
+    'SUS',
+    'SSS'
+  ], {
+    S: 'enlightened_end:void_shale',
+    U: 'storagedrawers:upgrade_template'
+  }).id(`${ID_PREFIX}storagedrawers/void_upgrade`);
 
   event.shaped('supplementaries:quiver', [
     'LS ',
