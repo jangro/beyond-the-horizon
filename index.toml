@@ -124,7 +124,7 @@ hash = "a4e6a09a7dd38623321ef7849010facc0aad4ac9926c1b8742ed94da21579e52"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "5cbb257f95252406ee15141479713f6d4d95c4f0f5068088a2951e589f164bb1"
+hash = "10236383c34f3d4650944a672b4d05df10296dd6a2fec0635a3e858ddc07413b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -300,7 +300,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "c3c75d84ca4981a452c148e0d443311b8e482842f9979d7ce5a2ffeb04df423e"
+hash = "a1bd8f2ee78e0948b8267b33e298984edfe141fdc57fa24192a5ee7f4aab72f7"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -312,7 +312,7 @@ hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "aa39331b787c613ea97fbc7cbe1b2008579016b009a11e608052fc4776999287"
+hash = "b02bb170a20740453a683e7f42bcb492bf8dacad1d81e79f4cde629e77f38582"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -556,7 +556,7 @@ hash = "4151e7d5fda12292b278fec209234de92ade7fb776e2015f28d3490a39a3b679"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/battle_grounds.nbt"
-hash = "f05630d0b76141652feed56456b29a11d2a1aaf7d23bddd1bc4149aaa66daadb"
+hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -572,7 +572,7 @@ hash = "66aa046d31a7ec53465ca361b9925f166f3128b588aa34ef80ab62db13c09456"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/hangar.nbt"
-hash = "7538f861b9e7d1b27b8a5ad2043449a2510537a4e051386d771b912204c07b88"
+hash = "80e669908d8e5ddb6bf0a3c012741ae49200ffec5efc6d20b581bb56c3c397c1"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/tower.nbt"
@@ -1259,6 +1259,10 @@ file = "kubejs/data/minecraft/enhancedcelestials/lunar/dimension_settings/overwo
 hash = "eec51e856f288e5cd1d075fe6cde2531e57f96b936858d19c44ebf22d4ddac3c"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_tables/gameplay/fishing.json"
+hash = "5bd43fd7b5f28760f533b800704c63f338780b8f9259ca5e87aba318a2f06c03"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/functions/load.json"
 hash = "5369ee6d8ed73045e4eab2e4ce4ef1691724ba322157860b1a817a6eb961f52a"
 
@@ -1384,15 +1388,15 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "47823e612b893ad478e304b3f49469453b111f7c6ac20e70a3f8e1d04e5a29bb"
+hash = "040b4c66f86e9a9bbdb45d0919ea4ab9137d8fbb47c2fb0e81dfe135c9ff6c62"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "44db4fc7d6162273ff21a00fb3f83f2d99570f15c9359ac9d2c4226834e0e984"
+hash = "8f5a22f7bddc5965fc19853e0309d5e985998bae363301a105d26bd277615429"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "0f660c195ddd0e40ca1e83b0175013b0eb8df60f3558882c2bfd95a4ff0ed9df"
+hash = "3222a353da77987d30117c6250e99ec359a4421c719587491e7ea20f2c633f75"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -1448,7 +1452,7 @@ hash = "5c2e29991c0d1b1d268da8779f8a3cfec3cb18ae9b87dc7e62e85fb2e8474bd5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "4f704c3be95d5680fa9cceeb3ac2f438097346b9239a4d613377cc6800fe2d28"
+hash = "fa674bbea62303e9d28b9a4d9fe5ea56d5625196da6d1db9009c550a780bba13"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -1456,7 +1460,7 @@ hash = "666e2379f4cc8c96f3fa32bc2624c16f796300954a531198f7c06571d3de59c1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "e371b90af53987b686295c0f9d745ec6477482fec5ba36e60dcddca9957b9237"
+hash = "da76129cd72805909e5d98e3366ec2b261ccd2f3d3010dcdb76ad7617e3bde14"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -1695,6 +1699,11 @@ hash = "cfc42d965c5eb4901427f18d783d31d33175922d6a8ef58cf4b13e2f59a35c9e"
 metafile = true
 
 [[files]]
+file = "mods/bclib.pw.toml"
+hash = "0c6982d793283b27ef35fdc3b57b7b9554fbc162c03ac7431ebbee9b1d5b241c"
+metafile = true
+
+[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "0aefabc3993c780f44f02e6e88b7acdba7ea5f6f7b5f1be760246bfdc3d99749"
 metafile = true
@@ -1712,6 +1721,11 @@ metafile = true
 [[files]]
 file = "mods/betterdays.pw.toml"
 hash = "3a094f5bf1462aaaf7fca18d6535db2ebdb00908a583b5a8f8d74afb445ab2bb"
+metafile = true
+
+[[files]]
+file = "mods/betterend.pw.toml"
+hash = "4b8ffbe47270effb2da83ff2fba6e5dea0158a515033b61a484a21aae6146a76"
 metafile = true
 
 [[files]]
@@ -2147,6 +2161,11 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "fd4067afb2907fbe9c2077a52b2528d8612d4ac400645942f6367c83df44602b"
 metafile = true
 
 [[files]]
@@ -2732,6 +2751,11 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "60fffd9990be454a9dffb87a2804f654e6deb21b2ee63924ef4a84d443612352"
+metafile = true
+
+[[files]]
+file = "mods/sinytra-connector.pw.toml"
+hash = "b27c18503a096fba94701b4335a2cce1f66c25b38c0f7fb7215d21ff36b434dc"
 metafile = true
 
 [[files]]
