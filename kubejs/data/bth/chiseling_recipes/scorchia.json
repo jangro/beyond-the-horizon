@@ -2,25 +2,25 @@
   "type": "rechiseled:chiseling",
   "entries": [
     {
-      "item": "create:scoria"
+      "item": "create:scorchia"
     },
     {
-      "item": "create:cut_scoria"
+      "item": "create:cut_scorchia"
     },
     {
-      "item": "create:polished_cut_scoria"
+      "item": "create:polished_cut_scorchia"
     },
     {
-      "item": "create:cut_scoria_bricks"
+      "item": "create:cut_scorchia_bricks"
     },
     {
-      "item": "create:small_scoria_bricks"
+      "item": "create:small_scorchia_bricks"
     },
     {
-      "item": "create:layered_scoria"
+      "item": "create:layered_scorchia"
     },
     {
-      "item": "create:scoria_pillar"
+      "item": "create:scorchia_pillar"
     }
   ],
   "overwrite": false
