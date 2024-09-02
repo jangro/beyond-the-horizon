@@ -670,7 +670,7 @@
 				"When destroyed these Branches will drop an Edelwood Stick."
 				""
 				"Alternatively to finding Edelwood Trees you can also create your own."
-				"Everything you need is a &aDark Soul&r and an &aOak Sapling&r or a &aDead Bush&r."
+				"Everything you need is a &aCorrupt Soul&r and an &aOak Sapling&r or a &aDead Bush&r."
 				"Simply right-click the Sapling or Dead Bush with the Dark Soul and it will transform into a Growing Edelwood."
 			]
 			icon: "forbidden_arcanus:growing_edelwood"
@@ -1001,6 +1001,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["Although the properties of this modifier are unknown, it can be used with the RMB to create air currents."]
 			id: "0DC5064543447B34"
 			shape: "hexagon"
 			subtitle: "The effect of this modifier is not yet known"

@@ -38,7 +38,7 @@
 			description: [
 				"Shot blocks will place themselves wherever they land if the position is suitable."
 				""
-				"A Slingshot enchanted with Stasis will be able to shoot in a straight line without being affected by gravity and will additionally gain a white block outline that will indicate where the projectile will land."
+				"A &aSlingshot&r enchanted with &3Stasis&r will be able to shoot in a straight line without being affected by gravity and will additionally gain a white block outline that will indicate where the projectile will land."
 				""
 				"Can be enchanted with &3Quick Charge&r, &3Multi Shot&r and &3Stasis&r."
 			]
@@ -61,11 +61,11 @@
 		}
 		{
 			description: [
-				"Its main use is to quickly switch between arrows. To do so use the item and it will open an ingame GUI."
-				"Alternatively shift right click also cycles through selected arrows without opening a GUI."
+				"Its main use is to quickly switch between &aArrows&r. To do so use the item and it will open an ingame GUI."
+				"Alternatively &6Shift&r + &6Right-Click&r also cycles through selected &aArrows&r without opening a GUI."
 				"Alternatively you can access it using a keybind."
 				""
-				"Arrows and item arrows you pick up will go in your quiver if it contains non full stacks of the same kind."
+				"&eArrows&r and &aitem Arrows &ryou pick up will go in your &aQuiver&r if it contains non full stacks of the same kind."
 			]
 			id: "28A02E6D1E4F5D8E"
 			subtitle: "Stores multiple arrows and allows you to quickly change them."
@@ -89,8 +89,8 @@
 		}
 		{
 			description: [
-				"Can be bound to a specific pet (or horse) by clicking it on the animal in question."
-				"A bounded flute will only call the pet that it was bound to."
+				"Can be bound to a specific &epet&r (or &eHorse&r) by &6Right-clicking&r it on the animal in question."
+				"A bounded &aFlute&r will only call the &epet&r that it was bound to."
 				"When used will play a random song."
 				"If renamed to the name of an existing song it will play that all the time."
 			]
@@ -130,9 +130,9 @@
 		{
 			description: [
 				"Can be used directly on all those in world."
-				"Can be used on copper like blocks to clean away any waxing and oxidation in one use."
-				"Can be used on pets and sheeps to un wash them."
-				"Can also wash away blackboards, antique globes and maps, sticky pistons and tipped spikes."
+				"Can be used on &aCopper like blocks&r to clean away any waxing and oxidation in one use."
+				"Can be used on &epets&r and &eSheeps&r to un wash them."
+				"Can also wash away &aBlackboards&r, &aAntique Globes&r and &aMaps&r, &aSticky Pistons&r and &aTipped Spikes&r."
 			]
 			id: "4E79F6590377F266"
 			subtitle: "Revert items to their default or white state."
@@ -147,9 +147,9 @@
 		{
 			description: [
 				"The explosion will only deal damage to mobs without destroying any blocks, with the exception of blocks that can be removed by water like tall grass."
-				"When exploding they can ignite nearby creepers."
+				"When exploding they can ignite nearby &eCreepers&r."
 				""
-				"Blue Bombs are a more powerful version of bombs and will afflict weakness debuff."
+				"&aBlue Bombs&r are a more powerful version of &aBombs&r and will afflict weakness debuff."
 			]
 			icon: "supplementaries:bomb"
 			id: "0AF6615A80843315"
@@ -172,7 +172,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["Shot rope arrows will retain all the ropes they didn't place so remember to pick them back up"]
+			description: ["Shot &aRope Arrows&r will retain all the &aRopes&r they didn't place so remember to pick them back up"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -198,10 +198,10 @@
 		}
 		{
 			description: [
-				"If enchanted with &3Stasis&r it gains the ability to place soap bubble blocks in mid air wherever you aim."
+				"If enchanted with &3Stasis&r it gains the ability to place &aSoap Bubble Blocks&r in mid air wherever you aim."
 				""
 				"The blocks will remain in the air for a while or until they are stepped on."
-				"Soap blocks can be replaced with other blocks, which is useful when building."
+				"&aSoap Blocks&r can be replaced with other blocks, which is useful when building."
 			]
 			icon: {
 				Count: 1
@@ -228,9 +228,9 @@
 		}
 		{
 			description: [
-				"Can be used on any sign to change its font to a fancy Antiquable font."
-				"Can be crafted with a map to turn it into a Antique Map, giving it a treasure map like look."
-				"Can be crafted with an original written book to turn it into a Tattered book. Tattered books cant be copied and will use the Antiquable font."
+				"Can be used on any &aSign&r to change its font to a fancy Antiquable font."
+				"Can be crafted with a &aMap&r to turn it into a &aAntique Map&r, giving it a treasure map like look."
+				"Can be crafted with an &aOriginal Written Book&r to turn it into a &aTattered book&r. &aTattered books&r cant be copied and will use the Antiquable font."
 			]
 			id: "5ED9CA7C6BFDA5FE"
 			subtitle: "Changes the font of objects it interacts with."
@@ -244,13 +244,13 @@
 		}
 		{
 			description: [
-				"Similar to cakes they can only be eaten when placed."
+				"Similar to &aCakes&r they can only be eaten when placed."
 				"Can be placed in a pile of up to 8."
-				"Honey can be poured on them (either via faucet or by clicking with a bottle)."
-				"They can also accept other toppings such as chocolate and syrup."
-				"Pancakes with honey, chocolate or syrup will give a short speed effect when eaten."
+				"&aHoney&r can be poured on them (either via &aFaucet&r or by &6Right-clicking&r with a &aHoney Bottle&r)."
+				"They can also accept other toppings such as &aChocolate&r and &aSyrup&r."
+				"&aPancakes&r with honey, chocolate or syrup will give a short speed effect when eaten."
 				""
-				"You can also insert a pancake in a jukebox for some sick tunes!"
+				"&8You can also insert a Pancake in a Jukebox for some sick tunes!&r"
 			]
 			id: "3EB5ACA017BACC0B"
 			subtitle: "Yummy."
@@ -265,15 +265,16 @@
 		}
 		{
 			description: [
-				"Work only with &3Safes,&r &3Netherite Doors&r, &3Netherite Trapdoors&r and &3Lock Blocks&r"
+				"Work only with &aSafes&r, &aNetherite Doors&r, &aNetherite Trapdoors&r and&a Lock Blocks&r"
 				""
-				"To lock a block first rename the key to your desired password, the click on the unbounded block."
-				"To clear the ownership simply shift click with the correct key on the locked block."
-				"To open a locked block you won't need to have the correct key in hand, it just needs to be in your inventory or Curio slot."
+				"To lock a block first rename the &aKey&r to your desired password, the click on the unbounded block."
+				"To clear the ownership simply &6Shift&r + &6Right-Click&r with the correct &aKey&r on the locked block."
+				"To open a locked block you won't need to have the correct &aKey&r in hand, it just needs to be in your inventory or &2Curio&r slot."
 				""
-				"Can be used in a dispenser to open key lockable blocks. Useful with lock blocks"
+				"Can be used in a &aDispenser&r to open key lockable blocks. Useful with lock blocks"
 			]
 			id: "7FFFF7F7DF3BE4FB"
+			min_width: 400
 			subtitle: "Used to lock Safes, Netherite Doors, Netherite Trapdoors and Lock Blocks."
 			tasks: [{
 				id: "2F8A6D8A30E29F25"
@@ -286,7 +287,7 @@
 		}
 		{
 			dependencies: ["7FFFF7F7DF3BE4FB"]
-			description: ["Acts as a sort of upgraded shulker box that is fire resistant."]
+			description: ["Acts as a sort of upgraded &aShulker Box&r that is fire resistant."]
 			icon: "supplementaries:safe"
 			id: "1ADC88063B7ADCB3"
 			subtitle: "Can be locked with a key. Once this is done their content will only be available to players that have the correct key."
@@ -300,7 +301,7 @@
 		}
 		{
 			dependencies: ["7FFFF7F7DF3BE4FB"]
-			description: ["By default the door is accessible to anyone until first locked."]
+			description: ["By default the &aNetherite Door&r is accessible to anyone until first locked."]
 			icon: "supplementaries:netherite_door"
 			id: "50DE6E1A25DBEAC4"
 			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the door."
@@ -314,7 +315,7 @@
 		}
 		{
 			dependencies: ["7FFFF7F7DF3BE4FB"]
-			description: ["Once it interacts with a player that holds the correct key it will emit a redstone pulse."]
+			description: ["Once it interacts with a player that holds the correct &aKey&r it will emit a redstone pulse."]
 			icon: "supplementaries:lock_block"
 			id: "11F68289FDE2CE10"
 			subtitle: "Can be locked with a key similar to safes and netherite doors."
@@ -328,7 +329,7 @@
 		}
 		{
 			dependencies: ["7FFFF7F7DF3BE4FB"]
-			description: ["By default the trapdoor is accessible to anyone until first locked."]
+			description: ["By default the &aNetherite Trapdoor&r is accessible to anyone until first locked."]
 			icon: "supplementaries:netherite_trapdoor"
 			id: "14AC1F399D13B863"
 			subtitle: "Can be locked with keys. Once this is done only a key owner can interact with the trapdoor."
@@ -359,7 +360,7 @@
 		}
 		{
 			description: [
-				"Pretty intuitive to use, you just power one and it will power its adjacent cogs, up to 14 blocks away, just like with redstone dust. "
+				"Pretty intuitive to use, you just power one and it will power its adjacent cogs, up to 14 blocks away, just like with &aRedstone Dust&r. "
 				""
 				"The real use for this is to be able to make compact vertical redstone signaling."
 			]
@@ -405,10 +406,10 @@
 		}
 		{
 			description: [
-				"Twice powerfull as the vanilla piston-slime block setup."
+				"Twice powerfull as the vanilla &aPiston-Slime Block setup&r."
 				"It can also push you up if you were to fall on it from a certain height when it's already extended."
-				"Cannot push blocks like a normal piston, only entities."
-				"Allows entities that stand on an extended one to jump slightly higher."
+				"Cannot push blocks like a normal &aPiston&r, only &eentities&r."
+				"Allows &eentities&r that stand on an extended one to jump slightly higher."
 			]
 			id: "699182EA223BDA47"
 			subtitle: "It extends like a piston and will propel any entities that lie ontop of it in the direction it's moving."
@@ -423,7 +424,7 @@
 		}
 		{
 			description: [
-				"Can be renamed in an anvil to change the name that will be displayed in chat. Rename it \"\" to get rid of it completely."
+				"Can be renamed in an &aAnvil&r to change the name that will be displayed in chat. Rename it \"\" to get rid of it completely."
 				"There must be space before the block to send messages."
 			]
 			id: "498C3B31F012D5CD"
@@ -449,6 +450,7 @@
 				"Also constantly rotates entities that are standing on it (only works when facing upwards)."
 			]
 			id: "5610804960A23D97"
+			min_width: 400
 			subtitle: "Rotates blocks."
 			tasks: [{
 				id: "74592BEDFE8F2223"
@@ -476,6 +478,7 @@
 				"&cIt cannot be powered by redstone.&r"
 			]
 			id: "12A0F1A43BB756F4"
+			min_width: 400
 			subtitle: "Throws down a rope or chain."
 			tasks: [{
 				id: "623C13293450D5C7"
@@ -518,6 +521,7 @@
 				"If placed in front of a wet sponge that is in contact with a soap block they are able to blow bubbles!"
 			]
 			id: "56EED3C96B90A092"
+			min_width: 400
 			subtitle: "Push air infront of it."
 			tasks: [{
 				id: "7B1252FADDD553FA"
@@ -562,6 +566,7 @@
 				"Can dump fluids in sponges effectively voiding them. The same can already be done with lava cauldrons making them ideal \"trash can\" solutions."
 			]
 			id: "535E4493E31C40F9"
+			min_width: 400
 			subtitle: "Powerful multi purpose block."
 			tasks: [{
 				id: "35F54C1A9D74B541"
@@ -629,6 +634,7 @@
 				"Can be broken by a projectile."
 			]
 			id: "72C008AA321DD359"
+			min_width: 400
 			subtitle: "A building block that makes movement easier, especially in mines."
 			tasks: [{
 				id: "648C03DCDD1CF31B"
@@ -956,5 +962,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Supplemintaries"
+	title: "Supplementaries"
 }

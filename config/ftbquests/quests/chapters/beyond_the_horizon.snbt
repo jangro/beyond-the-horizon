@@ -27,7 +27,7 @@
 			image: "ftblibrary:icons/info"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
+			x: 9.0d
 			y: -6.5d
 		}
 	]
@@ -148,7 +148,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Craft a hammer and use it on a regular workbench."]
+			description: ["Craft a &aHammer&r and use it on a regular &aWorkbench&r."]
 			icon: {
 				Count: 1
 				id: "tetra:holo"
@@ -212,7 +212,7 @@
 		}
 		{
 			description: [
-				"You can now place some new markers on maps. To do so just click with a map on one of the required blocks."
+				"You can now place some new markers on &aMaps&r. To do so just &6Right-Click&r with a &aMap&r on one of the required blocks."
 				"Some of these blocks will show the block name if they hold text or are renamed, just like vanilla banners."
 				""
 				"The supported blocks are:"
@@ -260,7 +260,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Placed books can give enchanting power to enchanting tables. The power given depends on the number and type of books used."]
+			description: ["Placed &abooks&r can give enchanting power to &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
 			icon: "minecraft:book"
 			id: "77F07A4539C74D35"
 			subtitle: "Enchanted and normal books can be placed and thus have a block form."
@@ -276,7 +276,7 @@
 		{
 			icon: "minecraft:experience_bottle"
 			id: "7C26DABC180C1E3C"
-			subtitle: "By shift clicking on an enchanting table with a bottle or jar you will be able to bottle some of your experience inside it."
+			subtitle: "By right-clicking on an enchanting table with a bottle or jar you will be able to bottle some of your experience inside it."
 			tasks: [{
 				id: "670461B0C8532F20"
 				title: "Understand"
@@ -327,7 +327,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Settings -> Control -> Walk Automatically"]
+			description: ["&6Settings&r -> &6Control&r -> &6Walk Automatically&r"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -347,7 +347,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["&aCtrl&r + &aShift&r + &aT&r"]
+			description: ["&6Shift&r + &6T&r"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -402,10 +402,10 @@
 		}
 		{
 			description: [
-				"Breaking grass or crops with a hoe will break a 3x3 of them."
-				"A Diamond Hoe will break a 5x5 instead."
+				"Breaking grass or crops with an any &aHoe&r will break a 3x3 area of them."
+				"A &aDiamond Hoe&r will break a 5x5 area instead."
 				""
-				"If you put Fortune on the hoe, it'll also apply that effect to everything it breaks."
+				"If you put &3Fortune enchantement&r on the &aHoe&r, it'll also apply that effect to everything it breaks."
 			]
 			icon: {
 				Count: 1
@@ -427,9 +427,9 @@
 		}
 		{
 			description: [
-				"By default it'll turn direction once, so it can build blocks horizontally if you extend scaffolds that way."
+				"By default it'll turn direction once, so it can build blocks horizontally if you extend &aScaffolds&r that way."
 				""
-				"If you wish to use the default behaviour of placing blocks on the scaffold, you can still do it with shift-right click."
+				"If you wish to use the default behaviour of placing blocks on the &aScaffold&r, you can still do it with &6Shift&r + &6Right-Click&r."
 			]
 			icon: "minecraft:scaffolding"
 			id: "3EB7EF62044B9BDE"
@@ -458,9 +458,9 @@
 		}
 		{
 			description: [
-				"Setting a Skeleton Skull, Zombie Head, or Creeper Head over a fence, as shown in the image, will create a skull pike. Nearby monsters in a 5 block range and with line of sight will notice it, and run away in cowardice."
+				"Setting a &aSkeleton Skull&r, &aZombie Head&r, or &aCreeper Head&r over a &afence&r, will create a skull pike. Nearby &emonsters&r in a 5 block range and with line of sight will notice it, and run away in cowardice."
 				""
-				"&aNote:&r that bosses and raiders are slightly more astute, and won't fall for your tricks."
+				"&eBosses&r and &eRaiders&r are slightly more astute, and won't fall for your tricks."
 				""
 				"&8Everyone knows Wither Skeletons drop their heads all the time, and Dragon Heads are all cheap fakes, so those won't work either.&r"
 			]
@@ -491,11 +491,9 @@
 		}
 		{
 			description: [
-				"Any blocks that already had a placement behaviour, like TNT, are ignored."
+				"The blocks are rotated so they're placed forward from the &aDispenser&r."
 				""
-				"The blocks are rotated so they're placed forward from the dispenser."
-				""
-				"&aNote:&r that crops such as Wheat Seeds or Potatoes also count."
+				"Crops such as &aWheat Seeds&r or &aPotatoes&r also count."
 			]
 			icon: "minecraft:dispenser"
 			id: "4D52B75D2FFA17F9"
@@ -523,7 +521,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["When you do so, the vine will no longer be able to grow."]
+			description: ["When you do so, the &aVine&r will no longer be able to grow."]
 			icon: {
 				Count: 1
 				id: "minecraft:shears"
@@ -688,14 +686,14 @@
 				type: "checkmark"
 			}]
 			title: "Getting Started"
-			x: 8.5d
+			x: 9.0d
 			y: -8.0d
 		}
 		{
 			description: [
-				"Increases your maximum hearts by 1 for each heart eaten."
+				"Increases your maximum hearts by 1 for each &aHeart Container&r eaten."
 				""
-				"These hearts can be obtained by completing great achievements."
+				"&aHeart Container&r can be obtained by completing great achievements."
 			]
 			icon: "paraglider:heart_container"
 			id: "68253772F8C54B87"
@@ -787,16 +785,18 @@
 		}
 		{
 			description: [
-				"Each hyperbox has its own dimension stored within; should the block be mined and placed somewhere else, the dimension will remain linked to that block."
+				"Each &aHyperbox&r has its own dimension stored within; should the block be mined and placed somewhere else, the dimension will remain linked to that block."
 				""
-				"The apertures transmit redstone power and forge capabilities (such as items being inserted or extracted from hoppers) between the inside and the outside faces of the box, allowing large machines to be constructed in tiny spaces."
+				"The apertures transmit redstone power and forge capabilities (such as items being inserted or extracted from hoppers) between the inside and the outside faces of the &aHyperbox&r, allowing large machines to be constructed in tiny spaces."
 				""
-				"The single chunk within the hyperbox dimension will remain loaded while the chunk containing the hyperbox block is loaded."
-				"Hyperbox worlds will be unloaded and stop ticking if their parent block is removed; the world will be loaded again when the block is placed again."
+				"The single chunk within the &3Hyperbox dimension&r will remain loaded while the chunk containing the &aHyperbox&r block is loaded."
+				"&3Hyperbox dimension&r will be unloaded and stop ticking if their parent block is removed; the world will be loaded again when the block is placed again."
 				""
-				"You can only get inside the Hyperbox from the original Hyperbox. If you lose the block, you will lose access to it."
+				"                                            &cWARNING:&r"
+				"You can only get inside to &3Hyperbox dimension&r from the original &aHyperbox&r. If you lose the block, you will lose access to it."
 			]
 			id: "5E794443DFF1AB80"
+			min_width: 400
 			subtitle: "Allows you to build within itself."
 			tasks: [{
 				id: "66EC7DC3169088E2"
@@ -808,7 +808,7 @@
 		}
 		{
 			description: [
-				"Right-Click to open the chiseling gui."
+				"&6Right-Click&r to open the chiseling gui."
 				""
 				"- The preview can be switched between a single block, a row of blocks, and a 3x3 of blocks using the buttons on the right"
 				""
@@ -832,10 +832,10 @@
 		}
 		{
 			description: [
-				"You'll find a post box and mailboxes available in every wood type."
+				"You'll find a &aPost box&r and &aMailboxes&r available in every wood type."
 				""
-				"You can include items and an optional message to any mailbox placed in the world."
-				"It also works across dimensions. When you receive mail, you mailbox will appear with a little red flag."
+				"You can include items and an optional message to any &aMailbox&r placed in the world."
+				"It also works across dimensions. When you receive mail, you &aMailbox&r will appear with a little red flag."
 			]
 			icon: "mighty_mail:post_box"
 			id: "7B32AE9CDDCF6A9F"
@@ -850,7 +850,6 @@
 			y: -3.5d
 		}
 		{
-			description: ["They can drop crab claws, which can be cooked into food or used as shears."]
 			id: "6C0DBEBFF21FC785"
 			subtitle: "Can be used as shears."
 			tasks: [{
@@ -880,8 +879,8 @@
 		}
 		{
 			description: [
-				"The shops are protected from explosions and player griefing."
-				"Only owner can break shops that belong to them."
+				"The &aBartering Stations&r are protected from explosions and player griefing."
+				"Only owner can break &aBartering Stations&r that belong to them."
 				""
 				"&6If you plan to add a mod for the economy, do not forget to enable the Shop Block in the configs.&r"
 			]

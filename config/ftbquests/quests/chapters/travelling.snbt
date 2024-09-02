@@ -34,7 +34,7 @@
 		{
 			dependencies: ["55FAE20E07CDC9C9"]
 			id: "02674AD6B512CA57"
-			subtitle: "Sturdy, has 3 seats, and a bunch of weapons."
+			subtitle: "Sturdy, has 3 seats, and a bunch of weapon options"
 			tasks: [{
 				id: "1BB3FF3DB83BA907"
 				item: "immersive_aircraft:warship"
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "3A643C9F794E6B0C"
-			subtitle: "Fast, one seat, medium difficulty."
+			subtitle: "Fast, one seat, medium difficulty. Make sure you have somewhere flat to take off and land on!"
 			tasks: [{
 				id: "28CC36B4CF226782"
 				item: "immersive_aircraft:biplane"
@@ -57,7 +57,7 @@
 		}
 		{
 			id: "51AEDA51AC0D8F9B"
-			subtitle: "Human-powered primitive dual seater. Trusty, yet neither the fastest nor the easiest to fly. Needs a good initial push to get the rotor spinning."
+			subtitle: "Human-powered primitive dual seater. Trusty, yet not the fastest and consumes hunger quickly. Needs a good initial push to get the rotor spinning."
 			tasks: [{
 				id: "07EA7B8F8DAF0E36"
 				item: "immersive_aircraft:gyrodyne"
@@ -80,20 +80,20 @@
 		{
 			id: "2397C81EE3B470C0"
 			shape: "rsquare"
-			subtitle: "Mysterious material that allows objects to float in the air."
+			subtitle: "A mysterious material from the Aether that defies gravity."
 			tasks: [{
 				id: "7C7C85F71CA27E63"
 				item: "aether:enchanted_gravitite"
 				type: "item"
 			}]
-			title: "The source of fly"
+			title: "The Source of Flight"
 			x: -1.5d
 			y: -13.5d
 		}
 		{
-			description: ["Flies faster than other dragons"]
+			description: ["&8Rumors say it flies faster than other dragons.&r"]
 			id: "69428975C73FD77D"
-			subtitle: "Place the egg in Aether."
+			subtitle: "Place the egg in the Aether dimension."
 			tasks: [{
 				id: "69EE1492F3067FC1"
 				item: {
@@ -114,7 +114,7 @@
 		}
 		{
 			id: "092E550A6E2D1783"
-			subtitle: "Defeating an Ender Dragon and carefully collecting its egg."
+			subtitle: "Defeat the Ender Dragon to obtain its egg. Convert other dragon eggs by surrounding them with Dragon's Breath."
 			tasks: [{
 				id: "2C53D1AF3E471066"
 				item: {
@@ -135,7 +135,7 @@
 		}
 		{
 			id: "5299590EAB306EE7"
-			subtitle: "Place the egg next to the lava."
+			subtitle: "Place the egg adjacent to lava or magma blocks."
 			tasks: [{
 				id: "0E04E2C61113F416"
 				item: {
@@ -156,7 +156,7 @@
 		}
 		{
 			id: "6967D1E14FFDC359"
-			subtitle: "Place the egg in a forest or area with dense vegetation."
+			subtitle: "Place the egg in a forest biome, or adjacent to leaf blocks."
 			tasks: [{
 				id: "45FAB88602FC721F"
 				item: {
@@ -177,7 +177,7 @@
 		}
 		{
 			id: "54C54AD77F75E2CA"
-			subtitle: "Place the egg deep underground in complete darkness."
+			subtitle: "Place the egg below y-level 0 and in complete darkness."
 			tasks: [{
 				id: "3702F64EDCF84D24"
 				item: {
@@ -198,7 +198,7 @@
 		}
 		{
 			id: "51D920C52C7DC153"
-			subtitle: "Place the egg in a cold biome, or give it a cold atmosphere."
+			subtitle: "Place the egg in a cold biome, or adjacent to snow or ice blocks."
 			tasks: [{
 				id: "6BB92A95B27B1457"
 				item: {
@@ -219,7 +219,7 @@
 		}
 		{
 			id: "2F60A94264EE2797"
-			subtitle: "Place the egg in the Nether, or create a Nether atmosphere for it."
+			subtitle: "Place the egg in the Nether, or adjacent to black stone or soul soil blocks."
 			tasks: [{
 				id: "0193FFF7434F02A3"
 				item: {
@@ -241,7 +241,7 @@
 		{
 			description: ["Can swim."]
 			id: "03EB66929B4A2B3F"
-			subtitle: "Place the egg near a water source."
+			subtitle: "Place the egg adjacent to water or coral blocks."
 			tasks: [{
 				id: "6B56A0037049A92A"
 				item: {
@@ -262,13 +262,14 @@
 		}
 		{
 			description: [
-				"Once the egg is set in motion, it takes approximately 600 seconds for it to hatch."
-				"During this time, ensure the egg is safe from any disturbances."
+				"Once the &aDragon Egg&r is placed, it takes approximately 600 seconds for it to hatch."
+				"During this time, ensure the &aDragon Egg&r is safe from any disturbances."
 				""
-				"After hatching, it is crucial to tame the dragon by feeding it fish."
-				"Tamed dragons will obey commands and defend you against hostile mobs."
+				"After hatching, it is crucial to tame the &eDragon&r by feeding it &aFish&r."
+				"The longer you take to tame the &eDragon&r after it hatches, the more &aFish&r it will require before it's tamed."
+				"&eTamed Dragons&r will obey commands and defend you against hostile mobs."
 				""
-				"To ride a dragon, use the saddle on it."
+				"To ride a &eDragon&r, use a &aSaddle&r on it."
 			]
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
@@ -279,43 +280,48 @@
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "How to care of a dragon"
+			title: "Dragon Taming 101"
 			x: 6.5d
 			y: -12.0d
 		}
 		{
 			description: [
-				"There are 2 ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
+				"There are two ways to get it - you can craft it or build it yourself from blocks (details on page 3)."
 				""
-				"              &6Overal information:&r"
+				"                                      &6General information:&r"
 				""
-				"Movement - WASD"
-				"Dive - Left Ctrl"
-				"Rise - Space"
-				"Light - G (doesn't work with shaders)"
+				"Movement - &6W A S D&r"
+				"Dive - &6Left Ctrl&r"
+				"Rise - &6Space&r"
+				"Light - &6G&r (doesn't work with shaders)"
 				""
-				"If there are any aggressive Deep Ones chasing or Hullbreakers that are targeting a player inside a Submarine, the Submarine's sonar and side buttons will begin to flash while constantly emitting loud pinging noises in attempts to alert them of the threat nearby."
+				"If there are any aggressive &eDeep Ones&r chasing or &eHullbreakers&r that are targeting a player inside a &aSubmarine&r, the Submarine's sonar and side buttons will begin to flash while constantly emitting loud pinging noises in attempts to alert them of the threat nearby."
 				""
 				"{@pagebreak}"
-				"                      &6Care:&r"
+				"                                              &6Care:&r"
 				""
-				"Over time, your submarine will begin to oxidize."
-				"If wanting to reverse the stages of oxidation on a Submarine, interacting with an oxidized Submarine while holding an axe will remove one stage of oxidation from it."
-				"Honeycomb can also be applied to the Submarine similarly to many other copper blocks to completely prevent oxidation from progressing."
-				"Lightning bolts that strike nearby an unwaxed Submarine will completely reset the its level of oxidation."
+				"Over time, your &aSubmarine&r will begin to oxidize."
+				"This only affects how the &aSubmarine&r looks."
+				"To reverse the stages of oxidation, interact with an oxidized &aSubmarine&r while holding an &aAxe&r."
+				"&aHoneycomb&r can also be applied to a &aSubmarine&r similarly to prevent oxidation from progressing."
+				"Lightning bolts that strike near an unwaxed &aSubmarine&r will completely reset its level of oxidation"
 				""
-				"Similarly to an iron golem, a Submarine will begin to crack depending on how much health is depleted from it"
-				"Fortunately, one can repair a cracked Submarine with the use of copper ingots. If a copper ingot is held and used on a Submarine that visibly has cracks, it will remove up to 10 built-up damage from the Submarine and repair fractures dealt by exactly one level of damage."
+				"&aSubmarines&r will begin to show cracks depending on how much damage they've taken."
+				"Fortunately, one can repair a damaged &aSubmarine&r with the use of &aCopper Ingots&r. Interact with a &aSubmarine&r while holding a &aCopper Ingot&r to repair it by up to 10 damage per ingot"
 				""
-				"&cWarning - if the submarine breaks, a small amount of copper will fall out of it.&r"
+				"                                            &cWARNING:&r"
+				"If the &aSubmarine&r completely breaks, only a small amount of copper be left."
 				"{@pagebreak}"
 				"                    &6Building:&r"
 				""
-				"For construction you will need have &a20 of any type of copper&r block (including cut copper), &a6 Depth Glass&r, and most importantly an &aEnigmatic Engine &r- which can only be obtained as a drop from slaying the formiable Hullbreaker."
+				"You can craft a &aSubmarine&r in a crafting table or by building a multi-block structure."
 				""
-				"Once you has all these materials, construction of a new Submarine can begin by surrounding the Enigmatic Engine with a 3x3x3 copper cube. Once this is done, a 3x2 hole should remain in the structure exposing the Enigmatic Engine - filling this gap with 6 Depth Glass blocks will mark the front of the Submarine and ultimately transform the structure into a brand new Submarine."
+				"For the multiblock structure, you will need &a20 of any type of Copper Block&r (including cut copper), &a6 Depth Glass&r, and an &aEnigmatic Engine &r- which can only be obtained as a drop from the &eHullbreaker&r.\""
+				""
+				"Place down the &aEnigmatic Engine&r and surround it with a 3x3x3 Copper cube. Then, break a 3x2 hole in the copper cube exposing the &aEnigmatic Engine&r. Finally, fill this 3x2 gap with &aDepth Glass Blocks&r and it will transform into the &aSubmarine&r."
 			]
 			id: "503478F788C7407E"
+			min_width: 400
 			subtitle: "Underwater travel."
 			tasks: [{
 				id: "5DC59496BA79096E"
@@ -329,16 +335,16 @@
 			description: [
 				"          &6Works for all ship types&r"
 				""
-				"Press \"R\" to open/close the Ships Sail."
-				"Or Press \"W\" to increase and \"S\" to decrease the Sail."
+				"Press &6R&r to open/close the ship's sail."
+				"Or Press &6W&r to increase and &6S&r to decrease the Sail."
 				""
-				"To dismount a entity from the ship, right-click the entity."
-				"To open the Inventory outside of the ship,  use crouch+right-click on the ship."
+				"To dismount a entity from the ship, &6Right-Click&r the entity."
+				"To open the Inventory outside of the ship, use &6Shift&r + &6Right-Click&r on the ship."
 				""
 				"You can customize sails by coloring them with dye items."
 				"You can name your ship with a name-tag."
 				"{@pagebreak}"
-				"You can repair your ship with iron nuggets and planks. Simply right-click the ship with the iron nuggets in your hand, you need to have a good supply of planks in your inventory."
+				"You can repair your ship with &aIron Nuggets&r and &aPlanks&r. Simply &6Right-Click&r the ship with the &aIron Nuggets&r in your hand, you need to have a good supply of &aPlanks&r in your inventory."
 				""
 				"Leashing allows players to tether ships. Leashed ships cannot be directly controlled, and only ships without a player on the controller seat can be leashed."
 			]
@@ -513,7 +519,7 @@
 			description: [
 				"It is also capable of transporting a sufficient amount of cargo."
 				""
-				"Shields, also with banner patterns, can be attached to grant additional defense."
+				"&aShields&r, also with banner patterns, can be attached to grant additional defense."
 				""
 				"With its icebreaker ability, it proves to be a promising vessel in cold and icy oceans."
 			]
@@ -572,11 +578,11 @@
 		}
 		{
 			description: [
-				"Carry along your animals, players and NPC companions with the two seats on this cart!"
+				"Carry along your &eanimals&r, &eplayers&r and &eNPC&r companions with the two seats on this &aCart&r!"
 				""
-				"Press &aR&r for attach/detach cart."
+				"Press &6R&r for attach/detach &aCart&r."
 				""
-				"You can take a cart and hitch it even when you're on horseback."
+				"You can take a &aCart&r and hitch it even when you're on horseback."
 			]
 			id: "3E4636B0982D3D78"
 			subtitle: "Be sure to take your favorite cow with you!"
@@ -592,11 +598,11 @@
 			description: [
 				"Up to a double chests worth!"
 				"One seat on the back."
-				"Shift-right click to access the inventory!"
+				"&6Shift&r + &6Right-Click&r to access the inventory!"
 				""
-				"Press &aR&r for attach/detach cart."
+				"Press &6R&r for attach/detach &aCart&r."
 				""
-				"You can take a cart and hitch it even when you're on horseback."
+				"You can take a &aCart&r and hitch it even when you're on horseback."
 			]
 			id: "19900187E8FF8899"
 			subtitle: "Bring your storage with you on your journey!"
@@ -625,8 +631,8 @@
 		{
 			description: [
 				"Can be dyed."
-				"Can ride ascending wind to gain height! Look out for rising particles while holding the Paraglider."
-				"Works with fire and campfire. Don't try with lava. It doesn't work. I warned you."
+				"Can ride ascending wind to gain height! Look out for rising particles while holding the &aParaglider&r."
+				"Works with &aFire&r and &aCampfire&r. Don't try with &aLava&r. It doesn't work. I warned you."
 			]
 			id: "6E76E2614585E981"
 			subtitle: "Paragliding!"
@@ -663,7 +669,11 @@
 			y: -10.5d
 		}
 		{
-			description: ["You can put it on the Bask slot, after which Backpack will be available by pressing the &aB&r button."]
+			description: [
+				"To equip a &aBackpack&r, put in a back slot or keep it in your inventory."
+				""
+				"The &aBackpack&r can be opened using &6B&r key."
+			]
 			id: "080AA50EB030E608"
 			subtitle: "Backpacks will help you on long journeys."
 			tasks: [{
