@@ -2794,6 +2794,11 @@ hash = "d5e2b0fca96fdb3143aea55530d3fb1891ab228afdd9d2778473d546e8c1f8c8"
 metafile = true
 
 [[files]]
+file = "mods/stackablepotions-forge.pw.toml"
+hash = "4e665f1f9fa7bb5f8d11d1e643cf486967ad6b1b850ac0bd9949e9cbd41641f1"
+metafile = true
+
+[[files]]
 file = "mods/starbunclemania.pw.toml"
 hash = "efbe843208d9c66bcd4678d698f8749af56b67a01637249cad8bca4bf1643aa1"
 metafile = true
