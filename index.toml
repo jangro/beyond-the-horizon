@@ -2084,6 +2084,11 @@ hash = "39880e14c5b46496c6c9fd5cdeed67bca74bb99de9f273270918184a525d0942"
 metafile = true
 
 [[files]]
+file = "mods/enlightend.pw.toml"
+hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
+metafile = true
+
+[[files]]
 file = "mods/ensorcellation.pw.toml"
 hash = "9780912a21d843e262d6f137ae4e7f95ae21e059e82c8a449b5930c767b06dc4"
 metafile = true
