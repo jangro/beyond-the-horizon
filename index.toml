@@ -300,7 +300,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "a1bd8f2ee78e0948b8267b33e298984edfe141fdc57fa24192a5ee7f4aab72f7"
+hash = "c1af3d69caad7ba5b8a5933ce2016935f1cec37dff07041706b0eb9275278e12"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -1428,7 +1428,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "53ea45e9fdbbc5da1021864ce768ab36277245b524581a14c5ac212088f66875"
+hash = "ad643d1e3ad1a3893e8fa152b918b9291d619ed7268d71ba969626d52e49bbd9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -1452,7 +1452,7 @@ hash = "5c2e29991c0d1b1d268da8779f8a3cfec3cb18ae9b87dc7e62e85fb2e8474bd5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "11e1a8fbfd37b2156c8b784203042d81f81b61b4fb35965ba2c1a756d9328052"
+hash = "9e2b418355a1bced71275d4cbe7124181575a8236887b6f983274a06658cfc07"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -1460,11 +1460,11 @@ hash = "2f72d157c70ec8562709771082369a0b4bf03333612cbe5add44fe5577b1cc23"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "5c2c3b355a6a14478c5c50fcd994511635ab30a5f5b47554d9e3357184d8ac39"
+hash = "5f6b4b61fa4e169b01e5a7a908b92fa5ec99f890d5877fedcad6b8240134ce1e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
-hash = "42f43002f28d3f298ed9e783fb42ca8e02da7aaed571bd657ae3850f7401bdc4"
+hash = "52e50eccb2b82e0f6b9f3c9f2d1b2375c2e92957119fb6f7ce71db394174e775"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
@@ -1995,7 +1995,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "ef203cfb9e4703fc48e154ccc2da9f0a1af4770d49f403f3ed0a581e5498a515"
+hash = "d41c8557243ddcda7d0193ac905d4209ebc4753273b967e6c31ec6874dc0a58c"
 metafile = true
 
 [[files]]
@@ -2070,7 +2070,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a2b50a3ae0f73b45d393d037288073130e16e7a371f1e93ec573c5dc2efe87f8"
+hash = "a74b2d65c286896335b454f61f18be630d0f13767626ebb118584907d1d37112"
 metafile = true
 
 [[files]]
@@ -2170,7 +2170,7 @@ metafile = true
 
 [[files]]
 file = "mods/framework.pw.toml"
-hash = "688b011ac6619ffe9b237336b63b4e14a355a1d1fa30793e1b600a223c488369"
+hash = "685338a17e0dc9a5caa54ef79972cf7c0c7e3bdfdf9e55aa0162c23ed473f46e"
 metafile = true
 
 [[files]]
@@ -2285,7 +2285,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "8d8ac673a71f3b5c44bad2143de4ca6b69fed8721d449a2c25d50e5ae3b92252"
+hash = "a0f5d877c9abea90c2f84916a0782c72411d64ba56e1d877feab5b87e9ff38dd"
 metafile = true
 
 [[files]]
@@ -2330,7 +2330,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "3fcbf119bb838ad522fcbaf6f56060065d1337034b8af21e496a843207e0d707"
+hash = "2335be5f6b58d942bd7bae46cbfe0a5d3ee48e19e2f7e33ca0f5d9377c95639d"
 metafile = true
 
 [[files]]
@@ -2610,7 +2610,7 @@ metafile = true
 
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
-hash = "7439fdf9333a43a5d1a04bb767582d517411d19e5804290ebffc929e269e92cc"
+hash = "825988f49076dc13383e7b74fbb576e81c65c7cd2ea4f655f6da72d7c24bce17"
 metafile = true
 
 [[files]]
@@ -2725,7 +2725,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "9320c42682ca0bfc3fdf819dfa05eebd308deb139665d4027301ee3542c2876a"
+hash = "ac7e6e6c8f0ef08393fd5ad7408206eea51bb067afce937df9667f1c590cfb4f"
 metafile = true
 
 [[files]]
@@ -3376,4 +3376,4 @@ hash = "5408673dad53abcddca637adafb63b392a82a8ec5b5fda06672a3630b3702097"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.2.2.zip.txt"
-hash = "bfbddf8737585cf0696adff4742a65ca2126eae02b4a05e85e6483a5a3a3a560"
+hash = "a7dfa8a613f4bb6a653e2af3849ea9d18a07690713c1e5b453054bdfee02080b"
