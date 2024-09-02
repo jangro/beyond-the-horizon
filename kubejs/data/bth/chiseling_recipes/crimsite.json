@@ -1,0 +1,27 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "create:crimsite"
+    },
+    {
+      "item": "create:cut_crimsite"
+    },
+    {
+      "item": "create:polished_cut_crimsite"
+    },
+    {
+      "item": "create:cut_crimsite_bricks"
+    },
+    {
+      "item": "create:small_crimsite_bricks"
+    },
+    {
+      "item": "create:layered_crimsite"
+    },
+    {
+      "item": "create:crimsite_pillar"
+    }
+  ],
+  "overwrite": false
+}

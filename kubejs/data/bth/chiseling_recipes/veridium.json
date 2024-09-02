@@ -1,0 +1,27 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "create:veridium"
+    },
+    {
+      "item": "create:cut_veridium"
+    },
+    {
+      "item": "create:polished_cut_veridium"
+    },
+    {
+      "item": "create:cut_veridium_bricks"
+    },
+    {
+      "item": "create:small_veridium_bricks"
+    },
+    {
+      "item": "create:layered_veridium"
+    },
+    {
+      "item": "create:veridium_pillar"
+    }
+  ],
+  "overwrite": false
+}
