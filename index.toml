@@ -1699,11 +1699,6 @@ hash = "cfc42d965c5eb4901427f18d783d31d33175922d6a8ef58cf4b13e2f59a35c9e"
 metafile = true
 
 [[files]]
-file = "mods/bclib.pw.toml"
-hash = "0c6982d793283b27ef35fdc3b57b7b9554fbc162c03ac7431ebbee9b1d5b241c"
-metafile = true
-
-[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "0aefabc3993c780f44f02e6e88b7acdba7ea5f6f7b5f1be760246bfdc3d99749"
 metafile = true
@@ -1721,11 +1716,6 @@ metafile = true
 [[files]]
 file = "mods/betterdays.pw.toml"
 hash = "3a094f5bf1462aaaf7fca18d6535db2ebdb00908a583b5a8f8d74afb445ab2bb"
-metafile = true
-
-[[files]]
-file = "mods/betterend.pw.toml"
-hash = "4b8ffbe47270effb2da83ff2fba6e5dea0158a515033b61a484a21aae6146a76"
 metafile = true
 
 [[files]]
@@ -2094,6 +2084,11 @@ hash = "39880e14c5b46496c6c9fd5cdeed67bca74bb99de9f273270918184a525d0942"
 metafile = true
 
 [[files]]
+file = "mods/enlightend.pw.toml"
+hash = "bd3ba2a82d5b80be3ccc187ad50a1aec11f53956c2a20cd9a0ad70b8cd932c1d"
+metafile = true
+
+[[files]]
 file = "mods/ensorcellation.pw.toml"
 hash = "9780912a21d843e262d6f137ae4e7f95ae21e059e82c8a449b5930c767b06dc4"
 metafile = true
@@ -2156,11 +2151,6 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "fd4067afb2907fbe9c2077a52b2528d8612d4ac400645942f6367c83df44602b"
 metafile = true
 
 [[files]]
@@ -2746,11 +2736,6 @@ metafile = true
 [[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "60fffd9990be454a9dffb87a2804f654e6deb21b2ee63924ef4a84d443612352"
-metafile = true
-
-[[files]]
-file = "mods/sinytra-connector.pw.toml"
-hash = "b27c18503a096fba94701b4335a2cce1f66c25b38c0f7fb7215d21ff36b434dc"
 metafile = true
 
 [[files]]
