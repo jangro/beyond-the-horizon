@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "create:limestone"
+    },
+    {
+      "item": "create:cut_limestone"
+    },
+    {
+      "item": "create:polished_cut_limestone"
+    },
+    {
+      "item": "create:cut_limestone_bricks"
+    },
+    {
+      "item": "create:small_limestone_bricks"
+    },
+    {
+      "item": "create:layered_limestone"
+    },
+    {
+      "item": "create:limestone_pillar"
+    },
+    {
+      "item": "quark:limestone"
+    },
+    {
+      "item": "quark:polished_limestone"
+    },
+    {
+      "item": "quark:limestone_bricks"
+    },
+    {
+      "item": "quark:chiseled_limestone_bricks"
+    },
+    {
+      "item": "quark:limestone_pillar"
+    },
+    {
+      "item": "alexscaves:limestone"
+    },
+    {
+      "item": "alexscaves:limestone_pillar"
+    },
+    {
+      "item": "alexscaves:limestone_chiseled"
+    },
+    {
+      "item": "alexscaves:smooth_limestone"
+    }
+  ],
+  "overwrite": false
+}
