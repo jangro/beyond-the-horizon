@@ -1,0 +1,12 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    {
+      "item": "eidolon:mossy_smooth_stone_bricks"
+    }
+  ],
+  "overwrite": false
+}

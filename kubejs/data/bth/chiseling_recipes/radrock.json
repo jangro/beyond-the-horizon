@@ -1,0 +1,15 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "alexscaves:radrock"
+    },
+    {
+      "item": "alexscaves:radrock_bricks"
+    },
+    {
+      "item": "alexscaves:radrock_chiseled"
+    }
+  ],
+  "overwrite": false
+}

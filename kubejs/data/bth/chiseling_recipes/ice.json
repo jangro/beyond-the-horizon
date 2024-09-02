@@ -1,0 +1,12 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "ecologics:ice_bricks"
+    }
+  ],
+  "overwrite": false
+}

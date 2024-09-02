@@ -1,0 +1,18 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "alexscaves:guanostone"
+    },
+    {
+      "item": "alexscaves:guanostone_bricks"
+    },
+    {
+      "item": "alexscaves:guanostone_chiseled"
+    },
+    {
+      "item": "alexscaves:guanostone_tiles"
+    }
+  ],
+  "overwrite": false
+}

@@ -1,0 +1,15 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "alexscaves:galena"
+    },
+    {
+      "item": "alexscaves:galena_bricks"
+    },
+    {
+      "item": "alexscaves:galena_pillar"
+    }
+  ],
+  "overwrite": false
+}

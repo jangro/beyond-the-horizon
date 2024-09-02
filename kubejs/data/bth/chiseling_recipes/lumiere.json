@@ -1,0 +1,18 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "galosphere:lumiere_block"
+    },
+    {
+      "item": "galosphere:lumiere_bricks"
+    },
+    {
+      "item": "galosphere:smooth_lumiere"
+    },
+    {
+      "item": "galosphere:chiseled_lumiere"
+    }
+  ],
+  "overwrite": false
+}

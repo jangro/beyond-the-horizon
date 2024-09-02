@@ -1,0 +1,24 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "createdeco:dusk_bricks"
+    },
+    {
+      "item": "createdeco:cracked_dusk_bricks"
+    },
+    {
+      "item": "createdeco:corner_dusk_bricks"
+    },
+    {
+      "item": "createdeco:tiled_dusk_bricks"
+    },
+    {
+      "item": "createdeco:short_dusk_bricks"
+    },
+    {
+      "item": "createdeco:long_dusk_bricks"
+    }
+  ],
+  "overwrite": false
+}

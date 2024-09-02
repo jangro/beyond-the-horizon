@@ -1,0 +1,21 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "quark:shale"
+    },
+    {
+      "item": "quark:polished_shale"
+    },
+    {
+      "item": "quark:shale_bricks"
+    },
+    {
+      "item": "quark:chiseled_shale_bricks"
+    },
+    {
+      "item": "quark:shale_pillar"
+    }
+  ],
+  "overwrite": false
+}

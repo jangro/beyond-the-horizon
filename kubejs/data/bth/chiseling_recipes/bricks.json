@@ -1,0 +1,27 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "createdeco:long_red_bricks"
+    },
+    {
+      "item": "createdeco:short_red_bricks"
+    },
+    {
+      "item": "createdeco:corner_red_bricks"
+    },
+    {
+      "item": "createdeco:tiled_red_bricks"
+    },
+    {
+      "item": "clayworks:chiseled_bricks"
+    },
+    {
+      "item": "createdeco:cracked_red_bricks"
+    }
+  ],
+  "overwrite": false
+}

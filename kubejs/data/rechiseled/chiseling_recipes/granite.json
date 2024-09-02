@@ -1,0 +1,80 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "connecting_item": "rechiseled:granite_brick_pattern_connecting",
+      "item": "rechiseled:granite_brick_pattern"
+    },
+    {
+      "connecting_item": "rechiseled:granite_brick_paving_connecting",
+      "item": "rechiseled:granite_brick_paving"
+    },
+    {
+      "connecting_item": "rechiseled:granite_bricks_connecting",
+      "item": "rechiseled:granite_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:granite_diagonal_bricks_connecting",
+      "item": "rechiseled:granite_diagonal_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:granite_dotted_connecting",
+      "item": "rechiseled:granite_dotted"
+    },
+    {
+      "connecting_item": "rechiseled:granite_paving_connecting",
+      "item": "rechiseled:granite_paving"
+    },
+    {
+      "connecting_item": "rechiseled:granite_polished_connecting",
+      "item": "minecraft:polished_granite"
+    },
+    {
+      "connecting_item": "rechiseled:granite_rotated_bricks_connecting",
+      "item": "rechiseled:granite_rotated_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:granite_squares_connecting",
+      "item": "rechiseled:granite_squares"
+    },
+    {
+      "connecting_item": "rechiseled:granite_tiles_connecting",
+      "item": "rechiseled:granite_tiles"
+    },
+    {
+      "connecting_item": "rechiseled:granite_wavy_connecting",
+      "item": "rechiseled:granite_wavy"
+    },
+    {
+      "item": "create:cut_granite"
+    },
+    {
+      "item": "create:polished_cut_granite"
+    },
+    {
+      "item": "create:cut_granite_bricks"
+    },
+    {
+      "item": "create:small_granite_bricks"
+    },
+    {
+      "item": "create:layered_granite"
+    },
+    {
+      "item": "create:granite_pillar"
+    },
+    {
+      "item": "quark:granite_bricks"
+    },
+    {
+      "item": "quark:chiseled_granite_bricks"
+    },
+    {
+      "item": "quark:granite_pillar"
+    }
+  ],
+  "overwrite": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "galosphere:pastel_pink_salt"
+    },
+    {
+      "item": "galosphere:pastel_pink_salt_bricks"
+    },
+    {
+      "item": "galosphere:polished_pastel_pink_salt"
+    },
+    {
+      "item": "galosphere:chiseled_pastel_pink_salt"
+    }
+  ],
+  "overwrite": false
+}
