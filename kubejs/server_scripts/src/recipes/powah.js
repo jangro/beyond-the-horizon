@@ -11,6 +11,9 @@
 ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:powah/';
 
+  // Minecraft
+  event.recipes.powah.energizing(['minecraft:obsidian'], 'minecraft:crying_obsidian', 100000).id(`${ID_PREFIX}energizing/obsidian_to_crying_obsidian`);
+
   // Aether
   event.recipes.powah.energizing(['aether:cold_aercloud', 'aether:blue_aercloud', 'aether:golden_aercloud'], '3x deep_aether:sterling_aercloud', 6000).id(`${ID_PREFIX}energizing/sterling_aercloud`);
 
