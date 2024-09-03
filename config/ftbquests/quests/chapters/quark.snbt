@@ -39,7 +39,7 @@
 			y: -8.0d
 		}
 	]
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -48,7 +48,7 @@
 				"The Abacus will count up to 48 blocks, drawing an outline of the counted blocks. The texture of the item will change according to how many blocks are counted. Right click again to unbind."
 			]
 			id: "323F14E8984D4C73"
-			subtitle: "It will count the distance between the targeted and hovered block, measured along right angles"
+			subtitle: "It will count the distance between the targeted and hovered block, measured along right angles."
 			tasks: [{
 				id: "4ED97E9C79C9D85C"
 				item: "quark:abacus"
@@ -66,7 +66,7 @@
 				"The cloud will go back in the bottle when you do this."
 			]
 			id: "5E0E022DB608FFC1"
-			subtitle: "Using a Glass Bottle at the cloud levels will get you a Bottled Cloud"
+			subtitle: "Using a Glass Bottle at the cloud levels will get you a Bottled Cloud."
 			tasks: [{
 				id: "4F57047BF392E27E"
 				item: "quark:bottled_cloud"
@@ -139,7 +139,7 @@
 		}
 		{
 			id: "1171584A851FF7A1"
-			subtitle: "The pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops"
+			subtitle: "The pickarang is a boomerang pickaxe - throw it, it breaks whatever it hits, and comes back to you with the drops."
 			tasks: [{
 				id: "50091B3486DC703A"
 				item: {
@@ -156,7 +156,7 @@
 		}
 		{
 			id: "7EF69B47BB2DC106"
-			subtitle: "The Trowel, when right clicked, will place a random block from your hotbar"
+			subtitle: "The Trowel, when right clicked, will place a random block from your hotbar."
 			tasks: [{
 				id: "4D38269142EDE257"
 				item: "quark:trowel"
@@ -310,19 +310,16 @@
 				{
 					id: "294432588A037AC6"
 					item: "quark:ancient_sapling"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4E910136EB9A6C77"
 					item: "quark:ancient_fruit"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "573F6EC62B72D0E5"
 					item: "quark:ancient_log"
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -468,13 +465,7 @@
 				""
 				"&8They are also known to enjoy music, or so we've been told.&r"
 			]
-			icon: {
-				Count: 1
-				id: "ecologics:crab_claw"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "quark:crab_spawn_egg"
 			icon_scale: 1.2d
 			id: "5C73F05D4AD00BE9"
 			shape: "square"
@@ -501,7 +492,7 @@
 				""
 				"If put on top of a furnace, they'll make the furnace faster. You can't put multiple doggos on a furnace to speed it up more, though."
 			]
-			icon: "minecraft:furnace"
+			icon: "quark:foxhound_spawn_egg"
 			icon_scale: 1.2d
 			id: "673DCF07868BA853"
 			shape: "square"
@@ -538,7 +529,7 @@
 				""
 				"- If pushing Iron Rods onto an Oretoise with a piston will break its ore."
 			]
-			icon: "minecraft:diamond"
+			icon: "quark:toretoise_spawn_egg"
 			icon_scale: 1.2d
 			id: "19C749973E9F2940"
 			shape: "square"
@@ -562,7 +553,7 @@
 				""
 				"Addition also fetch any arrows or tridents after they land and bring them back to you, as long as they are not sitting."
 			]
-			icon: "minecraft:arrow"
+			icon: "quark:shiba_spawn_egg"
 			icon_scale: 1.2d
 			id: "1CC7C2825FFD94F5"
 			shape: "square"
@@ -590,7 +581,7 @@
 				""
 				"Tamed Stonelings can hold items you give them, eat Stone (they love it!), and follow you if you hold a Glow Shroom."
 			]
-			icon: "quark:diamond_heart"
+			icon: "quark:stoneling_spawn_egg"
 			icon_scale: 1.2d
 			id: "676E8E522B9D78FE"
 			shape: "square"
@@ -610,7 +601,7 @@
 		}
 		{
 			description: ["Right clicking the Soul Bead will release the soul trapped within, which will fly in the direction of the nearest Nether Fortress."]
-			icon: "minecraft:nether_bricks"
+			icon: "quark:wraith_spawn_egg"
 			icon_scale: 1.2d
 			id: "1AB4304C8B6DF300"
 			shape: "square"
@@ -733,7 +724,7 @@
 				}
 			}
 			id: "2FCB26EFFA0A534A"
-			subtitle: "Usable to upgrade enchantments"
+			subtitle: "Usable to upgrade enchantments."
 			tasks: [{
 				id: "16E53522FE2974B9"
 				title: "Understand"

@@ -11,7 +11,7 @@
 			image: "bbb:item/hammer"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.5d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
@@ -19,7 +19,7 @@
 			image: "jei:textures/jei/atlas/gui/icons/config_button.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 13.5d
+			x: 14.5d
 			y: -6.5d
 		}
 		{
@@ -27,7 +27,7 @@
 			image: "ftblibrary:icons/info"
 			rotation: 0.0d
 			width: 1.0d
-			x: 8.5d
+			x: 9.0d
 			y: -6.5d
 		}
 	]
@@ -119,6 +119,11 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "2197FD406DE919F1"
+					title: "Understand"
+					type: "checkmark"
+				}
 			]
 			title: "Golden Tools"
 			x: 6.5d
@@ -139,11 +144,11 @@
 				title: "Team management."
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 13.5d
 			y: -5.5d
 		}
 		{
-			description: ["Craft a hammer and use it on a regular workbench."]
+			description: ["Craft a &aHammer&r and use it on a regular &aWorkbench&r."]
 			icon: {
 				Count: 1
 				id: "tetra:holo"
@@ -189,7 +194,7 @@
 				}
 			]
 			title: "New customization options for weapons and tools."
-			x: 9.5d
+			x: 8.5d
 			y: -5.5d
 		}
 		{
@@ -202,12 +207,12 @@
 				type: "checkmark"
 			}]
 			title: "Sack drops."
-			x: 9.0d
+			x: 8.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"You can now place some new markers on maps. To do so just click with a map on one of the required blocks."
+				"You can now place some new markers on &aMaps&r. To do so just &6Right-Click&r with a &aMap&r on one of the required blocks."
 				"Some of these blocks will show the block name if they hold text or are renamed, just like vanilla banners."
 				""
 				"The supported blocks are:"
@@ -239,33 +244,33 @@
 			}]
 			title: "Map Markers"
 			x: 9.5d
-			y: -4.5d
+			y: -3.5d
 		}
 		{
 			icon: "minecraft:rotten_flesh"
 			id: "0E9F6656377B2F11"
-			subtitle: "Feeding a stack of rotten flesh to a owned skeleton horse will slowly convert it into a zombie horse"
+			subtitle: "Feeding a stack of rotten flesh to a owned skeleton horse will slowly convert it into a zombie horse."
 			tasks: [{
 				id: "7EAD7EC8007C427E"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Zombie Horse Conversion"
-			x: 8.5d
+			x: 7.5d
 			y: -5.5d
 		}
 		{
-			description: ["Placed books can give enchanting power to enchanting tables. The power given depends on the number and type of books used."]
+			description: ["Placed &abooks&r can give enchanting power to &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
 			icon: "minecraft:book"
 			id: "77F07A4539C74D35"
-			subtitle: "Enchanted and normal books can be placed and thus have a block form"
+			subtitle: "Enchanted and normal books can be placed and thus have a block form."
 			tasks: [{
 				id: "376CBE042329A4D7"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Placeable Books"
-			x: 2.5d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -278,7 +283,7 @@
 				type: "checkmark"
 			}]
 			title: "XP Bottling"
-			x: 7.0d
+			x: 7.5d
 			y: -3.5d
 		}
 		{
@@ -291,38 +296,38 @@
 				type: "checkmark"
 			}]
 			title: "Stripping or scraping blocks by dispenser"
-			x: 3.5d
+			x: 1.5d
 			y: -4.5d
 		}
 		{
 			description: ["Signal strength depends on how long you look at it."]
 			icon: "supplementaries:enderman_head"
 			id: "07F524D37BF26B35"
-			subtitle: "Emit a redstone signal when being stared at"
+			subtitle: "Emit a redstone signal when being stared at."
 			tasks: [{
 				id: "1E3A7A0D2D5BC7D7"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Enderman Head"
-			x: 4.0d
-			y: -3.5d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			icon: "minecraft:lava_bucket"
 			id: "040575F19F6EA236"
-			subtitle: "Using an item on a lava bucket in your inventory will delete the item"
+			subtitle: "Using an item on a lava bucket in your inventory will delete the item."
 			tasks: [{
 				id: "7B7A376D06684EF0"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Trash item in inventory"
-			x: 7.5d
-			y: -4.5d
+			x: 10.5d
+			y: -5.5d
 		}
 		{
-			description: ["Settings -> Control -> Walk Automatically"]
+			description: ["&6Settings&r -> &6Control&r -> &6Walk Automatically&r"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -331,18 +336,18 @@
 				}
 			}
 			id: "381B60C747DFF523"
-			subtitle: "You can bind key for auto-walking in the settings"
+			subtitle: "You can bind key for auto-walking in the settings."
 			tasks: [{
 				id: "12FAD597038B73EA"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Auto-walking"
-			x: 14.5d
+			x: 15.5d
 			y: -5.5d
 		}
 		{
-			description: ["&aCtrl&r + &aShift&r + &aT&r"]
+			description: ["&6Shift&r + &6T&r"]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -351,14 +356,14 @@
 				}
 			}
 			id: "551819C1F41CB014"
-			subtitle: "Pressing Shift+T when the cursor is over an item will link it to the chat."
+			subtitle: "Pressing Ctrl+Shift+T when the cursor is over an item will link it to the chat."
 			tasks: [{
 				id: "1C574D789AB49FC3"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Linking Items in Chat"
-			x: 13.5d
+			x: 14.5d
 			y: -5.5d
 		}
 		{
@@ -371,8 +376,8 @@
 				type: "checkmark"
 			}]
 			title: "Nether Portal Compass"
-			x: 8.0d
-			y: -3.5d
+			x: 9.5d
+			y: -4.5d
 		}
 		{
 			icon: {
@@ -386,242 +391,21 @@
 			}
 			id: "388AAB6A4437CFB6"
 			subtitle: "Item frames can be painted using dyes at a crafting table."
-			tasks: [
-				{
-					id: "1A8A64247BCC5BB6"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 6192150
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "69CA5ED814B4563E"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 1481884
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7AAB82904D0103F5"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 3847130
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "46238BE5D5C2C4BC"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 3949738
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "34D37025D88550D8"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 8991416
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "579E986637F72F86"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 13061821
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "47F8E65012EE4034"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 15961002
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "503A0A3CD44EC8BC"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 4673362
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3D49BAEAFE64B915"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 10329495
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "04DDFA116AC0AB6D"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 16383998
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "00C88C1B25909FA3"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 1908001
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7A2745285D2CD4C8"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 8606770
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4A902D4BE2C27E49"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 11546150
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5D54D85D545B1EA5"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 16351261
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "748936DAB1C4F8B1"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 16701501
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3C616EA5A87A12AE"
-					item: {
-						Count: 1
-						id: "minecraft:item_frame"
-						tag: {
-							display: {
-								color: 8439583
-							}
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "49C40DE6CFB338A5"
+				title: "Understand"
+				type: "checkmark"
+			}]
 			title: "Colored item frames"
-			x: 6.5d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Breaking grass or crops with a hoe will break a 3x3 area of them."
-				"A Diamond Hoe will break a 5x5 area instead."
+				"Breaking grass or crops with an any &aHoe&r will break a 3x3 area of them."
+				"A &aDiamond Hoe&r will break a 5x5 area instead."
 				""
-				"If you put Fortune on the hoe, it'll also apply that effect to everything it breaks."
+				"If you put &3Fortune enchantement&r on the &aHoe&r, it'll also apply that effect to everything it breaks."
 			]
 			icon: {
 				Count: 1
@@ -631,32 +415,32 @@
 				}
 			}
 			id: "33130AEBC1DCD488"
-			subtitle: "Learn how to use a hoe better"
+			subtitle: "Learn how to use a hoe better."
 			tasks: [{
 				id: "474E60E7BE997636"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Better Hoe"
-			x: 10.5d
+			x: 9.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"By default it'll turn direction once, so it can build blocks horizontally if you extend scaffolds that way."
+				"By default it'll turn direction once, so it can build blocks horizontally if you extend &aScaffolds&r that way."
 				""
-				"If you wish to use the default behaviour of placing blocks on the scaffold, you can still do it with shift-right click."
+				"If you wish to use the default behaviour of placing blocks on the &aScaffold&r, you can still do it with &6Shift&r + &6Right-Click&r."
 			]
 			icon: "minecraft:scaffolding"
 			id: "3EB7EF62044B9BDE"
-			subtitle: "Right clicking on a Scaffold with a block will attempt to replace the block at the end of the Scaffold chain"
+			subtitle: "Right clicking on a Scaffold with a block will attempt to replace the block at the end of the Scaffold chain."
 			tasks: [{
 				id: "1702A766806B4D5E"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Scaffolding Substitution"
-			x: 3.5d
+			x: 2.5d
 			y: -5.5d
 		}
 		{
@@ -669,14 +453,14 @@
 				type: "checkmark"
 			}]
 			title: "Slimes to Magma Cubes"
-			x: 8.5d
+			x: 6.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Setting a Skeleton Skull, Zombie Head, or Creeper Head over a fence, as shown in the image, will create a skull pike. Nearby monsters in a 5 block range and with line of sight will notice it, and run away in cowardice."
+				"Setting a &aSkeleton Skull&r, &aZombie Head&r, or &aCreeper Head&r over a &afence&r, will create a skull pike. Nearby &emonsters&r in a 5 block range and with line of sight will notice it, and run away in cowardice."
 				""
-				"&aNote:&r that bosses and raiders are slightly more astute, and won't fall for your tricks."
+				"&eBosses&r and &eRaiders&r are slightly more astute, and won't fall for your tricks."
 				""
 				"&8Everyone knows Wither Skeletons drop their heads all the time, and Dragon Heads are all cheap fakes, so those won't work either.&r"
 			]
@@ -689,7 +473,7 @@
 				type: "checkmark"
 			}]
 			title: "Skull Pikes"
-			x: 4.5d
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -702,16 +486,14 @@
 				type: "checkmark"
 			}]
 			title: "Pistons Move Tile Entities"
-			x: 3.0d
-			y: -3.5d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
 			description: [
-				"Any blocks that already had a placement behaviour, like TNT, are ignored."
+				"The blocks are rotated so they're placed forward from the &aDispenser&r."
 				""
-				"The blocks are rotated so they're placed forward from the dispenser."
-				""
-				"&aNote:&r that crops such as Wheat Seeds or Potatoes also count."
+				"Crops such as &aWheat Seeds&r or &aPotatoes&r also count."
 			]
 			icon: "minecraft:dispenser"
 			id: "4D52B75D2FFA17F9"
@@ -722,7 +504,7 @@
 				type: "checkmark"
 			}]
 			title: "Dispensers Place Blocks"
-			x: 4.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -735,11 +517,11 @@
 				type: "checkmark"
 			}]
 			title: "Chains Connect Blocks"
-			x: 2.5d
-			y: -4.5d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
-			description: ["When you do so, the vine will no longer be able to grow."]
+			description: ["When you do so, the &aVine&r will no longer be able to grow."]
 			icon: {
 				Count: 1
 				id: "minecraft:shears"
@@ -748,15 +530,15 @@
 				}
 			}
 			id: "45A60F30FE07D68C"
-			subtitle: "The tip of a vine can now be right-clicked with Shears.."
+			subtitle: "The tip of a vine can now be right-clicked with Shears."
 			tasks: [{
 				id: "646B18B1F7C13716"
 				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Shear Vine Tips"
-			x: 10.0d
-			y: -3.5d
+			x: 11.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -900,21 +682,22 @@
 			subtitle: "A set of useful information that will come in handy during your trip."
 			tasks: [{
 				id: "099EF6FB81C54F80"
-				title: "Understand"
+				title: "Get books"
 				type: "checkmark"
 			}]
 			title: "Getting Started"
-			x: 8.5d
+			x: 9.0d
 			y: -8.0d
 		}
 		{
 			description: [
-				"Increases your maximum hearts by 1 for each heart eaten."
+				"Increases your maximum hearts by 1 for each &aHeart Container&r eaten."
 				""
-				"These hearts can be obtained by completing great achievements."
+				"&aHeart Container&r can be obtained by completing great achievements."
 			]
 			icon: "paraglider:heart_container"
 			id: "68253772F8C54B87"
+			subtitle: "Complete great achievements and get maximum health."
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/balanced_diet"
@@ -978,8 +761,138 @@
 				}
 			]
 			title: "Increase health"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:campfire"
+			id: "55389CA5CD4BFEBC"
+			subtitle: "Being near a campfire will grant regeneration."
+			tasks: [
+				{
+					id: "24B382173285D4CD"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "42987C4E0FEACC5E"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+			]
 			x: 10.5d
 			y: -4.5d
+		}
+		{
+			description: [
+				"Each &aHyperbox&r has its own dimension stored within; should the block be mined and placed somewhere else, the dimension will remain linked to that block."
+				""
+				"The apertures transmit redstone power and forge capabilities (such as items being inserted or extracted from hoppers) between the inside and the outside faces of the &aHyperbox&r, allowing large machines to be constructed in tiny spaces."
+				""
+				"The single chunk within the &3Hyperbox dimension&r will remain loaded while the chunk containing the &aHyperbox&r block is loaded."
+				"&3Hyperbox dimension&r will be unloaded and stop ticking if their parent block is removed; the world will be loaded again when the block is placed again."
+				""
+				"                                            &cWARNING:&r"
+				"You can only get inside to &3Hyperbox dimension&r from the original &aHyperbox&r. If you lose the block, you will lose access to it."
+			]
+			id: "5E794443DFF1AB80"
+			min_width: 400
+			subtitle: "Allows you to build within itself."
+			tasks: [{
+				id: "66EC7DC3169088E2"
+				item: "hyperbox:hyperbox"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&6Right-Click&r to open the chiseling gui."
+				""
+				"- The preview can be switched between a single block, a row of blocks, and a 3x3 of blocks using the buttons on the right"
+				""
+				"- The bottom right button allows you to toggle between connected and non-connected textures"
+				""
+				"- The bottom chisel button will chisel all similar blocks in your inventory to the one you have selected"
+			]
+			id: "0BC7DE46A243370F"
+			subtitle: "Allows you to exchange between various decorative blocks with connected textures!"
+			tasks: [{
+				id: "71837561416F932F"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"You'll find a &aPost box&r and &aMailboxes&r available in every wood type."
+				""
+				"You can include items and an optional message to any &aMailbox&r placed in the world."
+				"It also works across dimensions. When you receive mail, you &aMailbox&r will appear with a little red flag."
+			]
+			icon: "mighty_mail:post_box"
+			id: "7B32AE9CDDCF6A9F"
+			subtitle: "Allows you to send mail to other players on your server."
+			tasks: [{
+				id: "17281878E724F9BE"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			title: "Postal system"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "6C0DBEBFF21FC785"
+			subtitle: "Can be used as shears."
+			tasks: [{
+				id: "103E5960F0778725"
+				item: {
+					Count: 1
+					id: "ecologics:crab_claw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "48FD94D78210BDF4"
+			subtitle: "Can be placed on top of a turtle nest to protect it from zombies."
+			tasks: [{
+				id: "6F75077A9EE90906"
+				item: "ecologics:sandcastle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"The &aBartering Stations&r are protected from explosions and player griefing."
+				"Only owner can break &aBartering Stations&r that belong to them."
+				""
+				"&6If you plan to add a mod for the economy, do not forget to enable the Shop Block in the configs.&r"
+			]
+			id: "7FED557ED2C79FCC"
+			subtitle: "Allows you to trade with other players."
+			tasks: [{
+				id: "3D7C1B595EB5C9F5"
+				item: "shoppy:bartering_station"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
 		}
 	]
 	title: "Tips and Hints"
