@@ -101,6 +101,18 @@ ServerEvents.recipes(event => {
     unpack('9x neapolitan:banana', 'neapolitan:banana_crate');
   }
 
+  // Metal Press Recipes - Other
+  if (Platform.isLoaded('ae2')) {
+    event.recipes.immersiveengineering.metal_press('ae2:printed_calculation_processor', '#forge:gems/certus_quartz', 'ae2:calculation_processor_press').id(`${ID_PREFIX}metal_press/printed_calculation_processor`);
+    event.recipes.immersiveengineering.metal_press('ae2:calculation_processor_press', '#forge:storage_blocks/iron', 'ae2:calculation_processor_press').id(`${ID_PREFIX}metal_press/calculation_processor_press`);
+    event.recipes.immersiveengineering.metal_press('ae2:printed_engineering_processor', '#forge:gems/diamond', 'ae2:engineering_processor_press').id(`${ID_PREFIX}metal_press/printed_engineering_processor`);
+    event.recipes.immersiveengineering.metal_press('ae2:engineering_processor_press', '#forge:storage_blocks/iron', 'ae2:engineering_processor_press').id(`${ID_PREFIX}metal_press/engineering_processor_press`);
+    event.recipes.immersiveengineering.metal_press('ae2:printed_engineering_processor', '#forge:ingots/gold', 'ae2:logic_processor_press').id(`${ID_PREFIX}metal_press/printed_logic_processor`);
+    event.recipes.immersiveengineering.metal_press('ae2:printed_logic_processor', '#forge:storage_blocks/iron', 'ae2:logic_processor_press').id(`${ID_PREFIX}metal_press/logic_processor_press`);
+    event.recipes.immersiveengineering.metal_press('ae2:printed_silicon', '#forge:silicon', 'ae2:silicon_press').id(`${ID_PREFIX}metal_press/printed_silicon`);
+    event.recipes.immersiveengineering.metal_press('ae2:silicon_press', '#forge:storage_blocks/iron', 'ae2:silicon_press').id(`${ID_PREFIX}metal_press/silicon_press`);
+  }
+
   // Crusher Recipes
   // Replace IE recipes to switch grit/dust for Create crushed ores
   ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>

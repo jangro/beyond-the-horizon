@@ -242,7 +242,7 @@ ServerEvents.recipes(event => {
   ], {
     S: 'ae2:spatial_cell_component_16',
     P: 'ae2:spatial_pylon',
-    O: 'minecraft:obsidian',
+    O: '#forge:obsidian',
     E: 'minecraft:ender_eye'
   }).id(`${ID_PREFIX}hyperbox`);
 
