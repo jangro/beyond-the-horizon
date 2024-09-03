@@ -1,0 +1,36 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "create:cut_diorite"
+    },
+    {
+      "item": "create:polished_cut_diorite"
+    },
+    {
+      "item": "create:cut_diorite_bricks"
+    },
+    {
+      "item": "create:small_diorite_bricks"
+    },
+    {
+      "item": "create:layered_diorite"
+    },
+    {
+      "item": "create:diorite_pillar"
+    },
+    {
+      "item": "quark:diorite_bricks"
+    },
+    {
+      "item": "quark:chiseled_diorite_bricks"
+    },
+    {
+      "item": "quark:diorite_pillar"
+    }
+  ],
+  "overwrite": false
+}

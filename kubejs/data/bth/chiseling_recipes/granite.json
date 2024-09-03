@@ -1,0 +1,36 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "create:cut_granite"
+    },
+    {
+      "item": "create:polished_cut_granite"
+    },
+    {
+      "item": "create:cut_granite_bricks"
+    },
+    {
+      "item": "create:small_granite_bricks"
+    },
+    {
+      "item": "create:layered_granite"
+    },
+    {
+      "item": "create:granite_pillar"
+    },
+    {
+      "item": "quark:granite_bricks"
+    },
+    {
+      "item": "quark:chiseled_granite_bricks"
+    },
+    {
+      "item": "quark:granite_pillar"
+    }
+  ],
+  "overwrite": false
+}

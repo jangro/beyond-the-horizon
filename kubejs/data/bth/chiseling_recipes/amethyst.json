@@ -1,0 +1,18 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "item": "galosphere:amethyst_bricks"
+    },
+    {
+      "item": "galosphere:smooth_amethyst"
+    },
+    {
+      "item": "galosphere:chiseled_amethyst"
+    }
+  ],
+  "overwrite": false
+}
