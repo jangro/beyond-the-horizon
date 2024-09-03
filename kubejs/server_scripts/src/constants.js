@@ -61,3 +61,5 @@ const VANILLA_WOOD_STEM_TYPES = [
   'crimson',
   'warped'
 ];
+
+const VANILLA_WOOD_TYPES_ALL = VANILLA_WOOD_LOG_TYPES.concat(VANILLA_WOOD_STEM_TYPES);

@@ -44,6 +44,13 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('minecraft:paper', [Fluid.of('minecraft:water 500'), '2x #forge:dusts/wood']).id(`${ID_PREFIX}mixing/paper_from_sawdust`);
   event.recipes.create.mixing('pneumaticcraft:speed_upgrade', [Fluid.of('pneumaticcraft:lubricant 500'), '2x pneumaticcraft:glycerol', '2x #pneumaticcraft:upgrade_components']).id(`${ID_PREFIX}mixing/speed_upgrade_from_glycerol`);
 
+  // Sandpaper Polishing
+  // Hearth and Home Sanded Wood
+  VANILLA_WOOD_TYPES_ALL.forEach((wood) => {
+    event.recipes.create.sandpaper_polishing(`hearth_and_home:${wood}_sanded_wood`, `minecraft:${wood}_planks`).id(`${ID_PREFIX}sanding/${wood}`);
+  });
+  // TODO: Add Every Compat ones, too.
+
   // Splashing
   event.recipes.create.splashing(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}splashing/plastic_waste_from_garbage_pile`);
   event.recipes.create.splashing('valhelsia_structures:unlit_lantern', 'minecraft:lantern').id(`${ID_PREFIX}splashing/unlit_lantern_from_lantern`);

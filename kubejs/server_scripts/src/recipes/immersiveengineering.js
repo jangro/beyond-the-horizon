@@ -115,8 +115,7 @@ ServerEvents.recipes(event => {
 
   // Crusher Recipes
   // Replace IE recipes to switch grit/dust for Create crushed ores
-  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>
-  {
+  ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) => {
     event.remove({id: `immersiveengineering:crusher/ingot_${material}`});
     event.remove({id: `immersiveengineering:crusher/ore_${material}`});
     event.remove({id: `immersiveengineering:crusher/raw_block_${material}`});
