@@ -52,6 +52,11 @@ ServerEvents.recipes(event => {
   // TODO: Add Every Compat ones, too.
 
   // Splashing
+  event.recipes.create.splashing('alexscaves:rusty_barrel', 'alexscaves:metal_barrel').id(`${ID_PREFIX}splashing/rusty_barrel`);
+  event.recipes.create.splashing('alexscaves:rusty_rebar', 'alexscaves:metal_rebar').id(`${ID_PREFIX}splashing/rusty_rebar`);
+  event.recipes.create.splashing('alexscaves:rusty_scaffolding', 'alexscaves:metal_scaffolding').id(`${ID_PREFIX}splashing/rusty_scaffolding`);
+  event.recipes.create.splashing('alexscaves:rusty_scrap_metal', 'alexscaves:scrap_metal').id(`${ID_PREFIX}splashing/rusty_scrap_metal`);
+  event.recipes.create.splashing('alexscaves:rusty_scrap_metal_plate', 'alexscaves:scrap_metal_plate').id(`${ID_PREFIX}splashing/rusty_scrap_metal_plate`);
   event.recipes.create.splashing(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}splashing/plastic_waste_from_garbage_pile`);
   event.recipes.create.splashing('valhelsia_structures:unlit_lantern', 'minecraft:lantern').id(`${ID_PREFIX}splashing/unlit_lantern_from_lantern`);
   event.recipes.create.splashing('valhelsia_structures:unlit_soul_lantern', 'minecraft:soul_lantern').id(`${ID_PREFIX}splashing/unlit_soul_lantern_from_soul_lantern`);
