@@ -175,6 +175,16 @@ ServerEvents.tags('item', event => {
     'graveyard:dark_iron_block',
   ]);
 
+  event.add('forge:raw_fishes', [
+    'alexscaves:lanternfish',
+    'alexscaves:tripodfish',
+    'alexsmobs:catfish_slice',
+    'alexsmobs:raw_catfish_slice',
+    'alexsmobs:flying_fish',
+    'aquamirae:spinefish',
+    'rats:ratfish',
+  ]);
+
   // Ars Elemental Tags
   event.add('ars_elemental:caster_bag_item', [
     'aether:cloud_staff',
