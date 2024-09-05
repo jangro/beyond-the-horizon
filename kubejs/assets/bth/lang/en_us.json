@@ -132,6 +132,10 @@
   "biome.terralith.yosemite_lowlands": "Yosemite Lowlands",
   
   "bth.comment.blocks": "----- Blocks -----",
+  "block.forbidden_arcanus.clibano_center": "Clibano",
+  "block.forbidden_arcanus.clibano_corner": "Clibano",
+  "block.forbidden_arcanus.clibano_side_horizontal": "Clibano",
+  "block.forbidden_arcanus.clibano_side_vertical": "Clibano",
   "block.tetra.scroll_wall": "Scroll",
 
   "bth.comment.chat": "-----Chat Messages-----",
@@ -203,6 +207,7 @@
 
   "bth.comment.subtitles": "----- Subtitles -----",
   "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used",
+  "subtitle.mighty_mail.package_open": "Package opened",
 
   "bth.comment.tooltips": "----- Tooltips -----",
   "tooltip.bth.coconut_maul": "Share this with all ur friends to totally Coconut Maul them."
