@@ -359,19 +359,19 @@ LootJS.modifiers((event) => {
     .randomChance(0.05)
     .addLoot(DRAGON_EGG_FOREST)
 });
-// Dragon Egg: ghost
+// Dragon Egg: Ghost
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
     .anyStructure(['graveyard:crypt'], false)
-    .randomChance(0.05)
+    .randomChance(0.002)
     .addLoot(DRAGON_EGG_GHOST)
 });
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
     .anyStructure(['rats:dutchrat_ship'], false)
-    .randomChance(0.10)
+    .randomChance(0.05)
     .addLoot(DRAGON_EGG_GHOST)
 });
 // Dragon Egg: ice
