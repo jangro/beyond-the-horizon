@@ -57,6 +57,26 @@ ServerEvents.tags('block', event => {
     'forbidden_arcanus:deorum_block',
   ]);
 
+  // Ars Nouveau Tags
+  event.add('ars_nouveau:golem/cluster', [
+    'alexscaves:sulfur_cluster',
+    'galosphere:allurite_cluster',
+    'galosphere:glinted_allurite_cluster',
+    'galosphere:glinted_amethyst_cluster',
+    'galosphere:glinted_lumiere_cluster',
+    'galosphere:lumiere_cluster',
+    'galosphere:pink_salt_cluster',
+    'quark:red_corundum_cluster',
+    'quark:orange_corundum_cluster',
+    'quark:yellow_corundum_cluster',
+    'quark:green_corundum_cluster',
+    'quark:blue_corundum_cluster',
+    'quark:indigo_corundum_cluster',
+    'quark:violet_corundum_cluster',
+    'quark:white_corundum_cluster',
+    'quark:black_corundum_cluster',
+  ]);
+
   // Create Tags
   event.add('create:fan_processing_catalysts/haunting', [
     'valhelsia_structures:soul_brazier',

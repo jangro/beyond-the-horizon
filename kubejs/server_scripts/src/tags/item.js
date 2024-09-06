@@ -211,6 +211,23 @@ ServerEvents.tags('item', event => {
     /irons_spellbooks:.*_leggings$/,
     /irons_spellbooks:.*_boots$/,
   ]);
+  
+  // Ars Nouveau Tags
+  event.add('ars_nouveau:golem/shard', [
+    'eidolon:sulfur',
+    'galosphere:allurite_shard',
+    'galosphere:lumiere_shard',
+    'galosphere:pink_salt_shard',
+    'quark:red_corundum_cluster',
+    'quark:orange_corundum_cluster',
+    'quark:yellow_corundum_cluster',
+    'quark:green_corundum_cluster',
+    'quark:blue_corundum_cluster',
+    'quark:indigo_corundum_cluster',
+    'quark:violet_corundum_cluster',
+    'quark:white_corundum_cluster',
+    'quark:black_corundum_cluster',
+  ]);
 
   // Supplementaries Tags
   event.add('supplementaries:throwable_bricks', [
