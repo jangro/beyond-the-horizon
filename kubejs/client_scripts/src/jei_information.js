@@ -28,6 +28,9 @@ JEIEvents.information(event => {
   // Eccentric Tome
   addInfo('eccentrictome:tome', ['bth.information.eccentrictome.filled_eccentric_tome', 'bth.information.eccentrictome.reverting']);
 
+  // Farmer's Delight
+  addInfo(['farmersdelight:brown_mushroom_colony', 'farmersdelight:red_mushroom_colony'], 'bth.information.farmersdelight.mushroom_colonies');
+
   // Tetra
   addInfo(['minecraft:ancient_debris', 'aether:gravitite_ore', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum'], 'bth.information.tetra.scannable_blocks');
 
