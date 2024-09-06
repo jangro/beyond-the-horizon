@@ -185,6 +185,33 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  // Mansion Junk Loot
+  event.modify('revampedvilages:mansion_junk', table => {
+    table.clearPools();
+    table.addPool(pool => {
+      pool.rolls = [1, 5];
+      pool.addItem('minecraft:cobweb', 20, [2, 3]);
+      pool.addItem('supplementaries:ash', 20, [2, 3]);
+      pool.addItem('minecraft:stick', 10, [2, 3]);
+      pool.addItem('eidolon:silver_nugget', 10, [1, 4]);
+      pool.addItem('galosphere:salted_jerky', 10, [2, 4]);
+      pool.addItem('minecraft:emerald', 5, [1, 2]);
+      pool.addItem('minecraft:candle', 4, [1, 4]);
+    });
+  });
+
+  // Mansion Common Loot
+  event.modify('minecraft:chests/woodland_mansion', table => {
+    table.addPool(pool => {
+      pool.addItem(EVOKER_FORT_MAP).randomChance(0.03);
+    });
+  });
+
+  // Mansion Treasure Loot
+  event.modify('revampedvilages:mansion_treasure', table => {
+    // None yet.
+  });
+  
   // Additional Cooking Chest Loot (Valhelsia Structures)
   [
     'valhelsia_structures:desert_house',
