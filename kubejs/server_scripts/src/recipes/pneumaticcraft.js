@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
   event.recipes.pneumaticcraft.explosion_crafting('minecraft:obsidian', 'minecraft:crying_obsidian', 20).id(`${ID_PREFIX}explosion_crafting/crying_obsidian_from_obsidian`);
 
   // Fluid Mixer
-  event.recipes.pneumaticcraft.fluid_mixer(Fluid.of('immersiveengineering:acetaldehyde 12'), Fluid.of('immersiveengineering:creosote 8'), 1, 10, 'minecraft:air', Fluid.of('immersiveengineering:phenolic_resin 8')).id(`${ID_PREFIX}fluid_mixer/phenolic_resin`);
+  event.recipes.pneumaticcraft.fluid_mixer(Fluid.of('immersiveengineering:acetaldehyde 12'), Fluid.of('immersiveengineering:creosote 8'), 1, 10, Fluid.of('immersiveengineering:phenolic_resin 8')).id(`${ID_PREFIX}fluid_mixer/phenolic_resin`);
 
   // Fuel Quality
 
