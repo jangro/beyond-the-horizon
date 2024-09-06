@@ -264,17 +264,26 @@ LootJS.modifiers((event) => {
     .removeLoot(ANCIENT_CITY_MAP)
 });
 
-// Add Evoker Fort and Mansion maps to the following structures with different chances
+// Mansions have a chance to have a map to a pillager outpost.
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
     .anyStructure([
-      'minecraft:mansion',
-      'ctov:pillager_outpost_plains',
+      'minecraft:mansion'
     ], false)
-    .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.05)))
+    .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.05)));
+});
+
+// Pillager outposts have a chance to have a map to a mansion.
+LootJS.modifiers((event) => {
+  event
+    .addLootTypeModifier('chest')
+    .anyStructure([
+      'ctov:pillager_outpost_plains'
+    ], false)
     .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.05)));
 });
+
 LootJS.modifiers((event) => {
   event
     .addLootTypeModifier('chest')
