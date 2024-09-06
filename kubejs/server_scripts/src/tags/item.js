@@ -212,4 +212,9 @@ ServerEvents.tags('item', event => {
     /irons_spellbooks:.*_boots$/,
   ]);
 
+  // Supplementaries Tags
+  event.add('supplementaries:throwable_bricks', [
+    'alexscaves:cinder_brick',
+  ]);
+
 });
