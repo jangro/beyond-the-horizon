@@ -271,7 +271,7 @@ LootJS.modifiers((event) => {
     .anyStructure([
       'minecraft:mansion'
     ], false)
-    .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.05)));
+    .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.01)));
 });
 
 // Pillager outposts have a chance to have a map to a mansion.
