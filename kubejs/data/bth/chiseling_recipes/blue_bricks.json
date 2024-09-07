@@ -1,0 +1,24 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "createdeco:blue_bricks"
+    },
+    {
+      "item": "createdeco:cracked_blue_bricks"
+    },
+    {
+      "item": "createdeco:corner_blue_bricks"
+    },
+    {
+      "item": "createdeco:tiled_blue_bricks"
+    },
+    {
+      "item": "createdeco:short_blue_bricks"
+    },
+    {
+      "item": "createdeco:long_blue_bricks"
+    }
+  ],
+  "overwrite": false
+}

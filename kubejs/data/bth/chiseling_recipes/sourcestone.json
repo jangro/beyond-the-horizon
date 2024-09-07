@@ -1,0 +1,69 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "ars_nouveau:sourcestone"
+    },
+    {
+      "item": "ars_nouveau:sourcestone_alternating"
+    },
+    {
+      "item": "ars_nouveau:sourcestone_large_bricks"
+    },
+    {
+      "item": "ars_nouveau:sourcestone_small_bricks"
+    },
+    {
+      "item": "ars_nouveau:sourcestone_mosaic"
+    },
+    {
+      "item": "ars_nouveau:sourcestone_basketweave"
+    },
+    {
+      "item": "ars_nouveau:smooth_sourcestone"
+    },
+    {
+      "item": "ars_nouveau:smooth_sourcestone_alternating"
+    },
+    {
+      "item": "ars_nouveau:smooth_sourcestone_large_bricks"
+    },
+    {
+      "item": "ars_nouveau:smooth_sourcestone_small_bricks"
+    },
+    {
+      "item": "ars_nouveau:smooth_sourcestone_mosaic"
+    },
+    {
+      "item": "ars_nouveau:smooth_sourcestone_basketweave"
+    },
+    {
+      "item": "ars_nouveau:gilded_sourcestone_alternating"
+    },
+    {
+      "item": "ars_nouveau:gilded_sourcestone_large_bricks"
+    },
+    {
+      "item": "ars_nouveau:gilded_sourcestone_small_bricks"
+    },
+    {
+      "item": "ars_nouveau:gilded_sourcestone_mosaic"
+    },
+    {
+      "item": "ars_nouveau:gilded_sourcestone_basketweave"
+    },
+    {
+      "item": "ars_nouveau:smooth_gilded_sourcestone_alternating"
+    },
+    {
+      "item": "ars_nouveau:smooth_gilded_sourcestone_large_bricks"
+    },
+    {
+      "item": "ars_nouveau:smooth_gilded_sourcestone_small_bricks"
+    },
+    {
+      "item": "ars_nouveau:smooth_gilded_sourcestone_mosaic"
+    }
+  ],
+  "overwrite": false
+}

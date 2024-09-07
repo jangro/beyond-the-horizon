@@ -1,0 +1,24 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "createdeco:umber_bricks"
+    },
+    {
+      "item": "createdeco:cracked_umber_bricks"
+    },
+    {
+      "item": "createdeco:corner_umber_bricks"
+    },
+    {
+      "item": "createdeco:tiled_umber_bricks"
+    },
+    {
+      "item": "createdeco:short_umber_bricks"
+    },
+    {
+      "item": "createdeco:long_umber_bricks"
+    }
+  ],
+  "overwrite": false
+}

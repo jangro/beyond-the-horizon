@@ -1,0 +1,24 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "createdeco:scarlet_bricks"
+    },
+    {
+      "item": "createdeco:cracked_scarlet_bricks"
+    },
+    {
+      "item": "createdeco:corner_scarlet_bricks"
+    },
+    {
+      "item": "createdeco:tiled_scarlet_bricks"
+    },
+    {
+      "item": "createdeco:short_scarlet_bricks"
+    },
+    {
+      "item": "createdeco:long_scarlet_bricks"
+    }
+  ],
+  "overwrite": false
+}

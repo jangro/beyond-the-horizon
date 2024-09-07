@@ -1,0 +1,18 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "galosphere:allurite_block"
+    },
+    {
+      "item": "galosphere:allurite_bricks"
+    },
+    {
+      "item": "galosphere:smooth_allurite"
+    },
+    {
+      "item": "galosphere:chiseled_allurite"
+    }
+  ],
+  "overwrite": false
+}

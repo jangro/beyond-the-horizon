@@ -1,0 +1,36 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "create:cut_andesite"
+    },
+    {
+      "item": "create:polished_andesite"
+    },
+    {
+      "item": "create:cut_andesite_bricks"
+    },
+    {
+      "item": "create:small_andesite_bricks"
+    },
+    {
+      "item": "create:layered_andesite"
+    },
+    {
+      "item": "create:andesite_pillar"
+    },
+    {
+      "item": "quark:andesite_bricks"
+    },
+    {
+      "item": "quark:chiseled_andesite_bricks"
+    },
+    {
+      "item": "quark:andesite_pillar"
+    }
+  ],
+  "overwrite": false
+}

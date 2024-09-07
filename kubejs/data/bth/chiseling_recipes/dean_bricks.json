@@ -1,0 +1,24 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "createdeco:dean_bricks"
+    },
+    {
+      "item": "createdeco:cracked_dean_bricks"
+    },
+    {
+      "item": "createdeco:corner_dean_bricks"
+    },
+    {
+      "item": "createdeco:tiled_dean_bricks"
+    },
+    {
+      "item": "createdeco:short_dean_bricks"
+    },
+    {
+      "item": "createdeco:long_dean_bricks"
+    }
+  ],
+  "overwrite": false
+}

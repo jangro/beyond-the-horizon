@@ -1,0 +1,24 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "createdeco:verdant_bricks"
+    },
+    {
+      "item": "createdeco:cracked_verdant_bricks"
+    },
+    {
+      "item": "createdeco:corner_verdant_bricks"
+    },
+    {
+      "item": "createdeco:tiled_verdant_bricks"
+    },
+    {
+      "item": "createdeco:short_verdant_bricks"
+    },
+    {
+      "item": "createdeco:long_verdant_bricks"
+    }
+  ],
+  "overwrite": false
+}
