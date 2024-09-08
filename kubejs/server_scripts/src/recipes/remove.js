@@ -153,7 +153,6 @@ ServerEvents.recipes(event => {
     'sophisticatedbackpacks:void_upgrade',
     'storagedrawers:void_upgrade',
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
-    'supplementaries:soap_clean_valhelsia_structures_sleeping_bag',
     'v_slab_compat:immersiveengineering/storage_uranium',
     'v_slab_compat:immersiveengineering/storage_uranium_stonecutter',
     /wardrobe:.*backpack/,
