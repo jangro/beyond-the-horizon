@@ -261,6 +261,7 @@ ServerEvents.recipes(event => {
   replaceOutput('immersiveengineering:ore_silver', 'eidolon:silver_ore');
 
   // Raw Materials
+  replaceOutput('immersiveengineering:raw_lead', 'eidolon:raw_lead');
   replaceOutput('galosphere:raw_silver', 'eidolon:raw_silver');
   replaceOutput('immersiveengineering:raw_silver', 'eidolon:raw_silver');
 
