@@ -2154,6 +2154,11 @@ hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
 metafile = true
 
 [[files]]
+file = "mods/framed-compacting-drawers.pw.toml"
+hash = "187bf861f43bc59e65cdd3ad5fbb8bc2042ad43d53de11f32002d565faf9d174"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "f0985d39c6bb45984378049516de43f8faa6ee52ac74487d67442452cbf84d60"
 metafile = true
