@@ -1589,6 +1589,11 @@ hash = "9d3a6e55ee7d47044bff528f2454f340666a5a9f03d72a830ff17f528f34a922"
 metafile = true
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "11c40209898628cc8ca75d28f539c449384b40600bfc88272306f6138f4e4428"
+metafile = true
+
+[[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "6beb1d0a4f6d842e107ee4dc4affe810b013ae2cdea91a1d35ad0266cb457804"
 metafile = true
