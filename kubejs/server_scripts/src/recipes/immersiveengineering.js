@@ -30,11 +30,11 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.metal_press('create:cogwheel', 'create:andesite_alloy', 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/cogwheel`);
   }
   // Immersive Engineering
-  event.recipes.immersiveengineering.metal_press('immersiveengineering:sawblade', '6x #forge:ingots/steel', 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/sawblade`);
+  event.recipes.immersiveengineering.metal_press('immersiveengineering:sawblade', {base_ingredient: '#forge:ingots/steel', count: 6}, 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/sawblade`);
 
   // PneumaticCraft
   if (Platform.isLoaded('pneumaticcraft')) {
-    event.recipes.immersiveengineering.metal_press('pneumaticcraft:compressed_iron_gear', '4x #forge:ingots/compressed_iron', 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/compressed_iron_gear`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:compressed_iron_gear', {base_ingredient: '#forge:ingots/compressed_iron', count: 4}, 'immersiveengineering:mold_gear').id(`${ID_PREFIX}metal_press/compressed_iron_gear`);
   }
 
   // Metal Press Recipes - Plates / Sheets
@@ -57,7 +57,7 @@ ServerEvents.recipes(event => {
 
   // PneumaticCraft
   if (Platform.isLoaded('pneumaticcraft')) {
-    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '3x rats:raw_plastic', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/plastic_from_raw_plastic`);
+    event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', {base_ingredient: 'rats:raw_plastic', count: 3}, 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metalpress/plastic_from_raw_plastic`);
     event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:plastic_bricks', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metal_press/plastic_from_plastic_bricks`);
     event.recipes.immersiveengineering.metal_press('pneumaticcraft:plastic', '#pneumaticcraft:smooth_plastic_bricks', 'immersiveengineering:mold_plate').id(`${ID_PREFIX}metal_press/plastic_from_smooth_plastic_bricks`);
   }
