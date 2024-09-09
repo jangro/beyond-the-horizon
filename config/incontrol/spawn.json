@@ -10,24 +10,24 @@
   {
     "mob": "alexsmobs:cockroach",
     "mincount": {
-      "amount": 1,
-      "perchunk": true
+      "amount": 5,
+      "perplayer": true
     },
     "result": "deny"
   },
   {
     "mob": "alexsmobs:flying_fish",
     "mincount": {
-      "amount": 1,
-      "perchunk": true
+      "amount": 5,
+      "perplayer": true
     },
     "result": "deny"
   },
   {
     "mob": "alexsmobs:terrapin",
     "mincount": {
-      "amount": 1,
-      "perchunk": true
+      "amount": 3,
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -66,16 +66,16 @@
   {
     "mob": "quark:stoneling",
     "mincount": {
-      "amount": 1,
-      "perchunk": true
+      "amount": 5,
+      "perplayer": true
     },
     "result": "deny"
   },
   {
     "mob": "quark:toretoise",
     "mincount": {
-      "amount": 1,
-      "perchunk": true
+      "amount": 5,
+      "perplayer": true
     },
     "result": "deny"
   }
