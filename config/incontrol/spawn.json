@@ -1,13 +1,5 @@
 [
   {
-    "mob": "eidolon:wraith",
-    "mincount": {
-      "amount": 5,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
     "mob": "alexsmobs:catfish",
     "mincount": {
       "amount": 1,
@@ -16,7 +8,71 @@
     "result": "deny"
   },
   {
+    "mob": "alexsmobs:cockroach",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "alexsmobs:flying_fish",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "alexsmobs:terrapin",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "eidolon:wraith",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cod",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:salmon",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:dolphin",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "quark:stoneling",
+    "mincount": {
+      "amount": 1,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "quark:toretoise",
     "mincount": {
       "amount": 1,
       "perchunk": true
