@@ -228,6 +228,7 @@ ServerEvents.recipes(event => {
 
   // Dusts
   replaceOutput('alexscaves:sulfur_dust', 'eidolon:sulfur');
+  replaceOutput('immersiveengineering:dust_sulfur', 'eidolon:sulfur');
 
   // Ingots
   replaceOutput('galosphere:silver_ingot', 'eidolon:silver_ingot');
@@ -240,6 +241,7 @@ ServerEvents.recipes(event => {
   replaceOutput('galosphere:silver_nugget', 'eidolon:silver_nugget');
   replaceOutput('immersiveengineering:nugget_copper', 'create:copper_nugget');
   replaceOutput('immersiveengineering:nugget_electrum', 'createaddition:electrum_nugget');
+  replaceOutput('immersiveengineering:nugget_lead', 'eidolon:lead_nugget');
   replaceOutput('immersiveengineering:nugget_silver', 'eidolon:silver_nugget');
   replaceOutput('pneumaticcraft:copper_nugget', 'create:copper_nugget');
   // Note: Unsure of how best to handle Alex's Caves Uranium Shards, as they're nuggets but ones
