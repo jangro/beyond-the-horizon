@@ -27,6 +27,7 @@ JEIEvents.hideItems(event => {
     'createaddition:electrum_wire',
     'createdeco:zinc_sheet',
     'farmersdelight:rope',
+    /ftbquests:.*/,
     'galosphere:deepslate_silver_ore',
     'galosphere:raw_silver',
     'galosphere:raw_silver_block',

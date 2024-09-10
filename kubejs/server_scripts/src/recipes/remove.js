@@ -9,8 +9,11 @@
  */
 ServerEvents.recipes(event => {
 
-  // Remove recipes for all sleeping bags & bedrolls.
+  // Remove recipes for all bedrolls.
   COLORS.forEach((color) => event.remove({id: `upgrade_aquatic:${color}_bedroll`}));
+
+  // Remove all Waystones recipes
+  event.remove({mod: `ftbquests`});
 
   // Remove all Rustic Engineer recipes, we add our own for a subset of the items
   event.remove({mod: `rustic_engineer`});
