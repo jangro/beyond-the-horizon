@@ -40,10 +40,18 @@
     "result": "deny"
   },
   {
-    "mob": "minecraft:cod",
+    "mob": "minecraft:bat",
     "mincount": {
       "amount": 1,
       "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cod",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
     },
     "result": "deny"
   },
