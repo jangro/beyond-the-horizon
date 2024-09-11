@@ -4,11 +4,12 @@
  * @file Structure loot table injection / replacement for Beyond the Horizon.
  */
 
-// Add Tiny Coins chance to all loot chests
-// All loot chests have a 10% chance to generate coins. The amount of coins is function
-// of distance to spawn. Near spawn there will be 1-5 coins, and increase linearly to
-// 10-50 coins 10000 or more blocks away from spawn in a straight line.
 LootJS.modifiers((event) => {
+
+  // Add Tiny Coins chance to all loot chests
+  // All loot chests have a 10% chance to generate coins. The amount of coins is function
+  // of distance to spawn. Near spawn there will be 1-5 coins, and increase linearly to
+  // 10-50 coins 10000 or more blocks away from spawn in a straight line.
   event
     .addLootTypeModifier('chest')
     .anyDimension('minecraft:overworld')
@@ -20,10 +21,8 @@ LootJS.modifiers((event) => {
       let count = Math.floor(Math.random() * 5) + 1;
       context.addLoot(Item.of('rats:tiny_coin', count * factor));
   });
-});
 
-// Make loot max out at half the distance for the following dimensions
-LootJS.modifiers((event) => {
+  // Make loot max out at half the distance for the following dimensions
   event
     .addLootTypeModifier('chest')
     .anyDimension(['minecraft:the_end', 'minecraft:the_nether', 'aether:the_aether'])
@@ -35,10 +34,8 @@ LootJS.modifiers((event) => {
       let count = Math.floor(Math.random() * 5) + 1;
       context.addLoot(Item.of('rats:tiny_coin', count * factor));
   });
-});
 
-// For Ratlantis shipwrecks, we clear the loot table to remove all overworld loot.
-LootJS.modifiers((event) => {
+  // For Ratlantis shipwrecks, we clear the loot table to remove all overworld loot.
   event
     .addLootTypeModifier('chest')
     .anyDimension(['rats:ratlantis'])
@@ -131,11 +128,9 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of('smallships:cannon').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('smallships:cannon_ball', 3).when((c) => c.randomChance(0.1)));
       }
-    })
-});
+    });
 
-// Add a random amount (10-30) of tiny coins to all loot chests in Ratlantis
-LootJS.modifiers((event) => {
+  // Add a random amount (10-30) of tiny coins to all loot chests in Ratlantis.
   event
     .addLootTypeModifier('chest')
     .anyDimension(['rats:ratlantis'])
@@ -143,10 +138,8 @@ LootJS.modifiers((event) => {
     .apply((context) => {
       context.addLoot(Item.of('rats:tiny_coin', Math.floor(Math.random() * 21) + 10));
     });
-});
 
-// Add Aether dungeon maps to Aether village chests
-LootJS.modifiers((event) => {
+  // Add Aether dungeon maps to Aether village chests.
   event
     .addLootTypeModifier('chest')
     .anyStructure(['aether_villages:olympic_citadel'], false)
@@ -154,28 +147,22 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(AETHER_SILVER_DUNGEON_MAP).when((c) => c.randomChance(0.12)))
     .addLoot(LootEntry.of(AETHER_GOLD_DUNGEON_MAP).when((c) => c.randomChance(0.08)))
     .addLoot(LootEntry.of(AETHER_PLATINUM_DUNGEON_MAP).when((c) => c.randomChance(0.04)))
-});
 
-// Add Forbidden Castle map to Piglin villages
-LootJS.modifiers((event) => {
+  // Add Forbidden Castle map to Piglin villages.
   event
     .addLootTypeModifier('chest')
     .anyStructure(['incendium:piglin_village'], false)
     .randomChance(0.1) // 10% per chest
     .addLoot(FORBIDDEN_CASTLE_MAP)
-});
 
-// Add Piglin Village map to Nether Fortress
-LootJS.modifiers((event) => {
+  // Add Piglin Village map to Nether Fortress.
   event
     .addLootTypeModifier('chest')
     .anyStructure(['betterfortresses:fortress'], false)
     .randomChance(0.05) // 5% per chest
     .addLoot(PIGLIN_VILLAGE_MAP)
-});
 
-// Add Aquamirae Shelter map to the following structures
-LootJS.modifiers((event) => {
+  // Add Aquamirae Shelter map to the following structures
   event
     .addLootTypeModifier('chest')
     .anyStructure([
@@ -189,10 +176,8 @@ LootJS.modifiers((event) => {
       ], false)
     .randomChance(0.1)
     .addLoot(AQUAMIRAE_SHELTER_MAP);
-});
 
-// Add Jungle and Desert temple maps to the following structures
-LootJS.modifiers((event) => {
+  // Add Jungle and Desert temple maps to the following structures.
   event
     .addLootTypeModifier('chest')
     .anyStructure([
@@ -223,62 +208,43 @@ LootJS.modifiers((event) => {
     ], false)
     .addLoot(LootEntry.of(JUNGLE_TEMPLE_MAP).when((c) => c.randomChance(0.05)))
     .addLoot(LootEntry.of(DESERT_TEMPLE_MAP).when((c) => c.randomChance(0.05)));
-});
 
-// Add Ancient City map to the following structures with different chances
-LootJS.modifiers((event) => {
+  // Add Ancient City map to the following structures with different chances:
   event
     .addLootTypeModifier("chest")
     .anyStructure(['betteroceanmonuments:ocean_monument'], false)
     .randomChance(0.1)
-    .addLoot(ANCIENT_CITY_MAP)
-});
-LootJS.modifiers((event) => {
+    .addLoot(ANCIENT_CITY_MAP);
   event
     .addLootTypeModifier("chest")
     .anyStructure(['integrated_stronghold:stronghold'], false)
     .randomChance(0.05)
-    .addLoot(ANCIENT_CITY_MAP)
-});
-LootJS.modifiers((event) => {
+    .addLoot(ANCIENT_CITY_MAP);
   event
     .addLootTypeModifier("chest")
     .anyStructure(['alexscaves:underground_cabin'], false)
     .randomChance(0.5)
-    .addLoot(ANCIENT_CITY_MAP)
-});
+    .addLoot(ANCIENT_CITY_MAP);
 
-// Any loot chest in a deep dark biome should have a chance to contain an Ancient City map
-LootJS.modifiers((event) => {
+  // Any loot chest in a deep dark biome should have a chance to contain an Ancient City map.
   event
     .addLootTypeModifier("chest")
     .anyBiome('minecraft:deep_dark')
     .randomChance(0.2)
-    .addLoot(ANCIENT_CITY_MAP)
-});
-// But, remove maps to Ancient Cities from Ancient City loot chests
-LootJS.modifiers((event) => {
+    .addLoot(ANCIENT_CITY_MAP);
+
+  // But, remove maps to Ancient Cities from Ancient City loot chests
   event
     .addLootTypeModifier("chest")
     .anyStructure(['minecraft:ancient_city'], false)
-    .removeLoot(ANCIENT_CITY_MAP)
-});
+    .removeLoot(ANCIENT_CITY_MAP);
 
-// Pillager outposts have a chance to have a map to a mansion.
-LootJS.modifiers((event) => {
-  event
-    .addLootTypeModifier('chest')
-    .anyStructure([
-      'ctov:pillager_outpost_plains'
-    ], false)
-    .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.05)));
-});
-
-LootJS.modifiers((event) => {
+  // Pillager outposts have a chance to have a map to a mansion + evoker fort.
   event
     .addLootTypeModifier('chest')
     .anyStructure([
       'minecraft:pillager_outpost',
+      'ctov:pillager_outpost_plains',
       'ctov:pillager_outpost_badlands',
       'ctov:pillager_outpost_beach',
       'ctov:pillager_outpost_dark_forest',
@@ -293,119 +259,99 @@ LootJS.modifiers((event) => {
     ], false)
     .addLoot(LootEntry.of(EVOKER_FORT_MAP).when((c) => c.randomChance(0.1)))
     .addLoot(LootEntry.of(MANSION_MAP).when((c) => c.randomChance(0.1)));
-});
 
-// Add Impaled Icebreaker and Snowy Plains maps to the following structures with different chances
-LootJS.modifiers((event) => {
+  // Add Impaled Icebreaker and Snowy Plains maps to the following structures:
   event
     .addLootTypeModifier('chest')
     .anyStructure(['irons_spellbooks:mountain_tower'], false)
     .addLoot(LootEntry.of(IMPALED_ICEBREAKER_MAP).when((c) => c.randomChance(0.1)))
     .addLoot(LootEntry.of(SNOWY_PLAINS_MAP).when((c) => c.randomChance(0.1)));
 
-});
-
-// Add cursed eye to the Forbidden Castle
-// XXX: would be better if we could target a specific chest at 100% instead of the whole structure
-// 5% chance might be too much or too little, and no guarantee of getting an eye.
-// But, probably there are at least 20 chests in this structure so should be a good chance of getting one.
-LootJS.modifiers((event) => {
+  // Add cursed eye to the Forbidden Castle
+  // XXX: would be better if we could target a specific chest at 100% instead of the whole structure
+  // 5% chance might be too much or too little, and no guarantee of getting an eye.
+  // But, probably there are at least 20 chests in this structure so should be a good chance of getting one.
   event
     .addLootTypeModifier('chest')
     .anyStructure(['incendium:forbidden_castle'], false)
     .randomChance(0.05)
-    .addLoot('endrem:cursed_eye')
-});
+    .addLoot('endrem:cursed_eye');
 
-// Add stamina vessel to chests in mountain biomes
-LootJS.modifiers((event) => {
+  // Add stamina vessel to chests in mountain biomes.
   event
     .addLootTypeModifier('chest')
     .anyBiome('#minecraft:is_mountain')
     .randomChance(0.1)
-    .addLoot('paraglider:stamina_vessel')
-});
+    .addLoot('paraglider:stamina_vessel');
 
-// Dragon Egg: aether
-LootJS.modifiers((event) => {
+  // Dragon Egg: Aether
   event
     .addLootTypeModifier('chest')
     .anyStructure(['#aether:dungeons'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_AETHER)
-});
-// Dragon Egg: end
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_AETHER);
+  // Dragon Egg: End
   event
     .addLootTypeModifier('chest')
     .anyStructure(['minecraft:end_city'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_END)
-});
-// Dragon Egg: fire
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_END);
+
+  // Dragon Egg: Fire
   event
     .addLootTypeModifier('chest')
     .anyStructure(['betterdeserttemples:desert_temple'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_FIRE)
-});
-// Dragon Egg: forest
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_FIRE);
+
+  // Dragon Egg: Forest
   event
     .addLootTypeModifier('chest')
     .anyStructure(['betterjungletemples:jungle_temple'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_FOREST)
-});
-// Dragon Egg: Ghost
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_FOREST);
+
+  // Dragon Egg: Ghost
+  // TODO: Change this to be only in specific chests, not the entire crypt.
   event
     .addLootTypeModifier('chest')
     .anyStructure(['graveyard:crypt'], false)
     .randomChance(0.002)
-    .addLoot(DRAGON_EGG_GHOST)
-});
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_GHOST);
+
   event
     .addLootTypeModifier('chest')
     .anyStructure(['rats:dutchrat_ship'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_GHOST)
-});
-// Dragon Egg: ice
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_GHOST);
+
+  // Dragon Egg: Ice
   event
     .addLootTypeModifier('chest')
     .anyStructure(['aquamirae:ship'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_ICE)
-});
-// Dragon Egg: nether
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_ICE);
+
+  // Dragon Egg: Nether
   event
     .addLootTypeModifier('chest')
     .anyStructure(['incendium:forbidden_castle'], false)
     .randomChance(0.05)
-    .addLoot(DRAGON_EGG_NETHER)
-});
-// Dragon Egg: water
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_NETHER);
+
+  // Dragon Egg: Water
   event
     .addLootTypeModifier('chest')
     .anyStructure(['seavil:undersea_village'], false)
     .randomChance(0.10)
-    .addLoot(DRAGON_EGG_WATER)
-});
-LootJS.modifiers((event) => {
+    .addLoot(DRAGON_EGG_WATER);
+
   event
     .addLootTableModifier('betteroceanmonuments:chests/upper_side_chamber')
     .randomChance(0.50)
-    .addLoot(DRAGON_EGG_WATER)
-});
+    .addLoot(DRAGON_EGG_WATER);
 
-// Add modded loot to nether fortress
-LootJS.modifiers((event) => {
+  // Add modded loot to nether fortress.
   event
     .addLootTypeModifier('chest')
     .anyStructure(['betterfortresses:fortress'], false)
