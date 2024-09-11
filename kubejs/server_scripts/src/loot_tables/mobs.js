@@ -62,16 +62,18 @@ LootJS.modifiers((event) => {
        .removeLoot('endrem:wither_eye')
        .addLoot('endrem:wither_eye');
 
-  // Guaranteed ancient city map drop from Wardens.
-  event.addEntityLootModifier('minecraft:warden')
-       .addLoot(ANCIENT_CITY_MAP);
-
   // Make mutant enderman drop more pearls
   // Will drop around 15-20 ender pearls, and a few eye of ender with this change.
   event.addEntityLootModifier('mutantmonsters:mutant_enderman')
       .pool((pool) => {
           pool.rolls([1, 3]);
           pool.addLoot('minecraft:ender_pearl');
+  });
+
+  // Some extra rotten flesh for the mutant zombie.
+  event.addEntityLootModifier('mutantmonsters:mutant_zombie').pool((pool) => {
+    pool.rolls([1, 3]);
+    pool.addLoot('minecraft:rotten_flesh');
   });
 
 });
