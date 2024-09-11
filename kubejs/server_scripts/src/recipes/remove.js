@@ -27,6 +27,7 @@ ServerEvents.recipes(event => {
     'minecraft:copper_ingot_from_waxed_copper_block',
     'minecraft:dispenser',
     'minecraft:dropper',
+    'minecraft:lever',
     'minecraft:observer',
     'minecraft:piston',
     'advancedperipherals:chunk_controller',
