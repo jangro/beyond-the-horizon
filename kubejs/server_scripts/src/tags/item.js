@@ -62,7 +62,11 @@ ServerEvents.tags('item', event => {
     'create:cinder_flour',
     'create:wheat_flour',
   ]);
-  
+
+  // Make Alex's Caves the default for raw uranium (fixes ID squeezer recipe)
+  event.removeAll('forge:raw_materials/uranium');
+  event.add('forge:raw_materials/uranium', 'alexscaves:uranium');
+
   // Tag Create crushed raw ores as dusts so they can replace IE dusts in recipes.
   ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) => {
     event.add(`forge:dusts`, `create:crushed_raw_${material}`);
