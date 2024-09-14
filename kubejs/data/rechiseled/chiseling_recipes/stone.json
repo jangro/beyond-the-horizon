@@ -112,6 +112,9 @@
     },
     {
       "item": "eidolon:smooth_stone_arch"
+    },
+    {
+      "item": "hearth_and_home:stone_column"
     }
   ],
   "overwrite": true
