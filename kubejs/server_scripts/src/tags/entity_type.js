@@ -16,6 +16,7 @@ ServerEvents.tags('entity_type', event => {
     'irons_spellbooks:citadel_keeper', // In-game as "Ancient Knight"
     'irons_spellbooks:dead_king',
     // TODO: Some other Iron's entities should probably be added here.
+    'minecraft:ender_dragon',
     'rats:black_death',
     'rats:dutchrat',
     'rats:rat_king',
