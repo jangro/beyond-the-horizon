@@ -32,6 +32,7 @@ ServerEvents.recipes(event => {
   event.recipes.botania.orechid('forbidden_arcanus:arcane_crystal_ore', 'minecraft:stone', 1000).id(`${ID_PREFIX}orechid/arcane_crystal_ore`);
   event.recipes.botania.orechid('immersiveengineering:ore_aluminum', 'minecraft:stone', 4000).id(`${ID_PREFIX}orechid/bauxite_ore`);
   event.recipes.botania.orechid('immersiveengineering:ore_nickel', 'minecraft:stone', 1500).id(`${ID_PREFIX}orechid/nickel_ore`);
+  event.recipes.botania.orechid('immersiveengineering:ore_uranium', 'minecraft:stone', 1500).id(`${ID_PREFIX}orechid/uranium_ore`);
 
   // Orechid - Deepslate
   event.recipes.botania.orechid('create:deepslate_zinc_ore', 'minecraft:deepslate', 150).id(`${ID_PREFIX}orechid/deepslate_zinc_ore`);
@@ -40,6 +41,7 @@ ServerEvents.recipes(event => {
   event.recipes.botania.orechid('forbidden_arcanus:deepslate_arcane_crystal_ore', 'minecraft:deepslate', 75).id(`${ID_PREFIX}orechid/deepslate_arcane_crystal_ore`);
   event.recipes.botania.orechid('immersiveengineering:deepslate_ore_aluminum', 'minecraft:deepslate', 75).id(`${ID_PREFIX}orechid/deepslate_bauxite_ore`);
   event.recipes.botania.orechid('immersiveengineering:deepslate_ore_nickel', 'minecraft:deepslate', 100).id(`${ID_PREFIX}orechid/deepslate_nickel_ore`);
+  event.recipes.botania.orechid('immersiveengineering:deepslate_ore_uranium', 'minecraft:deepslate', 150).id(`${ID_PREFIX}orechid/deepslate_uranium_ore`);
   event.recipes.botania.orechid('irons_spellbooks:arcane_debris', 'minecraft:deepslate', 10).id(`${ID_PREFIX}orechid/arcane_debris`);
 
 });
