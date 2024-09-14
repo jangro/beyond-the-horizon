@@ -134,6 +134,11 @@ ServerEvents.tags('item', event => {
     'alexscaves:coprolith_coal_ore',
     'alexscaves:guanostone_redstone_ore',
     'alexscaves:radrock_uranium_ore',
+    'forbidden_arcanus:deepslate_arcane_crystal_ore',
+  ]);
+
+  event.add('forge:ores/arcane_crystal', [
+    'forbidden_arcanus:deepslate_arcane_crystal_ore',
   ]);
 
   event.add('forge:ores/coal', [
