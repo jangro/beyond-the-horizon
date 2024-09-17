@@ -138,10 +138,10 @@
 				}
 			}
 			id: "7A545E5DF48EDB9B"
-			subtitle: "Press P to control teams."
+			subtitle: "Press P to manage your team, add players as members or allies, and allow your friends to interact with things in your claimed chunks."
 			tasks: [{
 				id: "0F6C1CB9029FDB70"
-				title: "Team management."
+				title: "Team management"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -164,7 +164,7 @@
 				}
 			}
 			id: "63A1069CA349D4B8"
-			subtitle: "An advanced method that allows you to fine-tune your tools and weapons (and more)."
+			subtitle: "An advanced method that allows you to fine-tune your tools, weapons, and more."
 			tasks: [
 				{
 					icon: "tetra:basic_workbench"
@@ -206,16 +206,16 @@
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Sack drops."
+			title: "Sack drops"
 			x: 8.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"You can now place some new markers on &aMaps&r. To do so just &6Right-Click&r with a &aMap&r on one of the required blocks."
-				"Some of these blocks will show the block name if they hold text or are renamed, just like vanilla banners."
+				"You can now place new markers on &aMaps&r. To do so, just &6Right-Click&r a compatible block with a &aMap&r."
+				"Some of these blocks will show the block name if you rename them, just like vanilla banners."
 				""
-				"The supported blocks are:"
+				"Compatible blocks are:"
 				" - &aBeacon&r"
 				" - &aBeds&r"
 				" - &aSign Posts&r"
@@ -236,7 +236,7 @@
 				}
 			}
 			id: "1D5DC03458DE1BF0"
-			subtitle: "You can now place some new markers on maps."
+			subtitle: "You can now place new markers on maps."
 			tasks: [{
 				id: "579FBED5441967BA"
 				title: "Understand"
@@ -249,7 +249,7 @@
 		{
 			icon: "minecraft:rotten_flesh"
 			id: "0E9F6656377B2F11"
-			subtitle: "Feeding a stack of rotten flesh to a owned skeleton horse will slowly convert it into a zombie horse."
+			subtitle: "Feeding rotten flesh to a tamed skeleton horse will slowly convert it into a zombie horse."
 			tasks: [{
 				id: "7EAD7EC8007C427E"
 				title: "Understand"
@@ -260,7 +260,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Placed &abooks&r can give enchanting power to &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
+			description: ["Placed &abooks&r can give enchanting power to an &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
 			icon: "minecraft:book"
 			id: "77F07A4539C74D35"
 			subtitle: "Enchanted and normal books can be placed and thus have a block form."
@@ -276,7 +276,7 @@
 		{
 			icon: "minecraft:experience_bottle"
 			id: "7C26DABC180C1E3C"
-			subtitle: "By right-clicking on an enchanting table with a bottle or jar you will be able to bottle some of your experience inside it."
+			subtitle: "By right-clicking on an enchanting table with a bottle or jar, you can bottle some of your experience inside it."
 			tasks: [{
 				id: "670461B0C8532F20"
 				title: "Understand"
@@ -316,13 +316,13 @@
 		{
 			icon: "minecraft:lava_bucket"
 			id: "040575F19F6EA236"
-			subtitle: "Using an item on a lava bucket in your inventory will delete the item."
+			subtitle: "Right-clicking an item on a lava bucket in your inventory will delete the item."
 			tasks: [{
 				id: "7B7A376D06684EF0"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Trash item in inventory"
+			title: "Delete Items in Inventory"
 			x: 10.5d
 			y: -5.5d
 		}
@@ -342,7 +342,7 @@
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Auto-walking"
+			title: "Auto-Walking"
 			x: 15.5d
 			y: -5.5d
 		}
@@ -356,7 +356,7 @@
 				}
 			}
 			id: "551819C1F41CB014"
-			subtitle: "Pressing Ctrl+Shift+T when the cursor is over an item will link it to the chat."
+			subtitle: "Pressing Shift+T when the cursor is over an item will link to it in the chat."
 			tasks: [{
 				id: "1C574D789AB49FC3"
 				title: "Understand"
@@ -369,7 +369,7 @@
 		{
 			icon: "minecraft:compass"
 			id: "0C463BE958D2D54A"
-			subtitle: "In the Nether, the compass points to the portal through which you entered to the Nether."
+			subtitle: "In the Nether, the compass points to the portal through which you entered the Nether."
 			tasks: [{
 				id: "043E5CA99A68CB3C"
 				title: "Understand"
@@ -390,22 +390,22 @@
 				}
 			}
 			id: "388AAB6A4437CFB6"
-			subtitle: "Item frames can be painted using dyes at a crafting table."
+			subtitle: "Item frames can be colored using dyes at a crafting table."
 			tasks: [{
 				id: "49C40DE6CFB338A5"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Colored item frames"
+			title: "Colored Item Frames"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Breaking grass or crops with an any &aHoe&r will break a 3x3 area of them."
+				"Breaking grass or crops with a &aHoe&r will now break them in a 3x3 area."
 				"A &aDiamond Hoe&r will break a 5x5 area instead."
 				""
-				"If you put &3Fortune enchantement&r on the &aHoe&r, it'll also apply that effect to everything it breaks."
+				"You can add a &3Fortune enchantement&r to a &aHoe& to get extra drops from grass and crops."
 			]
 			icon: {
 				Count: 1
@@ -421,7 +421,7 @@
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Better Hoe"
+			title: "Improved Hoes"
 			x: 9.5d
 			y: -5.5d
 		}
@@ -433,13 +433,13 @@
 			]
 			icon: "minecraft:scaffolding"
 			id: "3EB7EF62044B9BDE"
-			subtitle: "Right clicking on a Scaffold with a block will attempt to replace the block at the end of the Scaffold chain."
+			subtitle: "Right-clicking on a Scaffold with a block will attempt to replace the block at the end of the Scaffold chain."
 			tasks: [{
 				id: "1702A766806B4D5E"
 				title: "Understand"
 				type: "checkmark"
 			}]
-			title: "Scaffolding Substitution"
+			title: "Replace Scaffolding Blocks"
 			x: 2.5d
 			y: -5.5d
 		}
@@ -458,7 +458,7 @@
 		}
 		{
 			description: [
-				"Setting a &aSkeleton Skull&r, &aZombie Head&r, or &aCreeper Head&r over a &afence&r, will create a skull pike. Nearby &emonsters&r in a 5 block range and with line of sight will notice it, and run away in cowardice."
+				"Placing a &aSkeleton Skull&r, &aZombie Head&r, or &aCreeper Head&r over a &afence&r, will create a skull pike. Nearby &emonsters&r in a 5 block range and with line of sight will run away from it."
 				""
 				"&eBosses&r and &eRaiders&r are slightly more astute, and won't fall for your tricks."
 				""
@@ -491,13 +491,13 @@
 		}
 		{
 			description: [
-				"The blocks are rotated so they're placed forward from the &aDispenser&r."
+				"The blocks are rotated so they're placed facing the &aDispenser&r."
 				""
-				"Crops such as &aWheat Seeds&r or &aPotatoes&r also count."
+				"You can also use this method to plant crops such as &aWheat Seeds&r or &aPotatoes&r."
 			]
 			icon: "minecraft:dispenser"
 			id: "4D52B75D2FFA17F9"
-			subtitle: "Dispensers are allowed to place blocks in the world."
+			subtitle: "Dispensers can place blocks and plant crops."
 			tasks: [{
 				id: "583D5FD62C264F98"
 				title: "Understand"
@@ -542,7 +542,7 @@
 		}
 		{
 			can_repeat: true
-			description: ["You can take an unlimited number of times."]
+			description: ["With the &aEccentric Tome&r, you can freely switch between books."]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A set of useful information that will come in handy during your trip."
+			subtitle: "A set of useful guide books that will come in handy during your trip."
 			tasks: [{
 				id: "099EF6FB81C54F80"
 				title: "Get books"
@@ -691,7 +691,7 @@
 		}
 		{
 			description: [
-				"Increases your maximum hearts by 1 for each &aHeart Container&r eaten."
+				"Increases your maximum hearts by 1 for each &aHeart Container&r consumed."
 				""
 				"&aHeart Container&r can be obtained by completing great achievements."
 			]
@@ -767,7 +767,7 @@
 		{
 			icon: "minecraft:campfire"
 			id: "55389CA5CD4BFEBC"
-			subtitle: "Being near a campfire will grant regeneration."
+			subtitle: "Campfires grant you regeneration and keep monsters at bay."
 			tasks: [
 				{
 					id: "24B382173285D4CD"
@@ -793,11 +793,11 @@
 				"&3Hyperbox dimension&r will be unloaded and stop ticking if their parent block is removed; the world will be loaded again when the block is placed again."
 				""
 				"                                            &cWARNING:&r"
-				"You can only get inside to &3Hyperbox dimension&r from the original &aHyperbox&r. If you lose the block, you will lose access to it."
+				"You can only enter an &3Hyperbox dimension&r from the original &aHyperbox&r block. If you lose the block, you will lose access to its dimension."
 			]
 			id: "5E794443DFF1AB80"
 			min_width: 400
-			subtitle: "Allows you to build within itself."
+			subtitle: "A box that's bigger on the inside than it is on the outside."
 			tasks: [{
 				id: "66EC7DC3169088E2"
 				item: "hyperbox:hyperbox"
