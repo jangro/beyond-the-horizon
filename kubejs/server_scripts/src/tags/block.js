@@ -86,10 +86,14 @@ ServerEvents.tags('block', event => {
 
   // Create Tags
   event.add('create:fan_processing_catalysts/haunting', [
+    'bbb:soul_brazier',
+    'graveyard:soul_fire_brazier',
     'valhelsia_structures:soul_brazier',
   ]);
 
   event.add('create:fan_processing_catalysts/smoking', [
+    'bbb:brazier',
+    'graveyard:fire_brazier',
     'valhelsia_structures:brazier',
   ]);
   
