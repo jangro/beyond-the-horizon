@@ -44,6 +44,74 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing('minecraft:paper', [Fluid.of('minecraft:water 500'), '2x #forge:dusts/wood']).id(`${ID_PREFIX}mixing/paper_from_sawdust`);
   event.recipes.create.mixing('pneumaticcraft:speed_upgrade', [Fluid.of('pneumaticcraft:lubricant 500'), '2x pneumaticcraft:glycerol', '2x #pneumaticcraft:upgrade_components']).id(`${ID_PREFIX}mixing/speed_upgrade_from_glycerol`);
 
+  // Artificial Dye 
+  // - white
+  event.recipes.create.mixing(Item.of('minecraft:white_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:invisibility"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_invisibility`);
+  event.recipes.create.mixing(Item.of('minecraft:white_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"enlightened_end:levitation"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_levitation`);
+  // - light_grey
+  event.recipes.create.mixing(Item.of('minecraft:light_gray_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:slowness"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_slowness`);
+   // - grey
+  event.recipes.create.mixing(Item.of('minecraft:gray_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"eidolon:vulnerable"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_vulnerable`);
+  event.recipes.create.mixing(Item.of('minecraft:gray_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexscaves:magnetizing"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_magnetizing`);
+  // - black
+  event.recipes.create.mixing(Item.of('minecraft:black_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:weakness"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_weakness`);
+  event.recipes.create.mixing(Item.of('minecraft:black_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"enlightened_end:burdened"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_burdened`);
+  event.recipes.create.mixing(Item.of('minecraft:black_dye', 7), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"mutantmonsters:chemical_x"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_x`);
+  event.recipes.create.mixing(Item.of('minecraft:black_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"eidolon:undeath"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_undeath`);
+  // - brown
+  event.recipes.create.mixing(Item.of('minecraft:brown_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:harming"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_harming`);
+  event.recipes.create.mixing(Item.of('minecraft:brown_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexsmobs:knockback_resistance"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_knockback_resistance`);
+  event.recipes.create.mixing(Item.of('minecraft:brown_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexsmobs:bug_pheromones"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_bug_pheromones`);
+  event.recipes.create.mixing(Item.of('minecraft:brown_dye', 6), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"eidolon:decay"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_decay`);
+  event.recipes.create.mixing(Item.of('minecraft:brown_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"enlightened_end:rooted_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_rooting`);
+  event.recipes.create.mixing(Item.of('minecraft:brown_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"upgrade_aquatic:restfulness"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_restfulness`);
+  // - red
+  event.recipes.create.mixing(Item.of('minecraft:red_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:healing"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_healing`);
+  event.recipes.create.mixing(Item.of('minecraft:red_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_noveau:blasting_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_blasting`);
+  event.recipes.create.mixing(Item.of('minecraft:red_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexsmobs:clinging"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_clinging`);
+  // - orange
+  event.recipes.create.mixing(Item.of('minecraft:orange_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:fire_resistance"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_fire_resistance`);
+  event.recipes.create.mixing(Item.of('minecraft:orange_dye', 6), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexsmobs:lava_vision"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_lava_vision`);
+  // - yellow
+  event.recipes.create.mixing(Item.of('minecraft:yellow_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:strength"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_strength`);
+  event.recipes.create.mixing(Item.of('minecraft:yellow_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:leaping"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_leaping`);
+  event.recipes.create.mixing(Item.of('minecraft:yellow_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"eidolon:reinforced"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_reinforced`);
+  event.recipes.create.mixing(Item.of('minecraft:yellow_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_elemental:shock_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_shocking`);
+  event.recipes.create.mixing(Item.of('minecraft:yellow_dye', 6), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"buzzier_bees:unluck"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_unluck`);
+  event.recipes.create.mixing(Item.of('minecraft:yellow_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexscaves:haste"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_haste`);
+  // - lime
+  event.recipes.create.mixing(Item.of('minecraft:lime_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:night_vision"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_night_vision`);
+  // - green
+  event.recipes.create.mixing(Item.of('minecraft:green_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_noveau:recovery_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_recovery`);
+  event.recipes.create.mixing(Item.of('minecraft:green_dye', 6), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:luck"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_luck`);
+  event.recipes.create.mixing(Item.of('minecraft:green_dye', 6), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexsmobs:poison_resistance"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_poison_resistance`);
+  event.recipes.create.mixing(Item.of('minecraft:green_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:poison"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_poison`);
+  // - cyan
+  event.recipes.create.mixing(Item.of('minecraft:cyan_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_noveau:spell_damage_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_spell_damage_potion`);
+  event.recipes.create.mixing(Item.of('minecraft:cyan_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:swiftness"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_swiftness`);
+  event.recipes.create.mixing(Item.of('minecraft:cyan_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:water_breathing"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_water_breathing`);
+  // - light_blue
+  event.recipes.create.mixing(Item.of('minecraft:light_blue_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"eidolon:chilled"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_chilled`);
+  event.recipes.create.mixing(Item.of('minecraft:light_blue_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexsmobs:soulsteal"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_soulsteal`);
+  event.recipes.create.mixing(Item.of('minecraft:light_blue_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"irons_spellbooks:instant_mana_one"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_instant_mana_one`);
+  event.recipes.create.mixing(Item.of('minecraft:light_blue_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ecologics:sliding"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_sliding`);
+  event.recipes.create.mixing(Item.of('minecraft:light_blue_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"upgrade_aquatic:repellance"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_repellance`);
+ // - blue
+  event.recipes.create.mixing(Item.of('minecraft:blue_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_noveau:freezing_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_freezing_potion`);
+  event.recipes.create.mixing(Item.of('minecraft:blue_dye', 5), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"alexcaves:deepsight"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_deepsight`);
+  // - purple
+  event.recipes.create.mixing(Item.of('minecraft:purple_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_noveau:shielding_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_shielding_potion`);
+  event.recipes.create.mixing(Item.of('minecraft:purple_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"ars_elemental:enderference_potion"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_enderference_potion`);
+  event.recipes.create.mixing(Item.of('minecraft:purple_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"upgrade_aquatic:insomnia"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_insomnia`);
+  event.recipes.create.mixing(Item.of('minecraft:purple_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"eidolon:anchored"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_anchored`);
+  // - pink
+  event.recipes.create.mixing(Item.of('minecraft:pink_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:regeneration"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_regeneration`);
+  // - magenta
+  event.recipes.create.mixing(Item.of('minecraft:magenta_dye', 6), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"upgrade_aquatic:vibing"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_vibing`);
+  
+
+
+
   // Sandpaper Polishing
   // Hearth and Home Sanded Wood
   VANILLA_WOOD_TYPES_ALL.forEach((wood) => {
