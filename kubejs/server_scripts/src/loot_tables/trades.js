@@ -66,6 +66,12 @@ MoreJSEvents.updateVillagerOffers((event) => {
       replaceInputs(offer, 'lightmanscurrency:coin_gold', 'createdeco:iron_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_emerald', 'createdeco:gold_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_diamond', 'createdeco:netherite_coin');
+<<<<<<< Updated upstream
+=======
+      replaceOutput(offer, 'lightmanscurrency:coinmint', 'botania:cosmetic_black_tie');
+      replaceOutput(offer, 'lightmanscurrency:portable_atm', 'rats:top_hat');
+      replaceOutput(offer, 'lightmanscurrency:portable_terminal', 'supplementaries:safe');
+>>>>>>> Stashed changes
     });
   }
 
