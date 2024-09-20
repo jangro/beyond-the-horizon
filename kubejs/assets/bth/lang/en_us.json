@@ -211,7 +211,13 @@
   "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used",
   "subtitle.mighty_mail.package_open": "Package opened",
 
+  "bth.comment.currency": "----- Currency -----",
+  "lightmanscurrency.money.chain.main": "Lightman's",
+  "lightmanscurrency.money.chain.bth": "Coins",
+  "lightmanscurrency.money.chain.bth.display": "{value}TC",
+  "lightmanscurrency.money.chain.bth.display.wordy": "{value} Tiny Coins",
+  
   "bth.comment.tooltips": "----- Tooltips -----",
   "tooltip.bth.coconut_maul": "Share this with all ur friends to totally Coconut Maul them."
-
+  
 }
