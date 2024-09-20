@@ -62,6 +62,7 @@ MoreJSEvents.updateVillagerOffers((event) => {
   if (event.isProfession("lightmanscurrency:banker") || event.isProfession("lightmanscurrency:cashier")) {
     event.getOffers().forEach((offer) => {
       replaceInputs(offer, 'lightmanscurrency:coin_copper', 'rats:tiny_coin');
+      replaceInputs(offer, 'lightmanscurrency:coin_iron', 'createdeco:copper_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_gold', 'createdeco:iron_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_emerald', 'createdeco:gold_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_diamond', 'createdeco:netherite_coin');
