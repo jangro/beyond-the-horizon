@@ -6,30 +6,27 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.5,
+  "downfall": 0.8,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 13822975,
     "foliage_color": 11983713,
-    "grass_color": 10217152,
+    "grass_color": 7982981,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8103167,
-    "water_color": 4445678,
+    "sky_color": 10864127,
+    "water_color": 4962255,
     "water_fog_color": 329011
   },
   "features": [
-    [
-      "terralith:skylands/spring/floating_islands",
-      "terralith:skylands/spring/extend_down_high",
-      "terralith:skylands/spring/extend_down",
-      "terralith:skylands/dirt_tops",
-      "terralith:skylands/grassy_tops"
-    ],
     [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
     [
       "minecraft:amethyst_geode"
     ],
@@ -37,7 +34,10 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "terralith:sakura/clay_beaches",
+      "terralith:sakura/patch_podzol"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -71,16 +71,20 @@
       "minecraft:disk_gravel"
     ],
     [],
-    [],
     [
-      "terralith:skylands/spring/lichen",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "terralith:sakura/birch",
       "terralith:sakura/birch_sparse",
-      "terralith:skylands/spring/flowers",
-      "terralith:skylands/patch_grass",
+      "terralith:sakura/flowers",
+      "terralith:sakura/sugarcane",
+      "terralith:sakura/cherry_trees",
+      "terralith:sakura/cherry_trees_light",
+      "terralith:sakura/bamboo",
       "minecraft:glow_lichen",
-      "terralith:skylands/spring/trees",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
@@ -104,22 +108,34 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:pig",
-        "maxCount": 2,
-        "minCount": 2,
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 12
       },
       {
-        "type": "minecraft:chicken",
-        "maxCount": 2,
-        "minCount": 2,
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 10
       },
       {
-        "type": "minecraft:rabbit",
-        "maxCount": 2,
-        "minCount": 2,
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
       }
     ],
     "misc": [],
@@ -171,12 +187,6 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "minecraft:drowned",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
       }
     ],
     "underground_water_creature": [
@@ -187,28 +197,8 @@
         "weight": 10
       }
     ],
-    "water_ambient": [
-      {
-        "type": "minecraft:cod",
-        "maxCount": 6,
-        "minCount": 3,
-        "weight": 10
-      }
-    ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 1
-      },
-      {
-        "type": "minecraft:dolphin",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
-      }
-    ]
+    "water_ambient": [],
+    "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": 0.7
 }

@@ -6,30 +6,36 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.5,
+  "downfall": 0.8,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": 11983713,
-    "grass_color": 10217152,
+    "foliage_color": 10215612,
+    "grass_color": 10215612,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8103167,
-    "water_color": 4445678,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.forest"
+    },
+    "sky_color": 7972607,
+    "water_color": 8893172,
     "water_fog_color": 329011
   },
   "features": [
     [
-      "terralith:skylands/spring/floating_islands",
-      "terralith:skylands/spring/extend_down_high",
-      "terralith:skylands/spring/extend_down",
-      "terralith:skylands/dirt_tops",
-      "terralith:skylands/grassy_tops"
+      "terralith:canyon/cliff/grass_upper",
+      "terralith:canyon/cliff/grass_lower"
     ],
-    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
     [
       "minecraft:amethyst_geode"
     ],
@@ -66,20 +72,17 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "terralith:flower/lavender/disk_clay"
     ],
     [],
-    [],
     [
-      "terralith:skylands/spring/lichen",
-      "terralith:sakura/birch_sparse",
-      "terralith:skylands/spring/flowers",
-      "terralith:skylands/patch_grass",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
       "minecraft:glow_lichen",
-      "terralith:skylands/spring/trees",
-      "minecraft:flower_default",
+      "terralith:flower/lavender/trees",
+      "minecraft:flower_flower_forest",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
@@ -104,22 +107,40 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:pig",
-        "maxCount": 2,
-        "minCount": 2,
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 12
       },
       {
-        "type": "minecraft:chicken",
-        "maxCount": 2,
-        "minCount": 2,
+        "type": "minecraft:pig",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 10
       },
       {
-        "type": "minecraft:rabbit",
-        "maxCount": 2,
-        "minCount": 2,
+        "type": "minecraft:chicken",
+        "maxCount": 4,
+        "minCount": 4,
         "weight": 10
+      },
+      {
+        "type": "minecraft:cow",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
+      },
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 8
       }
     ],
     "misc": [],
@@ -171,12 +192,6 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "minecraft:drowned",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
       }
     ],
     "underground_water_creature": [
@@ -187,28 +202,8 @@
         "weight": 10
       }
     ],
-    "water_ambient": [
-      {
-        "type": "minecraft:cod",
-        "maxCount": 6,
-        "minCount": 3,
-        "weight": 10
-      }
-    ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 1
-      },
-      {
-        "type": "minecraft:dolphin",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 1
-      }
-    ]
+    "water_ambient": [],
+    "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": 0.7
 }
