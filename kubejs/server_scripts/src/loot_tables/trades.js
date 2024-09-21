@@ -58,13 +58,19 @@ MoreJSEvents.playerStartTrading((event) => {
 });
 
 MoreJSEvents.updateVillagerOffers((event) => {
-  // Replace Coins in Lightman's Currency Villagers with Create Deco variants.
   if (event.isProfession("lightmanscurrency:banker") || event.isProfession("lightmanscurrency:cashier")) {
     event.getOffers().forEach((offer) => {
+      // Replace Coins in Lightman's Currency Villagers with Create Deco variants.
       replaceInputs(offer, 'lightmanscurrency:coin_copper', 'rats:tiny_coin');
+      replaceInputs(offer, 'lightmanscurrency:coin_iron', 'createdeco:copper_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_gold', 'createdeco:iron_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_emerald', 'createdeco:gold_coin');
       replaceInputs(offer, 'lightmanscurrency:coin_diamond', 'createdeco:netherite_coin');
+
+      // Replace some disabled items with new alternatives.
+      replaceOutput(offer, 'lightmanscurrency:coinmint', 'botania:cosmetic_black_tie');
+      replaceOutput(offer, 'lightmanscurrency:portable_atm', 'rats:top_hat');
+      replaceOutput(offer, 'lightmanscurrency:portable_terminal', 'supplementaries:safe');
     });
   }
 

@@ -113,7 +113,6 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of('rats:plague_stew').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('rats:rat_paw').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('rats:rat_skull').when((c) => c.randomChance(0.1)));
-        context.addLoot(LootEntry.of('rats:rat_upgrade_aristocrat').when((c) => c.randomChance(0.01)));
         context.addLoot(LootEntry.of('rats:rat_upgrade_basic').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('rats:rat_upgrade_chicken_mount').when((c) => c.randomChance(0.05)));
         context.addLoot(LootEntry.of('rats:rat_upgrade_ender').when((c) => c.randomChance(0.05)));
