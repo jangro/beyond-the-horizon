@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "economy"
+	group: ""
+	icon: "lightmanscurrency:trading_core"
+	id: "6F6842619486B25F"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Find &6Tiny Coins&r by exploring. They often appear as loot in containers within structures."
+				""
+				"The further away the container is from the center of the world, the higher the number of Tiny Coins within will be."
+				""
+				"There is no way to automate the production of Tiny Coins. The only way to get them is by exploring, making this a valuable resource. Keep that in mind when you spend your Tiny Coins, whether you're shopping or using them to open a portal to Ratlantis."
+			]
+			id: "196F7C9C2353CA33"
+			subtitle: "The monetary standard."
+			tasks: [{
+				consume_items: false
+				id: "671F6CABFDBC16D9"
+				item: "rats:tiny_coin"
+				match_nbt: false
+				only_from_crafting: false
+				optional_task: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: "createdeco:iron_coin"
+			id: "597F73975885F9EF"
+			subtitle: "100 Tiny Coins"
+			tasks: [{
+				id: "23A1DC13502AD009"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Iron Coin"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			icon: "createdeco:copper_coin"
+			id: "4BF3A7B1EF1161B3"
+			subtitle: "10 Tiny Coins"
+			tasks: [{
+				id: "113CE88A4CA89AE5"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Copper Coin"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: false
+			icon: "createdeco:gold_coin"
+			id: "6EBFBF0CD6F685F1"
+			subtitle: "1,000 Tiny Coins"
+			tasks: [{
+				id: "321438CB62CA5169"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Gold Coin"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			icon: "createdeco:netherite_coin"
+			id: "441342F75225B2A4"
+			subtitle: "10,000 Tiny Coins"
+			tasks: [{
+				id: "731A4BA1098A2DC8"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Netherite Coin"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Villagers may take up the &6Banker&r profession when close to an ATM."
+				""
+				"[ \"Bankers sell economy-related items and cosmetics in exchange for &6\", { \"text\": \"Tiny Coins\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196F7C9C2353CA33\" } }, \"&r.\" ]"
+				""
+				"Note that Portable ATMs are disabled in this modpack."
+			]
+			id: "74FF3F1DAD4A3696"
+			subtitle: "Deposit, withdraw and transfer money."
+			tasks: [{
+				id: "456EA22645420566"
+				item: "lightmanscurrency:atm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "Economy"
+}

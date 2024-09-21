@@ -832,14 +832,17 @@
 		}
 		{
 			description: [
-				"You'll find a &aPost box&r and &aMailboxes&r available in every wood type."
+				"Use a &aPost box&r to send packages. Packages can hold up to 6 items and an optional message. They can be sent to any &aMailbox&r, even across dimensions."
 				""
-				"You can include items and an optional message to any &aMailbox&r placed in the world."
-				"It also works across dimensions. When you receive mail, you &aMailbox&r will appear with a little red flag."
+				"Place down a &aMailbox&r (available in every wood type) to receive packages sent from a Post box. There is no limit to how many mailboxes you can place. You can name a Mailbox when placing it down."
+				""
+				"When a Mailbox contains a package, the tiny flag on its side will be raised."
+				""
+				"&aSmart Observers&r can detect that there is a package inside a Mailbox. With some wits and creativity, you can use this to notify you of incoming packages."
 			]
 			icon: "mighty_mail:post_box"
 			id: "7B32AE9CDDCF6A9F"
-			subtitle: "Allows you to send mail to other players on your server."
+			subtitle: "Instantly send packages to any mailbox in your world."
 			tasks: [{
 				id: "17281878E724F9BE"
 				item: "mighty_mail:post_box"
