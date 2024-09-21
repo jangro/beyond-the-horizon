@@ -1,13 +1,13 @@
 name = "Vertical Slabs Compat"
-filename = "v_slab_compat-1.20-2.3.jar"
+filename = "v_slab_compat-1.20-2.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f8741c43f798515ce525ccb3dba22e67979eafef"
+hash = "10189f38169b59f1908984f6d88f22054054502c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5022329
+file-id = 5691543
 project-id = 724387

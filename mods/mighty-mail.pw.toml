@@ -1,13 +1,13 @@
-name = "Mighty Mail (Forge)"
-filename = "mighty_mail-forge-1.20.1-1.0.14.jar"
+name = "Mighty Mail"
+filename = "mighty_mail-forge-1.20.1-1.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3ad93c66aae9c65b2a266640ca77634854c22358"
+hash = "c8b071ae44e3654590158e9967eb3423c975534a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4750272
+file-id = 5733302
 project-id = 902986
