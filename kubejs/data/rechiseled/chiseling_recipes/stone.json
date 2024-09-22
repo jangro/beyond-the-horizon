@@ -61,26 +61,6 @@
       "item": "rechiseled:stone_small_tiles"
     },
     {
-      "connecting_item": "rechiseled:stone_smooth_connecting",
-      "item": "minecraft:smooth_stone"
-    },
-    {
-      "connecting_item": "rechiseled:stone_smooth_brick_paving_connecting",
-      "item": "rechiseled:stone_smooth_brick_paving"
-    },
-    {
-      "connecting_item": "rechiseled:stone_smooth_large_tiles_connecting",
-      "item": "rechiseled:stone_smooth_large_tiles"
-    },
-    {
-      "connecting_item": "rechiseled:stone_smooth_rotated_bricks_connecting",
-      "item": "rechiseled:stone_smooth_rotated_bricks"
-    },
-    {
-      "connecting_item": "rechiseled:stone_smooth_tiles_connecting",
-      "item": "rechiseled:stone_smooth_tiles"
-    },
-    {
       "connecting_item": "rechiseled:stone_squares_connecting",
       "item": "rechiseled:stone_squares"
     },
@@ -93,25 +73,10 @@
       "item": "rechiseled:stone_waves"
     },
     {
-      "item": "bbb:polished_stone"
-    },
-    {
       "item": "bbb:stone_tiles"
     },
     {
       "item": "bbb:stone_column"
-    },
-    {
-      "item": "eidolon:smooth_stone_bricks"
-    },
-    {
-      "item": "eidolon:smooth_stone_tiles"
-    },
-    {
-      "item": "eidolon:smooth_stone_masonry"
-    },
-    {
-      "item": "eidolon:smooth_stone_arch"
     }
   ],
   "overwrite": true
