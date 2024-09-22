@@ -11,7 +11,7 @@ to make editing this file much easier.
 	// Generates all block states for all blocks in the registry.
 	"generate_all_known_states": false,
 	// Whether blocks are replaced in existing chunks.
-	"retro_gen": true,
+	"retro_gen": false,
 	/* A map of states that specifies what the "old" block state is and what its "new" block state is.
 	   See "known_states" folder("generate_all_known_states" must be set to true in this config) to see all known block states available for all blocks available in the registry.
 	   Example:
