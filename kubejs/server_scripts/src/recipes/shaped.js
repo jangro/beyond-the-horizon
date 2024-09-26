@@ -28,6 +28,20 @@ ServerEvents.recipes(event => {
     R: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}coconut_maul`);
 
+  
+  event.shaped(Item.of('bth:terminus', '{ISB_Spells:{data:[{id:"irons_spellbooks:black_hole",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}'), [
+    ' D ',
+    'SGR',
+    'WN '
+  ], {
+    W: 'irons_spellbooks:weapon_parts',
+    S: 'deep_aether:stratus_sword',
+    N: 'minecraft:netherite_sword',
+    D: 'forbidden_arcanus:draco_arcanus_sword',
+    R: 'rats:ratlantis_sword',
+    G: 'botania:gaia_ingot'
+  }).id(`${ID_PREFIX}terminus`);
+
   event.shaped(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT), [
     ' S ',
     'SBS',
@@ -36,6 +50,7 @@ ServerEvents.recipes(event => {
     S: '#forge:bookshelves',
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
+
 
   // Minecraft
   event.shaped('minecraft:bundle', [

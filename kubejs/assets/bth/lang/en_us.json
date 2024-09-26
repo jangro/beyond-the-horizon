@@ -177,6 +177,7 @@
   "bth.comment.items": "----- Items -----",
   "item.bth.adventurers_spellbook": "Adventurers' Spellbook",
   "item.bth.coconut_maul": "Coconut Maul",
+  "item.bth.terminus": "Terminus",
   "item.minecraft.tipped_arrow.effect.absorption": "Arrow of Absorption",
   "item.minecraft.tipped_arrow.effect.astral": "Arrow of Astral",
   "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin's Grace",
@@ -218,5 +219,6 @@
   "subtitle.mighty_mail.package_open": "Package opened",
   
   "bth.comment.tooltips": "----- Tooltips -----",
-  "tooltip.bth.coconut_maul": "Share this with all ur friends to totally Coconut Maul them."
+  "tooltip.bth.coconut_maul": "Share this with all ur friends to totally Coconut Maul them.",
+  "tooltip.bth.terminus": "Blade of the Dimensional Master"
 }

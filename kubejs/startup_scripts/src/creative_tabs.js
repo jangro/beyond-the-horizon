@@ -9,6 +9,7 @@
 
 StartupEvents.modifyCreativeTab('minecraft:combat', event => {
   event.add('bth:coconut_maul');
+  event.add('bth:terminus');
 });
 
 StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {

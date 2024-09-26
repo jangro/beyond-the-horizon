@@ -25,4 +25,19 @@ StartupEvents.registry("item", event => {
     .tooltip(Text.translate('tooltip.bth.coconut_maul'))
     .translationKey('item.bth.coconut_maul')
     .unstackable();
+
+  // Terminus, Blade of the Dimensional Master
+  // Note: This item has required NBT data that is added when crafting it.
+  // It won't function completely when using /give or the Creative Tab.
+  // TODO: See if there's a way to apply NBT data by default.
+  event.create('bth:terminus', 'sword')
+  .attackDamageBonus(9.0)
+  .fireResistant(true)
+  .maxDamage(3270)
+  .rarity('EPIC')
+  .texture('bth:item/terminus')
+  .tier('netherite')
+  .tooltip(Text.translate('tooltip.bth.terminus'))
+  .translationKey('item.bth.terminus')
+  .unstackable();
 });
