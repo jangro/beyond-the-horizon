@@ -1819,6 +1819,11 @@ hash = "e4004dbe86ff589beac4617a1c07349506f32b4eade149b0b3a16935666259ae"
 metafile = true
 
 [[files]]
+file = "mods/aether-lost-content.pw.toml"
+hash = "0093665794d9745c4d0529f78694aad2c852f31ea0e8f8cdc2fdc0d42ab86ca6"
+metafile = true
+
+[[files]]
 file = "mods/aether-villages.pw.toml"
 hash = "429148c4a66b02d1e1b3ff2843319807b49d9929fec48cf6a6dcf9e0219b28eb"
 metafile = true
@@ -3061,6 +3066,11 @@ metafile = true
 [[files]]
 file = "mods/structure-credits.pw.toml"
 hash = "8b2ff048cdb3c64e318b1dd771b05cbd49ecbd6f7fe44603bedd703b5bd9955d"
+metafile = true
+
+[[files]]
+file = "mods/structure-gel-api.pw.toml"
+hash = "5dfd5e42573659ad84a5d870082aae38aaa8469aba2655e5b2cb14de4ca4cbdd"
 metafile = true
 
 [[files]]
