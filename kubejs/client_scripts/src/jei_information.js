@@ -32,6 +32,6 @@ JEIEvents.information(event => {
   addInfo(['farmersdelight:brown_mushroom_colony', 'farmersdelight:red_mushroom_colony'], 'bth.information.farmersdelight.mushroom_colonies');
 
   // Tetra
-  addInfo(['minecraft:ancient_debris', 'aether:gravitite_ore', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum'], 'bth.information.tetra.scannable_blocks');
+  addInfo(['minecraft:ancient_debris', 'aether:gravitite_ore', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum', 'rats:oratchalcum_ore'], 'bth.information.tetra.scannable_blocks');
 
 });
