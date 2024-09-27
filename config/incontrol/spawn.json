@@ -72,6 +72,14 @@
     "result": "deny"
   },
   {
+    "mob": "upgrade_aquatic:thrasher",
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "quark:stoneling",
     "mincount": {
       "amount": 5,
