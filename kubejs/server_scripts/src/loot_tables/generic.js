@@ -29,6 +29,7 @@ ServerEvents.genericLootTables((event) => {
       pool.addItem(ARCHMAGES_TOWER_MAP).weight(3);
       pool.addItem(HAUNTED_MANOR_MAP).weight(10);
       pool.addItem(TRAIN_RUINS_MAP).weight(10);
+      pool.addItem(UNDERSEA_VILLAGE_MAP).weight(10);
     });
   });
 
