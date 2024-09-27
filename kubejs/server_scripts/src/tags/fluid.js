@@ -12,6 +12,8 @@ ServerEvents.tags('fluid', event => {
     'createaddition:bioethanol',
     'createaddition:flowing_bioethanol',
     'createaddition:seed_oil',
-    'createaddition:flowing_seed_oil'
+    'createaddition:flowing_seed_oil',
+    'enlightened_end:ooze_fluid',
+    'enlightened_end:flowing_ooze_fluid',
   ]);
 });

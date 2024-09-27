@@ -93,6 +93,8 @@ ServerEvents.tags('item', event => {
     'alexscaves:uranium',
     'botania:gaia_ingot',
     'createdeco:industrial_iron_ingot',
+    'enlightened_end:adamantite_ingot',
+    'enlightened_end:bismuth_ingot',
     'graveyard:dark_iron_ingot',
     'irons_spellbooks:arcane_ingot',
   ]);
@@ -103,6 +105,10 @@ ServerEvents.tags('item', event => {
 
   event.add('forge:ingots/arcane_gold', [
     'forbidden_arcanus:deorum_ingot',
+  ]); 
+  
+  event.add('forge:ingots/bismuth', [
+    'enlightened_end:bismuth_ingot',
   ]); 
 
   event.add('forge:ingots/dark_iron', [
