@@ -70,10 +70,14 @@ LootJS.modifiers((event) => {
           pool.addLoot('minecraft:ender_pearl');
   });
 
-  // Some extra rotten flesh for the mutant zombie.
+  // Some extra loot for the mutant zombie.
   event.addEntityLootModifier('mutantmonsters:mutant_zombie').pool((pool) => {
-    pool.rolls([1, 3]);
+    pool.rolls([10, 30]);
     pool.addLoot('minecraft:rotten_flesh');
+  });
+  event.addEntityLootModifier('mutantmonsters:mutant_zombie').pool((pool) => {
+    pool.addLoot('eidolon:zombie_heart');
+    pool.addLoot('forbidden_arcanus:zombie_arm');
   });
 
 });
