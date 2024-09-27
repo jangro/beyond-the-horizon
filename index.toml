@@ -2649,11 +2649,6 @@ hash = "01b6690c7e45cf35318415ec475ddf2c78279112acefd66bed4440f0de6198fa"
 metafile = true
 
 [[files]]
-file = "mods/limited-chunkloading.pw.toml"
-hash = "1a9994b9d26017681cfac30a33265464bd8fe27824282c693c15b51b0c5d7b6e"
-metafile = true
-
-[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "e96e74c2eb34e667c41b971cc6f71b4bd9c3562a610df1de9a05f7a9dccc36ec"
 metafile = true
