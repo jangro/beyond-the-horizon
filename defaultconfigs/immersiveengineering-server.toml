@@ -474,7 +474,7 @@
         max_y = 16
         #The number of veins attempted to be generated per chunk
         #Range: > 0
-        attempts_per_chunk = 9
+        attempts_per_chunk = 12
         #Set this to true to allow retro-generation of uranium Ore.
         retrogen_enable = false
 
