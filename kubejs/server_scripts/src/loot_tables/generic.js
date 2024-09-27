@@ -41,4 +41,7 @@ LootJS.modifiers((event) => {
     
   // Chalk mod adds a lot of unstackable loot. Remove all and add back sparsely.
   event.removeGlobalModifier("@chalk");
+
+  // Remove all things waystone from all loot
+  event.removeGlobalModifier("@waystones");
 });
