@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "alexscaves:block_of_uranium",
+  "temperature": 438,
+  "thermalResistance": 500,
+  "transformCold": {
+    "block": "eidolon:lead_block"
+  },
+  "heatCapacity": 500000
+}
