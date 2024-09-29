@@ -8,6 +8,7 @@
  * NOTES:
  *
  * Immersive Engineering ores can not be disabled here, use IE config.
+ * Powah!'s uraninite is disabled in config/powah.json5.
  */
 
 WorldgenEvents.remove(event => {
@@ -15,7 +16,6 @@ WorldgenEvents.remove(event => {
     props.blocks = [
       'galosphere:deepslate_silver_ore',
       'galosphere:silver_ore',
-      /powah:.*uraninite.*/,
       'rustic_engineer:solarite_ore_deep_slate',
       'rustic_engineer:solarite_ore_stone',
     ]
