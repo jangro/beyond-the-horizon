@@ -29,6 +29,8 @@
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:lava": 1000,
 			"minecraft:magma_block": 800
+			// Added by BTH
+			"alexscaves:block_of_uranium": 1500,
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 30,
