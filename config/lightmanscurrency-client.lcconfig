@@ -25,7 +25,7 @@
 #Wallet Overlay Settings
 [wallet_hud]
 	#Whether an overlay should be drawn on your HUD displaying your wallets current money amount.
-	enabled=true
+	enabled=false
 	
 	#The corner of the screen that the overlay should be drawn on.
 	#Options: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
