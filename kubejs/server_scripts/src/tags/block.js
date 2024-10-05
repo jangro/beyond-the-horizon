@@ -21,6 +21,13 @@ ServerEvents.tags('block', event => {
 
   // Minecraft Tags
   event.add('minecraft:mineable/pickaxe', [
+    'bbb:wall_blackstone_block',
+    'bbb:wall_deepslate_block',
+    'bbb:wall_nether_brick_block',
+    'bbb:wall_quartz_block',
+    'bbb:wall_red_sandstone_block',
+    'bbb:wall_sandstone_block',
+    'bbb:wall_stone_block',
     'createdeco:andesite_bars',
     'createdeco:andesite_bars_overlay',
     'createdeco:brass_bars',
