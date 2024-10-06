@@ -28,8 +28,7 @@ ServerEvents.recipes(event => {
     R: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}coconut_maul`);
 
-  
-  event.shaped(Item.of('bth:terminus', '{ISB_Spells:{data:[{id:"irons_spellbooks:black_hole",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}'), [
+  event.shaped(Item.of('bth:terminus', '{ISB_Spells:{data:[{id:"irons_spellbooks:teleport",index:0,level:5,locked:1b}, {id:"irons_spellbooks:black_hole",index:1,level:4,locked:1b}],maxSpells:2,mustEquip:0b,spellWheel:1b}}'), [
     ' D ',
     'SGR',
     'WN '
