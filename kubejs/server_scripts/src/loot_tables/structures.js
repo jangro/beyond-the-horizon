@@ -381,5 +381,16 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of('pneumaticcraft:drill_bit_diamond').when((c) => c.randomChance(0.01)))
     .addLoot(LootEntry.of('rats:rat_upgrade_asbestos').when((c) => c.randomChance(0.01)))
     .addLoot(LootEntry.of('rats:rat_upgrade_demon').when((c) => c.randomChance(0.01)))
-    .addLoot(LootEntry.of('wands:diamond_wand').when((c) => c.randomChance(0.01)).enchantRandomly().damage([0.1, 0.8]))
+    .addLoot(LootEntry.of('wands:diamond_wand').when((c) => c.randomChance(0.01)).enchantRandomly().damage([0.1, 0.8]));
+
+  // Add a small chance for Sned's head to be in chest loot when the player is at least a million blocks away in the overworld.
+  event
+    .addLootTypeModifier('chest')
+    .anyDimension(['minecraft:overworld'])
+    .apply((context) => {
+      let p = context.getBlockPos();
+      if ((Math.abs(p.x) > 1000000) || (Math.abs(p.z) > 1000000)) {
+        context.addLoot(LootEntry.of(Item.of('minecraft:player_head', '{SkullOwner:"Snedglowjr"}')).when((c) => c.randomChance(0.03)));
+      }
+    });
 });
