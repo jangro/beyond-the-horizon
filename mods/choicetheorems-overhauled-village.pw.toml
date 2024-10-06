@@ -1,13 +1,13 @@
 name = "ChoiceTheorem's Overhauled Village"
-filename = "[Forge]CTOV-3.4.9.jar"
+filename = "[Forge]CTOV-3.4.9b.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "61fdfe4f0dbf3d2b1be4aa904e3f0811c8ae6e97"
+hash = "0323b074b91ba367e2d92a04e55941138d31079b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5743409
+file-id = 5771026
 project-id = 623908

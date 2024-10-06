@@ -1,13 +1,13 @@
 name = "Better chunk loading[Forge/Fabric]"
-filename = "betterchunkloading-1.20.1-4.3.jar"
+filename = "betterchunkloading-1.20.1-4.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e39efb5c0e89ea07fa3c75a0c89549aa9529564c"
+hash = "2f101565796a71af8984d46d98c0bc91118ea47b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5393775
+file-id = 5747090
 project-id = 899487
