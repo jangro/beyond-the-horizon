@@ -1,0 +1,30 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:deepslate"
+    },
+    {
+      "item": "create:cut_deepslate"
+    },
+    {
+      "item": "create:polished_cut_deepslate"
+    },
+    {
+      "item": "create:cut_deepslate_bricks"
+    },
+    {
+      "item": "create:small_deepslate_bricks"
+    },
+    {
+      "item": "create:layered_deepslate"
+    },
+    {
+      "item": "create:deepslate_pillar"
+    },
+    {
+      "item": "bbb:deepslate_column"
+    }
+  ],
+  "overwrite": false
+}
