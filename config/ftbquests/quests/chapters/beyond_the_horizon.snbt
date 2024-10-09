@@ -712,7 +712,7 @@
 					type: "advancement"
 				}
 				{
-					advancement: "aether:lost_aether_content:platinum_dungeon"
+					advancement: "lost_aether_content:platinum_dungeon"
 					criterion: ""
 					id: "0837F21D4FB404FC"
 					type: "advancement"
