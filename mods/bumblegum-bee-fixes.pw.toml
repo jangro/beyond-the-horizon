@@ -1,0 +1,13 @@
+name = "Bumblegum - Bee fixes"
+filename = "bumblegum-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3782c9e80a4cd06179d1c9bd339936903a7f6453"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5103221
+project-id = 972377

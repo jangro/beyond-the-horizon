@@ -2024,6 +2024,11 @@ hash = "a28f5404cb282eb6445e9fd72dd39427d94c65c30d12eb389832626a33bc0813"
 metafile = true
 
 [[files]]
+file = "mods/bumblegum-bee-fixes.pw.toml"
+hash = "620be38f93afbf1e3c355829e87f1a5f81c20d3cb2f34f494c6f4b09b00772c2"
+metafile = true
+
+[[files]]
 file = "mods/buzzier-bees.pw.toml"
 hash = "43ea0b2c562f25ba5a7dd0fe2a6694bed02af4ae4aa39bffe7bbf92ae31a5f87"
 metafile = true
