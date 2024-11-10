@@ -1,5 +1,13 @@
 [
   {
+    "mob": "alexsmobs:blue_jay",
+    "mincount": {
+      "amount": 5,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "alexsmobs:catfish",
     "mincount": {
       "amount": 1,
