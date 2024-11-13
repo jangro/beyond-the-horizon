@@ -16,6 +16,14 @@
     "result": "deny"
   },
   {
+    "mob": "alexsmobs:crimson_mosquito",
+    "mincount": {
+      "amount": 2,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "alexsmobs:cockroach",
     "mincount": {
       "amount": 5,
