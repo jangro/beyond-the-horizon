@@ -2854,6 +2854,11 @@ hash = "f463d5b6ddc6bbed508bfad219121d14c6d596ec54c9c7983f0618367be2dbf9"
 metafile = true
 
 [[files]]
+file = "mods/phantasm.pw.toml"
+hash = "ccf23772b0dadabb556e6d5b0635a83abeef1719f5e552e8a24545ef324bdc87"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "22e30b399aac8af3fcb975e9ff26e4780b0547165e9dc0e8842f34115ed423db"
 metafile = true
