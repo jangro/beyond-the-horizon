@@ -307,4 +307,17 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  // Add mana pearl to ocean loot (for assembly halo)
+  [
+    'minecraft:underwater_ruin_big',
+    'minecraft:underwater_ruin_small',
+    'minecraft:shipwreck_treasure',
+  ].forEach(function(chestID) {
+    event.modify(chestID, table => {
+      table.addPool(pool => {
+        pool.addItem('botania:mana_pearl').randomChance(0.1);
+      });
+    });
+  });
+
 });
