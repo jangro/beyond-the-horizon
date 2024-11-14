@@ -2884,11 +2884,6 @@ hash = "2d47877684bd91ad4c597b68bae4a8af3964011bfc0fd52e004469368f23b834"
 metafile = true
 
 [[files]]
-file = "mods/portable-crafting-table.pw.toml"
-hash = "1fd8a2699c76037a8b14ee761a9e4520cba05105b26394d08e9bdf7e87e8a918"
-metafile = true
-
-[[files]]
 file = "mods/powah-rearchitected.pw.toml"
 hash = "0cb0571bfda610c42c22a10cef31beb4eef88089cc633b00683e347d892a7f0c"
 metafile = true
