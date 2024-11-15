@@ -2479,6 +2479,11 @@ hash = "06ef6b491e1e605a9a39fcd2814f686f6f1ecd6fcf971eb85c2e7a260d0dff6e"
 metafile = true
 
 [[files]]
+file = "mods/hostile-neural-networks.pw.toml"
+hash = "d8f52c6109108160c9ca80ae2d1fd03f3b27f4a3196c62ba805928b66482be5b"
+metafile = true
+
+[[files]]
 file = "mods/hyperbox.pw.toml"
 hash = "82ef251513ef10da2ff8e120fd998e4808821ab74e0e5a16070c1afd0b56ed25"
 metafile = true
