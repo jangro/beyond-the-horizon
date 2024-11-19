@@ -209,6 +209,48 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}ultimate_chunk_loader`);
 
   // Computer Craft / Advanced Peripherals
+  event.shaped('computercraft:computer_normal', [
+    'SSS',
+    'SPS',
+    'SGS'
+  ], {
+    S: '#forge:stone',
+    P: '#bth:pcb',
+    G: '#forge:glass_panes',
+  }).id(`${ID_PREFIX}computer_normal`);
+
+  event.shaped('computercraft:pocket_computer_normal', [
+    'SBS',
+    'SPS',
+    'SGS'
+  ], {
+    B: '#bth:battery',
+    S: '#forge:stone',
+    P: '#bth:pcb',
+    G: '#forge:glass_panes',
+  }).id(`${ID_PREFIX}pocket_computer_normal`);
+
+  event.shaped('computercraft:computer_advanced', [
+    'III',
+    'IPI',
+    'IGI'
+  ], {
+    I: '#forge:ingots/gold',
+    P: '#bth:pcb',
+    G: '#forge:glass_panes',
+  }).id(`${ID_PREFIX}computer_advanced`);
+
+  event.shaped('computercraft:pocket_computer_advanced', [
+    'IBI',
+    'IPI',
+    'IGI'
+  ], {
+    B: '#bth:battery',
+    I: '#forge:ingots/gold',
+    P: '#bth:pcb',
+    G: '#forge:glass_panes',
+  }).id(`${ID_PREFIX}pocket_computer_advanced`);
+
   event.shaped('advancedperipherals:chunk_controller', [
     'IRI',
     'RCR',
