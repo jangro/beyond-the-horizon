@@ -124,7 +124,7 @@
     // Choice-Theorem's Overhauled Villages
     {
       "structure": "ctov:villages",
-      "factor": 1.7
+      "factor": 2
     },
     {
       "structure": "ctov:pillager_outposts",
