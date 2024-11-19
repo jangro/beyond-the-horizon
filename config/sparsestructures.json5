@@ -143,6 +143,16 @@
       "factor": 2
     },
 
+    // Tetra
+    {
+      "structure": "tetra:regular_ruin",
+      "factor": 2
+    },
+    {
+      "structure": "tetra:extractor_ruin",
+      "factor": 2
+    },
+
     // Towns and Towers
     {
       "structure": "towns_and_towers:other",
