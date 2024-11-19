@@ -211,45 +211,67 @@ ServerEvents.recipes(event => {
   // Computer Craft / Advanced Peripherals
   event.shaped('computercraft:computer_normal', [
     'SSS',
-    'SPS',
-    'SGS'
+    'CPC',
+    'CGC'
   ], {
-    S: '#forge:stone',
+    S: 'create:iron_sheet',
+    C: 'pneumaticcraft:plastic',
     P: '#bth:pcb',
     G: '#forge:glass_panes',
   }).id(`${ID_PREFIX}computer_normal`);
 
   event.shaped('computercraft:pocket_computer_normal', [
     'SBS',
-    'SPS',
-    'SGS'
+    'CPC',
+    'CGC'
   ], {
+    S: 'create:iron_sheet',
     B: '#bth:battery',
-    S: '#forge:stone',
+    C: 'pneumaticcraft:plastic',
     P: '#bth:pcb',
     G: '#forge:glass_panes',
   }).id(`${ID_PREFIX}pocket_computer_normal`);
 
   event.shaped('computercraft:computer_advanced', [
-    'III',
-    'IPI',
-    'IGI'
+    'SSS',
+    'CPC',
+    'CGC'
   ], {
-    I: '#forge:ingots/gold',
+    S: 'createaddition:electrum_sheet',
+    C: 'pneumaticcraft:plastic',
     P: '#bth:pcb',
     G: '#forge:glass_panes',
   }).id(`${ID_PREFIX}computer_advanced`);
 
-  event.shaped('computercraft:pocket_computer_advanced', [
-    'IBI',
-    'IPI',
-    'IGI'
+  event.shaped('computercraft:computer_advanced', [
+    ' S ',
+    'SCS',
+    ' S '
   ], {
+    S: 'createaddition:electrum_sheet',
+    C: 'computercraft:computer_normal',
+  }).id(`${ID_PREFIX}computer_advanced_upgrade`);
+
+  event.shaped('computercraft:pocket_computer_advanced', [
+    'SBS',
+    'CPC',
+    'CGC'
+  ], {
+    S: 'createaddition:electrum_sheet',
     B: '#bth:battery',
-    I: '#forge:ingots/gold',
+    C: 'pneumaticcraft:plastic',
     P: '#bth:pcb',
     G: '#forge:glass_panes',
   }).id(`${ID_PREFIX}pocket_computer_advanced`);
+
+  event.shaped('computercraft:pocket_computer_advanced', [
+    ' S ',
+    'SCS',
+    ' S '
+  ], {
+    S: 'createaddition:electrum_sheet',
+    C: 'computercraft:pocket_computer_normal',
+  }).id(`${ID_PREFIX}pocket_computer_advanced_upgrade`);
 
   event.shaped('advancedperipherals:chunk_controller', [
     'IRI',
