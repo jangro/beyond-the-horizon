@@ -2847,11 +2847,6 @@ hash = "57f6793fdca748db18eb33a34344f68804e881af07c5e032073d8b33ee683a54"
 metafile = true
 
 [[files]]
-file = "mods/oculus.pw.toml"
-hash = "96d09f5521faec9e6a71f1bd0695c05d61b21c6a73f318ffce91241b9828c91b"
-metafile = true
-
-[[files]]
 file = "mods/overloaded-armor-bar.pw.toml"
 hash = "aa616bb0a97132b6f1b1144963dc74f046741669d349dc1c2e5648315931a249"
 metafile = true
