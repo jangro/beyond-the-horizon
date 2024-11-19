@@ -90,6 +90,8 @@ ServerEvents.recipes(event => {
     'galosphere:silver_ingot_from_smelting_raw_silver',
     'galosphere:silver_ingot_from_smelting_silver_ore',
     'galosphere:silver_nugget',
+    'hostilenetworks:deep_learner',
+    'hostilenetworks:sim_chamber',
     'hyperbox:hyperbox',
     /incubation:fried_egg.*/,
     'integrateddynamics:blasting/menril_log_coal',

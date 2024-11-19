@@ -312,6 +312,31 @@ ServerEvents.recipes(event => {
     I: '#forge:ingots/gold',
   }).id(`${ID_PREFIX}createaddition_gold_rod`);
 
+  // Hostile Neural Networks
+  event.shaped('hostilenetworks:deep_learner', [
+    'ORO',
+    'RGR',
+    'OPO'
+  ], {
+    O: '#forge:obsidian',
+    R: 'minecraft:repeater',
+    G: '#forge:glass_panes',
+    P: '#bth:pcb'
+  }).id(`${ID_PREFIX}deep_learner`);
+
+  event.shaped('hostilenetworks:sim_chamber', [
+    'PGP',
+    'EOE',
+    'LCL'
+  ], {
+    O: '#forge:obsidian',
+    E: 'minecraft:ender_pearl',
+    C: 'minecraft:comparator',
+    L: 'minecraft:lapis_lazuli',
+    G: '#forge:glass_panes',
+    P: '#bth:pcb'
+  }).id(`${ID_PREFIX}sim_chamber`);
+
   // Hyperbox
   event.shaped('hyperbox:hyperbox', [
     'OPO',
