@@ -301,7 +301,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('chalk:white_chalk').randomChance(0.2);
     });
   });
-  event.modify('minecraft:abandoned_mineshaft', table => {
+
     table.addPool(pool => {
       pool.addItem('chalk:white_chalk').randomChance(0.2);
     });
@@ -309,14 +309,31 @@ ServerEvents.chestLootTables(event => {
 
   // Add mana pearl to ocean loot (for assembly halo)
   [
-    'minecraft:underwater_ruin_big',
-    'minecraft:underwater_ruin_small',
     'minecraft:shipwreck_treasure',
+    'minecraft:buried_treasure',
   ].forEach(function(chestID) {
     event.modify(chestID, table => {
       table.addPool(pool => {
-        pool.addItem('botania:mana_pearl').randomChance(0.1);
+        pool.addItem('botania:mana_pearl').randomChance(1.0);
       });
+    });
+  });
+
+  [
+    'minecraft:underwater_ruin_big',
+    'minecraft:underwater_ruin_small',
+    'minecraft:shipwreck_supply',
+  ].forEach(function(chestID) {
+    event.modify(chestID, table => {
+      table.addPool(pool => {
+        pool.addItem('botania:mana_pearl').randomChance(0.2);
+      });
+    });
+  });
+
+  event.modify('ctov:village/village_smith', table => {
+    table.addPool(pool => {
+      pool.addItem('botania:manasteel_ingot', 10, [1, 5]);
     });
   });
 
