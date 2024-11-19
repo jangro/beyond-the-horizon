@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
     I: 'minecraft:iron_ingot',
     P: '#bth:pcb',
     B: '#bth:battery',
-  }).id(`${ID_PREFIX}gadget_`);
+  }).id(`${ID_PREFIX}gadget_building`);
 
   event.shaped('buildinggadgets2:gadget_exchanging', [
     'IRI',
