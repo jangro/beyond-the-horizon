@@ -302,11 +302,6 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
-    table.addPool(pool => {
-      pool.addItem('chalk:white_chalk').randomChance(0.2);
-    });
-  });
-
   // Add mana pearl to ocean loot (for assembly halo)
   [
     'minecraft:shipwreck_treasure',
