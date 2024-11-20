@@ -2257,11 +2257,6 @@ hash = "88d692c572f45f10db6cae6691482d9d14c307978929234476e944cce59da774"
 metafile = true
 
 [[files]]
-file = "mods/culllessleaves-reforged.pw.toml"
-hash = "e38d187eefae043e892eb6ce932f5360718d02d71f9e8072e8ec38ec0667753b"
-metafile = true
-
-[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
 metafile = true
