@@ -3654,11 +3654,6 @@ hash = "aefe892a55ec10256b1a8fb44376072be6c560ad2c88f693ac3269a4e4950a80"
 metafile = true
 
 [[files]]
-file = "resourcepacks/xalis-bushy-leaves.pw.toml"
-hash = "27967c58538eb57d5ce904c03fdf408482ee2ca6136d165b6f8e29ee535af66b"
-metafile = true
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.2.2.zip.txt"
 hash = "5408673dad53abcddca637adafb63b392a82a8ec5b5fda06672a3630b3702097"
 
