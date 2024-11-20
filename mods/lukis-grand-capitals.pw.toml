@@ -1,13 +1,13 @@
 name = "Luki's Grand Capitals"
-filename = "lukis-grand-capitals-1.0.jar"
+filename = "lukis-grand-capitals-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "67e5e3a73f8c0562f0c55e1678434b93ca7148ce"
+hash = "1caa8835ed602d038b94c9c3ab0f765a7711e202"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5632422
+file-id = 5917926
 project-id = 1003666
