@@ -288,7 +288,7 @@ hash = "6ba5658b585ce9b7c5b8aa1adc13792baeb6e33831ab983d1981f130ba5e75b2"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "35969cad7b0da32bbcf6e086e7c2009a0b9375f9ca6328576b2cae46cf75576f"
+hash = "46ff104177bf9bc0f20388dc4f6378c27c3a03c6d7fdc79ccc63f0c0e276e16f"
 
 [[files]]
 file = "config/structurecredits-config.json"
@@ -396,7 +396,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "b7e222b501a15425381bc49f44cb53c5ff2d788d2831ebaabfc4469c0c3f4996"
+hash = "579567cccaf21b8293033d4683db60947cb09541ea0860118409077af6d21bb0"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -697,6 +697,14 @@ hash = "3974b3e1e8cf8a052bdc35723f92faba3ab37fa0f1b5c1acce1d8a66318b9520"
 [[files]]
 file = "kubejs/data/bth/recipes/plastic.json"
 hash = "442e2f11e8ef57efa75b7d795e3eebc14f645f9630ad7005151ced78c2daf328"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/ctov_avoid.json"
+hash = "384c988d164ea7eb43f60d1a85406755b57c74adfe898083d7e9c1307aa1fbdf"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/towns_and_towers_avoid.json"
+hash = "d8ab24a85b4d1b22850103174fb682beb280d78e750ccef574d97264d020fd6d"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure/skylands_abandoned_farm.json"
@@ -1145,6 +1153,10 @@ hash = "31f2ffc81db24a73638a9e43a6742f96895afd34465838195f5d19b5c4a18fed"
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/taiga_fortified.json"
 hash = "0288ae08f850af1374af34f8d28c07c4d158e031847a08329f5bbc9c2c7db1ac"
+
+[[files]]
+file = "kubejs/data/ctov/worldgen/structure_set/villages.json"
+hash = "4b49c367ec58728ee27023ac68a7dd183799a30ec6073a969b40a0e9c538e12b"
 
 [[files]]
 file = "kubejs/data/deep_aether/advancements/explore_aether.json"
@@ -1615,6 +1627,18 @@ file = "kubejs/data/terralith/worldgen/placed_feature/mountains/scarlet/remove_s
 hash = "37e28d482723aa42bc9256f3f7bbcaeb11bc9941333191e8c02c3a47c9188c40"
 
 [[files]]
+file = "kubejs/data/towns_and_towers/worldgen/structure_set/other.json"
+hash = "732373c48949334fa673134deaa5b83b819c87caf93b903f18256d284dcc3eac"
+
+[[files]]
+file = "kubejs/data/towns_and_towers/worldgen/structure_set/towers.json"
+hash = "810c7a753c10c461a34cc941415ffeeb5cd017ebae82399d55990c4519e3adc2"
+
+[[files]]
+file = "kubejs/data/towns_and_towers/worldgen/structure_set/towns.json"
+hash = "a41b239448d9be04e3ed441e735872ba0fe448d8cc0c03ca93f7502e176fabf9"
+
+[[files]]
 file = "kubejs/data/vanillatweaks/tags/functions/uninstall.json"
 hash = "6d94625d23621463753cd67b91a571fb04305e23ff3f3ad86a43a458b0eeeb21"
 
@@ -1652,7 +1676,7 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "3aff61d3a44346e3fadc35b44badb443c471f62d1498a45eae6d3957e75c8f20"
+hash = "30fb9f1607d253acb29156d103e52393bc702bc54597533b3eb17fcee7fcc0a5"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
@@ -1720,7 +1744,7 @@ hash = "624ffa62e59c7e4af596461c4be1a6954859bf27ef0b6c9e6fbc1579fe936035"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "8b72bc205ee71e27008cfa27f49b0d62031267c7cdc4b9d166b21495bffa4aa3"
+hash = "c82182fa580f8ac2759736613a541cd77259fba2e65dcd95ba6225062e99d462"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -1728,7 +1752,7 @@ hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "93f9b3fc952a38c440ea946f108fc1ba53c21da1654716f2200418a0e9168a38"
+hash = "b72b76743aceb04c5c0beb5bb744470164340054bdf30b2b2f968d7e288c6765"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -1823,8 +1847,8 @@ file = "kubejs/startup_scripts/src/worldgen.js"
 hash = "4ca9273c2b4de7d214ec395a47bedbd215c69249af870bc413aacc8e334abff3"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.3.0-a-dev-b77acaa3-1.20.1.jar"
-hash = "cc3d33321912f54d13c15bf38973345b4d66226e99c609a25966d97aacc971b1"
+file = "mods/DistantHorizons-2.3.0-b-RC1-1.20.1-forge-fabric.jar"
+hash = "ea0b1e55e7853f21abcd7baa27677e44e165b2389f5b3ae527e8da2f154f37bf"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -2842,6 +2866,10 @@ hash = "57f6793fdca748db18eb33a34344f68804e881af07c5e032073d8b33ee683a54"
 metafile = true
 
 [[files]]
+file = "mods/oculus-mc1.20.1-1.8.0.jar"
+hash = "ef2d992780235f0fdb670457dc0a159fdf35f7fe9f6725dd6345aa0e77564dc8"
+
+[[files]]
 file = "mods/overloaded-armor-bar.pw.toml"
 hash = "aa616bb0a97132b6f1b1144963dc74f046741669d349dc1c2e5648315931a249"
 metafile = true
@@ -2978,7 +3006,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustic-engineer.pw.toml"
-hash = "ec919c668eb3f4a87716802cb1ba99b2a56544b1953b3ee35e96b206fdeb8b64"
+hash = "0efbdc60364476393fa174d21390adb4c567097a8a2f361fb50c7370b62f2057"
 metafile = true
 
 [[files]]

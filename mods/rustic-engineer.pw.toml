@@ -1,14 +1,14 @@
 name = "Rustic Engineer"
-filename = "rustic_engineer-1.20.1-1.0.7.jar"
+filename = "rustic_engineer-1.20.1-1.0.9.jar"
 side = "both"
 pin = true
 
 [download]
 hash-format = "sha1"
-hash = "11b63e4328654741e8dec1db8d85ea2a901fd619"
+hash = "94a7b66bd544a489dac8a19ee70363ea3d42a42a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5592869
+file-id = 5907189
 project-id = 1026067
