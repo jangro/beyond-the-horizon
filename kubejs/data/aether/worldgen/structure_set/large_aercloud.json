@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 15536586,
+    "spacing": 12,
+    "separation": 6
+  },
+  "structures": [
+    {
+      "structure": "aether:large_aercloud",
+      "weight": 1
+    }
+  ]
+}

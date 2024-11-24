@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aether_villages:olympic_citadel",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 53517152,
+    "spacing": 140,
+    "separation": 130,
+    "type": "minecraft:random_spread"
+  }
+}

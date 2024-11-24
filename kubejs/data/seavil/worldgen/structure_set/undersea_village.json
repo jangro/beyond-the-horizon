@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "seavil:undersea_village",
+      "weight": 1
+    },
+    {
+      "structure": "seavil:undersea_village_skylands",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 128,
+    "separation": 64,
+    "salt": 19930904
+  }
+}
