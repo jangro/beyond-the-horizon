@@ -224,7 +224,7 @@ hash = "0d1a10179ad8f16710499051b7c743649828d108629d116f46f5123d379b9184"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "1c24090f0839cc6112164c1f6bd6e601b229ecc5adf901f92616ed07d9732f54"
+hash = "2edd748c8b7afb64c7b3cd71695100848c6d18a5833c15795db322ac470f5b3a"
 
 [[files]]
 file = "config/paraglider-common.toml"
@@ -484,19 +484,19 @@ hash = "7775a70fa84535b91834a48077e892d218143fcc1775e900a26fd31d26da12b4"
 
 [[files]]
 file = "kubejs/data/aquamirae/worldgen/structure_set/ice_maze.json"
-hash = "b89ff817f9c371ed129b810ac443c9441f9a23e6e203d25a3b66bd8882021e76"
+hash = "aadadafe2e2eb896fafff70451c2ddc3d2ec8e41bfab7c6d0e792c21e74b79ba"
 
 [[files]]
 file = "kubejs/data/aquamirae/worldgen/structure_set/outpost.json"
-hash = "117a50f1bdfad7424ae63a795940a2e661c247df4d6bb7e0e13d81dee346ddd6"
+hash = "7ef80f76b5d02acdef0c8ce71b294822004d91cee7c2f81bb1e29ddd464b5c44"
 
 [[files]]
 file = "kubejs/data/aquamirae/worldgen/structure_set/shelter.json"
-hash = "685bfde529259bea180912f1732f40a1e3a9a4b7ffa3d68b32fe4f9fc1724e0a"
+hash = "c73899fb1dd00acf03281188d7e16d54fe2c49d6f58b02064b31af07b2145bb4"
 
 [[files]]
 file = "kubejs/data/aquamirae/worldgen/structure_set/ship.json"
-hash = "6cb0b636852d47eb53355d55966eb93cfb4521d977bfd047348b5b091e89e3d9"
+hash = "b5b71fdd63c8a24a786e5b7271d1cd0fb160bb98b5d1843be63d860cb84ee943"
 
 [[files]]
 file = "kubejs/data/ars_elemental/worldgen/placed_feature/flashing_archwood.json"
@@ -516,19 +516,19 @@ hash = "10f53602f2004be724ff851daf9e958cddabb5003b4907800c931f28f709ad43"
 
 [[files]]
 file = "kubejs/data/betterdeserttemples/worldgen/structure_set/desert_temples.json"
-hash = "8d366512d3831c6351ddcebeb590b0ad95f237554b3d99c2a5083e91661ad318"
+hash = "d1ca4a9ae3e99feab1b8422c9e04ef17c33e92518793422b3c8d7c71a21c7017"
 
 [[files]]
 file = "kubejs/data/betterfortresses/worldgen/structure_set/fortress.json"
-hash = "18694047ed3130e7dc3bc685909a2a880e2d605541e4b5fec2d31c0bf3e8da4d"
+hash = "3cea929332b4c50a2344699f30fcfc13024bb82b14db153d8693be9250faace6"
 
 [[files]]
 file = "kubejs/data/betterjungletemples/worldgen/structure_set/jungle_temples.json"
-hash = "60ac2a7109de631c3e912b819adb20a98f884b9df5bbf3be13e18f1edd51bfd0"
+hash = "d87caa7051f449924cdd6b8fcc03618c25f272e6fcda2e6c7812bc02a1566538"
 
 [[files]]
 file = "kubejs/data/betteroceanmonuments/worldgen/structure_set/ocean_monument.json"
-hash = "3154dd1d5810a989f553db9f29973dbb4e8f05e0b61126993794932d89075b7f"
+hash = "4cae2507f4297425fab1881abacc188acb4ada8614532fc15690785ec46415f5"
 
 [[files]]
 file = "kubejs/data/botania/advancements/main/gaia_guardian_kill.json"
@@ -804,7 +804,7 @@ hash = "d8740ca0a22660134c3616253ee685f3a496d6fc5ba90e9d28fc693fe18a8067"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/spooky.json"
-hash = "b2cedcc6ae44dd97ff286152d8f291630f794526fb54807f9f0fdf10efa135dd"
+hash = "385f35245ed3275bd34d9cf552401aee7d86c3173888cd88e1443bf16a4b4a28"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/taiga.json"
@@ -948,7 +948,7 @@ hash = "8efc4b153f6614cbafce0441ea019502ba6bcd0a46e1a592662ee0f47df87614"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/towers.json"
-hash = "fb595bf289a77596ef5c6348b00eee6d0d8c9f0952c757cb8b5c71475ac13c0b"
+hash = "7289a14924ba6b7337018090fd116a454a35723c5f7b97e64d044ea6bde064b3"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/towers_skylands_autumn.json"
@@ -1196,7 +1196,7 @@ hash = "0288ae08f850af1374af34f8d28c07c4d158e031847a08329f5bbc9c2c7db1ac"
 
 [[files]]
 file = "kubejs/data/ctov/worldgen/structure_set/villages.json"
-hash = "69cde3a06cc07a315ad65779a1526e34f9f4a50684a18570cb5005b6c803ba5e"
+hash = "0c7bbf102631cfece0a88d63deca54fdd96e6ea6af0369a69bc4065c8878aa29"
 
 [[files]]
 file = "kubejs/data/deep_aether/advancements/explore_aether.json"
@@ -1285,6 +1285,10 @@ hash = "ef56b8045530919d61766c6b0b3000452283f92ad81245ed2f2d4a985a50aff8"
 [[files]]
 file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
+
+[[files]]
+file = "kubejs/data/graveyard/worldgen/structure_set/medium_graveyard_structure.json"
+hash = "9181a522d6b384dd2a7f2b4fb9de48624a53a083cbdb029c4248c50c120852c9"
 
 [[files]]
 file = "kubejs/data/idas/advancements/idas_root.json"
@@ -1432,15 +1436,15 @@ hash = "cc9841436f76ef339930a19b2080390fddab63e9180b1c710d2630d063b08d4e"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/idas_common.json"
-hash = "6c18e217cb828d75e508ab983a112b01bb46eb8b59cad886e37182dc95b17c1f"
+hash = "b97f4347ca79c735498a40d21ef0e4cb51febd9ca16c3a7fa8e1d384ef684200"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/idas_rare.json"
-hash = "4445342dbd72214d437de7b4269f09762c50d7ec2c38adfee94f1dfefca90bf7"
+hash = "c1eddff30db66fd0a7bdfeb48d6ff8d8f7fb65d2ca45f4ebf011e7bb091aa59c"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/idas_small.json"
-hash = "72b5c8ca3f27bd8ac16bcf016577dcc4af129a8ad5631639bf6ff082bdc3741f"
+hash = "ee9322d6a3da40ba8bbbb0a1fb51df4882c361abb1498824be68c2d46aa76af6"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure_set/labyrinth.json"
@@ -1563,6 +1567,10 @@ file = "kubejs/data/minecraft/worldgen/structure_set/pillager_outposts.json"
 hash = "52254e3baf1e14998c43f2bf0e61642b8ad22b1868da8f3e7a23091bfc3e17dd"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure_set/ruined_portals.json"
+hash = "f513ca577b841d83b45a8ade9896a59b75db8a180e324ab08063d2b271abbe20"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/swamp_huts.json"
 hash = "12639f42a388eaa7ed80fe66430499f0f6083a249e6da14916da8008ef54e349"
 
@@ -1643,8 +1651,12 @@ file = "kubejs/data/revampedvillages/structures/taiga/center/statue.nbt"
 hash = "ff669b6c0ea1bc76e91122bd0af1db40c2d9d3f9eb344632b1a3a9ed8b39e30b"
 
 [[files]]
+file = "kubejs/data/ribbits/worldgen/structure_set/ribbit_village.json"
+hash = "e42ab82ba468463a91f0d37aef00bac7ceabb52e042163a4b273daef2b49b766"
+
+[[files]]
 file = "kubejs/data/seavil/worldgen/structure_set/undersea_village.json"
-hash = "c1449dc5d1bf270790423d5cc75f5f4c9d3c029338832a7fdbb8c675bc9f83ca"
+hash = "6f5c1b899dc493e936291e48be8f74e18d2172541a600ee52a2603a5948c3c99"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/biome/amethyst_canyon.json"
@@ -1712,7 +1724,7 @@ hash = "7a06307f34c51a21baa5baf07bb27ffd3e627b84b00c8f8c42e005f4b9475c72"
 
 [[files]]
 file = "kubejs/data/tlc/worldgen/structure_set/structure_lost_castle_set.json"
-hash = "0e665383ddddb8b76ce5e4c75a4cb04d2606ced28b9c2f566a816ea36792ac2b"
+hash = "5ddcbcfc9d91b0adc42ecb8970ef5b7592431c9225270cb7cef3cbb73bc5ab4c"
 
 [[files]]
 file = "kubejs/data/towns_and_towers/worldgen/structure_set/other.json"
@@ -1728,31 +1740,31 @@ hash = "222334d97354cc7eb23580dc47f1c9b07eec583721354c969aba3529a16f87c5"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/castle_ruins.json"
-hash = "c2cad970414a2e3b26efa6f48b9ead5571f350d124fcc047bb855773a265d048"
+hash = "7ed79f50973acb7ae1dd2c423554783d6e298780e3c3ac78006611698b96a479"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/castles.json"
-hash = "10fde979fcfd2e78ddbb9f873de8c22512afca351defde6fdc13a9a6f5536bc6"
+hash = "bebabae3d3af68f3d1d8492435c638e3020118bd8218bc95eb1d1c5f83513ce3"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/deep_spawner_rooms.json"
-hash = "22264b602faf11473bc8483507b41acbff9082e95f63ea196250eae62705b9e6"
+hash = "0f7dfd382361918e2897fdfa463e1857abedb98648012dcce40a3baf491642f2"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/desert_houses.json"
-hash = "4cea9be0f52f301df9e58d8e6b230a1c740053e806c43ee6c7b225af8b17feaa"
+hash = "a44d85bf34eca2c203b06181df53d4ae01c8b5e8ec01c4ebd1b9dcab7a8d42af"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/spawner_rooms.json"
-hash = "acb02afacdbc96ec101b9643bad22ddf12cf012d8dd1391387affc59ce8819f3"
+hash = "c5933265c94e30e0341b8b8c4809ed0dd73f4f11ea8ef3c297c93e2ca2d53037"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/tower_ruins.json"
-hash = "a19004b64b077d8cf41a00ea9aca98b5b24b394a9db84643c6d3082b1e107376"
+hash = "4df2ddd2ac40ae0051bd0ffc2b560ef929365498e714cd7ee11ec856d889e1bd"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/witch_huts.json"
-hash = "7c555b802aa7f088b48371ada13f7fc0c8057ce616e13b0554ccdda951622455"
+hash = "b0204a69bfd56d405c4953232322c4dd218fb31c17247f02ecd405c4af89d44e"
 
 [[files]]
 file = "kubejs/data/vanillatweaks/tags/functions/uninstall.json"
@@ -1916,7 +1928,7 @@ hash = "13f8ff9b58d5fe5db3595a65cc82d4eabee43f243a8bddecca102139bb26d6aa"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
-hash = "b5ab5fd3ce7883148ad3a28670699d1c797e9083a90d4869fcc9f2cced319862"
+hash = "099bb87798808ce20f8b1fdfc94ce3ff1c2277daf41d80a1ec9137504fb25171"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure_set.js"
@@ -3798,8 +3810,8 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
-hash = "5408673dad53abcddca637adafb63b392a82a8ec5b5fda06672a3630b3702097"
+hash = "99ac6b23e88766a357e456025a1f62972f33a4e109499450eadde8698a7f2610"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
-hash = "a7dfa8a613f4bb6a653e2af3849ea9d18a07690713c1e5b453054bdfee02080b"
+hash = "36e3f72d9932d3be42634a7ecb93a2d19dcc9b534ce091a6e39cfafea55b2d25"
