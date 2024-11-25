@@ -5,10 +5,6 @@
     "salt": 169480678,
     "spacing": 45,
     "separation": 20,
-    "type": "integrated_api:advanced_random_spread",
-    "super_exclusion_zone": {
-      "chunk_count": 2,
-      "other_set": "#idas:rare_avoid"
-    }
+    "type": "integrated_api:advanced_random_spread"
   }
 }

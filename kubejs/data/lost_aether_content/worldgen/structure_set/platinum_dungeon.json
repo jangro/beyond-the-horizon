@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "exclusion_zone": {
+      "radius": 8,
+      "structures": "#lost_aether_content:platinum_dungeon_bad_neighbors"
+    },
+    "frequency": 0.6,
+    "offset": 15,
+    "salt": 1312935463,
+    "spacing": 80,
+    "structure": "lost_aether_content:platinum_dungeon"
+  },
+  "structures": [
+    {
+      "structure": "lost_aether_content:platinum_dungeon",
+      "weight": 1
+    }
+  ]
+}

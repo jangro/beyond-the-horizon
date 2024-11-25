@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "tlc:lost_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 1734426469,
+
+    "spacing": 200,
+
+    "separation": 100,
+
+    "exclusion_zone": {
+      "chunk_count": 7,
+      "other_set": "minecraft:villages"
+    }
+  }
+}

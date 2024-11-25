@@ -1,0 +1,36 @@
+{
+  "placement": {
+    "salt": 746218233,
+    "spacing": 40,
+    "separation": 20,
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+    {
+      "chunk_count": 4,
+      "other_set": "betteroceanmonuments:ocean_monument"
+    },
+    {
+      "chunk_count": 4,
+      "other_set": "minecraft:ancient_cities"
+    },
+    {
+      "chunk_count": 4,
+      "other_set": "seavil:undersea_village"
+    },
+    {
+      "chunk_count": 4,
+      "other_set": "integrated_stronghold:stronghold"
+    }
+    ]
+  },
+  "structures": [
+    {
+      "structure": "tetra:regular_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "tetra:extractor_ruin",
+      "weight": 1
+    }
+  ]
+}

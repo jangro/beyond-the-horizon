@@ -5,20 +5,12 @@
       "weight": 2
     },
     {
-      "structure": "graveyard:medium_graveyard",
-      "weight": 1
-    },
-    {
       "structure": "graveyard:haunted_house",
       "weight": 2
     },
     {
       "structure": "graveyard:dead_tree",
       "weight": 2
-    },
-    {
-      "structure": "idas:haunted_manor",
-      "weight": 1
     }
   ],
   "placement": {
