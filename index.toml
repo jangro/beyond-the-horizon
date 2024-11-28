@@ -3102,6 +3102,11 @@ hash = "c4b46cb349e3f111af5711429b444dcb790e73f312feb5f9b8e04cd41a9c7b75"
 metafile = true
 
 [[files]]
+file = "mods/ready-player-fun.pw.toml"
+hash = "e0cc7fb5237b848630b5f4a859cd9501834c03174a360ec5460fc5c20b921a18"
+metafile = true
+
+[[files]]
 file = "mods/rebind-narrator.pw.toml"
 hash = "f714a54b3cffdaf560c6a3b1f6a71881a630381ecb316d20a43a97bb3a01590b"
 metafile = true
