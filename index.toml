@@ -2653,11 +2653,6 @@ hash = "13ba709686972ea1e5e4c76d30fea017d49b90bfc0e1528956a035f8e0703b40"
 metafile = true
 
 [[files]]
-file = "mods/healing-campfire.pw.toml"
-hash = "c13c08f6d9ad7a8f2939f6bb5e55f7953fc465d8d29756b957035fc1dbf05a8a"
-metafile = true
-
-[[files]]
 file = "mods/hearth-and-home.pw.toml"
 hash = "06ef6b491e1e605a9a39fcd2814f686f6f1ecd6fcf971eb85c2e7a260d0dff6e"
 metafile = true
