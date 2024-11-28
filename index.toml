@@ -804,7 +804,7 @@ hash = "d8740ca0a22660134c3616253ee685f3a496d6fc5ba90e9d28fc693fe18a8067"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/spooky.json"
-hash = "385f35245ed3275bd34d9cf552401aee7d86c3173888cd88e1443bf16a4b4a28"
+hash = "b2cedcc6ae44dd97ff286152d8f291630f794526fb54807f9f0fdf10efa135dd"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/taiga.json"
@@ -948,7 +948,7 @@ hash = "8efc4b153f6614cbafce0441ea019502ba6bcd0a46e1a592662ee0f47df87614"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/towers.json"
-hash = "7289a14924ba6b7337018090fd116a454a35723c5f7b97e64d044ea6bde064b3"
+hash = "1aa4b77f00d7c14abde3c8c3601ac9e6473054b7bd7316117b0ea8856f8c25e5"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/towers_skylands_autumn.json"
@@ -2904,7 +2904,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "a2aa83a2702bf9d02a5b6f48ccabb1cbce2708c7e9de40e75a06b673494d8f46"
+hash = "5e64c6500a8489d149269595af05b7712ba5173ab25a8790d383c7ee5310b7b8"
 metafile = true
 
 [[files]]
