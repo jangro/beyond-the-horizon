@@ -3222,6 +3222,11 @@ hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
 metafile = true
 
 [[files]]
+file = "mods/spice-of-life-valheim-updated.pw.toml"
+hash = "8954ac77f5ed6e73be948019a86c81796c07b5fb4c9dec7f2f8c1d6fdb12a3d3"
+metafile = true
+
+[[files]]
 file = "mods/stackablepotions-forge.pw.toml"
 hash = "4e665f1f9fa7bb5f8d11d1e643cf486967ad6b1b850ac0bd9949e9cbd41641f1"
 metafile = true
