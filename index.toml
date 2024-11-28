@@ -2899,7 +2899,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "5e64c6500a8489d149269595af05b7712ba5173ab25a8790d383c7ee5310b7b8"
+hash = "a2aa83a2702bf9d02a5b6f48ccabb1cbce2708c7e9de40e75a06b673494d8f46"
 metafile = true
 
 [[files]]
@@ -3198,7 +3198,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
-hash = "a6fa210db6d27f784814e6f9c559a6aab70e1b5d225d45ce743d9062b50d6f19"
+hash = "e88c399a04a63ac80fdd5d191e509649ed2082a43cced7d2895e58951bc32921"
 metafile = true
 
 [[files]]
