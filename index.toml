@@ -2580,6 +2580,11 @@ hash = "fc39919e43e19650312ba967cbbc2ea7d1bd14a8fe677b8271dfe63b6e479df9"
 metafile = true
 
 [[files]]
+file = "mods/flib.pw.toml"
+hash = "4a5b4a1d085ef0ad0d77e6c211e793f2d5cbe34e8ead3f5e7d2d089ceca207a0"
+metafile = true
+
+[[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
 metafile = true
@@ -3256,6 +3261,11 @@ metafile = true
 [[files]]
 file = "mods/structurize.pw.toml"
 hash = "245a0391f5144c6d02648a4f58af9d29fca3b19122f8943f56fd27d90433e633"
+metafile = true
+
+[[files]]
+file = "mods/stupid-horse-stand-still.pw.toml"
+hash = "4817f2301b2c7410c7c35872286d82594e381cde628ac7c51f82a177bd493cc2"
 metafile = true
 
 [[files]]
