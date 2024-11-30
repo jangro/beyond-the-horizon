@@ -1,0 +1,13 @@
+name = "Mounted Pearl - Bring your mount along when you enderpearl"
+filename = "mountedpearl-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a3973fbfbd46a7b7b751cfd09a2b211e40f14417"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4624043
+project-id = 232795

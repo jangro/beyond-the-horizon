@@ -2920,6 +2920,11 @@ hash = "19e2f5faa9bcdc20a377198e232f2566d87b7bf7bf82c0764add649a3741a38f"
 metafile = true
 
 [[files]]
+file = "mods/mounted-pearl-bring-your-mount-along-when-you.pw.toml"
+hash = "77e8daea5642dcf29d4e0dc00c984c39a820414f60da86ac91fc20b2fe0020aa"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "c17b9de2050b52f12368cea16836e8c6ac43be9683b2fc4755a9b3d4a60fa67b"
 metafile = true
