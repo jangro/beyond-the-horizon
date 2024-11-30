@@ -23,7 +23,7 @@
 		#Allow the biome to spawn: 
 		generate = true
 		#Set minecraft biomes in which the Nyctophobia biome will spawn: 
-		replaceableBiomes = ["meadow"]
+		replaceableBiomes = ["meadow", "taiga"]
 
 	["Nyctophobia - Biome Config".haunted_lakes]
 		#Allow the biome to spawn: 
@@ -35,7 +35,7 @@
 		#Allow the biome to spawn: 
 		generate = false
 		#Set minecraft biomes in which the Nyctophobia biome will spawn: 
-		replaceableBiomes = ["meadow"]
+		replaceableBiomes = ["meadow", "taiga"]
 
 	["Nyctophobia - Biome Config".deep_dark_forest]
 		#Allow the biome to spawn: 

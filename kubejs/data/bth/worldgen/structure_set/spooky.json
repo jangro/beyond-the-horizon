@@ -1,6 +1,26 @@
 {
   "structures": [
     {
+      "structure": "graveyard:mushroom_grave",
+      "weight": 1
+    },
+    {
+      "structure": "idas:wizard_tower",
+      "weight": 2
+    },
+    {
+      "structure": "idas:pillager_camp",
+      "weight": 2
+    },
+    {
+      "structure": "idas:witches_treestump",
+      "weight": 2
+    },
+    {
+      "structure": "bth_structures:magician_house",
+      "weight": 1
+    },
+    {
       "structure": "graveyard:small_graveyard",
       "weight": 2
     },

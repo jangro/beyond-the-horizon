@@ -30,6 +30,11 @@ ServerEvents.tags('worldgen/structure', event => {
     'graveyard:medium_graveyard',
     'graveyard:small_graveyard',
     'idas:haunted_manor',
+    'bth_structures:magician_house',
+    'graveyard:has_structure/mushroom_grave',
+    'idas:pillager_camp',
+    'idas:witches_treestump',
+    'idas:wizard_tower',
   ]);
 
   event.add('bth:in_plains', [
@@ -37,6 +42,7 @@ ServerEvents.tags('worldgen/structure', event => {
     'idas:hermits_hollow',
     'nebulusoaktree:oak_tree',
   ]);
+
   event.add('bth:in_meadow', [
     'bth_structures:ruined_hangar',
     'idas:dig_site/dig_site',
@@ -50,13 +56,13 @@ ServerEvents.tags('worldgen/structure', event => {
     'valhelsia_structures:forge',
   ]);
 
-  event.add('bth:in_dark_forest', [
-    'bth_structures:magician_house',
-    'graveyard:has_structure/mushroom_grave',
-    'idas:pillager_camp',
-    'idas:witches_treestump',
-    'idas:wizard_tower',
-  ]);
+  // event.add('bth:in_dark_forest', [
+  //   'bth_structures:magician_house',
+  //   'graveyard:has_structure/mushroom_grave',
+  //   'idas:pillager_camp',
+  //   'idas:witches_treestump',
+  //   'idas:wizard_tower',
+  // ]);
 
   event.add('bth:camps', [
     'idas:lumber_camp/lumber_camp_acacia',

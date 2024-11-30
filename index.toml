@@ -220,7 +220,7 @@ hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
 
 [[files]]
 file = "config/nyctophobia-common.toml"
-hash = "0d1a10179ad8f16710499051b7c743649828d108629d116f46f5123d379b9184"
+hash = "119637f20e288eb3b8a8f5278229ca075b59464afff076e4b4582aebd7e1b3a7"
 
 [[files]]
 file = "config/oculus.properties"
@@ -771,10 +771,6 @@ file = "kubejs/data/bth/worldgen/structure_set/camps.json"
 hash = "64de44ae1f4241af0fb67794deab880597198d5dace687e0dbd5c097cdaa3a59"
 
 [[files]]
-file = "kubejs/data/bth/worldgen/structure_set/dark_forest.json"
-hash = "77447620a38cf857fdf1433bd62a8a97df29aa5ab32ba5e11a286c0244449f8d"
-
-[[files]]
 file = "kubejs/data/bth/worldgen/structure_set/forested_highlands.json"
 hash = "8681949be70b1257e62a3314740882f1a9016cf4ddd864cea6a6ad50082b9101"
 
@@ -784,7 +780,7 @@ hash = "7994b03ccd8e3c3a6cac00a1385e83408f5baa4c0ff2fd517be3e8e0aab6081f"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/plains.json"
-hash = "b3460628e51437a3e613d1810621da112d93d150d07c1b933a67ceea2ac1b5b3"
+hash = "3d8cb84126e35fcd14461f07e3f14ae6e993cd6b76e554acaab292264789b314"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands_autum.json"
@@ -804,7 +800,7 @@ hash = "d8740ca0a22660134c3616253ee685f3a496d6fc5ba90e9d28fc693fe18a8067"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/spooky.json"
-hash = "b2cedcc6ae44dd97ff286152d8f291630f794526fb54807f9f0fdf10efa135dd"
+hash = "9c0ef4d08e7e6cd24842d8cf4640b3d7db7ebd8f5b70d5dc7bb9e705abf28eee"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/taiga.json"
@@ -1287,10 +1283,6 @@ file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
 
 [[files]]
-file = "kubejs/data/graveyard/worldgen/structure_set/medium_graveyard_structure.json"
-hash = "9181a522d6b384dd2a7f2b4fb9de48624a53a083cbdb029c4248c50c120852c9"
-
-[[files]]
 file = "kubejs/data/idas/advancements/idas_root.json"
 hash = "0fe1fad195acffbc03bf08dc7fcd23ec655040765abad073ca73a8cdf5de88ce"
 
@@ -1336,7 +1328,7 @@ hash = "c470837f509b3d3515bd9c4fa941ecf031344655f6ec4255a2878e32f214ce9f"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure/brickhouse.json"
-hash = "a2d47c8e8bd1b84d88f46a48d8a732565302578a02932e42dea9dae445c8120a"
+hash = "c5d4e509fcd0880f7db587feb782507ebf890af71d88082412696c11e71619bc"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure/castle.json"
@@ -1344,7 +1336,7 @@ hash = "49b418405baca81235eb24332f80e7002cb6019c25f1a3f3d2b57299b1d788e9"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure/cottage.json"
-hash = "290dbb3125fa0ceb6649cd1e7174417545895e6454788306d24e40efd7b0a5e4"
+hash = "781fe4e5c59f190e7d7b72fb5bf87b21f134e3cedc9e5db8248f401f85a299e0"
 
 [[files]]
 file = "kubejs/data/idas/worldgen/structure/enchantingtower.json"
@@ -1900,7 +1892,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "73a0de16ff64c6982bdeec921d7591367024e6ec67834560624b777c8bcbb927"
+hash = "9b3797f6fb1f96baec4276a84b1d7ba2b8627dd17e41b6e771ece6546d4eb9e9"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
@@ -1928,7 +1920,7 @@ hash = "13f8ff9b58d5fe5db3595a65cc82d4eabee43f243a8bddecca102139bb26d6aa"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
-hash = "099bb87798808ce20f8b1fdfc94ce3ff1c2277daf41d80a1ec9137504fb25171"
+hash = "d718cda4aa7e4bdf64b9d9083112bc9ac5d03b115c8a92999c318209173a474a"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure_set.js"
@@ -3103,7 +3095,7 @@ metafile = true
 
 [[files]]
 file = "mods/ready-player-fun.pw.toml"
-hash = "e0cc7fb5237b848630b5f4a859cd9501834c03174a360ec5460fc5c20b921a18"
+hash = "b4bd85d77b2b4eec0271c64ea477d73182dd3e4bc6cf3ff92f755e7b1b5c34df"
 metafile = true
 
 [[files]]

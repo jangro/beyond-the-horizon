@@ -137,15 +137,6 @@ ServerEvents.tags('worldgen/biome', event => {
     'idas:has_structure/ancient_mines_biomes',
   ].forEach((tag) => event.add(tag, ['minecraft:birch_forest', 'minecraft:old_growth_birch_forest']));
 
-  // BTH: Dark forest
-  [
-    'bth_idas:pillager_camp_biomes',
-    'bth_idas:wizard_tower_biomes',
-    'bth_structures:magician_house',
-    'graveyard:has_structure/mushroom_grave',
-    'idas:has_structure/witches_treestump_biomes',
-  ].forEach((tag) => event.add(tag, ['minecraft:dark_forest']));
-
   // BTH: Forested highlands
   [
     'bth_idas:castle_biomes',
@@ -167,14 +158,24 @@ ServerEvents.tags('worldgen/biome', event => {
     'nebulusoaktree:oak_tree_biomes',
   ].forEach((tag) => event.add(tag, ['minecraft:plains']));
 
+  // BTH: Sparse jungle
+  [
+    'idas:has_structure/hermits_hollow_biomes',
+  ].forEach((tag) => event.add(tag, ['minecraft:sparse_jungle']));
+
   // BTH: Spooky
   [
+    'bth_idas:pillager_camp_biomes',
+    'bth_idas:wizard_tower_biomes',
+    'bth_structures:magician_house',
+    'graveyard:has_structure/mushroom_grave',
+    'idas:has_structure/witches_treestump_biomes',
     'graveyard:has_structure/dead_tree',
     'graveyard:has_structure/haunted_house',
     'graveyard:has_structure/medium_graveyard',
     'graveyard:has_structure/small_graveyard',
     'idas:has_structure/hauntedhouse_biomes', // this one doesn't generate for some reason...
-  ].forEach((tag) => event.add(tag, ['nyctophobia:deep_dark_forest', 'nyctophobia:haunted_forest']));
+  ].forEach((tag) => event.add(tag, ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest']));
 
   // BTH: Taiga
   [
@@ -184,7 +185,9 @@ ServerEvents.tags('worldgen/biome', event => {
   ].forEach((tag) => event.add(tag, ['minecraft:taiga', 'minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']));
 
   // Houses from various mods
-  event.add('bth:house_biomes', ['minecraft:flower_forest', 'minecraft:forest', 'minecraft:cherry_grove', 'terralith:sakura_grove', 'terralith:sakura_valley']);
+  event.add('bth:house_biomes', ['integrateddynamics:meneglin', 'terralith:arid_highlands', 'terralith:brushland',
+                                 'minecraft:flower_forest', 'minecraft:forest', 'minecraft:cherry_grove',
+                                 'terralith:sakura_grove', 'terralith:sakura_valley']);
 
   // Better Mineshafts (don't let this generate under skylands)
   event.add('bettermineshafts:has_structure/better_mineshaft_overgrown', ['minecraft:old_growth_birch_forest', 'minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']);
@@ -211,7 +214,7 @@ ServerEvents.tags('worldgen/biome', event => {
   // Integrated Dungeons and Structures (IDAS)
   // Structures that are not part in our custom structure sets
   event.add('bth_idas:enchanting_tower_biomes', ['ars_nouveau:archwood_forest']);
-  event.add('bth_idas:tinkers_workshop_biomes', ['minecraft:savanna_plateau']);
+  event.add('bth_idas:tinkers_workshop_biomes', ['minecraft:savanna', 'minecraft:savanna_plateau']);
   event.add('bth_idas:tinkers_citadel_biomes', ['terralith:savanna_badlands']);
   event.add('idas:has_structure/apothecary_abode_biomes', ['terralith:lavender_forest', 'terralith:lavender_valley', 'terralith:moonlight_valley']);
   event.add('idas:has_structure/archmages_tower_biomes', ['terralith:moonlight_grove', 'terralith:moonlight_valley']);
@@ -220,7 +223,7 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('idas:has_structure/polar_bear_den_biomes', ['minecraft:snowy_plains']);
   event.add('idas:has_structure/red_desert_biomes', ['terralith:ancient_sands', 'terralith:bryce_canyon']);
   event.add('idas:has_structure/ruins_of_the_deep_biomes', ['minecraft:taiga']);
-  event.add('idas:has_structure/train_ruins_biomes', ['terralith:highlands']);
+  event.add('idas:has_structure/train_ruins_biomes', ['terralith:brushland', 'terralith:highlands']);
   event.add('idas:has_structure/tree_of_wisdom_biomes', ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest', 'terralith:blooming_valley']);
 
   event.add('hauntedharvest:has_abandoned_farm', ['minecraft:forest']);
@@ -237,5 +240,8 @@ ServerEvents.tags('worldgen/biome', event => {
   // Prevent jungle temples from spawning in Ratlantis
   event.removeAll('minecraft:has_structure/jungle_temple');
   event.add('minecraft:has_structure/jungle_temple', ['minecraft:jungle', 'minecraft:bamboo_jungle']);
+
+  // Cottage
+  event.add('bth_idas:cottage_biomes', ['minecraft:stony_shore']);
 
 });

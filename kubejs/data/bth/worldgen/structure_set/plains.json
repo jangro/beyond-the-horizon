@@ -6,11 +6,11 @@
     },
     {
       "structure": "idas:hermits_hollow",
-      "weight": 1
+      "weight": 2
     },
     {
       "structure": "idas:farmhouse",
-      "weight": 1
+      "weight": 2
     }
   ],
   "placement": {

@@ -3,7 +3,7 @@
   "start_pool": "idas:cottage",
   "size": 1,
   "valid_biome_radius_check": 1,
-  "biomes": "#bth:birch_forest",
+  "biomes": "#bth_idas:cottage_biomes",
   "step": "surface_structures",
   "terrain_adaptation": "beard_thin",
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
