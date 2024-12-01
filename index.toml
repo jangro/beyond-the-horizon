@@ -2541,7 +2541,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "bd349b254eed32f2ac1063159d752468438234b8c14d2937df95794832973f52"
+hash = "b780464fba5384f9ab6086aacac7a33578f2a958d426a91612e14445f1756b0a"
 metafile = true
 
 [[files]]
@@ -2886,7 +2886,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "ec09f08733f63b63b8c2dbbafb34d41d8441796c04c71ab92fc05558a5d85ffc"
+hash = "ea62f5ffa3bace640045487c452e5c0e597d3a058c19c20c7c1f9cd27a793d53"
 metafile = true
 
 [[files]]
@@ -3170,7 +3170,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "1a80f89de6d42a3385500626fb4428f7044224084deee1a6327226b7e47dbf1f"
+hash = "31c4033055a16844844d923f11fb4f789ba005692f0764f997d2146101134f00"
 metafile = true
 
 [[files]]
@@ -3290,7 +3290,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "af4f96defc16b01dc235ceb58e734747adbc36b7a5cb03bc7ed4f253ca695a3c"
+hash = "723383140ebcc04db20bb47a2d5dc5667894ed4f12605ec63488dba9de608eaf"
 metafile = true
 
 [[files]]
@@ -3315,7 +3315,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "a993be9dcfd2a929293bc958def73bb0568a713e7046d5d846fff24d47e1750a"
+hash = "4b38d65d8ccf162d1e1d02405655091569df6478bfaac34010659e294b741c56"
 metafile = true
 
 [[files]]
