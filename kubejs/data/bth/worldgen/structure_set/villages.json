@@ -1,0 +1,384 @@
+{
+  "structures": [
+    {
+      "structure": "ctov:large/village_beach",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_christmas",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_desert",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_desert_oasis",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_dark_forest",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_jungle_tree",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_mesa",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_mesa_fortified",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_mountain",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_mountain_alpine",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_mushroom",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_plains",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_plains_fortified",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_savanna_na",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_snowy_igloo",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_swamp",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_swamp_fortified",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_taiga",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:large/village_taiga_fortified",
+      "weight": 1
+    },
+    {
+      "structure": "ctov:medium/village_beach",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_christmas",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_desert",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_desert_oasis",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_dark_forest",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_jungle",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_jungle_tree",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_mesa",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_mesa_fortified",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_mountain",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_mountain_alpine",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_mushroom",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_plains",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_plains_fortified",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_savanna",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_savanna_na",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_snowy_igloo",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_swamp",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_swamp_fortified",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_taiga",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:medium/village_taiga_fortified",
+      "weight": 4
+    },
+    {
+      "structure": "ctov:small/village_beach",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_christmas",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_desert",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_desert_oasis",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_dark_forest",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_jungle",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_jungle_tree",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_mesa",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_mesa_fortified",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_mountain",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_mountain_alpine",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_mushroom",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_plains",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_plains_fortified",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_savanna",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_savanna_na",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_snowy_igloo",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_swamp",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_swamp_fortified",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_taiga",
+      "weight": 15
+    },
+    {
+      "structure": "ctov:small/village_taiga_fortified",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_badlands",
+      "weight": 15
+    },
+    {
+      "structure": "terralith:fortified_village",
+      "weight": 15
+    },
+    {
+      "structure": "terralith:fortified_desert_village",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_beach",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_birch_forest",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_flower_forest",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_forest",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_snowy_slopes",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_jungle",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_meadow",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_mushroom_fields",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_ocean",
+      "weight": 5
+    },
+    {
+      "structure": "towns_and_towers:village_old_growth_taiga",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_grove",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_savanna_plateau",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_sunflower_plains",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_snowy_taiga",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_sparse_jungle",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_swamp",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:village_wooded_badlands",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_mediterranean",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_swedish",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_tudor",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_wandering_trader_camp",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_classic",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_rustic",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_iberian",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_nilotic",
+      "weight": 15
+    },
+    {
+      "structure": "towns_and_towers:exclusives/village_piglin",
+      "weight": 15
+    }
+  ],
+  "placement": {
+    "salt": 19271192,
+    "spacing": 100,
+    "separation": 30,
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+    {
+      "chunk_count": 16,
+      "other_set": "bth:pillager_outposts"
+    }
+    ]
+  }
+}

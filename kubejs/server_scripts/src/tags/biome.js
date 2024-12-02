@@ -106,7 +106,6 @@ ServerEvents.tags('worldgen/biome', event => {
     'ribbits:has_structure/ribbit_village',
 
     'terralith:has_structure/desert_outpost',
-    'terralith:has_structure/fortified_village',
     'terralith:has_structure/mage_complex',
     'terralith:has_structure/mage_tower',
     'terralith:has_structure/rubble_desert',

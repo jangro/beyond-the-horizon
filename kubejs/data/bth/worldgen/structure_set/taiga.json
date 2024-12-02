@@ -17,6 +17,16 @@
     "salt": 19271192,
     "spacing": 40,
     "separation": 30,
-    "type": "integrated_api:advanced_random_spread"
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+    {
+      "chunk_count": 10,
+      "other_set": "bth:villages"
+    },
+    {
+      "chunk_count": 10,
+      "other_set": "bth:pillager_outposts"
+    }
+    ]
   }
 }

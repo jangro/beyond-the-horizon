@@ -6,19 +6,19 @@
     "type": "valhelsia_structures:valhelsia_random_spread",
     "exclusion_zones": [
     {
-      "chunk_count": 4,
+      "chunk_count": 16,
       "other_set": "betteroceanmonuments:ocean_monument"
     },
     {
-      "chunk_count": 4,
+      "chunk_count": 16,
       "other_set": "minecraft:ancient_cities"
     },
     {
-      "chunk_count": 4,
+      "chunk_count": 16,
       "other_set": "seavil:undersea_village"
     },
     {
-      "chunk_count": 4,
+      "chunk_count": 16,
       "other_set": "integrated_stronghold:stronghold"
     }
     ]

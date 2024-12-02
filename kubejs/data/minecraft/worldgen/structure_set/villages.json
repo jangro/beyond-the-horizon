@@ -5,36 +5,8 @@
     "separation": 100,
     "type": "valhelsia_structures:valhelsia_random_spread",
     "exclusion_zones": [
-    {
-      "chunk_count": 16,
-      "other_set": "ctov:villages"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "towns_and_towers:towns"
-    }
     ]
   },
   "structures": [
-    {
-      "structure": "minecraft:village_plains",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:village_desert",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:village_savanna",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:village_snowy",
-      "weight": 1
-    },
-    {
-      "structure": "minecraft:village_taiga",
-      "weight": 1
-    }
   ]
 }

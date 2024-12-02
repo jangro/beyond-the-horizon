@@ -779,6 +779,10 @@ file = "kubejs/data/bth/worldgen/structure_set/meadow.json"
 hash = "7994b03ccd8e3c3a6cac00a1385e83408f5baa4c0ff2fd517be3e8e0aab6081f"
 
 [[files]]
+file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
+hash = "2570d9ace3a85aee436830e2b60185d6554001eca7136a8a70a3203b859bf5b8"
+
+[[files]]
 file = "kubejs/data/bth/worldgen/structure_set/plains.json"
 hash = "3d8cb84126e35fcd14461f07e3f14ae6e993cd6b76e554acaab292264789b314"
 
@@ -805,6 +809,10 @@ hash = "9c0ef4d08e7e6cd24842d8cf4640b3d7db7ebd8f5b70d5dc7bb9e705abf28eee"
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/taiga.json"
 hash = "ab920800ad6b2941b8092f91638a4d449ac1b35a515bb44a4df4446be4f393e3"
+
+[[files]]
+file = "kubejs/data/bth/worldgen/structure_set/villages.json"
+hash = "a84ef5294766147a0bb32981ef02493b13c6ad7b4c4373fed571a373f5dfe6bd"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/aether_portal_floating.nbt"
@@ -1191,8 +1199,12 @@ file = "kubejs/data/ctov/lithostitched/worldgen_modifier/waystone/taiga_fortifie
 hash = "0288ae08f850af1374af34f8d28c07c4d158e031847a08329f5bbc9c2c7db1ac"
 
 [[files]]
+file = "kubejs/data/ctov/worldgen/structure_set/pillager_outposts.json"
+hash = "265b0d53b86dab3fc8c6f14fbd79312635264b12de0240d4f2083723d2c7b715"
+
+[[files]]
 file = "kubejs/data/ctov/worldgen/structure_set/villages.json"
-hash = "0c7bbf102631cfece0a88d63deca54fdd96e6ea6af0369a69bc4065c8878aa29"
+hash = "f47bc61f50bd383d5b6aae07aa9ae9e87aacd39f01e4e2f38e578533bce0909a"
 
 [[files]]
 file = "kubejs/data/deep_aether/advancements/explore_aether.json"
@@ -1643,6 +1655,10 @@ file = "kubejs/data/revampedvillages/structures/taiga/center/statue.nbt"
 hash = "ff669b6c0ea1bc76e91122bd0af1db40c2d9d3f9eb344632b1a3a9ed8b39e30b"
 
 [[files]]
+file = "kubejs/data/revampedvillages/worldgen/structure_set/villages.json"
+hash = "d2e5a9482b80dcf42aa179dc6bb1fe058033d990bce34d32c63ac5c1b22bf192"
+
+[[files]]
 file = "kubejs/data/ribbits/worldgen/structure_set/ribbit_village.json"
 hash = "e42ab82ba468463a91f0d37aef00bac7ceabb52e042163a4b273daef2b49b766"
 
@@ -1724,11 +1740,11 @@ hash = "37baf6448491e93be3ebe382272a1401903a93a7cb286732e44b5cc30839c3ce"
 
 [[files]]
 file = "kubejs/data/towns_and_towers/worldgen/structure_set/towers.json"
-hash = "230207136f39c00dbd8c603e8ffbe35019f6621bee2dcf5c025e5d2cd8e4875d"
+hash = "0d0c2bd1b6b6dfd742bb83d742b1cc8a3591fad42e01961233a9b7a7d1521398"
 
 [[files]]
 file = "kubejs/data/towns_and_towers/worldgen/structure_set/towns.json"
-hash = "222334d97354cc7eb23580dc47f1c9b07eec583721354c969aba3529a16f87c5"
+hash = "04d093338f805ba1000e466ce1b84389295e29df339d174d4a2d72da7d8d5e20"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/castle_ruins.json"

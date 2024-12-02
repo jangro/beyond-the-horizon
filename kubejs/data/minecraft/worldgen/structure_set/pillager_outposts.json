@@ -12,9 +12,5 @@
     "separation": 32
   },
   "structures": [
-    {
-      "structure": "minecraft:pillager_outpost",
-      "weight": 1
-    }
   ]
 }

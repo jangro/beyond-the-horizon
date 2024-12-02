@@ -1,41 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "towns_and_towers:exclusives/village_mediterranean",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_swedish",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_tudor",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_wandering_trader_camp",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_classic",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_rustic",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_iberian",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_nilotic",
-      "weight": 5
-    },
-    {
-      "structure": "towns_and_towers:exclusives/village_piglin",
-      "weight": 5
-    }
   ],
   "placement": {
     "salt": 10587309,
