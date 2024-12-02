@@ -2,10 +2,10 @@
 	// World generation config options.
 	"worldgen": {
 		// Enable this to disable worldgen entirely. If true, the other options have no effect.
-		"disable_all": false,
-		"poor_uraninite_veins_per_chunk": 0,
-		"uraninite_veins_per_chunk": 0,
-		"dense_uraninite_veins_per_chunk": 0,
+		"disable_all": true,
+		"poor_uraninite_veins_per_chunk": 8,
+		"uraninite_veins_per_chunk": 6,
+		"dense_uraninite_veins_per_chunk": 3,
 		"dry_ice_veins_per_chunk": 9
 	},
 	// Other general config options.
@@ -28,7 +28,7 @@
 		"heat_blocks": {
 			"powah:blazing_crystal_block": 2800,
 			"minecraft:lava": 1000,
-			"minecraft:magma_block": 800
+			"minecraft:magma_block": 800,
 			// Added by BTH
 			"alexscaves:block_of_uranium": 1500,
 		},
