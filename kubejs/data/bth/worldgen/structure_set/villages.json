@@ -371,8 +371,8 @@
   ],
   "placement": {
     "salt": 19271192,
-    "spacing": 100,
-    "separation": 30,
+    "spacing": 120,
+    "separation": 60,
     "type": "valhelsia_structures:valhelsia_random_spread",
     "exclusion_zones": [
     {
