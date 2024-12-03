@@ -266,6 +266,12 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(IMPALED_ICEBREAKER_MAP).when((c) => c.randomChance(0.1)))
     .addLoot(LootEntry.of(SNOWY_PLAINS_MAP).when((c) => c.randomChance(0.1)));
 
+  // Add graveyard crypt map to the dead tree urn (uses a shared loot table so add to the structure)
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(['graveyard:dead_tree'], false)
+    .addLoot(GRAVEYARD_CRYPT_MAP);
+
   // Add cursed eye to the Forbidden Castle
   // XXX: would be better if we could target a specific chest at 100% instead of the whole structure
   // 5% chance might be too much or too little, and no guarantee of getting an eye.

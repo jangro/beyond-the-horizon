@@ -109,6 +109,11 @@ const UNDERSEA_VILLAGE_MAP =
            display:{Name:\'{"translate":"filled_map.undersea_village"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"seavil:undersea_village",zoomLevel:2}');
 
+const GRAVEYARD_CRYPT_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.graveyard_crypt",\
+           display:{Name:\'{"translate":"filled_map.graveyard_crypt"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"graveyard:crypt",zoomLevel:2}');
+
 const DESERT_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:desert",targetBiomeColor:8381695,targetBiomeUnderground:0b}');
 const FLOWER_FOREST_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:flower_forest",targetBiomeColor:ffff00,targetBiomeUnderground:0b}');
 const SNOWY_PLAINS_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:snowy_plains",targetBiomeColor:ffffff,targetBiomeUnderground:0b}');
