@@ -1,40 +1,10 @@
 {
   "structures": [
-    {
-      "structure": "seavil:undersea_village",
-      "weight": 1
-    },
-    {
-      "structure": "seavil:undersea_village_skylands",
-      "weight": 1
-    }
   ],
   "placement": {
     "spacing": 128,
     "separation": 64,
     "salt": 19930904,
-    "type": "valhelsia_structures:valhelsia_random_spread",
-    "exclusion_zones": [
-    {
-      "chunk_count": 16,
-      "other_set": "minecraft:ocean_monuments"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "betteroceanmonuments:ocean_monument"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "minecraft:ancient_cities"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "integrated_stronghold:stronghold"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "tetra:forged_ruins"
-    }
-    ]
+    "type": "minecraft:random_spread"
   }
 }

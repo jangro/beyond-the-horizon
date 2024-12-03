@@ -1,0 +1,10 @@
+{
+  "structures": [
+  ],
+  "placement": {
+    "salt": 169480681,
+    "spacing": 25,
+    "separation": 20,
+    "type": "integrated_api:advanced_random_spread"
+  }
+}

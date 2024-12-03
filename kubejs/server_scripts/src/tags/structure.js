@@ -226,6 +226,13 @@ ServerEvents.tags('worldgen/structure', event => {
     'towns_and_towers:exclusives/village_piglin',
   ]);
 
+  event.add('bth:submerged', [
+    'betteroceanmonuments:ocean_monument',
+    'seavil:undersea_village',
+    'idas:sunken_ship/sunken_ship',
+    'idas:sunken_ship/sunken_ship_coral',
+  ]);
+
   // Minecraft Tags
 
   // Forge Tags

@@ -117,6 +117,8 @@ ServerEvents.tags('worldgen/biome', event => {
     'terralith:has_structure/spire', // save for Ad Astra's Glacio
     'terralith:has_structure/witch_hut',
 
+    'tetra:has_structure/forged_ruins',
+
     'valhelsia_structures:has_structure/big_tree',
     'valhelsia_structures:has_structure/castle',
     'valhelsia_structures:has_structure/has_forge',
@@ -232,6 +234,9 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Terralith
   event.add('terralith:has_structure/mage_complex', ['terralith:moonlight_grove', 'terralith:moonlight_valley']);
+
+  // Tetra (prevent ruins from generating in oceans by removing the #forge:is_cold/overworld biome tag)
+  event.add('tetra:has_structure/forged_ruins', ['#minecraft:is_mountain', '#minecraft:is_taiga']);
 
   // Valhelsia Structures
   event.add('valhelsia_structures:has_structure/player_house', ['#bth:house_biomes']);
