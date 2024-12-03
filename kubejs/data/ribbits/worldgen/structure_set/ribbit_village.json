@@ -1,9 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "ribbits:ribbit_village",
-      "weight": 1
-    }
   ],
   "placement": {
     "type": "yungsapi:enhanced_random_spread",

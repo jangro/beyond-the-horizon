@@ -238,11 +238,11 @@
     },
     {
       "structure": "ctov:small/village_swamp",
-      "weight": 15
+      "weight": 10
     },
     {
       "structure": "ctov:small/village_swamp_fortified",
-      "weight": 15
+      "weight": 10
     },
     {
       "structure": "ctov:small/village_taiga",
@@ -250,6 +250,10 @@
     },
     {
       "structure": "ctov:small/village_taiga_fortified",
+      "weight": 15
+    },
+    {
+      "structure": "ribbits:ribbit_village",
       "weight": 15
     },
     {
@@ -326,11 +330,11 @@
     },
     {
       "structure": "towns_and_towers:village_swamp",
-      "weight": 15
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:village_wooded_badlands",
-      "weight": 15
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/village_mediterranean",
