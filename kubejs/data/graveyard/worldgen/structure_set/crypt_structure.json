@@ -1,0 +1,28 @@
+{
+  "structures": [
+    {
+      "structure": "graveyard:crypt",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 893183913,
+    "spacing": 100,
+    "separation": 50,
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+    {
+      "chunk_count": 16,
+      "other_set": "minecraft:ancient_cities"
+    },
+    {
+      "chunk_count": 16,
+      "other_set": "integrated_stronghold:stronghold"
+    },
+    {
+      "chunk_count": 16,
+      "other_set": "tetra:forged_ruins"
+    }
+    ]
+  }
+}
