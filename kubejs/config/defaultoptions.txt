@@ -41,6 +41,8 @@ key_key.integratedterminals.terminal.portable.open:key.keyboard.unknown
 key_key.inventoryhud.openconfig:key.keyboard.unknown
 key_key.socialInteractions:key.keyboard.unknown
 
+key_tetra.toolbelt.binding.access:key.keyboard.unknown
+
 key_key.voice_chat:key.keyboard.comma
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.period
