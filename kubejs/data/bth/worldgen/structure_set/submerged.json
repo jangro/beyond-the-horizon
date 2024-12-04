@@ -11,10 +11,6 @@
     {
       "structure": "idas:sunken_ship/sunken_ship",
       "weight": 1
-    },
-    {
-      "structure": "idas:sunken_ship/sunken_ship_coral",
-      "weight": 1
     }
   ],
   "placement": {
