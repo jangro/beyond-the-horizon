@@ -82,6 +82,8 @@ ServerEvents.tags('worldgen/biome', event => {
     'idas:has_structure/tree_of_wisdom_biomes',
     'idas:has_structure/witches_treestump_biomes',
 
+    'integrated_stronghold:has_structure/integrated_stronghold',
+
     'irons_spellbooks:has_structure/evoker_fort',
     'irons_spellbooks:has_structure/mountain_tower',
     'irons_spellbooks:has_structure/pyromancer_tower',
@@ -227,6 +229,12 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('idas:has_structure/train_ruins_biomes', ['terralith:brushland', 'terralith:highlands']);
   event.add('idas:has_structure/tree_of_wisdom_biomes', ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest', 'terralith:blooming_valley']);
 
+  // Integrated Stronghold (prevent from generating in oceans)
+  event.add('integrated_stronghold:has_structure/integrated_stronghold',
+            ['#minecraft:is_mountain', '#minecraft:is_taiga', '#minecraft:is_plains', '#minecraft:is_desert', '#minecraft:is_badlands',
+             '#minecraft:is_jungle', '#minecraft:is_taiga', '#minecraft:is_savanna', '#minecraft:is_hill', '#minecraft:is_forest']);
+
+  // Haunted Harvest
   event.add('hauntedharvest:has_abandoned_farm', ['minecraft:forest']);
 
   // Ribbit village
