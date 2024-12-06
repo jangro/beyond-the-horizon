@@ -43,9 +43,6 @@ ServerEvents.tags('worldgen/biome', event => {
 
     'eidolon:has_structure/stray_tower_biomes',
 
-    // This structure possibly cause crashes during world gen
-    'galosphere:has_structure/pink_salt_shrine',
-
     'graveyard:has_structure/altar',
     'graveyard:has_structure/dead_tree',
     'graveyard:has_structure/haunted_house',
