@@ -6,35 +6,6 @@
 
 LootJS.modifiers((event) => {
 
-  // Add Tiny Coins chance to all loot chests
-  // All loot chests have a 10% chance to generate coins. The amount of coins is function
-  // of distance to spawn. Near spawn there will be 1-5 coins, and increase linearly to
-  // 10-50 coins 10000 or more blocks away from spawn in a straight line.
-  event
-    .addLootTypeModifier('chest')
-    .anyDimension('minecraft:overworld')
-    .randomChance(0.1)
-    .apply((context) => {
-      let p = context.getBlockPos();
-      let distance = Math.min(Math.max(Math.sqrt(p.x * p.x + p.z * p.z), 0), 10000);
-      let factor = 9.0/10000.0*distance + 1; // from 1 (at spawn) to 10 (at 10000+ blocks from spawn)
-      let count = Math.floor(Math.random() * 5) + 1;
-      context.addLoot(Item.of('rats:tiny_coin', count * factor));
-  });
-
-  // Make loot max out at half the distance for the following dimensions
-  event
-    .addLootTypeModifier('chest')
-    .anyDimension(['minecraft:the_end', 'minecraft:the_nether', 'aether:the_aether'])
-    .randomChance(0.1)
-    .apply((context) => {
-      let p = context.getBlockPos();
-      let distance = Math.min(Math.max(Math.sqrt(p.x * p.x + p.z * p.z), 0), 5000);
-      let factor = 9.0/5000.0*distance + 1; // from 1 (at spawn) to 10 (at 5000+ blocks from spawn)
-      let count = Math.floor(Math.random() * 5) + 1;
-      context.addLoot(Item.of('rats:tiny_coin', count * factor));
-  });
-
   // For Ratlantis shipwrecks, we clear the loot table to remove all overworld loot.
   event
     .addLootTypeModifier('chest')
@@ -127,15 +98,6 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of('smallships:cannon').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('smallships:cannon_ball', 3).when((c) => c.randomChance(0.1)));
       }
-    });
-
-  // Add a random amount (10-30) of tiny coins to all loot chests in Ratlantis.
-  event
-    .addLootTypeModifier('chest')
-    .anyDimension(['rats:ratlantis'])
-    .randomChance(0.3)
-    .apply((context) => {
-      context.addLoot(Item.of('rats:tiny_coin', Math.floor(Math.random() * 21) + 10));
     });
 
   // Add Aether dungeon maps to Aether village chests.
