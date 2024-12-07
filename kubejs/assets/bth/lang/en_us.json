@@ -145,8 +145,8 @@
   "bth.comment.currency": "----- Currency -----",
   "lightmanscurrency.money.chain.main": "Lightman's",
   "lightmanscurrency.money.chain.bth": "Coins",
-  "lightmanscurrency.money.chain.bth.display": "{value}TC",
-  "lightmanscurrency.money.chain.bth.display.wordy": "{value} Tiny Coins",
+  "lightmanscurrency.money.chain.bth.display": "%sTC",
+  "lightmanscurrency.money.chain.bth.display.wordy": "%s Tiny Coins",
 
   "bth.comment.death_messages": "----- Death Messages -----",
   "death.attack.coconut_maul": "%s just got coconut mauled by %s",
