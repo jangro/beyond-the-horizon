@@ -57,6 +57,60 @@ MoreJSEvents.playerStartTrading((event) => {
   }
 });
 
+MoreJSEvents.villagerTrades((event) => {
+  // Remove all default trades
+  event.removeModdedTrades('lightmanscurrency:cashier', 'novice');
+  event.removeModdedTrades('lightmanscurrency:cashier', 'apprentice');
+  event.removeModdedTrades('lightmanscurrency:cashier', 'journeyman');
+  event.removeModdedTrades('lightmanscurrency:cashier', 'expert');
+  event.removeModdedTrades('lightmanscurrency:cashier', 'master');
+
+  // BTH: villager xp is set so that 10 food trades is required to level up for each level, utils trade gives double the xp.
+
+  // <=5 minute foods
+  var trade = event.addTrade('lightmanscurrency:cashier', 1, TradeItem.of('rats:tiny_coin', 1, 2), 'alexsmobs:banana'); // 5 minutes, 2 hearts
+  trade.villagerExperience(1);
+  trade = event.addTrade('lightmanscurrency:cashier', 1, TradeItem.of('rats:tiny_coin', 1, 2), 'farmersrespite:coffee'); // 5 minutes, 1 heart
+  trade.villagerExperience(1);
+
+  // 6-10 minute foods
+  trade = event.addTrade('lightmanscurrency:cashier', 2, TradeItem.of('rats:tiny_coin', 2, 4), 'miners_delight:baked_squid'); // 7 minutes, 3 hearts
+  trade.villagerExperience(6);
+  trade = event.addTrade('lightmanscurrency:cashier', 2, TradeItem.of('rats:tiny_coin', 2, 4), 'pneumaticcraft:chips'); // 9 minutes, 2.5 hearts
+  trade.villagerExperience(6);
+
+  // 11-15 minute foods
+  trade = event.addTrade('lightmanscurrency:cashier', 3, TradeItem.of('rats:tiny_coin', 3, 6), 'nethersdelight:nether_skewer'); // 11 minutes, 3.5 hearts
+  trade.villagerExperience(8);
+  trade = event.addTrade('lightmanscurrency:cashier', 3, TradeItem.of('rats:tiny_coin', 3, 6), 'neapolitan:vanilla_chocolate_fingers') // 11 minutes, 3 hearts
+  trade.villagerExperience(8);
+
+  // 15-25 minute foods
+  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('rats:tiny_coin', 4, 8), 'miners_delight:improvised_barbecue_stick'); // 15 minutes, 3.5 hearts
+  trade.villagerExperience(11);
+  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('rats:tiny_coin', 4, 8), 'farmersdelight:milk_bottle'); // 23 minutes, 3.5 hearts
+  trade.villagerExperience(11);
+
+  // >26 minute foods
+  trade = event.addTrade('lightmanscurrency:cashier', 5, TradeItem.of('rats:tiny_coin', 5, 10), 'farmersdelight:hamburger'); // 34 minutes, 6.5 hearts
+  trade.villagerExperience(16);
+  trade = event.addTrade('lightmanscurrency:cashier', 5, TradeItem.of('rats:tiny_coin', 5, 10), 'pneumaticcraft:cod_n_chips'); // 36 minutes, 6 hearts
+  trade.villagerExperience(16);
+
+  // Utilities
+  trade = event.addTrade('lightmanscurrency:cashier', 1, TradeItem.of('createdeco:copper_coin', 1, 4), 'astikorcarts:supply_cart');
+  trade.villagerExperience(2);
+  trade = event.addTrade('lightmanscurrency:cashier', 2, TradeItem.of('createdeco:copper_coin', 4, 7), 'sophisticatedbackpacks:backpack');
+  trade.villagerExperience(12);
+  trade = event.addTrade('lightmanscurrency:cashier', 3, TradeItem.of('createdeco:copper_coin', 7, 9), 'paraglider:paraglider');
+  trade.villagerExperience(16);
+  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('createdeco:iron_coin', 1, 3), 'smallships:oak_cog');
+  trade.villagerExperience(22);
+  trade = event.addTrade('lightmanscurrency:cashier', 5, TradeItem.of('createdeco:iron_coin', 3, 6), 'immersiveengineering:glider');
+  trade.villagerExperience(32);
+
+});
+
 MoreJSEvents.updateVillagerOffers((event) => {
   if (event.isProfession("lightmanscurrency:banker") || event.isProfession("lightmanscurrency:cashier")) {
     event.getOffers().forEach((offer) => {
