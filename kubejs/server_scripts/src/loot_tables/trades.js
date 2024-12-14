@@ -98,21 +98,21 @@ MoreJSEvents.villagerTrades((event) => {
   trade.villagerExperience(16);
 
   // Utilities
-  trade = event.addTrade('lightmanscurrency:cashier', 1, TradeItem.of('createdeco:copper_coin', 1, 4), 'astikorcarts:supply_cart');
+  trade = event.addTrade('lightmanscurrency:cashier', 1, TradeItem.of('createdeco:copper_coin', 1, 2), 'astikorcarts:supply_cart');
   trade.villagerExperience(2);
-  trade = event.addTrade('lightmanscurrency:cashier', 2, TradeItem.of('createdeco:copper_coin', 4, 7), 'sophisticatedbackpacks:backpack');
+  trade = event.addTrade('lightmanscurrency:cashier', 2, TradeItem.of('createdeco:copper_coin', 2, 4), 'sophisticatedbackpacks:backpack');
   trade.villagerExperience(12);
-  trade = event.addTrade('lightmanscurrency:cashier', 3, TradeItem.of('createdeco:copper_coin', 7, 9), 'paraglider:paraglider');
+  trade = event.addTrade('lightmanscurrency:cashier', 3, TradeItem.of('createdeco:copper_coin', 3, 6), 'paraglider:paraglider');
   trade.villagerExperience(16);
-  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('createdeco:iron_coin', 1, 3), 'smallships:oak_cog');
+  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('createdeco:copper_coin', 4, 8), 'smallships:oak_cog');
   trade.villagerExperience(22);
-  trade = event.addTrade('lightmanscurrency:cashier', 5, TradeItem.of('createdeco:iron_coin', 3, 6), 'immersiveengineering:glider');
+  trade = event.addTrade('lightmanscurrency:cashier', 5, TradeItem.of('createdeco:copper_coin', 5, 10), 'immersiveengineering:glider');
   trade.villagerExperience(32);
 
 });
 
 MoreJSEvents.updateVillagerOffers((event) => {
-  if (event.isProfession("lightmanscurrency:banker") || event.isProfession("lightmanscurrency:cashier")) {
+  if (event.isProfession("lightmanscurrency:banker")) {
     event.getOffers().forEach((offer) => {
       // Replace Coins in Lightman's Currency Villagers with Create Deco variants.
       replaceInputs(offer, 'lightmanscurrency:coin_copper', 'rats:tiny_coin');
