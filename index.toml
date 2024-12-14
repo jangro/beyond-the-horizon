@@ -3303,6 +3303,11 @@ hash = "4817f2301b2c7410c7c35872286d82594e381cde628ac7c51f82a177bd493cc2"
 metafile = true
 
 [[files]]
+file = "mods/sullys-mod.pw.toml"
+hash = "4b9fb13b468284b2d3e0d65130351a481c75b521e928195301e260985187ea8c"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "3eede8a7ebafb69840153ff51dbc879b0232799e90a834ab6d71274b1316179f"
 metafile = true
