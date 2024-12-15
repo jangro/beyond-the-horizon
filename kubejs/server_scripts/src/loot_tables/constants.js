@@ -211,6 +211,7 @@ const COIN_LOOT_LOW = [
 ];
 
 const COIN_LOOT_MEDIUM = [
+  'alexsmobs:gameplay/trader_elephant_chest',
   'artifacts:chests/campsite_chest',
   'betterdeserttemples:chests/library',
   'betterdeserttemples:chests/tomb_pharaoh',
