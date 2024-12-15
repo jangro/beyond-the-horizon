@@ -57,6 +57,33 @@ MoreJSEvents.playerStartTrading((event) => {
   }
 });
 
+MoreJSEvents.wandererTrades((event) => {
+  // Remove all default trades (some are also removed through datapacks in minecraft/moonlight/villager_trades//wandering_trader/)
+  event.removeVanillaTrades(1);
+  event.removeVanillaTrades(2);
+  event.removeModdedTrades(1);
+  event.removeModdedTrades(2);
+
+  // Level 1 trades:
+  // Common
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 1, 3), 'supplementaries:flax_seeds');
+  // Uncommon
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 7), 'farmersrespite:tea_seeds');
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 8), 'minecraft:acacia_sapling');
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 8), 'minecraft:jungle_sapling');
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 1, 3), 'eidolon:illwood_sapling');
+  // Rare
+  event.addTrade(1, TradeItem.of('createdeco:copper_coin', 1, 2), 'minecraft:slime_ball');
+  event.addTrade(1, TradeItem.of('createdeco:copper_coin', 2, 6), 'supplementaries:globe');
+  event.addTrade(1, TradeItem.of('createdeco:copper_coin', 6, 9), 'forbidden_arcanus:nipa');
+
+  // Level 2 trades: (only 1 of these will be selected)
+  event.addTrade(2, TradeItem.of('createdeco:iron_coin', 1, 3), 'minecraft:nether_wart');
+  event.addTrade(2, TradeItem.of('createdeco:iron_coin', 1, 3), 'blazingbamboo:blazing_bamboo_item');
+  event.addTrade(2, TradeItem.of('createdeco:iron_coin', 3, 5), 'minecraft:chorus_fruit');
+  event.addTrade(2, TradeItem.of('createdeco:iron_coin', 4, 7), 'minecraft:chorus_flower');
+});
+
 MoreJSEvents.villagerTrades((event) => {
   // Remove all default trades
   event.removeModdedTrades('lightmanscurrency:cashier', 'novice');
@@ -85,8 +112,8 @@ MoreJSEvents.villagerTrades((event) => {
   trade = event.addTrade('lightmanscurrency:cashier', 3, TradeItem.of('rats:tiny_coin', 3, 6), 'neapolitan:vanilla_chocolate_fingers') // 11 minutes, 3 hearts
   trade.villagerExperience(8);
 
-  // 15-25 minute foods
-  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('rats:tiny_coin', 4, 8), 'miners_delight:improvised_barbecue_stick'); // 15 minutes, 3.5 hearts
+  // 16-25 minute foods
+  trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('rats:tiny_coin', 4, 8), 'miners_delight:vegan_wrap'); // 21 minutes, 5 hearts
   trade.villagerExperience(11);
   trade = event.addTrade('lightmanscurrency:cashier', 4, TradeItem.of('rats:tiny_coin', 4, 8), 'farmersdelight:milk_bottle'); // 23 minutes, 3.5 hearts
   trade.villagerExperience(11);
