@@ -245,7 +245,6 @@ ServerEvents.tags('worldgen/structure', event => {
     'bth_structures:ruined_hangar',
     'bth_structures:tinkerer_house',
     'bth_structures:magician_house',
-    '#minecraft:village'
   ]);
 
 });
