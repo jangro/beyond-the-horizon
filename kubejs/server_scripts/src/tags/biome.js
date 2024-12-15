@@ -185,7 +185,7 @@ ServerEvents.tags('worldgen/biome', event => {
   ].forEach((tag) => event.add(tag, ['minecraft:taiga', 'minecraft:old_growth_spruce_taiga', 'minecraft:old_growth_pine_taiga']));
 
   // Houses from various mods
-  event.add('bth:house_biomes', ['integrateddynamics:meneglin', 'terralith:arid_highlands', 'terralith:brushland',
+  event.add('bth:house_biomes', ['terralith:blooming_valley', 'terralith:arid_highlands', 'terralith:brushland',
                                  'minecraft:flower_forest', 'minecraft:forest', 'minecraft:cherry_grove',
                                  'terralith:sakura_grove', 'terralith:sakura_valley']);
 
@@ -224,7 +224,7 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('idas:has_structure/red_desert_biomes', ['terralith:ancient_sands', 'terralith:bryce_canyon']);
   event.add('idas:has_structure/ruins_of_the_deep_biomes', ['minecraft:taiga']);
   event.add('idas:has_structure/train_ruins_biomes', ['terralith:brushland', 'terralith:highlands']);
-  event.add('idas:has_structure/tree_of_wisdom_biomes', ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest', 'terralith:blooming_valley']);
+  event.add('idas:has_structure/tree_of_wisdom_biomes', ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest']);
 
   // Integrated Stronghold (prevent from generating in oceans)
   event.add('integrated_stronghold:has_structure/integrated_stronghold',
