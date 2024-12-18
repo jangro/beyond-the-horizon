@@ -1,13 +1,13 @@
 name = "Chalk"
-filename = "chalk-1.20.1-1.6.4.jar"
+filename = "chalk-1.20.1-1.6.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "22f996677b1525316ec35c3cabb9099788847b62"
+hash = "e4dee75dfe5f8ca8ec21f89ff877d3564bd5c9df"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5275068
+file-id = 5979807
 project-id = 533748
