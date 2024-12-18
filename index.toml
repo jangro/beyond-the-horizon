@@ -3033,6 +3033,11 @@ file = "mods/oculus-mc1.20.1-1.8.0.jar"
 hash = "ef2d992780235f0fdb670457dc0a159fdf35f7fe9f6725dd6345aa0e77564dc8"
 
 [[files]]
+file = "mods/oculus.pw.toml"
+hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
+metafile = true
+
+[[files]]
 file = "mods/overloaded-armor-bar.pw.toml"
 hash = "aa616bb0a97132b6f1b1144963dc74f046741669d349dc1c2e5648315931a249"
 metafile = true
