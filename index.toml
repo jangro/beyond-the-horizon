@@ -3193,11 +3193,6 @@ hash = "74d266052c0ad2203ed80d71680698e1ee973952929ae1267101282cab5b320e"
 metafile = true
 
 [[files]]
-file = "mods/shoppy.pw.toml"
-hash = "3e8983a16f2969a7c4305d105a7bf0f5fa4a6ad5414a95fffd825335b2dbb453"
-metafile = true
-
-[[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
 hash = "31c4033055a16844844d923f11fb4f789ba005692f0764f997d2146101134f00"
 metafile = true
