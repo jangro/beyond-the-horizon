@@ -140,7 +140,7 @@
   "block.tetra.scroll_wall": "Scroll",
 
   "bth.comment.chat": "-----Chat Messages-----",
-  "bth.chat.first_start_message": "Welcome to Beyond the Horizon!",
+  "bth.chat.first_start_message": "Welcome to Beyond the Horizon! Press 'J' to open the quest book.",
 
   "bth.comment.currency": "----- Currency -----",
   "lightmanscurrency.money.chain.main": "Lightman's",

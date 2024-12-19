@@ -16,7 +16,6 @@ PlayerEvents.loggedIn(event => {
 
     event.player.tell(Text.translate('bth.chat.first_start_message'));
 
-    event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:bth_guide_book"}'));
     event.player.give(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT));
   }
 

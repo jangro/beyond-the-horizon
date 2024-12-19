@@ -11,7 +11,6 @@ ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:crafting/';
 
   // Beyond the Horizon
-  event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:bth_guide_book"}'), ['minecraft:book', 'minecraft:spyglass']).id(`${ID_PREFIX}bth_guide_book`);
   event.shapeless('modularrouters:void_module', ['modularrouters:blank_module', 'ars_nouveau:void_prism']).id(`${ID_PREFIX}void_module`);
   event.shapeless('storagedrawers:void_upgrade', ['storagedrawers:upgrade_template', 'ars_nouveau:void_prism']).id(`${ID_PREFIX}void_upgrade`);
 
