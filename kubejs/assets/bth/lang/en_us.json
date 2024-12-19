@@ -177,6 +177,7 @@
 
   "bth.comment.entities": "----- Entities -----",
   "entity.xercapaint.canvas": "Canvas",
+  "entity.minecraft.villager.pet_shop_owner": "Pet Shop Owner",
   
   "bth.comment.items": "----- Items -----",
   "item.bth.adventurers_spellbook": "Adventurers' Spellbook",
