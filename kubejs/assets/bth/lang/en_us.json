@@ -216,9 +216,11 @@
   "filled_map.tree_of_wisdom": "Big enough to live in",
   "filled_map.archmages_tower": "Ready for battle?",
   "filled_map.haunted_manor": "Home of the fearless",
-  "filled_map.train_ruins": "Something useful here?",
+  "filled_map.train_ruins": "What a train wreck",
   "filled_map.undersea_village": "They value their privacy",
   "filled_map.graveyard_crypt": "A cryptic dungeon",
+  "filled_map.eidolon_lab": "The laboratory of dark arts",
+  "filled_map.eidolon_catacomb": "Only for the brave",
 
   "bth.comment.subtitles": "----- Subtitles -----",
   "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used",

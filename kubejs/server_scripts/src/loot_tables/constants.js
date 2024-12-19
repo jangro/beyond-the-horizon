@@ -29,6 +29,16 @@ const AETHER_PLATINUM_DUNGEON_MAP =
            display:{Name:\'{"translate":"filled_map.aether_platinum_dungeon"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"lost_aether_content:platinum_dungeon",zoomLevel:2}');
 
+const EIDOLON_LAB_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.eidolon_lab",\
+           display:{Name:\'{"translate":"filled_map.eidolon_lab"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"eidolon:lab",zoomLevel:2}');
+
+const EIDOLON_CATACOMB_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.eidolon_catacomb",\
+           display:{Name:\'{"translate":"filled_map.eidolon_catacomb"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"eidolon:catacomb",zoomLevel:2}');
+
 const PIGLIN_VILLAGE_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.piglin_village",\
            display:{Name:\'{"translate":"filled_map.piglin_village"}\'},maxSearchRadius:100,skinKnown:1b,\

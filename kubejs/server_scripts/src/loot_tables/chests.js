@@ -331,4 +331,18 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  // Eidolon map trail
+  // The stray tower has a map to the lab
+  event.modify('minecraft:igloo_chest', table => {
+    table.addPool(pool => {
+      pool.addItem(EIDOLON_LAB_MAP);
+    });
+  });
+  // The lab has a map to the catacomb
+  event.modify('eidolon:lab', table => {
+    table.addPool(pool => {
+      pool.addItem(EIDOLON_CATACOMB_MAP);
+    });
+  });
+
 });
