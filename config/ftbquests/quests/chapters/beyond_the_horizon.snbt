@@ -548,22 +548,11 @@
 				Count: 1
 				id: "patchouli:guide_book"
 				tag: {
-					"patchouli:book": "patchouli:bth_guide_book"
+					"patchouli:book": "patchouli:guide_book"
 				}
 			}
 			id: "671F997F48ECCBAC"
 			rewards: [
-				{
-					id: "2E821D5161B8EA53"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "patchouli:bth_guide_book"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "437435D05532907E"
 					item: {

@@ -188,7 +188,7 @@ hash = "1f75edfa20a9842447a8c239b87be1e492b42bea0795c34ef610a1f543fd88aa"
 
 [[files]]
 file = "config/lightmanscurrency-server.lcconfig"
-hash = "396bb77ee1bf865979b3eb10665954f20560682e9091e85aeed0b660965252c8"
+hash = "629fd1838018626684a877bda97897679014a0fe4d87285c4b9b404ab5737045"
 
 [[files]]
 file = "config/lightmanscurrency/MasterCoinList.json"
@@ -240,7 +240,7 @@ hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "af0ca5121f35e18ed458813d3c59127f28159a9390e2612c11aa72de0fafb3b2"
+hash = "4a06eaf1ece2d91b45810e7afb3519a9a6fc502387ec46ab22d51c25a928a32c"
 
 [[files]]
 file = "config/rats-common.toml"
@@ -352,7 +352,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "6ead3a617ac423f75610045fe69175fbf42d1282ec119eeaea443f7d60105fd6"
+hash = "e00b5b90df643c52894334e012e6423e19f98ea9affbd7f908f2b474a672495f"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -367,8 +367,12 @@ file = "kubejs/assets/bth/textures/item/terminus.png"
 hash = "aadee2369bf21188b17c00d0c3c3820f64091fb0fc534502ae7199f239aa270a"
 
 [[files]]
+file = "kubejs/assets/rats/lang/en_us.json"
+hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
+
+[[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "c2735885ac6752cf6c6c0c2692a6cbd0b217a8577896e0411c34376911bd78da"
+hash = "41a316e4fc5d9289cc05592535aa190e9402c69077adc26ab23d8e27d2f09939"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -392,7 +396,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "f356e15c8902b1dcec187750c302be1efce4c057eaac638a44301bc75c45a9e2"
+hash = "c0a7da17cbc2b1f6063c4780a6a5b49887b7957937cedf2059124fdf7933bee7"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -747,6 +751,38 @@ file = "kubejs/data/bth/recipes/plastic.json"
 hash = "442e2f11e8ef57efa75b7d795e3eebc14f645f9630ad7005151ced78c2daf328"
 
 [[files]]
+file = "kubejs/data/bth/trades/goblin_trader/common.json"
+hash = "0624a3b4b7a98b08b948f9490323f900619332f218c413c0a5285ea3d8b5b98f"
+
+[[files]]
+file = "kubejs/data/bth/trades/goblin_trader/epic.json"
+hash = "5891cd7aa4379f2272033bbf7d12d9cdf5103f1c4685dfe238309f422937e5a1"
+
+[[files]]
+file = "kubejs/data/bth/trades/goblin_trader/rare.json"
+hash = "3569a6520ad54f4201303dd35dbf8f61e4644ae86907d615d5a4ac55ff8a0938"
+
+[[files]]
+file = "kubejs/data/bth/trades/goblin_trader/uncommon.json"
+hash = "9d38188f007c8cff3a6689641da703c38d8ed4d93ba2309af5c0697424fa4012"
+
+[[files]]
+file = "kubejs/data/bth/trades/vein_goblin_trader/common.json"
+hash = "8642e2f260a5877fde46b9e59c3eac8426492c2a916b506319afabbf230242a6"
+
+[[files]]
+file = "kubejs/data/bth/trades/vein_goblin_trader/epic.json"
+hash = "18636e081e3e93c0b92d80c758f7074ca369982f36e12f9c386c05dc3a209000"
+
+[[files]]
+file = "kubejs/data/bth/trades/vein_goblin_trader/rare.json"
+hash = "49727023ed30d7c7ff740c275a98c607fac3ad5eac2c6367d9c31ba0cd6a182e"
+
+[[files]]
+file = "kubejs/data/bth/trades/vein_goblin_trader/uncommon.json"
+hash = "6419bda5447edd155ec02b5e614dcce3723ccc257efcde4a460829ea02d6f68a"
+
+[[files]]
 file = "kubejs/data/bth/worldgen/structure/skylands_abandoned_farm.json"
 hash = "bc7b26f06dccc54b467747a3cd238dee8fd07604d6878aae2d5a96c9558de628"
 
@@ -780,7 +816,7 @@ hash = "41a5afbffa9b2e03b3d6810c9c303517ece4cad8426eb1e04c47955390f303d0"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
-hash = "52793977028e9e77aecf5bd9db0172da77969a33417817bdff19b657b44106aa"
+hash = "bba31a86f89ef1d3df42a28911eecf9b12e80a1b20654c74c1665f224661b4c7"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/plains.json"
@@ -1559,8 +1595,24 @@ file = "kubejs/data/minecraft/loot_tables/gameplay/fishing.json"
 hash = "5bd43fd7b5f28760f533b800704c63f338780b8f9259ca5e87aba318a2f06c03"
 
 [[files]]
+file = "kubejs/data/minecraft/moonlight/villager_trades/wandering_trader/flax.json"
+hash = "6ae122dc64ff4425631d7b47d30d1dd4f42ce418e23d43181f578704202b652b"
+
+[[files]]
+file = "kubejs/data/minecraft/moonlight/villager_trades/wandering_trader/globe.json"
+hash = "6ae122dc64ff4425631d7b47d30d1dd4f42ce418e23d43181f578704202b652b"
+
+[[files]]
+file = "kubejs/data/minecraft/moonlight/villager_trades/wandering_trader/globe_sepia.json"
+hash = "6ae122dc64ff4425631d7b47d30d1dd4f42ce418e23d43181f578704202b652b"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/functions/load.json"
 hash = "5369ee6d8ed73045e4eab2e4ce4ef1691724ba322157860b1a817a6eb961f52a"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/worldgen/biome/has_structure/village_savanna.json"
+hash = "5750d75d9ecedaa2de1c8eb7ea9d40d022957f6f64544e61d4aa9ed77d0a780f"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
@@ -1617,6 +1669,22 @@ hash = "55a10eb9062b53ebe759fa713d808c9630c35be3cf422ca88467cbdede1eb9f6"
 [[files]]
 file = "kubejs/data/pneumaticcraft/worldgen/placed_feature/oil_lake_surface.json"
 hash = "976596fb665ec85a6e78e268b4d1858f20d9cd3d49a4f3a12725307e0808dc22"
+
+[[files]]
+file = "kubejs/data/rats/loot_modifiers/add_cat_gifts.json"
+hash = "92cb7cf095e204f05f54baa948645e280d90c194f00c5c42c5f96109dce7df85"
+
+[[files]]
+file = "kubejs/data/rats/loot_modifiers/add_tiny_coins.json"
+hash = "6fe8ce4f867ed7034ea70ef38b6d4c30c13edf1be325da3ce4b582005a586732"
+
+[[files]]
+file = "kubejs/data/rats/loot_tables/christmas_rat_gifts.json"
+hash = "d3c1e345cb735d43967e9d452230e39ecf03151207a93c20f3f612e08d1dceb4"
+
+[[files]]
+file = "kubejs/data/rats/loot_tables/gameplay/hero_of_the_village/pet_shop_owner.json"
+hash = "fa35b5eddb0d36ec3e748cf5b409a8b97119ca4a47149e106f1be0b6da18efa4"
 
 [[files]]
 file = "kubejs/data/rechiseled/chiseling_recipes/cobbled_deepslate.json"
@@ -1824,11 +1892,15 @@ hash = "c65da43494d5df686fb3a0a0249af92a4d41cdd58471625537fa47368c60c74e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "30fb9f1607d253acb29156d103e52393bc702bc54597533b3eb17fcee7fcc0a5"
+hash = "09c8d36b088665388535bded6fbb5db1e14849a1663f704280251d85fe1da309"
+
+[[files]]
+file = "kubejs/server_scripts/src/loot_tables/coins.js"
+hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "5018452b2c7c5212512710e923c1a44ce8dfa24c1ccd2d7a88580d9b4605b4f7"
+hash = "775c8f4ddf6225f4900aa024c637b85cddb8f1055325e8efd149e91cb514ce95"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
@@ -1836,7 +1908,7 @@ hash = "fdd4a58720fe4d4157ff54547d62e68ed19e99a134b6b78b6ff6db55db3c8dce"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
-hash = "86324100dd8f7c992bcdeb93a211d000844c63fe453b1a5e7de26e051d2faece"
+hash = "2191454542aef80038d3054410b5f62a56eb628dd9a3a0d6c783232a5bda3365"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/replace.js"
@@ -1844,11 +1916,11 @@ hash = "28b38bbfb0c921271ba93337fd617320ab9f32f08a4274aae99f9748bae2008d"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/structures.js"
-hash = "1924d53358e51652596fb0fce990835dd8bf48d693c76e3f43f869531006e12b"
+hash = "f15aa35c84247fc2878a9d8cb5614a8428cd83f138c22969d2cfb797ad2246c5"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
-hash = "ff10ca1ddbf0a3026619bf640a498459b28069050e6ac36346f8fc7bf2f85f07"
+hash = "55f2d6af69d9bf4fb287b53158e7bce35e9cb021ccc74be393deef3270b97337"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
@@ -1892,7 +1964,7 @@ hash = "624ffa62e59c7e4af596461c4be1a6954859bf27ef0b6c9e6fbc1579fe936035"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "c82182fa580f8ac2759736613a541cd77259fba2e65dcd95ba6225062e99d462"
+hash = "0073bea2adb9b4a30742b22abf511531c67a013847de45da457bf6e46dea4565"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -1920,7 +1992,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "bd4b1565c066d0c0c4432cb9be657eaa4d3cd76e02a459434a9909268996be18"
+hash = "a4a94f58b23e3a63fcae16a6022c18186542c5aebc9c04e40978b7c5e503b600"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
@@ -1948,7 +2020,7 @@ hash = "13f8ff9b58d5fe5db3595a65cc82d4eabee43f243a8bddecca102139bb26d6aa"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
-hash = "022fc4cf4a2db6f04a9ca45a54a9a1f8bca7a91e17efdeb78bd12a85f51cb29b"
+hash = "2040b410d32a266f064630cd6b3a283c8666cc84652476446aa08c318ad39028"
 
 [[files]]
 file = "kubejs/startup_scripts/src/creative_tabs.js"
@@ -1993,10 +2065,6 @@ hash = "8faa1a59c7ce736d844ba38b3f57974e5928d26fa186aaa1a1da6c5e2c1dea6d"
 [[files]]
 file = "kubejs/startup_scripts/src/worldgen.js"
 hash = "4ca9273c2b4de7d214ec395a47bedbd215c69249af870bc413aacc8e334abff3"
-
-[[files]]
-file = "mods/DistantHorizons-2.3.0-b-RC1-1.20.1-forge-fabric.jar"
-hash = "ea0b1e55e7853f21abcd7baa27677e44e165b2389f5b3ae527e8da2f154f37bf"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -3027,10 +3095,6 @@ metafile = true
 file = "mods/oceans-delight.pw.toml"
 hash = "57f6793fdca748db18eb33a34344f68804e881af07c5e032073d8b33ee683a54"
 metafile = true
-
-[[files]]
-file = "mods/oculus-mc1.20.1-1.8.0.jar"
-hash = "ef2d992780235f0fdb670457dc0a159fdf35f7fe9f6725dd6345aa0e77564dc8"
 
 [[files]]
 file = "mods/oculus.pw.toml"
