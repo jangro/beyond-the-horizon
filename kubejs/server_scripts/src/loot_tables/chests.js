@@ -119,7 +119,6 @@ ServerEvents.chestLootTables(event => {
     });
     table.addPool(pool => {
       pool.addItem('artifacts:crystal_heart', 3);
-      pool.addItem('rats:tiny_coin', 10, [8, 16]);
     });
   });
 
