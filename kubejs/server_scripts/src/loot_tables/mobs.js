@@ -80,4 +80,16 @@ LootJS.modifiers((event) => {
     pool.addLoot('forbidden_arcanus:zombie_arm');
   });
 
+  // Remove all coin/token related loot
+  event.addEntityLootModifier('rats:rat')
+    .removeLoot('rats:chunky_cheese_token');
+
+  event.addEntityLootModifier('rats:pied_piper')
+    .removeLoot('rats:token_fragment');
+
+  event.addEntityLootModifier('rats:rat_king')
+    .removeLoot('rats:token_piece');
+
+  event.addEntityLootModifier('rats:black_death')
+    .removeLoot('rats:token_piece');
 });

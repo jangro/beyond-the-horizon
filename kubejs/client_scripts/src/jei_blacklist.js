@@ -88,6 +88,8 @@ JEIEvents.hideItems(event => {
     /powah:.*uraninite_ore.*/,
     /quark:.*shingles.*/,
     'rats:rat_upgrade_aristocrat',
+    'rats:token_fragment',
+    'rats:token_piece',
     'rustic_engineer:abyssal_submarine_item',
     'rustic_engineer:air_ship_item',
     'rustic_engineer:chair',
