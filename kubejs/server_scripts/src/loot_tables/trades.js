@@ -54,6 +54,7 @@ MoreJSEvents.playerStartTrading((event) => {
         offer.disabled = true;
       }
     });
+    event.addTrade(2, TradeItem.of('createdeco:gold_coin', 4, 4), 'rats:chunky_cheese_token');
   }
 });
 
@@ -69,19 +70,21 @@ MoreJSEvents.wandererTrades((event) => {
   event.addTrade(1, TradeItem.of('rats:tiny_coin', 1, 3), 'supplementaries:flax_seeds');
   // Uncommon
   event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 7), 'farmersrespite:tea_seeds');
-  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 8), 'minecraft:acacia_sapling');
-  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 8), 'minecraft:jungle_sapling');
   event.addTrade(1, TradeItem.of('rats:tiny_coin', 1, 3), 'eidolon:illwood_sapling');
   // Rare
   event.addTrade(1, TradeItem.of('createdeco:copper_coin', 1, 2), 'minecraft:slime_ball');
   event.addTrade(1, TradeItem.of('createdeco:copper_coin', 2, 6), 'supplementaries:globe');
+  event.addTrade(1, TradeItem.of('createdeco:copper_coin', 2, 6), 'botania:white_mystical_flower');
+  event.addTrade(1, TradeItem.of('createdeco:copper_coin', 2, 6), 'forbidden_arcanus:yellow_orchid');
   event.addTrade(1, TradeItem.of('createdeco:copper_coin', 6, 9), 'forbidden_arcanus:nipa');
 
   // Level 2 trades: (only 1 of these will be selected)
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 1, 3), 'minecraft:nether_wart');
+  event.addTrade(2, TradeItem.of('createdeco:iron_coin', 1, 3), 'farmersrespite:coffee_berries');
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 1, 3), 'blazingbamboo:blazing_bamboo_item');
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 3, 5), 'minecraft:chorus_fruit');
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 4, 7), 'minecraft:chorus_flower');
+  event.addTrade(2, TradeItem.of('createdeco:gold_coin', 4, 4), 'rats:chunky_cheese_token');
 });
 
 MoreJSEvents.villagerTrades((event) => {
