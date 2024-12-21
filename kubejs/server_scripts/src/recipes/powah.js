@@ -20,4 +20,6 @@ ServerEvents.recipes(event => {
   // Powah
   event.recipes.powah.energizing(['alexscaves:uranium'], 'powah:uraninite', 3000).id(`${ID_PREFIX}energizing/uraninite`);
 
+  // Economy / Rats
+  event.recipes.powah.energizing(['createdeco:gold_coin'], 'rats:chunky_cheese_token', 10000000).id(`${ID_PREFIX}energizing/chunky_cheese_token`);
 });

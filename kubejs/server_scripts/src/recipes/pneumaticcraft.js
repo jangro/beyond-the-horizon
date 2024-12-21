@@ -16,6 +16,8 @@ ServerEvents.recipes(event => {
   // Assembly Drill
 
   // Assembly Laser
+  // XXX: How to specify > 1 input count?
+  event.recipes.pneumaticcraft.assembly_laser('createdeco:gold_coin', 'rats:chunky_cheese_token').id(`${ID_PREFIX}assembly_laser/chunky_cheese_token`);
 
   // Explosion Crafting
   event.recipes.pneumaticcraft.explosion_crafting('minecraft:obsidian', 'minecraft:crying_obsidian', 20).id(`${ID_PREFIX}explosion_crafting/crying_obsidian_from_obsidian`);

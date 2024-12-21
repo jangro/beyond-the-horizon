@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.milling(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}milling/plastic_waste_from_garbage_pile`);
 
   // Mixing
+  event.recipes.create.mixing('rats:chunky_cheese_token', 'createdeco:gold_coin').superheated().id(`${ID_PREFIX}mixing/chunky_cheese_token`);
   event.recipes.create.mixing(Fluid.of('minecraft:milk 250'), [Fluid.of('minecraft:water 250'), '#bth:nuts']).heated().id(`${ID_PREFIX}mixing/milk_from_nuts`);
   event.recipes.create.mixing('minecraft:paper', [Fluid.of('minecraft:water 500'), '2x #forge:dusts/wood']).id(`${ID_PREFIX}mixing/paper_from_sawdust`);
   event.recipes.create.mixing('pneumaticcraft:speed_upgrade', [Fluid.of('pneumaticcraft:lubricant 500'), '2x pneumaticcraft:glycerol', '2x #pneumaticcraft:upgrade_components']).id(`${ID_PREFIX}mixing/speed_upgrade_from_glycerol`);
