@@ -221,6 +221,12 @@
   "filled_map.graveyard_crypt": "A cryptic dungeon",
   "filled_map.eidolon_lab": "The laboratory of dark arts",
   "filled_map.eidolon_catacomb": "Only for the brave",
+  "filled_map.aether_citadel": "A heavenly village",
+  "filled_map.nether_fortress": "Upgraded Nether Fortress",
+  "filled_map.bth_structures_ruined_hangar": "Fixer upper with a runway",
+  "filled_map.bth_structures_magician_house": "A cozy house in a spooky forest",
+  "filled_map.bth_structures_tinkerer_house": "For the tinkerer in you",
+  "filled_map.bth_structures_battle_grounds": "Once a battle took place here",
 
   "bth.comment.subtitles": "----- Subtitles -----",
   "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used",

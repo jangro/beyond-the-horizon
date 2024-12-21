@@ -9,6 +9,11 @@ const AQUAMIRAE_SHELTER_MAP =
            display:{Name:\'{"translate":"filled_map.aquamirae_shelter"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"aquamirae:shelter",zoomLevel:2}');
 
+const AETHER_CITADEL_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.aether_citadel",\
+           display:{Name:\'{"translate":"filled_map.aether_citadel"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"aether_villages:olympic_citadel",zoomLevel:2}');
+
 const AETHER_BRONZE_DUNGEON_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.aether_bronze_dungeon",\
            display:{Name:\'{"translate":"filled_map.aether_bronze_dungeon"}\'},maxSearchRadius:100,skinKnown:1b,\
@@ -38,6 +43,11 @@ const EIDOLON_CATACOMB_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.eidolon_catacomb",\
            display:{Name:\'{"translate":"filled_map.eidolon_catacomb"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"eidolon:catacomb",zoomLevel:2}');
+
+const NETHER_FORTRESS_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.nether_fortress",\
+           display:{Name:\'{"translate":"filled_map.nether_fortress"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"betterfortresses:fortress",zoomLevel:2}');
 
 const PIGLIN_VILLAGE_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.piglin_village",\
@@ -123,6 +133,26 @@ const GRAVEYARD_CRYPT_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.graveyard_crypt",\
            display:{Name:\'{"translate":"filled_map.graveyard_crypt"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"graveyard:crypt",zoomLevel:2}');
+
+const BTH_RUINED_HANGAR_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_ruined_hangar",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_ruined_hangar"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:ruined_hangar",zoomLevel:2}');
+
+const BTH_MAGICIAN_HOUSE_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_magician_house",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_magician_house"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:magician_house",zoomLevel:2}');
+
+const BTH_TINKERER_HOUSE_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_tinkerer_house",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_tinkerer_house"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:tinkerer_house",zoomLevel:2}');
+
+const BTH_BATTLE_GROUNDS_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_battle_grounds",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_battle_grounds"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:battle_grounds",zoomLevel:2}');
 
 const DESERT_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:desert",targetBiomeColor:8381695,targetBiomeUnderground:0b}');
 const FLOWER_FOREST_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:flower_forest",targetBiomeColor:ffff00,targetBiomeUnderground:0b}');

@@ -152,6 +152,15 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(CHERRY_GROVE_MAP);
     });
     table.addPool(pool => {
+      pool.addItem(DESERT_TEMPLE_MAP);
+      pool.addItem(JUNGLE_TEMPLE_MAP);
+      pool.addItem(MANSION_MAP);
+      pool.addItem(EVOKER_FORT_MAP);
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+    });
+    table.addPool(pool => {
       pool.addItem('rats:tiny_coin', 1, [8, 16]).randomChance(0.5);
     });
     table.addPool(pool => {
@@ -178,6 +187,15 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(SWAMP_MAP);
       pool.addItem(LUSH_CAVES_MAP);
       pool.addItem(CHERRY_GROVE_MAP);
+    });
+    table.addPool(pool => {
+      pool.addItem(DESERT_TEMPLE_MAP);
+      pool.addItem(JUNGLE_TEMPLE_MAP);
+      pool.addItem(MANSION_MAP);
+      pool.addItem(EVOKER_FORT_MAP);
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
     });
     table.addPool(pool => {
       pool.addItem('minecraft:spyglass');
@@ -328,20 +346,6 @@ ServerEvents.chestLootTables(event => {
   event.modify('ctov:village/village_smith', table => {
     table.addPool(pool => {
       pool.addItem('botania:manasteel_ingot', 10, [1, 5]);
-    });
-  });
-
-  // Eidolon map trail
-  // The stray tower has a map to the lab
-  event.modify('minecraft:igloo_chest', table => {
-    table.addPool(pool => {
-      pool.addItem(EIDOLON_LAB_MAP);
-    });
-  });
-  // The lab has a map to the catacomb
-  event.modify('eidolon:lab', table => {
-    table.addPool(pool => {
-      pool.addItem(EIDOLON_CATACOMB_MAP);
     });
   });
 

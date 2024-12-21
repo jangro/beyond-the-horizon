@@ -27,9 +27,60 @@ ServerEvents.genericLootTables((event) => {
       pool.addItem(ANCIENT_MINES_MAP).weight(10);
       pool.addItem(TREE_OF_WISDOM_MAP).weight(3);
       pool.addItem(ARCHMAGES_TOWER_MAP).weight(3);
-      pool.addItem(HAUNTED_MANOR_MAP).weight(10);
       pool.addItem(TRAIN_RUINS_MAP).weight(10);
       pool.addItem(UNDERSEA_VILLAGE_MAP).weight(10);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP).weight(10);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP).weight(10);
+      pool.addItem(BTH_RUINED_HANGAR_MAP).weight(10);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP).weight(10);
+    });
+  });
+
+  //
+  // Eidolon map trail
+  //
+  // The stray tower has a map to the lab
+  event.modify('minecraft:chests/igloo_chest', table => {
+    table.addPool(pool => {
+      pool.addItem(EIDOLON_LAB_MAP);
+    });
+  });
+  // The lab has a map to the catacomb
+  event.modify('eidolon:chests/lab', table => {
+    table.addPool(pool => {
+      pool.addItem(EIDOLON_CATACOMB_MAP);
+    });
+  });
+
+  //
+  // Nether map trail
+  //
+  // Add nether fortress map to bth battle grounds
+  event.modify('bth_structures:chests/battle_grounds/nether', table => {
+    table.addPool(pool => {
+      pool.addItem(NETHER_FORTRESS_MAP);
+    });
+  });
+  // Add Piglin Village map to Nether Fortress.
+  event.modify('minecraft:chests/nether_bridge', table => {
+    table.addPool(pool => {
+      pool.addItem(PIGLIN_VILLAGE_MAP);
+    });
+  });
+  // Add Forbidden Castle map to Piglin villages.
+  event.modify('incendium:cvill/farmer', table => {
+    table.addPool(pool => {
+      pool.addItem(FORBIDDEN_CASTLE_MAP);
+    });
+  });
+
+  //
+  // Aether map trail
+  //
+  // Add olympic citadel map to bth battle grounds
+  event.modify('bth_structures:chests/battle_grounds/aether', table => {
+    table.addPool(pool => {
+      pool.addItem(AETHER_CITADEL_MAP);
     });
   });
 

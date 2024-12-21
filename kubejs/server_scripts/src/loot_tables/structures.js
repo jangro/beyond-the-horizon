@@ -109,20 +109,6 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(AETHER_GOLD_DUNGEON_MAP).when((c) => c.randomChance(0.08)))
     .addLoot(LootEntry.of(AETHER_PLATINUM_DUNGEON_MAP).when((c) => c.randomChance(0.04)))
 
-  // Add Forbidden Castle map to Piglin villages.
-  event
-    .addLootTypeModifier('chest')
-    .anyStructure(['incendium:piglin_village'], false)
-    .randomChance(0.1) // 10% per chest
-    .addLoot(FORBIDDEN_CASTLE_MAP)
-
-  // Add Piglin Village map to Nether Fortress.
-  event
-    .addLootTypeModifier('chest')
-    .anyStructure(['betterfortresses:fortress'], false)
-    .randomChance(0.05) // 5% per chest
-    .addLoot(PIGLIN_VILLAGE_MAP)
-
   // Add Aquamirae Shelter map to the following structures
   event
     .addLootTypeModifier('chest')
@@ -258,6 +244,9 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(IMPALED_ICEBREAKER_MAP).when((c) => c.randomChance(0.1)))
     .addLoot(LootEntry.of(SNOWY_PLAINS_MAP).when((c) => c.randomChance(0.1)));
 
+  //
+  // Graveyard map trail
+  //
   // Add graveyard crypt map to the dead tree urn (uses a shared loot table so add to the structure)
   event
     .addLootTypeModifier("chest")
