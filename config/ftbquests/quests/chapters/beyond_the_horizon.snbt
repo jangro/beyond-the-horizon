@@ -147,7 +147,11 @@
 			y: -5.5d
 		}
 		{
-			description: ["Craft a &aHammer&r and use it on a regular &aWorkbench&r."]
+			description: [
+				"Craft a &aHammer&r and use it on a regular &aWorkbench&r."
+				""
+				"The Tetra Holosphere's scanner function can be used to find various rare ores, even from other mods."
+			]
 			icon: {
 				Count: 1
 				id: "tetra:holo"
@@ -193,8 +197,8 @@
 				}
 			]
 			title: "New customization options for weapons and tools."
-			x: 8.5d
-			y: -5.5d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			icon: "suppsquared:sack_brown"
@@ -252,8 +256,8 @@
 				type: "checkmark"
 			}]
 			title: "Zombie Horse Conversion"
-			x: 7.5d
-			y: -5.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			description: ["Placed &abooks&r can give enchanting power to an &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
@@ -845,6 +849,44 @@
 			}]
 			x: 3.5d
 			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "wands:stone_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "766D73E73DE21572"
+			subtitle: "Building wands are great for early game vein mining. Open the UI with 'Y' and add tools to the wand's inventory."
+			tasks: [{
+				id: "11F3E82540C38546"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "Building Wands"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "forbidden_arcanus:golden_blacksmith_gavel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65341B3DC4D8B7DD"
+			subtitle: "When mining with a gavel there's a chance for extra drops. A gold gavel adds Fortune 2 which makes it the best early game mining tool for rare ores."
+			tasks: [{
+				id: "123BA74C297C611B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			title: "Gold Gavel"
+			x: 8.5d
+			y: -5.5d
 		}
 	]
 	title: "Tips and Hints"
