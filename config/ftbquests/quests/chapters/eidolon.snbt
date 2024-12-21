@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "maps"
+	filename: "eidolon"
 	group: "1712A669301FE875"
 	icon: "eidolon:crucible"
 	id: "782B9DE5FA2D269D"

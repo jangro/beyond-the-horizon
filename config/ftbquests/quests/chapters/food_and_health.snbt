@@ -5,6 +5,14 @@
 	group: ""
 	icon: "farmersdelight:hamburger"
 	id: "0176C46D4A2A96B1"
+	images: [{
+		height: 1.0d
+		image: "immersiveengineering:item/material_light_bulb"
+		rotation: 0.0d
+		width: 1.0d
+		x: 6.0d
+		y: -1.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -116,14 +124,6 @@
 		}
 		{
 			description: [""]
-			icon: "immersiveengineering:light_bulb"
-			id: "773EA0A673A77A79"
-			title: "Tips \\& Tricks"
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			description: [""]
 			icon: {
 				Count: 1
 				id: "minecraft:leather_boots"
@@ -138,8 +138,8 @@
 				type: "checkmark"
 			}]
 			title: "Too Slow?"
-			x: 6.5d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			icon: "minecraft:chest"
@@ -150,8 +150,8 @@
 				type: "checkmark"
 			}]
 			title: "Plan Ahead"
-			x: 6.5d
-			y: 1.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -178,7 +178,7 @@
 				type: "checkmark"
 			}]
 			title: "Healing Spells"
-			x: 7.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
