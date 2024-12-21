@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "1712A669301FE875"
+	icon: "minecraft:chiseled_nether_bricks"
+	id: "57E57EC11F590797"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["062B44EFDC2D75B5"]
+			description: ["Complete this quest by finding a map located somewhere in the fortress."]
+			icon: "minecraft:chiseled_nether_bricks"
+			id: "11B185141811BBD6"
+			subtitle: "Find the map that will take you to the next step of your journey."
+			tasks: [{
+				id: "650AF41D05E55935"
+				structure: "betterfortresses:fortress"
+				title: "Visit a Nether Fortress"
+				type: "structure"
+			}]
+			title: "Visit a Nether Fortress"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B185141811BBD6"]
+			description: ["It is said that the piglin farmer travelled far and wide to sell their crops. Sounds like they might have a map..."]
+			icon: "minecraft:piglin_head"
+			id: "0B6F04E705B70A42"
+			subtitle: "Find the map that will take you to the next step of your journey."
+			tasks: [{
+				id: "131C662A3E52E0DB"
+				structure: "incendium:piglin_village"
+				title: "Visit a Piglin Village"
+				type: "structure"
+			}]
+			title: "Visit a Piglin Village"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B6F04E705B70A42"]
+			id: "41C9B057A17A202A"
+			subtitle: "The final destination."
+			tasks: [{
+				icon: "minecraft:gold_block"
+				id: "4DB559D0231F6824"
+				structure: "incendium:forbidden_castle"
+				title: "Visit a Forbidden Castle"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["The battle between the Aether and the Nether took place in the overworld."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "062B44EFDC2D75B5"
+			subtitle: "Find the map that will take you to the next step of your journey."
+			tasks: [{
+				id: "028ED0BB9046B026"
+				structure: "bth_structures:battle_grounds"
+				title: "Visit a Battle Ground"
+				type: "structure"
+			}]
+			title: "Visit a Battle Ground"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "The Nether"
+}

@@ -519,7 +519,7 @@
 			y: -3.0d
 		}
 	]
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -1193,7 +1193,6 @@
 			tasks: [
 				{
 					id: "5A472C8921FDD1B9"
-					title: "Understand"
 					type: "checkmark"
 				}
 				{
@@ -1245,7 +1244,6 @@
 			tasks: [
 				{
 					id: "734B7F38B450EACC"
-					title: "Understand"
 					type: "checkmark"
 				}
 				{
@@ -1277,7 +1275,6 @@
 			tasks: [
 				{
 					id: "7B43632095A3AEBE"
-					title: "Understand"
 					type: "checkmark"
 				}
 				{
@@ -1314,7 +1311,6 @@
 			tasks: [
 				{
 					id: "4B1375E0DB664E7C"
-					title: "Understand"
 					type: "checkmark"
 				}
 				{

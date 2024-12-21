@@ -121,7 +121,6 @@
 				}
 				{
 					id: "2197FD406DE919F1"
-					title: "Understand"
 					type: "checkmark"
 				}
 			]
@@ -203,7 +202,6 @@
 			subtitle: "Fortune enchantment affects sack drops."
 			tasks: [{
 				id: "6378AEC6A20C3B4A"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Sack drops"
@@ -239,7 +237,6 @@
 			subtitle: "You can now place new markers on maps."
 			tasks: [{
 				id: "579FBED5441967BA"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Map Markers"
@@ -252,7 +249,6 @@
 			subtitle: "Feeding rotten flesh to a tamed skeleton horse will slowly convert it into a zombie horse."
 			tasks: [{
 				id: "7EAD7EC8007C427E"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Zombie Horse Conversion"
@@ -266,7 +262,6 @@
 			subtitle: "Enchanted and normal books can be placed and thus have a block form."
 			tasks: [{
 				id: "376CBE042329A4D7"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Placeable Books"
@@ -279,7 +274,6 @@
 			subtitle: "By right-clicking on an enchanting table with a bottle or jar, you can bottle some of your experience inside it."
 			tasks: [{
 				id: "670461B0C8532F20"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "XP Bottling"
@@ -292,7 +286,6 @@
 			subtitle: "Axes can be used in dispensers to strip or scrape blocks."
 			tasks: [{
 				id: "05B8FAED63B712AA"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Stripping or scraping blocks by dispenser"
@@ -306,7 +299,6 @@
 			subtitle: "Emit a redstone signal when being stared at."
 			tasks: [{
 				id: "1E3A7A0D2D5BC7D7"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Enderman Head"
@@ -319,7 +311,6 @@
 			subtitle: "Right-clicking an item on a lava bucket in your inventory will delete the item."
 			tasks: [{
 				id: "7B7A376D06684EF0"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Delete Items in Inventory"
@@ -339,7 +330,6 @@
 			subtitle: "You can bind key for auto-walking in the settings."
 			tasks: [{
 				id: "12FAD597038B73EA"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Auto-Walking"
@@ -359,7 +349,6 @@
 			subtitle: "Pressing Shift+T when the cursor is over an item will link to it in the chat."
 			tasks: [{
 				id: "1C574D789AB49FC3"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Linking Items in Chat"
@@ -372,7 +361,6 @@
 			subtitle: "In the Nether, the compass points to the portal through which you entered the Nether."
 			tasks: [{
 				id: "043E5CA99A68CB3C"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Nether Portal Compass"
@@ -393,7 +381,6 @@
 			subtitle: "Item frames can be colored using dyes at a crafting table."
 			tasks: [{
 				id: "49C40DE6CFB338A5"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Colored Item Frames"
@@ -405,7 +392,7 @@
 				"Breaking grass or crops with a &aHoe&r will now break them in a 3x3 area."
 				"A &aDiamond Hoe&r will break a 5x5 area instead."
 				""
-				"You can add a &3Fortune enchantement&r to a &aHoe& to get extra drops from grass and crops."
+				"You can add a &3Fortune enchantement&r to a &aHoe&r to get extra drops from grass and crops."
 			]
 			icon: {
 				Count: 1
@@ -418,7 +405,6 @@
 			subtitle: "Learn how to use a hoe better."
 			tasks: [{
 				id: "474E60E7BE997636"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Improved Hoes"
@@ -436,7 +422,6 @@
 			subtitle: "Right-clicking on a Scaffold with a block will attempt to replace the block at the end of the Scaffold chain."
 			tasks: [{
 				id: "1702A766806B4D5E"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Replace Scaffolding Blocks"
@@ -449,7 +434,6 @@
 			subtitle: "When a large slime dies on magma blocks, the slimes spawned will be turned into magma cubes."
 			tasks: [{
 				id: "55141B82CA18425B"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Slimes to Magma Cubes"
@@ -469,7 +453,6 @@
 			subtitle: "Nearby monsters run away in cowardice."
 			tasks: [{
 				id: "7E0DBCB524FECF77"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Skull Pikes"
@@ -482,7 +465,6 @@
 			subtitle: "Pistons are allowed to move Tile Entities (blocks with extra data attached, like Chests or Furnaces)."
 			tasks: [{
 				id: "040EBFEC21FBE3FA"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Pistons Move Tile Entities"
@@ -500,7 +482,6 @@
 			subtitle: "Dispensers can place blocks and plant crops."
 			tasks: [{
 				id: "583D5FD62C264F98"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Dispensers Place Blocks"
@@ -513,7 +494,6 @@
 			subtitle: "Chains can now connect blocks together when a piston moves them."
 			tasks: [{
 				id: "51AD270EFE035299"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Chains Connect Blocks"
@@ -533,7 +513,6 @@
 			subtitle: "The tip of a vine can now be right-clicked with Shears."
 			tasks: [{
 				id: "646B18B1F7C13716"
-				title: "Understand"
 				type: "checkmark"
 			}]
 			title: "Shear Vine Tips"
@@ -552,122 +531,120 @@
 				}
 			}
 			id: "671F997F48ECCBAC"
-			rewards: [
-				{
-					id: "437435D05532907E"
-					item: {
-						Count: 1
-						id: "eccentrictome:tome"
-						tag: {
-							"eccentrictome:mods": {
-								advancedperipherals: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "advancedperipherals:manual"
-										}
+			rewards: [{
+				id: "437435D05532907E"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							advancedperipherals: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
 									}
 								}
-								ae2: {
-									0: {
-										Count: 1b
-										id: "ae2:guide"
+							}
+							ae2: {
+								0: {
+									Count: 1b
+									id: "ae2:guide"
+								}
+							}
+							alexsmobs: {
+								0: {
+									Count: 1b
+									id: "alexsmobs:animal_dictionary"
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							botania: {
+								0: {
+									Count: 1b
+									id: "botania:lexicon"
+								}
+							}
+							buildinggadgets2: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
 									}
 								}
-								alexsmobs: {
-									0: {
-										Count: 1b
-										id: "alexsmobs:animal_dictionary"
+							}
+							eidolon: {
+								0: {
+									Count: 1b
+									id: "eidolon:codex"
+								}
+							}
+							immersiveengineering: {
+								0: {
+									Count: 1b
+									id: "immersiveengineering:manual"
+								}
+							}
+							integrateddynamics: {
+								0: {
+									Count: 1b
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
 									}
 								}
-								ars_nouveau: {
-									0: {
-										Count: 1b
-										id: "ars_nouveau:worn_notebook"
+							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
 									}
 								}
-								botania: {
-									0: {
-										Count: 1b
-										id: "botania:lexicon"
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
 									}
 								}
-								buildinggadgets2: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "buildinggadgets2:buildinggadgets2book"
-										}
-									}
+							}
+							powah: {
+								0: {
+									Count: 1b
+									id: "powah:book"
 								}
-								eidolon: {
-									0: {
-										Count: 1b
-										id: "eidolon:codex"
-									}
-								}
-								immersiveengineering: {
-									0: {
-										Count: 1b
-										id: "immersiveengineering:manual"
-									}
-								}
-								integrateddynamics: {
-									0: {
-										Count: 1b
-										id: "integrateddynamics:on_the_dynamics_of_integration"
-									}
-								}
-								irons_spellbooks: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "irons_spellbooks:iss_guide_book"
-										}
-									}
-								}
-								modularrouters: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "modularrouters:book"
-										}
-									}
-								}
-								pneumaticcraft: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "pneumaticcraft:book"
-										}
-									}
-								}
-								powah: {
-									0: {
-										Count: 1b
-										id: "powah:book"
-									}
-								}
-								simplyswords: {
-									0: {
-										Count: 1b
-										id: "patchouli:guide_book"
-										tag: {
-											"patchouli:book": "simplyswords:runic_grimoire"
-										}
+							}
+							simplyswords: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "simplyswords:runic_grimoire"
 									}
 								}
 							}
 						}
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			subtitle: "A set of useful guide books that will come in handy during your trip."
 			tasks: [{
 				id: "099EF6FB81C54F80"
@@ -756,7 +733,7 @@
 		{
 			icon: "minecraft:campfire"
 			id: "55389CA5CD4BFEBC"
-			subtitle: "Campfires grant you regeneration and keep monsters at bay."
+			subtitle: "Campfires keep monsters away."
 			tasks: [
 				{
 					id: "24B382173285D4CD"
@@ -867,23 +844,6 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
-		}
-		{
-			description: [
-				"The &aBartering Stations&r are protected from explosions and player griefing."
-				"Only owner can break &aBartering Stations&r that belong to them."
-				""
-				"&6If you plan to add a mod for the economy, do not forget to enable the Shop Block in the configs.&r"
-			]
-			id: "7FED557ED2C79FCC"
-			subtitle: "Allows you to trade with other players."
-			tasks: [{
-				id: "3D7C1B595EB5C9F5"
-				item: "shoppy:bartering_station"
-				type: "item"
-			}]
-			x: 4.5d
 			y: -3.5d
 		}
 	]

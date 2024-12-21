@@ -87,7 +87,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -2527,7 +2527,7 @@
 			y: 10.5d
 		}
 		{
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

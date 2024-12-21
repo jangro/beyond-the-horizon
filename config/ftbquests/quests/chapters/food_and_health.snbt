@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food_and_health"
+	group: ""
+	icon: "farmersdelight:hamburger"
+	id: "0176C46D4A2A96B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You start out with 3 hearts. This is your base health."
+				""
+				"Eating food will give you additional hearts, regeneration and speed boost for a limited time. The better the food, the better the benefits. For maximum benefit, eat 3 different high quality foods."
+				""
+				"Examples:"
+				""
+				"&6Berries&r and similar usually give you 1 heart for 5 minutes."
+				"&6Bread&r and similar simple foods gives you a few hearts for 10-20 minutes."
+				"&6Hamburger&r and similar advanced foods gives you 5+ hearts for 30 minutes or more."
+				""
+				"The 3 base hearts can be increased by consuming &6Heart Containers&r or equipping items like &6Ring of Odin&r or &6Crystal Heart&r."
+			]
+			icon: "paraglider:heart_container"
+			id: "21B1064937E0B4DC"
+			subtitle: "Click to read more."
+			tasks: [{
+				id: "19B6D96B7EC85421"
+				type: "checkmark"
+			}]
+			title: "Food and Health"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:bread"
+			id: "6B9009ABA247346F"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "30794097C31CF9EB"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:sweet_berries"
+			id: "2E22B9A43E579BDF"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "3688887A33508834"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			icon: "buzzier_bees:honey_bread"
+			id: "66836503DD8C8AEF"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "0D67332540C44969"
+				item: "buzzier_bees:honey_bread"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: "miners_delight:vegan_wrap"
+			id: "5764E442EE11D4FC"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "59C8FD27128D5879"
+				item: "miners_delight:vegan_wrap"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "465904287E8BF16B"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "37E0DC0B9A06D551"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "23C667C0FAF5D66A"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "47A21278D81B1BA2"
+				item: "farmersdelight:roast_chicken"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "59B2440F6712BE8E"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "25AEC734CAE8518A"
+				item: "miners_delight:bowl_of_stuffed_squid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			icon: "immersiveengineering:light_bulb"
+			id: "773EA0A673A77A79"
+			title: "Tips \\& Tricks"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20DE6E50401C3EDC"
+			subtitle: "Eat 3 different kinds of foods for speed boost. Anything will do."
+			tasks: [{
+				id: "4270DF39E190C91B"
+				type: "checkmark"
+			}]
+			title: "Too Slow?"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:chest"
+			id: "49F353EBA605FAA2"
+			subtitle: "When heading into a dungeon or a challenging area, leave some food in a chest outside just in case you die. A few extra hearts will help in getting your stuff back."
+			tasks: [{
+				id: "78F4F4851CC59A81"
+				type: "checkmark"
+			}]
+			title: "Plan Ahead"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:blessing_of_life"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "329A389CBA7DCCEC"
+			subtitle: "The regeneration has a delay so it's a good idea to have some healing spells ready for when you take a lot of damage."
+			tasks: [{
+				id: "6981D09BB2C16B35"
+				type: "checkmark"
+			}]
+			title: "Healing Spells"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: "sophisticatedbackpacks:feeding_upgrade"
+			id: "52F8EEEB29735943"
+			subtitle: "A backpack feeding upgrade will feed you 3 types of foods, but only when you take damage so no waste while you're AFK."
+			tasks: [{
+				id: "79539C0FB4E43961"
+				type: "checkmark"
+			}]
+			title: "Auto Feeder"
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "Food and Health"
+}

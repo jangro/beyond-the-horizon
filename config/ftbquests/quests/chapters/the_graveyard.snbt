@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_graveyard"
+	group: "1712A669301FE875"
+	icon: "graveyard:leaning_skeleton"
+	id: "3C5518C13CEE67EB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55305547991B1D32"]
+			id: "7B219A567F89839E"
+			subtitle: "The final destination."
+			tasks: [{
+				icon: "graveyard:leaning_skeleton"
+				id: "456AC44C4E2CE5C9"
+				structure: "graveyard:crypt"
+				title: "Visit a Crypt"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Complete this quest by finding the hidded map in a dead tree."
+				""
+				"Dead trees are usually found in spooky places."
+			]
+			icon: "minecraft:dead_bush"
+			id: "55305547991B1D32"
+			subtitle: "Find the map that will take you to the next step of your journey."
+			tasks: [{
+				id: "4617E50A326F0CC6"
+				structure: "graveyard:dead_tree"
+				title: "Visit a Dead Tree"
+				type: "structure"
+			}]
+			title: "Visit a Dead Tree"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "The Graveyard"
+}
