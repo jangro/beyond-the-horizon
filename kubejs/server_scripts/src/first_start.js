@@ -17,6 +17,8 @@ PlayerEvents.loggedIn(event => {
     event.player.tell(Text.translate('bth.chat.first_start_message'));
 
     event.player.give(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT));
+
+    event.player.give(Item.of('lightmanscurrency:wallet_leather', '{Items:[]}').enchant('ars_elemental:soulbound', 1));
   }
 
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new
