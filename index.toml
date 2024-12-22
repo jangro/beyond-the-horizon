@@ -3372,6 +3372,11 @@ hash = "efa7ab6745c647bd3002a14f88ae4a18c03ac39a2639e91ac3ef94f4f7cce3b7"
 metafile = true
 
 [[files]]
+file = "mods/waystones-and-lightman.pw.toml"
+hash = "75f249cf2cd1d34b9721b132994c68ce01ada452afe6d3315712d5b95b04967f"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "82ef1258b8647dd8ce061f25f35e8913fa3e98fe291157ef4a13eac42fa7f2b8"
 metafile = true

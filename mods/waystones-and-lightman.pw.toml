@@ -1,0 +1,13 @@
+name = "Waystones and Lightman"
+filename = "waystoneandlightman-1.0.2-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "59c9788292ecad8515cb4677e8423bab55821402"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5379131
+project-id = 1025426
