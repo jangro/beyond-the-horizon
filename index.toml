@@ -2447,6 +2447,11 @@ hash = "0428859074e9be199e700f0a9724fbe6541f081529198a74e719175b539c5051"
 metafile = true
 
 [[files]]
+file = "mods/ender-io.pw.toml"
+hash = "9d6ee1634d7ac95652ead8d1094de37181e2c745e936cf52c757ae88d090b504"
+metafile = true
+
+[[files]]
 file = "mods/endremastered.pw.toml"
 hash = "3133aa811dfdddaf1fb5744776385bdaf13a2bf2f7ca1e750347f2cd54d8a214"
 metafile = true
