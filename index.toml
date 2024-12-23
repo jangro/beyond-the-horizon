@@ -60,7 +60,7 @@ hash = "17d0980a5387c782633dbf61a540c5eb49c28d116446b008e55415a738fc959a"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "3ac951079c1dba87369cff94226cfb41f2d6ca18b21a0f335132b2786c5db485"
+hash = "412d00ad61b713b66dfde95eb03eeccb01c24efd89e63cbb83b75577cddb4598"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -104,11 +104,11 @@ hash = "387f5be05f6aa398cb95c7c1a7ed3ef9b4cde6eaac3579b2575bc9440379154d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "e356428e5ed86d23bf3ec2c2f6da088a04003e06602f3e8732da770af55bc12b"
+hash = "76dff5b52fa6302f9cb47e154142b809b438bd3a37d1bf7e2dcb0adccc9b42bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "4d157afac0e0d0b559e9c64a399df4ed4cb527ae530bbe03b0979593f29b15f1"
+hash = "90f7f2b451a248caf3f45c0bbf38335843a2ea64d40da6b556ae0121bd9abb37"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
@@ -116,7 +116,7 @@ hash = "d069cf6b5d9ab2753352d308951c1d087c6a80a66f96531d1578ff6e0e86c89c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_health.snbt"
-hash = "6e6bf4b3ea52dc6bd8eef21108167538a58f511174640a55a480859fb4170597"
+hash = "43420e258b035aac2bcac627299f75148a2da9f2be8697196d8defc1824fd4e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
@@ -395,6 +395,10 @@ file = "kubejs/client_scripts/src/jei_create_fix.js"
 hash = "17cfd0246d2cfa37bbab5459d074f7b924a6fd123eb0b128e49016a572a666f0"
 
 [[files]]
+file = "kubejs/client_scripts/src/jei_fixes.js"
+hash = "6822fde651a5a761657449768c21b64c9e472e08d17422c5b8ca0932019e15aa"
+
+[[files]]
 file = "kubejs/client_scripts/src/jei_information.js"
 hash = "e76c99a157351ddcd6e124a4575fab265bc0801e86cb874b2f108ee34ba88092"
 
@@ -412,7 +416,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "145b0d31355135b3607eeaa04c6347547620398ee753268c942f3e3c3d26a959"
+hash = "cb00bd081c454e178220f77a35706f7e8ca25702b2303d090bfb4b1fa351165f"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -1584,7 +1588,7 @@ hash = "df3be50483c618079f26bf32aecf5f003f76a4716a16dadc5b710fba19f8e857"
 
 [[files]]
 file = "kubejs/data/rechiseled/chiseling_recipes/cobblestone.json"
-hash = "0fb78bca78029413e363095945c228bc665e79eaa454570b9642612a557ff23e"
+hash = "4ef8d73c2debd88f2be7b98a25fd1a25e966edbc2fa31fc5196b29d27cc9ddef"
 
 [[files]]
 file = "kubejs/data/rechiseled/chiseling_recipes/stone.json"
@@ -2963,7 +2967,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
+hash = "0663919544b1f185be64b69269f5e914d2fae910fb8ee16d4cd9549d809e71cd"
 metafile = true
 
 [[files]]
