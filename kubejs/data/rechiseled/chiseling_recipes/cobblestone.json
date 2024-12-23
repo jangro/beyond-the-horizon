@@ -5,6 +5,9 @@
       "item": "minecraft:cobblestone"
     },
     {
+      "item": "hearth_and_home:cobblestone_bricks"
+    },
+    {
       "connecting_item": "rechiseled:cobblestone_beams_connecting",
       "item": "rechiseled:cobblestone_beams"
     },
