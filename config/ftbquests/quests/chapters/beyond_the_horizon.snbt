@@ -331,7 +331,7 @@
 				}
 			}
 			id: "381B60C747DFF523"
-			subtitle: "You can bind key for auto-walking in the settings."
+			subtitle: "You can bind a key for auto-walking in the settings."
 			tasks: [{
 				id: "12FAD597038B73EA"
 				type: "checkmark"
@@ -495,7 +495,7 @@
 		{
 			icon: "minecraft:chain"
 			id: "2AF635C9A39F5F1B"
-			subtitle: "Chains can now connect blocks together when a piston moves them."
+			subtitle: "Chains connect blocks together when a piston moves them."
 			tasks: [{
 				id: "51AD270EFE035299"
 				type: "checkmark"
@@ -525,7 +525,11 @@
 		}
 		{
 			can_repeat: true
-			description: ["With the &aEccentric Tome&r, you can freely switch between books."]
+			description: [
+				"With the &aEccentric Tome&r, you can freely switch between books."
+				""
+				"&lDon't worry&r! if you lose yours, you can always come here to grab another!"
+			]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -655,7 +659,7 @@
 				title: "Get books"
 				type: "checkmark"
 			}]
-			title: "Getting Started"
+			title: "One Book to Rule them All"
 			x: 9.0d
 			y: -8.0d
 		}
@@ -808,7 +812,7 @@
 				""
 				"When a Mailbox contains a package, the tiny flag on its side will be raised."
 				""
-				"&aSmart Observers&r can detect that there is a package inside a Mailbox. With some wits and creativity, you can use this to notify you of incoming packages."
+				"&aSmart Observers&r can detect that there is a package inside a Mailbox. With some creativity, you can use this to notify you of incoming packages."
 			]
 			icon: "mighty_mail:post_box"
 			id: "7B32AE9CDDCF6A9F"
@@ -887,6 +891,29 @@
 			title: "Gold Gavel"
 			x: 8.5d
 			y: -5.5d
+		}
+		{
+			description: [
+				"Welcome to Beyond the Horizon! We originally intended this pack to be played with the Distant Horizons mod, however development moved on to version 1.21 and we decided to remove it until our version 2. Feel free to add it yourself! It's amazing."
+				""
+				"We want you to shape your own adventure and therefore we haven't set a structured quest path. This quest book serves only as a guide. Through mods and customizations, we have prioritized exploration. "
+				""
+				"We've added an economy, revamped the food system, and added many different modes of transportation.  Check out the different chapters in this quest book to learn more."
+				""
+				"Have fun!"
+			]
+			icon: "minecraft:spyglass"
+			id: "1B741484AA660054"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Start here!"
+			tasks: [{
+				id: "50AD1B52058C1083"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -10.0d
 		}
 	]
 	title: "Tips and Hints"

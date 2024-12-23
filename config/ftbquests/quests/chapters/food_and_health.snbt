@@ -18,9 +18,9 @@
 	quests: [
 		{
 			description: [
-				"You start out with 3 hearts. This is your base health."
+				"You start out with 3 hearts. This is your base health. The hunger bar is gone. It's replaced with cooldown indicators for each food that you eat and are actively providing benefits. "
 				""
-				"Eating food will give you additional hearts, regeneration and speed boost for a limited time. The better the food, the better the benefits. For maximum benefit, eat 3 different high quality foods."
+				"Eating food will give you additional hearts, regeneration and speed boost for the cooldown period. The better the food, the better the benefits. For maximum benefit, eat 3 different high quality foods. When a cooldown turns red, or disappers, you can eat more of that food. "
 				""
 				"Examples:"
 				""
@@ -32,6 +32,8 @@
 			]
 			icon: "paraglider:heart_container"
 			id: "21B1064937E0B4DC"
+			shape: "heart"
+			size: 2.0d
 			subtitle: "Click to read more."
 			tasks: [{
 				id: "19B6D96B7EC85421"
@@ -87,7 +89,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "465904287E8BF16B"
@@ -123,7 +125,7 @@
 			y: 1.5d
 		}
 		{
-			description: [""]
+			description: ["If you have no active foods, you won't be able to run. Eat three unique food for a speed boost!"]
 			icon: {
 				Count: 1
 				id: "minecraft:leather_boots"
@@ -172,7 +174,7 @@
 				}
 			}
 			id: "329A389CBA7DCCEC"
-			subtitle: "The regeneration has a delay so it's a good idea to have some healing spells ready for when you take a lot of damage."
+			subtitle: "Food regeneration has a delay so it's a good idea to have some healing spells or potions ready for when you take damage."
 			tasks: [{
 				id: "6981D09BB2C16B35"
 				type: "checkmark"
@@ -192,6 +194,31 @@
 			title: "Auto Feeder"
 			x: 5.5d
 			y: 0.0d
+		}
+		{
+			description: ["There are many mods that will help you craft and automate high-quality foods. The Create mod is a fun way to automatticly craft amazing meals. Use the mixer to automate Farmer's Delight recipes."]
+			icon: "create:mechanical_mixer"
+			id: "093829F14779906D"
+			subtitle: "Eat like a King"
+			tasks: [{
+				id: "0F765F3A60B62AA2"
+				title: "Automate!"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:bread"
+			id: "1C3FF4DC8EAD4D9B"
+			subtitle: "Check JEI for how to make bread"
+			tasks: [{
+				id: "36A9FF8C51B15CE2"
+				title: "Bread ain't just wheat"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Food and Health"
