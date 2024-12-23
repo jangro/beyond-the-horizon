@@ -196,7 +196,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["There are many mods that will help you craft and automate high-quality foods. The Create mod is a fun way to automatticly craft amazing meals. Use the mixer to automate Farmer's Delight recipes."]
+			description: ["There are many mods that will help you craft and automate high-quality foods. The Create mod is a fun way to automatically craft amazing meals. Use the mixer to automate Farmer's Delight recipes."]
 			icon: "create:mechanical_mixer"
 			id: "093829F14779906D"
 			subtitle: "Eat like a King"
