@@ -47,7 +47,13 @@ ServerEvents.tags('item', event => {
   ]);
 
   // Minecraft Tags
-  // (none yet)
+  event.add('minecraft:slabs', [
+    'eidolon:illwood_planks_slab',
+  ]);
+
+  event.add('minecraft:wooden_slabs', [
+    'eidolon:illwood_planks_slab',
+  ]);
 
   // Forge Tags
   event.add('forge:dough', [
