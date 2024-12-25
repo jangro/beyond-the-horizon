@@ -3226,11 +3226,6 @@ hash = "eb7fb878f669cc17a22d19902fe96cdcfe541a9cf7d03eb7244fc11e13713b61"
 metafile = true
 
 [[files]]
-file = "mods/structure-credits.pw.toml"
-hash = "e64632dfd874b2767aacea97294ea5c878fc83d826a398f5a326e3cb8ca38bdd"
-metafile = true
-
-[[files]]
 file = "mods/structure-gel-api.pw.toml"
 hash = "5dfd5e42573659ad84a5d870082aae38aaa8469aba2655e5b2cb14de4ca4cbdd"
 metafile = true
