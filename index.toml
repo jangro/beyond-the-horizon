@@ -155,6 +155,10 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "b477386c54b32b4494869fbc14361d0e83b549f81e465e9062be987b4dd2b46a"
 
 [[files]]
+file = "config/globalgamerules-common.toml"
+hash = "9438eb035ada378cab9a953364ea99a53e2fbe4794af0144ec6f76346fd01901"
+
+[[files]]
 file = "config/immersiveengineering-client.toml"
 hash = "d43f72f04db9e4e10f20b9351e9e40baebd342097feff54ee85a5ba59ffa9f95"
 
@@ -1744,7 +1748,7 @@ hash = "42fb0eba67c7de17fa9828a32497e2387eca6ac4fb93c47491bd27aaa74a4991"
 
 [[files]]
 file = "kubejs/server_scripts/src/first_start.js"
-hash = "0d5e46f13a19ad13c8acb649b36318ce94822f5295a174df0a46b0f2c310b32a"
+hash = "f4a583436ed4236d69ea8f03b80859cb38c086e4daa84e6bfbce2ac9e1a65f0e"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
@@ -1880,7 +1884,7 @@ hash = "5f6bff2945f892ddda51b4ac391cb79a4e0199a74f5932f3f66268de9c0efa4d"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "13f8ff9b58d5fe5db3595a65cc82d4eabee43f243a8bddecca102139bb26d6aa"
+hash = "6965c31ca0b38fb15ddff3bdeed002735040fcc6225c04d8304b875a87c87fce"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
