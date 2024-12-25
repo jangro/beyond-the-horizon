@@ -1,6 +1,6 @@
 name = "Distant Horizons: A Level of Detail mod"
 filename = "DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
