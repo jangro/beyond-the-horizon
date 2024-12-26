@@ -18,7 +18,8 @@ PlayerEvents.loggedIn(event => {
 
     event.player.give(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT));
 
-    event.player.give(Item.of('lightmanscurrency:wallet_leather', '{Items:[]}').enchant('ars_elemental:soulbound', 1));
+    let count = 3 + Math.floor(7 * Math.random());
+    event.player.give(Item.of('lightmanscurrency:wallet_leather', '{Items:[{Count:' + count + 'b,Slot:0b,id:"rats:tiny_coin"}]}'));
   }
 
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new
