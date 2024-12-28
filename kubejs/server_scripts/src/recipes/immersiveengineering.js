@@ -220,5 +220,24 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.squeezer(Fluid.of('immersiveengineering:plantoil 100'), '#forge:seeds/flax').id(`${ID_PREFIX}squeezer/flax`);
   }
 
+  // Garden Cloche
+  // Blazing bamboo (replace when we have schema)
+  event.custom({
+    "type":"immersiveengineering:cloche",
+    "input": {
+      "item":"blazingbamboo:blazing_bamboo_item"
+    },
+    "render": {
+      "type":"stacking",
+      "block":"blazingbamboo:blazing_bamboo"
+    },
+    "results": [{
+        "item":"blazingbamboo:blazing_bamboo_item"
+    }],
+    "soil": {
+      "item": "minecraft:netherrack"
+    },
+    "time": 560
+  });
 
 });
