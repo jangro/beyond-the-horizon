@@ -26,6 +26,27 @@ ServerEvents.recipes(event => {
   // The schema from the KubeJS Discord can't do only fluids as output without item?
   //event.recipes.pneumaticcraft.fluid_mixer(Fluid.of('immersiveengineering:acetaldehyde 12'), Fluid.of('immersiveengineering:creosote 8'), 1, 10, Fluid.of('immersiveengineering:phenolic_resin 8')).id(`${ID_PREFIX}fluid_mixer/phenolic_resin`);
 
+  // BTH ender fuel
+  event.custom({
+    "type": "pneumaticcraft:fluid_mixer",
+    "fluid_output": {
+      "amount": 1000,
+      "fluid": "bth:ender_fuel"
+    },
+    "input1": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 500,
+      "fluid": "integrateddynamics:liquid_chorus"
+    },
+    "input2": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 500,
+      "fluid": "bth:soul_mixture"
+    },
+    "pressure": 3.0,
+    "time": 100
+  }).id(`${ID_PREFIX}fluid_mixer/ender_fuel`);
+
   // Fuel Quality
 
   // Heat Frame Cooling
@@ -36,5 +57,63 @@ ServerEvents.recipes(event => {
   // Refinery
 
   // Thermopneumatic Processing Plant
+
+  // Liquid Chorus
+  event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "fluid_output": {
+      "amount": 125,
+      "fluid": "integrateddynamics:liquid_chorus"
+    },
+    "item_input": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "pressure": 2.0,
+    "speed": 0.5
+  }).id(`${ID_PREFIX}thermo_plant/liquid_chorus`);
+
+  // BTH sugar water
+  event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "fluid_output": {
+      "amount": 1000,
+      "fluid": "bth:sugar_water"
+    },
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 1000,
+      "tag": "minecraft:water"
+    },
+    "item_input": {
+      "item": "minecraft:sugar"
+    },
+    "pressure": 2.0,
+    "speed": 0.5
+  }).id(`${ID_PREFIX}thermo_plant/sugar_water`);
+
+  // BTH sugar water
+  event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "fluid_output": {
+      "amount": 1000,
+      "fluid": "bth:soul_mixture"
+    },
+    "fluid_input": {
+      "type": "pneumaticcraft:fluid",
+      "amount": 1000,
+      "tag": "minecraft:water"
+    },
+    "item_input": {
+      "item": "minecraft:soul_sand"
+    },
+    "pressure": 2.0,
+    "speed": 0.5,
+    "temperature": {
+      "min_temp": 373
+    }
+  }).id(`${ID_PREFIX}thermo_plant/soul_mixture`);
 
 });

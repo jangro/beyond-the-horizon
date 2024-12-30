@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:magma_cube",
+  "fluid": "#minecraft:lava",
+  "power/mb": 24000,
+  "tick/mb": 20
+}

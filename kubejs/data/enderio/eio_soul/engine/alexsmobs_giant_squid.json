@@ -1,0 +1,6 @@
+{
+  "entity": "alexsmobs:giant_squid",
+  "fluid": "minecraft:water",
+  "power/mb": 2000,
+  "tick/mb": 20
+}

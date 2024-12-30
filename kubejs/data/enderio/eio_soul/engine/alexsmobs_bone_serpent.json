@@ -1,0 +1,6 @@
+{
+  "entity": "alexsmobs:bone_serpent",
+  "fluid": "#minecraft:lava",
+  "power/mb": 30000,
+  "tick/mb": 20
+}

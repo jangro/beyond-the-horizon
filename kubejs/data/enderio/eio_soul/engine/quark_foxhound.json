@@ -1,0 +1,6 @@
+{
+  "entity": "quark:foxhound",
+  "fluid": "#minecraft:lava",
+  "power/mb": 6000,
+  "tick/mb": 10
+}

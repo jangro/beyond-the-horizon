@@ -1,0 +1,6 @@
+{
+  "entity": "alexsmobs:mimicube",
+  "fluid": "bth:ender_fuel",
+  "power/mb": 60000,
+  "tick/mb": 20
+}

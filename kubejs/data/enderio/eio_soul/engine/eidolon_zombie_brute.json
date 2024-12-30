@@ -1,0 +1,6 @@
+{
+  "entity": "eidolon:zombie_brute",
+  "fluid": "bth:sugar_water",
+  "power/mb": 8000,
+  "tick/mb": 20
+}

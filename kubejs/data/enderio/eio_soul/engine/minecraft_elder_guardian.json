@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:elder_guardian",
+  "fluid": "minecraft:water",
+  "power/mb": 6000,
+  "tick/mb": 20
+}

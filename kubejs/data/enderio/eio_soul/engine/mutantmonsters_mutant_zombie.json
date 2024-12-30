@@ -1,0 +1,6 @@
+{
+  "entity": "mutantmonsters:mutant_zombie",
+  "fluid": "bth:sugar_water",
+  "power/mb": 14000,
+  "tick/mb": 20
+}

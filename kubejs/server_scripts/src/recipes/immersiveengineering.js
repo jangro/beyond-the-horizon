@@ -185,6 +185,53 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.fermenter(Fluid.of('immersiveengineering:ethanol 80'), '#forge:seeds/rice').id(`${ID_PREFIX}fermenter/rice`);
   }
 
+  // Mixer recipes
+  // BTH sugar water
+  // XXX: schema does not work
+  //event.recipes.immersiveengineering.mixer(Fluid.of('bth:sugar_water 1000'), Fluid.of('minecraft:water 1000'), ['minecraft:sugar']).id(`${ID_PREFIX}mixer/sugar_water`);
+  event.custom({
+    "type":"immersiveengineering:mixer",
+    "inputs":[
+      {"item":"minecraft:sugar"}
+    ],
+    "fluid":{"tag":"minecraft:water","amount":1000},
+    "result":{"fluid":"bth:sugar_water","amount":1000},
+    "energy":1000
+  }).id(`${ID_PREFIX}mixer/sugar_water`);
+
+  // BTH soul mixture
+  event.custom({
+    "type":"immersiveengineering:mixer",
+    "inputs":[
+      {"item":"minecraft:soul_sand"}
+    ],
+    "fluid":{"tag":"minecraft:water","amount":1000},
+    "result":{"fluid":"bth:soul_mixture","amount":1000},
+    "energy":2000
+  }).id(`${ID_PREFIX}mixer/soul_mixture`);
+
+  // Refinery recipes
+
+  // BTH ender fuel
+  event.custom({
+    "type": "immersiveengineering:refinery",
+    "energy": 4000,
+    "input0": {
+      "amount": 500,
+      "tag": "bth:liquid_chorus"
+    },
+    "input1": {
+      "amount": 500,
+      "tag": "bth:soul_mixture"
+    },
+    "result": {
+      "amount": 1000,
+      "fluid": "bth:ender_fuel"
+    }
+  }).id(`${ID_PREFIX}refinery/ender_fuel`);
+
+
+
   // Squeezer Recipes
   
   // Minecraft
@@ -238,6 +285,6 @@ ServerEvents.recipes(event => {
       "item": "minecraft:netherrack"
     },
     "time": 560
-  });
+  }).id(`${ID_PREFIX}garden_cloche/blazing_bamboo`);
 
 });

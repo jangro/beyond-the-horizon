@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:drowned",
+  "fluid": "bth:sugar_water",
+  "power/mb": 4000,
+  "tick/mb": 10
+}

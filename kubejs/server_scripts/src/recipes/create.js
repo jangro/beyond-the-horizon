@@ -13,6 +13,7 @@ ServerEvents.recipes(event => {
 
   // Compacting
   event.recipes.create.compacting('pneumaticcraft:plastic', '3x rats:raw_plastic').heated().id(`${ID_PREFIX}compacting/plastic_from_raw_plastic`);
+  event.recipes.create.compacting(Fluid.of('integrateddynamics:liquid_chorus 125'), 'minecraft:popped_chorus_fruit').heated().id(`${ID_PREFIX}compacting/liquid_chorus`);
 
   // Crushing
   event.recipes.create.crushing([Item.of('rats:plastic_waste').withChance(0.5)], 'rats:garbage_pile').id(`${ID_PREFIX}crushing/plastic_waste_from_garbage_pile`);
@@ -44,6 +45,10 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing(Fluid.of('minecraft:milk 250'), [Fluid.of('minecraft:water 250'), '#bth:nuts']).heated().id(`${ID_PREFIX}mixing/milk_from_nuts`);
   event.recipes.create.mixing('minecraft:paper', [Fluid.of('minecraft:water 500'), '2x #forge:dusts/wood']).id(`${ID_PREFIX}mixing/paper_from_sawdust`);
   event.recipes.create.mixing('pneumaticcraft:speed_upgrade', [Fluid.of('pneumaticcraft:lubricant 500'), '2x pneumaticcraft:glycerol', '2x #pneumaticcraft:upgrade_components']).id(`${ID_PREFIX}mixing/speed_upgrade_from_glycerol`);
+
+  event.recipes.create.mixing(Fluid.of('bth:sugar_water 1000'), [Fluid.of('minecraft:water 1000'), 'minecraft:sugar']).id(`${ID_PREFIX}mixing/sugar_water`);
+  event.recipes.create.mixing(Fluid.of('bth:soul_mixture 1000'), [Fluid.of('minecraft:water 1000'), 'minecraft:soul_sand']).heated().id(`${ID_PREFIX}mixing/soul_mixture`);
+  event.recipes.create.mixing(Fluid.of('bth:ender_fuel 1000'), [Fluid.of('integrateddynamics:liquid_chorus 500'), Fluid.of('bth:soul_mixture', 500)]).heated().id(`${ID_PREFIX}mixing/ender_fuel`);
 
   // Artificial Dye 
   // - white

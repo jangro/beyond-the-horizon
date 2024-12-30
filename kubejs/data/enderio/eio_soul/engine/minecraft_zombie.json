@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:zombie",
+  "fluid": "bth:sugar_water",
+  "power/mb": 2000,
+  "tick/mb": 10
+}

@@ -87,6 +87,10 @@ file = "config/create_connected-common.toml"
 hash = "b69d9e2e150fff2484fc355d14fd8c700231d85821cc5cf0248b7530ce3e5702"
 
 [[files]]
+file = "config/cumulus_menus-client.toml"
+hash = "8c8b694f865f17baa2b856b538da1c58b50432e300f0ac5d73eff62412eab5d3"
+
+[[files]]
 file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
@@ -260,7 +264,7 @@ hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "4a06eaf1ece2d91b45810e7afb3519a9a6fc502387ec46ab22d51c25a928a32c"
+hash = "fbab52ecf0413172743720417133ee7ffd8266ff24ad3518f376f1dd7014b048"
 
 [[files]]
 file = "config/rats-common.toml"
@@ -1239,6 +1243,78 @@ file = "kubejs/data/eidolon/worldgen/structure_set/stray_tower.json"
 hash = "37999de265e0e57240567413f5e0a00766f8ef508ff723e745be2566f8d52bdd"
 
 [[files]]
+file = "kubejs/data/enderio/eio_soul/engine/alexsmobs_bone_serpent.json"
+hash = "04e88ca84b751548c24718f1de4afffdde89db277d1b2f72bf557c1236a321aa"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/alexsmobs_giant_squid.json"
+hash = "f8096f4c9338fb9a35b68da190f4c4c8a4c867c06bc5585c5dce91eef3a22a6f"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/alexsmobs_mimicube.json"
+hash = "93209427c935d21ed10b0f781fe7018ffc69dff2f37cd96bce4cc2318f6b4afd"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/eidolon_zombie_brute.json"
+hash = "ab38fd3ef28fac53a6dc634a104cd6dee98a1adaacf405e8145b98c7e0429524"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_blaze.json"
+hash = "6ab3de2b0459df2206a6bd435ed953b51b9fb5680b59389b693ce2f996d5458f"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_drowned.json"
+hash = "10f10b2a1fccb5b9c5a1266299df1dce41b24aa8911a7b5730d854d1dad21780"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_elder_guardian.json"
+hash = "ccbdd6d8cdecefcb274241ae3d2031af53d5ca25e9a8467722a3688da8126d77"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_enderman.json"
+hash = "666d1036efbb577e77129d94cab632df300d379da70db1e212c53b4ce5e49a0d"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_glow_squid.json"
+hash = "3598899020aef0acfdd25e40b975a3963bc533bdca0085237d918062db8ccb7f"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_husk.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_magma_cube.json"
+hash = "bba6fbb049e10606095741bb3c1412f046762b79c6c9b4adb77cd88a77e0d699"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_shulker.json"
+hash = "8dfd3e8084bc1de09d4b482a23130344db082b665a34f5912810439307ca7efa"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_squid.json"
+hash = "c28e7ad8d92420d6edef94a9d86095a678d1246ce575dc8f8401eb0b2f5c25ce"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_zombie.json"
+hash = "6779f9651bef3fb08b0b51cbdfc6c2b1731dc6f987537af00ea09d599483e4e9"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/minecraft_zombie_villager.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/mutantmonsters_mutant_enderman.json"
+hash = "28e098d37818974c68f6798594ebe12cc2a6b03a56334082e0ba821f6d6d6a47"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/mutantmonsters_mutant_zombie.json"
+hash = "adb02ec445b91915236923bf37dfae6d4a852d2cd856588c2ee02d5739d3a82c"
+
+[[files]]
+file = "kubejs/data/enderio/eio_soul/engine/quark_foxhound.json"
+hash = "c330bd9a990e2583718617b96c073834921d9e2d53016861356ad3dc8eebdd04"
+
+[[files]]
 file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/blood_moon.json"
 hash = "4666498d30aee52395b918a84cf5de05421f3a7cdf4b423478e9fdaa06eca00c"
 
@@ -1544,7 +1620,7 @@ hash = "7d17b53f59770ffab0d9fd1340f9d6420846e65ede999798ec90ef17e99dbd4d"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/woodland_mansions.json"
-hash = "58b1c07a626604f5887a2252158058d2b4ce3236fe5356da4253a1b64976411e"
+hash = "5f5a981e7f164aa796f608af9490d19ecf254848e0d61bc3711a52c4d3d97728"
 
 [[files]]
 file = "kubejs/data/nebulusoaktree/worldgen/structure/oak_tree.json"
@@ -1804,7 +1880,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "3c3d6c194be8efe0ce4227e22a9c69af25bebd573e965e1c7bb5015e668c666e"
+hash = "eb9b8f9af5551f1dc64ec89ae62196093d86aaf167f57b6be9e4e293e5b639ff"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -1816,7 +1892,7 @@ hash = "900cad202feef14788c26154c757a3071bcf22a097b43c5b8935b9a6f0e782e9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "cbacdbd432f220594da76a68c335fba3d1af0c0126cf4699f7dda26924e31ed1"
+hash = "17f37528b7e06fa4f475e6b8d0162515e52d2c88c299ffe5d0ca34953365d1c4"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
@@ -1824,7 +1900,7 @@ hash = "adb8b26b6f0cc1ef87f6cccb9f56ef398a2d5255c8afbe672378b0d2e8a27618"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/pneumaticcraft.js"
-hash = "4d880f24bf67ca572598ec170d6e9a3d39c59c5bdd0db8c2f0e74767f9d4084c"
+hash = "b28649a612f3ff287ad4d78eb21b6ed07f7d1392231105bf0ba822b206c65f15"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/powah.js"
@@ -1860,7 +1936,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "a4a94f58b23e3a63fcae16a6022c18186542c5aebc9c04e40978b7c5e503b600"
+hash = "1d9ce664d3ed45b7a0ba46130ad6ca7de3c656f857e0bba2aeeb4cce00633bd6"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
@@ -1880,7 +1956,7 @@ hash = "ae0b16ed77b22dedf9928a77f9b39166980684ff92e461020d3744243f3d8394"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/fluid.js"
-hash = "5f6bff2945f892ddda51b4ac391cb79a4e0199a74f5932f3f66268de9c0efa4d"
+hash = "329f6e073f59a2e504733eeb7c1d24c34c93ee2a797c1120c39e45b33aeeb8c8"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
@@ -1896,7 +1972,7 @@ hash = "4f89490a362ee6010df0aed3c65a8ad24b64ff90ff87b0f6d5fa6e224df91928"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "6eb2580e91ba8136539fe58aca3746d7f229bb1db4a62601f1b9c3cd7865f388"
+hash = "f333efe1bea31d41d2e0c04c850629e73151dd901d6f9b36017d5da9c8c02e5f"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -1916,7 +1992,7 @@ hash = "956b57ca4dede670d6835835d06a18a242ba820c2effeaf5fbcd0514226044e6"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/immersiveengineering.js"
-hash = "82473a320ece96aa598f5b3b6987c057f8fe6b6a624232f3b6a7c1457c659d1e"
+hash = "3aebc745eb4b1d815e987b2f551b9b8159fc189e92622e6148561a264a9b5571"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/integrateddynamics.js"

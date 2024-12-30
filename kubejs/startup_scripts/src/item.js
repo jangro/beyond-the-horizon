@@ -41,3 +41,22 @@ StartupEvents.registry("item", event => {
   .translationKey('item.bth.terminus')
   .unstackable();
 });
+
+StartupEvents.registry("fluid", event => {
+
+  // For Ender IO Soul Engine
+  event.create('bth:sugar_water')
+    .thickTexture(0xEADDCA)
+    .bucketColor(0xEADDCA)
+    .displayName('Sugar Water');
+
+  event.create('bth:soul_mixture')
+    .thickTexture(0x6F4E37)
+    .bucketColor(0x6F4E37)
+    .displayName('Soul Mixture');
+
+  event.create('bth:ender_fuel')
+    .thickTexture(0xA95C68)
+    .bucketColor(0xA95C68)
+    .displayName('Ender Fuel');
+});

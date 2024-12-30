@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:squid",
+  "fluid": "minecraft:water",
+  "power/mb": 500,
+  "tick/mb": 10
+}

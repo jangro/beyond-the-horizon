@@ -1,0 +1,6 @@
+{
+  "entity": "minecraft:enderman",
+  "fluid": "bth:ender_fuel",
+  "power/mb": 15000,
+  "tick/mb": 10
+}

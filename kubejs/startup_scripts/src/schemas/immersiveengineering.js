@@ -90,6 +90,33 @@ StartupEvents.recipeSchemaRegistry((event) => {
       )
     );
 
+    // Mixer
+    // event.register('immersiveengineering:mixer',
+    //   new $RecipeSchema(
+    //     // {
+    //     //   "type": "immersiveengineering:mixer",
+    //     //   "energy": 1600,
+    //     //   "fluid": {
+    //     //     "amount": 250,
+    //     //     "tag": "minecraft:water"
+    //     //   },
+    //     //   "inputs": [
+    //     //     {
+    //     //       "tag": "forge:dusts/redstone"
+    //     //     }
+    //     //   ],
+    //     //   "result": {
+    //     //     "amount": 250,
+    //     //     "fluid": "immersiveengineering:redstone_acid"
+    //     //   }
+    //     // }
+    //     components.get('outputFluid')().key('result'),
+    //     components.get('inputFluid')().key('fluid'),
+    //     components.get('inputItemArray')().key('inputs'),
+    //     components.get('intNumber')().key('energy').alwaysWrite().optional(1600),
+    //   )
+    // );
+
     // Arc Furnace
     // TODO
 

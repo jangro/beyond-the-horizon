@@ -16,4 +16,12 @@ ServerEvents.tags('fluid', event => {
     'enlightened_end:ooze_fluid',
     'enlightened_end:flowing_ooze_fluid',
   ]);
+
+
+  // Because IE machines only accept tags for inputs?
+  event.add('bth:ender_fuel', 'bth:ender_fuel');
+  event.add('bth:liquid_chorus', 'integrateddynamics:liquid_chorus');
+  event.add('bth:soul_mixture', 'bth:soul_mixture');
+  event.add('bth:sugar_water', 'bth:sugar_water');
+
 });
