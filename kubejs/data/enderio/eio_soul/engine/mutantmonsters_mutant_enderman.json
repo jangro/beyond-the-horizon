@@ -1,6 +1,6 @@
 {
   "entity": "mutantmonsters:mutant_enderman",
   "fluid": "bth:ender_fuel",
-  "power/mb": 180000,
+  "power/mb": 120000,
   "tick/mb": 20
 }
