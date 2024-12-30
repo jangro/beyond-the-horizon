@@ -1,5 +1,5 @@
 {
-  "entity": "minecraft:squid",
+  "entity": "minecraft:glow_squid",
   "fluid": "minecraft:water",
   "power/mb": 1000,
   "tick/mb": 10
