@@ -3057,6 +3057,11 @@ hash = "5508a5c035dffcb22c6ff5b2a52235f753fc4361221be8b97c25b8650efefba6"
 metafile = true
 
 [[files]]
+file = "mods/immersive-machinery.pw.toml"
+hash = "9703fd5d038984a69e8e01f15afd66270e1e05e807f20b64dc9a993927c2a83e"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "87febabd3473f1f70a8b8703276a9623f8e3129fcebc82b0b7457d2e4dfe151e"
 metafile = true

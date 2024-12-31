@@ -1,0 +1,13 @@
+name = "Immersive Machinery"
+filename = "immersive_machinery-0.0.2+1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7606b55658747d0caeab61cc677197ff6d8dd4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6036154
+project-id = 1068736
