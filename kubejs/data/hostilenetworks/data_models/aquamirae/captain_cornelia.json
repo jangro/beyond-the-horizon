@@ -1,0 +1,58 @@
+{
+  "entity": "aquamirae:captain_cornelia",
+  "variants": [],
+  "name": "entity.aquamirae.captain_cornelia",
+  "name_color": "#6AFCF8",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": -0.3,
+  "gui_z_offset": 0.0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "aquamirae:ship_graveyard_echo",
+      "count": 8
+    },
+	{
+      "item": "aquamirae:treasure_pouch",
+      "count": 2
+    },
+	{
+      "item": "aquamirae:oxygen_tank",
+      "count": 1
+    },
+	{
+      "item": "aquamirae:music_disc_forsaken_drownage",
+      "count": 1
+    },
+	{
+      "item": "aquamirae:three_bolt_helmet",
+      "count": 1
+    },
+    {
+      "item": "aquamirae:frozen_key",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    1,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

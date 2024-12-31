@@ -1,0 +1,33 @@
+{
+    "entity": "minecraft:creeper",
+    "variants": [],
+    "name": "entity.minecraft.creeper",
+    "name_color": "#70DC5D",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.creeper",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:gunpowder",
+            "count": 32
+        },
+        {
+            "item": "minecraft:creeper_head",
+            "count": 4
+        },
+        {
+            "optional": true,
+            "item": "reliquary:catalyzing_gland",
+            "count": 2
+        }
+    ]
+}

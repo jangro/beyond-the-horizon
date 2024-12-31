@@ -1,0 +1,46 @@
+{
+  "entity": "alexsmobs:murmur",
+  "variants": [],
+  "name": "entity.alexsmobs.murmur",
+  "name_color": "#8F2732",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:unsettling_kimono",
+      "count": 1
+    },
+	{
+      "item": "minecraft:red_wool",
+      "count": 16
+    },
+    {
+      "item": "alexsmobs:elastic_tendon",
+      "count": 16
+    }
+  ],
+  "tier_data": [
+    4,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

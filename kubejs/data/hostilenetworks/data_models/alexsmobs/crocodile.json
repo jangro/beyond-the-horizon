@@ -1,0 +1,42 @@
+{
+  "entity": "alexsmobs:crocodile",
+  "variants": [],
+  "name": "entity.alexsmobs.crocodile",
+  "name_color": "#6B8E23",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:crocodile_scute",
+      "count": 16
+    },
+    {
+      "item": "alexsmobs:crocodile_egg",
+      "count": 2
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

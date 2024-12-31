@@ -1,0 +1,38 @@
+{
+  "entity": "alexsmobs:dropbear",
+  "variants": [],
+  "name": "entity.alexsmobs.dropbear",
+  "name_color": "#800000",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:nether_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:dropbear_claw",
+      "count": 16
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entity": "alexsmobs:rocky_roller",
+  "variants": [],
+  "name": "entity.alexsmobs.rocky_roller",
+  "name_color": "#A6B9B6",
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:rocky_shell",
+      "count": 8
+    },
+	{
+      "item": "minecraft:pointed_dripstone",
+      "count": 16
+    },
+    {
+      "item": "minecraft:tuff",
+      "count": 16
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "entity": "aquamirae:maze_mother",
+  "variants": [],
+  "name": "entity.aquamirae.maze_mother",
+  "name_color": "#3FF9E0",
+  "gui_scale": 0.25,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 2.5,
+  "gui_z_offset": 0.0,
+  "sim_cost": 4096,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "aquamirae:sharp_bones",
+      "count": 64
+    },
+	{
+      "item": "minecraft:prismarine_crystals",
+      "count": 64
+    },
+	{
+      "item": "aquamirae:ship_graveyard_echo",
+      "count": 16
+    },
+    {
+      "item": "aquamirae:abyssal_amethyst",
+      "count": 8
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

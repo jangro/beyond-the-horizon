@@ -1,0 +1,42 @@
+{
+  "entity": "alexsmobs:blobfish",
+  "variants": ["alexsmobs:blobfish_bm"],
+  "name": "entity.alexsmobs.blobfish",
+  "name_color": "#CEABAC",
+  "gui_scale": 2,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 64,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:blobfish",
+      "count": 16
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "count": 32
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

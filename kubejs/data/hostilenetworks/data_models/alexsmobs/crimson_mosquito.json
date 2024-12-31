@@ -1,0 +1,42 @@
+{
+  "entity": "alexsmobs:crimson_mosquito",
+  "variants": [],
+  "name": "entity.alexsmobs.crimson_mosquito",
+  "name_color": "#A6041B",
+  "gui_scale": 2,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 128,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:nether_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:mosquito_proboscis",
+      "count": 16
+    },
+    {
+      "item": "alexsmobs:blood_sac",
+      "count": 16
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

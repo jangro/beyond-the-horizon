@@ -1276,7 +1276,7 @@ hash = "666d1036efbb577e77129d94cab632df300d379da70db1e212c53b4ce5e49a0d"
 
 [[files]]
 file = "kubejs/data/enderio/eio_soul/engine/minecraft_glow_squid.json"
-hash = "3598899020aef0acfdd25e40b975a3963bc533bdca0085237d918062db8ccb7f"
+hash = "024acba92f75a5e95b54b75e7238a0ccb5f2d1bcc06e27e7465e3e8926486590"
 
 [[files]]
 file = "kubejs/data/enderio/eio_soul/engine/minecraft_husk.json"
@@ -1304,7 +1304,7 @@ hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
 
 [[files]]
 file = "kubejs/data/enderio/eio_soul/engine/mutantmonsters_mutant_enderman.json"
-hash = "28e098d37818974c68f6798594ebe12cc2a6b03a56334082e0ba821f6d6d6a47"
+hash = "5591d6c59daf544dffb73fe693e7a2b03cc78c7733e31ece3f5fdd577b753834"
 
 [[files]]
 file = "kubejs/data/enderio/eio_soul/engine/mutantmonsters_mutant_zombie.json"
@@ -1349,6 +1349,322 @@ hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
 [[files]]
 file = "kubejs/data/graveyard/worldgen/structure_set/crypt_structure.json"
 hash = "72f7e856f68d285b08f41d9e815cdfc45e914b98595b985ff7d402c7fda25033"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/banana_slug.json"
+hash = "698de9a23a459237bfc58a79cebb932c46590e9c5eb6216b849a4ad19e31d5c0"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/bison.json"
+hash = "f8320c035e0b81160b9c47d1b03715c433369e007ba0e5e6575edad1524e6acd"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/blobfish.json"
+hash = "b2b8b618c18b6dced78abe381b74cb774dc31d9e730d31c354527595d755a7a1"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/bone_serpent.json"
+hash = "04b7d4fbce84c173bf83dadd53a89299f5a0fedda07423a6bf121d935c779ced"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/bunfungus.json"
+hash = "c30eb8528448dd62fa6ae143a531938e79e5f33c1530d61be6ee393846028f98"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/catfish.json"
+hash = "cf271440d014401c04883ca3e061ce74c1a7832aaab525c7199d8737155c0c0b"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/centipede.json"
+hash = "f8037e1b7da292454a2dbd02d040aaad9fef1a99adb47e373aab81ab0061cf64"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/cockroach.json"
+hash = "30731d7e48d9e9f88635f5cd76392b2a4d534c13f23100380ba2772a0ef4c403"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/comb_jelly.json"
+hash = "49ee3f6acdccd283ab652e6ad6a2b1dac1e95951aaa9b96b8d6dd45f714f02c4"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/cosmaw.json"
+hash = "3758a1cbe91f20256ef4de6deca225ccb6e92c41a71bd56aab24754a37c50f3e"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/cosmic_cod.json"
+hash = "8bb6d080c23a9a2f5e89afa5f97ffe144d39c3e92f5b0e43b3a5ce6c8402e2c2"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/crimson_mosquito.json"
+hash = "e6035a5fe07562c073d3672ad6018998cdad251a4f31de12d7843a62e9c86fd2"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/crocodile.json"
+hash = "72719daa7467fc2abe47dda148a83974c805a4e34c2de98c841073aa8dd9ae26"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/dropbear.json"
+hash = "41347e3061ae3a033b13d15706b9e6871d3192995621382ae698324b14c08f78"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/emu.json"
+hash = "160f2a9f0ec34013a80207eed4d5bdf1582b264512f357d8658c15bba4f1a204"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/enderiophage.json"
+hash = "a60f16590a001ef5b473c3e921cd9f79913ace7962547d7cbb073ed7ecc18c29"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/farseer.json"
+hash = "cb8d77632895dee2fb9f5637f12302908986ca4cce08685c5a885211d717437f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/flutter.json"
+hash = "7328c2bc019c2eed12873be01cc3d9cf5f4056aa4b6f5d6ffba0aa57d96589bc"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/fly.json"
+hash = "e6446259f0d955b92b6ec77154d5dec4c97789d2b3f2ea4014cfa6e6f6ca30e6"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/flying_fish.json"
+hash = "d9a17c40d270e592ab6904a5e228fbd797f3fe9ef2b239653d370ed4683d1338"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/froststalker.json"
+hash = "ea2f6f1a42e506d8e140b2a0d4be43c13c01889b4a26202d2e9a57c10494c741"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/gazelle.json"
+hash = "358faa2bae9f06824eeec61b5ec48948254958e03e242d035fefd287f2d7e37d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/giant_squid.json"
+hash = "944ad7eeb30e167a869e52a6d7baad43fd1d45518c17be0c101a712ca625c47a"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/grizzly_bear.json"
+hash = "55557e771bc49e9fff2dc8bcd50ed33012e12b4ecb84c48d2dd85639b4d9522b"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/guster.json"
+hash = "3edee71fdcca68da817af71b2102cd8b0e53bebca6eb3d7b35318c1cf24d48fe"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/laviathan.json"
+hash = "7cfd9e7399428e7beea541ffbbc9761e7644a523b9075907ad01e0cdd50d81fd"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/leafcutter_ant_queen.json"
+hash = "82b877fcab25d2a0c47c2512481faa8945e9cad89371c110e76e575fcb01048d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/lobster.json"
+hash = "a81ca42393775f2671606e4f9f364b72410a58a9d79a7d08fc6002fcf30e932b"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/mimic_octopus.json"
+hash = "d38e1771c523784e7f73e775136b0bddbf20da8a87fe20da40d1ec07bc85f345"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/mimicube.json"
+hash = "d950e278854e00130c793aaa2e1ace7c800f733607075af01297a083d90ac613"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/moose.json"
+hash = "becf0a2adf950f370884811105efeed5b7c40389a7b6cc81a766157d35416d40"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/mudskipper.json"
+hash = "0b9c0386f471d5ee63373ffb84ccedce86ba7fec15dfbc7ff3cc9b0dda1f4cb8"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/murmur.json"
+hash = "97a6be02cdd27aadb55304aecd3159a589310857249e0cc6aa82f2b6b41c1e22"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/raccoon.json"
+hash = "9723f1ae4b51894e806a7c5d846c596cd23d8199fb3e395a3b94b7e54418742f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/rattlesnake.json"
+hash = "d46a8f1492335271918f49ecee463c2be31bdf0d30118e0eede879d649d05339"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/roadrunner.json"
+hash = "c28e55aa0b14eb3eedb5622a3ed58fb2565cb1f3dcdcb32a001b14e5534aa438"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/rocky_roller.json"
+hash = "c90bc07060e8b157651e5307d25f0ed31e2a01473ccb4d512b6f73c7455bbba3"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/skelewag.json"
+hash = "826da941d2940b29ebf56c705d79e5baef45c73f67db5ed21fd3e1676285e390"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/skreecher.json"
+hash = "afe37e7e3197d4d4c5ff6c7a939dcaab41f611c117e337e7650c270c8e1e4975"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/soul_vulture.json"
+hash = "87328c452e933b2b20b87ca5c0d2301b572e7d561089074819555320b1fa7399"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/straddler.json"
+hash = "895fa8232aa434879d5f89a24e89e8453d45a61c8634de513c360a510f55d18d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/tarantula_hawk.json"
+hash = "64f9759e76b39e13611a961b77e88edc75f5b2fe677c80325f01a70816e336e3"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/tusklin.json"
+hash = "0d348b64a756b6c0ec3ecd9306c48b8f5ec900e71cb508c2f6cec30cb9f1cbbb"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/void_worm.json"
+hash = "699c5c603782eacc831cabb6c93400e5370dc9bee7f36ff450fb5a2b88861eb0"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/warped_mosco.json"
+hash = "571771a0eb857b8f813d7a843660cf3192570161ad5c0060942ba6d05023d479"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/warped_toad.json"
+hash = "1693fdd6293d85eb86efd63e79d1da3ca4f08ce803e063d4562757c7b47c91a7"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/anglerfish.json"
+hash = "1530716fae4a1f4f02c656a11e35e45b0c169cd0b10ee528e7829851753f6bdd"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/captain_cornelia.json"
+hash = "3b878e41289059890b94de9ebc348f8ade321f0f9ac4af2c360b15484fbe36e7"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/eel.json"
+hash = "f17f41246727812c61ecbf6087b638ecd1ec095aa935e99618b728ccb582ed0d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/golden_moth.json"
+hash = "4f152d308175a25c6dac52e1283bacee924450e5f1563c21babb261614fc564f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/maw.json"
+hash = "95e0ebfc422741f6d6bac7c4c1c250721fbab40520b71b820610cff9d02668a6"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/maze_mother.json"
+hash = "277e7bdf950433ecf24524cdf4162db597ca5ba7ca47e67779b7cc702ad45881"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/spinefish.json"
+hash = "e746e68a5976a3bf0c896681da3dbbf2453c409c148f138af0809c6b67a6bf15"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/aquamirae/tortured_soul.json"
+hash = "3ee96fff2c35046d3dd56402ab0109f8a471c22276e0be58133147b9d820bc4a"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper.json"
+hash = "e02d47e42f091c537e7f577a07d2cc06acb44e11d48a2ab87bb48d99fe5754b1"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/badlands_creeper.json"
+hash = "59252c12b845f1e356dd591bfc10f03e45553ab5a4619fa7391c12c9e2a7f632"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/bamboo_creeper.json"
+hash = "11511cbf8c56a10a6c671151533eb88e664a54a553905df2422228606c89c7c6"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/beach_creeper.json"
+hash = "b59fa6ff05a4137b9732badf032280d6d1402e13c9f14c5b7a67b70c1fbc9d8d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/birch_creeper.json"
+hash = "4bf650bb8e4f79f9eb202c3aadbb052eb515d4dad460cbbc040e8619f49a6b1e"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/cave_creeper.json"
+hash = "16e7a98bfb5f8e4d50704d9b8a77f93cfbfbb4e314bc09c1d9de38127534533b"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/dark_oak_creeper.json"
+hash = "70b49bb1e2edc8a4fed3d35785c2819ca071bc8e6e06fe55f1034e2793e6fac6"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/desert_creeper.json"
+hash = "490e59d32b44157a9c08335c8b8306270cdbc50f098326f71b5ad16f21737b7c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/dripstone_creeper.json"
+hash = "b13a3ba82305ffcbbebfd32a3749cff77e419980aefdd019a30bebc4ac955367"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/hills_creeper.json"
+hash = "c699514122c08d303bbcac4080dde23fe2af938b9687c1044af1465a82ad34f9"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/jungle_creeper.json"
+hash = "d9ba11e4ce5324ed235b34686fde0bd5e8b6a1d946aca38c50827736e57e9d20"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/mushroom_creeper.json"
+hash = "a8c82ca81bfb11db76d057d8e6827624985bd27de888bc5ab38bf402e51e03e8"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/ocean_creeper.json"
+hash = "3d541c69f673ec25e94df9c68ae3e824bfdc3b64a5557a2130974e9f8913b8f6"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/savannah_creeper.json"
+hash = "295decca14a651212462ce1eff689945c6339a7c2210e4eaeb5b2f61b6333537"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/snowy_creeper.json"
+hash = "15add7564d7a0f635a5d45d36f1df6d1fd58d140d23a07f6b3a922c61952367f"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/spruce_creeper.json"
+hash = "da9bfafc67770e3773989d1773c2c9cedacc5bdc4d36926697988e654cf751ca"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/swamp_creeper.json"
+hash = "60e40282382a6c1bf7f8204611f1da3ca74954351a00a9a022544ee180fcf5a3"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/apothecarist.json"
+hash = "67c5e0308e7fd08d6255d594d36c4830e3722ea957c024c24f4be1cdfe806b6a"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/archevoker.json"
+hash = "b6f5e17a46594e9bb15c1df2dfaa033fb284bc7c885a5279168c696f135e7b8d"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/cryomancer.json"
+hash = "8d407d406006722a678e2f62b8b27ee76028256a20efa665e3df8fe0bfbc0968"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/necromancer.json"
+hash = "c8bd96ea4699e1d3c2aaaf876dfe720b6b505c4d26930b5de1da9c497951f042"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/priest.json"
+hash = "98eea714afcf7c34f0dfc42c3de90934a98246b8e60637e983b7dc0df45943ea"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/pyromancer.json"
+hash = "be664fbe2d51d1f739adf7eb61a4b9edde12554e093ecfdf60358be42320e28c"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/rats/demon_rat.json"
+hash = "95cb33347a331cf5bfe9d27af3dd425a8961749288cac2756bcf901c6ca1d356"
+
+[[files]]
+file = "kubejs/data/hostilenetworks/data_models/rats/rat.json"
+hash = "ea68dab907a8d54bfda5f70ab3ddfce948636a34709db656a0e6557c411cb095"
 
 [[files]]
 file = "kubejs/data/idas/advancements/idas_root.json"

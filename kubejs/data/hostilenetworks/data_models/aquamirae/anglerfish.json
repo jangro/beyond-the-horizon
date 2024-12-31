@@ -1,0 +1,50 @@
+{
+  "entity": "aquamirae:anglerfish",
+  "variants": [],
+  "name": "entity.aquamirae.anglerfish",
+  "name_color": "#A95045",
+  "gui_scale": 0.7,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 1024,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+	"item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+      "item": "aquamirae:ship_graveyard_echo",
+      "count": 4
+    },
+	{
+      "item": "aquamirae:anglers_fang",
+      "count": 4
+    },
+	{
+      "item": "aquamirae:esca",
+      "count": 8
+    },
+    {
+      "item": "aquamirae:fin",
+      "count": 16
+    }
+  ],
+  "tier_data": [
+    3,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

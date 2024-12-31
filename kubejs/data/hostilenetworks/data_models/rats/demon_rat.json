@@ -1,0 +1,28 @@
+{
+    "entity": "rats:demon_rat",
+    "variants": [],
+    "name": "entity.rats.demon_rat",
+    "name_color": "#b53414",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "",
+    "fabricator_drops": [
+        {
+            "item": "rats:cooked_rat",
+            "count": 16
+        },
+        {
+            "item": "rats:nether_cheese",
+            "count": 8
+        }
+    ]
+}

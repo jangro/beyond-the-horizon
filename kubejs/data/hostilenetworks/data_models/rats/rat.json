@@ -1,0 +1,32 @@
+{
+    "entity": "rats:rat",
+    "variants": [],
+    "name": "entity.rats.rat",
+    "name_color": "#3d3937",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "",
+    "fabricator_drops": [
+        {
+            "item": "rats:raw_rat",
+            "count": 16
+        },
+        {
+            "item": "rats:rat_pelt",
+            "count": 8
+        },
+        {
+            "item": "rats:rat_paw",
+            "count": 4
+        }
+    ]
+}
