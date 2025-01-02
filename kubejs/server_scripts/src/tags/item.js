@@ -16,20 +16,23 @@ ServerEvents.tags('item', event => {
   ]);
 
   event.add('bth:battery', [
-    'ae2:energy_cell',
     'ae2:dense_energy_cell',
-    'powah:battery_starter',
-    'powah:battery_basic',
-    'powah:battery_hardened',
-    'powah:battery_blazing',
-    'powah:battery_niotic',
-    'powah:battery_spirited',
-    'powah:battery_nitro',
-    'integrateddynamics:energy_battery',
+    'ae2:energy_cell',
     'createaddition:modular_accumulator',
+    'enderio:advanced_capacitor_bank',
+    'enderio:basic_capacitor_bank',
+    'enderio:vibrant_capacitor_bank',
+    'immersiveengineering:capacitor_hv',
     'immersiveengineering:capacitor_lv',
     'immersiveengineering:capacitor_mv',
-    'immersiveengineering:capacitor_hv',
+    'integrateddynamics:energy_battery',
+    'powah:battery_basic',
+    'powah:battery_blazing',
+    'powah:battery_hardened',
+    'powah:battery_niotic',
+    'powah:battery_nitro',
+    'powah:battery_spirited',
+    'powah:battery_starter',
   ]);
 
   event.add('bth:mechanical_soul', [
