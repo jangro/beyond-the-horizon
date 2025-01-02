@@ -61,4 +61,70 @@ ServerEvents.recipes(event => {
       }
     ]
   }).id(`${ID_PREFIX}sag_milling/uranium`);
+
+  // Sag mill recipe for silver
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/silver"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_silver"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_silver"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/silver`);
+
+  // Sag mill recipe for lead
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/lead"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_lead"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_lead"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/lead`);
+
+
 });
