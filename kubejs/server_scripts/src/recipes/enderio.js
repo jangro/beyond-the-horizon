@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
     "result": {
       "item": "alexscaves:uranium"
     }
-  });
+  }).id(`${ID_PREFIX}alloy_smelting/uranium`);
 
   // Sag mill recipe for uranium
   event.custom({
@@ -60,5 +60,5 @@ ServerEvents.recipes(event => {
         "optional": false
       }
     ]
-  });
+  }).id(`${ID_PREFIX}sag_milling/uranium`);
 });
