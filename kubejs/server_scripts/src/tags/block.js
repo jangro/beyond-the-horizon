@@ -126,4 +126,9 @@ ServerEvents.tags('block', event => {
     'rats:oratchalcum_ore',
   ]);
 
+  // Iron's Spells Tags
+  event.add('irons_spellbooks:spectral_hammer_minable', [
+    'forbidden_arcanus:darkstone'
+  ]);
+
 });
