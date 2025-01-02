@@ -30,6 +30,37 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}alloy_smelting/uranium`);
 
+  // Alloy smelting recipe for fluix crystal
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 3200,
+    "experience": 0.3,
+    "inputs": [
+      {
+        "count": 1,
+        "ingredient": {
+          "item": "ae2:charged_certus_quartz_crystal"
+        }
+      },
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:dusts/redstone"
+        }
+      },
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:gems/quartz"
+        }
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "ae2:fluix_crystal"
+    }
+  });
+
   // Sag mill recipe for uranium
   event.custom({
     "type": "enderio:sag_milling",
@@ -126,5 +157,42 @@ ServerEvents.recipes(event => {
     ]
   }).id(`${ID_PREFIX}sag_milling/lead`);
 
+  // Sag mill recipe for certus quartz
+  event.custom({
+    "type": "enderio:sag_milling",
+    "bonus": "none",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:gems/certus_quartz"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "ae2:certus_quartz_dust"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/certus_quartz`);
+
+  // Sag mill recipe for fluix
+  event.custom({
+    "type": "enderio:sag_milling",
+    "bonus": "none",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:gems/fluix"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "ae2:fluix_dust"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/fluix_crystal`);
 
 });
