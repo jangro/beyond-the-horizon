@@ -7,20 +7,20 @@
   "gui_x_offset": 0.0,
   "gui_y_offset": 0.0,
   "gui_z_offset": 0.0,
-  "sim_cost": 256,
+  "sim_cost": 1024,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
-	"item": "hostilenetworks:overworld_prediction",
+	"item": "hostilenetworks:end_prediction",
     "count": 1
   },
   "trivia": "",
   "fabricator_drops": [
     {
       "item": "alexsmobs:mimicream",
-      "count": 4
+      "count": 8
     }
   ],
   "tier_data": [

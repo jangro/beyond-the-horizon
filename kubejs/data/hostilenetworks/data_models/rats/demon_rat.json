@@ -12,7 +12,7 @@
         "item": "hostilenetworks:prediction_matrix"
     },
     "base_drop": {
-        "item": "hostilenetworks:overworld_prediction"
+        "item": "hostilenetworks:nether_prediction"
     },
     "trivia": "",
     "fabricator_drops": [
