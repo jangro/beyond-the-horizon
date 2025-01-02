@@ -1,0 +1,32 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "minecraft:clay"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 2,
+        "item": "minecraft:clay_ball"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "item": "minecraft:clay_ball"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.8,
+      "item": {
+        "count": 2,
+        "item": "ae2:silicon"
+      },
+      "optional": false
+    }
+  ]
+}

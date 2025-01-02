@@ -32,6 +32,7 @@ JEIEvents.hideItems(event => {
     'createdeco:zinc_coin',
     'createdeco:zinc_coinstack',
     'createdeco:zinc_sheet',
+    'enderio:silicon',
     'farmersdelight:rope',
     /ftbquests:.*/,
     'galosphere:deepslate_silver_ore',
