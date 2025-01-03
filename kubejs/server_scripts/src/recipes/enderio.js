@@ -195,4 +195,88 @@ ServerEvents.recipes(event => {
     ]
   }).id(`${ID_PREFIX}sag_milling/fluix_crystal`);
 
+  // Sag mill recipe for ancient debris
+  // Base multiplier 1.75x
+  // End steel grinding ball 2.4x
+  // Vibrant grinding ball 3.6x
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 3600,
+    "input": {
+      "item": "minecraft:ancient_debris"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.75,
+        "item": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/ancient_debris`);
+
+  // Sag mill recipe for arcance debris
+  // Base multiplier 1.75x
+  // End steel grinding ball 2.4x
+  // Vibrant grinding ball 3.6x
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 3600,
+    "input": {
+      "item": "irons_spellbooks:arcane_debris"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "irons_spellbooks:arcane_salvage"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.75,
+        "item": {
+          "item": "irons_spellbooks:arcane_salvage"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/arcane_debris`);
+
+  // Sag mill recipe for stella arcanum
+  // Base multiplier 1.3x
+  // End steel grinding ball 2.2x
+  // Vibrant grinding ball 3x
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 3600,
+    "input": {
+      "item": "forbidden_arcanus:stella_arcanum"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "forbidden_arcanus:stellarite_piece"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.5,
+        "item": {
+          "item": "forbidden_arcanus:stellarite_piece"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/stella_arcanum`);
+
 });
