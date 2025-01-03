@@ -43,8 +43,8 @@ ServerEvents.tags('block', event => {
 
   // Add missing tag to bookshelves
   event.add('minecraft:enchantment_power_provider', [
-    /everycomp:((?!chiseled).)*bookshelf/,
-    /quark:.*bookshelf/,
+    /everycomp:((?!chiseled).)*bookshelf$/,
+    /quark:.*bookshelf$/,
   ]);
 
   // Forge Tags
