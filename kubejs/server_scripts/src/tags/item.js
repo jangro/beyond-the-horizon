@@ -70,6 +70,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts', [
     'create:cinder_flour',
     'create:wheat_flour',
+    'enderio:flour',
   ]);
 
   // Make Alex's Caves the default for raw uranium (fixes ID squeezer recipe)
@@ -85,14 +86,17 @@ ServerEvents.tags('item', event => {
   event.add('forge:dusts/flour', [
     'create:cinder_flour',
     'create:wheat_flour',
+    'enderio:flour',
   ]);
   
   event.add('forge:flour', [
     'create:cinder_flour',
+    'enderio:flour',
     'pneumaticcraft:wheat_flour',
   ]);
 
   event.add('forge:flour/wheat', [
+    'enderio:flour',
     'pneumaticcraft:wheat_flour',
   ]);
 
