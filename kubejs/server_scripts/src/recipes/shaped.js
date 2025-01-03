@@ -283,6 +283,16 @@ ServerEvents.recipes(event => {
     R: 'minecraft:redstone',
   }).id(`${ID_PREFIX}chunk_controller`);
 
+  // Create
+  event.shaped('8x create:dough', [
+    'FFF',
+    'FBF',
+    'FFF'
+  ], {
+    F: '#forge:flour/wheat',
+    B: '#forge:buckets/water',
+  }).id(`${ID_PREFIX}create_dough`);
+
   // Create Crafts & Additions
   event.shaped('2x createaddition:brass_rod', [
     'I',
