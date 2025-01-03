@@ -1,0 +1,24 @@
+{
+  "feature": "phantasm:obsidian_tower",
+  "placement": [
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 512
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -16,
+          "max_inclusive": 16
+        }
+      },
+      "y_spread": 0
+    }
+  ]
+}
