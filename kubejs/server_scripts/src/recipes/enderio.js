@@ -223,7 +223,7 @@ ServerEvents.recipes(event => {
     ]
   }).id(`${ID_PREFIX}sag_milling/ancient_debris`);
 
-  // Sag mill recipe for arcance debris
+  // Sag mill recipe for arcane debris
   // Base multiplier 1.75x
   // End steel grinding ball 2.4x
   // Vibrant grinding ball 3.6x
