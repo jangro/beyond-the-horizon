@@ -41,6 +41,12 @@ ServerEvents.tags('block', event => {
     'graveyard:dark_iron_bars',
   ]);
 
+  // Add missing tag to bookshelves
+  event.add('minecraft:enchantment_power_provider', [
+    /everycomp:((?!chiseled).)*bookshelf/,
+    /quark:.*bookshelf/,
+  ]);
+
   // Forge Tags
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
