@@ -33,6 +33,10 @@
     {
       "item": "aquamirae:fin",
       "count": 16
+    },
+    {
+      "item": "upgrade_aquatic:driftwood_log",
+      "count": 32
     }
   ],
   "tier_data": [
