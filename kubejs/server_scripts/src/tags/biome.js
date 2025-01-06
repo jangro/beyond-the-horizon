@@ -88,6 +88,7 @@ ServerEvents.tags('worldgen/biome', event => {
     'irons_spellbooks:has_structure/mountain_tower',
     'irons_spellbooks:has_structure/pyromancer_tower',
 
+    // Remove abandoned colonies completely
     'minecolonies:has_structure/asian_colony',
     'minecolonies:has_structure/caledonia_colony',
     'minecolonies:has_structure/colonial_colony',
@@ -100,6 +101,9 @@ ServerEvents.tags('worldgen/biome', event => {
     'minecolonies:has_structure/medieval_spruce_colony',
     'minecolonies:has_structure/shire_colony',
     'minecolonies:has_structure/warpednetherlands_colony',
+
+    // Adjust biomes for barbarian camps
+    'minecolonies:has_structure/barbarian_camp',
 
     'paraglider:has_structure/nether_horned_statue',
     'paraglider:has_structure/tarrey_town_goddess_statue',
@@ -255,5 +259,20 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Cottage
   event.add('bth_idas:cottage_biomes', ['minecraft:stony_shore']);
+
+  // MineColonies barbarian camp (snowy biomes removed)
+  event.add('minecolonies:has_structure/barbarian_camp', [
+    'minecraft:plains',
+    '#forge:is_plains',
+    'minecraft:sunflower_plains',
+    'minecraft:forest',
+    '#minecraft:is_forest',
+    'minecraft:flower_forest',
+    'minecraft:birch_forest',
+    'minecraft:old_growth_birch_forest',
+    'minecraft:windswept_hills',
+    'minecraft:windswept_forest',
+    'minecraft:meadow'
+  ]);
 
 });
