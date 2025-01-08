@@ -255,6 +255,10 @@ file = "config/paraglider-common.toml"
 hash = "b13b0a83760d0e4dc9b9ecb0fe8fe61842bf032b78e5e3fed837234d772bc1e7"
 
 [[files]]
+file = "config/phantasm.json"
+hash = "c614fc0e0f1ec90cda16b0c6aae5e81a325cbf663c6a91fcadcf3f66bc32e6f3"
+
+[[files]]
 file = "config/powah.json5"
 hash = "9560557a2bb0e4fa988b2f47f6a3b4f48dc02e2e7ad948cd585e4bc646b5651a"
 
@@ -1187,6 +1191,10 @@ file = "kubejs/data/ctov/worldgen/structure_set/villages.json"
 hash = "9f3f52c44d2994407fa2f7f12c0c54052ac9c4373dc2184bb234082d7116bf0f"
 
 [[files]]
+file = "kubejs/data/curios/curios/slots/belt.json"
+hash = "82cc1cbe7255dc2c9b895b3f9b07edee8b8af6901e48078ee2dc1386900dc2ed"
+
+[[files]]
 file = "kubejs/data/deep_aether/advancements/explore_aether.json"
 hash = "0ab1f327d863f8478199f41ebdfc8695acc67bebd2b25918378ae80e4fe8bb64"
 
@@ -1548,7 +1556,7 @@ hash = "1693fdd6293d85eb86efd63e79d1da3ca4f08ce803e063d4562757c7b47c91a7"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/aquamirae/anglerfish.json"
-hash = "1530716fae4a1f4f02c656a11e35e45b0c169cd0b10ee528e7829851753f6bdd"
+hash = "fa0da92467feda2d5d23bf7d0d19f37faa7b6411a80cf6efd5988f0a6896aaf0"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/aquamirae/captain_cornelia.json"
@@ -1647,28 +1655,32 @@ file = "kubejs/data/hostilenetworks/data_models/creeper_overhaul/swamp_creeper.j
 hash = "60e40282382a6c1bf7f8204611f1da3ca74954351a00a9a022544ee180fcf5a3"
 
 [[files]]
+file = "kubejs/data/hostilenetworks/data_models/ender_dragon.json"
+hash = "c03297d81a75389a84239e74e3a803f8cbaf2474f74b980a95d963120aa8438d"
+
+[[files]]
 file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/apothecarist.json"
-hash = "67c5e0308e7fd08d6255d594d36c4830e3722ea957c024c24f4be1cdfe806b6a"
+hash = "1a0cb59d6323c7ed2d0e7cfad72dc9391347ef9e9d6db4bf9c98ed79bdd27814"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/archevoker.json"
-hash = "b6f5e17a46594e9bb15c1df2dfaa033fb284bc7c885a5279168c696f135e7b8d"
+hash = "93a0028ea07d20b2b773dab071c299adf22b8b6cb33714c08846ffa159c09c6f"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/cryomancer.json"
-hash = "8d407d406006722a678e2f62b8b27ee76028256a20efa665e3df8fe0bfbc0968"
+hash = "7e3d517f25f8dacfd57dccc089ab4a0e6625fc43133cc8127de9b7f6f0e1d093"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/necromancer.json"
-hash = "c8bd96ea4699e1d3c2aaaf876dfe720b6b505c4d26930b5de1da9c497951f042"
+hash = "b0b000007698b83f0079a994964b2f29f550b3d6c026eddbc98834657cf25190"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/priest.json"
-hash = "98eea714afcf7c34f0dfc42c3de90934a98246b8e60637e983b7dc0df45943ea"
+hash = "818e55010b9138cba70683157193bc2e26c465fcefa953a7e334d8a28776d2b4"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/irons_spellbooks/pyromancer.json"
-hash = "be664fbe2d51d1f739adf7eb61a4b9edde12554e093ecfdf60358be42320e28c"
+hash = "3a1510dbcd06ff9f34b51af9008f4088ce2a2d01f96b259433605b5fbeffd0fd"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/rats/demon_rat.json"
@@ -2248,7 +2260,7 @@ hash = "91b2054a861e58842660a44c7bb326107d39180869787e0c9f7fd6f92455c10c"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "6d21e85a6e12f4847202f376377421984414f5b1bf5dc96af574fdc234dc0141"
+hash = "5f97e731a140d071181cb1ef80e3af19a693297c9153872da0674d0f75f77815"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -2276,7 +2288,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "1d9ce664d3ed45b7a0ba46130ad6ca7de3c656f857e0bba2aeeb4cce00633bd6"
+hash = "c456e9dc65c5cb30be4c86f8db94cd0a5b6a8bc04a04686469ae4a0cd1393c9f"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
