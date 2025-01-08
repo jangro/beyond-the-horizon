@@ -1,0 +1,42 @@
+{
+  "entity": "alexsmobs:seal",
+  "variants": [],
+  "name": "entity.alexsmobs.seal",
+  "name_color": "#6F4E37",
+  "gui_scale": 1.7,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "",
+  "fabricator_drops": [
+    {
+    "item": "minecraft:clayball",
+    "count": 32
+    },
+    {
+    "item": "minecraft:kelp",
+    "count": 16
+    },
+    {
+    "item": "minecraft:gravel",
+    "count": 8
+    },
+    {
+    "item": "minecraft:wet_sponge",
+    "count": 4
+    },
+    {
+    "item": "minecraft:scute",
+    "count": 2
+    }
+  ]
+}

@@ -1519,6 +1519,10 @@ file = "kubejs/data/hostilenetworks/data_models/alexsmobs/rocky_roller.json"
 hash = "c90bc07060e8b157651e5307d25f0ed31e2a01473ccb4d512b6f73c7455bbba3"
 
 [[files]]
+file = "kubejs/data/hostilenetworks/data_models/alexsmobs/seal.json"
+hash = "c4f2b26ab86f1bc80f95af57340ed7ab6bf71301ce48e77700b63d30f247c707"
+
+[[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/skelewag.json"
 hash = "826da941d2940b29ebf56c705d79e5baef45c73f67db5ed21fd3e1676285e390"
 
