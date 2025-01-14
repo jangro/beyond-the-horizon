@@ -1,13 +1,13 @@
 name = "Spice of Life: Valheim Updated"
-filename = "sol_valheim-1.1.3-1.20.1-Forge.jar"
+filename = "sol_valheim-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "38c05de91ce284f27d77bd77d55fd8c03b69af21"
+hash = "2abc2f4f58ba096a114d7822c8ee1a4a5bc8a9f2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5581184
+file-id = 6070622
 project-id = 1074418
