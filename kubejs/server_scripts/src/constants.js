@@ -63,3 +63,14 @@ const VANILLA_WOOD_STEM_TYPES = [
 ];
 
 const VANILLA_WOOD_TYPES_ALL = VANILLA_WOOD_LOG_TYPES.concat(VANILLA_WOOD_STEM_TYPES);
+
+const FIRST_START_FOODS = [
+  'buzzier_bees:honey_bread',
+  'farmersdelight:cabbage_rolls',
+  'hauntedharvest:corn_on_the_cob',
+  'hauntedharvest:cornbread',
+  'miners_delight:vegetable_soup_cup',
+  'neapolitan:banana_bread',
+  'rats:assorted_vegetables',
+  'upgrade_aquatic:mulberry_bread',
+];

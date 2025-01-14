@@ -18,8 +18,13 @@ PlayerEvents.loggedIn(event => {
 
     event.player.give(Item.of('eccentrictome:tome', ECCENTRIC_TOME_NBT));
 
+    // Give player a wallet with slightly random amount of coins
     let count = 3 + Math.floor(7 * Math.random());
     event.player.give(Item.of('lightmanscurrency:wallet_leather', '{Items:[{Count:' + count + 'b,Slot:0b,id:"rats:tiny_coin"}]}'));
+
+    // Give player some random starter food
+    let index = Math.floor(FIRST_START_FOODS.length * Math.random());
+    event.player.give(Item.of(FIRST_START_FOODS[index], 8));
   }
 
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new
