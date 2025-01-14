@@ -3287,6 +3287,11 @@ hash = "e3b7a1a0ed3353dead103974c5249ddfcab3e70a1c77fab5fd3a47b19b4ba26b"
 metafile = true
 
 [[files]]
+file = "mods/merequester.pw.toml"
+hash = "2e1e73a8c4cc02b3bff1084940a6c0a7156c8925d881f8d98fb0495e050c65d1"
+metafile = true
+
+[[files]]
 file = "mods/mighty-mail.pw.toml"
 hash = "55d157a38d829fb67129086a5498f0539bcbed2fa5e974a28abe4ab1cde2fcb5"
 metafile = true
