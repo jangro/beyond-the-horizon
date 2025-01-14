@@ -31,15 +31,31 @@ StartupEvents.registry("item", event => {
   // It won't function completely when using /give or the Creative Tab.
   // TODO: See if there's a way to apply NBT data by default.
   event.create('bth:terminus', 'sword')
-  .attackDamageBonus(9.0)
-  .fireResistant(true)
-  .maxDamage(3270)
-  .rarity('EPIC')
-  .texture('bth:item/terminus')
-  .tier('netherite')
-  .tooltip(Text.translate('tooltip.bth.terminus'))
-  .translationKey('item.bth.terminus')
-  .unstackable();
+    .attackDamageBonus(9.0)
+    .fireResistant(true)
+    .maxDamage(3270)
+    .rarity('EPIC')
+    .texture('bth:item/terminus')
+    .tier('netherite')
+    .tooltip(Text.translate('tooltip.bth.terminus'))
+    .translationKey('item.bth.terminus')
+    .unstackable();
+
+  // BTH "super food"
+  event.create('bth:nanobot_soda_bottle')
+    .food(food => {
+      food
+        .hunger(20)
+        .saturation(2.5)
+        .eaten(ctx => {
+          ctx.player.tell(Text.gold('You feel a strange sensation...'))
+        })
+    })
+    .glow(true)
+    .texture('bth:item/nanobot_soda_bottle')
+    .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle'))
+    .translationKey('item.bth.nanobot_soda_bottle');
+
 });
 
 StartupEvents.registry("fluid", event => {
@@ -59,4 +75,15 @@ StartupEvents.registry("fluid", event => {
     .thickTexture(0xA95C68)
     .bucketColor(0xA95C68)
     .displayName('Ender Fuel');
+
+  event.create('bth:hyper_nutritious_goo')
+    .thickTexture(0xCD78FF)
+    .bucketColor(0xCD78FF)
+    .displayName('Hyper Nutritious Goo');
+
+  event.create('bth:nanobot_soda')
+    .thickTexture(0x61FFFF)
+    .bucketColor(0x61FFFF)
+    .displayName('NanoBot Soda');
+
 });

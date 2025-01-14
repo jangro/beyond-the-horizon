@@ -287,4 +287,21 @@ ServerEvents.recipes(event => {
     "time": 560
   }).id(`${ID_PREFIX}garden_cloche/blazing_bamboo`);
 
+  // BTH NanoBot Soda
+  event.custom({
+    "type": "immersiveengineering:bottling_machine",
+    "fluid": {
+      "amount": 125,
+      "tag": "bth:nanobot_soda"
+    },
+    "input": {
+      "item": "minecraft:glass_bottle"
+    },
+    "results": [
+      {
+        "item": "bth:nanobot_soda_bottle"
+      }
+    ]
+  });
+
 });

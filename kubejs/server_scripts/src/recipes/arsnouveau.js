@@ -44,4 +44,17 @@ ServerEvents.recipes(event => {
     // true // keep nbt of reagent, think like a smithing recipe
   ).id(`${ID_PREFIX}enchanting_apparatus/whirlisprig_charm`);
 
+  event.recipes.ars_nouveau.enchanting_apparatus(
+    [
+      'pneumaticcraft:drone',
+      'botania:spawner_claw',
+      'rats:vial_of_sentience',
+      'enderio:zombie_electrode',
+    ], // input items
+    'bth:hyper_nutritious_goo_bucket', // reagent
+    'bth:nanobot_soda_bucket', // output
+    30000, // source cost
+    // true // keep nbt of reagent, think like a smithing recipe
+  ).id(`${ID_PREFIX}enchanting_apparatus/nanobot_soda_bucket`);
+
 });

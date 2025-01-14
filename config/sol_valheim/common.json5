@@ -295,6 +295,18 @@
 			"saturationModifier": 0.6000000238418579,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
+		},
+		"rats:confit_byaldi": {
+			"nutrition": 20,
+			"saturationModifier": 0.4000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"rats:potato_knishes": {
+			"nutrition": 20,
+			"saturationModifier": 0.4000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
 		}
 	}
 }

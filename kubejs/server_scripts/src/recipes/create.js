@@ -50,6 +50,14 @@ ServerEvents.recipes(event => {
   event.recipes.create.mixing(Fluid.of('bth:soul_mixture 1000'), [Fluid.of('minecraft:water 1000'), 'minecraft:soul_sand']).heated().id(`${ID_PREFIX}mixing/soul_mixture`);
   event.recipes.create.mixing(Fluid.of('bth:ender_fuel 1000'), [Fluid.of('integrateddynamics:liquid_chorus 500'), Fluid.of('bth:soul_mixture', 500)]).heated().id(`${ID_PREFIX}mixing/ender_fuel`);
 
+  // BTH super food ingredient
+  event.recipes.create.mixing('bth:hyper_nutritious_goo_bucket', [
+    Fluid.of('bth:ender_fuel 125'),
+    'farmersdelight:stuffed_pumpkin',
+    'nethersdelight:magma_gelatin',
+    'ends_delight:dragon_leg_with_sauce',
+    'aetherdelight:bowl_of_enchanted_berries']).heated().id(`${ID_PREFIX}mixing/hyper_nutritional_goo`);
+
   // Artificial Dye 
   // - white
   event.recipes.create.mixing(Item.of('minecraft:white_dye', 4), [Fluid.of('create:potion', 250, {Bottle:"REGULAR",Potion:"minecraft:invisibility"}), Fluid.of('immersiveengineering:creosote 250')]).heated().id(`${ID_PREFIX}mixing/artificial_dye_invisibility`);

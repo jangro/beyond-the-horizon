@@ -23,5 +23,6 @@ ServerEvents.tags('fluid', event => {
   event.add('bth:liquid_chorus', 'integrateddynamics:liquid_chorus');
   event.add('bth:soul_mixture', 'bth:soul_mixture');
   event.add('bth:sugar_water', 'bth:sugar_water');
+  event.add('bth:nanobot_soda', 'bth:nanobot_soda');
 
 });

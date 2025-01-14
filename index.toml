@@ -32,7 +32,7 @@ hash = "3d3dcca39d7747b02a0d9e1edcc52102e363c821b48fba376ee0573d9d06dc85"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "74cf30492b9a3a63752d532411f434673f0f78f7b43c57c32bc7972cb2c2a293"
+hash = "520bb1a71a6d6d69cb22390f0d1643902d0a117472f3eaafcd16e455fcd9bcfa"
 
 [[files]]
 file = "config/alexsmobs/fly_spawns.json"
@@ -299,6 +299,10 @@ file = "config/smallships-common.toml"
 hash = "f20111d78bcc8b390806f4620bc512445f2609e65c7e4fdf674dae4979e8eb15"
 
 [[files]]
+file = "config/sol_valheim/common.json5"
+hash = "a5d57a3c75772ffa803d47648c3a0a043f5af2e193f60d89d1ab9eb7f5aa834a"
+
+[[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
 hash = "0b8661ac203c4318d1e2d7b13a30c149c5f59dd8eb30b124ceb65e9be044125f"
 
@@ -380,7 +384,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "7470afd8df4d3b9de9c9f96343614e90a60b10a6c9296f3e0bb9d89c3f8eb1b0"
+hash = "2e6ec8e2f731a06df127165017fef2ad3f7f5304692427337fa6a8a0aa3ef631"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -389,6 +393,10 @@ hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 [[files]]
 file = "kubejs/assets/bth/textures/item/coconut_maul.png"
 hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle.png"
+hash = "62e74077b0d4f77c031fe44fd0d303a9dca17bc44c39ecad2d31c41967024286"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/terminus.png"
@@ -640,7 +648,7 @@ hash = "f4a5863a5336d227a7027039df2a8f78a8d0dccf9ce9f74bdb86a012653380cb"
 
 [[files]]
 file = "kubejs/data/bth/chiseling_recipes/dripstone.json"
-hash = "11cc8fa793669812904db29b99b74e34306e0566f6e6336b2fc88bffe052f03e"
+hash = "c67693a79b90373d38153307685a52cb857bd34b6af248415ff8cf4d979a333c"
 
 [[files]]
 file = "kubejs/data/bth/chiseling_recipes/dusk_bricks.json"
@@ -1520,7 +1528,7 @@ hash = "c90bc07060e8b157651e5307d25f0ed31e2a01473ccb4d512b6f73c7455bbba3"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/seal.json"
-hash = "c4f2b26ab86f1bc80f95af57340ed7ab6bf71301ce48e77700b63d30f247c707"
+hash = "f3c57957ff59085c747954796e8b9ea138a04852b040185e91bc90dc0b46e059"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/skelewag.json"
@@ -2156,7 +2164,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
-hash = "af545867f70f41f45593a0008f97ad7a5f4b10f377e9ee28430fe1faf393d0d1"
+hash = "9514e6e82ae4a5d8cb4400979940d1b40187ee0c02751c218387768878876315"
 
 [[files]]
 file = "kubejs/server_scripts/src/dev/commands.js"
@@ -2172,7 +2180,7 @@ hash = "42fb0eba67c7de17fa9828a32497e2387eca6ac4fb93c47491bd27aaa74a4991"
 
 [[files]]
 file = "kubejs/server_scripts/src/first_start.js"
-hash = "f4a583436ed4236d69ea8f03b80859cb38c086e4daa84e6bfbce2ac9e1a65f0e"
+hash = "b95f45c687cbf343caa5af2a84313d65bfc8c31f260d80bef934b927b39035f4"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
@@ -2216,7 +2224,7 @@ hash = "55f2d6af69d9bf4fb287b53158e7bce35e9cb021ccc74be393deef3270b97337"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
-hash = "a7e939bed068075604813cd03d828fc0fbba61702a8eadbf7901da7f7b001254"
+hash = "f0dd15b7ba121aec5ccff4fc94adfed88288af372992715afa760bea9961eeca"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/botania.js"
@@ -2228,7 +2236,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "eb9b8f9af5551f1dc64ec89ae62196093d86aaf167f57b6be9e4e293e5b639ff"
+hash = "e15832b3588e83f58b0cd807dbfecfec992f199c6d8e35c53a43f9ad6f0d9fcb"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -2248,7 +2256,7 @@ hash = "900cad202feef14788c26154c757a3071bcf22a097b43c5b8935b9a6f0e782e9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "17f37528b7e06fa4f475e6b8d0162515e52d2c88c299ffe5d0ca34953365d1c4"
+hash = "acc6bdba885c354a1f36d7ffa07241dd3faf02427a63c29cdb51139a8ab986a6"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
@@ -2312,7 +2320,7 @@ hash = "ae0b16ed77b22dedf9928a77f9b39166980684ff92e461020d3744243f3d8394"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/fluid.js"
-hash = "329f6e073f59a2e504733eeb7c1d24c34c93ee2a797c1120c39e45b33aeeb8c8"
+hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
@@ -2328,7 +2336,7 @@ hash = "4f89490a362ee6010df0aed3c65a8ad24b64ff90ff87b0f6d5fa6e224df91928"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "f333efe1bea31d41d2e0c04c850629e73151dd901d6f9b36017d5da9c8c02e5f"
+hash = "f65e85e033240fec23191cbfc82aa24c9a332359324deb376d703b5b7dda618c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -3643,7 +3651,7 @@ metafile = true
 
 [[files]]
 file = "mods/spice-of-life-valheim-updated.pw.toml"
-hash = "8954ac77f5ed6e73be948019a86c81796c07b5fb4c9dec7f2f8c1d6fdb12a3d3"
+hash = "8de9ca3c6cf24787d209e22a7d34416abfd523b3b846e6e893c78a5b82ac6942"
 metafile = true
 
 [[files]]
