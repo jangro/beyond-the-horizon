@@ -48,7 +48,8 @@ StartupEvents.registry("item", event => {
         .hunger(20)
         .saturation(2.5)
         .eaten(ctx => {
-          ctx.player.tell(Text.gold('You feel a strange sensation...'))
+          ctx.player.tell(Text.gold('You feel a strange sensation...'));
+          ctx.player.give('minecraft:glass_bottle');
         })
     })
     .glow(true)
@@ -82,8 +83,8 @@ StartupEvents.registry("fluid", event => {
     .displayName('Hyper Nutritious Goo');
 
   event.create('bth:nanobot_soda')
-    .thickTexture(0x61FFFF)
-    .bucketColor(0x61FFFF)
+    .thickTexture(0x4DD7FF)
+    .bucketColor(0x4DD7FF)
     .displayName('NanoBot Soda');
 
 });
