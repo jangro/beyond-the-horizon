@@ -52,6 +52,7 @@ StartupEvents.registry("item", event => {
           ctx.player.give('minecraft:glass_bottle');
         })
     })
+    .useAnimation("drink")
     .glow(true)
     .texture('bth:item/nanobot_soda_bottle')
     .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle'))
