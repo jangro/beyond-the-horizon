@@ -2775,6 +2775,11 @@ hash = "0bbb0d5c211ddf6fd76fd602167b1f012dbfe56e72c5f2568ec1089cd930ece0"
 metafile = true
 
 [[files]]
+file = "mods/create-kart.pw.toml"
+hash = "4eefe54203e6fb591e416024ec5b82c9d1c2572612e1fcbbe01a26d12dd5a26d"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "cb7b31c785f6e7466951c7b2b221d9c89f065e7930a36ac1a575e40d54404bb3"
 metafile = true
