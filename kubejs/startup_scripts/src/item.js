@@ -3,6 +3,14 @@
 /**
  * @file Custom item additions for Beyond the Horizon.
  */
+
+const NANOBOT_SODA_EFFECTS = [
+  'You feel a strange sensation...',
+  'It tingles throughout your body.',
+  'Not tasty, but healthy!',
+  'Technology and magic is coursing through your veins.',
+];
+
 StartupEvents.registry("item", event => {
 
   // Adventurer's Spellbook
@@ -48,7 +56,8 @@ StartupEvents.registry("item", event => {
         .hunger(20)
         .saturation(2.5)
         .eaten(ctx => {
-          ctx.player.tell(Text.gold('You feel a strange sensation...'));
+          let index = Math.floor(NANOBOT_SODA_EFFECTS.length * Math.random());
+          ctx.player.tell(Text.gold(NANOBOT_SODA_EFFECTS[index]));
           ctx.player.give('minecraft:glass_bottle');
         })
     })
