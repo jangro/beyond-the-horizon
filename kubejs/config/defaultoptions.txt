@@ -13,8 +13,8 @@ narrator:0
 onboardAccessibility:false
 discrete_mouse_scroll:true
 
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/BTH-Panorama.zip","file/Midnighttiggers-FCT-Default_1.20_V4.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip","builtin/emissivity_model_override","builtin/overrides/deep_aether_emissivity","file/spawnanimations-v1.9.4-mc1.17x-1.20x-datapack.zip","file/Updated_Engineering_v1.7.zip"]
-incompatibleResourcePacks:["builtin/towntalk","file/Midnighttiggers-FCT-Default_1.20_V4.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip","file/Updated_Engineering_v1.7.zip"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/BTH-Panorama.zip","builtin/emissivity_model_override","builtin/overrides/deep_aether_emissivity","file/Updated_Engineering_v1.7.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V5.zip","file/Midnighttiggers-FCT-Default_1.20_V5.zip"]
+incompatibleResourcePacks:["builtin/towntalk","file/Updated_Engineering_v1.7.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V5.zip","file/Midnighttiggers-FCT-Default_1.20_V5.zip"]
 
 soundCategory_master:0.5
 soundCategory_music:0.25
