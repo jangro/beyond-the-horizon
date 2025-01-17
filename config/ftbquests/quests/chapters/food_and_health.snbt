@@ -41,7 +41,7 @@
 			}]
 			title: "Food and Health"
 			x: 0.0d
-			y: 0.0d
+			y: 0.3392857142857153d
 		}
 		{
 			icon: "minecraft:bread"
@@ -88,8 +88,8 @@
 				item: "miners_delight:vegan_wrap"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 0.6428571428571459d
+			y: 2.517857142857139d
 		}
 		{
 			id: "465904287E8BF16B"
@@ -99,8 +99,8 @@
 				item: "farmersdelight:hamburger"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "23C667C0FAF5D66A"
@@ -110,8 +110,8 @@
 				item: "farmersdelight:roast_chicken"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			id: "59B2440F6712BE8E"
@@ -121,8 +121,8 @@
 				item: "miners_delight:bowl_of_stuffed_squid"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -0.6428571428571459d
+			y: 2.517857142857146d
 		}
 		{
 			description: ["If you have no active foods, you won't be able to run. Eat three unique food for a speed boost!"]
@@ -219,6 +219,22 @@
 			}]
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			description: [
+				"Click the link to learn more about &bNanoBot Soda&r  "
+				""
+				"{ \"text\": \"Go to the Super Food page\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"76577007D1E3111C\" } }"
+			]
+			id: "41E8D9EB284E9C69"
+			subtitle: "Click and hover over food to see stats."
+			tasks: [{
+				id: "0561392EA779C2F6"
+				item: "bth:nanobot_soda_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	title: "Food and Health"
