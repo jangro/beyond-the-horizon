@@ -1,13 +1,13 @@
 name = "Midnighttigger's Default Connected Textures Addons"
-filename = "Midnighttiggers-NT_CG-FCT-Default_1.17_V5.zip"
+filename = "Midnighttiggers-NT_CG-FCT-Default_1.17_V6.zip"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "5d7dab8e3577bbeed566c2aefe5a1163bacd2c3b"
+hash = "7fcf1696f3dad69a2cd9aaf8e6d908b631865ed2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6015326
+file-id = 6074813
 project-id = 939242
