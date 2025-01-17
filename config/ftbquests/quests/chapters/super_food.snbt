@@ -1,0 +1,472 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "super_food"
+	group: ""
+	icon: "bth:nanobot_soda_bottle"
+	id: "0467AB5DFB336774"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"28214423132EB032"
+				"3CB69970CEC8282E"
+				"58E0F647734F5A12"
+				"1E5E16BBBE0EB62F"
+				"6E25759EAA52C64D"
+			]
+			description: [
+				"The &bNanoBot Soda Bottle&r is a Beyond The Horizon super food made from a mixture of organics, technology and magic. It is designed to give you a good base health, with extremely long saturation to provide sprint and regeneration that last for hours of game play."
+				""
+				"It is bottled from &bNanoBot Soda&r using the &7bottling machine&r. "
+				""
+				"Even with the power of nanobots coursing through your veins, it is still only a single food source and it is recommended that you keep a couple of more good food sources handy for when you need extra health and regeneration in tough situations."
+			]
+			id: "76577007D1E3111C"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "A strange mix of things"
+			tasks: [{
+				id: "6DDAD228512574D9"
+				item: "bth:nanobot_soda_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6841BF76D250A3B3"
+				"0C28F786CFF8B830"
+				"450621D2F1AAF86C"
+				"664BBAB4DBE8EF69"
+				"09547C0A6307584B"
+			]
+			id: "28214423132EB032"
+			tasks: [{
+				id: "7F412705488CE71E"
+				item: "bth:hyper_nutritious_goo_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58A44457DC07F264"]
+			id: "3CB69970CEC8282E"
+			tasks: [{
+				id: "29651890A9184FEC"
+				item: {
+					Count: 1
+					id: "pneumaticcraft:drone"
+					tag: {
+						"pneumaticcraft:air": 120000
+					}
+				}
+				type: "item"
+			}]
+			x: -1.392857142857153d
+			y: -0.3749999999999929d
+		}
+		{
+			dependencies: ["6582CC23E9FA6ED3"]
+			id: "6E25759EAA52C64D"
+			tasks: [{
+				id: "248BB0D3A7CA8810"
+				item: "rats:vial_of_sentience"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6811936F7116FD8D"
+				"78D15A4131DD2BF9"
+			]
+			id: "1E5E16BBBE0EB62F"
+			tasks: [{
+				id: "2130DDE66A0E3BB3"
+				item: "botania:spawner_claw"
+				type: "item"
+			}]
+			x: 1.3571428571428754d
+			y: -0.4107142857142918d
+		}
+		{
+			dependencies: [
+				"3C33FAC28A73477E"
+				"6E9DF74584013E67"
+			]
+			id: "58E0F647734F5A12"
+			tasks: [{
+				id: "3388EB7786FAD8C9"
+				item: "enderio:zombie_electrode"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6CBB126ABFA70DA9"
+				"66752B43559F55BC"
+			]
+			id: "0C28F786CFF8B830"
+			tasks: [{
+				id: "23745B6C1AFC61CA"
+				item: "bth:ender_fuel_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "09547C0A6307584B"
+			tasks: [{
+				id: "64F3745984DA7E9F"
+				item: "ends_delight:dragon_leg_with_sauce"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "450621D2F1AAF86C"
+			tasks: [{
+				id: "72CC799F16C9A1D8"
+				item: "aetherdelight:bowl_of_enchanted_berries"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "6841BF76D250A3B3"
+			tasks: [{
+				id: "0CF447BF70C3EEF0"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "664BBAB4DBE8EF69"
+			tasks: [{
+				id: "08457BB538BA8642"
+				item: "farmersdelight:stuffed_pumpkin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D180AE283C3F1B4"]
+			id: "6CBB126ABFA70DA9"
+			tasks: [{
+				id: "026802CDBB8BB34A"
+				item: "integrateddynamics:bucket_liquid_chorus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"030E94AE665CF29D"
+				"5C2E175CB0AD7B65"
+			]
+			id: "66752B43559F55BC"
+			tasks: [{
+				id: "7E545C7A4FF3737C"
+				item: "bth:soul_mixture_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			id: "030E94AE665CF29D"
+			tasks: [{
+				id: "1BE6FDFD9B9C5DA5"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "5C2E175CB0AD7B65"
+			tasks: [{
+				id: "66C4FDDB7230A771"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			id: "6D180AE283C3F1B4"
+			tasks: [{
+				id: "6FA2A1ACCC44D725"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "4166137AE0005A2A"
+			tasks: [{
+				id: "28CDDDE2BFAB3C0D"
+				item: "rats:chunky_cheese_token"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4166137AE0005A2A"]
+			id: "6582CC23E9FA6ED3"
+			tasks: [{
+				id: "7F98FB9F8C2252C7"
+				item: "rats:rat_upgrade_archeologist"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "6E9DF74584013E67"
+			tasks: [{
+				id: "5764619F0162676C"
+				item: "enderio:slice_and_splice"
+				type: "item"
+			}]
+			x: 3.107142857142854d
+			y: 2.625d
+		}
+		{
+			id: "3C33FAC28A73477E"
+			tasks: [{
+				id: "42BA89EFD92832DC"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "58A44457DC07F264"
+			tasks: [{
+				id: "6155FCC6315D9E3F"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2650254DDE5FE1F0"]
+			id: "78D15A4131DD2BF9"
+			tasks: [{
+				id: "12C8D931A2014518"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "6811936F7116FD8D"
+			tasks: [{
+				id: "0A8EAB140934C507"
+				item: "botania:ender_air_bottle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "2650254DDE5FE1F0"
+			tasks: [{
+				id: "59D49629ECE86D15"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"71BAE8E2A775CA68"
+				"402C643F2E25FA2A"
+				"486F36002C40ACF9"
+				"34BB9D3D1A91D20E"
+				"0F3A7B3873DBB3A2"
+			]
+			description: [
+				"The &bNanoBot Bottle&r is a special bottle required for making &bNanoBot Soda&r. It is made from &7iridescent bismuth glass&r, which requires 5 different variants of &7bismuth gleam&r to craft. These can be obtained by &6oxidizing bismuth blocks&r in various biomes. See each gleam for details."
+				""
+				"&7Bismuth&r can be found high up in the &eUpper End&r, above the &eOuter End Islands&r. "
+				""
+				"Note: Like other ores from Enlightened End mod, bismuth ore can only be mined with vanilla tools."
+			]
+			id: "14476DDFB123C7CE"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "A bottle designed to hold nanobots"
+			tasks: [{
+				id: "058E8B70DEFA4F3E"
+				item: "bth:nanobot_soda_bottle_empty"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&eDazzling gleam&r can be obtained by scraping oxidized bismuth blocks. Depending on the biome, different variation of gleam will form on the bismuth block."
+				""
+				"For dazzling gleam, let the bismuth block oxidize in any of the following biomes:"
+				""
+				"- badlands"
+				"- basalt deltas"
+				"- dripstone caves"
+				"- lukewarm ocean"
+				"- wooded badlands"
+				"- deep lukewarm ocean"
+				"- crimson forest"
+				"- desert"
+				"- eroded badlands"
+				"- nether wastes"
+			]
+			id: "71BAE8E2A775CA68"
+			subtitle: "Click for details"
+			tasks: [{
+				id: "5E106B068F491DE5"
+				item: "enlightened_end:dazzling_bismuth_gleam"
+				type: "item"
+			}]
+			x: -7.821428571428555d
+			y: -0.5178571428571423d
+		}
+		{
+			description: [
+				"&aVerdant gleam&r can be obtained by scraping oxidized bismuth blocks. Depending on the biome, different variation of gleam will form on the bismuth block."
+				""
+				"For verdant gleam, let the bismuth block oxidize in any of the following biomes:"
+				""
+				"- warm ocean"
+				"- bamboo jungle"
+				"- sparse jungle"
+				"- lush caves"
+				"- jungle"
+				"- mangrove swamp"
+				"- swamp"
+				""
+				"Verdant is the default variant and any modded biomes not listed for the other gleams will produce verdant color."
+			]
+			id: "0F3A7B3873DBB3A2"
+			subtitle: "Click for details"
+			tasks: [{
+				id: "5CE891480A713F31"
+				item: "enlightened_end:verdant_bismuth_gleam"
+				type: "item"
+			}]
+			x: -10.214285714285701d
+			y: -0.5178571428571423d
+		}
+		{
+			description: [
+				"&3Poise gleam&r can be obtained by scraping oxidized bismuth blocks. Depending on the biome, different variation of gleam will form on the bismuth block."
+				""
+				"For poise gleam, let the bismuth block oxidize in any of the following biomes:"
+				""
+				"- frozen ocean"
+				"- frozen river"
+				"- snowy plains"
+				"- taiga"
+				"- snowy slopes"
+				"- cold ocean"
+				"- jagged peaks"
+				"- snowy taiga"
+				"- deep frozen ocean"
+				"- deep cold ocean"
+				"- grove"
+				"- ice spikes"
+				"- old growth pine taiga"
+				"- stony peaks"
+				"- frozen peaks"
+				"- old growth spruce taiga"
+			]
+			id: "486F36002C40ACF9"
+			subtitle: "Click for details"
+			tasks: [{
+				id: "20366187482305B8"
+				item: "enlightened_end:poise_bismuth_gleam"
+				type: "item"
+			}]
+			x: -10.892857142857125d
+			y: 1.6964285714285694d
+		}
+		{
+			description: [
+				"&9Etheral gleam&r can be obtained by scraping oxidized bismuth blocks. Depending on the biome, different variation of gleam will form on the bismuth block."
+				""
+				"For etheral gleam, let the bismuth block oxidize in any of the following biomes:"
+				""
+				"- warped forest"
+				"- soul sand valley"
+				"- small end islands"
+				"- deep dark"
+				"- end midlands"
+				"- the end"
+				"- end highlands"
+				"- end barrens"
+			]
+			id: "402C643F2E25FA2A"
+			subtitle: "Click for details"
+			tasks: [{
+				id: "2ADEED5DECEAF6FC"
+				item: "enlightened_end:ethereal_bismuth_gleam"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&dSerene gleam&r can be obtained by scraping oxidized bismuth blocks. Depending on the biome, different variation of gleam will form on the bismuth block."
+				""
+				"For serene gleam, let the bismuth block oxidize in any of the following biomes:"
+				""
+				"- mushroom fields"
+				"- savanna plateau"
+				"- forest"
+				"- sunflower plains"
+				"- flower forest"
+				"- birch forest"
+				"- old growth birch forest"
+				"- dark forest"
+				"- beach"
+				"- savanna"
+				"- plains"
+				"- meadow"
+				"- snowy beach"
+			]
+			id: "34BB9D3D1A91D20E"
+			subtitle: "Click for details"
+			tasks: [{
+				id: "2BD65AFAD2DF5AC8"
+				item: "enlightened_end:serene_bismuth_gleam"
+				type: "item"
+			}]
+			x: -7.142857142857132d
+			y: 1.732142857142854d
+		}
+	]
+	title: "Super Food"
+}
