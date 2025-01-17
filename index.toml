@@ -120,7 +120,7 @@ hash = "d069cf6b5d9ab2753352d308951c1d087c6a80a66f96531d1578ff6e0e86c89c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_health.snbt"
-hash = "43420e258b035aac2bcac627299f75148a2da9f2be8697196d8defc1824fd4e9"
+hash = "434e9230d8e3538b9c24312ee4ce3c36ddcda40b0074add6988b0cedd304fec4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
@@ -444,7 +444,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "cb00bd081c454e178220f77a35706f7e8ca25702b2303d090bfb4b1fa351165f"
+hash = "18408276946175117496fee92bec5447b87978ca21761d6483b706d4086c5c6c"
 
 [[files]]
 file = "kubejs/config/packicon.png"
