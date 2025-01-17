@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
     "time": 560
   }).id(`${ID_PREFIX}garden_cloche/blazing_bamboo`);
 
-  // BTH NanoBot Soda
+  // BTH NanoBot Soda (8 bottles per bucket - can be adjust if needed)
   event.custom({
     "type": "immersiveengineering:bottling_machine",
     "fluid": {
@@ -295,7 +295,7 @@ ServerEvents.recipes(event => {
       "tag": "bth:nanobot_soda"
     },
     "input": {
-      "item": "minecraft:glass_bottle"
+      "item": "bth:nanobot_soda_bottle_empty"
     },
     "results": [
       {

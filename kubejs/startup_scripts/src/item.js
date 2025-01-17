@@ -58,13 +58,19 @@ StartupEvents.registry("item", event => {
         .eaten(ctx => {
           let index = Math.floor(NANOBOT_SODA_EFFECTS.length * Math.random());
           ctx.player.tell(Text.gold(NANOBOT_SODA_EFFECTS[index]));
-          ctx.player.give('minecraft:glass_bottle');
+          ctx.player.give('bth:nanobot_soda_bottle_empty');
         })
     })
     .glow(true)
     .texture('bth:item/nanobot_soda_bottle')
     .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle'))
     .translationKey('item.bth.nanobot_soda_bottle');
+
+  event.create('bth:nanobot_soda_bottle_empty')
+    .glow(true)
+    .texture('bth:item/nanobot_soda_bottle_empty')
+    .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle_empty'))
+    .translationKey('item.bth.nanobot_soda_bottle_empty');
 
 });
 

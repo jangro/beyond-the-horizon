@@ -384,7 +384,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "2e6ec8e2f731a06df127165017fef2ad3f7f5304692427337fa6a8a0aa3ef631"
+hash = "c506eaecdafcb1141f439f145ac977b9a2ba26627c0c1d555cc7d601560ecbb8"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -396,7 +396,11 @@ hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle.png"
-hash = "62e74077b0d4f77c031fe44fd0d303a9dca17bc44c39ecad2d31c41967024286"
+hash = "ce46b6157dde590e9d29fc306e83618fab91901ae9db55a52207179ea1236e7c"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle_empty.png"
+hash = "df610d0fcc013f1290c76145d0163889f312d08ffa96cb855173cbff5165d86e"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/terminus.png"
@@ -2256,7 +2260,7 @@ hash = "900cad202feef14788c26154c757a3071bcf22a097b43c5b8935b9a6f0e782e9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "acc6bdba885c354a1f36d7ffa07241dd3faf02427a63c29cdb51139a8ab986a6"
+hash = "e8aae6fe04849e6fecb81f58dea8d6b65a8ab1b911fad0663159042202793f87"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
@@ -2280,7 +2284,7 @@ hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "d50d24a6731b91f51a5744c8587a8371be900fbcecb9f4f8a945f5f195e10bc0"
+hash = "7fc9f33b4963d529e52372f61b09bddfbbdba2c83b441171285c10ea45b76204"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -2336,7 +2340,7 @@ hash = "4f89490a362ee6010df0aed3c65a8ad24b64ff90ff87b0f6d5fa6e224df91928"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "f65e85e033240fec23191cbfc82aa24c9a332359324deb376d703b5b7dda618c"
+hash = "cf14fc8900dd66f90672cf8252511944922aed62ae32b838142fe868c179b333"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"

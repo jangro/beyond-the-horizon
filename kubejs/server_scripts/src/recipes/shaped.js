@@ -50,6 +50,14 @@ ServerEvents.recipes(event => {
     B: 'minecraft:book'
   }).id(`${ID_PREFIX}filled_eccentric_tome`);
 
+  event.shaped('3x bth:nanobot_soda_bottle_empty', [
+    '   ',
+    'GSG',
+    ' G '
+  ], {
+    G: 'enlightened_end:iridescent_bismuth_glass',
+    S: 'botania:corporea_spark_master'
+  }).id(`${ID_PREFIX}nanobot_soda_bottle_empty`);
 
   // Minecraft
   event.shaped('minecraft:bundle', [
