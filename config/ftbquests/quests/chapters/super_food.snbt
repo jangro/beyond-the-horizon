@@ -219,6 +219,7 @@
 		}
 		{
 			id: "4166137AE0005A2A"
+			subtitle: "Can only be purchased from traders or crafted with advanced magic or technology."
 			tasks: [{
 				id: "28CDDDE2BFAB3C0D"
 				item: "rats:chunky_cheese_token"
