@@ -140,7 +140,7 @@ hash = "08f561ddc792bcf61c56ed5e191a1d96be9a4051889be1eef7b22522177f998e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/super_food.snbt"
-hash = "dbd02fcf092e2bd9a724a859e50a38ef47d7620e6e444c6339ca8cb96f49d3ed"
+hash = "fe8c21cc47b60a37bb100ec25dc40cbbbb95289f85a91a0bb1466804e1ce6630"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
@@ -404,7 +404,7 @@ hash = "ce46b6157dde590e9d29fc306e83618fab91901ae9db55a52207179ea1236e7c"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle_empty.png"
-hash = "df610d0fcc013f1290c76145d0163889f312d08ffa96cb855173cbff5165d86e"
+hash = "8a3f6fb808eeb0d03851114272f0498e8a242ed4d1eb43a95a66fd17d8ba8e50"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/terminus.png"
