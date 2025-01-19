@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
     ], // input items
     'bth:hyper_nutritious_goo_bucket', // reagent
     'bth:nanobot_soda_bucket', // output
-    30000, // source cost
+    10000, // source cost
     // true // keep nbt of reagent, think like a smithing recipe
   ).id(`${ID_PREFIX}enchanting_apparatus/nanobot_soda_bucket`);
 
