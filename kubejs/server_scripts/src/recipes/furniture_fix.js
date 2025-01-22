@@ -21,29 +21,34 @@ ServerEvents.recipes(event => {
     const keys = jIngredients.keySet();
     const ingredients = {};
     keys.forEach(key => {
-      let value = jIngredients.get(key);
-      const forge = value.get('forge_value');
-
-      if (`${forge}` !== 'null') {
-        value = forge;
-      } 
-
-      const x = `${value.get('item')}`.replace(/"/g, '');
-      const y = `${value.get('tag')}`.replace(/"/g, '');
-      const input = (x === 'null') ? `#${y}` : x;
-      
-      ingredients[key] = input;
+      let valueOuter = jIngredients.get(key);
+      let valueInner = valueOuter.get('ingredient');
+      // valueInner is 'null' when dealing with vanilla wood types
+      if (`${valueInner}` === 'null') {
+        valueInner = valueOuter;
+      }
+      const forge = valueInner.get('forge_value');
+      // forge is not 'null' when dealing with sticks (I think)
+      if (`${forge}` === 'null') {
+        ingredients[key] = valueOuter;
+      }  else {
+        let value = forge;
+        const x = `${value.get('item')}`.replace(/"/g, '');
+        const y = `${value.get('tag')}`.replace(/"/g, '');
+        const input = (x === 'null') ? `#${y}` : x;
+        ingredients[key] = input;
+      }
     });
     event.remove({ id: recipeId });
     event.shaped(recipe.originalRecipeResult, recipe.json.get('pattern'), ingredients).id(recipeId);
   };
 
-  // Fix Valhelsia Furniture recipes.
+  // Fix Valhelsia Furniture vanilla wood types recipes.
   event.forEachRecipe({ output: /valhelsia_furniture:\S+/ }, recipe => {
     fixRecipe(recipe);
   });
 
-  // Fix EveryCompat recipes.
+  // Fix Valhelsia Furniture everycompat wood types recipes.
   event.forEachRecipe({ output: /everycomp:vf\S+/ }, recipe => {
     fixRecipe(recipe);
   });
