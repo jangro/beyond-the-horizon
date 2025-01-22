@@ -3048,6 +3048,11 @@ hash = "7c17fe2c923d6bb3ecf995c90a3e5ec5abf6ab3e8d8e309ed6b3f9cdf416cc00"
 metafile = true
 
 [[files]]
+file = "mods/gallery.pw.toml"
+hash = "4447096701238976a2fa7fa6a2ff8eac252d7518e769a59c9220812b2feb75ca"
+metafile = true
+
+[[files]]
 file = "mods/galosphere.pw.toml"
 hash = "1be92368ec20f1f493c46ad2afdccd1caf3bf605f54862d8badd3f25c9729df0"
 metafile = true

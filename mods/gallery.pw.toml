@@ -1,0 +1,13 @@
+name = "Gallery"
+filename = "gallery-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "67ca9a06ea745f43869b6ff47c241dcab15a5bd0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6113397
+project-id = 1173553
