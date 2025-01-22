@@ -5,7 +5,7 @@
 	group: ""
 	icon: "bth:nanobot_soda_bottle"
 	id: "0467AB5DFB336774"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

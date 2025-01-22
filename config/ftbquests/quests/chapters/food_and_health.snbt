@@ -205,7 +205,7 @@
 				title: "Automate!"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -217,7 +217,7 @@
 				title: "Bread ain't just wheat"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{

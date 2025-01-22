@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:saddle"
 	id: "1DDDAA6ED02DF8AB"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -328,7 +328,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -4.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -628,9 +628,9 @@
 		}
 		{
 			description: [
-				"Can be dyed."
-				"Can ride ascending wind to gain height! Look out for rising particles while holding the &aParaglider&r."
-				"Works with &aFire&r and &aCampfire&r. Don't try with &aLava&r. It doesn't work. I warned you."
+				"Paragliders can be crafted or found in &9Ancient Towers&r located on mountains. "
+				""
+				"They can be dyed to match your personal style. You can ride ascending wind to gain height! Look out for rising particles while holding the &aParaglider&r. Works with &6Fire&r and &6Campfire&r. Don't try with &4Lava&r. It doesn't work. I warned you."
 			]
 			id: "6E76E2614585E981"
 			subtitle: "Paragliding!"
@@ -640,7 +640,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -13.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["3A643C9F794E6B0C"]
@@ -700,6 +700,11 @@
 				"44EDB755EEED4051"
 				"0F27998656531188"
 				"6C143D7B08238AC6"
+			]
+			description: [
+				"The various eyes required to open the portal can be found around the world. In &eBeyond the Horizon&r they are a bit more accessible than what you may be used to."
+				""
+				"See each eye for a hint of its location."
 			]
 			icon_scale: 0.9d
 			id: "43F459A83C683494"
@@ -811,6 +816,7 @@
 			y: -8.5d
 		}
 		{
+			description: ["It is rumored that the Pharao once slayed a sandworm..."]
 			id: "3032F8EE08F7BDEC"
 			shape: "diamond"
 			subtitle: "Legends say this eye once belonged to one of the great Sandworms."
@@ -1019,6 +1025,72 @@
 			x: 6.0d
 			y: -5.0d
 		}
+		{
+			description: [
+				"Biome maps can be found in structures and purchased from the cartographer."
+				""
+				"&9Ancient Towers&r located on mountains are guaranteed to contain one biome map for one of the more rare and important biomes to aid and reward explorers."
+			]
+			icon: {
+				Count: 1
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:snowy_plains"
+					targetBiomeColor: 8381695
+					targetBiomeUnderground: 0b
+				}
+			}
+			id: "03E6A95265DFB5C3"
+			subtitle: "More rewarding than a nature compass."
+			tasks: [{
+				id: "65BBE9B964960B6F"
+				title: "Biome maps"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			description: [
+				"The preferred way of finding structures is using maps. Some methods of obtaining maps are"
+				""
+				"&9Fishing&r"
+				"Slightly more rare than treasure loot, but for the patient player finding many maps by fishing should be easy."
+				""
+				"&6Exploring&r"
+				"Many structures contain maps. Often the map destination is related to the structure or biome in which it is found."
+				""
+				"&2Trading&r"
+				"The cartographer sells maps to many different structures."
+				""
+				"Not all maps get be obtained from a single method so a combination of all methods is recommended."
+				""
+				"A map in the form of a cartographer's quill has to be activated in the same dimension as the structure it searches for. For example to locate a nether structure, activate the map while in the nether."
+			]
+			icon: "supplementaries:cartographers_quill"
+			id: "0F989BD0FF381412"
+			subtitle: "More rewarding than a structure compass."
+			tasks: [{
+				id: "3F3DC53599182702"
+				title: "Structure maps"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -13.0d
+		}
+		{
+			description: ["See the chapter &6Trails to Riches&r for map trails that will guide you through a series of structures, with increasing reward and risk."]
+			icon: "minecraft:diamond_block"
+			id: "7A8D1DF8EC63010F"
+			subtitle: "A map trail to guide you."
+			tasks: [{
+				id: "6019E4D6014F234B"
+				title: "Trails to Riches"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
 	]
-	title: "Traveling"
+	title: "Travel and Exploration"
 }
