@@ -1,12 +1,12 @@
 // priority: 10
 
 /**
- * @file Recipe additions for Powah's crafting methods.
+ * @file Recipe additions for EnderIO's crafting methods.
  *
  */
 
 /**
- * Powah Recipe Event Handler
+ * EnderIO Recipe Event Handler
  */
 ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:enderio/';

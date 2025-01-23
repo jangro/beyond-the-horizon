@@ -8,7 +8,6 @@
  * NOTES:
  *
  * Immersive Engineering ores can not be disabled here, use IE config.
- * Powah!'s uraninite is disabled in config/powah.json5.
  */
 
 WorldgenEvents.remove(event => {

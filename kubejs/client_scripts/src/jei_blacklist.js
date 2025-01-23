@@ -85,8 +85,6 @@ JEIEvents.hideItems(event => {
     'paraglider:essence',
     'pneumaticcraft:copper_nugget',
     /paraglider:.*statue.*/,
-    'powah:uraninite_raw',
-    /powah:.*uraninite_ore.*/,
     /quark:.*shingles.*/,
     'rats:rat_upgrade_aristocrat',
     'rats:token_fragment',

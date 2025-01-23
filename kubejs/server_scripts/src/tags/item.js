@@ -26,13 +26,6 @@ ServerEvents.tags('item', event => {
     'immersiveengineering:capacitor_lv',
     'immersiveengineering:capacitor_mv',
     'integrateddynamics:energy_battery',
-    'powah:battery_basic',
-    'powah:battery_blazing',
-    'powah:battery_hardened',
-    'powah:battery_niotic',
-    'powah:battery_nitro',
-    'powah:battery_spirited',
-    'powah:battery_starter',
   ]);
 
   event.add('bth:mechanical_soul', [

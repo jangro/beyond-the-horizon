@@ -633,12 +633,6 @@
 									}
 								}
 							}
-							powah: {
-								0: {
-									Count: 1b
-									id: "powah:book"
-								}
-							}
 							simplyswords: {
 								0: {
 									Count: 1b

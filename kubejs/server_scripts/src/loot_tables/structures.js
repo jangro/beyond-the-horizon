@@ -22,6 +22,8 @@ LootJS.modifiers((event) => {
         context.removeLoot(/minecraft:.*glass_pane/);
         context.removeLoot('minecolonies:scroll_buff');
 
+        context.addLoot(LootEntry.of('bth:nanobot_soda_bottle').when((c) => c.randomChance(0.001)));
+
         context.addLoot(LootEntry.of('ae2:annihilation_core').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('ae2:calculation_processor').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('ae2:cell_component_16k').when((c) => c.randomChance(0.01)));
@@ -64,16 +66,22 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of('pneumaticcraft:smart_chest').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('pneumaticcraft:turbine_rotor', 3).when((c) => c.randomChance(0.1)));
 
-        context.addLoot(LootEntry.of('powah:capacitor_basic', 4).when((c) => c.randomChance(0.05)));
-        context.addLoot(LootEntry.of('powah:capacitor_basic_large', 4).when((c) => c.randomChance(0.01)));
-        context.addLoot(LootEntry.of('powah:capacitor_basic_tiny', 4).when((c) => c.randomChance(0.1)));
-        context.addLoot(LootEntry.of('powah:dielectric_casing', 3).when((c) => c.randomChance(0.1)));
-        context.addLoot(LootEntry.of('powah:dielectric_paste', 32).when((c) => c.randomChance(0.2)));
-        context.addLoot(LootEntry.of('powah:energy_cable_basic', 16).when((c) => c.randomChance(0.05)));
-        context.addLoot(LootEntry.of('powah:energy_cable_starter', 16).when((c) => c.randomChance(0.1)));
-        context.addLoot(LootEntry.of('powah:photo_electric_plate', 2).when((c) => c.randomChance(0.1)));
-        context.addLoot(LootEntry.of('powah:steel_energized', 6).when((c) => c.randomChance(0.1)));
-        context.addLoot(LootEntry.of('powah:thermoelectric_plate', 2).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:copper_alloy_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:energetic_alloy_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:vibrant_alloy_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:redstone_alloy_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:conductive_alloy_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:pulsating_alloy_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:dark_steel_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:soularium_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:end_steel_ingot', 3).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:fluid__conduit', 8).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:pressurized_fluid_conduit', 4).when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('enderio:ender_fluid_conduit', 2).when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('enderio:redstone_conduit', 8).when((c) => c.randomChance(0.05)));
+        context.addLoot(LootEntry.of('enderio:item_conduit', 8).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:me_conduit', 8).when((c) => c.randomChance(0.1)));
+        context.addLoot(LootEntry.of('enderio:dense_me_conduit', 2).when((c) => c.randomChance(0.05)));
 
         context.addLoot(LootEntry.of('rats:contaminated_food').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('rats:filth').when((c) => c.randomChance(0.1)));
@@ -98,7 +106,7 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of('smallships:cannon').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('smallships:cannon_ball', 3).when((c) => c.randomChance(0.1)));
       }
-    });
+
 
   // Add Aether dungeon maps to Aether village chests.
   event
