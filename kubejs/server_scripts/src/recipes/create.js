@@ -17,6 +17,7 @@ ServerEvents.recipes(event => {
 
   // Crushing
   event.recipes.create.crushing([Item.of('rats:plastic_waste').withChance(0.5)], 'rats:garbage_pile').id(`${ID_PREFIX}crushing/plastic_waste_from_garbage_pile`);
+  event.recipes.create.crushing('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}crushing/powdered_quartz_from_quartz`);
 
   // Haunting
   event.recipes.create.haunting('quark:soul_sandstone', 'minecraft:sandstone').id(`${ID_PREFIX}haunting/soul_sandstone_from_sandstone`);
@@ -39,6 +40,7 @@ ServerEvents.recipes(event => {
 
   // Milling
   event.recipes.create.milling(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}milling/plastic_waste_from_garbage_pile`);
+  event.recipes.create.milling('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}milling/powdered_quartz_from_quartz`);
 
   // Mixing
   event.recipes.create.mixing('rats:chunky_cheese_token', 'createdeco:gold_coin').superheated().id(`${ID_PREFIX}mixing/chunky_cheese_token`);

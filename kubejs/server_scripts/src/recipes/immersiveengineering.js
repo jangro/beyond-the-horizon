@@ -157,12 +157,17 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.crusher('ae2:ender_dust', 'minecraft:ender_pearl').id(`${ID_PREFIX}crusher/ender_dust`);
     event.recipes.immersiveengineering.crusher('ae2:fluix_dust', 'ae2:fluix_crystal').id(`${ID_PREFIX}crusher/fluix_dust`);
     event.recipes.immersiveengineering.crusher('ae2:sky_dust', 'ae2:sky_stone_block').id(`${ID_PREFIX}crusher/sky_stone_dust`);
+
   }
 
   // Create Crafts & Additions
   if (Platform.isLoaded('createaddition')) {
     event.recipes.immersiveengineering.crusher('createaddition:diamond_grit', '#forge:gems/diamond').id(`${ID_PREFIX}crusher/diamond_grit`);
   }
+
+  if (Platform.isLoaded('enderio')) {
+    event.recipes.immersiveengineering.crusher('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}crusher/powdered_quartz_from_quartz`);
+  } 
 
   // Hammer Crushing Recipes
   // Applied Energistics
@@ -177,6 +182,11 @@ ServerEvents.recipes(event => {
   if (Platform.isLoaded('createaddition')) {
     event.recipes.immersiveengineering.hammer_crushing('createaddition:diamond_grit', '#forge:gems/diamond').id(`${ID_PREFIX}hammer_crushing/diamond`);
   }
+
+  if (Platform.isLoaded('enderio')) {
+    event.recipes.immersiveengineering.hammer_crushing('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}hammer_crushing/powdered_quartz_from_quartz`);
+  } 
+
 
   // Fermenter Recipes
 
