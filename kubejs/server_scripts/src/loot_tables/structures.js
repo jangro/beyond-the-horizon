@@ -106,6 +106,7 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of('smallships:cannon').when((c) => c.randomChance(0.1)));
         context.addLoot(LootEntry.of('smallships:cannon_ball', 3).when((c) => c.randomChance(0.1)));
       }
+    });
 
 
   // Add Aether dungeon maps to Aether village chests.
