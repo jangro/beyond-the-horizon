@@ -1,0 +1,13 @@
+{
+    "name": "bth_structures:wagon",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "bth_structures:wagon",
+            "processors": "minecraft:empty",
+            "projection": "rigid"
+        }
+    }]
+}

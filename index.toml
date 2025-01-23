@@ -864,7 +864,7 @@ hash = "bba31a86f89ef1d3df42a28911eecf9b12e80a1b20654c74c1665f224661b4c7"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/plains.json"
-hash = "27582ee88bcee8ccea8dc1024830aeb1913a90afa9aa25c5a61feed136f1c9f7"
+hash = "ed013288b3459070eada68ce93854e00b627d0e911b70956da5463b7ac5e67b9"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands_autum.json"
@@ -924,7 +924,7 @@ hash = "66aa046d31a7ec53465ca361b9925f166f3128b588aa34ef80ab62db13c09456"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/hangar.nbt"
-hash = "80e669908d8e5ddb6bf0a3c012741ae49200ffec5efc6d20b581bb56c3c397c1"
+hash = "544d62db177f4044bb0b22f3e305e35480689157e9619a3487f3950a53c264d8"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/tower.nbt"
@@ -949,6 +949,10 @@ hash = "0d2a26c7a7e3063fb99ff90af907870e3a26aec11608874dee44c5e3a77798e7"
 [[files]]
 file = "kubejs/data/bth_structures/structures/tower_scarlet.nbt"
 hash = "25697bae3699c0eacc30901065aa46e5d4ccaf840bb5790807e42f95fed5490b"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/wagon.nbt"
+hash = "55ef8750fb08c3a5fdb21a74946999b0fe35c957c362e8adedc92e6ae27c2f11"
 
 [[files]]
 file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_forest.json"
@@ -1017,6 +1021,10 @@ hash = "b9a5209b3f1b00f1c2e857414f8331c291ebc799cb6a843de67f469c3298ec8b"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/tower_scarlet.json"
 hash = "9bba7befb837ca09e533dd02dd7d9d5b209ff339d91822aaf7d216e2ece40be0"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/wagon.json"
+hash = "0cfa35d93fde77de9aa9500f92e17b9936b5d1e612c888c08ba99b51a1bc1f6a"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure_set/aether_portal_floating_aether.json"
@@ -1109,6 +1117,10 @@ hash = "00cef0f9ed0a9404170c12c0625641c27fb3e879bf30fc303a5bb3232b836b41"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/tower_scarlet.json"
 hash = "654bca6c511ed1404282e79bfcc47151a74e32ddc633fde5e0a42cc73c22a310"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/wagon.json"
+hash = "c1691b8f3cfe20193d4d2b6bc2dafd93d710bd6bf86a5b617769b79132c22421"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/beach.json"
@@ -2192,7 +2204,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "6ebe635df406b0a83c1bcf440d9211ced1cf093500ce0b44dda70ba9c2ea3fac"
+hash = "0cc37c4cf956d03a82b025e8e40b558355acd33a835c61c70bffb89b9923f33e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2216,7 +2228,7 @@ hash = "28b38bbfb0c921271ba93337fd617320ab9f32f08a4274aae99f9748bae2008d"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/structures.js"
-hash = "51dcd9d0c71467f9e177483116e1204d86bc7c0b20eec2ff3abaa153304ea424"
+hash = "e96f84e77e632c17545ebe89dd332b29e7691ad303342dbf026401fde0fdd56c"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
@@ -2236,7 +2248,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "e15832b3588e83f58b0cd807dbfecfec992f199c6d8e35c53a43f9ad6f0d9fcb"
+hash = "e6dd8976fae02f470dd603645761d40671a35647e64f109b1928ad84ee8a65b5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -2256,7 +2268,7 @@ hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "e8aae6fe04849e6fecb81f58dea8d6b65a8ab1b911fad0663159042202793f87"
+hash = "7bced1e945caf6382df9a6dace42b9c0cb0eac8f85719d25ac6aa471f340452f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"

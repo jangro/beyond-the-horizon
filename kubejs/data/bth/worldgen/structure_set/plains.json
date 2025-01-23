@@ -9,6 +9,10 @@
       "weight": 2
     },
     {
+      "structure": "bth_structures:wagon",
+      "weight": 2
+    },
+    {
       "structure": "idas:farmhouse",
       "weight": 2
     }

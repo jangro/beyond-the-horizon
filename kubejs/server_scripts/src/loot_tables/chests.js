@@ -9,6 +9,12 @@
  */
 ServerEvents.chestLootTables(event => {
   // BTH Structures
+  event.modify('bth_structures:wagon/desk_drawer', table => {
+    table.addPool(pool => {
+      pool.addItem('rats:tiny_coin', 1, [3, 10]);
+    });
+  });
+
   event.modify('bth_structures:aether_portal_framed', table => {
     table.addPool(pool => {
       pool.addItem('aether:zanite_pickaxe', 10).enchantWithLevels(2, true).damage([0.3, 0.9]);
