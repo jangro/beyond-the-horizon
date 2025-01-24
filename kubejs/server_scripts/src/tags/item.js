@@ -250,6 +250,11 @@ ServerEvents.tags('item', event => {
     'quark:black_corundum_cluster',
   ]);
 
+  // Lightman's currency tags
+  event.add('lightmanscurrency:coins', [
+    'rats:tiny_coin',
+  ]);
+
   // Supplementaries Tags
   event.add('supplementaries:throwable_bricks', [
     'alexscaves:cinder_brick',
