@@ -864,7 +864,7 @@ hash = "bba31a86f89ef1d3df42a28911eecf9b12e80a1b20654c74c1665f224661b4c7"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/plains.json"
-hash = "ed013288b3459070eada68ce93854e00b627d0e911b70956da5463b7ac5e67b9"
+hash = "05590bc5ab915e1e37e4afcb93cdee1724a01ca868ee2bc344b2a9c3af33072b"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands_autum.json"
@@ -911,6 +911,10 @@ file = "kubejs/data/bth_structures/structures/battle_grounds.nbt"
 hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 
 [[files]]
+file = "kubejs/data/bth_structures/structures/dw20.nbt"
+hash = "28a058e6f29d56eddeaa7a2f7ca084036e7cd16093a2a5b064089f8ccf63560c"
+
+[[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
 hash = "ae6ab4f4717125b32183312a84425530df0b626c1ca6598407ea3065d074f756"
 
@@ -952,7 +956,7 @@ hash = "25697bae3699c0eacc30901065aa46e5d4ccaf840bb5790807e42f95fed5490b"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/wagon.nbt"
-hash = "55ef8750fb08c3a5fdb21a74946999b0fe35c957c362e8adedc92e6ae27c2f11"
+hash = "92733a11ea07731b2e833cd680ec282d20141ef8abcebd8ea0d1806751e068be"
 
 [[files]]
 file = "kubejs/data/bth_structures/tags/worldgen/biome/has_structure/tower_forest.json"
@@ -981,6 +985,10 @@ hash = "184f44b9f171a1dfba652da15e424245130edbbd3db920071c33edcdfc1328b9"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/battle_grounds.json"
 hash = "9315fb6455c26df453d4f722b5a1d7c3610c1c2cd109df5ae441075f0e849135"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/dw20.json"
+hash = "c3a2a94a30bb5a16853945f5bc6c335cc0307c87e486dcc3e051d777d0053ea0"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/magician_house.json"
@@ -1077,6 +1085,10 @@ hash = "cd405bb5ed0c268f24bef48c60d2ad557c5398e782746be35cff38d5212616bd"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/battle_grounds.json"
 hash = "696d01272538d90f888f40dfc3e7ea1e4c48605fbdff82ae0034d832d05fcf39"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/dw20.json"
+hash = "5f77794995b5ba817e6b8e75a8e9efd718959c47313e35ee49dc86f6f33f8436"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/magician_house/basement.json"
@@ -2204,7 +2216,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "0cc37c4cf956d03a82b025e8e40b558355acd33a835c61c70bffb89b9923f33e"
+hash = "9a8b0b48898ed9b2780e74e1c2c806746856b1a47f1fb3b51043cb980113f6e6"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2212,7 +2224,7 @@ hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "6781db00624c1423009d24dae5e70a061a3751896aa8ea316ded2e14087f5d92"
+hash = "c8a893458e9d7ce6372ff4cc91a42527e33ea2b81f7549d77800a58027c339c3"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"

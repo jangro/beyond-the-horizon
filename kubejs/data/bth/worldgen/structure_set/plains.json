@@ -13,6 +13,10 @@
       "weight": 2
     },
     {
+      "structure": "bth_structures:dw20",
+      "weight": 2
+    },
+    {
       "structure": "idas:farmhouse",
       "weight": 2
     }

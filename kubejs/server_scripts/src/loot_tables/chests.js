@@ -18,6 +18,32 @@ ServerEvents.chestLootTables(event => {
     });
   });
 
+  event.modify('bth_structures:dw20/large_room', table => {
+    table.addPool(pool => {
+      pool.rolls = [3, 6];
+      pool.addItem('rechiseled:cobbled_deepslate_large_tiles_connecting', 10, [32, 64]);
+      pool.addItem('minecraft:stone_bricks', 10, [32, 64]);
+      pool.addItem('minecraft:diamond', 10, [1, 3]);
+      pool.addItem('minecraft:redstone', 10, [5, 18]);
+      pool.addItem('minecraft:lapis_lazuli', 10, [3, 15]);
+    });
+    table.addPool(pool => {
+      pool.addItem('rechiseled:chisel', 1, 1);
+    });
+    table.addPool(pool => {
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+    });
+  });
+
+  event.modify('bth_structures:dw20/hidden', table => {
+    table.addPool(pool => {
+      pool.addItem(Item.of('buildinggadgets2:gadget_building', '{energy:200000}'), 1, 1);
+    });
+  });
+
   event.modify('bth_structures:aether_portal_framed', table => {
     table.addPool(pool => {
       pool.addItem('aether:zanite_pickaxe', 10).enchantWithLevels(2, true).damage([0.3, 0.9]);
@@ -166,6 +192,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(MANSION_MAP);
       pool.addItem(EVOKER_FORT_MAP);
       pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
     });
@@ -204,6 +231,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(EVOKER_FORT_MAP);
       pool.addItem(BTH_RUINED_HANGAR_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
     });
     table.addPool(pool => {
