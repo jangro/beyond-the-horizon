@@ -2980,6 +2980,11 @@ hash = "eeca094798607a0393a5ec261a0f3298e20fa74b0daa879951aec47c2c7fe64b"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "bfde417f768e5517c25fa35f4640073c7cbee0097833ae19be149b903daaf39c"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "33a72d14d33abd2bd32d2f2986930ae58a8d6dde581656a08b466df10d0250e8"
 metafile = true
@@ -3230,6 +3235,11 @@ hash = "eb3e415fd64f8882aa36993448a6bfac1cc151757da6bb781fdb9f1ddd208bef"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "ba6600d024f257ff40d4fca84e87fc553d5853b6c71f666d8597891d611b62f0"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
 metafile = true
@@ -3312,6 +3322,11 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "e3b7a1a0ed3353dead103974c5249ddfcab3e70a1c77fab5fd3a47b19b4ba26b"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
 metafile = true
 
 [[files]]
