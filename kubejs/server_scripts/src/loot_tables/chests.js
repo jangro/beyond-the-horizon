@@ -11,7 +11,10 @@ ServerEvents.chestLootTables(event => {
   // BTH Structures
   event.modify('bth_structures:wagon/desk_drawer', table => {
     table.addPool(pool => {
-      pool.addItem('rats:tiny_coin', 1, [3, 10]);
+      pool.addItem('rats:tiny_coin', 1, [6, 18]);
+    });
+    table.addPool(pool => {
+      pool.addItem('createdeco:copper_coin', 1, [1, 4]);
     });
   });
 
