@@ -95,6 +95,78 @@ file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
 [[files]]
+file = "config/fancymenu/assets/bth-logo.png"
+hash = "cf0933fc76bb1c7d9fd5d64810909bc56fc5928c4c80efc69464ea140a6baad5"
+
+[[files]]
+file = "config/fancymenu/assets/button4-accessibility-hover.png"
+hash = "a82429dbe8aaa3d96ab486ac9739e438f41a62bc047c58abcb72e85da0eb7222"
+
+[[files]]
+file = "config/fancymenu/assets/button4-accessibility.png"
+hash = "27c2c62ac542a93f2176696280ad97eac1e16b1e92ece6b3b7a93c366c8c652e"
+
+[[files]]
+file = "config/fancymenu/assets/button4-hover.png"
+hash = "e56b25520c280bb25b831ad62be275546a0d4fae78f40570cdd9950b4befdc1c"
+
+[[files]]
+file = "config/fancymenu/assets/button4-lang-hover.png"
+hash = "1b683015fe24b6c05bf4086b932eb2433b12d28b64fc6bf0b9b447ae0e4517a8"
+
+[[files]]
+file = "config/fancymenu/assets/button4-lang.png"
+hash = "9da3e33de1a16b8d0c5b259c91e0aa3889e4f6fe7cc6220995299f8cb2726ff7"
+
+[[files]]
+file = "config/fancymenu/assets/button4-square-hover.png"
+hash = "91186ce608da97a9e814007d05118e683c479dd80a85189a9fa130ad14bc4a4a"
+
+[[files]]
+file = "config/fancymenu/assets/button4-square.png"
+hash = "fe565df75c3b9caf6f97eaba22aff29959261c85b298210f0686449e94b7ad80"
+
+[[files]]
+file = "config/fancymenu/assets/button4.png"
+hash = "3863bc4bad0fefc373cc2d4f5d6e9c5ce9c232903e60bdae164ae98feeb7bc55"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "269a4573a6b2b5e96edefcc66d0c47426a2662e39825af764f2bc23b0dbee84c"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "106b496255e8a733b079011ecd8dddb5e8880cc38f6fdc62fc029da14e71bc01"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "config/fml.toml"
 hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
 
@@ -412,7 +484,7 @@ hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "cfdf8c753ef776485b1bde0e15d3c1de27cbc0d8c22a67c6f018a9279d18775f"
+hash = "d9e418559494148f0d6eeb5dd8329b22fc1d01bb9bad3ab6295c8f8342701833"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
