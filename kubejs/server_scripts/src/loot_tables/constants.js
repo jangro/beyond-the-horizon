@@ -154,6 +154,16 @@ const BTH_BATTLE_GROUNDS_MAP =
            display:{Name:\'{"translate":"filled_map.bth_structures_battle_grounds"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"bth_structures:battle_grounds",zoomLevel:2}');
 
+const BTH_DW20_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_dw20",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_dw20"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:dw20",zoomLevel:2}');
+
+const BTH_WAGON_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_wagon",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_wagon"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:wagon",zoomLevel:2}');
+
 const DESERT_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:desert",targetBiomeColor:8381695,targetBiomeUnderground:0b}');
 const FLOWER_FOREST_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:flower_forest",targetBiomeColor:ffff00,targetBiomeUnderground:0b}');
 const SNOWY_PLAINS_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:snowy_plains",targetBiomeColor:ffffff,targetBiomeUnderground:0b}');
@@ -264,6 +274,8 @@ const COIN_LOOT_MEDIUM = [
   'betterfortresses:chests/obsidian',
   'betterfortresses:chests/quarters',
   'bth_structures:chests/dw20/hidden',
+  'bth_structures:chests/tower_top',
+  'bth_structures:chests/watch_tower_top',
   'galosphere:chests/pink_salt_shrine',
   'graveyard:chests/great_crypt_loot',
   'idas:chests/ancient_mines/mineshall',

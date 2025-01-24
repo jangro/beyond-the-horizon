@@ -64,6 +64,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('aether:book_of_lore', 1);
       pool.addItem('aether:ambrosium_torch', 10, [4, 10]);
     });
+    table.addPool(pool => {
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+    });
   });
 
   event.modify('bth_structures:battle_grounds/aether', table => {
@@ -86,6 +89,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:divine_smite",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 5);
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:haste",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
     });
+    table.addPool(pool => {
+      pool.addItem(AETHER_CITADEL_MAP);
+    });
   });
 
   event.modify('bth_structures:battle_grounds/nether', table => {
@@ -102,6 +108,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:blaze_storm",index:0,level:7,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 6);
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:fire_breath",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_barrage",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 3);
+    });
+    table.addPool(pool => {
+      pool.addItem(NETHER_FORTRESS_MAP);
     });
   });
 
@@ -122,6 +131,13 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('minecraft:phantom_membrane', 10, [1, 3]);
       pool.addItem('minecraft:redstone', 10, [1, 12]);
     });
+    table.addPool(pool => {
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
+    });
   });
 
   event.modify('bth_structures:ruined_hangar_bunker', table => {
@@ -131,6 +147,13 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('immersive_aircraft:sturdy_pipes');
       pool.addItem('immersive_aircraft:enhanced_propeller');
       pool.addItem('immersive_aircraft:heavy_crossbow');
+    });
+    table.addPool(pool => {
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
     });
   });
 
@@ -153,7 +176,14 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('minecraft:diamond', 1, [1, 4]);
     });
     table.addPool(pool => {
-      pool.addItem('artifacts:crystal_heart', 3);
+      pool.addItem('artifacts:crystal_heart');
+    });
+    table.addPool(pool => {
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
     });
   });
 
@@ -195,9 +225,8 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
-    });
-    table.addPool(pool => {
-      pool.addItem('rats:tiny_coin', 1, [8, 16]).randomChance(0.5);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
     });
     table.addPool(pool => {
       pool.addItem('minecraft:spyglass').randomChance(0.5);
@@ -229,10 +258,11 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(JUNGLE_TEMPLE_MAP);
       pool.addItem(MANSION_MAP);
       pool.addItem(EVOKER_FORT_MAP);
-      pool.addItem(BTH_RUINED_HANGAR_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
     });
     table.addPool(pool => {
       pool.addItem('minecraft:spyglass');
@@ -240,7 +270,7 @@ ServerEvents.chestLootTables(event => {
   });
 
   // Mansion Junk Loot
-  event.modify('revampedvilages:mansion_junk', table => {
+  event.modify('revampedvillages:mansion_junk', table => {
     table.clearPools();
     table.addPool(pool => {
       pool.rolls = [1, 5];
@@ -262,7 +292,7 @@ ServerEvents.chestLootTables(event => {
   });
 
   // Mansion Treasure Loot
-  event.modify('revampedvilages:mansion_treasure', table => {
+  event.modify('revampedvillages:mansion_treasure', table => {
     // None yet.
   });
   
@@ -307,6 +337,18 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('immersiveengineering:ingot_steel', 7, [1, 3]);
       pool.addItem('pneumaticcraft:ingot_iron_compressed', 6, [1, 3]);
     });
+    table.addPool(pool => {
+      pool.addItem(DESERT_TEMPLE_MAP);
+      pool.addItem(JUNGLE_TEMPLE_MAP);
+      pool.addItem(MANSION_MAP);
+      pool.addItem(EVOKER_FORT_MAP);
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
+    });
   });
 
   // Additional Castle Ruin Loot (Valhelsia Structures)
@@ -317,6 +359,18 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('immersiveengineering:sword_steel', 5);
       pool.addItem('immersiveengineering:axe_steel', 5);
       pool.addItem('irons_spellbooks:iron_spell_book', 10);
+    });
+    table.addPool(pool => {
+      pool.addItem(DESERT_TEMPLE_MAP);
+      pool.addItem(JUNGLE_TEMPLE_MAP);
+      pool.addItem(MANSION_MAP);
+      pool.addItem(EVOKER_FORT_MAP);
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
+      pool.addItem(BTH_WAGON_MAP);
     });
   });
 
