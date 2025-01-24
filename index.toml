@@ -384,7 +384,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "c506eaecdafcb1141f439f145ac977b9a2ba26627c0c1d555cc7d601560ecbb8"
+hash = "a9b3c7a761c81afb73095cb4b538bc7e2d3511e187b2ef97ef4246c4f2a53fc0"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -912,7 +912,7 @@ hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/dw20.nbt"
-hash = "28a058e6f29d56eddeaa7a2f7ca084036e7cd16093a2a5b064089f8ccf63560c"
+hash = "dfc6032e8075c07c1d0c6bfea7e481246d8f37b76a3ecbc10ba82e6bbf5901c2"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -1907,6 +1907,10 @@ file = "kubejs/data/idas/worldgen/structure_set/witches_treestump.json"
 hash = "4811e4fd0d79e5273fa95b837a62fcf1227a9553e4fb70e86fbfba7aa5107315"
 
 [[files]]
+file = "kubejs/data/lightmanscurrency/advancements/currency/coin_mint.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
 file = "kubejs/data/lost_aether_content/advancements/platinum_dungeon.json"
 hash = "4ab61645e46a643cffa421dcb359a43118d6aca0e0265439112e44cb81f117bb"
 
@@ -2216,7 +2220,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "9a8b0b48898ed9b2780e74e1c2c806746856b1a47f1fb3b51043cb980113f6e6"
+hash = "d561426ee8d1d37728f4517f16ff1a1eeab74a6270bd6591fa0e5a9ef0a5afe1"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2224,7 +2228,7 @@ hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "c8a893458e9d7ce6372ff4cc91a42527e33ea2b81f7549d77800a58027c339c3"
+hash = "cb2933860740114b11a7a23627a914497825d4f3f217aa143ad37d948fd89ac6"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
@@ -2344,7 +2348,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "83392bfdbfde271fb659fe83feea677bfd66da6e997344ba6e9b76089426bef2"
+hash = "c7121a8982998715171d288f027b4f08c85ec97e3544eb4aa3085aa2a141456b"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
