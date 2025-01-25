@@ -281,6 +281,91 @@ ServerEvents.recipes(event => {
     C: 'computercraft:pocket_computer_normal',
   }).id(`${ID_PREFIX}pocket_computer_advanced_upgrade`);
 
+  event.shaped('computercraft:speaker', [
+    ' S ',
+    'SNS',
+    ' R '
+  ], {
+    S: 'create:iron_sheet',
+    N: 'minecraft:note_block',
+    R: 'minecraft:redstone',
+  }).id(`${ID_PREFIX}computercraft_speaker`);
+
+  event.shaped('computercraft:printer', [
+    ' S ',
+    'SNS',
+    ' P '
+  ], {
+    S: 'create:iron_sheet',
+    N: 'minecraft:note_block',
+    P: 'minecraft:paper',
+  }).id(`${ID_PREFIX}computercraft_printer`);
+
+  event.shaped('computercraft:disk_drive', [
+    ' S ',
+    'SRS',
+    ' R '
+  ], {
+    S: 'create:iron_sheet',
+    R: 'minecraft:redstone',
+  }).id(`${ID_PREFIX}computercraft_disk_drive`);
+
+  event.shaped('computercraft:wired_modem', [
+    ' S ',
+    'SES',
+    ' S '
+  ], {
+    S: 'create:iron_sheet',
+    C: 'minecraft:redstone',
+  }).id(`${ID_PREFIX}wired_modem`);
+
+  event.shaped('computercraft:wireless_modem_normal', [
+    ' S ',
+    'SES',
+    ' S '
+  ], {
+    S: 'create:iron_sheet',
+    E: 'minecraft:ender_pearl',
+  }).id(`${ID_PREFIX}wireless_modem_normal`);
+
+  event.shaped('computercraft:wireless_modem_advanced', [
+    ' S ',
+    'SES',
+    ' S '
+  ], {
+    S: 'createaddition:electrum_sheet',
+    E: 'minecraft:ender_eye',
+  }).id(`${ID_PREFIX}wireless_modem_advanced`);
+
+  event.shaped('computercraft:cable', [
+    '   ',
+    'SRS',
+    '   '
+  ], {
+    S: 'create:copper_sheet',
+    R: 'minecraft:redstone',
+  }).id(`${ID_PREFIX}computercraft_cable`);
+
+  event.shaped('computercraft:monitor_normal', [
+    'SPS',
+    'PGP',
+    'SPS'
+  ], {
+    S: 'create:iron_sheet',
+    P: 'pneumaticcraft:plastic',
+    G: '#forge:glass_panes',
+  }).id(`${ID_PREFIX}monitor_normal`);
+
+  event.shaped('computercraft:monitor_advanced', [
+    'SPS',
+    'PGP',
+    'SPS'
+  ], {
+    S: 'createaddition:electrum_sheet',
+    P: 'pneumaticcraft:plastic',
+    G: '#forge:glass_panes',
+  }).id(`${ID_PREFIX}monitor_advanced`);
+
   event.shaped('advancedperipherals:chunk_controller', [
     'IRI',
     'RCR',
