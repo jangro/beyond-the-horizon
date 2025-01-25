@@ -54,7 +54,7 @@ MoreJSEvents.playerStartTrading((event) => {
         offer.disabled = true;
       }
     });
-    event.addTrade(2, TradeItem.of('createdeco:gold_coin', 4, 4), 'rats:chunky_cheese_token');
+    event.addTrade(2, TradeItem.of('createdeco:gold_coin', 2, 2), 'rats:chunky_cheese_token');
   }
 });
 
