@@ -95,10 +95,6 @@ file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
 [[files]]
-file = "config/fancymenu/assets/bth-logo.png"
-hash = "cf0933fc76bb1c7d9fd5d64810909bc56fc5928c4c80efc69464ea140a6baad5"
-
-[[files]]
 file = "config/fancymenu/assets/button-100x25-default.png"
 hash = "ae2c6c01cdebdde4988389857672c5b8f4addbc7493d0b72300721dbc25f82a9"
 
@@ -121,6 +117,14 @@ hash = "1d789662aaa1f04d60489e71a718b4ef06c98d9d9aacb68da8c4fe4ea8bdc603"
 [[files]]
 file = "config/fancymenu/assets/button-20x20-accessibility-hover.png"
 hash = "9852b0227cab9cd204d453ab9338887e2b8e04dcffdf6db4a4c442217326bc28"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-curseforge-default.png"
+hash = "e91c0835b7c95b7f8ae2b92c38c8ec8c5ec16004c3d7593ab19383344a2529fa"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-curseforge-hover.png"
+hash = "84f7b9dfd22e49d7c36cc134777f7ec23d0486e08d2eab8620b0c3eb51912d15"
 
 [[files]]
 file = "config/fancymenu/assets/button-20x20-default.png"
@@ -168,7 +172,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e564756205d2089d4f11733fb3114d639bfc7182d85779da67d83a6ad18495b8"
+hash = "81083358cf2e2a83e68854d4aa29b9b379c0cd234c05563c7b6d1c7eeb4558de"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
