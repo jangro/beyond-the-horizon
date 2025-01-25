@@ -84,7 +84,7 @@ MoreJSEvents.wandererTrades((event) => {
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 1, 3), 'blazingbamboo:blazing_bamboo_item');
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 3, 5), 'minecraft:chorus_fruit');
   event.addTrade(2, TradeItem.of('createdeco:iron_coin', 4, 7), 'minecraft:chorus_flower');
-  event.addTrade(2, TradeItem.of('createdeco:gold_coin', 4, 4), 'rats:chunky_cheese_token');
+  event.addTrade(2, TradeItem.of('createdeco:gold_coin', 2, 2), 'rats:chunky_cheese_token');
 });
 
 MoreJSEvents.villagerTrades((event) => {
