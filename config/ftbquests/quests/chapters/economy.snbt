@@ -17,6 +17,7 @@
 				"There is no way to craft Tiny Coins. The only way to obtain them is by exploring, making this a finite and valuable resource. Keep that in mind when you spend your Tiny Coins, whether you're shopping or using them to open a portal to Ratlantis."
 			]
 			id: "196F7C9C2353CA33"
+			size: 1.5d
 			subtitle: "The monetary standard."
 			tasks: [{
 				consume_items: false
@@ -28,7 +29,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			icon: "createdeco:iron_coin"
@@ -40,7 +41,7 @@
 			}]
 			title: "Iron Coin"
 			x: -0.5d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			icon: "createdeco:copper_coin"
@@ -52,7 +53,7 @@
 			}]
 			title: "Copper Coin"
 			x: -1.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: false
@@ -65,7 +66,7 @@
 			}]
 			title: "Gold Coin"
 			x: 0.5d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			icon: "createdeco:netherite_coin"
@@ -77,7 +78,7 @@
 			}]
 			title: "Netherite Coin"
 			x: 1.5d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -98,7 +99,11 @@
 			y: -1.0d
 		}
 		{
-			description: ["Workstation for the &6Cashier&r, who sells foods and things useful for exploration."]
+			description: [
+				"Workstation for the &6Cashier&r, who sells foods and things useful for exploration."
+				""
+				"&6Traveling cashiers&r can be found with their wagon around the world."
+			]
 			id: "257168BE4ECBDD02"
 			subtitle: "Links multiple local traders"
 			tasks: [{

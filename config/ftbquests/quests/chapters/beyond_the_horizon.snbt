@@ -849,6 +849,7 @@
 			y: -3.5d
 		}
 		{
+			description: ["Building wands are great for early game &6vein mining&r. Open the UI with 'Y' and add tools to the wand's inventory."]
 			icon: {
 				Count: 1
 				id: "wands:stone_wand"
@@ -857,7 +858,7 @@
 				}
 			}
 			id: "766D73E73DE21572"
-			subtitle: "Building wands are great for early game vein mining. Open the UI with 'Y' and add tools to the wand's inventory."
+			subtitle: "Not only for building."
 			tasks: [{
 				id: "11F3E82540C38546"
 				item: "minecraft:raw_iron"
@@ -890,9 +891,9 @@
 			description: [
 				"Welcome to Beyond the Horizon!"
 				""
-				"We want you to shape your own adventure and therefore we haven't set a structured quest path. This quest book serves only as a guide. Through mods and customizations, we have prioritized exploration. "
+				"We want you to shape your own &6adventure&r and therefore we haven't set a structured quest path. This quest book serves only as a &6guide&r. Through mods and customizations, we have prioritized &6exploration&r. "
 				""
-				"We've added an economy, revamped the food system, and added many different modes of transportation.  Check out the different chapters in this quest book to learn more."
+				"We've added an &6economy&r, revamped the &6food system&r, and added many different modes of &6transportation&r.  Check out the different chapters in this quest book to learn more."
 				""
 				"Have fun!"
 			]
