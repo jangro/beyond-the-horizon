@@ -2764,7 +2764,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "f449d61ae6e7df0488dbc3807b07feb13eeb02a4f3d0895d9e03d0ebc89a9209"
+hash = "6bc053d5973088b4fa2e7f3f98c0c574b613f7241630305ea879bc536bf35d01"
 metafile = true
 
 [[files]]
@@ -3074,7 +3074,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "207517be9d31568477f8308498eef64a7d81260653522c11284867d54157900a"
+hash = "b6fd0b09fea8b151835e09cafe2d10fbdfa97ae875893192368e6c6fad746998"
 metafile = true
 
 [[files]]
@@ -3164,7 +3164,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "7c17fe2c923d6bb3ecf995c90a3e5ec5abf6ab3e8d8e309ed6b3f9cdf416cc00"
+hash = "2db17fc8a81b2993cc344e4fb20c73a135f97398cee865a7652b04b22c69cfd5"
 metafile = true
 
 [[files]]
@@ -3224,7 +3224,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "725a9b8f4617f26a7258571a9d74de388fa727f2fdac2d393deb6a39fb93d0f1"
+hash = "b3145c9925321b8c7290ced665e4835b054a314b254459b6cad0fd77a154a06f"
 metafile = true
 
 [[files]]
@@ -3274,7 +3274,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-scripting.pw.toml"
-hash = "610111ff54b7b4f345532ba98ed7de379c75d8642827916536aa9f31833f90d8"
+hash = "84599b7995abadeaa7e3a604391190a2e4d22163d8b9ac01387e1d3b9bed2e0d"
 metafile = true
 
 [[files]]
@@ -3284,7 +3284,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-terminals.pw.toml"
-hash = "7548f2afb5f701c5a3992c2010d3687545ede6ce41af5af52e384b27bdd8f099"
+hash = "b81b7b632f1e054c527774e749ebd34eafd65001cf146f73385aa222ffe2633a"
 metafile = true
 
 [[files]]
@@ -3309,7 +3309,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "de3310ed1f65e3efa94a7112501307d6439822c7b080c472363e4a3b7eb2e94c"
+hash = "ce3945c1b4a49b32fa17e91396a019e00efd773e7ae76df7c078397f9ac74fc3"
 metafile = true
 
 [[files]]
@@ -3324,7 +3324,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "d750a538b8c2cafca9efda5ba3d0e886b1f116f1fbb8ae08889b6a97902bbc3f"
+hash = "f5bfd289a462fab75dd8ac01932569bfca3bb704f1c3d5b1f723ea42413e1180"
 metafile = true
 
 [[files]]
@@ -3339,7 +3339,7 @@ metafile = true
 
 [[files]]
 file = "mods/kiwi.pw.toml"
-hash = "eb3e415fd64f8882aa36993448a6bfac1cc151757da6bb781fdb9f1ddd208bef"
+hash = "6a00998f7c4de370f6ca67d6774cf71c485136a6105b183fb440c953576aa7a2"
 metafile = true
 
 [[files]]
@@ -3449,7 +3449,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "dab985c7b98a4cd9e9d368e58de248c034a1902af128f4ca8a7f7afe09a608ba"
+hash = "c3520460e764e8df7347d902e6d33013fa20accd59da2dffa84a31028f39d454"
 metafile = true
 
 [[files]]
@@ -3599,7 +3599,7 @@ metafile = true
 
 [[files]]
 file = "mods/peacefulsurface.pw.toml"
-hash = "fa903a123538c3fa511ec250fc9c8398e48eb58c1350a80f7bcdd87d73fa9831"
+hash = "c9fc80676474552f9f28d902485d788ea7f034d7bc8132b1ea004555c7cb0288"
 metafile = true
 
 [[files]]
@@ -3624,7 +3624,7 @@ metafile = true
 
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
-hash = "bee123886cf09d6c2e12a25c9a86b21b2c7126d80747415fce8ad4fcfa314335"
+hash = "c0168c3455eae7ee98c70f94ac69167d41329fbe14a0fc3d3ab49dd7ddce8391"
 metafile = true
 
 [[files]]
@@ -3719,7 +3719,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "92cf9271b6290561dafce7f43282c52a65c3e727c5f1aa32ff95986f43acec37"
+hash = "97c56d291e8afc0230e9c27175653c97d0056fb512c347da794d7e134244bfc8"
 metafile = true
 
 [[files]]
@@ -3764,17 +3764,17 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
-hash = "f6c86efb7d11141bba2c741eb370ef3911ca3229fd813d661fbee71bb39f4faa"
+hash = "646c0ecfbe42b7d4ce7e64deb9dcf5022cbf85f47c05529538858e477f23de21"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "494daa322c67dfe91bd41715a469afb1b161162d2e56a1e45671b25e8bf14f1d"
+hash = "789231379673950e4cd7045ff08c2deab1925a393cf549b865f9f855b7164617"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f8f7ef4451163f17c562f99de5f9cb78825dcdaabc9aea656a7292daa35a8a6d"
+hash = "ed43db0a420f92c5fda3fd8a5ed6b42f40080f4e0187ae6fc6e38f397dda65ca"
 metafile = true
 
 [[files]]
