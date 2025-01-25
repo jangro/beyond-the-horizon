@@ -99,36 +99,64 @@ file = "config/fancymenu/assets/bth-logo.png"
 hash = "cf0933fc76bb1c7d9fd5d64810909bc56fc5928c4c80efc69464ea140a6baad5"
 
 [[files]]
-file = "config/fancymenu/assets/button4-accessibility-hover.png"
-hash = "a82429dbe8aaa3d96ab486ac9739e438f41a62bc047c58abcb72e85da0eb7222"
+file = "config/fancymenu/assets/button-100x25-default.png"
+hash = "ae2c6c01cdebdde4988389857672c5b8f4addbc7493d0b72300721dbc25f82a9"
 
 [[files]]
-file = "config/fancymenu/assets/button4-accessibility.png"
-hash = "27c2c62ac542a93f2176696280ad97eac1e16b1e92ece6b3b7a93c366c8c652e"
+file = "config/fancymenu/assets/button-100x25-hover.png"
+hash = "cea93ee650845b1ee6650702b9bf2c20d44feeb9f16954b47905207b990c02ec"
 
 [[files]]
-file = "config/fancymenu/assets/button4-hover.png"
-hash = "e56b25520c280bb25b831ad62be275546a0d4fae78f40570cdd9950b4befdc1c"
+file = "config/fancymenu/assets/button-160x40-default.png"
+hash = "d7d07a8217214849af904000f2910086438453b232a190d14b278d522233b836"
 
 [[files]]
-file = "config/fancymenu/assets/button4-lang-hover.png"
-hash = "1b683015fe24b6c05bf4086b932eb2433b12d28b64fc6bf0b9b447ae0e4517a8"
+file = "config/fancymenu/assets/button-160x40-hover.png"
+hash = "2e58ef228b157c408b603021c649aa39d227c815e022262a02b0d5cb85f2010a"
 
 [[files]]
-file = "config/fancymenu/assets/button4-lang.png"
-hash = "9da3e33de1a16b8d0c5b259c91e0aa3889e4f6fe7cc6220995299f8cb2726ff7"
+file = "config/fancymenu/assets/button-20x20-accessibility-default.png"
+hash = "1d789662aaa1f04d60489e71a718b4ef06c98d9d9aacb68da8c4fe4ea8bdc603"
 
 [[files]]
-file = "config/fancymenu/assets/button4-square-hover.png"
-hash = "91186ce608da97a9e814007d05118e683c479dd80a85189a9fa130ad14bc4a4a"
+file = "config/fancymenu/assets/button-20x20-accessibility-hover.png"
+hash = "9852b0227cab9cd204d453ab9338887e2b8e04dcffdf6db4a4c442217326bc28"
 
 [[files]]
-file = "config/fancymenu/assets/button4-square.png"
-hash = "fe565df75c3b9caf6f97eaba22aff29959261c85b298210f0686449e94b7ad80"
+file = "config/fancymenu/assets/button-20x20-default.png"
+hash = "8e627a2fe358afd77658e25b7737b6cd0c800c56666fcd76f3e8a105ea4a44e7"
 
 [[files]]
-file = "config/fancymenu/assets/button4.png"
-hash = "3863bc4bad0fefc373cc2d4f5d6e9c5ce9c232903e60bdae164ae98feeb7bc55"
+file = "config/fancymenu/assets/button-20x20-discord-default.png"
+hash = "fcffa5a2c3a2c7101ec2e58102ad778aa1b99eb252e874c5f1a6404d5d2df4a9"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-discord-hover.png"
+hash = "dd51dd8dddb33cddf9aaf910e9afda48b4adfa3be7908ebe913d14a2517221a8"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-github-default.png"
+hash = "5bd97ae6a3d2d9268b1f4ed1d6f43efdaae2eddc7125cd08a0bda69c255c1caa"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-github-hover.png"
+hash = "772f1fc0430fd875a25cd03819b1dc9fd19261b06d972ebe8b8f6acc9368a71e"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-hover.png"
+hash = "34634397cc04503969fb6c688d35597b580ecf2c04cb29a4a032f130465bc166"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-lang-default.png"
+hash = "9032a4fa2d8dcb94f82da553e02f3fb88855e6c1b47caa2f687a23d547c8c472"
+
+[[files]]
+file = "config/fancymenu/assets/button-20x20-lang-hover.png"
+hash = "dcdad706453729d1156ea6c7dab607117284f1611fc91d0d1c34f9fe27da8bd3"
+
+[[files]]
+file = "config/fancymenu/assets/logo-425x180.png"
+hash = "aa2a57e8443ff1e1293588cfd0dfb997935f76958996817c1108e8630d138247"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -140,7 +168,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "269a4573a6b2b5e96edefcc66d0c47426a2662e39825af764f2bc23b0dbee84c"
+hash = "e564756205d2089d4f11733fb3114d639bfc7182d85779da67d83a6ad18495b8"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -180,11 +208,11 @@ hash = "4199bbca1f56eaf9739ae5aa5442cb3fa23dd271b572290505753d664f46dfbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "92e59fa3b03ca58a7fd3f88a3574d61df27c71eda527b67fb48fe85d6b783e70"
+hash = "4b1af6b53c14f35695c5db6cf1a0746f4edc63037924c37aa326d6e84efeb7a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "071916efe07839fd04fde8e080054d8d74edeb9c00afd91a27e3e1fc346e9eaa"
+hash = "b19c828901228f7f5d139f3ca792e004a05c0891e8dbb09e981371db1cee14f1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
@@ -2320,7 +2348,7 @@ hash = "e96f84e77e632c17545ebe89dd332b29e7691ad303342dbf026401fde0fdd56c"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
-hash = "55f2d6af69d9bf4fb287b53158e7bce35e9cb021ccc74be393deef3270b97337"
+hash = "81da325989bf91020efc11f676e801d5ade634feb690803cdb89ca05cc895bd1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
@@ -2368,7 +2396,7 @@ hash = "b28649a612f3ff287ad4d78eb21b6ed07f7d1392231105bf0ba822b206c65f15"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "ff8a2ce5c1d12ef3ce541e9f5a6b12580614c3777d6c26a631718fc6d1131de2"
+hash = "2d97e006151c1133e00e5074040732f8565d5e1030e48d5212595d673ba58f29"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -2376,7 +2404,7 @@ hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "7fc9f33b4963d529e52372f61b09bddfbbdba2c83b441171285c10ea45b76204"
+hash = "f5e788e99d92f01aee2b041965e97f925fa31a2620bec0d91008cefe37c13ca8"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
