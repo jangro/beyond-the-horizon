@@ -6,7 +6,7 @@ SET ALLOCATED_RAM=8G
 SET JVM_ARGUMENTS=-XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=50 -XX:+AlwaysPreTouch
 
 REM Make sure this matches the Forge version of the server if you update.
-SET FORGE_VERSION=1.20.1-47.3.10
+SET FORGE_VERSION=1.20.1-47.3.25
 
 REM Install Minecraft Forge if it isn't already installed:
 if not exist .\libraries/net/minecraftforge/forge/%FORGE_VERSION% (

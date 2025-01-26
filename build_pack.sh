@@ -22,7 +22,7 @@ mv -v "Beyond the Horizon-${pack_version}.zip" "bth-${pack_version}-server.zip"
 mv -v "Beyond the Horizon-${pack_version}.zip" "bth-${pack_version}.zip"
 
 # Add server files to server zip
-zip "bth-${pack_version}-server.zip" "overrides/forge-1.20.1-47.3.10-installer.jar"
+zip "bth-${pack_version}-server.zip" "overrides/forge-1.20.1-47.3.25-installer.jar"
 zip "bth-${pack_version}-server.zip" "overrides/server.properties"
 zip "bth-${pack_version}-server.zip" "overrides/startserver.sh"
 zip "bth-${pack_version}-server.zip" "overrides/startserver.bat"
