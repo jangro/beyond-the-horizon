@@ -12,6 +12,7 @@
 /LICENSE
 /README.md
 /UPDATING.md
+/overrides
 
 # Exclude build scripts + executables.
 *.bat
