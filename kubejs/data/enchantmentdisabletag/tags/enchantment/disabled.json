@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ars_elemental:soulbound",
+    "enderio:shimmer",
+    "enderio:soulbound",
+    "lightmanscurrency:coin_magnet",
+    "lightmanscurrency:money_mending"
+  ]
+}

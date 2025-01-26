@@ -1391,6 +1391,10 @@ file = "kubejs/data/eidolon/worldgen/structure_set/stray_tower.json"
 hash = "37999de265e0e57240567413f5e0a00766f8ef508ff723e745be2566f8d52bdd"
 
 [[files]]
+file = "kubejs/data/enchantmentdisabletag/tags/enchantment/disabled.json"
+hash = "1ecfae4bb8959677baacab896c1ef404b64f906682c7be37845c8960838581b3"
+
+[[files]]
 file = "kubejs/data/enderio/eio_soul/engine/alexsmobs_bone_serpent.json"
 hash = "04e88ca84b751548c24718f1de4afffdde89db277d1b2f72bf557c1236a321aa"
 
@@ -3025,6 +3029,11 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "0428859074e9be199e700f0a9724fbe6541f081529198a74e719175b539c5051"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-disable-tag.pw.toml"
+hash = "1911750d5ebd8d801a8bdb0a916a5c76b72c268085b10bac670a409a92e932f4"
 metafile = true
 
 [[files]]
