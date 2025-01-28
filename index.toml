@@ -95,6 +95,10 @@ file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
 [[files]]
+file = "config/fancymenu/assets/bth-logo.png"
+hash = "27d7674fd826067f2db5dcd67814d7de1d1b379759e88a33ec18d6923bcd52b1"
+
+[[files]]
 file = "config/fancymenu/assets/button-100x25-default.png"
 hash = "ae2c6c01cdebdde4988389857672c5b8f4addbc7493d0b72300721dbc25f82a9"
 
@@ -159,10 +163,6 @@ file = "config/fancymenu/assets/button-20x20-lang-hover.png"
 hash = "dcdad706453729d1156ea6c7dab607117284f1611fc91d0d1c34f9fe27da8bd3"
 
 [[files]]
-file = "config/fancymenu/assets/logo-425x180.png"
-hash = "aa2a57e8443ff1e1293588cfd0dfb997935f76958996817c1108e8630d138247"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
@@ -172,7 +172,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "81083358cf2e2a83e68854d4aa29b9b379c0cd234c05563c7b6d1c7eeb4558de"
+hash = "d19681bf7f7a6cdc1a453dddbdae32ca4749409b7b8aa82c30e668d54973a8d7"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
