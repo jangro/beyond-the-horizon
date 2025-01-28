@@ -356,7 +356,7 @@ hash = "119637f20e288eb3b8a8f5278229ca075b59464afff076e4b4582aebd7e1b3a7"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "2edd748c8b7afb64c7b3cd71695100848c6d18a5833c15795db322ac470f5b3a"
+hash = "7bd61efadbdd69b8d4f99508f8b82378ff6bdf1fd8a96b4362ece73d392e2490"
 
 [[files]]
 file = "config/paraglider-common.toml"
@@ -2356,7 +2356,7 @@ hash = "cb2933860740114b11a7a23627a914497825d4f3f217aa143ad37d948fd89ac6"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "2f65f66fb98f51f156ef30697d21ce816ebedd7a324682664872b3c4c0d82247"
+hash = "a38a71336c92288a0e52949e045b378a05c547eccd6b69a20b9495982ae582b6"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -3095,6 +3095,11 @@ metafile = true
 [[files]]
 file = "mods/etched.pw.toml"
 hash = "c9f73e2b93b64fb0c44fbbde6245a5d5934143d6c4b9cc9829e3ba62c02ead4e"
+metafile = true
+
+[[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "5d20503f75ffd390fbd095e694b555ceecce83c6d98d0bf881556e4644501600"
 metafile = true
 
 [[files]]
@@ -4101,9 +4106,9 @@ hash = "aefe892a55ec10256b1a8fb44376072be6c560ad2c88f693ac3269a4e4950a80"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.3.zip.txt"
-hash = "99ac6b23e88766a357e456025a1f62972f33a4e109499450eadde8698a7f2610"
+file = "shaderpacks/ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3.txt"
+hash = "23d953eea34c3756c4c099128ad2e6da7fda7394d425206497608cf802675410"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.3.zip.txt"
-hash = "36e3f72d9932d3be42634a7ecb93a2d19dcc9b534ce091a6e39cfafea55b2d25"
+file = "shaderpacks/ComplementaryUnbound_r5.3 + EuphoriaPatches_1.4.3.txt"
+hash = "6adc4f5614f21679189eb722ee3108dd9518a67c23355eba1dd9a1984a0a144a"
