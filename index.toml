@@ -2027,6 +2027,22 @@ file = "kubejs/data/lost_aether_content/worldgen/structure_set/platinum_dungeon.
 hash = "ee3d68813e385ccf299241e21ffee6a89207c25c598ab2ef8cd191a75561b41f"
 
 [[files]]
+file = "kubejs/data/minecolonies/worldgen/structure_set/amazon_camp.json"
+hash = "0f6638b989c8f7989974c895276557c697bdee9bc4f76f5fc92fc27ade154013"
+
+[[files]]
+file = "kubejs/data/minecolonies/worldgen/structure_set/barbarian_camp.json"
+hash = "ade95c23bc188b3ef7981bb35b0a3446f4ca4e9aaf8e5a32753798c8b084e05a"
+
+[[files]]
+file = "kubejs/data/minecolonies/worldgen/structure_set/desert_camp.json"
+hash = "20229bee64c4744dd859a31feec08d702ba65c1ad0a4a1349fd1692a3533acee"
+
+[[files]]
+file = "kubejs/data/minecolonies/worldgen/structure_set/ship.json"
+hash = "5e10aafde12b1b38f359c3e09c7d708d7e0898055d34bd5442a7999ae1b59457"
+
+[[files]]
 file = "kubejs/data/minecraft/advancements/adventure/hero_of_the_village.json"
 hash = "5bec6c0c92539b57c7c33a42558f790c6658a57380404e32ec6206f78d513a3f"
 
