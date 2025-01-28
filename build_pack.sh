@@ -21,8 +21,10 @@ mv -v "Beyond the Horizon-${pack_version}.zip" "bth-${pack_version}-server.zip"
 ./packwiz curseforge export
 mv -v "Beyond the Horizon-${pack_version}.zip" "bth-${pack_version}.zip"
 
+# Add icon to the client zip
+zip "bth-${pack_version}.zip" "overrides/icon.png"
+
 # Add server files to server zip
-zip "bth-${pack_version}-server.zip" "overrides/forge-1.20.1-47.3.25-installer.jar"
-zip "bth-${pack_version}-server.zip" "overrides/server.properties"
-zip "bth-${pack_version}-server.zip" "overrides/startserver.sh"
-zip "bth-${pack_version}-server.zip" "overrides/startserver.bat"
+for f in $(ls overrides); do
+  zip "bth-${pack_version}-server.zip" "overrides/$f"
+done
