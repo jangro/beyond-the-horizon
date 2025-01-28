@@ -96,4 +96,9 @@ LootJS.modifiers((event) => {
 
   // Remove all things waystone from all loot
   event.removeGlobalModifier("@waystones");
+
+  // Remove useless gears
+  event.removeGlobalModifier("enderio:wood_gear");
+  event.removeGlobalModifier("enderio:stone_gear");
+
 });
