@@ -96,7 +96,7 @@ hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
 [[files]]
 file = "config/fancymenu/assets/bth-logo.png"
-hash = "27d7674fd826067f2db5dcd67814d7de1d1b379759e88a33ec18d6923bcd52b1"
+hash = "2533259a7b3f2a68f743bb6f631cbfbc7f145a51b1585dbcc4275d9065f479fb"
 
 [[files]]
 file = "config/fancymenu/assets/button-100x25-default.png"
@@ -2472,7 +2472,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "c7121a8982998715171d288f027b4f08c85ec97e3544eb4aa3085aa2a141456b"
+hash = "2ab392a8a88edd0c06a0de92a1437716c05a9e0d9a4fea933169a9b80449aaf6"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"

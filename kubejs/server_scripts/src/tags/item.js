@@ -260,4 +260,22 @@ ServerEvents.tags('item', event => {
     'alexscaves:cinder_brick',
   ]);
 
+  // Fix Aether stripped logs for Create casing
+  event.add('forge:stripped_logs', [
+    'aether:stripped_skyroot_log',
+    'deep_aether:stripped_conberry_log',
+    'deep_aether:stripped_cruderoot_log',
+    'deep_aether:stripped_roseroot_log',
+    'deep_aether:stripped_sunroot_log',
+    'deep_aether:stripped_yagroot_log',
+  ]);
+  event.add('forge:stripped_wood', [
+    'aether:stripped_skyroot_wood',
+    'deep_aether:stripped_conberry_wood'
+    'deep_aether:stripped_cruderoot_wood',
+    'deep_aether:stripped_roseroot_wood',
+    'deep_aether:stripped_sunroot_wood',
+    'deep_aether:stripped_yagroot_wood',
+  ]);
+
 });
