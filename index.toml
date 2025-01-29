@@ -2554,7 +2554,7 @@ metafile = true
 
 [[files]]
 file = "mods/aether.pw.toml"
-hash = "3fa99497f4c394f57de56e51f504f16109d899fe1fe38542641355e0793a2e37"
+hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
 metafile = true
 
 [[files]]
@@ -3184,12 +3184,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "f40a0b281164f4d406e19ff256d88e1a96f9c380f47699ad6cea30926699dc5a"
+hash = "5233fd66e1df430e77252cea4ba76f15da02f574e2cf5d5bf76ced3b26f3c5a7"
 metafile = true
 
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
-hash = "76c3828b4e7288b79d6b0ca1418410539082a749650f9c85c6b03cf53ed1221e"
+hash = "6a0155012732893dae42d8a7dae4df181367eaaea57296e0ca9849567e7b9b4f"
 metafile = true
 
 [[files]]
@@ -3199,7 +3199,7 @@ metafile = true
 
 [[files]]
 file = "mods/gallery.pw.toml"
-hash = "4447096701238976a2fa7fa6a2ff8eac252d7518e769a59c9220812b2feb75ca"
+hash = "d1ab50472fbf6b4f73e11bf676d51469f5265736fe4839bd67a2a2f1f3880f62"
 metafile = true
 
 [[files]]
@@ -3284,7 +3284,7 @@ metafile = true
 
 [[files]]
 file = "mods/incubation.pw.toml"
-hash = "e919c1e5ae77026164698e5bacad6b904f4a63c3aa0ed845a90abffd8ac9cc70"
+hash = "0369534c917c40abad906a7087198ec286f543860a38b68453111a80ca755e2a"
 metafile = true
 
 [[files]]
@@ -3354,7 +3354,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "f5bfd289a462fab75dd8ac01932569bfca3bb704f1c3d5b1f723ea42413e1180"
+hash = "684a9276189fe7165bf632109f98e5a194e707e5627c149fc6c16c1d291c2df2"
 metafile = true
 
 [[files]]
@@ -3494,7 +3494,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "d200393b4761cbfec1664fc1a8c1c2326665beaccf6dfb430741dbd03e3c208c"
+hash = "59c83aff76fec2f34cf0ddd59dc926b6c6a3baaed67764b9511bc77b52427156"
 metafile = true
 
 [[files]]
@@ -3749,7 +3749,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "97c56d291e8afc0230e9c27175653c97d0056fb512c347da794d7e134244bfc8"
+hash = "c8b37566de64e61962ee384290bcb3d6317746609dc643fa76ad5d87ccabf7bf"
 metafile = true
 
 [[files]]
@@ -3759,7 +3759,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "4d1b1a2bbc8435af322547dcd9628d6c6a1e697e1bf66be5e8c6848aac660941"
+hash = "5226f0027bf108cbe989f5c2f25ba68cc2343b51d700b6d8f57738e31178be5d"
 metafile = true
 
 [[files]]
