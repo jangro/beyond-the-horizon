@@ -110,9 +110,5 @@
       "perplayer": true
     },
     "result": "deny"
-  },
-  {
-    "mob": "perfectplushies:wandering_plushie_trader",
-    "result": "deny"
   }
 ]

@@ -56,6 +56,13 @@ MoreJSEvents.playerStartTrading((event) => {
     });
     event.addTrade(2, TradeItem.of('createdeco:gold_coin', 2, 2), 'rats:chunky_cheese_token');
   }
+  // XXX: We can't disable the plushie trader, so disable all the trades
+  // FIXME: Disable the trader when we can. In-Control can't do it.
+  if (event.merchant.getClass().getName().includes('WanderingPlushieTrader')) {
+    event.forEachOffers((offer) => {
+      offer.disabled = true;
+    });
+  }
 });
 
 MoreJSEvents.wandererTrades((event) => {
