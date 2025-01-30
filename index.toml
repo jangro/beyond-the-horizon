@@ -232,19 +232,23 @@ hash = "45ed298209e10d05339a4082d3259cd6bc99505795aab601f5054eccaac12fc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "f92346bb646cec7c731cc45df1aee6d421f361afc517920ca043af3f0bdb52f4"
+hash = "9d403871bb5fe335ef51e5ebfd017df8a5f8f86b3d1c5b655884e8121fa1262f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/galosphere.snbt"
-hash = "62e78bfa4e994eed93bd5933c49ed1033b53f913f66f449b9702929d110b1fa6"
+hash = "217738fa60234f248da0742df3c7e5cc0c0d427dd7de858f9d20e28f12d0af50"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/gotta_snap_em_all.snbt"
+hash = "bdbcd8425345543ba00ba98b5a948e1c0e27609065766b25d0404313831cdfeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "8c09b46b3e322370bef8ce6c34317f6ecc501a6423be37f88c5c9eed1dcc26c4"
+hash = "03962f733ce5b111e9e26bb94a1f14ed4c2c7c62af2bae4dfa2d4640619faf7d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "08f561ddc792bcf61c56ed5e191a1d96be9a4051889be1eef7b22522177f998e"
+hash = "f5961bad7f739afee4c5526b4a5f3fa228d77a4a6a1ced9d2b306409f0e2164d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/super_food.snbt"
@@ -252,7 +256,7 @@ hash = "2b6bae9fc8c122e63c3b7db17cc363908040e4e0a6e77df17eae0d65e4e9d4c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
-hash = "804aa8f112ec40f731e5e5a77fcdb0d67d453dc7cbfff4bb516210cb9b46bc61"
+hash = "3df0b1657b02afe07428b89b52e463712d1c6e04dd87c45db102b227bdc34855"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_graveyard.snbt"
@@ -496,7 +500,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "a9b3c7a761c81afb73095cb4b538bc7e2d3511e187b2ef97ef4246c4f2a53fc0"
+hash = "2b16d16e2f1edab6a86c65e7f1c9802c395bdbd99452fa24a4cdc7aa34623bf8"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -528,7 +532,7 @@ hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
 
 [[files]]
 file = "kubejs/client_scripts/src/item_tooltip.js"
-hash = "ef5a05640052fb1e756b8fd3f7ecf8969cd333243fec71c885ab891a0581091e"
+hash = "ee0a4a43a2d2ff0d12b2f5130f9e2eed01003b68b9ca8bdc3cd89ad91747ecd2"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_add_plushies.js"
@@ -709,6 +713,10 @@ hash = "57eaa19fa979ddc4969b43d5b939b5ee44b35343fc7594ba34c86ba8d2ac8b1c"
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/chunky_cheese_token.json"
 hash = "cac68233f25d85c3b4f633af1b78e7d43259586ff516b98b0f1d81161a218eef"
+
+[[files]]
+file = "kubejs/data/bth/advancements/exploration/plushies.json"
+hash = "57131c20c62d490a2c3664acf8714f92fb23cb36a1e81aeba71008923b9fe1ff"
 
 [[files]]
 file = "kubejs/data/bth/advancements/exploration/ratlantis_loot.json"
@@ -2423,6 +2431,10 @@ file = "kubejs/server_scripts/src/recipes/enderio.js"
 hash = "91269a744b11d6f7dd5e979f2c22aa73b56c759ed977d1cd2f0139cb9b082ec3"
 
 [[files]]
+file = "kubejs/server_scripts/src/recipes/exposure.js"
+hash = "0e8db1abb9d18d94ac6f5f7a1a106917e5495c11779717d82a57ffb1d7c39078"
+
+[[files]]
 file = "kubejs/server_scripts/src/recipes/furniture_fix.js"
 hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
@@ -2440,7 +2452,7 @@ hash = "b28649a612f3ff287ad4d78eb21b6ed07f7d1392231105bf0ba822b206c65f15"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "62bf8ab8c9c448894eb134a3d4bf53d14d29740086426e604229f35eafc6d75a"
+hash = "820e32ca1e00657e42bc8feb74cd1b0ea0867d0cb50558e602860314c4ec8b1f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"

@@ -96,6 +96,7 @@ ServerEvents.recipes(event => {
     'enderio:smelting/create/smelting/ingot_silver_compat_immersiveengineering',
     'enderio:smelting/create/smelting/ingot_lead_compat_immersiveengineering',
     'enderio:smelting/create/smelting/ingot_silver_compat_galosphere',
+    'exposure:developing_color_film',
     'galosphere:raw_silver',
     'galosphere:raw_block',
     'galosphere:silver_block',

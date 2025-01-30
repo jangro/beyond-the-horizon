@@ -1,0 +1,28 @@
+{
+  "parent": "bth:exploration/root",
+  "criteria": {
+    "impossible": {
+      "trigger":"minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "bth.advancements.exploration.plushies.title"
+    },
+    "description": {
+      "translate": "bth.advancements.exploration.plushies.description"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "perfectplushies:bear_plushie"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "bth:heart_container"
+    ]
+  }
+}
