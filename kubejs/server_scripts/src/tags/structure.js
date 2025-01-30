@@ -38,6 +38,8 @@ ServerEvents.tags('worldgen/structure', event => {
   ]);
 
   event.add('bth:in_plains', [
+    'bth_structures:dw20',
+    'bth_structures:wagon',
     'idas:farmhouse',
     'idas:hermits_hollow',
     'nebulusoaktree:oak_tree',
@@ -245,6 +247,8 @@ ServerEvents.tags('worldgen/structure', event => {
     'bth_structures:ruined_hangar',
     'bth_structures:tinkerer_house',
     'bth_structures:magician_house',
+    'bth_structures:dw20',
+    'bth_structures:wagon',
   ]);
 
 });
