@@ -23,92 +23,93 @@ ItemEvents.tooltip(event => {
     }
   };
 
-  event.add('plushies:allay_plushie', '\u00A77Craft using a photograph containing allay')
-  event.add('plushies:axolotl_plushie', '\u00A77Craft using a photograph containing axolotl')
-  event.add('plushies:bat_plushie', '\u00A77Craft using a photograph containing bat')
-  event.add('perfectplushies:bear_plushie', '\u00A77Craft using a photograph containing bear')
-  event.add('plushies:bee_plushie', '\u00A77Craft using a photograph containing bee')
-  event.add('plushies:blaze_plushie', '\u00A77Craft using a photograph containing blaze')
-  event.add('plushie_buddies:plushie_camel', '\u00A77Craft using a photograph containing camel')
-  event.add('perfectplushies:monkey_plushie', '\u00A77Craft using a photograph containing chimpanzee')
-  event.add('perfectplushies:cat_plushie', '\u00A77Craft using a photograph containing cat')
-  event.add('plushie_buddies:plushie_cave_spider', '\u00A77Craft using a photograph containing cave spider')
-  event.add('plushie_buddies:plushie_chicken', '\u00A77Craft using a photograph containing chicken')
-  event.add('plushies:cod_plushie', '\u00A77Craft using a photograph containing cod')
-  event.add('plushie_buddies:plushie_cow', '\u00A77Craft using a photograph containing cow')
-  event.add('plushie_buddies:plushie_creeper', '\u00A77Craft using a photograph containing creeper')
-  event.add('perfectplushies:dolphin_plushie', '\u00A77Craft using a photograph containing dolphin')
-  event.add('plushie_buddies:plushie_enderdragon', '\u00A77Craft using a photograph containing ender dragon')
-  event.add('plushie_buddies:plushie_drowned', '\u00A77Craft using a photograph containing drowned')
-  event.add('plushie_buddies:plushie_elder_guardian', '\u00A77Craft using a photograph containing elder guardian')
-  event.add('perfectplushies:elephant_plushie', '\u00A77Craft using a photograph containing elephant')
-  event.add('plushie_buddies:plushie_enderman', '\u00A77Craft using a photograph containing enderman')
-  event.add('plushies:endermite_plushie', '\u00A77Craft using a photograph containing endermite')
-  event.add('plushie_buddies:plushie_evoker', '\u00A77Craft using a photograph containing evoker')
-  event.add('perfectplushies:frog_plushie', '\u00A77Craft using a photograph containing frog')
-  event.add('perfectplushies:red_fox_plushie', '\u00A77Craft using a photograph containing fox')
-  event.add('plushie_buddies:plushie_fox', '\u00A77Craft using a photograph containing foxhound')
-  event.add('perfectplushies:doe_plushie', '\u00A77Craft using a photograph containing gazelle')
-  event.add('plushies:ghast_plushie', '\u00A77Craft using a photograph containing ghast')
-  event.add('plushies:glow_squid_plushie', '\u00A77Craft using a photograph containing glow squid')
-  event.add('plushie_buddies:plushie_goat', '\u00A77Craft using a photograph containing goat')
-  event.add('plushie_buddies:plushie_guardian', '\u00A77Craft using a photograph containing guardian')
-  event.add('plushie_buddies:plushie_hoglin', '\u00A77Craft using a photograph containing hoglin')
-  event.add('plushie_buddies:plushie_horse', '\u00A77Craft using a photograph containing horse')
-  event.add('perfectplushies:hummingbird_plushie', '\u00A77Craft using a photograph containing hummingbird')
-  event.add('plushie_buddies:plushie_husk', '\u00A77Craft using a photograph containing husk')
-  event.add('plushies:illusioner_plushie', '\u00A77Craft using a photograph containing illusioner')
-  event.add('plushie_buddies:plushie_iron_golem', '\u00A77Craft using a photograph containing iron golem')
-  event.add('plushie_buddies:plushie_llama', '\u00A77Craft using a photograph containing llama')
-  event.add('plushies:magma_cube_plushie', '\u00A77Craft using a photograph containing magma cube')
-  event.add('perfectplushies:reindeer_plushie', '\u00A77Craft using a photograph containing moose')
-  event.add('plushie_buddies:plushie_mooshroom', '\u00A77Craft using a photograph containing mooshroom')
-  event.add('plushies:ocelot_plushie', '\u00A77Craft using a photograph containing ocelot')
-  event.add('perfectplushies:panda_plushie', '\u00A77Craft using a photograph containing panda')
-  event.add('plushie_buddies:plushie_parrot', '\u00A77Craft using a photograph containing parrot')
-  event.add('plushie_buddies:plushie_phantom', '\u00A77Craft using a photograph containing phantom')
-  event.add('plushie_buddies:plushie_pig', '\u00A77Craft using a photograph containing pig')
-  event.add('plushie_buddies:plushie_piglin', '\u00A77Craft using a photograph containing piglin')
-  event.add('plushie_buddies:plushie_piglin_brute', '\u00A77Craft using a photograph containing piglin brute')
-  event.add('plushie_buddies:plushie_pillager', '\u00A77Craft using a photograph containing pillager')
-  event.add('plushie_buddies:plushie_polar_bear', '\u00A77Craft using a photograph containing polar bear')
-  event.add('plushies:pufferfish_plushie', '\u00A77Craft using a photograph containing pufferfish')
-  event.add('perfectplushies:raccoon_plushie', '\u00A77Craft using a photograph containing raccoon')
-  event.add('perfectplushies:mouse_plushie', '\u00A77Craft using a photograph containing rat')
-  event.add('plushies:ravager_plushie', '\u00A77Craft using a photograph containing ravager')
-  event.add('perfectplushies:hedgehog_plushie', '\u00A77Craft using a photograph containing rocky roller')
-  event.add('plushies:salmon_plushie', '\u00A77Craft using a photograph containing salmon')
-  event.add('plushie_buddies:plushie_rabbit', '\u00A77Craft using a photograph containing rabbit')
-  event.add('perfectplushies:goose_plushie', '\u00A77Craft using a photograph containing seagull')
-  event.add('perfectplushies:seal_plushie', '\u00A77Craft using a photograph containing seal')
-  event.add('plushie_buddies:plushie_sheep', '\u00A77Craft using a photograph containing sheep')
-  event.add('perfectplushies:dog_plushie', '\u00A77Craft using a photograph containing shiba')
-  event.add('plushie_buddies:plushie_shulker', '\u00A77Craft using a photograph containing shulker')
-  event.add('plushies:silverfish_plushie', '\u00A77Craft using a photograph containing silverfish')
-  event.add('plushie_buddies:plushie_skeleton', '\u00A77Craft using a photograph containing skeleton')
-  event.add('plushie_buddies:plushie_skeleton_horse', '\u00A77Craft using a photograph containing skeleton horse')
-  event.add('plushies:slime_plushie', '\u00A77Craft using a photograph containing slime')
-  event.add('plushies:sniffer_plushie', '\u00A77Craft using a photograph containing sniffer')
-  event.add('plushies:snow_golem_plushie', '\u00A77Craft using a photograph containing snow golem')
-  event.add('plushie_buddies:plushie_spider', '\u00A77Craft using a photograph containing spider')
-  event.add('plushies:squid_plushie', '\u00A77Craft using a photograph containing squid')
-  event.add('plushie_buddies:plushie_stray', '\u00A77Craft using a photograph containing stray')
-  event.add('plushie_buddies:plushie_strider', '\u00A77Craft using a photograph containing strider')
-  event.add('plushies:tadpole_plushie', '\u00A77Craft using a photograph containing tadpole')
-  event.add('perfectplushies:lion_cub_plushie', '\u00A77Craft using a photograph containing tiger')
-  event.add('plushie_buddies:plushie_turtle', '\u00A77Craft using a photograph containing turtle')
-  event.add('plushie_buddies:plushie_vex', '\u00A77Craft using a photograph containing vex')
-  event.add('plushie_buddies:plushie_villager', '\u00A77Craft using a photograph containing villager')
-  event.add('plushie_buddies:plushie_vindicator', '\u00A77Craft using a photograph containing vindicator')
-  event.add('plushie_buddies:plushie_wandering_trader', '\u00A77Craft using a photograph containing wandering trader')
-  event.add('plushie_buddies:plushie_warden', '\u00A77Craft using a photograph containing warden')
-  event.add('plushie_buddies:plushie_witch', '\u00A77Craft using a photograph containing witch')
-  event.add('plushie_buddies:plushie_wither', '\u00A77Craft using a photograph containing wither')
-  event.add('plushie_buddies:plushie_wither_skeleton', '\u00A77Craft using a photograph containing wither skeleton')
-  event.add('plushie_buddies:plushie_wolf', '\u00A77Craft using a photograph containing wolf')
-  event.add('plushie_buddies:plushie_zoglin', '\u00A77Craft using a photograph containing zoglin')
-  event.add('plushie_buddies:plushie_zombie', '\u00A77Craft using a photograph containing zombie')
-  event.add('plushie_buddies:plushie_zombie_villager', '\u00A77Craft using a photograph containing zombie villager')
-  event.add('plushie_buddies:plushie_zombified_piglin', '\u00A77Craft using a photograph containing zombified piglin')
+  addInfo('plushies:allay_plushie', 'tooltip.bth.plushies.allay');
+  addInfo('plushies:axolotl_plushie', 'tooltip.bth.plushies.axolotl');
+  addInfo('plushies:bat_plushie', 'tooltip.bth.plushies.bat');
+  addInfo('perfectplushies:bear_plushie', 'tooltip.bth.plushies.bear');
+  addInfo('plushies:bee_plushie', 'tooltip.bth.plushies.bee');
+  addInfo('plushies:blaze_plushie', 'tooltip.bth.plushies.blaze');
+  addInfo('plushie_buddies:plushie_camel', 'tooltip.bth.plushies.camel');
+  addInfo('perfectplushies:monkey_plushie', 'tooltip.bth.plushies.chimpanzee');
+  addInfo('perfectplushies:cat_plushie', 'tooltip.bth.plushies.cat');
+  addInfo('plushie_buddies:plushie_cave_spider', 'tooltip.bth.plushies.cave_spider');
+  addInfo('plushie_buddies:plushie_chicken', 'tooltip.bth.plushies.chicken');
+  addInfo('plushies:cod_plushie', 'tooltip.bth.plushies.cod');
+  addInfo('plushie_buddies:plushie_cow', 'tooltip.bth.plushies.cow');
+  addInfo('plushie_buddies:plushie_creeper', 'tooltip.bth.plushies.creeper');
+  addInfo('perfectplushies:dolphin_plushie', 'tooltip.bth.plushies.dolphin');
+  addInfo('plushie_buddies:plushie_enderdragon', 'tooltip.bth.plushies.ender_dragon');
+  addInfo('plushie_buddies:plushie_drowned', 'tooltip.bth.plushies.drowned');
+  addInfo('plushie_buddies:plushie_elder_guardian', 'tooltip.bth.plushies.elder_guardian');
+  addInfo('perfectplushies:elephant_plushie', 'tooltip.bth.plushies.elephant');
+  addInfo('plushie_buddies:plushie_enderman', 'tooltip.bth.plushies.enderman');
+  addInfo('plushies:endermite_plushie', 'tooltip.bth.plushies.endermite');
+  addInfo('plushie_buddies:plushie_evoker', 'tooltip.bth.plushies.evoker');
+  addInfo('perfectplushies:frog_plushie', 'tooltip.bth.plushies.frog');
+  addInfo('perfectplushies:red_fox_plushie', 'tooltip.bth.plushies.fox');
+  addInfo('plushie_buddies:plushie_fox', 'tooltip.bth.plushies.foxhound');
+  addInfo('perfectplushies:doe_plushie', 'tooltip.bth.plushies.gazelle');
+  addInfo('plushies:ghast_plushie', 'tooltip.bth.plushies.ghast');
+  addInfo('plushies:glow_squid_plushie', 'tooltip.bth.plushies.glow_squid');
+  addInfo('plushie_buddies:plushie_goat', 'tooltip.bth.plushies.goat');
+  addInfo('plushie_buddies:plushie_guardian', 'tooltip.bth.plushies.guardian');
+  addInfo('plushie_buddies:plushie_hoglin', 'tooltip.bth.plushies.hoglin');
+  addInfo('plushie_buddies:plushie_horse', 'tooltip.bth.plushies.horse');
+  addInfo('perfectplushies:hummingbird_plushie', 'tooltip.bth.plushies.hummingbird');
+  addInfo('plushie_buddies:plushie_husk', 'tooltip.bth.plushies.husk');
+  addInfo('plushies:illusioner_plushie', 'tooltip.bth.plushies.illusioner');
+  addInfo('plushie_buddies:plushie_iron_golem', 'tooltip.bth.plushies.iron_golem');
+  addInfo('plushie_buddies:plushie_llama', 'tooltip.bth.plushies.llama');
+  addInfo('plushies:magma_cube_plushie', 'tooltip.bth.plushies.magma_cube');
+  addInfo('perfectplushies:reindeer_plushie', 'tooltip.bth.plushies.moose');
+  addInfo('plushie_buddies:plushie_mooshroom', 'tooltip.bth.plushies.mooshroom');
+  addInfo('plushies:ocelot_plushie', 'tooltip.bth.plushies.ocelot');
+  addInfo('perfectplushies:panda_plushie', 'tooltip.bth.plushies.panda');
+  addInfo('plushie_buddies:plushie_parrot', 'tooltip.bth.plushies.parrot');
+  addInfo('plushie_buddies:plushie_phantom', 'tooltip.bth.plushies.phantom');
+  addInfo('plushie_buddies:plushie_pig', 'tooltip.bth.plushies.pig');
+  addInfo('plushie_buddies:plushie_piglin', 'tooltip.bth.plushies.piglin');
+  addInfo('plushie_buddies:plushie_piglin_brute', 'tooltip.bth.plushies.piglin_brute');
+  addInfo('plushie_buddies:plushie_pillager', 'tooltip.bth.plushies.pillager');
+  addInfo('plushie_buddies:plushie_polar_bear', 'tooltip.bth.plushies.polar_bear');
+  addInfo('plushies:pufferfish_plushie', 'tooltip.bth.plushies.pufferfish');
+  addInfo('perfectplushies:raccoon_plushie', 'tooltip.bth.plushies.raccoon');
+  addInfo('perfectplushies:mouse_plushie', 'tooltip.bth.plushies.rat');
+  addInfo('plushies:ravager_plushie', 'tooltip.bth.plushies.ravager');
+  addInfo('perfectplushies:hedgehog_plushie', 'tooltip.bth.plushies.rocky_roller');
+  addInfo('plushies:salmon_plushie', 'tooltip.bth.plushies.salmon');
+  addInfo('plushie_buddies:plushie_rabbit', 'tooltip.bth.plushies.rabbit');
+  addInfo('perfectplushies:goose_plushie', 'tooltip.bth.plushies.seagull');
+  addInfo('perfectplushies:seal_plushie', 'tooltip.bth.plushies.seal');
+  addInfo('plushie_buddies:plushie_sheep', 'tooltip.bth.plushies.sheep');
+  addInfo('perfectplushies:dog_plushie', 'tooltip.bth.plushies.shiba');
+  addInfo('plushie_buddies:plushie_shulker', 'tooltip.bth.plushies.shulker');
+  addInfo('plushies:silverfish_plushie', 'tooltip.bth.plushies.silverfish');
+  addInfo('plushie_buddies:plushie_skeleton', 'tooltip.bth.plushies.skeleton');
+  addInfo('plushie_buddies:plushie_skeleton_horse', 'tooltip.bth.plushies.skeleton_horse');
+  addInfo('plushies:slime_plushie', 'tooltip.bth.plushies.slime');
+  addInfo('plushies:sniffer_plushie', 'tooltip.bth.plushies.sniffer');
+  addInfo('plushies:snow_golem_plushie', 'tooltip.bth.plushies.snow_golem');
+  addInfo('plushie_buddies:plushie_spider', 'tooltip.bth.plushies.spider');
+  addInfo('plushies:squid_plushie', 'tooltip.bth.plushies.squid');
+  addInfo('plushie_buddies:plushie_stray', 'tooltip.bth.plushies.stray');
+  addInfo('plushie_buddies:plushie_strider', 'tooltip.bth.plushies.strider');
+  addInfo('plushies:tadpole_plushie', 'tooltip.bth.plushies.tadpole');
+  addInfo('perfectplushies:lion_cub_plushie', 'tooltip.bth.plushies.tiger');
+  addInfo('plushie_buddies:plushie_turtle', 'tooltip.bth.plushies.turtle');
+  addInfo('plushie_buddies:plushie_vex', 'tooltip.bth.plushies.vex');
+  addInfo('plushie_buddies:plushie_villager', 'tooltip.bth.plushies.villager');
+  addInfo('plushie_buddies:plushie_vindicator', 'tooltip.bth.plushies.vindicator');
+  addInfo('plushie_buddies:plushie_wandering_trader', 'tooltip.bth.plushies.wandering_trader');
+  addInfo('plushie_buddies:plushie_warden', 'tooltip.bth.plushies.warden');
+  addInfo('plushie_buddies:plushie_witch', 'tooltip.bth.plushies.witch');
+  addInfo('plushie_buddies:plushie_wither', 'tooltip.bth.plushies.wither');
+  addInfo('plushie_buddies:plushie_wither_skeleton', 'tooltip.bth.plushies.wither_skeleton');
+  addInfo('plushie_buddies:plushie_wolf', 'tooltip.bth.plushies.wolf');
+  addInfo('plushie_buddies:plushie_zoglin', 'tooltip.bth.plushies.zoglin');
+  addInfo('plushie_buddies:plushie_zombie', 'tooltip.bth.plushies.zombie');
+  addInfo('plushie_buddies:plushie_zombie_villager', 'tooltip.bth.plushies.zombie_villager');
+  addInfo('plushie_buddies:plushie_zombified_piglin', 'tooltip.bth.plushies.zombified_piglin');
+
 
 });
