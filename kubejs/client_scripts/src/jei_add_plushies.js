@@ -1,0 +1,103 @@
+// priority: 0
+
+/**
+ * @file JEI Whitelist for Beyond the Horizon
+ *
+ * For consistency, Item / Fluid IDs should be in the order of Minecraft entries first, then by mod in alphabetical order.
+ *
+ */
+
+/**
+ * JEI Item Adding Event Handler
+ */
+JEIEvents.addItems(event => {
+  // We did a blanket removal of all items in the blacklist.
+  // Add back the ones we use here.
+  event.add(Item.of('plushies:allay_plushie'));
+  event.add(Item.of('plushies:axolotl_plushie'));
+  event.add(Item.of('plushies:bat_plushie'));
+  event.add(Item.of('perfectplushies:bear_plushie'));
+  event.add(Item.of('plushies:bee_plushie'));
+  event.add(Item.of('plushies:blaze_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_camel'));
+  event.add(Item.of('perfectplushies:monkey_plushie'));
+  event.add(Item.of('perfectplushies:cat_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_cave_spider'));
+  event.add(Item.of('plushie_buddies:plushie_chicken'));
+  event.add(Item.of('plushies:cod_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_cow'));
+  event.add(Item.of('plushie_buddies:plushie_creeper'));
+  event.add(Item.of('perfectplushies:dolphin_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_enderdragon'));
+  event.add(Item.of('plushie_buddies:plushie_drowned'));
+  event.add(Item.of('plushie_buddies:plushie_elder_guardian'));
+  event.add(Item.of('perfectplushies:elephant_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_enderman'));
+  event.add(Item.of('plushies:endermite_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_evoker'));
+  event.add(Item.of('perfectplushies:frog_plushie'));
+  event.add(Item.of('perfectplushies:red_fox_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_fox'));
+  event.add(Item.of('perfectplushies:doe_plushie'));
+  event.add(Item.of('plushies:ghast_plushie'));
+  event.add(Item.of('plushies:glow_squid_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_goat'));
+  event.add(Item.of('plushie_buddies:plushie_guardian'));
+  event.add(Item.of('plushie_buddies:plushie_hoglin'));
+  event.add(Item.of('plushie_buddies:plushie_horse'));
+  event.add(Item.of('perfectplushies:hummingbird_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_husk'));
+  event.add(Item.of('plushies:illusioner_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_iron_golem'));
+  event.add(Item.of('plushie_buddies:plushie_llama'));
+  event.add(Item.of('plushies:magma_cube_plushie'));
+  event.add(Item.of('perfectplushies:reindeer_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_mooshroom'));
+  event.add(Item.of('plushies:ocelot_plushie'));
+  event.add(Item.of('perfectplushies:panda_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_parrot'));
+  event.add(Item.of('plushie_buddies:plushie_phantom'));
+  event.add(Item.of('plushie_buddies:plushie_pig'));
+  event.add(Item.of('plushie_buddies:plushie_piglin'));
+  event.add(Item.of('plushie_buddies:plushie_piglin_brute'));
+  event.add(Item.of('plushie_buddies:plushie_pillager'));
+  event.add(Item.of('plushie_buddies:plushie_polar_bear'));
+  event.add(Item.of('plushies:pufferfish_plushie'));
+  event.add(Item.of('perfectplushies:raccoon_plushie'));
+  event.add(Item.of('perfectplushies:mouse_plushie'));
+  event.add(Item.of('plushies:ravager_plushie'));
+  event.add(Item.of('perfectplushies:hedgehog_plushie'));
+  event.add(Item.of('plushies:salmon_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_rabbit'));
+  event.add(Item.of('perfectplushies:goose_plushie'));
+  event.add(Item.of('perfectplushies:seal_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_sheep'));
+  event.add(Item.of('perfectplushies:dog_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_shulker'));
+  event.add(Item.of('plushies:silverfish_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_skeleton'));
+  event.add(Item.of('plushie_buddies:plushie_skeleton_horse'));
+  event.add(Item.of('plushies:slime_plushie'));
+  event.add(Item.of('plushies:sniffer_plushie'));
+  event.add(Item.of('plushies:snow_golem_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_spider'));
+  event.add(Item.of('plushies:squid_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_stray'));
+  event.add(Item.of('plushie_buddies:plushie_strider'));
+  event.add(Item.of('plushies:tadpole_plushie'));
+  event.add(Item.of('perfectplushies:lion_cub_plushie'));
+  event.add(Item.of('plushie_buddies:plushie_turtle'));
+  event.add(Item.of('plushie_buddies:plushie_vex'));
+  event.add(Item.of('plushie_buddies:plushie_villager'));
+  event.add(Item.of('plushie_buddies:plushie_vindicator'));
+  event.add(Item.of('plushie_buddies:plushie_wandering_trader'));
+  event.add(Item.of('plushie_buddies:plushie_warden'));
+  event.add(Item.of('plushie_buddies:plushie_witch'));
+  event.add(Item.of('plushie_buddies:plushie_wither'));
+  event.add(Item.of('plushie_buddies:plushie_wither_skeleton'));
+  event.add(Item.of('plushie_buddies:plushie_wolf'));
+  event.add(Item.of('plushie_buddies:plushie_zoglin'));
+  event.add(Item.of('plushie_buddies:plushie_zombie'));
+  event.add(Item.of('plushie_buddies:plushie_zombie_villager'));
+  event.add(Item.of('plushie_buddies:plushie_zombified_piglin'));
+});

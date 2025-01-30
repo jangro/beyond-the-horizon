@@ -1,0 +1,13 @@
+name = "Plushie Mod"
+filename = "plushies-1.4.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2cf9b180f3d1f344d52d3d8153a84bb6b21ef3cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4969757
+project-id = 544197

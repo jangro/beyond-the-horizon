@@ -19,6 +19,10 @@ file = "config/PeacefulSurface_Rules/DefaultRule.json"
 hash = "5f8b4733d3bfbb46f86c3abc61a5104b55e2a26f7d1cdd559cba02f03973fa52"
 
 [[files]]
+file = "config/Plushie_Buddies-Common.toml"
+hash = "27faaa8acfe4d080b1bd7c199a8b75734ee41dd9b79fb6c765e6b1827cad9030"
+
+[[files]]
 file = "config/aether-client.toml"
 hash = "09acf009b9236754c89ee5892237ac1f22d31a6c7e0aadadebc5f8ad22e339af"
 
@@ -280,7 +284,7 @@ hash = "db354a6357bb12b9b773b8432f00279634912721dfc29ba95c08b6d21013676f"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "e8c684808a7f1ea7f51bcc95dd7fc197cca97002b16e0333fc33843c09486681"
+hash = "bde6ecd135cde5d191e9da0ba8c25834443b9a878e64fa8b8431c9cb2f796627"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -361,6 +365,10 @@ hash = "7bd61efadbdd69b8d4f99508f8b82378ff6bdf1fd8a96b4362ece73d392e2490"
 [[files]]
 file = "config/paraglider-common.toml"
 hash = "b13b0a83760d0e4dc9b9ecb0fe8fe61842bf032b78e5e3fed837234d772bc1e7"
+
+[[files]]
+file = "config/perfectplushies-common.toml"
+hash = "962a75fcbbf80341800a32869e359d22b2a7a28a231506a1b9a65a4e58625456"
 
 [[files]]
 file = "config/phantasm.json"
@@ -511,12 +519,24 @@ file = "kubejs/assets/bth/textures/item/terminus.png"
 hash = "aadee2369bf21188b17c00d0c3c3820f64091fb0fc534502ae7199f239aa270a"
 
 [[files]]
+file = "kubejs/assets/perfectplushies/lang/en_us.json"
+hash = "b8142d9f263d85748eb79d2a5faa45f80f7f6b028e82fa297e34dbeedc399893"
+
+[[files]]
 file = "kubejs/assets/rats/lang/en_us.json"
 hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
 
 [[files]]
+file = "kubejs/client_scripts/src/item_tooltip.js"
+hash = "ef5a05640052fb1e756b8fd3f7ecf8969cd333243fec71c885ab891a0581091e"
+
+[[files]]
+file = "kubejs/client_scripts/src/jei_add_plushies.js"
+hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
+
+[[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "d9e418559494148f0d6eeb5dd8329b22fc1d01bb9bad3ab6295c8f8342701833"
+hash = "934600921da12bf93eb66d8bceef99ea9464570181d48f2911424ec3d6d458ca"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -2420,7 +2440,7 @@ hash = "b28649a612f3ff287ad4d78eb21b6ed07f7d1392231105bf0ba822b206c65f15"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "2d97e006151c1133e00e5074040732f8565d5e1030e48d5212595d673ba58f29"
+hash = "62bf8ab8c9c448894eb134a3d4bf53d14d29740086426e604229f35eafc6d75a"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -2432,7 +2452,7 @@ hash = "f5e788e99d92f01aee2b041965e97f925fa31a2620bec0d91008cefe37c13ca8"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
-hash = "fda428cef7b942c46c3caa05c763702ebb096437923896fe71136980c5bc9707"
+hash = "a55166f07014c59be73fd36d5f11bea8bc9fa110e4fd9c4323b68b1e2beabb9e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
@@ -2472,7 +2492,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "2ab392a8a88edd0c06a0de92a1437716c05a9e0d9a4fea933169a9b80449aaf6"
+hash = "1766c30d67bfcdc51695074481f11afeec59e3053a9c582fbfd8e3f4da3aaeef"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
@@ -3633,6 +3653,11 @@ hash = "c9fc80676474552f9f28d902485d788ea7f034d7bc8132b1ea004555c7cb0288"
 metafile = true
 
 [[files]]
+file = "mods/perfect-plushies.pw.toml"
+hash = "85af7089ebf1ff9c1fe61719de57819053e9772087afb62b0c53d1122f2d0022"
+metafile = true
+
+[[files]]
 file = "mods/personality.pw.toml"
 hash = "f463d5b6ddc6bbed508bfad219121d14c6d596ec54c9c7983f0618367be2dbf9"
 metafile = true
@@ -3650,6 +3675,16 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
+metafile = true
+
+[[files]]
+file = "mods/plushie-buddies.pw.toml"
+hash = "2b0793367ebea1c95e1d26dfffdf3ce3bc88f002fb71518d9d089c3c43369c99"
+metafile = true
+
+[[files]]
+file = "mods/plushie-mod.pw.toml"
+hash = "a73ead836a7d826e4d12436acba18c353983b7625e116098153a5f3f3cc979c9"
 metafile = true
 
 [[files]]

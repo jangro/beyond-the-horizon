@@ -271,7 +271,7 @@ ServerEvents.tags('item', event => {
   ]);
   event.add('forge:stripped_wood', [
     'aether:stripped_skyroot_wood',
-    'deep_aether:stripped_conberry_wood'
+    'deep_aether:stripped_conberry_wood',
     'deep_aether:stripped_cruderoot_wood',
     'deep_aether:stripped_roseroot_wood',
     'deep_aether:stripped_sunroot_wood',
