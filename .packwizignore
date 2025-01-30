@@ -21,3 +21,7 @@
 
 # Exclude jsconfig files.
 **/jsconfig.json
+
+# Exclude macOS folder metadata
+**/.DS_Store
+**/__MACOSX
