@@ -97,6 +97,11 @@ LootJS.modifiers((event) => {
   // Remove all things waystone from all loot
   event.removeGlobalModifier("@waystones");
 
+  // Remove all plushies from loot chests
+  event.removeGlobalModifier("@perfectplushies");
+  event.removeGlobalModifier("@plushie_buddies");
+  event.removeGlobalModifier("@plushies");
+
   // Remove useless gears
   event.removeGlobalModifier("enderio:wood_gear");
   event.removeGlobalModifier("enderio:stone_gear");
