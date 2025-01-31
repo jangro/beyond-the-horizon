@@ -98,9 +98,12 @@ LootJS.modifiers((event) => {
   event.removeGlobalModifier("@waystones");
 
   // Remove all plushies from loot chests
-  event.removeGlobalModifier("@perfectplushies");
   event.removeGlobalModifier("@plushie_buddies");
   event.removeGlobalModifier("@plushies");
+  // event.removeGlobalModifier("@perfectplushies"); // Does not work - probably because the mod doesn't use a datapack.
+  event
+    .addLootTypeModifier(LootType.CHEST)
+    .removeLoot(Ingredient.of("@perfectplushies"));
 
   // Remove useless gears
   event.removeGlobalModifier("enderio:wood_gear");
