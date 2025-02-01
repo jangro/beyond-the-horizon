@@ -28,3 +28,7 @@ zip "bth-${pack_version}.zip" "overrides/icon.png"
 for f in $(ls overrides); do
   zip "bth-${pack_version}-server.zip" "overrides/$f"
 done
+
+for f in $(ls overrides/config); do
+  zip "bth-${pack_version}-server.zip" "overrides/config/$f"
+done

@@ -16,7 +16,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "86de7029f604b9c95dc6e47e6e74ca4c682fc88ab2a1e64c8b378df5c8b996e3"
+hash = "976ed40477fc075dcfec4176aea96499a975924136b77ac9ebf27e3cb92a71df"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
@@ -101,6 +101,10 @@ hash = "8c8b694f865f17baa2b856b538da1c58b50432e300f0ac5d73eff62412eab5d3"
 [[files]]
 file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
+
+[[files]]
+file = "config/exposure-common.toml"
+hash = "21d0736bf5260956e48e64b3cd9ae6ebc94e1afbeb4a07357ba85c24aa3b1295"
 
 [[files]]
 file = "config/fancymenu/assets/bth-logo.png"
@@ -292,7 +296,7 @@ hash = "db354a6357bb12b9b773b8432f00279634912721dfc29ba95c08b6d21013676f"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "bde6ecd135cde5d191e9da0ba8c25834443b9a878e64fa8b8431c9cb2f796627"
+hash = "e8c684808a7f1ea7f51bcc95dd7fc197cca97002b16e0333fc33843c09486681"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -1048,7 +1052,7 @@ hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/dw20.nbt"
-hash = "dfc6032e8075c07c1d0c6bfea7e481246d8f37b76a3ecbc10ba82e6bbf5901c2"
+hash = "6352720644161a2c459e8dda2d1f39cb781b00c7ff6804de32edfc366e8cb002"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -2384,11 +2388,11 @@ hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "cb2933860740114b11a7a23627a914497825d4f3f217aa143ad37d948fd89ac6"
+hash = "93425b553701d91e60f8769faa0f629cc381d36466388eaebc3edeec30c06e36"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "a38a71336c92288a0e52949e045b378a05c547eccd6b69a20b9495982ae582b6"
+hash = "ef776db45070aab7e7292c7711b83584237f6402d3a813e486a6044f22594f8a"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -2404,7 +2408,7 @@ hash = "e96f84e77e632c17545ebe89dd332b29e7691ad303342dbf026401fde0fdd56c"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
-hash = "81da325989bf91020efc11f676e801d5ade634feb690803cdb89ca05cc895bd1"
+hash = "e9158d5331d70c01470e2034236e17171e7dab701522f857a2dd507796b038b9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
