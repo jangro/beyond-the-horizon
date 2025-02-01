@@ -196,7 +196,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "106b496255e8a733b079011ecd8dddb5e8880cc38f6fdc62fc029da14e71bc01"
+hash = "9bf3a4cce5203258d64123389fc74a140ef93dbc335ed98da38ddeb26012097f"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -1052,7 +1052,7 @@ hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/dw20.nbt"
-hash = "6352720644161a2c459e8dda2d1f39cb781b00c7ff6804de32edfc366e8cb002"
+hash = "5b1eb131035f4d4af3a108622eb311ba617c073a0fb58f724782d0b9e3e6c8fd"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -2351,6 +2351,10 @@ file = "kubejs/server_scripts/src/advancements/remove.js"
 hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
+file = "kubejs/server_scripts/src/block_events.js"
+hash = "0e166ac6fdee35e9b1a87a8921e630acaa7da8de47b2e14edaba9de3bfb81e82"
+
+[[files]]
 file = "kubejs/server_scripts/src/constants.js"
 hash = "87de5c80de06db6184ea7ce980507953612eb11e2b5089a4f21bcf3c4593ba92"
 
@@ -2380,7 +2384,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "d561426ee8d1d37728f4517f16ff1a1eeab74a6270bd6591fa0e5a9ef0a5afe1"
+hash = "4b23852da4fdd9fb36ecf55e2e04cd698b8446d0a3e50b8dd49e57ec014cb8c8"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2492,7 +2496,7 @@ hash = "c456e9dc65c5cb30be4c86f8db94cd0a5b6a8bc04a04686469ae4a0cd1393c9f"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
-hash = "4b98d68a484690507379ad5dc216a797e0f324ffcf90e7004e4b3155156acb1d"
+hash = "480091f362c42639ce3286834bb8f0e1aaab8c3488a9f5ce7f79ced0dc2f69a0"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block_entity_type.js"
@@ -2512,7 +2516,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "1766c30d67bfcdc51695074481f11afeec59e3053a9c582fbfd8e3f4da3aaeef"
+hash = "96ddeee216992112844be166b5029088e1c5b5aa3e1834353a6c9da20da396f5"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
