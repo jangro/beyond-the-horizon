@@ -278,4 +278,8 @@ ServerEvents.tags('item', event => {
     'deep_aether:stripped_yagroot_wood',
   ]);
 
+  // Clear block and item tags from plushies
+  event.removeAllTagsFrom(/perfectplushies:*/);
+  event.removeAllTagsFrom(/plushies:*/);
+  event.removeAllTagsFrom(/plushie_buddies:*/);
 });

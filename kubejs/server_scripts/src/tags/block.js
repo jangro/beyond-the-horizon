@@ -137,4 +137,8 @@ ServerEvents.tags('block', event => {
     'forbidden_arcanus:darkstone'
   ]);
 
+  // Clear block and item tags from plushies
+  event.removeAllTagsFrom(/perfectplushies:*/);
+  event.removeAllTagsFrom(/plushies:*/);
+  event.removeAllTagsFrom(/plushie_buddies:*/);
 });
