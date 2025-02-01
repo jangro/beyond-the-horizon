@@ -163,6 +163,14 @@ ServerEvents.chestLootTables(event => {
       // TODO: add something interesting
       pool.addItem('minecraft:cobweb');
     });
+    table.addPool(pool => {
+      pool.addItem(DESERT_MAP);
+      pool.addItem(FLOWER_FOREST_MAP);
+      pool.addItem(JUNGLE_MAP);
+      pool.addItem(SWAMP_MAP);
+      pool.addItem(LUSH_CAVES_MAP);
+      pool.addItem(CHERRY_GROVE_MAP);
+    });
   });
 
   event.modify('bth_structures:tinkerer_house_basement', table => {
@@ -342,6 +350,8 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(JUNGLE_TEMPLE_MAP);
       pool.addItem(MANSION_MAP);
       pool.addItem(EVOKER_FORT_MAP);
+    });
+    table.addPool(pool => {
       pool.addItem(BTH_RUINED_HANGAR_MAP);
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
@@ -365,6 +375,8 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(JUNGLE_TEMPLE_MAP);
       pool.addItem(MANSION_MAP);
       pool.addItem(EVOKER_FORT_MAP);
+    });
+    table.addPool(pool => {
       pool.addItem(BTH_RUINED_HANGAR_MAP);
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
