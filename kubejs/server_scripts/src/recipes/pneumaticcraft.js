@@ -58,6 +58,21 @@ ServerEvents.recipes(event => {
 
   // Thermopneumatic Processing Plant
 
+  // Liquid Source
+  event.custom({
+    "type": "pneumaticcraft:thermo_plant",
+    "exothermic": false,
+    "fluid_output": {
+      "amount": 100,
+      "fluid": "starbunclemania:source_fluid"
+    },
+    "item_input": {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    "pressure": 2.0,
+    "speed": 0.5
+  }).id(`${ID_PREFIX}thermo_plant/source_fluid`);
+
   // Liquid Chorus
   event.custom({
     "type": "pneumaticcraft:thermo_plant",
