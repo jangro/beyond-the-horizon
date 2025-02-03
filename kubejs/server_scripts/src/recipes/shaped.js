@@ -76,6 +76,19 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}minecolonies/gate_iron`);
 
   // Minecraft
+  COLORS.forEach((color) => {
+    if (color !== 'white') {
+      event.shaped(`minecraft:${color}_wool`, [
+        'WWW',
+        'WDW',
+        'WWW'
+      ], {
+        W: 'minecraft:white_wool',
+        D: `#forge:dyes/${color}`
+      }).id(`${ID_PREFIX}cheaper_${color}_wool`);
+    }
+  });
+
   event.shaped('minecraft:bundle', [
     'SRS',
     'R R',
