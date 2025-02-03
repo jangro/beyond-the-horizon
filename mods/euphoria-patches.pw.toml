@@ -1,6 +1,6 @@
 name = "Euphoria Patches"
 filename = "EuphoriaPatcher-1.4.3-r5.3-forge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
