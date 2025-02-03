@@ -9,6 +9,9 @@
  */
 ServerEvents.recipes(event => {
 
+  // Remove vanilla dyed wool recipes and use quark instead (duplicate but better)
+  COLORS.forEach((color) => event.remove({id: `minecraft:dye_${color}_wool`}));
+
   // Remove recipes for all bedrolls.
   COLORS.forEach((color) => event.remove({id: `upgrade_aquatic:${color}_bedroll`}));
 
