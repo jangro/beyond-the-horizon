@@ -59,6 +59,22 @@ ServerEvents.recipes(event => {
     S: 'botania:corporea_spark_master'
   }).id(`${ID_PREFIX}nanobot_soda_bottle_empty`);
 
+  event.shaped('minecolonies:gate_wood', [
+    ' X ',
+    'XXX',
+    ' X '
+  ], {
+    X: '#minecraft:logs'
+  }).id(`${ID_PREFIX}minecolonies/gate_wood`);
+
+  event.shaped('minecolonies:gate_iron', [
+    ' X ',
+    'XXX',
+    ' X '
+  ], {
+    X: 'createdeco:industrial_iron_nugget'
+  }).id(`${ID_PREFIX}minecolonies/gate_iron`);
+
   // Minecraft
   event.shaped('minecraft:bundle', [
     'SRS',
