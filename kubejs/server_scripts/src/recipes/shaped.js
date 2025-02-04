@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
   // Minecraft
   COLORS.forEach((color) => {
     if (color !== 'white') {
-      event.shaped(`minecraft:${color}_wool`, [
+      event.shaped(`8x minecraft:${color}_wool`, [
         'WWW',
         'WDW',
         'WWW'
