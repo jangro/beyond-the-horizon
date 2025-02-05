@@ -1436,7 +1436,7 @@ hash = "0ab1f327d863f8478199f41ebdfc8695acc67bebd2b25918378ae80e4fe8bb64"
 
 [[files]]
 file = "kubejs/data/deep_aether/forge/biome_modifier/sterling_aercloud.json"
-hash = "36f258d29f4ef3a909cd1ed3a3889606a22e30c6aad542bf8ce602e1229424db"
+hash = "1c742b8b9a5c6646ab036e34902ef3ac5451ffced0760b232e7171985e18f9a2"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/aerglow_forest.json"
@@ -1444,7 +1444,7 @@ hash = "c365eaa2090e5f8b2e1a9c10c3fb89973e7f61247d116ec3238f27513ef51d90"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/aerlavender_fields.json"
-hash = "47bb8eba62096d03050fa4da35dc92d437ee7057bb526cf69a4aff1b04daaa5e"
+hash = "768579f9118a90d9d4a36aea9a732048df53ac5b92f5649cb556294cb893b502"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/blue_aerglow_forest.json"
@@ -1452,7 +1452,7 @@ hash = "848f30f88245a985b2ecec7dd093003e7dd90e6aa539e66786e8a32835401fda"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/cloud.json"
-hash = "467ca14ffe7121f526867fdc5000e27747da9bced3f5a6e261f141642286481b"
+hash = "4b48ebbd1c2d65ada56b86ca07af311510ae240b5331f10ee56faa14f40cda82"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/golden_grove.json"
@@ -1472,7 +1472,7 @@ hash = "23c43af9cb97ec9b561ba8b32ddb09f2630db3bb0ad86f3c51354b3219344ecc"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/yagroot_swamp.json"
-hash = "4cb29f51316063dbe9de6e20e012bbad794c3f2076df6bd537dc51ff4cd36bef"
+hash = "4b3f73a1f662d4713a0568187ad2c63885e99ca138fe164265e7c8a7ec85ba82"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/placed_feature/sterling_aercloud.json"
@@ -2123,6 +2123,10 @@ file = "kubejs/data/lost_aether_content/advancements/platinum_dungeon.json"
 hash = "4ab61645e46a643cffa421dcb359a43118d6aca0e0265439112e44cb81f117bb"
 
 [[files]]
+file = "kubejs/data/lost_aether_content/worldgen/placed_feature/pink_aercloud.json"
+hash = "eaefd08cfd6a821dfbdc95b1fc51d55d46551ed42388bad72edc104b72385e4d"
+
+[[files]]
 file = "kubejs/data/lost_aether_content/worldgen/structure_set/platinum_dungeon.json"
 hash = "ee3d68813e385ccf299241e21ffee6a89207c25c598ab2ef8cd191a75561b41f"
 
@@ -2556,7 +2560,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "c456e9dc65c5cb30be4c86f8db94cd0a5b6a8bc04a04686469ae4a0cd1393c9f"
+hash = "4fcff325361e885e3f8448acdb7541e717596aece84c45ff9585e6dd2b1dc483"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"

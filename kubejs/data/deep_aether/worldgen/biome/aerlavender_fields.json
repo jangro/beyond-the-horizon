@@ -48,7 +48,8 @@
       "aether:berry_bush_patch"
     ],
     [
-      "aether:crystal_island"
+      "aether:crystal_island",
+      "deep_aether:sterling_aercloud"
     ]
   ],
   "has_precipitation": false,

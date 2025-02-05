@@ -27,11 +27,23 @@
     [],
     [],
     [
+      "aether:aether_dirt_ore",
+      "aether:icestone_ore",
+      "aether:ambrosium_ore",
+      "aether:zanite_ore",
+      "aether:gravitite_ore_buried",
+      "aether:gravitite_ore"
     ],
     [],
+    [],
     [
-    ],
-    [
+      "aether:skyroot_forest_trees",
+      "aether:holiday_tree",
+      "aether:grass_patch",
+      "aether:tall_grass_patch",
+      "aether:white_flower_patch",
+      "aether:purple_flower_patch",
+      "aether:berry_bush_patch"
     ],
     []
   ],

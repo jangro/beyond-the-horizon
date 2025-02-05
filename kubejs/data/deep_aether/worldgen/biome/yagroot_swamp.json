@@ -50,7 +50,9 @@
       "aether:purple_flower_patch",
       "aether:berry_bush_patch"
     ],
-    []
+    [
+      "lost_aether_content:pink_aercloud"
+    ]
   ],
   "has_precipitation": false,
   "spawn_costs": {

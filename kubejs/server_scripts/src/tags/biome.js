@@ -88,6 +88,8 @@ ServerEvents.tags('worldgen/biome', event => {
     'irons_spellbooks:has_structure/mountain_tower',
     'irons_spellbooks:has_structure/pyromancer_tower',
 
+    'lost_aether_content:has_pink_aerclouds',
+
     // Remove abandoned colonies completely
     'minecolonies:has_structure/asian_colony',
     'minecolonies:has_structure/caledonia_colony',
