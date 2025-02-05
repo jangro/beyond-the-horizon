@@ -111,5 +111,9 @@ ItemEvents.tooltip(event => {
   addInfo('plushie_buddies:plushie_zombie_villager', 'tooltip.bth.plushies.zombie_villager');
   addInfo('plushie_buddies:plushie_zombified_piglin', 'tooltip.bth.plushies.zombified_piglin');
 
-
+  addInfo('aether:blue_aercloud', 'tooltip.bth.aercloud');
+  addInfo('aether:cold_aercloud', 'tooltip.bth.cold_aercloud');
+  addInfo('aether:golden_aercloud', 'tooltip.bth.aercloud');
+  addInfo('deep_aether:sterling_aercloud', 'tooltip.bth.aercloud');
+  addInfo('lost_aether_content:pink_aercloud', 'tooltip.bth.aercloud');
 });

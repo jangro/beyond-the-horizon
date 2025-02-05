@@ -240,6 +240,8 @@
   "subtitle.mighty_mail.package_open": "Package opened",
   
   "bth.comment.tooltips": "----- Tooltips -----",
+  "tooltip.bth.aercloud": "\u00A77Can be found in similar color biomes",
+  "tooltip.bth.cold_aercloud": "\u00A77Can be found in skyroot forests",
   "tooltip.bth.coconut_maul": "Share this with all ur friends to totally Coconut Maul them.",
   "tooltip.bth.terminus": "Blade of the Dimensional Master",
   "tooltip.bth.nanobot_soda_bottle": "A strange mix of things",
