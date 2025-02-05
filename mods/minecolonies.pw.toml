@@ -1,13 +1,13 @@
 name = "MineColonies"
-filename = "minecolonies-1.20.1-1.1.796-snapshot.jar"
+filename = "minecolonies-1.20.1-1.1.806-snapshot.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5fd218af1140e0f6c385c49e12bd51ffa2404784"
+hash = "8e0700f1b89bcf855d0da6624c8d2d5e2f64d187"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6107962
+file-id = 6154403
 project-id = 245506
