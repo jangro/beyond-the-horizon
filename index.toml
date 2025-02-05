@@ -68,7 +68,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "e0ac7c5930388640a9aacbb3f42209e0df36b4b73fa9a329616b5f939eb962fa"
+hash = "769306a8afe34581e4bb8a32403b7b6047a827c3da239ff0187a5b2fa3fb69dc"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -112,19 +112,35 @@ hash = "2533259a7b3f2a68f743bb6f631cbfbc7f145a51b1585dbcc4275d9065f479fb"
 
 [[files]]
 file = "config/fancymenu/assets/button-100x25-default.png"
-hash = "ae2c6c01cdebdde4988389857672c5b8f4addbc7493d0b72300721dbc25f82a9"
+hash = "758f918ef87e6e7b93046712c540cb4b1978326682fdf834fee1724bceabf074"
 
 [[files]]
 file = "config/fancymenu/assets/button-100x25-hover.png"
-hash = "cea93ee650845b1ee6650702b9bf2c20d44feeb9f16954b47905207b990c02ec"
+hash = "bf40bfd8fd81e906d25fc8937d331aa998b0e25a515c25430f88a49ba95091ea"
+
+[[files]]
+file = "config/fancymenu/assets/button-112x32-default.png"
+hash = "4445a33c857dca673b60450011debe3868a2030be80fd786722e6335dd41988f"
+
+[[files]]
+file = "config/fancymenu/assets/button-112x32-hover.png"
+hash = "7c3ab53d171839cad28e62f7a4567df73b5ceece021fba5662801144681eec7b"
 
 [[files]]
 file = "config/fancymenu/assets/button-160x40-default.png"
-hash = "d7d07a8217214849af904000f2910086438453b232a190d14b278d522233b836"
+hash = "8766a1f9adc24b7d89d63fa83d0758d59a3b0f546909c123c6139aa455d45ff1"
 
 [[files]]
 file = "config/fancymenu/assets/button-160x40-hover.png"
-hash = "2e58ef228b157c408b603021c649aa39d227c815e022262a02b0d5cb85f2010a"
+hash = "ee044a872e08c478e507ba4a1fa055da2256a02a34b6af947656281bc87178b7"
+
+[[files]]
+file = "config/fancymenu/assets/button-160x48-default.png"
+hash = "87f926496e767c53942f101f049a9f14a46879849f6f9500aa1df3a9a22213f8"
+
+[[files]]
+file = "config/fancymenu/assets/button-160x48-hover.png"
+hash = "755b670c1f999f20ecbd863e70c2cdeec84cbb86b00247d34c013688414c0562"
 
 [[files]]
 file = "config/fancymenu/assets/button-20x20-accessibility-default.png"
@@ -173,6 +189,46 @@ hash = "9032a4fa2d8dcb94f82da553e02f3fb88855e6c1b47caa2f687a23d547c8c472"
 [[files]]
 file = "config/fancymenu/assets/button-20x20-lang-hover.png"
 hash = "dcdad706453729d1156ea6c7dab607117284f1611fc91d0d1c34f9fe27da8bd3"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-accessibility-default.png"
+hash = "77adca9ce2251a7a41a2483dc456ec40c8fec25c59c090a58986ad5242e3a396"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-accessibility-hover.png"
+hash = "a3571e22a9da6e37c139d825aaafbe32af3495587c90bd4ce3dc01fc11a15fa2"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-curseforge-default.png"
+hash = "d8bf84cbab650ef5442003685990ee47c4899726517d0b09fd989de7e741dfb5"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-curseforge-hover.png"
+hash = "194d0c56676998af2b19a231c1596bf8636f919b7de7a46cd9aa71aff80be683"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-discord-default.png"
+hash = "4527c8e65e053e3b673f6ba6cc7a6a388383281be7a7ad394db913c7c35c7014"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-discord-hover.png"
+hash = "5a0fc6092761b4403968fa9f280b9a65706fc4eec2df42ebe7021f8e50add985"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-github-default.png"
+hash = "b78be7ed7f29a4dbf6f7c26a427acbf4f0ffe33c117465864cf3e3305a8eecf6"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-github-hover.png"
+hash = "e0b1009682f580fff689779751aa7eb2e225de5b63209daa924c75164e3ffd28"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-lang-default.png"
+hash = "e03d8da68c5cc1d6c43d231ba84c36dd96b4ffc75cf80c3c508ac50e92a06798"
+
+[[files]]
+file = "config/fancymenu/assets/button-32x32-lang-hover.png"
+hash = "5bd9a7ca01cd58618494266db5a409ddac0dcb7b1b47409cd38f581990fbe9bf"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -533,6 +589,10 @@ hash = "aadee2369bf21188b17c00d0c3c3820f64091fb0fc534502ae7199f239aa270a"
 [[files]]
 file = "kubejs/assets/perfectplushies/lang/en_us.json"
 hash = "b8142d9f263d85748eb79d2a5faa45f80f7f6b028e82fa297e34dbeedc399893"
+
+[[files]]
+file = "kubejs/assets/plushie_buddies/lang/en_us.json"
+hash = "e215c8e70d5e6585f3b982a455a41ecd916695ecacbd97efb89e7670ea24e600"
 
 [[files]]
 file = "kubejs/assets/rats/lang/en_us.json"
@@ -1060,7 +1120,7 @@ hash = "ae6ab4f4717125b32183312a84425530df0b626c1ca6598407ea3065d074f756"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/house.nbt"
-hash = "1b4668985c4b823637811754230d01899de47c1b7049be7c8bd6e9f03f5744cf"
+hash = "3afc81789dfe8e46ff41d6fe0676dffa8571853394166a16fb31c08201a964ca"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/bunker.nbt"
@@ -1391,12 +1451,20 @@ file = "kubejs/data/deep_aether/worldgen/biome/blue_aerglow_forest.json"
 hash = "848f30f88245a985b2ecec7dd093003e7dd90e6aa539e66786e8a32835401fda"
 
 [[files]]
+file = "kubejs/data/deep_aether/worldgen/biome/cloud.json"
+hash = "467ca14ffe7121f526867fdc5000e27747da9bced3f5a6e261f141642286481b"
+
+[[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/golden_grove.json"
 hash = "a4a856c4779327648a5a082f31f2fb39e7b2295d95d0e161083f655725b594f8"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/golden_heights.json"
 hash = "629ccd78f8f46287ae08d59a35cee78b776909183befa489ffd4e517f8a6eba8"
+
+[[files]]
+file = "kubejs/data/deep_aether/worldgen/biome/luminescent_forest.json"
+hash = "76fa121c7d8e61986d086fa49917d6ab2f35eccab5f07d088db11c5b73d509cd"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/biome/mystic_aerglow_forest.json"
@@ -1411,12 +1479,8 @@ file = "kubejs/data/deep_aether/worldgen/placed_feature/sterling_aercloud.json"
 hash = "5e09465c3a578fdac60b85fee8fd0ac7924e94e78fbbcffc7da3c637b44481b5"
 
 [[files]]
-file = "kubejs/data/deep_aether/worldgen/structure/lake_oasis.json"
-hash = "4c9d0015311940877505a73846aaf531c5aea9cd816bf28c6aaad33f00e76063"
-
-[[files]]
-file = "kubejs/data/deep_aether/worldgen/structure_set/lake_oasis.json"
-hash = "f0bf219d4d84b375275c9e8dbd56233389867ec7db4db2e1ea9192ac24d916fa"
+file = "kubejs/data/deep_aether/worldgen/structure_set/brass_dungeon.json"
+hash = "2c70d39e0ee7e818d2be7d789f84081f41ee99e5818b2f88b3d0982022a8365f"
 
 [[files]]
 file = "kubejs/data/dragonmounts/dragonmounts/dragon_breeds/aether.json"
@@ -2460,11 +2524,11 @@ hash = "4a470c33f73bda75a291c919aed6082365061e89a7a0a3e5b7732f5bca2754a6"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/pneumaticcraft.js"
-hash = "b28649a612f3ff287ad4d78eb21b6ed07f7d1392231105bf0ba822b206c65f15"
+hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "820e32ca1e00657e42bc8feb74cd1b0ea0867d0cb50558e602860314c4ec8b1f"
+hash = "f4b3807f8f85506240d9e7f4e36e4a6e6196ceb3dd09953a1e2084272abf488f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -2472,7 +2536,7 @@ hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "f5e788e99d92f01aee2b041965e97f925fa31a2620bec0d91008cefe37c13ca8"
+hash = "9de0adb9a14b59b29d1501f1dd2d0881cd19979cbe66332533b6254375cd2ad3"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -3507,7 +3571,7 @@ metafile = true
 
 [[files]]
 file = "mods/melody.pw.toml"
-hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
+hash = "bd52722f1417e24a4acee3bf4fc59c5bf074627f7aaaaf8fd33056c7ef170bc3"
 metafile = true
 
 [[files]]
@@ -4159,9 +4223,9 @@ hash = "aefe892a55ec10256b1a8fb44376072be6c560ad2c88f693ac3269a4e4950a80"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.3 + EuphoriaPatches_1.4.3.txt"
+file = "shaderpacks/ComplementaryReimagined_r5.4 + EuphoriaPatches_1.5.2.txt"
 hash = "23d953eea34c3756c4c099128ad2e6da7fda7394d425206497608cf802675410"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.3 + EuphoriaPatches_1.4.3.txt"
-hash = "6adc4f5614f21679189eb722ee3108dd9518a67c23355eba1dd9a1984a0a144a"
+file = "shaderpacks/ComplementaryUnbound_r5.4 + EuphoriaPatches_1.5.2.txt"
+hash = "1e3f8453ffee81373848d2dbfb1f1029156057db1eb944fab66b9f44c5d0bf28"
