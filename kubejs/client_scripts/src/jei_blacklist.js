@@ -112,6 +112,15 @@ JEIEvents.hideItems(event => {
     /woodworks:.*ladder/,
   ]);
 
+  ['copper', 'iron', 'gold', 'emerald', 'diamond', 'netherite'].forEach((material) => {
+    event.hide(`lightmanscurrency:coin_${material}`);
+    event.hide(`lightmanscurrency:coin_chocolate_${material}`);
+    event.hide(`lightmanscurrency:coinpile_${material}`);
+    event.hide(`lightmanscurrency:coinpile_chocolate_${material}`);
+    event.hide(`lightmanscurrency:coinblock_${material}`);
+    event.hide(`lightmanscurrency:coinblock_chocolate_${material}`);
+  });
+
   // Hide IE dusts that are replaced by Create crushed raw ores.
   ['aluminum', 'copper', 'gold', 'iron', 'lead', 'nickel', 'silver'].forEach((material) =>
     event.hide(`immersiveengineering:dust_${material}`)
