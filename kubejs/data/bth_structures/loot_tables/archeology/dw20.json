@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "buildinggadgets2:gadget_building",
+          "functions": [{
+              "function": "minecraft:set_nbt",
+              "tag": "{energy: 251048}",
+              "conditions": []
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buildinggadgets2:gadget_exchanging",
+          "functions": [{
+              "function": "minecraft:set_nbt",
+              "tag": "{energy: 310132}",
+              "conditions": []
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buildinggadgets2:gadget_copy_paste",
+          "functions": [{
+              "function": "minecraft:set_nbt",
+              "tag": "{energy: 173482}",
+              "conditions": []
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buildinggadgets2:gadget_cut_paste",
+          "functions": [{
+              "function": "minecraft:set_nbt",
+              "tag": "{energy: 98134}",
+              "conditions": []
+          }]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "buildinggadgets2:gadget_destruction",
+          "functions": [{
+              "function": "minecraft:set_nbt",
+              "tag": "{energy: 131823}",
+              "conditions": []
+          }]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "bth_structures:archeology/dw20"
+}

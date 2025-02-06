@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:sturdy_pipes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:rotary_cannon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:enhanced_propeller"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:nether_engine"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:hull_reinforcement"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:improved_landing_gear"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "immersive_aircraft:sail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "bth_structures:archeology/hangar"
+}

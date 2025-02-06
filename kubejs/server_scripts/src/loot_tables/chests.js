@@ -40,7 +40,7 @@ ServerEvents.chestLootTables(event => {
 
   event.modify('bth_structures:dw20/hidden', table => {
     table.addPool(pool => {
-      pool.addItem(Item.of('buildinggadgets2:gadget_building', '{energy:200000}'), 1, 1);
+      // Building gadget was moved to archeology. What to put here instead (in addtion to coin treasure)?
     });
   });
 

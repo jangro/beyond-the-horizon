@@ -6,7 +6,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "location": "bth_structures:dw20",
-            "processors": "minecraft:empty",
+            "processors": "bth_structures:dw20",
             "projection": "rigid"
         }
     }]

@@ -6,7 +6,7 @@
         "element": {
             "element_type": "minecraft:single_pool_element",
             "location": "bth_structures:ruined_hangar/hangar",
-            "processors": "minecraft:empty",
+            "processors": "bth_structures:hangar",
             "projection": "rigid"
         }
     }]

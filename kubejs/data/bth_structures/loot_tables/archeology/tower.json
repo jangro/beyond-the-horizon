@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "lightmanscurrency:ancient_coin",
+          "coin": "COPPER",
+          "weight": 4
+        },
+        {
+          "type": "lightmanscurrency:ancient_coin",
+          "coin": "IRON",
+          "weight": 3
+        },
+        {
+          "type": "lightmanscurrency:ancient_coin",
+          "coin": "GOLD",
+          "weight": 2
+        },
+        {
+          "type": "lightmanscurrency:ancient_coin",
+          "coin": "DIAMOND",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "bth_structures:archeology/tower"
+}

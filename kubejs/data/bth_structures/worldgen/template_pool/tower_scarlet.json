@@ -6,7 +6,7 @@
         "element": {
             "element_type": "minecraft:legacy_single_pool_element",
             "location": "bth_structures:tower_scarlet",
-            "processors": "minecraft:empty",
+            "processors": "bth_structures:tower",
             "projection": "rigid"
         }
     }]
