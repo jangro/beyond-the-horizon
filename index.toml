@@ -388,7 +388,7 @@ hash = "43c19624abcd9427d4a5fc5aaf5949d16f9a6ff10ab7aae7965bfefdb0f2fddf"
 
 [[files]]
 file = "config/lightmanscurrency-common.lcconfig"
-hash = "1f75edfa20a9842447a8c239b87be1e492b42bea0795c34ef610a1f543fd88aa"
+hash = "1cde1e4f79934e8174390b587b30b56fcbc6f3f6afc57252dae912ee1f310fa0"
 
 [[files]]
 file = "config/lightmanscurrency-server.lcconfig"
@@ -564,7 +564,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "2b16d16e2f1edab6a86c65e7f1c9802c395bdbd99452fa24a4cdc7aa34623bf8"
+hash = "f7b0692264c78136ea38bea9914dfac91761b3ccbdf32485297f7bee476eff2f"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -600,7 +600,7 @@ hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
 
 [[files]]
 file = "kubejs/client_scripts/src/item_tooltip.js"
-hash = "ee0a4a43a2d2ff0d12b2f5130f9e2eed01003b68b9ca8bdc3cd89ad91747ecd2"
+hash = "51b73a6c3f07859a4100c3f8594b504f544fbea5f6d2e05fc7b1d7c5fbca6ccd"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_add_plushies.js"
@@ -608,7 +608,7 @@ hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "934600921da12bf93eb66d8bceef99ea9464570181d48f2911424ec3d6d458ca"
+hash = "1e5882029b6d29c9aa0f90a5795fbbc6eff7f97bc582b575b4570129e0892bfb"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
