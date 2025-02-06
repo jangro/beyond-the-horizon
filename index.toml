@@ -564,7 +564,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "f7b0692264c78136ea38bea9914dfac91761b3ccbdf32485297f7bee476eff2f"
+hash = "6691b98c9172afb92aa23a8724de224cb8a313fc1093d20efb195ab84d0f5159"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -573,6 +573,14 @@ hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 [[files]]
 file = "kubejs/assets/bth/textures/item/coconut_maul.png"
 hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/lembas_bread.png"
+hash = "800a33289b9d7ea515e4b6702dbb78526cec982a2e6cefe9fb4a92ecb3768529"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/mallorn_leaf.png"
+hash = "93b5c80e738b470b429526d68afbcf465b1152aed7681f38473dd51d257bf68d"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle.png"
@@ -2480,7 +2488,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "4f8b415dca0532c759543abbb66c9ffac109da0fad605580693cdcaab68bf9f9"
+hash = "9f2ef9377e9327def5237a18d87c0cc793ea43cdbf93035d3dc672f997fc9b68"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2516,7 +2524,7 @@ hash = "0049bd1c4d3f113d788d0572a464ca966ef33ae3082421bf3cb754113a5f97a1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/botania.js"
-hash = "1d3fff7a42dd6530065f38c7f714148524712e0f318b967533ba07e1152e40a7"
+hash = "440439a83d11acce3f433ab1035604055713633e8a06c964d580701dac795b90"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/clayworks.js"
@@ -2624,7 +2632,7 @@ hash = "4f89490a362ee6010df0aed3c65a8ad24b64ff90ff87b0f6d5fa6e224df91928"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "cf14fc8900dd66f90672cf8252511944922aed62ae32b838142fe868c179b333"
+hash = "a3381e5f4c98bca11a10dee3b51a4e21fb32a4b77c958b74dab8312f5f0090b1"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"

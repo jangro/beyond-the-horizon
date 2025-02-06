@@ -4,6 +4,13 @@
  * @file Custom item additions for Beyond the Horizon.
  */
 
+const LEMBAS_BREAD_EFFECTS = [
+  'You feel the essence of the ancients...',
+  'Crunchy on the outside, but soft on the inside.',
+  'Not tasty, but healthy!',
+  'Ancient magic is coursing through your veins.',
+];
+
 const NANOBOT_SODA_EFFECTS = [
   'You feel a strange sensation...',
   'It tingles throughout your body.',
@@ -50,6 +57,28 @@ StartupEvents.registry("item", event => {
     .unstackable();
 
   // BTH "super food"
+  event.create('bth:lembas_bread')
+    .food(food => {
+      food
+        .hunger(20)
+        .saturation(2.5)
+        .eaten(ctx => {
+          let index = Math.floor(LEMBAS_BREAD_EFFECTS.length * Math.random());
+          ctx.player.tell(Text.gold(LEMBAS_BREAD_EFFECTS[index]));
+          ctx.player.give('bth:mallorn_leaf');
+        })
+    })
+    .glow(true)
+    .texture('bth:item/lembas_bread')
+    .tooltip(Text.translate('tooltip.bth.lembas_bread'))
+    .translationKey('item.bth.lembas_bread');
+
+  event.create('bth:mallorn_leaf')
+    .texture('bth:item/mallorn_leaf')
+    .tooltip(Text.translate('tooltip.bth.mallorn_leaf'))
+    .translationKey('item.bth.mallorn_leaf');
+
+  // BTH "super food"
   event.create('bth:nanobot_soda_bottle')
     .food(food => {
       food
@@ -67,7 +96,6 @@ StartupEvents.registry("item", event => {
     .translationKey('item.bth.nanobot_soda_bottle');
 
   event.create('bth:nanobot_soda_bottle_empty')
-    .glow(true)
     .texture('bth:item/nanobot_soda_bottle_empty')
     .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle_empty'))
     .translationKey('item.bth.nanobot_soda_bottle_empty');

@@ -8,6 +8,16 @@
  * Chest Loot Table Event Handler
  */
 ServerEvents.chestLootTables(event => {
+  // Minecraft vanilla loot tables
+  event.modify('minecraft:ancient_city', table => {
+    table.addPool(pool => {
+      pool.addItem(Item.of('lightmanscurrency:coin_ancient', '{CoinType:"COPPER"}'), 40, [1, 1]).randomChance(0.5);
+      pool.addItem(Item.of('lightmanscurrency:coin_ancient', '{CoinType:"IRON"}'), 30, [1, 1]).randomChance(0.5);
+      pool.addItem(Item.of('lightmanscurrency:coin_ancient', '{CoinType:"GOLD"}'), 20, [1, 1]).randomChance(0.5);
+      pool.addItem(Item.of('lightmanscurrency:coin_ancient', '{CoinType:"DIAMOND"}'), 10, [1, 1]).randomChance(0.5);
+    });
+  });
+
   // BTH Structures
   event.modify('bth_structures:wagon/desk_drawer', table => {
     table.addPool(pool => {

@@ -187,6 +187,8 @@
   "item.bth.terminus": "Terminus",
   "item.bth.nanobot_soda_bottle": "NanoBot Soda Bottle",
   "item.bth.nanobot_soda_bottle_empty": "Empty NanoBot Soda Bottle",
+  "item.bth.lembas_bread": "Lembas Bread",
+  "item.bth.mallorn_leaf": "Mallorn Leaf",
   "item.minecraft.tipped_arrow.effect.absorption": "Arrow of Absorption",
   "item.minecraft.tipped_arrow.effect.astral": "Arrow of Astral",
   "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin's Grace",
@@ -246,6 +248,8 @@
   "tooltip.bth.terminus": "Blade of the Dimensional Master",
   "tooltip.bth.nanobot_soda_bottle": "A strange mix of things",
   "tooltip.bth.nanobot_soda_bottle_empty": "A bottle designed to hold nanobots",
+  "tooltip.bth.lembas_bread": "A bread baked with ancient magic.",
+  "tooltip.bth.mallorn_leaf": "Keeps bread fresh for a very long time.",
 
   "tooltip.bth.plushies.allay": "\u00A77Craft using a photograph containing an allay",
   "tooltip.bth.plushies.axolotl": "\u00A77Craft using a photograph containing an axolotl",
