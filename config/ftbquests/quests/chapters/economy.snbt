@@ -7,76 +7,21 @@
 	id: "6F6842619486B25F"
 	images: [
 		{
-			height: 1.175d
+			height: 2.3d
 			image: "botania:block/alfheim_portal_swirl"
 			rotation: 0.0d
-			width: 1.175d
+			width: 2.3d
 			x: 6.0d
 			y: -3.0d
 		}
 		{
-			height: 1.2d
-			image: "botania:block/livingwood_log"
+			height: 4.0d
+			image: "bth:textures/ancient_portal.png"
+			order: -1
 			rotation: 0.0d
-			width: 1.2d
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/glimmering_livingwood_log"
-			rotation: 0.0d
-			width: 1.2d
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/livingwood_log"
-			rotation: 0.0d
-			width: 1.2d
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/livingwood_log"
-			rotation: 0.0d
-			width: 1.2d
-			x: 5.0d
-			y: -2.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/glimmering_livingwood_log"
-			rotation: 0.0d
-			width: 1.2d
+			width: 4.0d
 			x: 6.0d
-			y: -4.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/glimmering_livingwood_log"
-			rotation: 0.0d
-			width: 1.2d
-			x: 5.0d
 			y: -3.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/alfheim_portal_activated"
-			rotation: 0.0d
-			width: 1.2d
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			height: 1.2d
-			image: "botania:block/livingwood_log"
-			rotation: 0.0d
-			width: 1.2d
-			x: 7.0d
-			y: -2.0d
 		}
 	]
 	order_index: 3
@@ -215,9 +160,9 @@
 		}
 		{
 			description: [
-				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
 				""
-				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "29BB3BCD8CF97BB4"
 			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
@@ -233,13 +178,13 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [
-				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
 				""
-				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "27A0303DC20F15B5"
 			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
@@ -255,13 +200,13 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [
-				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
 				""
-				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "2C69C14AA06A1039"
 			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
@@ -277,13 +222,13 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			description: [
-				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				"&6Ancient Coins&r are relics of the Ancients, remnants of a forgotten age. A master of botanical magic may open a &2gateway&r allowing for trade between our world and theirs."
 				""
-				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "3216E6F09031BDAC"
 			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
@@ -299,7 +244,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -0.5d
+			y: 0.0d
 		}
 	]
 	title: "Economy"
