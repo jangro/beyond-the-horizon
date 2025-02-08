@@ -42,10 +42,7 @@ StartupEvents.registry("item", event => {
     .unstackable();
 
   // Terminus, Blade of the Dimensional Master
-  // Note: This item has required NBT data that is added when crafting it.
-  // It won't function completely when using /give or the Creative Tab.
-  // TODO: See if there's a way to apply NBT data by default.
-  event.create('bth:terminus', 'sword')
+  event.create('bth:terminus', 'irons_spells_js:magic_sword')
     .attackDamageBaseline(9.0)
     .fireResistant(true)
     .maxDamage(3270)
@@ -54,6 +51,8 @@ StartupEvents.registry("item", event => {
     .tier('netherite')
     .tooltip(Text.translate('tooltip.bth.terminus'))
     .translationKey('item.bth.terminus')
+    .addDefaultSpell('bth:terminus_singularity', 1)
+    .addDefaultSpell('bth:terminus_space_fold', 2)
     .unstackable();
 
   // BTH mid game "super food" 2 hearts, 2.5 hours
