@@ -49,3 +49,28 @@
     event.server.runCommandSilent(`execute in ${event.level.dimension} run playsound plushie_buddies:plushie_sound master @p ${event.block.x} ${event.block.y} ${event.block.z}`);
   });
 });
+
+BlockEvents.rightClicked("botania:alfheim_portal", event => {
+  let player = event.player;
+  if (!player || event.hand !== "MAIN_HAND") { return; }
+
+  let heldItem = player.getMainHandItem();
+  if (heldItem.id === "bth:mallorn_leaf") {
+    event.player.mainHandItem.count--;
+
+    // Define possible random rewards
+    const rewards = [
+      "botania:dragonstone",
+      "botania:elementium_ingot",
+      "botania:manasteel_ingot",
+      "botania:pixie_dust",
+      "botania:quartz_elven",
+      "botania:elf_glass",
+      "botania:dreamwood_log",
+      "bth:lembas_bread"
+    ];
+
+    let chosenReward = rewards[Math.floor(Math.random() * rewards.length)];
+    player.give(chosenReward);
+  }
+});

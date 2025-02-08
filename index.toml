@@ -564,7 +564,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "6691b98c9172afb92aa23a8724de224cb8a313fc1093d20efb195ab84d0f5159"
+hash = "fb09341a14efb3eb5b617c308a52a0d3a819d5751812d5f672756366ac7d1863"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -997,6 +997,10 @@ hash = "3a88018d384b77b4090eecb3a4c96158dbd49ce5fc4f3d80d831be0bca06ec91"
 [[files]]
 file = "kubejs/data/bth/loot_tables/heart_container.json"
 hash = "eaee815db31b77766ae0c3893e4b7b420c38d72c7e1ace56d9aa82e2d56193c4"
+
+[[files]]
+file = "kubejs/data/bth/loot_tables/mallorn_leaf_elven_trade.json"
+hash = "bdb5a82d8ea2d0c6048f5415e7aaa21545f1adeb80655ba6f3a39ba50a45928d"
 
 [[files]]
 file = "kubejs/data/bth/loot_tables/stamina_vessel.json"
@@ -2456,7 +2460,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/block_events.js"
-hash = "658750f01d6898b528242bb5ed6b99ed234db0fa3c999efc391c145696cce30f"
+hash = "dd66010acc1bd8f6de38cdb7d1acda61965982104a8fccd01d9226957baea748"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
@@ -2524,7 +2528,7 @@ hash = "0049bd1c4d3f113d788d0572a464ca966ef33ae3082421bf3cb754113a5f97a1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/botania.js"
-hash = "440439a83d11acce3f433ab1035604055713633e8a06c964d580701dac795b90"
+hash = "305042bda108b63554e828372fea625f9914d7214b04183084cf51eeda9889ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/clayworks.js"
@@ -2584,7 +2588,7 @@ hash = "a55166f07014c59be73fd36d5f11bea8bc9fa110e4fd9c4323b68b1e2beabb9e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
-hash = "3727d0c0de3c81dbc4b4b387bff8c4ca57df51d59147237501d6dd1e401ca8ec"
+hash = "2ef0c27241b385727f120d37702921ca24e9c60f7c5a9a538512496cc0deb1c9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smithing.js"
@@ -2627,12 +2631,20 @@ file = "kubejs/server_scripts/src/tags/structure.js"
 hash = "9f54400c8bbc06be1a5e448dfd267bbed1c1079008cef0eb0f09462d077ce20d"
 
 [[files]]
+file = "kubejs/startup_scripts/src/block.js"
+hash = "f2076e5cd8927f57d95716977052bee2e1a8c3374f3a130e50af4497bc834827"
+
+[[files]]
 file = "kubejs/startup_scripts/src/creative_tabs.js"
 hash = "4f89490a362ee6010df0aed3c65a8ad24b64ff90ff87b0f6d5fa6e224df91928"
 
 [[files]]
+file = "kubejs/startup_scripts/src/fluid.js"
+hash = "f47e82e9eacb2fdabf9ccca9e66322874fd5ab663cfe6f6a51076a7e23b66d1d"
+
+[[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "a3381e5f4c98bca11a10dee3b51a4e21fb32a4b77c958b74dab8312f5f0090b1"
+hash = "c6ebbee76d69b109edf88ddc4cad72bfd7da3eaf1c225fed4239d5c942cefb93"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -2665,6 +2677,10 @@ hash = "7cb79afe09b12af5809de750263934d17f9ddac833a099d1a5c2e38c956626b3"
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/woodworks.js"
 hash = "8faa1a59c7ce736d844ba38b3f57974e5928d26fa186aaa1a1da6c5e2c1dea6d"
+
+[[files]]
+file = "kubejs/startup_scripts/src/spell.js"
+hash = "a7506f1650cf63006155b9e3dc889b3476a0053db9c56a3e2c7ddb72e33b06b3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/worldgen.js"
@@ -3542,6 +3558,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs-create.pw.toml"
 hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-irons-spells.pw.toml"
+hash = "820082842a6136c2bcbd0d2715cb5ff7a24af7e5e5261a4558fa69c13c25c863"
 metafile = true
 
 [[files]]

@@ -56,12 +56,12 @@ StartupEvents.registry("item", event => {
     .translationKey('item.bth.terminus')
     .unstackable();
 
-  // BTH "super food"
+  // BTH mid game "super food" 2 hearts, 2.5 hours
   event.create('bth:lembas_bread')
     .food(food => {
       food
-        .hunger(20)
-        .saturation(2.5)
+        .hunger(4)
+        .saturation(6.25)
         .eaten(ctx => {
           let index = Math.floor(LEMBAS_BREAD_EFFECTS.length * Math.random());
           ctx.player.tell(Text.gold(LEMBAS_BREAD_EFFECTS[index]));
@@ -78,7 +78,8 @@ StartupEvents.registry("item", event => {
     .tooltip(Text.translate('tooltip.bth.mallorn_leaf'))
     .translationKey('item.bth.mallorn_leaf');
 
-  // BTH "super food"
+
+  // BTH end game "super food" 10 hearts, 5 hours
   event.create('bth:nanobot_soda_bottle')
     .food(food => {
       food
