@@ -240,7 +240,13 @@
   "domesticationinnovation.sound.subtitle.pet_bed_use": "Pet bed used",
   "lightmanscurrency.subtitle.coins_clinking": "Coins clinking",
   "subtitle.mighty_mail.package_open": "Package opened",
-  
+
+  "spell.bth.comment": "----- Spells -----",
+  "spell.bth.terminus_singularity": "Terminus Singularity",
+  "spell.bth.terminus_singularity.guide": "A black hole like spell that comes with the Terminus blade.\n\nCan not be crafted.",
+  "spell.bth.terminus_space_fold": "Terminus Space Fold",
+  "spell.bth.terminus_space_fold.guide": "A teleportation spell that comes with the Terminus blade.\n\nTeleports you through blocks and to entities.\n\nCan not be crafted.",
+
   "bth.comment.tooltips": "----- Tooltips -----",
   "tooltip.bth.aercloud": "\u00A77Can be found in similar color biomes",
   "tooltip.bth.cold_aercloud": "\u00A77Can be found in skyroot forests",
@@ -338,5 +344,4 @@
   "tooltip.bth.plushies.zombie": "\u00A77Craft using a photograph containing a zombie",
   "tooltip.bth.plushies.zombie_villager": "\u00A77Craft using a photograph containing a zombie villager",
   "tooltip.bth.plushies.zombified_piglin": "\u00A77Craft using a photograph containing a zombified piglin"
-
 }

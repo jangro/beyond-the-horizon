@@ -1108,3 +1108,24 @@
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
+	[Spells."bth:terminus_singularity"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = true
+
+	[Spells."bth:terminus_space_fold"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 1.0
+		AllowCrafting = true

@@ -46,7 +46,7 @@ StartupEvents.registry("item", event => {
   // It won't function completely when using /give or the Creative Tab.
   // TODO: See if there's a way to apply NBT data by default.
   event.create('bth:terminus', 'sword')
-    .attackDamageBonus(9.0)
+    .attackDamageBaseline(9.0)
     .fireResistant(true)
     .maxDamage(3270)
     .rarity('EPIC')

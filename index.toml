@@ -540,7 +540,7 @@ hash = "2e0f859569d188d65e20fc7fd8f12a1916aeeb8fec909867e7f359d1ce658016"
 
 [[files]]
 file = "defaultconfigs/irons_spellbooks-server.toml"
-hash = "1a92296051186995967bdfaca1754c00a4b27788c889e7d7a41329273be600e9"
+hash = "c24c2c597a4b0ed993cf98890898e4f394340e13f70be681003cf2a056a90bc4"
 
 [[files]]
 file = "defaultconfigs/moremobgriefingoptions-server.toml"
@@ -564,7 +564,7 @@ hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "fb09341a14efb3eb5b617c308a52a0d3a819d5751812d5f672756366ac7d1863"
+hash = "9115ed3bca1f3fe571788ae46e222852bd009f2a34dca4e1ac49c5c4fcd3e25a"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
@@ -997,10 +997,6 @@ hash = "3a88018d384b77b4090eecb3a4c96158dbd49ce5fc4f3d80d831be0bca06ec91"
 [[files]]
 file = "kubejs/data/bth/loot_tables/heart_container.json"
 hash = "eaee815db31b77766ae0c3893e4b7b420c38d72c7e1ace56d9aa82e2d56193c4"
-
-[[files]]
-file = "kubejs/data/bth/loot_tables/mallorn_leaf_elven_trade.json"
-hash = "bdb5a82d8ea2d0c6048f5415e7aaa21545f1adeb80655ba6f3a39ba50a45928d"
 
 [[files]]
 file = "kubejs/data/bth/loot_tables/stamina_vessel.json"
@@ -2484,7 +2480,7 @@ hash = "b95f45c687cbf343caa5af2a84313d65bfc8c31f260d80bef934b927b39035f4"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
-hash = "a16d3fc0e03b1a664008a627bb24daf9f7f7aa2f9d716469728abf42e5252064"
+hash = "83be96c3ce87b56b74c6388f4d2539bf041d83f7f293705c75233c58b55f077f"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -2580,7 +2576,7 @@ hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "9de0adb9a14b59b29d1501f1dd2d0881cd19979cbe66332533b6254375cd2ad3"
+hash = "6cbd85585e3d2024bc687e7c2e4a4b0ed82c96fd73d328786fca4128aad49ac9"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -2588,7 +2584,7 @@ hash = "a55166f07014c59be73fd36d5f11bea8bc9fa110e4fd9c4323b68b1e2beabb9e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
-hash = "2ef0c27241b385727f120d37702921ca24e9c60f7c5a9a538512496cc0deb1c9"
+hash = "3727d0c0de3c81dbc4b4b387bff8c4ca57df51d59147237501d6dd1e401ca8ec"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smithing.js"
@@ -2680,7 +2676,7 @@ hash = "8faa1a59c7ce736d844ba38b3f57974e5928d26fa186aaa1a1da6c5e2c1dea6d"
 
 [[files]]
 file = "kubejs/startup_scripts/src/spell.js"
-hash = "a7506f1650cf63006155b9e3dc889b3476a0053db9c56a3e2c7ddb72e33b06b3"
+hash = "0758c3f75f75ddebea46da9f9135d480168f6d882318a729a541baeb2132c320"
 
 [[files]]
 file = "kubejs/startup_scripts/src/worldgen.js"
