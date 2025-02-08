@@ -5,6 +5,80 @@
 	group: ""
 	icon: "lightmanscurrency:trading_core"
 	id: "6F6842619486B25F"
+	images: [
+		{
+			height: 1.175d
+			image: "botania:block/alfheim_portal_swirl"
+			rotation: 0.0d
+			width: 1.175d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/glimmering_livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/alfheim_portal_activated"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 1.2d
+			image: "botania:block/livingwood_log"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -2.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -138,6 +212,94 @@
 			title: "Waystones"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				""
+				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+			]
+			id: "29BB3BCD8CF97BB4"
+			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			tasks: [{
+				id: "0A39FE740E6F3B9E"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "COPPER"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				""
+				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+			]
+			id: "27A0303DC20F15B5"
+			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			tasks: [{
+				id: "5798E5E6917BF256"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "IRON"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				""
+				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+			]
+			id: "2C69C14AA06A1039"
+			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			tasks: [{
+				id: "62C6A986578E4CC9"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "GOLD"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&6Ancient Coins&r are relics of a lost civilization, echoes of an age shrouded in mystery. With recent breakthroughs in magic, a &2gateway&r has opened—allowing for trade between our world and the enigmatic realm of the Ancients."
+				""
+				"Offer their long-forgotten currency back to them, and in return, receive treasures beyond imagination. What secrets lie within their realm? What knowledge do they hold? The answers await those bold enough to trade."
+			]
+			id: "3216E6F09031BDAC"
+			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			tasks: [{
+				id: "7B8481F12BBCBC3B"
+				item: {
+					Count: 1
+					id: "lightmanscurrency:coin_ancient"
+					tag: {
+						CoinType: "DIAMOND"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
 		}
 	]
 	title: "Economy"

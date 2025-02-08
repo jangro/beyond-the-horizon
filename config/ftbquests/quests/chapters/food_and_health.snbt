@@ -106,8 +106,8 @@
 			id: "23C667C0FAF5D66A"
 			subtitle: "Click and hover over food to see stats."
 			tasks: [{
-				id: "47A21278D81B1BA2"
-				item: "farmersdelight:roast_chicken"
+				id: "023F8EC2D1BE7E8A"
+				item: "bth:lembas_bread"
 				type: "item"
 			}]
 			x: -2.0d

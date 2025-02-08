@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensional_master"
+	group: ""
+	icon: {
+		Count: 1
+		id: "bth:terminus"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3305411A0ADD3AED"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4347A08D0B1856E2"
+				"0A52212D1930B00E"
+				"76A556399F80D429"
+				"6662A72A5F43446E"
+				"2A8B702A83DDF1C5"
+				"7F8CB882DF4C28E8"
+			]
+			description: [
+				"The darkest void, the unyielding metal, the power of gravity, and the finest cheese. Forged from four legendary swords, each tempered in the trials of a different dimension, &bTerminus&r is the &9Blade of the Dimensional Master&r."
+				""
+				"The wielder of &bTerminus&r holds the power to control space itself. Only those who have conquered all dimensions may lay claim to this reality-defying artifact."
+				""
+				"Will you master its power? Or will you falter, never truly reaching &6Beyond the Horizon&r?"
+			]
+			icon_scale: 0.8d
+			id: "2E4BD964F00AFB51"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Blade of the Dimensional Master."
+			tasks: [{
+				id: "6F5AEEDD1413236F"
+				item: {
+					Count: 1
+					id: "bth:terminus"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [
+								{
+									id: "bth:terminus_space_fold"
+									index: 0
+									level: 1
+									locked: 1b
+								}
+								{
+									id: "bth:terminus_singularity"
+									index: 1
+									level: 1
+									locked: 1b
+								}
+							]
+							maxSpells: 2
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6662A72A5F43446E"
+			tasks: [{
+				id: "3093DD4609FB8D47"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.1964285714285765d
+		}
+		{
+			id: "2A8B702A83DDF1C5"
+			tasks: [{
+				id: "755C1C86FBA3A253"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:draco_arcanus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.2142857142857153d
+			y: -2.196428571428566d
+		}
+		{
+			id: "4347A08D0B1856E2"
+			tasks: [{
+				id: "51CD2FF61DC81D83"
+				item: {
+					Count: 1
+					id: "rats:ratlantis_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "0A52212D1930B00E"
+			tasks: [{
+				id: "7B53DC6C0BA84EB5"
+				item: {
+					Count: 1
+					id: "deep_aether:stratus_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "7F8CB882DF4C28E8"
+			tasks: [{
+				id: "0B59A98F04527B12"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 1.2142857142857153d
+			y: -2.196428571428566d
+		}
+		{
+			id: "76A556399F80D429"
+			tasks: [{
+				id: "3B01A407AB58A82F"
+				item: "irons_spellbooks:weapon_parts"
+				type: "item"
+			}]
+			x: -1.2142857142857153d
+			y: 2.125d
+		}
+	]
+	title: "Dimensional Master"
+}
