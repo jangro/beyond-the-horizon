@@ -24,6 +24,8 @@ StartupEvents.registry("item", event => {
   // A spellbook for Iron's Spells and Spellbooks that comes filled with utility spells useful for explorers, such as recall.
   event.create('bth:adventurers_spell_book', 'irons_spells_js:spellbook')
     .setMaxSpellSlots(12)
+    .addDefaultAttribute("minecraft:generic.movement_speed", "Movement Speed", 0.2, "multiply_total")
+    .addDefaultAttribute("irons_spellbooks:max_mana", "Max Mana", 200, "addition")
     .addDefaultSpell('irons_spellbooks:summon_horse', 1)
     .addDefaultSpell('irons_spellbooks:recall', 2);
 
