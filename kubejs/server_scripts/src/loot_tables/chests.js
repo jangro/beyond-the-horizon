@@ -26,6 +26,9 @@ ServerEvents.chestLootTables(event => {
     table.addPool(pool => {
       pool.addItem('createdeco:copper_coin', 1, [1, 4]);
     });
+    table.addPool(pool => {
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.2);
+    });
   });
 
   event.modify('bth_structures:dw20/large_room', table => {
@@ -50,7 +53,7 @@ ServerEvents.chestLootTables(event => {
 
   event.modify('bth_structures:dw20/hidden', table => {
     table.addPool(pool => {
-      // Building gadget was moved to archeology. What to put here instead (in addtion to coin treasure)?
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
     });
   });
 
@@ -142,6 +145,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('minecraft:redstone', 10, [1, 12]);
     });
     table.addPool(pool => {
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.8);
+    });
+    table.addPool(pool => {
       pool.addItem(BTH_RUINED_HANGAR_MAP);
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
@@ -159,6 +165,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('immersive_aircraft:heavy_crossbow');
     });
     table.addPool(pool => {
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.3);
+    });
+    table.addPool(pool => {
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
@@ -172,6 +181,9 @@ ServerEvents.chestLootTables(event => {
       pool.rolls = [3, 6];
       // TODO: add something interesting
       pool.addItem('minecraft:cobweb');
+    });
+    table.addPool(pool => {
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_MAP);
@@ -227,6 +239,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('paraglider:stamina_vessel').randomChance(0.8);
     });
     table.addPool(pool => {
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
+    });
+    table.addPool(pool => {
       pool.addItem(DESERT_MAP);
       pool.addItem(FLOWER_FOREST_MAP);
       pool.addItem(JUNGLE_MAP);
@@ -250,18 +265,16 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('minecraft:spyglass').randomChance(0.5);
     });
     table.addPool(pool => {
-      pool.addItem('galosphere:salted_jerky', 1, [1, 6]).randomChance(0.5);
+      pool.rolls = [1, 4];
+      pool.addItem('galosphere:salted_jerky', 1, [1, 2]);
+      pool.addItem('alexsmobs:bison_fur', 1, [2, 6]);
     });
   });
 
   // Chest in the cabin of the industrial watch tower
   event.modify('bth_structures:watch_tower_top', table => {
     table.addPool(pool => {
-      pool.addItem('paraglider:paraglider', 5);
-      pool.addItem('paraglider:deku_leaf', 1);
-    });
-    table.addPool(pool => {
-      pool.addItem('paraglider:stamina_vessel').randomChance(0.8);
+      pool.addItem('immersiveengineering:glider');
     });
     table.addPool(pool => {
       pool.addItem(DESERT_MAP);

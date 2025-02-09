@@ -389,4 +389,18 @@ LootJS.modifiers((event) => {
         context.addLoot(LootEntry.of(Item.of('minecraft:player_head', '{SkullOwner:"Snedglowjr"}')).when((c) => c.randomChance(0.03)));
       }
     });
+
+  // Add bison fur to loot (bison fur block applied to boots make them not sink in powdered snow)
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(['eidolon:stray_tower'], false)
+    .randomChance(0.7)
+    .addLoot('5x alexsmobs:bison_fur');
+
+  // Guarantee a fur block in frozen towers
+  event
+    .addLootTypeModifier("chest")
+    .anyStructure(['bth_structures:tower_frozen'], false)
+    .addLoot('alexsmobs:bison_fur_block');
+
 });
