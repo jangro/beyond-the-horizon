@@ -288,7 +288,7 @@ hash = "4709f9e10041e11cd36fd1bb870885ee0bdbd59b7855f2137f5a431ea5da578a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "dc5452fb685c8d59a5381dfe63de9655a0633bb9b319c8857436d3f19d7f1857"
+hash = "b451265b61388305c8961313e1488b9df347b34cf03b1a2581585276ef000860"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
@@ -571,6 +571,26 @@ file = "kubejs/assets/bth/lang/en_us.json"
 hash = "9115ed3bca1f3fe571788ae46e222852bd009f2a34dca4e1ac49c5c4fcd3e25a"
 
 [[files]]
+file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
+hash = "a2525c55b5c9ddff76cd41340f55d4f119a5571fb3b8e40622171b87a13ff7c5"
+
+[[files]]
+file = "kubejs/assets/bth/models/item/adventurers_spell_book_gui.json"
+hash = "f194d39639fd9196723d144e10d0bd65a181a2375728ee4cbd936316fd5e0c9f"
+
+[[files]]
+file = "kubejs/assets/bth/models/item/adventurers_spell_book_model.json"
+hash = "5fee0ca737145927502c428aef54e68ca7fcd359c41c8e2425d9e211aee5ceb6"
+
+[[files]]
+file = "kubejs/assets/bth/models/item/adventurers_spellbook.json"
+hash = "7934ca46f01c660fa35e6c8827c51376dcdb4b623e9d55c913ceba672e266db4"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/adventurers_spell_book.png"
+hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
+
+[[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
 hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 
@@ -593,6 +613,10 @@ hash = "ce46b6157dde590e9d29fc306e83618fab91901ae9db55a52207179ea1236e7c"
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle_empty.png"
 hash = "8a3f6fb808eeb0d03851114272f0498e8a242ed4d1eb43a95a66fd17d8ba8e50"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/spell_book_models/adventurers_spell_book.png"
+hash = "a45dd4fd7da1a59b0720b1dfdc32c7787f326762f5831098b8137a47b8a54922"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/terminus.png"
@@ -2580,7 +2604,7 @@ hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "6cbd85585e3d2024bc687e7c2e4a4b0ed82c96fd73d328786fca4128aad49ac9"
+hash = "fbb44a35e507f4e32fed9bc1e749429bd63b1efb026fdb079b59f3de1d11fff5"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -2644,7 +2668,7 @@ hash = "f47e82e9eacb2fdabf9ccca9e66322874fd5ab663cfe6f6a51076a7e23b66d1d"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "c6ebbee76d69b109edf88ddc4cad72bfd7da3eaf1c225fed4239d5c942cefb93"
+hash = "7d3d49e3eed46191f7b6bd9440078f60381bb7411e17f651b3d8daad81f35988"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
