@@ -4,12 +4,13 @@
  * @file Global Functions for use in other scripts.
  */
 
+const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext')
+const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil')
+const $UUIDUtil = Java.loadClass("net.minecraft.core.UUIDUtil")
+
 function rnd(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
-const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext')
-const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil')
 
 /**
  *
@@ -55,8 +56,16 @@ global.terminus_singularity = (/** @type {Internal.CustomSpell$CastContext} */ c
   if (pos == null) {
     return;
   }
+
+  let uuid_array = $UUIDUtil.uuidToIntArray(player.uuid);
+  const i0 = uuid_array[0];
+  const i1 = uuid_array[1];
+  const i2 = uuid_array[2];
+  const i3 = uuid_array[3];
+  const radius = 12;
+
   //console.log(`Summoning black hole at ${pos.x()}, ${pos.y()}, ${pos.z()}`);
-  ctx.level.server.runCommandSilent(`/execute at ${player.uuid} run summon irons_spellbooks:black_hole ${pos.x()} ${pos.y()} ${pos.z()}`);
+  ctx.level.server.runCommandSilent(`/execute at ${player.uuid} run summon irons_spellbooks:black_hole ${pos.x()} ${pos.y()} ${pos.z()} {"Owner": [I; ${i0},${i1},${i2},${i3}],"Radius": ${radius}}`);
 };
 
 // Terminus Space Fold spell (Teleport)
