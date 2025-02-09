@@ -13,7 +13,8 @@ StartupEvents.registry("item", event => {
     .addDefaultAttribute('minecraft:generic.movement_speed', 'Movement Speed', 0.2, 'multiply_total')
     .addDefaultAttribute('irons_spellbooks:max_mana', 'Max Mana', 100, 'addition')
     .addDefaultSpell('irons_spellbooks:summon_horse', 1)
-    .addDefaultSpell('irons_spellbooks:recall', 1);
+    .addDefaultSpell('irons_spellbooks:recall', 1)
+    .translationKey('item.bth.adventurers_spell_book');
 
   // Coconut Maul
   // An easter egg weapon that hits harder but slower than a sword, but not to the same extreme as an axe.
