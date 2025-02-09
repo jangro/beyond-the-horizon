@@ -555,18 +555,6 @@ file = "defaultconfigs/sophisticatedbackpacks-server.toml"
 hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
-file = "kubejs/assets/bth/images/guide/bloodmoon.png"
-hash = "201916be40f0f6d4a89b910f56557435f5ecb4ab593def0c5423b9a84d932a1c"
-
-[[files]]
-file = "kubejs/assets/bth/images/guide/meteorite.png"
-hash = "8777707a57a6a5d0a6602fcee6abfe1fb0eed2c42e1ab62bd5b05b67e3fac77f"
-
-[[files]]
-file = "kubejs/assets/bth/images/guide/mountains.png"
-hash = "e9c2008f11a51e93f599b5093be46ab7f45d642a1108109e149022ab6d1261a4"
-
-[[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
 hash = "9115ed3bca1f3fe571788ae46e222852bd009f2a34dca4e1ac49c5c4fcd3e25a"
 
@@ -584,10 +572,6 @@ hash = "5fee0ca737145927502c428aef54e68ca7fcd359c41c8e2425d9e211aee5ceb6"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spell_book.png"
-hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
-
-[[files]]
-file = "kubejs/assets/bth/textures/item/adventurers_spellbook.png"
 hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 
 [[files]]
