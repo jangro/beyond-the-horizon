@@ -10,26 +10,26 @@ StartupEvents.registry("fluid", event => {
   event.create('bth:sugar_water')
     .thickTexture(0xEADDCA)
     .bucketColor(0xEADDCA)
-    .displayName('Sugar Water');
+    .translationKey('fluid.bth.sugar_water');
 
   event.create('bth:soul_mixture')
     .thickTexture(0x6F4E37)
     .bucketColor(0x6F4E37)
-    .displayName('Soul Mixture');
+    .translationKey('fluid.bth.soul_mixture');
 
   event.create('bth:ender_fuel')
     .thickTexture(0xA95C68)
     .bucketColor(0xA95C68)
-    .displayName('Ender Fuel');
+    .translationKey('fluid.bth.ender_fuel');
 
   event.create('bth:hyper_nutritious_goo')
     .thickTexture(0xCD78FF)
     .bucketColor(0xCD78FF)
-    .displayName('Hyper Nutritious Goo');
+    .translationKey('fluid.bth.hyper_nutritious_goo');
 
   event.create('bth:nanobot_soda')
     .thickTexture(0x4DD7FF)
     .bucketColor(0x4DD7FF)
-    .displayName('NanoBot Soda');
+    .translationKey('fluid.bth.nanobot_soda');
 
 });

@@ -4,28 +4,14 @@
  * @file Custom item additions for Beyond the Horizon.
  */
 
-const LEMBAS_BREAD_EFFECTS = [
-  'You feel the essence of the ancients...',
-  'Crunchy on the outside, but soft on the inside.',
-  'Not tasty, but healthy!',
-  'Ancient magic is coursing through your veins.',
-];
-
-const NANOBOT_SODA_EFFECTS = [
-  'You feel a strange sensation...',
-  'It tingles throughout your body.',
-  'Not tasty, but healthy!',
-  'Technology and magic is coursing through your veins.',
-];
-
 StartupEvents.registry("item", event => {
 
   // Adventurer's Spellbook
   // A spellbook for Iron's Spells and Spellbooks that comes filled with utility spells useful for explorers, such as recall.
   event.create('bth:adventurers_spell_book', 'irons_spells_js:spellbook')
     .setMaxSpellSlots(8)
-    .addDefaultAttribute("minecraft:generic.movement_speed", "Movement Speed", 0.2, "multiply_total")
-    .addDefaultAttribute("irons_spellbooks:max_mana", "Max Mana", 100, "addition")
+    .addDefaultAttribute('minecraft:generic.movement_speed', 'Movement Speed', 0.2, 'multiply_total')
+    .addDefaultAttribute('irons_spellbooks:max_mana', 'Max Mana', 100, 'addition')
     .addDefaultSpell('irons_spellbooks:summon_horse', 1)
     .addDefaultSpell('irons_spellbooks:recall', 2);
 
@@ -63,8 +49,8 @@ StartupEvents.registry("item", event => {
         .hunger(4)
         .saturation(6.25)
         .eaten(ctx => {
-          let index = Math.floor(LEMBAS_BREAD_EFFECTS.length * Math.random());
-          ctx.player.tell(Text.gold(LEMBAS_BREAD_EFFECTS[index]));
+          let index = Math.floor(4 * Math.random());
+          ctx.player.tell(Text.translate(`item_effect.bth.lembas_bread_${index}`).gold());
           ctx.player.give('bth:mallorn_leaf');
         })
     })
@@ -86,8 +72,8 @@ StartupEvents.registry("item", event => {
         .hunger(20)
         .saturation(2.5)
         .eaten(ctx => {
-          let index = Math.floor(NANOBOT_SODA_EFFECTS.length * Math.random());
-          ctx.player.tell(Text.gold(NANOBOT_SODA_EFFECTS[index]));
+          let index = Math.floor(4 * Math.random());
+          ctx.player.tell(Text.translate(`item_effect.bth.nanobot_soda_${index}`).gold());
           ctx.player.give('bth:nanobot_soda_bottle_empty');
         })
     })

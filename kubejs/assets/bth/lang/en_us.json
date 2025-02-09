@@ -180,6 +180,13 @@
   "bth.comment.entities": "----- Entities -----",
   "entity.xercapaint.canvas": "Canvas",
   "entity.minecraft.villager.pet_shop_owner": "Pet Shop Owner",
+
+  "bth.comment.fluids": "----- Fluids -----",
+  "fluid.bth.sugar_water": "Sugar Water",
+  "fluid.bth.soul_mixture": "Soul Mixture",
+  "fluid.bth.ender_fuel": "Ender Fuel",
+  "fluid.bth.hyper_nutritious_goo": "Hyper Nutritious Goo",
+  "fluid.bth.nanobot_soda": "NanoBot Soda",
   
   "bth.comment.items": "----- Items -----",
   "item.bth.adventurers_spellbook": "Adventurers' Spellbook",
@@ -193,6 +200,16 @@
   "item.minecraft.tipped_arrow.effect.astral": "Arrow of Astral",
   "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin's Grace",
   "item.tetracelium.dummy_knife_blade": "Any Tetra Knife",
+
+  "bth.comment.item_effects": "----- Item Effects -----",
+  "item_effect.bth.lembas_bread_0": "You feel the essence of the ancients...",
+  "item_effect.bth.lembas_bread_1": "Crunchy on the outside, but soft on the inside.",
+  "item_effect.bth.lembas_bread_2": "Not tasty, but healthy!",
+  "item_effect.bth.lembas_bread_3": "Ancient magic is coursing through your veins.",
+  "item_effect.bth.nanobot_soda_0": "You feel a strange sensation...",
+  "item_effect.bth.nanobot_soda_1": "It tingles throughout your body.",
+  "item_effect.bth.nanobot_soda_2": "Not tasty, but healthy!",
+  "item_effect.bth.nanobot_soda_3": "Technology and magic is coursing through your veins.",
 
   "bth.comment.jei_information": "-----JEI Information Entries-----",
   "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
