@@ -3802,8 +3802,8 @@
 					type: "item"
 				}
 			]
-			title: "Magic stuffs"
-			x: 0.5d
+			title: "Magic staffs"
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -3843,7 +3843,7 @@
 				}
 			]
 			title: "Inks"
-			x: 1.5d
+			x: 1.0d
 			y: -0.5d
 		}
 		{
@@ -3932,21 +3932,20 @@
 				}
 			]
 			title: "Upgrade Orbs"
-			x: 2.5d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
 			description: ["To upgrade capacity, combine a &aSpell Book&r and &aLesser Spell Slot Improvement&r on the &bArcane Anvil&r."]
 			id: "48CBE8361506CA28"
-			shape: "diamond"
 			subtitle: "Improves Spell Book capacity, up to 12 Slots."
 			tasks: [{
 				id: "4D8FDE0B3DDEB22A"
 				item: "irons_spellbooks:lesser_spell_slot_upgrade"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -4067,7 +4066,7 @@
 				}
 			]
 			title: "Basic Spell Books"
-			x: -0.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -4115,7 +4114,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -4170,7 +4169,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -4198,7 +4197,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -4222,7 +4221,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -4246,7 +4245,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
@@ -4270,7 +4269,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -4287,7 +4286,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			description: ["Dropped from Ancient Knights, which can be awakened by breaking armor piles."]
@@ -4300,7 +4299,46 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Comes imbued with spells useful for adventurers and explorers."]
+			id: "5512B81EF1059B32"
+			shape: "octagon"
+			size: 1.0d
+			subtitle: "Beyond The Horizon's own spell book."
+			tasks: [{
+				id: "738ED6A9FA9BC1EE"
+				item: {
+					Count: 1
+					id: "bth:adventurers_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 1
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:recall"
+									index: 1
+									level: 2
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Adventurer's Spell Book"
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "Iron's Spells"

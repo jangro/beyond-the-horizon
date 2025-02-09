@@ -910,6 +910,39 @@
 			x: 9.0d
 			y: -10.0d
 		}
+		{
+			description: ["Craft a block of bison fur together with your favorite boots to enable walking on powdered snow."]
+			icon: "alexsmobs:bison_fur"
+			id: "4A6B0BC3477BBAB0"
+			subtitle: "Keeps you from sinking in powdered snow."
+			tasks: [
+				{
+					id: "52DBD621F2052D2F"
+					item: "alexsmobs:bison_fur"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "440DC3FB4794235A"
+					item: "alexsmobs:bison_fur_block"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			description: ["Very useful if you prefer a smaller dragon."]
+			id: "0D0F0866A84425B8"
+			subtitle: "Stops ageing when fed to young animals."
+			tasks: [{
+				id: "41DF3E7ACB6CAE95"
+				item: "minecraft:poisonous_potato"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
 	]
 	title: "Tips and Hints"
 }
