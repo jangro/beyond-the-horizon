@@ -21,12 +21,11 @@ const NANOBOT_SODA_EFFECTS = [
 StartupEvents.registry("item", event => {
 
   // Adventurer's Spellbook
-  // A spellbook for Iron's Spells and Spellbooks that comes filled with utility spells useful for explorers, such
-  // as recall.
-  // TODO: Implementation (requires the KubeJS Addon for ISS)
-  event.create('bth:adventurers_spellbook', 'basic')
-    .texture('bth:item/adventurers_spellbook')
-    .unstackable();
+  // A spellbook for Iron's Spells and Spellbooks that comes filled with utility spells useful for explorers, such as recall.
+  event.create('bth:adventurers_spell_book', 'irons_spells_js:spellbook')
+    .setMaxSpellSlots(12)
+    .addDefaultSpell('irons_spellbooks:summon_horse', 1)
+    .addDefaultSpell('irons_spellbooks:recall', 2);
 
   // Coconut Maul
   // An easter egg weapon that hits harder but slower than a sword, but not to the same extreme as an axe.
