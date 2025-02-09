@@ -91,7 +91,7 @@
 			y: -13.5d
 		}
 		{
-			description: ["&8Rumors say it flies faster than other dragons.&r"]
+			description: ["Rumors say it flies faster than other dragons."]
 			id: "69428975C73FD77D"
 			subtitle: "Place the egg in the Aether dimension."
 			tasks: [{
@@ -262,7 +262,7 @@
 		}
 		{
 			description: [
-				"Once the &aDragon Egg&r is placed, it takes approximately 600 seconds for it to hatch."
+				"Once the &aDragon Egg&r is placed, it takes approximately one in-game day for it to hatch."
 				"During this time, ensure the &aDragon Egg&r is safe from any disturbances."
 				""
 				"After hatching, it is crucial to tame the &eDragon&r by feeding it &aFish&r."
@@ -274,7 +274,7 @@
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
 			shape: "rsquare"
-			subtitle: "Don't forget to tame your dragon"
+			subtitle: "Don't forget to tame your dragon."
 			tasks: [{
 				id: "062BE2B3CAFEF001"
 				type: "checkmark"

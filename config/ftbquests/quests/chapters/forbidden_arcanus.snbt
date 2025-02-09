@@ -1093,8 +1093,8 @@
 				item: "forbidden_arcanus:crimson_stone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.5d
+			x: 5.999999999999993d
+			y: -3.5535714285714306d
 		}
 		{
 			description: ["After one use it loses its power and becomes a normal Crimson Stone."]
@@ -1105,8 +1105,8 @@
 				item: "forbidden_arcanus:soul_crimson_stone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 6.0714285714285765d
+			y: -2.482142857142861d
 		}
 		{
 			description: ["Can be found in the following structures: Jungle Temples, Desert Pyramids, and Underwater Ruins."]
@@ -1128,8 +1128,8 @@
 				item: "forbidden_arcanus:divine_pact"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 5.607142857142861d
+			y: -0.4107142857142847d
 		}
 		{
 			description: ["Can be found as loot in bastion treasure rooms."]
