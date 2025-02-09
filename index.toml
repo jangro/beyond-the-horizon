@@ -583,10 +583,6 @@ file = "kubejs/assets/bth/models/item/adventurers_spell_book_model.json"
 hash = "5fee0ca737145927502c428aef54e68ca7fcd359c41c8e2425d9e211aee5ceb6"
 
 [[files]]
-file = "kubejs/assets/bth/models/item/adventurers_spellbook.json"
-hash = "7934ca46f01c660fa35e6c8827c51376dcdb4b623e9d55c913ceba672e266db4"
-
-[[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spell_book.png"
 hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 
