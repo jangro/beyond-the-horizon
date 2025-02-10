@@ -7,7 +7,7 @@ earlyWindowControl = true
 #Early window framebuffer scale
 earlyWindowFBScale = 1
 #Early window provider
-earlyWindowProvider = "fmlearlywindow"
+earlyWindowProvider = "embeddium"
 #Early window width
 earlyWindowWidth = 1280
 #Early window starts maximized
