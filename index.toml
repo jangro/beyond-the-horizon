@@ -3170,6 +3170,11 @@ hash = "cec3ebfb61f6fad75016c75e9a57ba99b24b1a2740570904bbe515de42e521b4"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "6dec85831ac459441081f875849707d708b42af23f7e0d4d8062ab949ee72687"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "2a3ca7fd7c0ee00e58e7808c8bb5b505bfc7cb94a1f28c9cb3eea23f35b0a885"
 metafile = true
