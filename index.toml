@@ -4100,6 +4100,11 @@ hash = "aad2682b1c54883c1a48e288782281b694c4ce1c630ddbfdad11ee2429562fbe"
 metafile = true
 
 [[files]]
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "ae4956baa7bfc8a7d596169d256eba7ed2e2961b55e4ad331b50d3dc6c72baeb"
+metafile = true
+
+[[files]]
 file = "mods/the-graveyard-forge.pw.toml"
 hash = "34c753d57921285a83277436458188043f5a1b9f7cfdd48a54fc12cddb97c6c7"
 metafile = true
