@@ -1,6 +1,6 @@
 name = "TexTrue's Embeddium Options"
 filename = "textrues_embeddium_options-0.1.5+mc1.20.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
