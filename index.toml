@@ -107,8 +107,12 @@ file = "config/exposure-common.toml"
 hash = "21d0736bf5260956e48e64b3cd9ae6ebc94e1afbeb4a07357ba85c24aa3b1295"
 
 [[files]]
-file = "config/fancymenu/assets/bth-logo.png"
-hash = "2533259a7b3f2a68f743bb6f631cbfbc7f145a51b1585dbcc4275d9065f479fb"
+file = "config/fancymenu/assets/bth-loader-bg.png"
+hash = "52295db1eb670e1f6b783cfcb6b599f40083479126fa375e7e1359668a0d686e"
+
+[[files]]
+file = "config/fancymenu/assets/bth-logo-1640x820.png"
+hash = "d9cbcb3571fef2344874a4060f689b9cd72a01f5f2f943379ca9109c2e9eb46f"
 
 [[files]]
 file = "config/fancymenu/assets/button-100x25-default.png"
@@ -125,6 +129,18 @@ hash = "4445a33c857dca673b60450011debe3868a2030be80fd786722e6335dd41988f"
 [[files]]
 file = "config/fancymenu/assets/button-112x32-hover.png"
 hash = "7c3ab53d171839cad28e62f7a4567df73b5ceece021fba5662801144681eec7b"
+
+[[files]]
+file = "config/fancymenu/assets/button-128x128-default.png"
+hash = "494ea4575f6f676b8b1420050e53c2c0183a588aac314960096a943236d7ecfd"
+
+[[files]]
+file = "config/fancymenu/assets/button-128x128-disabled.png"
+hash = "9dd7fd27f028c12bab07d7094dcd64a1015c5e20c9fce81b59786178e0c89aa5"
+
+[[files]]
+file = "config/fancymenu/assets/button-128x128-hover.png"
+hash = "2c0eed5ee768f999213d6c46d5198b3ad583048fc71b5d38225a0e0b5cd1340b"
 
 [[files]]
 file = "config/fancymenu/assets/button-160x40-default.png"
@@ -207,6 +223,10 @@ file = "config/fancymenu/assets/button-32x32-curseforge-hover.png"
 hash = "194d0c56676998af2b19a231c1596bf8636f919b7de7a46cd9aa71aff80be683"
 
 [[files]]
+file = "config/fancymenu/assets/button-32x32-default.png"
+hash = "dd5c46db51ccbd9f5c42710d4e5e6acbcb74df1c01eb09d17d76a08274ec7ebb"
+
+[[files]]
 file = "config/fancymenu/assets/button-32x32-discord-default.png"
 hash = "4527c8e65e053e3b673f6ba6cc7a6a388383281be7a7ad394db913c7c35c7014"
 
@@ -223,6 +243,10 @@ file = "config/fancymenu/assets/button-32x32-github-hover.png"
 hash = "e0b1009682f580fff689779751aa7eb2e225de5b63209daa924c75164e3ffd28"
 
 [[files]]
+file = "config/fancymenu/assets/button-32x32-hover.png"
+hash = "21072dd9b62dbbb7e688f73aea351906df43371cca77e7504aafedeb2217c3ab"
+
+[[files]]
 file = "config/fancymenu/assets/button-32x32-lang-default.png"
 hash = "e03d8da68c5cc1d6c43d231ba84c36dd96b4ffc75cf80c3c508ac50e92a06798"
 
@@ -236,15 +260,19 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
+hash = "8e15b8fdd11e054e25d49c37ce6a448807a7e6e34f9c3b46dc4d222aa0aca44b"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "b789df90a34f6411694172ab68824f5eaa566b0f3a4861e87ad36bb295f74e34"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "d19681bf7f7a6cdc1a453dddbdae32ca4749409b7b8aa82c30e668d54973a8d7"
+hash = "ff2f7b920fe585b6d66d503626794f622006f9c5ab9bd61d3f7b3a22ac2b4244"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -252,7 +280,35 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "9bf3a4cce5203258d64123389fc74a140ef93dbc335ed98da38ddeb26012097f"
+hash = "96872d4e2d22991c8f87d3ae4df080a01f715b99016d07f0957cccd2f5d09d11"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/panorama/panorama_0.png"
+hash = "a1b244e42d57137d1edc3891929d0bba9650ccd3dd2d8776bc248147bbfc8eee"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/panorama/panorama_1.png"
+hash = "c47a48e1429ae6016f4306ec79de1538cd021ca3579a9a5404068086518295e8"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/panorama/panorama_2.png"
+hash = "77b55c280ca20ded5e0b3a1044c7d60505d225a7fbe93a6716f5a173239c192a"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/panorama/panorama_3.png"
+hash = "b733ab7da4c07ecad552da62c59d95ea626eb05b8f18a9b78a2003d7a1702538"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/panorama/panorama_4.png"
+hash = "772a76f1b62c3de3389d7f5d0634d58631ec07ff11c5645105472ec619a70815"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/panorama/panorama_5.png"
+hash = "2da0b8e70b2f26e9357c2a95f0c9976a4c6166a491cdde971102b40aa0cf672e"
+
+[[files]]
+file = "config/fancymenu/panoramas/bth/properties.txt"
+hash = "2a07d1afae00495b9bae7192e2a15e3043c7b069ed6d2e9b1dc0a4794c08e3ba"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -268,7 +324,7 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/fml.toml"
-hash = "32f52c5d008b40e9688485622cb7368b45c718d58fa63cdb4fc56eda4b65911d"
+hash = "2946fe3388d9c5518cd7e1982745d4a5a2934252dd51ff993d50f790cd35efe1"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -280,7 +336,7 @@ hash = "4199bbca1f56eaf9739ae5aa5442cb3fa23dd271b572290505753d664f46dfbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "4b1af6b53c14f35695c5db6cf1a0746f4edc63037924c37aa326d6e84efeb7a5"
+hash = "38af04d42f81e84772bb6da34bb1607b5f4e381cebda0e4d76f7fb21f5c0a70b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dimensional_master.snbt"
@@ -300,7 +356,7 @@ hash = "896fbd6b7f789fabe52016a50022e19b9d26b7777d66b1efb6e2d42bbab953b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "f4ac7604340618b7a1feb10f2582c071f87337e49f8d52c18ce04aa94bfcdbb2"
+hash = "a2f3f74aa9ec63db16a0871d1ea89bd09fcd6023251598d7bffd2b0ecf0bb626"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/galosphere.snbt"
@@ -312,7 +368,7 @@ hash = "57b2114b828550933ccb4b575696de72af5769b297db8f63301d4361d4e3444f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "3ddc28c721ee967ab9f81d3edf5b5cd372770b930439f8bf21b209a0d9cfdb2e"
+hash = "2633497db69e5dd1badb7224b5427dbd5415fe11f001a2a85d9ada7797017ada"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
@@ -336,7 +392,7 @@ hash = "4dccb0b4bb5e1334f8097470fe6b44007da416e57aab3c3325d90b33f97fc856"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "11658422e1ac4499985b355f3e5c1f2dca2f22a10189985649ef5e74b8373aa7"
+hash = "e2e71d1e5e67944990e7cb3de7e78a454d7b1f3e53063c08e45c2c76d74607ba"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -483,6 +539,10 @@ file = "config/smallships-common.toml"
 hash = "f20111d78bcc8b390806f4620bc512445f2609e65c7e4fdf674dae4979e8eb15"
 
 [[files]]
+file = "config/sodium-extra-options.json"
+hash = "75ede05efce546e59008efc5152da492508d9953d6c1bd4540e15b4e919f63d2"
+
+[[files]]
 file = "config/sol_valheim/common.json5"
 hash = "a5d57a3c75772ffa803d47648c3a0a043f5af2e193f60d89d1ab9eb7f5aa834a"
 
@@ -556,7 +616,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "9115ed3bca1f3fe571788ae46e222852bd009f2a34dca4e1ac49c5c4fcd3e25a"
+hash = "52e657fe753f2d6185a88e7ff00e5ce68240e10ee38088ddc054acd634f97ae3"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -568,7 +628,15 @@ hash = "f194d39639fd9196723d144e10d0bd65a181a2375728ee4cbd936316fd5e0c9f"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book_model.json"
-hash = "5fee0ca737145927502c428aef54e68ca7fcd359c41c8e2425d9e211aee5ceb6"
+hash = "3134063feb70ff74f55a1a0882810b05b857b4386014bce9eeff3dfd66e0c8f5"
+
+[[files]]
+file = "kubejs/assets/bth/textures/gui/spell_icons/terminus_singularity.png"
+hash = "2e1985168f7f2161a6feeb604510f5f2a25930cb997ff2942dbc0764b31d6b63"
+
+[[files]]
+file = "kubejs/assets/bth/textures/gui/spell_icons/terminus_space_fold.png"
+hash = "5aa90e70e791c4c64b0d1942814f13b7034269ab0fc1449ff97c767e228e68a6"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spell_book.png"
@@ -580,11 +648,11 @@ hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/lembas_bread.png"
-hash = "800a33289b9d7ea515e4b6702dbb78526cec982a2e6cefe9fb4a92ecb3768529"
+hash = "69e17bf77a0c8c6166e8c713940d749322f34fc6b3d982bd510769e0e1378c3c"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/mallorn_leaf.png"
-hash = "93b5c80e738b470b429526d68afbcf465b1152aed7681f38473dd51d257bf68d"
+hash = "28fd197f755e2d1c6ffc68d4457c7630ffb8c983210691ad558a5afb11dfad58"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle.png"
@@ -596,11 +664,15 @@ hash = "8a3f6fb808eeb0d03851114272f0498e8a242ed4d1eb43a95a66fd17d8ba8e50"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/spell_book_models/adventurers_spell_book.png"
-hash = "a45dd4fd7da1a59b0720b1dfdc32c7787f326762f5831098b8137a47b8a54922"
+hash = "d0412ed150c71720e106ac009a43fd1f011cbd914023d985641ddb84292b7c5d"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/terminus.png"
 hash = "aadee2369bf21188b17c00d0c3c3820f64091fb0fc534502ae7199f239aa270a"
+
+[[files]]
+file = "kubejs/assets/hostilenetworks/textures/item/empty_learner_slot.png"
+hash = "3a6349c0e979cd84fbcf32013c19cc8970b44c8d798505f51bab5022d63b8de3"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
@@ -656,7 +728,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "18408276946175117496fee92bec5447b87978ca21761d6483b706d4086c5c6c"
+hash = "ef5943a5380ecd42d060652b990494c9f2a058469d23cabfb5727fcb5e002059"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -2488,7 +2560,7 @@ hash = "b95f45c687cbf343caa5af2a84313d65bfc8c31f260d80bef934b927b39035f4"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
-hash = "83be96c3ce87b56b74c6388f4d2539bf041d83f7f293705c75233c58b55f077f"
+hash = "439144588fa6bda0cd9bd262654a5dbf975062e5e66ef9f8fddab6b926876e5b"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -2496,7 +2568,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "9f2ef9377e9327def5237a18d87c0cc793ea43cdbf93035d3dc672f997fc9b68"
+hash = "830fd53acf1b7d3ad6780d4ec23b6ee0d1a5f16505c5a258525e7bab633bc03b"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2520,7 +2592,7 @@ hash = "28b38bbfb0c921271ba93337fd617320ab9f32f08a4274aae99f9748bae2008d"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/structures.js"
-hash = "e96f84e77e632c17545ebe89dd332b29e7691ad303342dbf026401fde0fdd56c"
+hash = "ac4b4c21b820a02be448ef11b940ea1131bc79404b023c3f91597a7f4e87cacd"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
@@ -2644,11 +2716,11 @@ hash = "4f89490a362ee6010df0aed3c65a8ad24b64ff90ff87b0f6d5fa6e224df91928"
 
 [[files]]
 file = "kubejs/startup_scripts/src/fluid.js"
-hash = "f47e82e9eacb2fdabf9ccca9e66322874fd5ab663cfe6f6a51076a7e23b66d1d"
+hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "7d3d49e3eed46191f7b6bd9440078f60381bb7411e17f651b3d8daad81f35988"
+hash = "b97bd9221deb9f9504bdbd56d01df1aea953a97738a9d5b752dd8faf270033c7"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -2841,7 +2913,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "9dae802973a30aed624261c4dbae65643ea656c337a0cba936e06427aa66023e"
+hash = "8b1ceee52c48c13d48ef1bedb768cd7d2d6f5db3d196ebc6f42b3aa4103e9b34"
 metafile = true
 
 [[files]]
@@ -2896,7 +2968,7 @@ metafile = true
 
 [[files]]
 file = "mods/botania.pw.toml"
-hash = "ac2fd14944240e2c6726a32e0dd4e58045dc140cb51203dc106ff1cefd8616a0"
+hash = "f566e3e2d966e007b286644596f860007b2c51d345683d9c6840563b9af31752"
 metafile = true
 
 [[files]]
@@ -2956,7 +3028,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "0147edca0bc065105658ebfb5f2f872e62ad6d196fcd0378d62f1b1defefff13"
+hash = "65a73c4118da69da0bbac4f4db90ba8328fb8d5edf70af7e9892254ade259f6c"
 metafile = true
 
 [[files]]
@@ -3051,7 +3123,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectivity.pw.toml"
-hash = "17dbdfc0a9e21c73589a2b7d0fbc74fde398bfb936cdc7913ad6778b54f18e42"
+hash = "2ca034cc8455abf96488505709b78baee7f2887047f52147bc437c1a9a19fd85"
 metafile = true
 
 [[files]]
@@ -3276,7 +3348,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "46eb8bc63b1096f09b72d37ea31d2188a017545b3f3d5721dc0ab57fa083476d"
+hash = "6e0d5a1b6fe9154f2c2917eee8706dc4e911dc23fe2f79090cd9c75616d28fe2"
 metafile = true
 
 [[files]]
@@ -3291,7 +3363,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "bfde417f768e5517c25fa35f4640073c7cbee0097833ae19be149b903daaf39c"
+hash = "e25807137510a5e6f7c7b2b8e34b4b954f6dfe7351f936fd91e107803c05ca5f"
 metafile = true
 
 [[files]]
@@ -3351,12 +3423,12 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
-hash = "bdf046db320a0d8477bf69460b930f4a8ab95b884a9c9eeb064848a8479a87cf"
+hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
 metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "5233fd66e1df430e77252cea4ba76f15da02f574e2cf5d5bf76ced3b26f3c5a7"
+hash = "843071fda8ea52f60308947a8145a05cd1763726bd226ef2c71cc09395de823b"
 metafile = true
 
 [[files]]
@@ -3466,12 +3538,12 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-crafting.pw.toml"
-hash = "5b5bd2fb8521ff1299340694d57a844a986733d34abf55ede9d4a7490b31f1b1"
+hash = "cae1fc7142d79c3144ec08148011c0c6b14f8e3e8c5787b2ccc38b8f32756f62"
 metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "4937f15e9588026ddb4f48fde486e68f7c41b43ea62dc5a37f0adbad5cd127a4"
+hash = "2dc927ef4a5c051a100146126ae8fdf7512ae7f79791dd79dbf6e9ad2696d12e"
 metafile = true
 
 [[files]]
@@ -3486,7 +3558,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-terminals.pw.toml"
-hash = "b81b7b632f1e054c527774e749ebd34eafd65001cf146f73385aa222ffe2633a"
+hash = "d37feb38986856ba6e6bbd47fc38a88bc550a18826f92561dc2d6aa8c4cf8fa1"
 metafile = true
 
 [[files]]
@@ -3526,7 +3598,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "684a9276189fe7165bf632109f98e5a194e707e5627c149fc6c16c1d291c2df2"
+hash = "11c474b1516d8f2c13fa6086d9cccb2306155ccb67dafe5bdc8e961a890362fc"
 metafile = true
 
 [[files]]
@@ -3656,7 +3728,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "c2451af16057e7064ea1b6e826400ff898cae76ad03e14937770b23f1c365b62"
+hash = "2bc9a6606215a9a980a495a839eb470d0320c4b7d4790a2487522d337e14e95e"
 metafile = true
 
 [[files]]
@@ -3801,7 +3873,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
+hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
 
 [[files]]
@@ -3986,12 +4058,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "faebffbb969f9fc5c9622fca559eca0f82e6b5eb443b2294a360d57920b4fc81"
+hash = "d6f0307609ce81053a1d509773b0c4df8b37d1332052e16f866dae3964350a24"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "1c262ed2cfca24891a9afa77d10b8dec38b334fb320e646ffdc71fc9f2c2503b"
+hash = "ed8a87f67c03f96785db477ef68b1ed471b267c7203b7be05c42297a87a8ed4a"
 metafile = true
 
 [[files]]
@@ -4036,7 +4108,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurize.pw.toml"
-hash = "967d54afd260f9b42fcc9b85d590b931e52cd00d5833536260c3bd1897013093"
+hash = "a342b76a9c9f6a0e4896ea4c1f16e856711a9d7cc20736f97a71acbc400b44f5"
 metafile = true
 
 [[files]]
@@ -4066,7 +4138,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "1299e3f5176541e552847c839979ee215b46cbccd57547eb672c665b125ad510"
+hash = "ebd88a1f80cdc0dccad35ea15648dad22f8fcf5856b47777290b2312607e8a64"
 metafile = true
 
 [[files]]
