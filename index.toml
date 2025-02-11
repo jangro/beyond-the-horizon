@@ -15,10 +15,6 @@ file = "config/Advancedperipherals/world.toml"
 hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "976ed40477fc075dcfec4176aea96499a975924136b77ac9ebf27e3cb92a71df"
-
-[[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
 hash = "5f8b4733d3bfbb46f86c3abc61a5104b55e2a26f7d1cdd559cba02f03973fa52"
 
@@ -500,7 +496,7 @@ hash = "962a75fcbbf80341800a32869e359d22b2a7a28a231506a1b9a65a4e58625456"
 
 [[files]]
 file = "config/phantasm.json"
-hash = "c614fc0e0f1ec90cda16b0c6aae5e81a325cbf663c6a91fcadcf3f66bc32e6f3"
+hash = "365567bdcb451a356eb55489e81d6fdb036c41a34f7b2e13bba515d7da0864c9"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
@@ -2763,10 +2759,6 @@ file = "kubejs/startup_scripts/src/worldgen.js"
 hash = "c1479ad2f3e7aa95d6f368d963aeacdc6fa318de6e29ec7c64c76118451f2aa0"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.3.0-b-dev-1.20.1.jar"
-hash = "2acfbe0920ae65ea551a7e695fc8a4c172e480e6aeea58d800794b8af341719c"
-
-[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "b0c61413cc2dd7fca52014fa070c40aa478dc9007dc7a94330b97f1be7827bd5"
 metafile = true
@@ -3224,6 +3216,11 @@ metafile = true
 [[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "9979a084a441001eb37240c4ecbac1ceea51d1dae23edf05bd0c89ae4230c62f"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "8f3d5a8b2a39fe8ac2ce04a864a3c0a3346f7787177f5806674d90423c3a8193"
 metafile = true
 
 [[files]]
