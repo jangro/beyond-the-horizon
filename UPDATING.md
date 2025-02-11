@@ -21,9 +21,9 @@ If there's a version change in resource packs, update options in kubejs/config/d
  onboardAccessibility:false
  discrete_mouse_scroll:true
 
--resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/BTH-Panorama.zip","file/Midnighttiggers-FCT-Default_1.20_V2.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V1.zip"]
+-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/Midnighttiggers-FCT-Default_1.20_V2.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V1.zip"]
 -incompatibleResourcePacks:["builtin/towntalk","file/Midnighttiggers-FCT-Default_1.20_V2.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V1.zip"]
-+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/BTH-Panorama.zip","file/Midnighttiggers-FCT-Default_1.20_V3.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip"]
++resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/Midnighttiggers-FCT-Default_1.20_V3.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip"]
 +incompatibleResourcePacks:["builtin/towntalk","file/Midnighttiggers-FCT-Default_1.20_V3.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V2.zip"]
 
  soundCategory_master:0.5

@@ -264,11 +264,11 @@ hash = "8e15b8fdd11e054e25d49c37ce6a448807a7e6e34f9c3b46dc4d222aa0aca44b"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "b789df90a34f6411694172ab68824f5eaa566b0f3a4861e87ad36bb295f74e34"
+hash = "5e8aaca4ef733f49b2e12d1e4e32d081b480b0f5402bafe851315ed7eb84fb39"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "ff2f7b920fe585b6d66d503626794f622006f9c5ab9bd61d3f7b3a22ac2b4244"
+hash = "bd3514a0951ef59be20166dc95d3957122e103d375be14ca3b62e7d1078c9346"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -280,7 +280,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "96872d4e2d22991c8f87d3ae4df080a01f715b99016d07f0957cccd2f5d09d11"
+hash = "3cd4536c7c3db7b8835d537a540e19a5f54eb908c7de811510348095e10b6abe"
 
 [[files]]
 file = "config/fancymenu/panoramas/bth/panorama/panorama_0.png"
@@ -4339,10 +4339,6 @@ metafile = true
 [[files]]
 file = "observable_announce"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "resourcepacks/BTH-Panorama.zip"
-hash = "cd0ee3936e59931b64bcb87d12b746992552f9fadfbe64e7f0843e282526aed9"
 
 [[files]]
 file = "resourcepacks/idas-alexs-mobs.pw.toml"
