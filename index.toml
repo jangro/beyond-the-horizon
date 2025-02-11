@@ -3997,6 +3997,11 @@ hash = "5abe588d5bf62689cacbb397b89f4adbfbc877b5d2531335d753da645eaffe8d"
 metafile = true
 
 [[files]]
+file = "mods/rubidium-extra.pw.toml"
+hash = "b6c84acc6f32d012f1bf0da41c8ebda66e26f2d70614a96779e9d6139b186532"
+metafile = true
+
+[[files]]
 file = "mods/rustic-engineer.pw.toml"
 hash = "0efbdc60364476393fa174d21390adb4c567097a8a2f361fb50c7370b62f2057"
 metafile = true
@@ -4174,11 +4179,6 @@ metafile = true
 [[files]]
 file = "mods/tetranomicon.pw.toml"
 hash = "aad2682b1c54883c1a48e288782281b694c4ce1c630ddbfdad11ee2429562fbe"
-metafile = true
-
-[[files]]
-file = "mods/textrues-embeddium-options.pw.toml"
-hash = "ae4956baa7bfc8a7d596169d256eba7ed2e2961b55e4ad331b50d3dc6c72baeb"
 metafile = true
 
 [[files]]
