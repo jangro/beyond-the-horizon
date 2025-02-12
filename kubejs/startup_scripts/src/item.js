@@ -34,7 +34,6 @@ StartupEvents.registry("item", event => {
     .attackDamageBaseline(13.0)
     .speedBaseline(-2)
     .fireResistant(true)
-    .maxDamage(3270)
     .rarity('EPIC')
     .texture('bth:item/terminus')
     .tier('netherite')
@@ -89,4 +88,12 @@ StartupEvents.registry("item", event => {
     .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle_empty'))
     .translationKey('item.bth.nanobot_soda_bottle_empty');
 
+});
+
+// Make Terminus unbreakable here since we can't do it in the item creation event.
+// SV: I suspect setting the tier to netherite gives is netherite level durability rather than -1.
+ItemEvents.modification(event => {
+  event.modify('bth:terminus', item => {
+    item.maxDamage = -1;
+  });
 });
