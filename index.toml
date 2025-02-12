@@ -64,7 +64,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "769306a8afe34581e4bb8a32403b7b6047a827c3da239ff0187a5b2fa3fb69dc"
+hash = "931a10c1a0ff864d4ce8d413f5c0e8670fbce93a8dbc5a158e4a247145cc680e"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -625,6 +625,10 @@ hash = "f194d39639fd9196723d144e10d0bd65a181a2375728ee4cbd936316fd5e0c9f"
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book_model.json"
 hash = "3134063feb70ff74f55a1a0882810b05b857b4386014bce9eeff3dfd66e0c8f5"
+
+[[files]]
+file = "kubejs/assets/bth/textures/ancient_portal.png"
+hash = "c6e162762a88bd38e8b7c161b37a21048b59ca2aaf9a771bb69e9197e5f928e1"
 
 [[files]]
 file = "kubejs/assets/bth/textures/gui/spell_icons/terminus_singularity.png"
