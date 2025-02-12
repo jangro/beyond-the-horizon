@@ -31,7 +31,8 @@ StartupEvents.registry("item", event => {
 
   // Terminus, Blade of the Dimensional Master
   event.create('bth:terminus', 'irons_spells_js:magic_sword')
-    .attackDamageBaseline(9.0)
+    .attackDamageBaseline(13.0)
+    .speedBaseline(-2)
     .fireResistant(true)
     .maxDamage(3270)
     .rarity('EPIC')
