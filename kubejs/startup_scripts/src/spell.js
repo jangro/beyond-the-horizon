@@ -23,14 +23,14 @@ StartupEvents.registry('irons_spellbooks:spells', event => {
     // .onPreClientCast(ctx => {})
     .setAllowLooting(false)                    // Setting this to false will disallow looting the spell from mobs or chests
     .needsLearning(false)                      // Usually this one is used for Eldritch spells
-    .canBeCraftedBy(player => false);
-    // .setUniqueInfo((spellLevel, caster) => {  // Caster refers to the player
-    //   return [
-    //     // You need to return an array of components for this method. They can be any text you want.
-    //     Component.green(`Health: ${spellLevel / 2}`),
-    //     Component.green(`Hunger Usage: ${caster.getFoodData().getFoodLevel() * (spellLevel / 2)}`)
-    //   ]
-    // })
+    .canBeCraftedBy(player => false)
+    .setUniqueInfo((spellLevel, caster) => {  // Caster refers to the player
+      return [
+        // You need to return an array of components for this method. They can be any text you want.
+        Component.green('2 AOE Damage'),
+        Component.green('12 Block Radius'),
+      ]
+    });
     // .checkPreCastConditions(ctx => { // This method can be used to check if the spell can be cast. If it returns false, the spell won't be cast.
     //   // You can use this for targeting spells, like how the Slow spell works. preCastTargetHelper returns true or false based on the target conditions.
     //   // The parameters of this method include the level, entity, the player's magic data, the spell, the range, and the aim assist.
@@ -54,5 +54,12 @@ StartupEvents.registry('irons_spellbooks:spells', event => {
     // .onPreClientCast(ctx => {})
     .setAllowLooting(false)                    // Setting this to false will disallow looting the spell from mobs or chests
     .needsLearning(false)                      // Usually this one is used for Eldritch spells
-    .canBeCraftedBy(player => false);
+    .canBeCraftedBy(player => false)
+    .setUniqueInfo((spellLevel, caster) => {  // Caster refers to the player
+      return [
+        // You need to return an array of components for this method. They can be any text you want.
+        Component.green('64 Block Range'),
+        Component.green('1 Wall Phasing'),
+      ]
+    });
 });
