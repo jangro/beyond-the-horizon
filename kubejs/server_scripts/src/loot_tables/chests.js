@@ -192,6 +192,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(SWAMP_MAP);
       pool.addItem(LUSH_CAVES_MAP);
       pool.addItem(CHERRY_GROVE_MAP);
+      pool.addItem(ARCHWOOD_FOREST_MAP);
     });
   });
 
@@ -248,6 +249,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(SWAMP_MAP);
       pool.addItem(LUSH_CAVES_MAP);
       pool.addItem(CHERRY_GROVE_MAP);
+      pool.addItem(ARCHWOOD_FOREST_MAP);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_TEMPLE_MAP);
@@ -283,6 +285,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(SWAMP_MAP);
       pool.addItem(LUSH_CAVES_MAP);
       pool.addItem(CHERRY_GROVE_MAP);
+      pool.addItem(ARCHWOOD_FOREST_MAP);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_TEMPLE_MAP);

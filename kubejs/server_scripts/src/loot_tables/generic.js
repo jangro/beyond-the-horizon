@@ -33,6 +33,13 @@ ServerEvents.genericLootTables((event) => {
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP).weight(10);
       pool.addItem(BTH_RUINED_HANGAR_MAP).weight(10);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP).weight(10);
+      pool.addItem(DESERT_MAP).weight(10);
+      pool.addItem(FLOWER_FOREST_MAP).weight(10);
+      pool.addItem(JUNGLE_MAP).weight(10);
+      pool.addItem(SWAMP_MAP).weight(10);
+      pool.addItem(LUSH_CAVES_MAP).weight(10);
+      pool.addItem(CHERRY_GROVE_MAP).weight(10);
+      pool.addItem(ARCHWOOD_FOREST_MAP).weight(10);
     });
   });
 
