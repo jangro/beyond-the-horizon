@@ -7,6 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "buildinggadgets2:gadget_building",
+          "weight": 50,
           "functions": [{
               "function": "minecraft:set_nbt",
               "tag": "{energy: 251048}",
@@ -15,16 +16,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "buildinggadgets2:gadget_exchanging",
-          "functions": [{
-              "function": "minecraft:set_nbt",
-              "tag": "{energy: 310132}",
-              "conditions": []
-          }]
-        },
-        {
-          "type": "minecraft:item",
           "name": "buildinggadgets2:gadget_copy_paste",
+          "weight": 40,
           "functions": [{
               "function": "minecraft:set_nbt",
               "tag": "{energy: 173482}",
@@ -34,6 +27,7 @@
         {
           "type": "minecraft:item",
           "name": "buildinggadgets2:gadget_cut_paste",
+          "weight": 30,
           "functions": [{
               "function": "minecraft:set_nbt",
               "tag": "{energy: 98134}",
@@ -42,7 +36,18 @@
         },
         {
           "type": "minecraft:item",
+          "name": "buildinggadgets2:gadget_exchanging",
+          "weight": 20,
+          "functions": [{
+              "function": "minecraft:set_nbt",
+              "tag": "{energy: 310132}",
+              "conditions": []
+          }]
+        },
+        {
+          "type": "minecraft:item",
           "name": "buildinggadgets2:gadget_destruction",
+          "weight": 10,
           "functions": [{
               "function": "minecraft:set_nbt",
               "tag": "{energy: 131823}",
