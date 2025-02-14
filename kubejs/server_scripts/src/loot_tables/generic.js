@@ -113,7 +113,9 @@ LootJS.modifiers((event) => {
     .removeLoot(Ingredient.of("@perfectplushies"));
 
   // Remove useless gears
-  event.removeGlobalModifier("enderio:wood_gear");
-  event.removeGlobalModifier("enderio:stone_gear");
+  event
+    .addLootTypeModifier(LootType.CHEST)
+    .removeLoot('enderio:wood_gear')
+    .removeLoot("enderio:stone_gear");
 
 });
