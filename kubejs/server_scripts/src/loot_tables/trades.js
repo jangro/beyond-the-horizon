@@ -43,27 +43,59 @@ const replaceItem = (offer, oldItem, newItem) => {
   replaceOutput(offer, oldItem, newItem);
 };
 
-// Not currently used but leaving this here for future work on actually removing the coin trade entirely.
-//const PLAGUE_DOCTOR_TRADES = Java.loadClass("com.github.alexthe666.rats.server.misc.PlagueDoctorTrades").PLAGUE_DOCTOR_TRADES;
 
-// Disable the coin trade (how to just remove it?!)
-MoreJSEvents.playerStartTrading((event) => {
-  if (event.merchant.getClass().getName().includes('PlagueDoctor')) {
-    event.forEachOffers((offer) => {
-      if (offer.getResult().getItem() == 'token_fragment') {
-        offer.disabled = true;
-      }
-    });
-    event.addTrade(2, TradeItem.of('createdeco:gold_coin', 2, 2), 'rats:chunky_cheese_token');
-  }
-  // XXX: We can't disable the plushie trader, so disable all the trades
-  // FIXME: Disable the trader when we can. In-Control can't do it.
-  if (event.merchant.getClass().getName().includes('WanderingPlushieTrader')) {
-    event.forEachOffers((offer) => {
-      offer.disabled = true;
-    });
-  }
-});
+const PLAGUE_DOCTOR_TRADES = Java.loadClass("com.github.alexthe666.rats.server.misc.PlagueDoctorTrades").PLAGUE_DOCTOR_TRADES;
+VillagerUtils.setAbstractTrades(PLAGUE_DOCTOR_TRADES, 1, [
+  VillagerUtils.createSimpleTrade('1x rats:tiny_coin', 'rats:cheese'),
+  VillagerUtils.createSimpleTrade('1x rats:tiny_coin', 'rats:herb_bundle'),
+  VillagerUtils.createSimpleTrade('8x rats:tiny_coin', 'rats:garbage_pile'),
+  VillagerUtils.createSimpleTrade('1x createdeco:copper_coin', 'rats:rat_burger'),
+  VillagerUtils.createSimpleTrade('1x createdeco:copper_coin', 'rats:rat_papers'),
+  VillagerUtils.createSimpleTrade('1x createdeco:copper_coin', 'rats:plague_leech'),
+  VillagerUtils.createSimpleTrade('2x createdeco:copper_coin', 'rats:ratfish_bucket'),
+  VillagerUtils.createSimpleTrade('3x createdeco:copper_coin', 'rats:auto_curdler'),
+]);
+VillagerUtils.setAbstractTrades(PLAGUE_DOCTOR_TRADES, 2, [
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'rats:plague_tome'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'rats:plague_doctor_mask'),
+  VillagerUtils.createSimpleTrade('2x createdeco:iron_coin', 'rats:archeologist_hat'),
+  VillagerUtils.createSimpleTrade('2x createdeco:gold_coin', 'rats:chunky_cheese_token'),
+]);
+
+
+const PLUSHIE_TRADER = Java.loadClass('io.github.sirjain0.perfectplushies.entity.WanderingPlushieTrader');
+const PLUSHIE_TRADER_TRADES = PLUSHIE_TRADER.TRADES;
+
+VillagerUtils.setAbstractTrades(PLUSHIE_TRADER_TRADES, 1, [
+  VillagerUtils.createSimpleTrade('3x rats:tiny_coin', 'exposure:photograph_frame'),
+  VillagerUtils.createSimpleTrade('5x rats:tiny_coin', 'exposure:black_and_white_film'),
+  VillagerUtils.createSimpleTrade('8x rats:tiny_coin', 'exposure:color_film'),
+  VillagerUtils.createSimpleTrade('2x createdeco:copper_coin', 'exposure:camera'),
+  VillagerUtils.createSimpleTrade('3x createdeco:copper_coin', 'exposure:lightroom'),
+  VillagerUtils.createSimpleTrade('1x createdeco:copper_coin', 'exposure:album'),
+]);
+
+VillagerUtils.setAbstractTrades(PLUSHIE_TRADER_TRADES, 2, [
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:dumbo_blob_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'plushie_buddies:plushie_emperor'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'plushie_buddies:plushie_yoga'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'plushie_buddies:plushie_dark_father'),
+]);
+
+VillagerUtils.setAbstractTrades(PLUSHIE_TRADER_TRADES, 3, [
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:nyf_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:sirjain_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:sizableshrimp_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:tslat_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:silk_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:june_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:daniel_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:gamerpotion_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:joosh_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:rocris_plushie'),
+  VillagerUtils.createSimpleTrade('createdeco:iron_coin', 'perfectplushies:geode_plushie'),
+]);
+
 
 MoreJSEvents.wandererTrades((event) => {
   // Remove all default trades (some are also removed through datapacks in minecraft/moonlight/villager_trades//wandering_trader/)
