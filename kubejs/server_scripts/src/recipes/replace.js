@@ -213,6 +213,16 @@ ServerEvents.recipes(event => {
     'supplementaries:slingshot',
   ], 'minecraft:slime_ball', '#forge:slimeballs');
 
+  // Steel compatibility (IE/EnderIO) for selected items
+  replaceInputID([
+    'immersiveengineering:crafting/steel_wallmount',
+    'immersiveengineering:crafting/steel_scaffolding_standard',
+    'immersiveengineering:crafting/plate_steel_hammering',
+    'immersiveengineering:crafting/steel_fence',
+    'immersiveengineering:metalpress/rod_steel',
+    'createaddition:rolling/steel_ingot',
+  ], 'immersiveengineering:ingot_steel', '#bth:ingots/steel');
+
   // Stick / Rod Compatibility
   event.replaceInput({output:'#minecraft:arrows'}, 'minecraft:stick', '#forge:rods/wooden');
 

@@ -28,6 +28,11 @@ ServerEvents.tags('item', event => {
     'integrateddynamics:energy_battery',
   ]);
 
+  event.add('bth:ingots/steel', [
+    'immersiveengineering:ingot_steel',
+    'enderio:dark_steel_ingot',
+  ]);
+
   event.add('bth:mechanical_soul', [
     'advancedperipherals:weak_automata_core',
     'ars_elemental:anima_essence',

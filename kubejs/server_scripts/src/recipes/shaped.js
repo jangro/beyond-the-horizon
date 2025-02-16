@@ -531,7 +531,7 @@ ServerEvents.recipes(event => {
     'I',
     'I'
   ], {
-    I: '#forge:ingots/steel',
+    I: '#bth:ingots/steel',
   }).id(`${ID_PREFIX}immersiveengineering_stick_steel`);
 
   // Iron's Spellbooks
