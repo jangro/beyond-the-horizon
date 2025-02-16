@@ -635,6 +635,19 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}speed_upgrade_from_glycerol`);
 
+  // Redstone Pen
+  event.shaped('redstonepen:control_box', [
+    ' R ',
+    'EPL',
+    ' G '
+  ], {
+    P: '#bth:pcb',
+    R: 'minecraft:redstone',
+    L: 'minecraft:lapis_lazuli',
+    G: 'minecraft:gold_ingot',
+    E: 'minecraft:emerald',
+  }).id(`${ID_PREFIX}control_box_recipe`);
+
   // Rustic Engineer
   event.shaped('rustic_engineer:spider_mech_item', [
     'ESC',

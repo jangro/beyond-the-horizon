@@ -198,6 +198,7 @@ ServerEvents.recipes(event => {
     'rats:token_fragment',
     'rats:token_piece',
     'rats:upgrades/aristocrat_upgrade',
+    'redstonepen:control_box_recipe',
     'sophisticatedbackpacks:void_upgrade',
     'storagedrawers:void_upgrade',
     'supplementaries:soap_clean_upgrade_aquatic_bedroll',
