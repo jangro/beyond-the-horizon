@@ -702,16 +702,18 @@
 				"6C143D7B08238AC6"
 			]
 			description: [
-				"The various eyes required to open the portal can be found around the world. In &eBeyond the Horizon&r they are a bit more accessible than what you may be used to."
+				"There are 16 unique eyes, 12 are needed to open the End portal. End portals can be found in underground strongholds and in the &9Lost Castle&r, a rare structure found on the overworld surface."
 				""
-				"See each eye for a hint of its location."
+				"The various eyes required to open the portal can be found around the world. In &6Beyond the Horizon&r they are a bit more accessible than what you may be used to. See each eye for a hint of its location."
+				""
+				"Once you go through the portal you will find yourself in the &eOuter End Islands&r. Here you can take your time to explore, take on new dungeons and End Cities. When you're ready, travel to the &5Center End Island&r and take on the dragon to free the End."
 			]
 			icon_scale: 0.9d
 			id: "43F459A83C683494"
 			min_required_dependencies: 12
 			shape: "diamond"
 			size: 3.0d
-			subtitle: "Collect 12 different eyes and then activate the portal."
+			subtitle: "IMPORTANT INFO! Click to read more."
 			tasks: [{
 				icon: "minecraft:end_portal_frame"
 				id: "20E01A30E937B145"
