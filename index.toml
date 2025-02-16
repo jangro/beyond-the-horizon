@@ -52,7 +52,7 @@ hash = "609c1ee55979d9a6a110fbddf78414d1555ec58c2289b3e9be12faf150fa1a28"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
-hash = "732702004fcc02128294ff9b4f30b1a07dd15977b64f24d019464c4c6ccc6b1a"
+hash = "68ccecdc89770fe66eccd795fb3755d48cc3abd5039e2b7a956507740860e9f9"
 
 [[files]]
 file = "config/artifacts/common.json5"
@@ -504,7 +504,7 @@ hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "fbab52ecf0413172743720417133ee7ffd8266ff24ad3518f376f1dd7014b048"
+hash = "c4bbe09d19d77d579bd1c7bd548619d949148d4aba4cc57c4d421770b926d84a"
 
 [[files]]
 file = "config/rats-common.toml"
@@ -1192,7 +1192,7 @@ hash = "2f59556a830d9002ad080b22c2e39e67d851042ae901b7757c001fbe449b201c"
 
 [[files]]
 file = "kubejs/data/bth_structures/loot_tables/archeology/dw20.json"
-hash = "b5fb421244b673cf3a76fad8a58ee4751fb5403c08add1eeb8bc3870819fbb60"
+hash = "641224db0401101ccdf1cf55a63a44f79e2e6dfb809a3fc27ee919e10da0517c"
 
 [[files]]
 file = "kubejs/data/bth_structures/loot_tables/archeology/hangar.json"
@@ -1216,7 +1216,7 @@ hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/dw20.nbt"
-hash = "da52c90228df9c71ffb70c56d21160e82403909c11ab8d5f8fa517efa694239f"
+hash = "ff48f4185dd576f11d5d8d0aa5a8ea5bbc1efb7d0cd0ab8b7d8f6c85f73ccd67"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -2568,7 +2568,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "830fd53acf1b7d3ad6780d4ec23b6ee0d1a5f16505c5a258525e7bab633bc03b"
+hash = "f97eccef175da14bf5c0d3e693038717bf8059536118b69f3e04bd2da1c9868e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -2576,11 +2576,11 @@ hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "93425b553701d91e60f8769faa0f629cc381d36466388eaebc3edeec30c06e36"
+hash = "6381d0f27842b58b487676767e150da654b5321511ecbfa03807164cc727f332"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "ef776db45070aab7e7292c7711b83584237f6402d3a813e486a6044f22594f8a"
+hash = "a19c86697cb6a095c56a1e772ba9a4b61c04d2b38614e387abdd2b4e8faed066"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -2652,11 +2652,11 @@ hash = "f4b3807f8f85506240d9e7f4e36e4a6e6196ceb3dd09953a1e2084272abf488f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "0e14b7682e1c002a969e7ec06b3894d86327ecd29658eb4f6d32f1e12984d0ed"
+hash = "2be957b0a1b3a4ab595fd7b57a3c6c9f1c12d2f633c6faba869779074738f499"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "fbb44a35e507f4e32fed9bc1e749429bd63b1efb026fdb079b59f3de1d11fff5"
+hash = "237663f93d96a6401a8304a7fd78acbf3e2ee1b798c8fb283b592fb8054ac15e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -2700,7 +2700,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "96ddeee216992112844be166b5029088e1c5b5aa3e1834353a6c9da20da396f5"
+hash = "2c6dfa8c5d5d85791c58eea13765f5b07dd37cb9cbd9470afac1249f507957f3"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
@@ -2720,7 +2720,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "b97bd9221deb9f9504bdbd56d01df1aea953a97738a9d5b752dd8faf270033c7"
+hash = "c610ce91f9909676934bd52c7725e9ed8c39307a599e4cd12913f35098282ab3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -2756,7 +2756,7 @@ hash = "8faa1a59c7ce736d844ba38b3f57974e5928d26fa186aaa1a1da6c5e2c1dea6d"
 
 [[files]]
 file = "kubejs/startup_scripts/src/spell.js"
-hash = "0758c3f75f75ddebea46da9f9135d480168f6d882318a729a541baeb2132c320"
+hash = "75b51ea4a13e2468203b2f070b428857151e591b4b6bb0d1ffb8e52a84a8c984"
 
 [[files]]
 file = "kubejs/startup_scripts/src/worldgen.js"
@@ -3970,6 +3970,11 @@ metafile = true
 [[files]]
 file = "mods/rechiseled.pw.toml"
 hash = "3e8c59c1817babb68d49af1bd816d6d00ffbaa8343968ad324996a0d5deb9c69"
+metafile = true
+
+[[files]]
+file = "mods/redstone-pen.pw.toml"
+hash = "52e3e90b2af5df1504ac22354c28b67555b185384963465abc0c79605e5180e7"
 metafile = true
 
 [[files]]
