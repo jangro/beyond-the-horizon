@@ -111,22 +111,6 @@ file = "config/fancymenu/assets/bth-logo-1640x820.png"
 hash = "d9cbcb3571fef2344874a4060f689b9cd72a01f5f2f943379ca9109c2e9eb46f"
 
 [[files]]
-file = "config/fancymenu/assets/button-100x25-default.png"
-hash = "758f918ef87e6e7b93046712c540cb4b1978326682fdf834fee1724bceabf074"
-
-[[files]]
-file = "config/fancymenu/assets/button-100x25-hover.png"
-hash = "bf40bfd8fd81e906d25fc8937d331aa998b0e25a515c25430f88a49ba95091ea"
-
-[[files]]
-file = "config/fancymenu/assets/button-112x32-default.png"
-hash = "4445a33c857dca673b60450011debe3868a2030be80fd786722e6335dd41988f"
-
-[[files]]
-file = "config/fancymenu/assets/button-112x32-hover.png"
-hash = "7c3ab53d171839cad28e62f7a4567df73b5ceece021fba5662801144681eec7b"
-
-[[files]]
 file = "config/fancymenu/assets/button-128x128-default.png"
 hash = "494ea4575f6f676b8b1420050e53c2c0183a588aac314960096a943236d7ecfd"
 
@@ -137,70 +121,6 @@ hash = "9dd7fd27f028c12bab07d7094dcd64a1015c5e20c9fce81b59786178e0c89aa5"
 [[files]]
 file = "config/fancymenu/assets/button-128x128-hover.png"
 hash = "2c0eed5ee768f999213d6c46d5198b3ad583048fc71b5d38225a0e0b5cd1340b"
-
-[[files]]
-file = "config/fancymenu/assets/button-160x40-default.png"
-hash = "8766a1f9adc24b7d89d63fa83d0758d59a3b0f546909c123c6139aa455d45ff1"
-
-[[files]]
-file = "config/fancymenu/assets/button-160x40-hover.png"
-hash = "ee044a872e08c478e507ba4a1fa055da2256a02a34b6af947656281bc87178b7"
-
-[[files]]
-file = "config/fancymenu/assets/button-160x48-default.png"
-hash = "87f926496e767c53942f101f049a9f14a46879849f6f9500aa1df3a9a22213f8"
-
-[[files]]
-file = "config/fancymenu/assets/button-160x48-hover.png"
-hash = "755b670c1f999f20ecbd863e70c2cdeec84cbb86b00247d34c013688414c0562"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-accessibility-default.png"
-hash = "1d789662aaa1f04d60489e71a718b4ef06c98d9d9aacb68da8c4fe4ea8bdc603"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-accessibility-hover.png"
-hash = "9852b0227cab9cd204d453ab9338887e2b8e04dcffdf6db4a4c442217326bc28"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-curseforge-default.png"
-hash = "e91c0835b7c95b7f8ae2b92c38c8ec8c5ec16004c3d7593ab19383344a2529fa"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-curseforge-hover.png"
-hash = "84f7b9dfd22e49d7c36cc134777f7ec23d0486e08d2eab8620b0c3eb51912d15"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-default.png"
-hash = "8e627a2fe358afd77658e25b7737b6cd0c800c56666fcd76f3e8a105ea4a44e7"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-discord-default.png"
-hash = "fcffa5a2c3a2c7101ec2e58102ad778aa1b99eb252e874c5f1a6404d5d2df4a9"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-discord-hover.png"
-hash = "dd51dd8dddb33cddf9aaf910e9afda48b4adfa3be7908ebe913d14a2517221a8"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-github-default.png"
-hash = "5bd97ae6a3d2d9268b1f4ed1d6f43efdaae2eddc7125cd08a0bda69c255c1caa"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-github-hover.png"
-hash = "772f1fc0430fd875a25cd03819b1dc9fd19261b06d972ebe8b8f6acc9368a71e"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-hover.png"
-hash = "34634397cc04503969fb6c688d35597b580ecf2c04cb29a4a032f130465bc166"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-lang-default.png"
-hash = "9032a4fa2d8dcb94f82da553e02f3fb88855e6c1b47caa2f687a23d547c8c472"
-
-[[files]]
-file = "config/fancymenu/assets/button-20x20-lang-hover.png"
-hash = "dcdad706453729d1156ea6c7dab607117284f1611fc91d0d1c34f9fe27da8bd3"
 
 [[files]]
 file = "config/fancymenu/assets/button-32x32-accessibility-default.png"
@@ -256,15 +176,19 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "8e15b8fdd11e054e25d49c37ce6a448807a7e6e34f9c3b46dc4d222aa0aca44b"
+hash = "8b8d63ecc8fdd9e5a755644c2532acad534b6f4a41144b2ea977857d625f6a72"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "5e8aaca4ef733f49b2e12d1e4e32d081b480b0f5402bafe851315ed7eb84fb39"
 
 [[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "efa24d8cba2f5c2114c56a27722c94f5f014aeca46218ea999bfdd870360f648"
+
+[[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "bd3514a0951ef59be20166dc95d3957122e103d375be14ca3b62e7d1078c9346"
+hash = "8198863e8b49d8906a361887455f360a6f195dc9c097d8ac3d6680b5b1560403"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -276,7 +200,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "3cd4536c7c3db7b8835d537a540e19a5f54eb908c7de811510348095e10b6abe"
+hash = "c3172f04d458efeb020af85fb783c53756b868906077f92d90c09c6fd51a2ba7"
 
 [[files]]
 file = "config/fancymenu/panoramas/bth/panorama/panorama_0.png"
