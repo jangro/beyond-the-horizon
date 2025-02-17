@@ -388,7 +388,7 @@ hash = "4dccb0b4bb5e1334f8097470fe6b44007da416e57aab3c3325d90b33f97fc856"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "e2e71d1e5e67944990e7cb3de7e78a454d7b1f3e53063c08e45c2c76d74607ba"
+hash = "2b76080ab2aaf4f0875c7816de51c8d8dbff031a9d60dcbe4c4126a9560667dd"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -728,7 +728,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "ef5943a5380ecd42d060652b990494c9f2a058469d23cabfb5727fcb5e002059"
+hash = "ed73832db601ef702eaf369816c350d07ae0d909e37edc43d6c05429b5bf101d"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -2596,7 +2596,7 @@ hash = "ac4b4c21b820a02be448ef11b940ea1131bc79404b023c3f91597a7f4e87cacd"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
-hash = "e9158d5331d70c01470e2034236e17171e7dab701522f857a2dd507796b038b9"
+hash = "bd002fa97195751bec2acc2b610a45e5577a3257a4959a6c4a9045e08670048c"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
@@ -2648,7 +2648,7 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "f4b3807f8f85506240d9e7f4e36e4a6e6196ceb3dd09953a1e2084272abf488f"
+hash = "ef1b58e7f9ba080e42d9283959364548c2e35b7e6126a522a1c126b2bfac2abe"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -2656,7 +2656,7 @@ hash = "2be957b0a1b3a4ab595fd7b57a3c6c9f1c12d2f633c6faba869779074738f499"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "237663f93d96a6401a8304a7fd78acbf3e2ee1b798c8fb283b592fb8054ac15e"
+hash = "ffac34a9c7d816a28ded6950012b32ad84eac642c49052d990a67a12852f96b3"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -4359,6 +4359,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/mt-ct-d.pw.toml"
 hash = "d7476206095fd8381dd9c68a38ee3899bf85833be4cce9fd3eb54cc01eb9c54d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-pen-revamped.pw.toml"
+hash = "e649258f1d08f9008566b049070f440a878ce60c051105b0877153c4c6e1fbf4"
 metafile = true
 
 [[files]]
