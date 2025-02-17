@@ -48,6 +48,7 @@ const PLAGUE_DOCTOR_TRADES = Java.loadClass("com.github.alexthe666.rats.server.m
 VillagerUtils.setAbstractTrades(PLAGUE_DOCTOR_TRADES, 1, [
   VillagerUtils.createSimpleTrade('1x rats:tiny_coin', 'rats:cheese'),
   VillagerUtils.createSimpleTrade('1x rats:tiny_coin', 'rats:herb_bundle'),
+  VillagerUtils.createSimpleTrade('6x rats:tiny_coin', 'rats:treacle'),
   VillagerUtils.createSimpleTrade('8x rats:tiny_coin', 'rats:garbage_pile'),
   VillagerUtils.createSimpleTrade('1x createdeco:copper_coin', 'rats:rat_burger'),
   VillagerUtils.createSimpleTrade('1x createdeco:copper_coin', 'rats:rat_papers'),
