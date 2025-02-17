@@ -1,0 +1,13 @@
+name = "Anthill Inside"
+filename = "anthillinside-1.20.1-neoforge-1.4.24.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17fb835ffb48222ec73db7e7d85924302dfef117"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5207413
+project-id = 442876

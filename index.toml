@@ -728,7 +728,7 @@ hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "ed73832db601ef702eaf369816c350d07ae0d909e37edc43d6c05429b5bf101d"
+hash = "df889f91e3c8cd784275b9f548c53edd9984bba66cc8ac201ad82ceb194292dc"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -2835,6 +2835,11 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "ae9a1adc0c29e847190a8f551683427a57fbb131f4e3cbf89176f54eb3e23a90"
+metafile = true
+
+[[files]]
+file = "mods/anthill-inside.pw.toml"
+hash = "aaf314354fbf6a80549185c70fb3cb82eebb2853a068c8c41adf41c97294c9db"
 metafile = true
 
 [[files]]
