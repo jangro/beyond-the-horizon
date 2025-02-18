@@ -611,6 +611,10 @@ file = "kubejs/assets/bth/textures/item/terminus.png"
 hash = "aadee2369bf21188b17c00d0c3c3820f64091fb0fc534502ae7199f239aa270a"
 
 [[files]]
+file = "kubejs/assets/enderio/lang/en_us.json"
+hash = "ff8ba081d52a78888338d6d66808b378f5d5c97342da163ff599999b9f0964e3"
+
+[[files]]
 file = "kubejs/assets/hostilenetworks/textures/item/empty_learner_slot.png"
 hash = "3a6349c0e979cd84fbcf32013c19cc8970b44c8d798505f51bab5022d63b8de3"
 
