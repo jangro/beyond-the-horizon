@@ -16,7 +16,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "3d301ae3ea6a493ad943f78d4e9c0724372598e75eacf01b8b467a7cabfa5fa0"
+hash = "d51896cf71b457366acc7c9c9cdc33abb26a156e1ebdedc83fa00b2a26b5845c"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
@@ -68,7 +68,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "931a10c1a0ff864d4ce8d413f5c0e8670fbce93a8dbc5a158e4a247145cc680e"
+hash = "bba1769ef0f38449d348b17e943050605db80658f250b6682e14b829f0b9929a"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -207,8 +207,12 @@ file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "5e8aaca4ef733f49b2e12d1e4e32d081b480b0f5402bafe851315ed7eb84fb39"
 
 [[files]]
-file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "efa24d8cba2f5c2114c56a27722c94f5f014aeca46218ea999bfdd870360f648"
+file = "config/fancymenu/customization/pause_screen_layout_multi.txt"
+hash = "0b52a5343fc6e95f860889db7b6b0258337228ba7dc2c3d337548e547d3c1dcd"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout_single.txt"
+hash = "c51d6e8078b4a4f15b778a3c2a1585e2a23736d6dd16f2555237132cd77c3e08"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
@@ -224,7 +228,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "46c53aa952f09e8438f23698327398fd3ddbd63caaca8a52af6ffa5d98fc2919"
+hash = "c3172f04d458efeb020af85fb783c53756b868906077f92d90c09c6fd51a2ba7"
 
 [[files]]
 file = "config/fancymenu/panoramas/bth/panorama/panorama_0.png"
@@ -1188,7 +1192,7 @@ hash = "70f9ddb4030b0f881f24d13a44203fa00b8ab21002945fefee7c5e614fd9a94b"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/ruined_hangar/tower.nbt"
-hash = "808f97b9568d054c39a3dc21bf56941b83ee4a47fce8fc419c0d5907f24d18f0"
+hash = "99d234589d0a130160737952ec1353ec5548d034bf15f70838d3bcfbdec4792e"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tinkerer_house/basement.nbt"
