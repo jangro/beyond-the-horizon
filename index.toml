@@ -99,6 +99,10 @@ file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
 [[files]]
+file = "config/enderio/machines-common.toml"
+hash = "73a42c125a126ebfbe8ca20d2072696a48c7453054e3f5aa19b1cff1b4a4a52d"
+
+[[files]]
 file = "config/exposure-common.toml"
 hash = "21d0736bf5260956e48e64b3cd9ae6ebc94e1afbeb4a07357ba85c24aa3b1295"
 
@@ -612,7 +616,7 @@ hash = "aadee2369bf21188b17c00d0c3c3820f64091fb0fc534502ae7199f239aa270a"
 
 [[files]]
 file = "kubejs/assets/enderio/lang/en_us.json"
-hash = "ff8ba081d52a78888338d6d66808b378f5d5c97342da163ff599999b9f0964e3"
+hash = "59f1cd71c48d9ce90c5a9a12005e4a69712f0188940c4ad5185451524c8e49aa"
 
 [[files]]
 file = "kubejs/assets/hostilenetworks/textures/item/empty_learner_slot.png"
