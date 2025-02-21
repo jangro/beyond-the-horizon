@@ -16,7 +16,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "d51896cf71b457366acc7c9c9cdc33abb26a156e1ebdedc83fa00b2a26b5845c"
+hash = "12fc93a8fcc7b46ab3bde326e939688136365232d3fafaaed767dba2fe4ecbb1"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
@@ -564,7 +564,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "52e657fe753f2d6185a88e7ff00e5ce68240e10ee38088ddc054acd634f97ae3"
+hash = "e55ec16e24472b5f190bf79ef65a463be928d2af8051050d169cdab22f73c8b4"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -1836,7 +1836,7 @@ hash = "c90bc07060e8b157651e5307d25f0ed31e2a01473ccb4d512b6f73c7455bbba3"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/seal.json"
-hash = "f3c57957ff59085c747954796e8b9ea138a04852b040185e91bc90dc0b46e059"
+hash = "778ee968e37ddf31b4e3455b3fad23114133f5574f36837339ae34e651a9d85f"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/skelewag.json"
@@ -2536,7 +2536,7 @@ hash = "6381d0f27842b58b487676767e150da654b5321511ecbfa03807164cc727f332"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "a19c86697cb6a095c56a1e772ba9a4b61c04d2b38614e387abdd2b4e8faed066"
+hash = "3ff04db8b29b904a9374a3a96d37504997d46d0e22ad5b7c1fb321799693514c"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -2568,7 +2568,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "e6dd8976fae02f470dd603645761d40671a35647e64f109b1928ad84ee8a65b5"
+hash = "6ad9942521cbc0a1847d7fbf347e2a92a6897aab4565a1cb2128bfc2e8ba3d81"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -2592,7 +2592,7 @@ hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "7bced1e945caf6382df9a6dace42b9c0cb0eac8f85719d25ac6aa471f340452f"
+hash = "5ee1a3e2963e936166cd838e6e63187ed5ba309451e1f6519da51af244b21e2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"

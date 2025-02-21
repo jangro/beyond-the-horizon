@@ -542,7 +542,7 @@ _version = 3
 		# but may cause server/simulation lag. 
 		# Note: unlike other modes this option DOES save generated chunks to 
 		# Minecraft's region files.
-		distantGeneratorMode = "FEATURES"
+		distantGeneratorMode = "INTERNAL_SERVER"
 		#
 		# How should distant generator progress be displayed? 
 		# 
