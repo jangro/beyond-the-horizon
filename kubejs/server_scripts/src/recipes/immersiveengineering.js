@@ -314,4 +314,20 @@ ServerEvents.recipes(event => {
     ]
   });
 
+  event.custom({
+    "type": "immersiveengineering:bottling_machine",
+    "fluid": {
+      "amount": 1000,
+      "tag": "bth:hyper_nutritious_goo"
+    },
+    "input": {
+      "item": "minecraft:bucket"
+    },
+    "results": [
+      {
+        "item": "bth:hyper_nutritious_goo_bucket"
+      }
+    ]
+  });
+
 });

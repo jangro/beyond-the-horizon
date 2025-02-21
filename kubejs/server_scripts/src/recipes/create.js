@@ -19,6 +19,9 @@ ServerEvents.recipes(event => {
   event.recipes.create.crushing([Item.of('rats:plastic_waste').withChance(0.5)], 'rats:garbage_pile').id(`${ID_PREFIX}crushing/plastic_waste_from_garbage_pile`);
   event.recipes.create.crushing('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}crushing/powdered_quartz_from_quartz`);
 
+  // Filling
+  event.recipes.create.filling('bth:nanobot_soda_bottle', [Fluid.of('bth:nanobot_soda 125'), 'bth:nanobot_soda_bottle_empty']).id(`${ID_PREFIX}filling/nanobot_soda_filling`);
+
   // Haunting
   event.recipes.create.haunting('quark:soul_sandstone', 'minecraft:sandstone').id(`${ID_PREFIX}haunting/soul_sandstone_from_sandstone`);
   event.recipes.create.haunting('valhelsia_structures:soul_brazier', 'valhelsia_structures:brazier').id(`${ID_PREFIX}haunting/soul_brazier_from_brazier`);
