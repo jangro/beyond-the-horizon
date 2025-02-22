@@ -1,13 +1,13 @@
 name = "Bareback Horse Riding"
-filename = "barebackhorseriding-1.20.1-2.2.jar"
+filename = "barebackhorseriding-1.20.1-2.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1b2f11f4a7f760ce0be8275cd6b7cefaa982bf00"
+hash = "9ddb8efd07d660954d6103705aa092174a7739a2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5572960
+file-id = 6186486
 project-id = 949932
