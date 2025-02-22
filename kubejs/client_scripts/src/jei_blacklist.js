@@ -72,7 +72,7 @@ JEIEvents.hideItems(event => {
     'immersiveengineering:storage_silver',
     'immersiveengineering:storage_uranium',
     'incubation:fried_egg',
-    'lightmanscurrency:coin_mint',
+    'lightmanscurrency:coinmint',
     'lightmanscurrency:portable_atm',
     'lightmanscurrency:portable_terminal',
     'moreminecarts:chunk_loader',
