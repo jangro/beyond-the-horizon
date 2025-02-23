@@ -531,6 +531,10 @@ file = "config/voicechat/voicechat-server.properties"
 hash = "49f9a9aaaf1eb573b12330858911f49948454833a2347c72792a6430383bed67"
 
 [[files]]
+file = "config/wands.json"
+hash = "ce79b668be876fadfb7556ac3edd7dd091d13b8357bafafb56abc363024c05e9"
+
+[[files]]
 file = "config/waystones-common.toml"
 hash = "dcc8f874decbe4dc0286cde2d95608beed70fff5805e76ae9ba0abcb009cc885"
 
