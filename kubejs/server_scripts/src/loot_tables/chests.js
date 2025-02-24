@@ -102,9 +102,6 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:divine_smite",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 5);
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:haste",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
     });
-    table.addPool(pool => {
-      pool.addItem(AETHER_CITADEL_MAP);
-    });
   });
 
   event.modify('bth_structures:battle_grounds/nether', table => {
@@ -121,9 +118,6 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:blaze_storm",index:0,level:7,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 6);
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:fire_breath",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 10);
       pool.addItem(Item.of('irons_spellbooks:scroll', '{ISB_Spells:{data:[{id:"irons_spellbooks:flaming_barrage",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}'), 3);
-    });
-    table.addPool(pool => {
-      pool.addItem(NETHER_FORTRESS_MAP);
     });
   });
 

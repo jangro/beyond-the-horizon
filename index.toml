@@ -2528,7 +2528,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "f97eccef175da14bf5c0d3e693038717bf8059536118b69f3e04bd2da1c9868e"
+hash = "595c7c54393f25a5a8fb5c9d5a88071f9745d47d4b8a97173644cedce92675f0"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
