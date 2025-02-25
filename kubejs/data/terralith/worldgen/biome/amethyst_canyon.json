@@ -92,7 +92,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "terralith:jungle/patch_melon",
-      "minecraft:vines"
+      "minecraft:vines",
+      "terralith:glinted_amethyst"
     ],
     [
       "minecraft:freeze_top_layer"
