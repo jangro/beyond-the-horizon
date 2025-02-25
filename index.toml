@@ -99,6 +99,14 @@ file = "config/cumulus_menus-client.toml"
 hash = "8c8b694f865f17baa2b856b538da1c58b50432e300f0ac5d73eff62412eab5d3"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "b7bfd6aeb6be0f01872804a095b72ed9d292ebf60c2488e306a6464b316898ab"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "dc7032ed49cbcfb54875e54fc9ddb8f9c84184f7470609cffe38d6d0a2f6a1a0"
+
+[[files]]
 file = "config/eidolon-common.toml"
 hash = "218b8ab34e3e5734550d689462f0ade99a315d5031206a56212e5a9f5680c6b4"
 
@@ -685,10 +693,6 @@ hash = "4a456b16f9167db006611f281cecc10db2be11c5dd9f6d00b79bd76dff442b21"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "d28fe7f4a5f65b45618c795b1a07d4c7dd1ffec4c5035649fb3a51fd968ed843"
-
-[[files]]
-file = "kubejs/config/defaultoptions.txt"
-hash = "2e4a3598657236e30e3749447c2da63caa5931dae4c611f9cfabdd613ea1ae7e"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -3197,6 +3201,11 @@ metafile = true
 [[files]]
 file = "mods/deep-aether.pw.toml"
 hash = "3138ff22df0b31975f7625fe4ab3596615bd1772a7a191573acf58ecfe47a03e"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
 metafile = true
 
 [[files]]
