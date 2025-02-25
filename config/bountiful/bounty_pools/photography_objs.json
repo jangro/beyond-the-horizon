@@ -1,0 +1,43 @@
+{
+	"content": {
+
+		"photography_obj_villager": {
+			"name": "Photograph a villager",
+			"icon": "exposure:camera",
+			"type": "criteria",
+			"content": "exposure:frame_exposed",
+			"conditions": {
+				"exposure": {
+					"entity_in_frame":  {
+						"type": "minecraft:villager"
+					  }
+				}
+			},
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 20
+		},
+
+		"photography_obj_iron_golem": {
+			"name": "Photograph an Iron Golem",
+			"icon": "exposure:camera",
+			"type": "criteria",
+			"content": "exposure:frame_exposed",
+			"conditions": {
+				"exposure": {
+					"entity_in_frame":  {
+						"type": "minecraft:iron_golem"
+					  }
+				}
+			},
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"unitWorth": 50
+		}
+
+    }
+}

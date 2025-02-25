@@ -1,0 +1,10 @@
+{
+    "name": "Adventure",
+    "objectives": [
+        "photography_objs",
+        "hunt_objs"
+    ],
+    "rewards": [
+        "bth_rews"
+    ]
+}

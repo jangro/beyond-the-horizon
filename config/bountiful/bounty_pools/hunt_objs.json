@@ -1,0 +1,45 @@
+{
+	"content": {
+		"hunt_obj_rat": {
+			"type": "item",
+			"rarity": "COMMON",
+			"content": "bth:bounty_hunters_trap_used",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"nbt": "{bounty_entity:\"rats:rat\",display:{Lore:['{\"text\":\"Contains: rats:rat\",\"italic\":false,\"color\":\"gray\"}']}}",
+			"unitWorth": 3,
+			"weightMult": 1.0
+		},
+
+		"hunt_obj_farseer": {
+			"name": "Capture a farseer",
+			"type": "item",
+			"rarity": "EPIC",
+			"content": "bth:bounty_hunters_trap_used",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"nbt": "{bounty_entity:\"alexsmobs:farseer\",display:{Lore:['{\"text\":\"Contains: alexsmobs:farseer\",\"italic\":false,\"color\":\"gray\"}']}}",
+			"unitWorth": 100,
+			"weightMult": 1.0
+		},
+
+		"hunt_obj_void_vorm": {
+			"name": "Capture a void vorm head",
+			"type": "item",
+			"rarity": "LEGENDARY",
+			"content": "bth:bounty_hunters_trap_used",
+			"amount": {
+				"min": 1,
+				"max": 1
+			},
+			"nbt": "{bounty_entity:\"alexsmobs:void_vorm\",display:{Lore:['{\"text\":\"Contains: alexsmobs:void_vorm\",\"italic\":false,\"color\":\"gray\"}']}}",
+			"unitWorth": 100,
+			"weightMult": 1.0
+		}
+
+	}
+}
