@@ -143,6 +143,7 @@
 
   "bth.comment.chat": "-----Chat Messages-----",
   "bth.chat.first_start_message": "Welcome to Beyond the Horizon! Press 'J' to open the quest book.",
+  "bth.chat.bounty_hunters_trap_no_bounty": "You don't have an active bounty in your inventory for capturing this entity.",
 
   "bth.comment.currency": "----- Currency -----",
   "lightmanscurrency.money.chain.main": "Lightman's",
@@ -196,6 +197,8 @@
   "item.bth.nanobot_soda_bottle_empty": "Empty Nanobot Soda Bottle",
   "item.bth.lembas_bread": "Lembas Bread",
   "item.bth.mallorn_leaf": "Mallorn Leaf",
+  "item.bth.bounty_hunters_trap": "Bounty Hunter's Trap",
+  "item.bth.bounty_hunters_trap_used": "Used Bounty Hunter's Trap",
   "item.minecraft.tipped_arrow.effect.absorption": "Arrow of Absorption",
   "item.minecraft.tipped_arrow.effect.astral": "Arrow of Astral",
   "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin's Grace",
@@ -273,6 +276,8 @@
   "tooltip.bth.nanobot_soda_bottle_empty": "A bottle designed to hold nanobots.",
   "tooltip.bth.lembas_bread": "A bread baked with ancient magic.",
   "tooltip.bth.mallorn_leaf": "Keeps bread fresh for a very long time. Right-click on Elven Gateway Core to recycle for a reward.",
+  "tooltip.bth.bounty_hunters_trap": "A trap used by bounty hunters to capture their targets.",
+  "tooltip.bth.bounty_hunters_trap_used": "Hand in together with the bounty document.",
 
   "tooltip.bth.plushies.allay": "\u00A77Craft using a photograph containing an allay.",
   "tooltip.bth.plushies.axolotl": "\u00A77Craft using a photograph containing an axolotl.",

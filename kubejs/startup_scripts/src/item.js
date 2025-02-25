@@ -88,6 +88,17 @@ StartupEvents.registry("item", event => {
     .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle_empty'))
     .translationKey('item.bth.nanobot_soda_bottle_empty');
 
+  // Mob catcher for bounties
+  event.create('bth:bounty_hunters_trap')
+    .texture('bth:item/bounty_hunters_trap')
+    .tooltip(Text.translate('tooltip.bth.bounty_hunters_trap'))
+    .translationKey('item.bth.bounty_hunters_trap');
+
+  event.create('bth:bounty_hunters_trap_used')
+    .texture('bth:item/bounty_hunters_trap_used')
+    .tooltip(Text.translate('tooltip.bth.bounty_hunters_trap_used'))
+    .translationKey('item.bth.bounty_hunters_trap_used');
+
 });
 
 // Make Terminus unbreakable here since we can't do it in the item creation event.

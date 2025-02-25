@@ -83,6 +83,26 @@ file = "config/blockswap/block_swap.json5"
 hash = "ff11153384f458b4e44589d84342b98f7cfd8f7e2f76d308434f803c2cef45b7"
 
 [[files]]
+file = "config/bountiful/bountiful.json"
+hash = "a33df7652bc9587b98f59f0b81b4dca7b7ca5e27895fad778e69b9c0b72df155"
+
+[[files]]
+file = "config/bountiful/bounty_decrees/adventure.json"
+hash = "2b187e5ec661caf388ab225f0525645e4763980eb07d40a626b74f6adf6e50ff"
+
+[[files]]
+file = "config/bountiful/bounty_pools/bth_rews.json"
+hash = "e3038e044cd110a4fce8a43dad097159b817ce8ac7091a92153fa9c7d4ba8ee4"
+
+[[files]]
+file = "config/bountiful/bounty_pools/hunt_objs.json"
+hash = "a9bf7a05a7470e949d9d6ab290cb76a4033d2aa9bd26f7c83af46c9c4d41dcdd"
+
+[[files]]
+file = "config/bountiful/bounty_pools/photography_objs.json"
+hash = "3203f24866e1c8ffa24cce1ab6513611eb694c0b31cb5daa11f839f63aac01d4"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "21cdf40d3594e827d23b890a4e793227bedf1ff9ac7087fcd343b109d1e02786"
 
@@ -576,7 +596,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "e55ec16e24472b5f190bf79ef65a463be928d2af8051050d169cdab22f73c8b4"
+hash = "d61b1d3362981157ad352b4f84ea90b49c12033fc6cbc58aa3b43fca38c1f1e9"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -605,6 +625,14 @@ hash = "5aa90e70e791c4c64b0d1942814f13b7034269ab0fc1449ff97c767e228e68a6"
 [[files]]
 file = "kubejs/assets/bth/textures/item/adventurers_spell_book.png"
 hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_hunters_trap.png"
+hash = "3512b7d7ce0c668a1c18fb4442ae649cff6116c71e02882a8d913bbfbb82ce94"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_hunters_trap_used.png"
+hash = "f21384cb929e0a3ec9d93c56519bfa435b9fea04e7cb0a09ec0c3818d9ae468d"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/coconut_maul.png"
@@ -2535,6 +2563,10 @@ file = "kubejs/server_scripts/src/functions.js"
 hash = "439144588fa6bda0cd9bd262654a5dbf975062e5e66ef9f8fddab6b926876e5b"
 
 [[files]]
+file = "kubejs/server_scripts/src/item_events.js"
+hash = "462dc1298ef885cf45647f3a84e563a66c99899201c9865a5da68e6ea0294a8a"
+
+[[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
 hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
@@ -2628,7 +2660,7 @@ hash = "2be957b0a1b3a4ab595fd7b57a3c6c9f1c12d2f633c6faba869779074738f499"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "ffac34a9c7d816a28ded6950012b32ad84eac642c49052d990a67a12852f96b3"
+hash = "faa9731d61730c0b3472d133b0a7a2104c9ba0602ad337a0b9552ae75d632cc4"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
@@ -2692,7 +2724,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "c610ce91f9909676934bd52c7725e9ed8c39307a599e4cd12913f35098282ab3"
+hash = "cdb523364664e7515943e5db351aa839bb9751f0fef0d3cd3905ef72b4483060"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -2951,6 +2983,11 @@ metafile = true
 [[files]]
 file = "mods/botarium.pw.toml"
 hash = "008c942efc2e2ec221dd1a760b4a50e2f24ede37747731ba794f5e845554adcb"
+metafile = true
+
+[[files]]
+file = "mods/bountiful.pw.toml"
+hash = "2798fc9c61947e92e1e43c8b031429b811e45aa79a421b7fba9fe81754e319a2"
 metafile = true
 
 [[files]]
@@ -3591,6 +3628,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "2f4dd47f2ac99a55c332638116596bbdc38a06ac86336bb662e42c604c3a96e6"
+metafile = true
+
+[[files]]
+file = "mods/kambrik.pw.toml"
+hash = "b7d3d553250955d3b3a669647e66ef6c4c7a31ee07f04e308432acdebb87adb0"
 metafile = true
 
 [[files]]

@@ -28,6 +28,15 @@ ServerEvents.recipes(event => {
     R: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}coconut_maul`);
 
+  event.shaped('bth:bounty_hunters_trap', [
+    '  E',
+    ' R ',
+    'R  '
+  ], {
+    E: 'minecraft:ender_pearl',
+    R: '#forge:rods/wooden'
+  }).id(`${ID_PREFIX}bounty_hunters_trap`);
+
   event.shaped('bth:terminus', [
     ' D ',
     'SGR',
