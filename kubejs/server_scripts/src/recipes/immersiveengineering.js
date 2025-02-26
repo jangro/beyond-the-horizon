@@ -187,6 +187,9 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.hammer_crushing('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}hammer_crushing/powdered_quartz_from_quartz`);
   } 
 
+  if (Platform.isLoaded('create')) {
+    event.recipes.immersiveengineering.hammer_crushing('create:crushed_raw_zinc', '#forge:ores/zinc').id(`${ID_PREFIX}hammer_crushing/zinc`);
+  }
 
   // Fermenter Recipes
 
