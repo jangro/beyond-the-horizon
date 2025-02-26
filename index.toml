@@ -696,7 +696,7 @@ hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "cf8ad4f95638ce4415414b25cbd55669d0c15bd832e68d8c9a73a81b7a85bfee"
+hash = "efd6838f5e92ccc1f2bd1aa1c5a9bcedce69c10d662db51eb253b03c30c53820"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -2628,7 +2628,7 @@ hash = "0930be7ce2f54dd402923b8c5a8535ca91f6df1b60f00cc821e99ececf56ef9f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
-hash = "91269a744b11d6f7dd5e979f2c22aa73b56c759ed977d1cd2f0139cb9b082ec3"
+hash = "ebe2b15515c7ecbac9ea53751c1cec06128a0ac335916118898476fe181cac0d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/exposure.js"
@@ -2652,7 +2652,7 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "ef1b58e7f9ba080e42d9283959364548c2e35b7e6126a522a1c126b2bfac2abe"
+hash = "e00c629793fa197fa1c79ff2826352ab08d73aebb673b86e26528cf311313126"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"

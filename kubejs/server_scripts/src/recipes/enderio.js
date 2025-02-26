@@ -30,6 +30,24 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}alloy_smelting/uranium`);
 
+  // Electrum
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 1500,
+    "experience": 1.0,
+    "inputs": [
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:dusts/electrum"
+        }
+      }
+    ],
+    "result": {
+      "item": "createaddition:electrum_ingot"
+    }
+  }).id(`${ID_PREFIX}alloy_smelting/electrum_ingot`);
+
   // Alloy smelting recipe for fluix crystal
   event.custom({
     "type": "enderio:alloy_smelting",
@@ -125,6 +143,103 @@ ServerEvents.recipes(event => {
     ]
   }).id(`${ID_PREFIX}sag_milling/silver`);
 
+  // Sag mill recipe for copper
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/copper"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "count": 5,
+          "item": "create:crushed_raw_copper"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_copper"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/copper`);
+
+  // Sag mill recipe for iron
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/iron"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_iron"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_iron"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/iron`);
+
+  // Sag mill recipe for gold
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/gold"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_gold"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_gold"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/gold`);
+
   // Sag mill recipe for lead
   event.custom({
     "type": "enderio:sag_milling",
@@ -156,6 +271,38 @@ ServerEvents.recipes(event => {
       }
     ]
   }).id(`${ID_PREFIX}sag_milling/lead`);
+
+  // Sag mill recipe for obsidian
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:obsidian"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:powdered_obsidian"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:powdered_obsidian"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:obsidian"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/obsidian`);
 
   // Sag mill recipe for certus quartz
   event.custom({

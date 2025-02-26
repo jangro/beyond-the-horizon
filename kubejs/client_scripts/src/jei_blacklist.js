@@ -32,6 +32,10 @@ JEIEvents.hideItems(event => {
     'createdeco:zinc_coin',
     'createdeco:zinc_coinstack',
     'createdeco:zinc_sheet',
+    'enderio:powdered_copper',
+    'enderio:powdered_gold',
+    'enderio:powdered_iron',
+    'enderio:powdered_obsidian',
     'enderio:silicon',
     'farmersdelight:rope',
     /ftbquests:.*/,
@@ -126,4 +130,8 @@ JEIEvents.hideItems(event => {
     event.hide(`immersiveengineering:dust_${material}`)
   );
 
+  // Hide EnderIO dusts that are replaced by Create crushed raw ores, or simply just have no use or way to craft.
+  ['cobalt', 'copper', 'gold', 'iron', 'obsidian', 'tin'].forEach((material) =>
+    event.hide(`enderio:powdered_${material}`)
+  );
 });
