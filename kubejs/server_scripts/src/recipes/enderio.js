@@ -104,57 +104,30 @@ ServerEvents.recipes(event => {
     }
   });
 
-  // Sag mill recipe for uranium
-  event.custom({
-    "type": "enderio:sag_milling",
-    "energy": 2400,
-    "input": {
-      "tag": "forge:ores/uranium"
-    },
-    "outputs": [
-      {
-        "chance": 1.0,
-        "item": {
-          "item": "alexscaves:uranium"
-        },
-        "optional": false
-      },
-      {
-        "chance": 0.33,
-        "item": {
-          "item": "alexscaves:uranium"
-        },
-        "optional": false
-      },
-      {
-        "chance": 0.15,
-        "item": {
-          "item": "minecraft:cobblestone"
-        },
-        "optional": false
-      }
-    ]
-  }).id(`${ID_PREFIX}sag_milling/uranium`);
+  //
+  // SAG MILLING
+  //
 
-  // Sag mill recipe for silver
+  // Sag mill recipe for aluminum
   event.custom({
     "type": "enderio:sag_milling",
     "energy": 2400,
     "input": {
-      "tag": "forge:ores/silver"
+      "tag": "forge:ores/aluminum"
     },
     "outputs": [
       {
         "chance": 1.0,
         "item": {
-          "item": "create:crushed_raw_silver"
+          "count": 1,
+          "item": "create:crushed_raw_aluminum"
         },
         "optional": false
       },
       {
         "chance": 0.33,
         "item": {
-          "item": "create:crushed_raw_silver"
+          "item": "create:crushed_raw_aluminum"
         },
         "optional": false
       },
@@ -166,7 +139,7 @@ ServerEvents.recipes(event => {
         "optional": false
       }
     ]
-  }).id(`${ID_PREFIX}sag_milling/silver`);
+  }).id(`${ID_PREFIX}sag_milling/aluminum`);
 
   // Sag mill recipe for copper
   event.custom({
@@ -328,6 +301,134 @@ ServerEvents.recipes(event => {
       }
     ]
   }).id(`${ID_PREFIX}sag_milling/obsidian`);
+
+  // Sag mill recipe for silver
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/silver"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_silver"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_silver"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/silver`);
+
+  // Sag mill recipe for uranium
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/uranium"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "alexscaves:uranium"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "alexscaves:uranium"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/uranium`);
+
+  // Sag mill recipe for zinc
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/zinc"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_zinc"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_zinc"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/zinc`);
+
+  // Sag mill recipe for nickel
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:ores/nickel"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:crushed_raw_nickel"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.33,
+        "item": {
+          "item": "create:crushed_raw_nickel"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.15,
+        "item": {
+          "item": "minecraft:cobblestone"
+        },
+        "optional": false
+      }
+    ]
+ }).id(`${ID_PREFIX}sag_milling/nickel`);
 
   // Sag mill recipe for certus quartz
   event.custom({
