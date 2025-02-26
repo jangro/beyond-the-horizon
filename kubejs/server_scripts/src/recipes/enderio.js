@@ -11,6 +11,31 @@
 ServerEvents.recipes(event => {
   const ID_PREFIX = 'bth:enderio/';
 
+  // Cake Base (changed to accept tag as input)
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 2000,
+    "experience": 0.3,
+    "inputs": [
+      {
+        "count": 3,
+        "ingredient": {
+          "tag": "forge:flour/wheat"
+        }
+      },
+      {
+        "count": 1,
+        "ingredient": {
+          "item": "minecraft:egg"
+        }
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "enderio:cake_base"
+    }
+  }).id(`${ID_PREFIX}alloy_smelting/cake_base`);
+
   // The output replacement doesn't work for alloy furnace so remove and re-add uranium smelting recipes
   // TODO: schema for alloy furnace and sagmill
   event.custom({
@@ -425,5 +450,38 @@ ServerEvents.recipes(event => {
       }
     ]
   }).id(`${ID_PREFIX}sag_milling/stella_arcanum`);
+
+  // Sag mill recipe for wheat (output create flour instead of enderio flour)
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 2400,
+    "input": {
+      "tag": "forge:crops/wheat"
+    },
+    "outputs": [
+      {
+        "chance": 1.0,
+        "item": {
+          "item": "create:wheat_flour"
+        },
+        "optional": false
+      },
+      {
+        "chance": 0.25,
+        "item": {
+          "item": "create:wheat_flour"
+        },
+        "optional": true
+      },
+      {
+        "chance": 0.2,
+        "item": {
+          "count": 1,
+          "tag": "forge:seeds/wheat"
+        },
+        "optional": true
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/wheat`);
 
 });

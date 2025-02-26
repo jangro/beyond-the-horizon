@@ -32,6 +32,7 @@ JEIEvents.hideItems(event => {
     'createdeco:zinc_coin',
     'createdeco:zinc_coinstack',
     'createdeco:zinc_sheet',
+    'enderio:flour',
     'enderio:powdered_copper',
     'enderio:powdered_gold',
     'enderio:powdered_iron',
