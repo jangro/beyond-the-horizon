@@ -7,6 +7,29 @@
 const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext');
 const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil');
 const $UUIDUtil = Java.loadClass("net.minecraft.core.UUIDUtil");
+const $BigInteger = Java.loadClass("java.math.BigInteger");
+
+/**
+ * Get Most Significant Bits of a UUID.
+ * @param {UUID} uuid Java UUID object.
+ * @returns A $BigInteger containing the 32 most significant bits.
+ */
+const getMostSignificantBitsBigInt = (uuid) => {
+  let uuidArray = uuid.toString().split('-');
+  let hex = uuidArray[0].concat(uuidArray[1].concat(uuidArray[2]));
+  return new $BigInteger(hex, 16);
+};
+
+/**
+ * Get Least Significant Bits of a UUID.
+ * @param {UUID} uuid Java UUID object.
+ * @returns A $BigInteger containing the 32 least significant bits.
+ */
+const getLeastSignificantBitsBigInt = (uuid) => {
+  let uuidArray = uuid.toString().split('-');
+  let hex = uuidArray[3].concat(uuidArray[4]);
+  return new $BigInteger(hex, 16);
+};
 
 function rnd(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
