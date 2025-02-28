@@ -4,15 +4,20 @@
  * @file Global Functions for use in other scripts.
  */
 
+const $BigInteger = Java.loadClass('java.math.BigInteger');
+
 const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext');
 const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil');
-const $UUIDUtil = Java.loadClass("net.minecraft.core.UUIDUtil");
-const $BigInteger = Java.loadClass("java.math.BigInteger");
+const $UUIDUtil = Java.loadClass('net.minecraft.core.UUIDUtil');
 
 /**
- * Get Most Significant Bits of a UUID.
+ * Gets the most significant bits of a UUID as a Java $BigInteger.
+ * 
  * @param {UUID} uuid Java UUID object.
- * @returns A $BigInteger containing the 32 most significant bits.
+ * @returns {$BigInteger} The 64 most significant bits of the UUID.
+ * 
+ * @remarks A UUID string is a series of hexadecimal digits separated by the - symbol, distributed as: 8-4-4-4-12.
+ * The first three numbers (16 hex digits) are the 64 most significant bits.
  */
 const getMostSignificantBitsBigInt = (uuid) => {
   let uuidArray = uuid.toString().split('-');
@@ -21,9 +26,13 @@ const getMostSignificantBitsBigInt = (uuid) => {
 };
 
 /**
- * Get Least Significant Bits of a UUID.
+ * Gets least significant bits of a UUID as a Java $BigInteger.
+ * 
  * @param {UUID} uuid Java UUID object.
- * @returns A $BigInteger containing the 32 least significant bits.
+ * @returns {$BigInteger} The 64 least significant bits of the UUID.
+ * 
+ * @remarks A UUID string is a series of hexadecimal digits separated by the - symbol, distributed as: 8-4-4-4-12.
+ * The last two numbers (16 hex digits) are the 64 least significant bits.
  */
 const getLeastSignificantBitsBigInt = (uuid) => {
   let uuidArray = uuid.toString().split('-');
