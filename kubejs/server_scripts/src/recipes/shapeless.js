@@ -41,9 +41,6 @@ ServerEvents.recipes(event => {
     '#forge:dusts/wood'
   ]).id(`${ID_PREFIX}compost_from_sawdust`);
 
-  // Forbidden and Arcanus
-  event.shapeless('4x forbidden_arcanus:ender_pearl_fragment', 'minecraft:ender_pearl').id(`${ID_PREFIX}ender_pearl_fragments_from_ender_pearl`);
-
   // Quark
   event.shapeless('2x quark:myalite', ['minecraft:cobblestone', 'minecraft:amethyst_block', 'quark:myalite_crystal']).id(`${ID_PREFIX}myalite`);
   event.shapeless('quark:dusky_myalite', ['ars_nouveau:sourcestone', 'quark:myalite_crystal']).id(`${ID_PREFIX}dusky_myalite`);
