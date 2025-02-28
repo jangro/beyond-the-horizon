@@ -4,9 +4,9 @@
  * @file Global Functions for use in other scripts.
  */
 
-const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext')
-const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil')
-const $UUIDUtil = Java.loadClass("net.minecraft.core.UUIDUtil")
+const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext');
+const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil');
+const $UUIDUtil = Java.loadClass("net.minecraft.core.UUIDUtil");
 
 function rnd(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -44,7 +44,7 @@ global.advancedRayTrace = (entity, level, distance) => {
     );
     let hit = level.clip(clip);
     return new Vec3d(hit.getBlockPos().x, hit.getBlockPos().y, hit.getBlockPos().z);
-}
+};
 
 // The functions for certain methods with callbacks like onCast can go in a global variable if you want it to be reloadable by using /kubejs reload startup_scripts
 // It is recommended to use ProbeJS for this, to see all the available methods and properties in the context object.
@@ -70,8 +70,8 @@ global.terminus_singularity = (/** @type {Internal.CustomSpell$CastContext} */ c
 
 // Terminus Space Fold spell (Teleport)
 global.terminus_space_fold = (/** @type {Internal.CustomSpell$CastContext} */ ctx) => {
-  let /** @type {Internal.ServerPlayer} */ player = ctx.entity
-  let pos = global.advancedRayTrace(player, player.getLevel(), 64)
+  let /** @type {Internal.ServerPlayer} */ player = ctx.entity;
+  let pos = global.advancedRayTrace(player, player.getLevel(), 64);
   if (pos == null) {
     // This should never happen since empty air is a valid target.
     return;
