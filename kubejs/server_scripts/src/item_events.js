@@ -15,8 +15,6 @@ ItemEvents.entityInteracted('bth:spectre_snare', event => {
   //const mod = entity_id.split(":")[0];
   const mob = entity_id.split(":")[1];
 
-  console.log(`Player ${player.name} used a snare on ${mob}`);
-
   // Iterate through player's inventory to find a bounty item
   let has_bounty = false;
   for (let item of player.inventory.items) {
