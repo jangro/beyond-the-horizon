@@ -4,6 +4,18 @@
  * @file Custom item additions for Beyond the Horizon.
  */
 
+const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
+const BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
+
+// Load the config file
+const CONFIG_PATH = 'config/bth.json';
+const config = JsonIO.read(CONFIG_PATH) || { rtp_min_distance: 2000, rtp_max_distance: 10000 };
+
+// Ensure config values are numbers and within limits
+const minDist = Math.max(0, config.rtp_min_distance || 1000);
+const maxDist = Math.min(29999999, config.rtp_max_distance || 10000);
+
+
 StartupEvents.registry("item", event => {
 
   // Adventurer's Spellbook
@@ -50,6 +62,8 @@ StartupEvents.registry("item", event => {
         .hunger(4)
         .saturation(6.25)
         .eaten(ctx => {
+          if (!ctx.server) return; // Ensure it only runs on the server
+
           let index = Math.floor(4 * Math.random());
           ctx.player.tell(Text.translate(`item_effect.bth.lembas_bread_${index}`).gold());
           ctx.player.give('bth:mallorn_leaf');
@@ -73,6 +87,8 @@ StartupEvents.registry("item", event => {
         .hunger(20)
         .saturation(2.5)
         .eaten(ctx => {
+          if (!ctx.server) return; // Ensure it only runs on the server
+
           let index = Math.floor(4 * Math.random());
           ctx.player.tell(Text.translate(`item_effect.bth.nanobot_soda_${index}`).gold());
           ctx.player.give('bth:nanobot_soda_bottle_empty');
@@ -88,16 +104,79 @@ StartupEvents.registry("item", event => {
     .tooltip(Text.translate('tooltip.bth.nanobot_soda_bottle_empty'))
     .translationKey('item.bth.nanobot_soda_bottle_empty');
 
-  // Mob catcher for bounties
-  event.create('bth:bounty_hunters_trap')
-    .texture('bth:item/bounty_hunters_trap')
-    .tooltip(Text.translate('tooltip.bth.bounty_hunters_trap'))
-    .translationKey('item.bth.bounty_hunters_trap');
+  // BTH Ancient Cookie (random teleport on eat)
+  event.create('bth:ancient_cookie')
+    .food(food => {
+      food
+        .alwaysEdible()
+        .hunger(0)
+        .saturation(0)
+        .eaten(ctx => {
+          if (!ctx.server) return; // Ensure it only runs on the server
 
-  event.create('bth:bounty_hunters_trap_used')
-    .texture('bth:item/bounty_hunters_trap_used')
-    .tooltip(Text.translate('tooltip.bth.bounty_hunters_trap_used'))
-    .translationKey('item.bth.bounty_hunters_trap_used');
+          let player = ctx.player;
+          let index = Math.floor(4 * Math.random());
+          player.tell(Text.translate(`item_effect.bth.ancient_cookie_${index}`).gold());
+
+          let world = player.level;
+          let worldBorder = world.getWorldBorder();
+          let borderRadius = worldBorder ? worldBorder.getSize() / 2 : 29999999;
+
+          let maxRadius = 0.9 * Math.min(maxDist, borderRadius);
+          let minRadius = Math.min(minDist, maxRadius - 1); // Ensure min < max
+
+          for (let i = 0; i < 10; i++) { // Try 10 times to find a valid position
+            let angle = Math.random() * KMath.PI * 2;
+            let distance = Math.floor(Math.random() * (maxRadius - minRadius) + minRadius);
+
+            let x = Math.round(Math.cos(angle) * distance);
+            let z = Math.round(Math.sin(angle) * distance);
+
+            // Get the correct chunk
+            let chunk = world.getChunk(x >> 4, z >> 4);
+
+            // Get the correct Y level using chunk heightmap
+            let y = chunk.getHeight(Heightmap.Types.WORLD_SURFACE, x & 15, z & 15);
+
+            // Ensure the block is safe
+            let block = world.getBlockState(new BlockPos(x, y - 1, z)).getBlock();
+            if (!block.defaultBlockState().liquid()) { // Ensure it's not water or lava
+              player.teleportTo(x + 0.5, y + 1, z + 0.5);
+              player.tell(`The cookie teleported you to ${distance} blocks away from spawn.`);
+              return;
+            }
+          }
+          player.tell('Failed to find a safe teleport location after 10 tries. You get your cookie back.');
+          player.give('bth:ancient_cookie');
+        })
+    })
+    .texture('bth:item/ancient_cookie')
+    .tooltip(Text.translate('tooltip.bth.ancient_cookie'))
+    .translationKey('item.bth.ancient_cookie');
+
+  // Mob catcher for bounties
+  event.create('bth:spectre_snare')
+    .maxDamage(16)
+    .texture('bth:item/spectre_snare')
+    .tooltip(Text.translate('tooltip.bth.spectre_snare'))
+    .translationKey('item.bth.spectre_snare');
+
+  // Create used mob catcher for each mob type
+  event.create(`bth:bounty_proof_rat`).texture(`bth:item/bounty_proof_rat`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_rat`);
+  event.create(`bth:bounty_proof_tiger`).texture(`bth:item/bounty_proof_tiger`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_tiger`);
+  event.create(`bth:bounty_proof_mutant_zombie`).texture(`bth:item/bounty_proof_mutant_zombie`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_mutant_zombie`);
+  event.create(`bth:bounty_proof_bone_serpent`).texture(`bth:item/bounty_proof_bone_serpent`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_bone_serpent`);
+  event.create(`bth:bounty_proof_mutant_enderman`).texture(`bth:item/bounty_proof_mutant_enderman`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_mutant_enderman`);
+  event.create(`bth:bounty_proof_mutant_skeleton`).texture(`bth:item/bounty_proof_mutant_skeleton`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_mutant_skeleton`);
+  event.create(`bth:bounty_proof_aerwhale`).texture(`bth:item/bounty_proof_aerwhale`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_aerwhale`);
+  event.create(`bth:bounty_proof_feral_ratlantean`).texture(`bth:item/bounty_proof_feral_ratlantean`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_feral_ratlantean`);
+  event.create(`bth:bounty_proof_murmur`).texture(`bth:item/bounty_proof_murmur`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_murmur`);
+  event.create(`bth:bounty_proof_mimicube`).texture(`bth:item/bounty_proof_mimicube`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_mimicube`);
+  event.create(`bth:bounty_proof_behemoth`).texture(`bth:item/bounty_proof_behemoth`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_behemoth`);
+  event.create(`bth:bounty_proof_farseer`).texture(`bth:item/bounty_proof_farseer`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_farseer`);
+  event.create(`bth:bounty_proof_gum_worm`).texture(`bth:item/bounty_proof_gum_worm`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_gum_worm`);
+  event.create(`bth:bounty_proof_warped_mosco`).texture(`bth:item/bounty_proof_warped_mosco`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_warped_mosco`);
+  event.create(`bth:bounty_proof_void_worm`).texture(`bth:item/bounty_proof_void_worm`).tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey(`item.bth.bounty_proof_void_worm`);
 
 });
 

@@ -67,6 +67,7 @@ BlockEvents.rightClicked("botania:alfheim_portal", event => {
       "botania:quartz_elven",
       "botania:elf_glass",
       "botania:dreamwood_log",
+      "bth:ancient_cookie",
       "bth:lembas_bread"
     ];
 

@@ -165,7 +165,7 @@
 				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "29BB3BCD8CF97BB4"
-			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			subtitle: "Traded for Lembas Bread in the Alfheim portal."
 			tasks: [{
 				id: "0A39FE740E6F3B9E"
 				item: {
@@ -187,7 +187,7 @@
 				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "27A0303DC20F15B5"
-			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			subtitle: "Traded for Ancient Cookies in the Alfheim portal."
 			tasks: [{
 				id: "5798E5E6917BF256"
 				item: {
@@ -209,7 +209,7 @@
 				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "2C69C14AA06A1039"
-			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			subtitle: "TBD - reserved for future use."
 			tasks: [{
 				id: "62C6A986578E4CC9"
 				item: {
@@ -231,7 +231,7 @@
 				"Offer their lost currency back to them, and they may reward you with treasures beyond imagination. Could these coins really unravel the mysteries of this lost civilization?"
 			]
 			id: "3216E6F09031BDAC"
-			subtitle: "Ancient Coins are used for trading through the Alfheim portal."
+			subtitle: "TBD - reserved for future use."
 			tasks: [{
 				id: "7B8481F12BBCBC3B"
 				item: {

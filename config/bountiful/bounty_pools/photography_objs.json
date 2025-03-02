@@ -1,43 +1,212 @@
 {
-	"content": {
-
-		"photography_obj_villager": {
-			"name": "Photograph a villager",
-			"icon": "exposure:camera",
-			"type": "criteria",
-			"content": "exposure:frame_exposed",
-			"conditions": {
-				"exposure": {
-					"entity_in_frame":  {
-						"type": "minecraft:villager"
-					  }
-				}
-			},
-			"amount": {
-				"min": 1,
-				"max": 1
-			},
-			"unitWorth": 20
-		},
-
-		"photography_obj_iron_golem": {
-			"name": "Photograph an Iron Golem",
-			"icon": "exposure:camera",
-			"type": "criteria",
-			"content": "exposure:frame_exposed",
-			"conditions": {
-				"exposure": {
-					"entity_in_frame":  {
-						"type": "minecraft:iron_golem"
-					  }
-				}
-			},
-			"amount": {
-				"min": 1,
-				"max": 1
-			},
-			"unitWorth": 50
-		}
-
+    "content": {
+        "photography_obj_labyrinth": {
+            "icon": "exposure:camera",
+            "rarity": "COMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"idas:labyrinth\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50
+        },
+        "photography_obj_hunter_wilden_den": {
+            "icon": "exposure:camera",
+            "rarity": "COMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"ars_nouveau:hunter_wilden_den\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50
+        },
+        "photography_obj_end_city": {
+            "icon": "exposure:camera",
+            "rarity": "UNCOMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"minecraft:end_city\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "photography_obj_ancient_mines": {
+            "icon": "exposure:camera",
+            "rarity": "UNCOMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"idas:ancient_mines\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "photography_obj_tinkers_workshop": {
+            "icon": "exposure:camera",
+            "rarity": "UNCOMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"idas:tinkers_workshop\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "photography_obj_sanctum": {
+            "icon": "exposure:camera",
+            "rarity": "UNCOMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"incendium:sanctum\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "photography_obj_tree_of_wisdom": {
+            "icon": "exposure:camera",
+            "rarity": "RARE",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"idas:tree_of_wisdom\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 150
+        },
+        "photography_obj_dutchrat_ship": {
+            "icon": "exposure:camera",
+            "rarity": "EPIC",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"rats:dutchrat_ship\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 200
+        },
+        "photography_obj_nether_reactor": {
+            "icon": "exposure:camera",
+            "rarity": "LEGENDARY",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,Structures:[\"incendium:nether_reactor\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 250
+        },
+        "photography_obj_undersea_village_iron_golem": {
+            "icon": "exposure:camera",
+            "rarity": "COMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,\"minecraft:iron_golem\":1b,Structures:[\"seavil:undersea_village\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50
+        },
+        "photography_obj_olympic_citadel_aerbunny": {
+            "icon": "exposure:camera",
+            "rarity": "UNCOMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,\"aether:aerbunny\":1b,Structures:[\"aether_villages:olympic_citadel\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "photography_obj_ancient_city_warden": {
+            "icon": "exposure:camera",
+            "rarity": "RARE",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,\"minecraft:warden\":1b,Structures:[\"minecraft:ancient_city\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 150
+        },
+        "photography_obj_end_city_mimicube": {
+            "icon": "exposure:camera",
+            "rarity": "UNCOMMON",
+            "type": "criteria",
+            "content": "exposure:frame_exposed",
+            "conditions": {
+                "exposure": {
+                    "nbt": "{\"minecraft:player\":1b,\"alexsmobs:mimicube\":1b,Structures:[\"minecraft:end_city\"]}"
+                }
+            },
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        }
     }
 }

@@ -28,14 +28,14 @@ ServerEvents.recipes(event => {
     R: '#forge:rods/wooden'
   }).id(`${ID_PREFIX}coconut_maul`);
 
-  event.shaped('bth:bounty_hunters_trap', [
-    '  E',
-    ' R ',
-    'R  '
+  event.shaped('bth:spectre_snare', [
+    'NNN',
+    ' E ',
+    'NNN'
   ], {
     E: 'minecraft:ender_pearl',
-    R: '#forge:rods/wooden'
-  }).id(`${ID_PREFIX}bounty_hunters_trap`);
+    N: '#forge:nuggets/iron'
+  }).id(`${ID_PREFIX}spectre_snare`);
 
   event.shaped('bth:terminus', [
     ' D ',

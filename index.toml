@@ -87,20 +87,28 @@ file = "config/bountiful/bountiful.json"
 hash = "a33df7652bc9587b98f59f0b81b4dca7b7ca5e27895fad778e69b9c0b72df155"
 
 [[files]]
-file = "config/bountiful/bounty_decrees/adventure.json"
-hash = "2b187e5ec661caf388ab225f0525645e4763980eb07d40a626b74f6adf6e50ff"
+file = "config/bountiful/bounty_decrees/hunting.json"
+hash = "bd37c327b2f633e482a41a784574d2626087932ac3f4bfd0ac0ae0a7fc56c699"
+
+[[files]]
+file = "config/bountiful/bounty_decrees/photography.json"
+hash = "ad35f041eb93c9117b2bc3be78b12114ec4e65f2723dd5baca11ef5abf81edef"
 
 [[files]]
 file = "config/bountiful/bounty_pools/bth_rews.json"
-hash = "e3038e044cd110a4fce8a43dad097159b817ce8ac7091a92153fa9c7d4ba8ee4"
+hash = "3c31dc5183a3389f0a8543521d2aa95401808fda67df0cd9b4541c286755c00d"
 
 [[files]]
-file = "config/bountiful/bounty_pools/hunt_objs.json"
-hash = "a9bf7a05a7470e949d9d6ab290cb76a4033d2aa9bd26f7c83af46c9c4d41dcdd"
+file = "config/bountiful/bounty_pools/hunting_objs.json"
+hash = "001feacb3fe20a9fbe1b0cdf01494d9aabfc3769226d5deecd0b9e694c6dc529"
 
 [[files]]
 file = "config/bountiful/bounty_pools/photography_objs.json"
-hash = "3203f24866e1c8ffa24cce1ab6513611eb694c0b31cb5daa11f839f63aac01d4"
+hash = "6b5b5dbdcfe65132f654e4b97c8dd7c6ef5a99db7b023f9d283a70834c52971c"
+
+[[files]]
+file = "config/bth.json"
+hash = "f26331d2a119362cb1d02e25cbbcacd6d9aedd450aa743ffb725e98f8c05101c"
 
 [[files]]
 file = "config/carryon-common.toml"
@@ -320,7 +328,7 @@ hash = "4709f9e10041e11cd36fd1bb870885ee0bdbd59b7855f2137f5a431ea5da578a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "b451265b61388305c8961313e1488b9df347b34cf03b1a2581585276ef000860"
+hash = "18bfb85e85d1770655aaff038bf22dba10d3ffcbe40e7421f6d9a1bada9045a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
@@ -596,7 +604,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "d61b1d3362981157ad352b4f84ea90b49c12033fc6cbc58aa3b43fca38c1f1e9"
+hash = "0914a3955037b05e030f8c9e153201bdfea8a08b9c079bc1ba596871c1ec8b92"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -627,12 +635,68 @@ file = "kubejs/assets/bth/textures/item/adventurers_spell_book.png"
 hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 
 [[files]]
-file = "kubejs/assets/bth/textures/item/bounty_hunters_trap.png"
-hash = "3512b7d7ce0c668a1c18fb4442ae649cff6116c71e02882a8d913bbfbb82ce94"
+file = "kubejs/assets/bth/textures/item/ancient_cookie.png"
+hash = "69e17bf77a0c8c6166e8c713940d749322f34fc6b3d982bd510769e0e1378c3c"
 
 [[files]]
-file = "kubejs/assets/bth/textures/item/bounty_hunters_trap_used.png"
-hash = "f21384cb929e0a3ec9d93c56519bfa435b9fea04e7cb0a09ec0c3818d9ae468d"
+file = "kubejs/assets/bth/textures/item/bounty_proof_aerwhale.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_behemoth.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_bone_serpent.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_farseer.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_feral_ratlantean.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_gum_worm.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_mimicube.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_murmur.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_enderman.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_skeleton.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_zombie.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_rat.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_tiger.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_void_worm.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_warped_mosco.png"
+hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/coconut_maul.png"
@@ -653,6 +717,10 @@ hash = "ce46b6157dde590e9d29fc306e83618fab91901ae9db55a52207179ea1236e7c"
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle_empty.png"
 hash = "8a3f6fb808eeb0d03851114272f0498e8a242ed4d1eb43a95a66fd17d8ba8e50"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/spectre_snare.png"
+hash = "96753a8dcd7c57912806d10a5faea4bcf04aaa1cc56cce49ff251f06cc8c9d22"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/spell_book_models/adventurers_spell_book.png"
@@ -2536,7 +2604,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/block_events.js"
-hash = "dd66010acc1bd8f6de38cdb7d1acda61965982104a8fccd01d9226957baea748"
+hash = "b25e9640b54f3cd47146654b7191faafa20dbf9307dc11747d6d1340d419a502"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
@@ -2552,7 +2620,11 @@ hash = "082807fad33ef4738bffc2844974617d9da2685162578e7caeb57423b674f5ae"
 
 [[files]]
 file = "kubejs/server_scripts/src/entity.js"
-hash = "42fb0eba67c7de17fa9828a32497e2387eca6ac4fb93c47491bd27aaa74a4991"
+hash = "a971b80b26252f353c82a67a06a6a1ff7ccea5ac6e31bea47d7c39fd825f021c"
+
+[[files]]
+file = "kubejs/server_scripts/src/exposure_events.js"
+hash = "1f07be2dae9a30a979518dc43f8ef85fddbd8f2d2462cf7557f331a8f0a6891b"
 
 [[files]]
 file = "kubejs/server_scripts/src/first_start.js"
@@ -2560,11 +2632,11 @@ hash = "b95f45c687cbf343caa5af2a84313d65bfc8c31f260d80bef934b927b39035f4"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
-hash = "439144588fa6bda0cd9bd262654a5dbf975062e5e66ef9f8fddab6b926876e5b"
+hash = "ce89228a1763e9d34bdf67f7e319fe28623d6c6d5d3309c5b4f32af5abd3b9fa"
 
 [[files]]
 file = "kubejs/server_scripts/src/item_events.js"
-hash = "462dc1298ef885cf45647f3a84e563a66c99899201c9865a5da68e6ea0294a8a"
+hash = "8c89408235c71c49f906c0c09bf40076f2dcf73a2acd37c2a4609e1d75fff0af"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -2608,7 +2680,7 @@ hash = "0049bd1c4d3f113d788d0572a464ca966ef33ae3082421bf3cb754113a5f97a1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/botania.js"
-hash = "305042bda108b63554e828372fea625f9914d7214b04183084cf51eeda9889ed"
+hash = "d47bea8a60f59aec487a0d33105915989243a35f41823b45c0688cb3abf0369f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/clayworks.js"
@@ -2660,11 +2732,11 @@ hash = "2be957b0a1b3a4ab595fd7b57a3c6c9f1c12d2f633c6faba869779074738f499"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "faa9731d61730c0b3472d133b0a7a2104c9ba0602ad337a0b9552ae75d632cc4"
+hash = "3364c8882fb691091d79d436fa524bde03a22c1a61aef3a0b8d239147d7ce0d8"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
-hash = "a55166f07014c59be73fd36d5f11bea8bc9fa110e4fd9c4323b68b1e2beabb9e"
+hash = "9c4fbf478e14fadc0d8433227cd141294dfcf040a2165a0bc8776313a88f6432"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
@@ -2724,7 +2796,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "cdb523364664e7515943e5db351aa839bb9751f0fef0d3cd3905ef72b4483060"
+hash = "a9a8ade24a61d787b950f89b4eaaf49e980ffe5640fb558363b18d162d620d9f"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"

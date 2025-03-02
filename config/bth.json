@@ -1,0 +1,4 @@
+{
+    "rtp_min_distance": 1000,
+    "rtp_max_distance": 10000
+  }

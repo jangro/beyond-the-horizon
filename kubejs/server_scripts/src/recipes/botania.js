@@ -52,9 +52,9 @@ ServerEvents.recipes(event => {
 
   // Elven trading
   event.recipes.botania.elven_trade('1x bth:lembas_bread', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"COPPER"}').weakNBT()).id(`${ID_PREFIX}elven_trade/lembas_bread_from_copper_coin`);
-  event.recipes.botania.elven_trade('2x bth:lembas_bread', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"IRON"}').weakNBT()).id(`${ID_PREFIX}elven_trade/lembas_bread_from_iron_coin`);
-  event.recipes.botania.elven_trade('4x bth:lembas_bread', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"GOLD"}').weakNBT()).id(`${ID_PREFIX}elven_trade/lembas_bread_from_gold_coin`);
-  event.recipes.botania.elven_trade('8x bth:lembas_bread', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"DIAMOND"}').weakNBT()).id(`${ID_PREFIX}elven_trade/lembas_bread_from_diamond_coin`);
+  event.recipes.botania.elven_trade('1x bth:ancient_cookie', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"IRON"}').weakNBT()).id(`${ID_PREFIX}elven_trade/ancient_cookie_from_iron_coin`);
+  //event.recipes.botania.elven_trade('4x bth:lembas_bread', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"GOLD"}').weakNBT()).id(`${ID_PREFIX}elven_trade/lembas_bread_from_gold_coin`);
+  //event.recipes.botania.elven_trade('8x bth:lembas_bread', Item.of('lightmanscurrency:coin_ancient', '{CoinType:"DIAMOND"}').weakNBT()).id(`${ID_PREFIX}elven_trade/lembas_bread_from_diamond_coin`);
 
   // Elven trading - return random item for mallorn leaf
   //const mallorn_leaf_trades = ['bth:lembas_bread', 'minecraft:diamond', 'botania:mana_pearl'];

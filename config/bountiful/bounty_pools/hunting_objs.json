@@ -1,0 +1,154 @@
+{
+    "content": {
+        "hunting_obj_rat": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "bth:bounty_proof_rat",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 10
+        },
+        "hunting_obj_tiger": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "bth:bounty_proof_tiger",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 30
+        },
+        "hunting_obj_mutant_zombie": {
+            "type": "item",
+            "rarity": "COMMON",
+            "content": "bth:bounty_proof_mutant_zombie",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 50
+        },
+        "hunting_obj_bone_serpent": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_bone_serpent",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_mutant_enderman": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_mutant_enderman",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_mutant_skeleton": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_mutant_skeleton",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_aerwhale": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_aerwhale",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_feral_ratlantean": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_feral_ratlantean",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_murmur": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_murmur",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_mimicube": {
+            "type": "item",
+            "rarity": "UNCOMMON",
+            "content": "bth:bounty_proof_mimicube",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100
+        },
+        "hunting_obj_behemoth": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "bth:bounty_proof_behemoth",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 150
+        },
+        "hunting_obj_farseer": {
+            "type": "item",
+            "rarity": "RARE",
+            "content": "bth:bounty_proof_farseer",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 150
+        },
+        "hunting_obj_gum_worm": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "bth:bounty_proof_gum_worm",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 200
+        },
+        "hunting_obj_warped_mosco": {
+            "type": "item",
+            "rarity": "EPIC",
+            "content": "bth:bounty_proof_warped_mosco",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 200
+        },
+        "hunting_obj_void_worm": {
+            "type": "item",
+            "rarity": "LEGENDARY",
+            "content": "bth:bounty_proof_void_worm",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 250
+        }
+    }
+}

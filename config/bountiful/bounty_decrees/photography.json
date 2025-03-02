@@ -1,8 +1,7 @@
 {
-    "name": "Adventure",
+    "name": "Photography",
     "objectives": [
-        "photography_objs",
-        "hunt_objs"
+        "photography_objs"
     ],
     "rewards": [
         "bth_rews"
