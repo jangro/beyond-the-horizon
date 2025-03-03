@@ -350,11 +350,11 @@ ServerEvents.recipes(event => {
 
   event.shaped('computercraft:wired_modem', [
     ' S ',
-    'SES',
+    'SRS',
     ' S '
   ], {
     S: 'create:iron_sheet',
-    C: 'minecraft:redstone',
+    R: 'minecraft:redstone',
   }).id(`${ID_PREFIX}wired_modem`);
 
   event.shaped('computercraft:wireless_modem_normal', [
