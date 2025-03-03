@@ -14,7 +14,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
         .add(components.get('intNumber')().key('count'))
         .inputRole()
     );
-  
+
     let ieOutputItem = components.get('outputItem')().or(
       new $RecipeComponentBuilder(2)
         .add(components.get('outputItem')().key('base_ingredient'))
@@ -26,7 +26,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
     event.register(
       'immersiveengineering:hammer_crushing',
       new $RecipeSchema(
-        components.get('outputItem')().key('result'), 
+        components.get('outputItem')().key('result'),
         components.get('inputItem')().key('input')
       )
     );
@@ -57,7 +57,7 @@ StartupEvents.recipeSchemaRegistry((event) => {
     event.register('immersiveengineering:fermenter',
       new $RecipeSchema(
         // TODO: See below.
-        components.get('outputFluid')().key('fluid').defaultOptional(),  
+        components.get('outputFluid')().key('fluid').defaultOptional(),
         components.get('inputItem')().key('input'),
         components.get('intNumber')().key('energy').alwaysWrite().optional(6400)
       )
@@ -83,10 +83,20 @@ StartupEvents.recipeSchemaRegistry((event) => {
         //"result": {
         //  "tag": "forge:dusts/hop_graphite"
         //}
-        components.get('outputFluid')().key('fluid').defaultOptional(), 
+        components.get('outputFluid')().key('fluid').defaultOptional(),
         components.get('inputItem')().key('input'),
         components.get('intNumber')().key('energy').alwaysWrite().optional(6400),
         ieOutputItem.key('result').defaultOptional(),
+      )
+    );
+
+    // Alloysmelter
+    event.register('immersiveengineering:alloy',
+      new $RecipeSchema(
+        ieOutputItem.key('result'),
+        ieInputItem.key('input0'),
+        ieInputItem.key('input1'),
+        components.get('intNumber')().key('time').alwaysWrite().optional(200),
       )
     );
 
