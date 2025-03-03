@@ -104,6 +104,6 @@ ServerEvents.recipes(event => {
       ]
     },
     "duration": 40
-  }).id(`${ID_PREFIX}mechanicl_squeezer/stella_arcanum`);
+  }).id(`${ID_PREFIX}mechanical_squeezer/stella_arcanum`);
 
 });
