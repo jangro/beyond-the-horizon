@@ -27,6 +27,13 @@ PlayerEvents.loggedIn(event => {
     event.player.give(Item.of(FIRST_START_FOODS[index], 8));
   }
 
+  if (!event.player.stages.has('first_start_v2')) {
+    event.player.stages.add('first_start_v2');
+
+    // Give player 3 ancient cookies for random teleportation
+    event.player.give('3x bth:ancient_cookie');
+  }
+
   // Note: If added to in the future, creating multiple stages would allow players updating the pack to receive any new
   // "first start" items / settings / whatever.
   // eg. instead of 'first_start', use 'first_start_v2', 'first_start_v3' to allow versioning the first start script.
