@@ -40,6 +40,8 @@ ServerEvents.recipes(event => {
     'ars_nouveau:drygmy_charm',
     'ars_nouveau:whirlisprig_charm',
     'botania:pure_daisy/sand',
+    'bountiful:crafting/bountyboard',
+    'bountiful:crafting/decree',
     'buildinggadgets2:gadget_building',
     'buildinggadgets2:gadget_exchanging',
     'buildinggadgets2:gadget_copy_paste',

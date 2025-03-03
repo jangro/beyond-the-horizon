@@ -17,6 +17,7 @@ JEIEvents.hideItems(event => {
     'aether:aether_portal_frame',
     'alexscaves:sulfur_dust',
     'bbb:rope',
+    'bountiful:decree',
     'buzzier_bees:honey_apple',
     /clayworks:.*terracotta_brick.*/,
     'cofh_core:experience',
