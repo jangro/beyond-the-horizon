@@ -1,0 +1,85 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_hunter"
+	group: ""
+	icon: "bountiful:bountyboard"
+	id: "1D8BC4370C8AE807"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Bounty Boards&r generate in villages. They come with 1 of 2 decrees, &5photography&r or &chunting&r."
+				""
+				"Bounty Boards can not be crafted, but they can be broken and moved. Every so often new bounties will appear on the board."
+				""
+				"To sign up for a bounty, take the bounty document from the board. Return it once the bounty objective is completed by right clicking with the bounty on the board. There can be one or more objectives for each bounty."
+				""
+				"Read more about the decrees in each decree's description."
+			]
+			icon: "bountiful:bountyboard"
+			id: "577515A8352DA109"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "39D0E7ACDA52BFC9"
+				title: "Bounty Hunter"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &2Bounty Organization&r has put out a decree for collecting photographs showing interesting structures around the world."
+				""
+				"Example: &6Take a selfie with an Iron Golem in an Underwater Village.&r"
+				""
+				"Once you've taken the bounty from the board, make sure you have film in your camera and head out to find an underwater village. When you have located an Iron Golem, make sure you are within the structure's bounding box and activate the camera. Press F5 to switch to selfie mode and right click with the Iron Golem in the shot behind you to take the picture."
+				""
+				"You should get a notification if the objective was successfully completed."
+				""
+				"If you are playing with friends you can take a picture of them instead of a selfie."
+				""
+				"Now go to any bounty board to return the bounty document and collect the reward."
+			]
+			id: "1B7C0D1073ACE54D"
+			subtitle: "Take a selfie, or a picture of a friend for a reward."
+			tasks: [{
+				id: "74B90F8A5C3C35A9"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			title: "Decree: Photography"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &2Bounty Organization&r has put out a decree for capturing dangerous mobs in the world."
+				""
+				"To capture a mob for the Bounty Organization there is a special tool, the &bSpectre Snare&r. The Spectre Snare will teleport the mob to its target destination and you'll receive a &9Bounty Proof&r to hand in together with the bounty document at any &6Bounty Board&r to collect your reward."
+				""
+				"To successfully capture a mob with the Spectre Snare it is required that you keep the bounty document for that mob in your inventory. The Bounty Organization does not take cheating lightly."
+			]
+			id: "08A4137076D3C2DA"
+			subtitle: "Use the Spectre Snare to capture mobs for a reward."
+			tasks: [{
+				id: "27DE473F106B6828"
+				item: {
+					Count: 1
+					id: "bth:spectre_snare"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Decree: Hunting"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Bounty Hunter"
+}

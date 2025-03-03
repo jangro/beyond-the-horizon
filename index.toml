@@ -84,7 +84,7 @@ hash = "ff11153384f458b4e44589d84342b98f7cfd8f7e2f76d308434f803c2cef45b7"
 
 [[files]]
 file = "config/bountiful/bountiful.json"
-hash = "a33df7652bc9587b98f59f0b81b4dca7b7ca5e27895fad778e69b9c0b72df155"
+hash = "c2ea0e4b5816317636930b618a5742d7fbc2250ae990f0ee3e12c7f6c9d5d63a"
 
 [[files]]
 file = "config/bountiful/bounty_decrees/hunting.json"
@@ -323,6 +323,10 @@ file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
 hash = "38af04d42f81e84772bb6da34bb1607b5f4e381cebda0e4d76f7fb21f5c0a70b"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/bounty_hunter.snbt"
+hash = "d385f0cf28b25dfbf23fd232fc94e07d1cdbc987ac79275dcb388ecf55b449cc"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/dimensional_master.snbt"
 hash = "4709f9e10041e11cd36fd1bb870885ee0bdbd59b7855f2137f5a431ea5da578a"
 
@@ -340,11 +344,11 @@ hash = "896fbd6b7f789fabe52016a50022e19b9d26b7777d66b1efb6e2d42bbab953b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "a2f3f74aa9ec63db16a0871d1ea89bd09fcd6023251598d7bffd2b0ecf0bb626"
+hash = "50cbe82c3c1db45fe135f4b89c7d80f578c7af4e5210008e61a417538593c5dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/galosphere.snbt"
-hash = "5e293b022d13215e5485ddb75093707bbefe67400254c8db5c2f46ac26a036c1"
+hash = "4b7d104d4b4bd84b526395ae73da49a1906f2ade35701c27182e42a83daeb0df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gotta_snap_em_all.snbt"
@@ -352,11 +356,11 @@ hash = "57b2114b828550933ccb4b575696de72af5769b297db8f63301d4361d4e3444f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "2633497db69e5dd1badb7224b5427dbd5415fe11f001a2a85d9ada7797017ada"
+hash = "84da8b462b24e4245c9e5edbe7dad8a4df72d551110eb559baee5e3da7476f67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "51c57627bfe051c5888caa5469ebe45ef1acd79da673e0445cab0a88c2fdc773"
+hash = "5c166c82108d8b14974861d646f4cf723dc2be7608082581982d3c9143ba1bce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/super_food.snbt"
@@ -364,7 +368,7 @@ hash = "2b6bae9fc8c122e63c3b7db17cc363908040e4e0a6e77df17eae0d65e4e9d4c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
-hash = "34858b45b7f02471d1304432df60645186af80492b8ab91f99ed158464b8de1c"
+hash = "8607561ab973c8d3af4437795918e7091332390dc8eb268d7c2548b1de5107c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_graveyard.snbt"
@@ -2636,7 +2640,7 @@ hash = "ce89228a1763e9d34bdf67f7e319fe28623d6c6d5d3309c5b4f32af5abd3b9fa"
 
 [[files]]
 file = "kubejs/server_scripts/src/item_events.js"
-hash = "8c89408235c71c49f906c0c09bf40076f2dcf73a2acd37c2a4609e1d75fff0af"
+hash = "1902f2f59461115393917670a7af5c40e276bed5b4963322cde741bf68cedbbc"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
