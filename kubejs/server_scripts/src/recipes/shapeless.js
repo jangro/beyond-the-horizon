@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
   event.shapeless('perfectplushies:reindeer_plushie', [Item.of('exposure:photograph', '{"alexsmobs:moose":1b}').weakNBT(), 'minecraft:string', 'minecraft:brown_wool']).id(`${ID_PREFIX}reindeer_plushie`);
   event.shapeless('plushie_buddies:plushie_mooshroom', [Item.of('exposure:photograph', '{"minecraft:mooshroom":1b}').weakNBT(), 'minecraft:string', 'minecraft:red_wool']).id(`${ID_PREFIX}plushie_mooshroom`);
   event.shapeless('plushies:ocelot_plushie', [Item.of('exposure:photograph', '{"minecraft:ocelot":1b}').weakNBT(), 'minecraft:string', 'minecraft:yellow_wool']).id(`${ID_PREFIX}ocelot_plushie`);
-  event.shapeless('perfectplushies:panda_plushie', [Item.of('exposure:photograph', '{"minecraft:panda":1b}').weakNBT(), 'minecraft:string', 'minecraft:whtie_wool']).id(`${ID_PREFIX}panda_plushie`);
+  event.shapeless('perfectplushies:panda_plushie', [Item.of('exposure:photograph', '{"minecraft:panda":1b}').weakNBT(), 'minecraft:string', 'minecraft:white_wool']).id(`${ID_PREFIX}panda_plushie`);
   event.shapeless('plushie_buddies:plushie_parrot', [Item.of('exposure:photograph', '{"minecraft:parrot":1b}').weakNBT(), 'minecraft:string', 'minecraft:red_wool']).id(`${ID_PREFIX}plushie_parrot`);
   event.shapeless('plushie_buddies:plushie_phantom', [Item.of('exposure:photograph', '{"minecraft:phantom":1b}').weakNBT(), 'minecraft:string', 'minecraft:blue_wool']).id(`${ID_PREFIX}plushie_phantom`);
   event.shapeless('plushie_buddies:plushie_pig', [Item.of('exposure:photograph', '{"minecraft:pig":1b}').weakNBT(), 'minecraft:string', 'minecraft:pink_wool']).id(`${ID_PREFIX}plushie_pig`);
