@@ -198,30 +198,13 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.fermenter(Fluid.of('immersiveengineering:ethanol 80'), '#forge:seeds/rice').id(`${ID_PREFIX}fermenter/rice`);
   }
 
-  // Mixer recipes
+  // Mixer recipes ( output fluid, input fluid tag, input items array, energy[optional] )
+
   // BTH sugar water
-  // XXX: schema does not work
-  //event.recipes.immersiveengineering.mixer(Fluid.of('bth:sugar_water 1000'), Fluid.of('minecraft:water 1000'), ['minecraft:sugar']).id(`${ID_PREFIX}mixer/sugar_water`);
-  event.custom({
-    "type":"immersiveengineering:mixer",
-    "inputs":[
-      {"item":"minecraft:sugar"}
-    ],
-    "fluid":{"tag":"minecraft:water","amount":1000},
-    "result":{"fluid":"bth:sugar_water","amount":1000},
-    "energy":1000
-  }).id(`${ID_PREFIX}mixer/sugar_water`);
+  event.recipes.immersiveengineering.mixer(Fluid.of('bth:sugar_water 1000'), {tag: 'minecraft:water', amount: 1000}, ['minecraft:sugar']).id(`${ID_PREFIX}mixer/sugar_water`);
 
   // BTH soul mixture
-  event.custom({
-    "type":"immersiveengineering:mixer",
-    "inputs":[
-      {"item":"minecraft:soul_sand"}
-    ],
-    "fluid":{"tag":"minecraft:water","amount":1000},
-    "result":{"fluid":"bth:soul_mixture","amount":1000},
-    "energy":2000
-  }).id(`${ID_PREFIX}mixer/soul_mixture`);
+  event.recipes.immersiveengineering.mixer(Fluid.of('bth:soul_mixture 1000'), {tag: 'minecraft:water', amount: 1000}, ['minecraft:sugar']).id(`${ID_PREFIX}mixer/soul_mixture`);
 
   // Refinery recipes
 

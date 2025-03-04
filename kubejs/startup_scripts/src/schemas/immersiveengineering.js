@@ -15,6 +15,14 @@ StartupEvents.recipeSchemaRegistry((event) => {
         .inputRole()
     );
 
+    // This can handle IE's json recipes but for our own recipes we can't use
+    // Fluid.of(...), instead we have to use '{ tag: "minecraft:water", amount: 1000 }'
+    // SV: Not perfect but I can't figure out a better way to do it. Tried using mapOut() to convert the fluid to the correct format but no success.
+    const ieInputFluid = new $RecipeComponentBuilder(2)
+      .add(components.get('id')().key('tag'))
+      .add(components.get('intNumber')().key('amount'))
+      .inputRole();
+
     let ieOutputItem = components.get('outputItem')().or(
       new $RecipeComponentBuilder(2)
         .add(components.get('outputItem')().key('base_ingredient'))
@@ -101,31 +109,14 @@ StartupEvents.recipeSchemaRegistry((event) => {
     );
 
     // Mixer
-    // event.register('immersiveengineering:mixer',
-    //   new $RecipeSchema(
-    //     // {
-    //     //   "type": "immersiveengineering:mixer",
-    //     //   "energy": 1600,
-    //     //   "fluid": {
-    //     //     "amount": 250,
-    //     //     "tag": "minecraft:water"
-    //     //   },
-    //     //   "inputs": [
-    //     //     {
-    //     //       "tag": "forge:dusts/redstone"
-    //     //     }
-    //     //   ],
-    //     //   "result": {
-    //     //     "amount": 250,
-    //     //     "fluid": "immersiveengineering:redstone_acid"
-    //     //   }
-    //     // }
-    //     components.get('outputFluid')().key('result'),
-    //     components.get('inputFluid')().key('fluid'),
-    //     components.get('inputItemArray')().key('inputs'),
-    //     components.get('intNumber')().key('energy').alwaysWrite().optional(1600),
-    //   )
-    // );
+    event.register('immersiveengineering:mixer',
+      new $RecipeSchema(
+        components.get('outputFluid')().key('result'),
+        ieInputFluid.key('fluid'),
+        ieInputItem.asArray().key('inputs').defaultOptional(),
+        components.get('intNumber')().key('energy').alwaysWrite().optional(1600),
+      )
+    );
 
     // Arc Furnace
     // TODO
