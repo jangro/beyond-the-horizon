@@ -138,7 +138,9 @@ ServerEvents.tags('block', event => {
   ]);
 
   // Clear block and item tags from plushies
-  event.removeAllTagsFrom(/perfectplushies:*/);
-  event.removeAllTagsFrom(/plushies:*/);
-  event.removeAllTagsFrom(/plushie_buddies:*/);
+  // Perfect Plushies are special, they require a special tag or the mod breaks so don't remove that tag, just the wool tag.
+  event.remove('minecraft:wool', '#perfectplushieapi:village_plushies');
+  //event.removeAllTagsFrom(/^perfectplushies:*/);
+  event.removeAllTagsFrom(/^plushies:*/);
+  event.removeAllTagsFrom(/^plushie_buddies:*/);
 });
