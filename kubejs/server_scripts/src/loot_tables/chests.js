@@ -323,13 +323,13 @@ ServerEvents.chestLootTables(event => {
   event.modify('revampedvillages:mansion_treasure', table => {
     // None yet.
   });
-  
+
   // Additional Cooking Chest Loot (Valhelsia Structures)
   [
     'valhelsia_structures:desert_house',
     'valhelsia_structures:player_house',
     'valhelsia_structures:kitchen',
-  ].forEach(function(chestID) {
+  ].forEach(function (chestID) {
     event.modify(chestID, table => {
       table.addPool(pool => {
         pool.rolls = [1, 4];
@@ -446,7 +446,7 @@ ServerEvents.chestLootTables(event => {
   [
     'minecraft:shipwreck_treasure',
     'minecraft:buried_treasure',
-  ].forEach(function(chestID) {
+  ].forEach(function (chestID) {
     event.modify(chestID, table => {
       table.addPool(pool => {
         pool.addItem('botania:mana_pearl').randomChance(1.0);
@@ -458,7 +458,7 @@ ServerEvents.chestLootTables(event => {
     'minecraft:underwater_ruin_big',
     'minecraft:underwater_ruin_small',
     'minecraft:shipwreck_supply',
-  ].forEach(function(chestID) {
+  ].forEach(function (chestID) {
     event.modify(chestID, table => {
       table.addPool(pool => {
         pool.addItem('botania:mana_pearl').randomChance(0.2);
@@ -469,6 +469,26 @@ ServerEvents.chestLootTables(event => {
   event.modify('ctov:village/village_smith', table => {
     table.addPool(pool => {
       pool.addItem('botania:manasteel_ingot', 10, [1, 5]);
+    });
+  });
+
+  // Some CTOV houses are for mods not in this pack and loot chests are empty.
+  // Most will be disabled from generating, but the ones we keep we add loot to here.
+  event.modify('create_structures:village/village_windmill', table => {
+    table.addPool(pool => {
+      pool.rolls = [6, 12];
+      pool.addItem('create:cogwheel', 10, [3, 6]);
+      pool.addItem('create:large_cogwheel', 10, [2, 4]);
+      pool.addItem('create:shaft', 10), [4, 12];
+      pool.addItem('create:analog_lever', 10);
+      pool.addItem('create:dough', 10, [1, 3]);
+      pool.addItem('create:wheat_flour', 10, [1, 3]);
+      pool.addItem('create:andesite_alloy', 10, [1, 8]);
+      pool.addItem('createdeco:decal_creeper', 5);
+      pool.addItem('create_connected:control_chip', 7);
+      pool.addItem('create_connected:six_way_gearbox', 10, [1, 2]);
+      pool.addItem('create_connected:crank_wheel', 5);
+      pool.addItem('create_connected:item_silo', 10, [1, 3]);
     });
   });
 
