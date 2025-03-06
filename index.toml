@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CHANGELOG.md"
+hash = "ae18d7603c45dd08d2f3a4dbfefd897d4e2d44db2d950900eb99a5472191e8e7"
+
+[[files]]
 file = "complementary-reimagined.pw.toml"
 hash = "e5e895083a31c84b5e053c2c276eff0c01e8d49513280838f208a1e89f1bc880"
 metafile = true
