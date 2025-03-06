@@ -1,3 +1,5 @@
+Get it on Curseforge: [BTH - Beyond the Horizon](https://www.curseforge.com/minecraft/modpacks/bth-beyond-the-horizon)
+
 # Beyond the Horizon Modpack
 ![BTH logo](https://media.forgecdn.net/attachments/description/1186743/description_3c246132-849c-49e2-9997-ede7dd6f8776.png)
 
