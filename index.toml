@@ -1519,88 +1519,1308 @@ file = "kubejs/data/bth_structures/worldgen/template_pool/wagon.json"
 hash = "c1691b8f3cfe20193d4d2b6bc2dafd93d710bd6bf86a5b617769b79132c22421"
 
 [[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/badlands.json"
+hash = "083662fa389f9c2362af0938816ecedd15a8bf170e3a1a004ca889c02ea21747"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/beach.json"
+hash = "b5af54092f9e1f255614f97b33f2a40f93b035a91fb4e745df0ce1613c8284a9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/dark_forest.json"
+hash = "49c4480780e463bd013f878adc5e8a4258ae17e94c333b326286794e958aff6e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/desert.json"
+hash = "62db7ab1788f722bd27997e99ab568d4217590e1e6d45b99d90372b61d39b76b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/jungle.json"
+hash = "ad0cf542bcb6879e7782f71bcc7f9f90731385a22d4ce3d0e52132660a87fd9b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/mountain.json"
+hash = "ee3c7f6aefaddea4554efa67feae7d3c3d4f114e76b107885a21f05a35603751"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/plains.json"
+hash = "a819e808379abf55df03a4027d45aa69483f8e7253ffe3ebd61f13bcbf971144"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/savanna.json"
+hash = "21bc9c6ae2172fb9a2ddb40b1a8280a833e3694d574af74433e94f1cc3a36b9f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/snowy.json"
+hash = "97f604b3e985f08545c319fa812e2bd82e70e4b5bafbc63e131c9e5d0ddb5903"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/swamp.json"
+hash = "cb31d904488ef53f2f57b9cf31f872be4b3b931f56d76e177a581d4d00e3f226"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/all_bark_all_bite/taiga.json"
+hash = "4d222487550f8ef3099890f50fed1b96090e2da5289e0d117a9fee04e629e347"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/beach.json"
+hash = "54d417c1cfa472fa9faa6253f32f2e2ca6506934be27b1a29f081776bc53579b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/christmas.json"
+hash = "b59f5d3e832e80cad6b2cadde4c3ab0cc4304bb1bbaa801859bf8d423420abdf"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/dark_forest.json"
+hash = "bcf2cbc513d6b0244785780cec35eb42adf8da7fb0d72662dfd5a89b22e63d56"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/desert.json"
+hash = "f77eefe9f0ebb8f71f38021ce6545c3912eb927acd43a7472c40f980876cb5fe"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/desert_oasis.json"
+hash = "056e90446a09a811b5e87322871a4931d0c079edea6bc87929c4bef7d44c7a25"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/jungle.json"
+hash = "39e51d4e8e1f317d002ac22fa085dea173d480fc0710a373b4319d4cfcd4666b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/jungle_tree.json"
+hash = "544ad517330059d35eee32f2b33acea170d0f5b96160a06429f0c322a95c6dc6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/mesa.json"
+hash = "1c1c2b4bfa8f5aea0b5f5ffb0f4f44877325dfabba56fc4959e2aaabd3ef78c9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/mesa_fortified.json"
+hash = "ef353b9ce0e5c9493b55c010a84536a855cba47f354b89f63549a00b2511ae88"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/mountain.json"
+hash = "2a58a5d86ec05ca4d0d6b9c9b72469d6e28e34e033fd3fa0f24b6b28eb3b6e2d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/mountain_alpine.json"
+hash = "a3858d1a9050ce580515c20119bb08ad8a68a6b6cbe33796feffd4e583880966"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/mushroom.json"
+hash = "3d52349e4e227c15eaa31f2aec73b71725289d30c8dc7cc20a79d4f325ffdd79"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/plains.json"
+hash = "cc5a32ca93d7416060081a8fe7dab34227824b83451dbdd03bed5f633fbe853e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/plains_fortified.json"
+hash = "7c2b09812ed5ed1e80c1752fdc62e4e128766c997c1d167b4be29feb88fade64"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/savanna.json"
+hash = "a5799fead85721ecf5cb5051b68093d5a691f1d942814c878a1e08f41334f682"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/savanna_na.json"
+hash = "db53bf01792a2f85b077b90e9ee9fa31fb04fc8055fa868489d53620371145da"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/snowy.json"
+hash = "53a0e328e926bca48fe6b811efc10435aae914c4245c2254d0638c95eccc376a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/swamp.json"
+hash = "8d145503499d48e1030e7d66995bb7f0134d49628336c8db43f2d9af1436daec"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/swamp_fortified.json"
+hash = "36dadbd2e2577c9f147503b4ff022b92687f491638d5a51b4481d6449e0b2ca5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/taiga.json"
+hash = "9d27178628b11b5dadc22acd7d4249b5995b1c062d3c412d07fb2fd84f0251c2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/beautify/taiga_fortified.json"
+hash = "45d24225683d7cb276567e07112ab8a761a8f09f990347a088556e0fab7d2edb"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/beach.json"
+hash = "8dcdb349ff13873b78f8dd257a65eed374a12571f123fe0dabc620457028e79b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/christmas.json"
+hash = "b13955a58b3babd757e8899585aca858bbccdb04add8a3a1a5eade3b8bf835d9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/dark_forest.json"
+hash = "d7e6a900c81652e1c8049fbd6c4ac122dc22b9aca7bfaa2c97886815b1ec9f70"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/desert.json"
+hash = "7baf1a9b2daffe51ab4e11f6aa76c2d526426a6012d6e085705dde5b488680b3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/desert_oasis.json"
+hash = "e2dd74916273866b7ac65b3cb4556e0bc8a7c8197edc6955b1f33623418a855f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/jungle.json"
+hash = "12a87e715aa6aa26233b231ce388bc610d0b6aefcb0f5dfc513fc0212fbc29cc"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/jungle_tree.json"
+hash = "1a22ac38a64776c31fea44410a2013406caa33129b414f9da770a7dde46e3e24"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/mesa.json"
+hash = "81b8913a18804c3b1da09ec0de12962f232cf84ebd92394f6f4f5c9f6cba470a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/mesa_fortified.json"
+hash = "aefcad70a4e431f1a5308666e171b9fba87ed47d9f043c3aef55e39913e98d18"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/mountain.json"
+hash = "8655f88119f8164270583782ecedad853dee446ae540a1bd9e2f98df7960a297"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/mountain_alpine.json"
+hash = "6b891458e9ce56d10cb48de0556e02283c94c1c573404e855dc33865f2420a8f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/mushroom.json"
+hash = "b789d5065d962c0474461e1c293a4dcd71ad04ff948dd04deb48b78a0475b5de"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/plains.json"
+hash = "db7390c0cf3228fe9203438a443f99754066382f606e3c216f6b154ef1af07d8"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/plains_fortified.json"
+hash = "d9b2c0f6c0607ce84f25b3afb1f0b7da1e4a816c2a8e78a612e6052ad7c2ac7c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/savanna.json"
+hash = "b540068b130e31ddc525068d13ebd130329fac04d88e0abec888851dd3f76a8a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/savanna_na.json"
+hash = "ea35b486b264fa1830d5fafaa69ca71af5df3c689797883edcbff6e33d7de308"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/snowy.json"
+hash = "3c1cd0af8fbe1607678e0edfb114d68771378d79f3f7deaf4a6629b871889760"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/swamp.json"
+hash = "d13f8de571c1fda2bba46a3812c86ea1e3b92c12d773f15ca88e8f350265416c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/swamp_fortified.json"
+hash = "50a792eae84606d7868b8db72010bb4c86e80b5085e0c0ca7c8d2e941610a253"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/taiga.json"
+hash = "3cd14492e2659c015386e4345de2f5febd97f2c987f2b427a08b7b72a3112cdb"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/byg/taiga_fortified.json"
+hash = "c34c10c9ee8603261344206b555b237f034f70d8c2a4e92c2c66a5eec955923d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/beach.json"
+hash = "a28a0d59e15313e5c08c43388f4d75d78044e54a7261077d1e1f664da9cd29c5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/christmas.json"
+hash = "972457fd8fb77695ef58d900eb1a4ff0e546f0179c987aef7f81fdfd86b86292"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/dark_forest.json"
+hash = "55b3274dc4ed4fbab91580f31ac6754d4f74d310bab8ca26d6ef20c9181e53ba"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/desert.json"
+hash = "5f458b1d42a3a41cd3b6618e03ad700afe0beae37a858a3bfb17b65c1180c142"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/desert_oasis.json"
+hash = "b7d2f3933562a130362d07942e057d9c0ab949fe12825f02cb0292175e67b2ce"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/jungle.json"
+hash = "6b6b4d655b3a378a8ac02da89a2c55bb5087139da30ef28ee551f40d64f52d7e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/jungle_tree.json"
+hash = "56ddfc204eec88a7718a7c98717d72ca7b47d2bf11301c1e01ca0dbe054b4812"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/mesa.json"
+hash = "dcf38424e8d5cd2190742dd22dee2452c77559395669e27ebe59b39b3cc96741"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/mesa_fortified.json"
+hash = "b6233a248caf5a61a73f58a22a31afac58d5e0a376d117f77b7b7dbea9175f8b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/mountain.json"
+hash = "01fa7488111c59f4fafa0c95714dcdc262b6211eaa2b6aff42b0b6deabddcfe2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/mountain_alpine.json"
+hash = "5ca94510163ded96f096aaf07b3c0ec5b4424fdb87e6480cea3db8941b7d76df"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/mushroom.json"
+hash = "21bb16a9b97cd090a90d060842bf7d4c1173c2a4142cbd14d30951bf92ed8507"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/plains.json"
+hash = "32e3b8f0116e5d73dbf79d4233e6c0f5c3842799761662ffec81df69a7ee03e5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/plains_fortified.json"
+hash = "98043eeb0dd3edee260b1a9b8be9b972227e3764afbce6558f5f7c6948faf322"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/savanna.json"
+hash = "70445db1fcaf9473fa4a1291d5ceb5ba7fea33d2b67a699eac6cf8a6c9b58eee"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/savanna_na.json"
+hash = "820e89dd85e4c5cde8f1dda6dde85eb2e98fde467999af3ed077ca495483d85a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/snowy.json"
+hash = "d6f478c022ad280c36f0fd764e5918d31c0912431efc67f4382cf728a2192788"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/swamp.json"
+hash = "2960baf92f23c98a480cadd00578777af6d74990fc2df3d9f55e60b308f258d6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/swamp_fortified.json"
+hash = "75ef83a1bca0cdd6b17c9650c1eaf9151725168af159d870c253863dbbec6e0c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/taiga.json"
+hash = "4adf1e71f67f2b7fb18012e5f29fddb6031129654b2384dd73eaa49bd596eabf"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/floralis/taiga_fortified.json"
+hash = "3a08787fc6195e0ba6c5d66afbac6a547131729bfe5a82e5784615f7829d9df6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/beach.json"
+hash = "012697072d7af2e73e2f1cd2e7062f42bf5832237020d80a7198c4f09c365e99"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/christmas.json"
+hash = "97948c6d4e95e9c3af196e2e2e50b8dd137145b3e051229a80b7b0c9cb832ee9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/dark_forest.json"
+hash = "c7cea62a0d4168e7e2e9e132b9d1921e96e46834b5c367fcd809985ce401f8c0"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/desert.json"
+hash = "bed2405a5a8cf4fd84986e6dd0cdb1a166cc9fb636d7ecec308090ac24b69282"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/desert_oasis.json"
+hash = "10e3d0e43c13ecf0897bcc1684b6df68054b11cee7cc8d3c7e0451f3fa4ea504"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/jungle.json"
+hash = "dd059d1f02e7cb907a1547869e03793b1b627537a67dd82d37a6b23a03c11965"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/jungle_tree.json"
+hash = "888ee17f0647ad25fb5686a4602d63a04a40fe55a303bb6f41158cd852845efd"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/mesa.json"
+hash = "a04c4323afccab578da7e4c3781694a6b341f4d5bc3fae87e84c0b015778fbe9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/mesa_fortified.json"
+hash = "aa25cbcde64c0f697bd8743bc33f8a0ed1df9d19114d773bd9bfe3462e14a439"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/mountain.json"
+hash = "e19feb1b77a193a191ad1de57825f74b0d3a16fc787656d7072e96de56e85fb4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/mountain_alpine.json"
+hash = "3023f75d3994271d0ac2447df7b3260d5cfec79dbee2656dc831f89c9eb22188"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/mushroom.json"
+hash = "407f2b4cb96d22153a128d1398c8deb4701719402deda4aabb2325dd36deeee8"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/plains.json"
+hash = "c9291c2ded88489ab89fc787c9aefd40e261cdf3627d0c814719e1138aa1b989"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/plains_fortified.json"
+hash = "fef515f085df107a488da9a23b7c31a83bf8c856989ac6a8bdde9bf7ca53be61"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/savanna.json"
+hash = "9ff717d14b68abb089a64f49263727a2d13681f9914cd31a2cdedad9a601b101"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/savanna_na.json"
+hash = "ae2cdc76f29ea2579749b1afa8bb51c04c35ac0f2a4ccbb2fc169e2fe443b3bc"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/snowy.json"
+hash = "7a45eaabe7451d856dfa69c173ac8b76e56a7bf1c0fd2845e7f907577cf21f0f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/swamp.json"
+hash = "b84eb322efd8039821dab97e0153470f5ade357acabb672fd42cffbdff1524ee"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/swamp_fortified.json"
+hash = "a4c2f1649afe2b141928996cec11ffa558d29b36545ae6b7e783b7f4dbd1ef69"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/taiga.json"
+hash = "a4447320b1ba6286e7727ff0220393c471ace5dcb5f9f55920e845836b4b939c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/friendsandfoes/taiga_fortified.json"
+hash = "6259023f3c9a073eff95090fea24ccbcfde0447d116cd14157d991ce58b9c8d5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/beach.json"
+hash = "845a9b521e10102b7a4a502b18e12309967ffce88c1529f0195a2cbe691d0f9a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/christmas.json"
+hash = "33387e3128f912caa1b5cfbc33065b99057aa7e50efc30383826927c990843e4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/dark_forest.json"
+hash = "8f1242a3afc6472f35f29b412eb12d6799e3bcfb0b4dc075161cfbce8388543b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/desert.json"
+hash = "46bf5e109d26fe4127ec8b400255c96aa72711c7b18d1d875b9bb35ae7d3d8d0"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/desert_oasis.json"
+hash = "8bc93ed65b423b6285d6abedc372a24b332f26fa02a3af2851b12d6b12f3b3f4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/jungle.json"
+hash = "5a4e5838df1e4837f43ca5938706a4e8bca053b786bb040c6879422dcecb049f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/jungle_tree.json"
+hash = "52b46f29dd3f627991cd1cfd85177ee4655643f7313313cee51ee336edd44e67"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/mesa.json"
+hash = "4d3d8a59740dc45447689a2968c90fdb45cb12db551b20f75344e65eae46dfd5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/mesa_fortified.json"
+hash = "cb5a843ca74bde3d5e5991a7d847f185321ecf7f60b2757325898640ec224e07"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/mountain.json"
+hash = "3c0f46c6c8bbfef0c951415914a54b413e6c011cf90b468671eb6433da714c69"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/mountain_alpine.json"
+hash = "999db35eaa8c767f46a93b255a3ced36072f5e4cd1e93b9259529c3e971adc3c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/mushroom.json"
+hash = "d7554e90b4b3c0101bfd4e388232d77dd059edfdd591d73707c0f9358adf729a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/plains.json"
+hash = "f3ad5269ed4ea00fafe1c261bb5840848aae3dbdf13df467b8e38b92a4aa42e9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/plains_fortified.json"
+hash = "cca0f61dab0e54d7f84347ec4c4e307e4b3aa90873a9cbb428a618627c9e99d2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/savanna.json"
+hash = "f0304475191323658f375d87f57f45be6acea54bef6f727da98d4b2b021cb328"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/savanna_na.json"
+hash = "41b546841f99cc9aea100ad0854084b3fc12fea341e6bb155cc012149da080e4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/snowy.json"
+hash = "ea6d603556835f4cc7e5ece0237cb945c202285cf21847bb7cc568133e664983"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/swamp.json"
+hash = "c7b0d632d88b0a816bdc42b4965ab00e983ed676d8b3d52ca98a62a0bdefb66f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/swamp_fortified.json"
+hash = "e63c76d7bd7b84e743fb9dfa530732cecc712b60783be905b1e1d63c7ac49104"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/taiga.json"
+hash = "b60820605ab1517d5ef3664a3d62035210d2aec189249dc9a35a86b5195d3a63"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/gazebo/taiga_fortified.json"
+hash = "719ede4d9b3d3ad615a21d1a71ff0650952ae5b72663f74ec59a3bb08787937d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/beach.json"
+hash = "87bcc7d23800198276e17e38eb6c6260694e95a90d767e579ae47bbabf7c1ac8"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/christmas.json"
+hash = "ce31b5f3ec650ef8839a1f6cc390570b7d3b4182ae38a88578f1ba3cbf97a6d8"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/dark_forest.json"
+hash = "8769e0455e3d1c4ec11884b564c9c325f3513d49c3572d99522377d0fdb0770d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/desert.json"
+hash = "3eec5409a715756e2556069877b84ccd23b31c13295b2c99e6abf06ce6d86627"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/desert_oasis.json"
+hash = "1d002e50ff4b7b53605a2e3d831e456c3f663dd6761e3a71f8bc712a4e463096"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/jungle.json"
+hash = "5a1682ba0b326cad1d254b8ed4212cd41134aeb3a0c92992a446c866cc01de1d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/jungle_tree.json"
+hash = "e26e0015afe9701cacb37fe235c7462a71b84f6850a89ac73323b47f33306309"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/mesa.json"
+hash = "c74f47eccaf97ce5e8ece6f77e8c5e9fc64945ca5011c43dd71a7c15d128251e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/mesa_fortified.json"
+hash = "542a1c32d94dfb4054c9406567ce46c05b7ffc0924cc2ea9d1a6f84f98c1495f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/mountain.json"
+hash = "657b6ec5cb6266aaf8ede3931e754ce5014b9d122f873c727ecc87a3cf9f2c2e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/mountain_alpine.json"
+hash = "083a91a39d57eb056cf23624cbd5ab14a705c435f8a432f49379c080d8cfc417"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/mushroom.json"
+hash = "9642b0bc11cba53669fc7853b07979166629491caf8709e6d89230c5b3068bae"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/plains.json"
+hash = "850b8602bd5afc9cf465c9e9f73c54962dcc9390e95aaf17aca3691d6b5f6793"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/plains_fortified.json"
+hash = "6270901e614cae7558577ff6e522b95531ef775b9b5e9d371ceb83565b5ea098"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/savanna.json"
+hash = "3a967407fd9a8d2c9041657257a6ed0223756108e66216a97b18481dd8c1fb47"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/savanna_na.json"
+hash = "a38bf2bbb99864dcd440e9854132c301fae86ef7b30586a29e987efb16febfa3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/snowy.json"
+hash = "d4f268a8e784baadf7a364502e7778e6ddfbc88bc6db7581d8d03b29eca62f33"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/swamp.json"
+hash = "c8007c325fea28efba196075cae5d2435a61612aff18ae90c34182e33510209a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/swamp_fortified.json"
+hash = "039e138ca716efafdaf3aa16818088cd3dc0d5f5b085f12e73316daab65f7190"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/taiga.json"
+hash = "23ea5a8621244921f3b49bfc9b0979eea69a52144801a7454c4ebc9b7e346a67"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/incubator/taiga_fortified.json"
+hash = "cb8ef2a2238bc2e5ca58cec993f0c600cffb512f1c52875df852333a2b749da5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/beach.json"
+hash = "8516edf842a8e4458eeefb9b3a1c3434101c3f1f1262e1c424b0770582e1a186"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/christmas.json"
+hash = "f7df17a184ccb28931a421bd3ae18af2b258a1873016ebcb6bade7097699df6f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/dark_forest.json"
+hash = "bfa8f8473e503d52d88f044cd187c58041bd74694b1d0d4efc979f4efb2b0cce"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/desert.json"
+hash = "f5c3a1c51e8b9d74a649d0eda37dcece17dc3b03611b28d5e52e7028617796d5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/desert_oasis.json"
+hash = "93f44eec959d9e9129627ad6894c6465e13c0f59c53cb83599a2a22ccee53182"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/jungle.json"
+hash = "6844fb6be086aba34158367b362463878773a2dc89473005639c3bebbae92a13"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/jungle_tree.json"
+hash = "3499a7b4705354649d098c3dd0e0205e0d3297310d709066f59e5c7483ecef8d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/mesa.json"
+hash = "5838a428d0793b70a6a49f1193b07abf5f58d390dfe95b4955e610904f763660"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/mesa_fortified.json"
+hash = "ced30e668e499dbbbb8414c2cfd4264b474c0a4a3ad9a2be5c869bfad17cc5a4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/mountain.json"
+hash = "df4827044cc80dd5c02864a7ad777b3a3e519b9e3208aa1601f9bca467cb6740"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/mountain_alpine.json"
+hash = "4d4d5be10f26faf3661c8b486dac2d2f99d77d47f02362f862f5b389bed5f120"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/mushroom.json"
+hash = "4b727e3823ebe954b6904a1d3c5beb4577f7b4d62e91a21fdcbd12ff43dcfe62"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/plains.json"
+hash = "e392dd38fe9d406670cbc43e464665196a9f969e775a8e8dcb2971b15ad6d7dd"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/plains_fortified.json"
+hash = "5ba27878e50c544baf07c5d42370d2f4e0e7897e308505104f4482ff03f0b486"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/savanna.json"
+hash = "9206a67efcd508cf67a897eab368765b657fa039b32702d5d86750df3ba7248c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/savanna_na.json"
+hash = "46c0e48f04a643b3388f9fff3a5505162ae81aca6041c78a430efe4fc54d2131"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/snowy.json"
+hash = "7184815839a8337b620e2658c08b5090531e1268de8c583bd25bba0f3378adc3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/swamp.json"
+hash = "82d3080f25800474e5d392ad20c209fb91e10ae7bb10785f42f97fae44f7c160"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/swamp_fortified.json"
+hash = "29da4baa6024f8e2fca04c3fd4f7900ff4d7c8a679a8278b2a6bb44dd441314f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/taiga.json"
+hash = "3531305ba8e0ddd805371a5931cd0c7f28470244caa194d6047ec8c90cd7f8b9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/jellyfishing/taiga_fortified.json"
+hash = "f7278bd603db5ca66a33862c9b1c4c07fd4e218594694aecb6cd2c54ab4eb1f4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/beach.json"
+hash = "ff12124068a8bd2a50b20693073bd858251dd51033c5cbd0fff1c0a253cbf306"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/christmas.json"
+hash = "31b0595078fe996271aee9f0f048b484c3a4eda475947761e820c05ce04fbf8f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/dark_forest.json"
+hash = "6858e8ce88033127c36191cc5f49bf62830047504c19a31c83d55f0910407c46"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/desert.json"
+hash = "ee21578560e2a3c971f6bff8d46d95e33539585de4eaf1393471f93eb1b00dff"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/desert_oasis.json"
+hash = "031a35f7b8be07455d901d9dbef6a262e1079a1f2e93c96918fc79e4367c22c6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/jungle.json"
+hash = "8f0e436d1fcef33da642e96bb306e1bf79fb2f62e2a46d28a91a3a296749292a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/jungle_tree.json"
+hash = "e73661663d13d5031051fc83628bbafbffa0e1d92410967ee28ec0ae1eed2f6d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/mesa.json"
+hash = "fe72cff65ffacf5752fb879edaf26ed0799ace684b73876056c74d4510ca7034"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/mesa_fortified.json"
+hash = "99d7c95760705654b205895883d54d40bbdcc8e59fafc70ab6c464038c5f9b1d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/mountain.json"
+hash = "f252398b4a22c2cbbc90a49d40cd0327edf43468a9178a5be8ea711b0bc305bc"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/mountain_alpine.json"
+hash = "afa4b950cd88d13c4f2779c282bbc3b42cc07db555b127f3ab765c012f12808c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/mushroom.json"
+hash = "aec2b4b682629453563b710ef4d531c1d9ea817d6a4bd0f2072f745581325284"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/plains.json"
+hash = "1b02ac00ca71b4d7cd280a189ccc34b49527ebcb6b2b7fc230d869477d0c0c09"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/plains_fortified.json"
+hash = "067364e61939fcdb90d68a4df1ffc2719aaf221058035bd75d6cce20e3c1a3a4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/savanna.json"
+hash = "7e896b1586fff2d81c51e55ad304aac9a7f4d1382eae77216060afa263bfc9d3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/savanna_na.json"
+hash = "a002b985b387ab86aa5603504c3904ecd7fbb51e9dda918f6b87ed81036af400"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/snowy.json"
+hash = "97db7426a146a775332481f810977d04186629650c65c00b3869d6864290a721"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/swamp.json"
+hash = "bf2621f655de5ac8ba32fda01a258a4db29d30af5d1e5ccf0aea61aa17ec1f5d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/swamp_fortified.json"
+hash = "e499a89e296296b1f9ac52984c7df3c050a19b28e4567d354732cc9406b95a5e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/taiga.json"
+hash = "4e2f3098349a2158da25ecde125edc6c25029667dfaf196f741790d28aaac2c1"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/monobank/taiga_fortified.json"
+hash = "e1d236d526ffaaa5c55cf6fdb68ecc3c590b77c0a12977db113ad8f1690e10f7"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/beach.json"
+hash = "c3b3f18cc473b06293bebe103b7ce6a56001455b862a71b43a574eaa33f874de"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/christmas.json"
+hash = "09c9686f4cf113b3af280bc6e0a5aceff77724b9a767b4fd77fde62575acd43c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/dark_forest.json"
+hash = "d266c02527ab66522bd7c3d538476bf550532a6e7ec8e4f29ec2f8eaba226c21"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/desert.json"
+hash = "9b9400ae4c99e1e431ffc63d48a00b09eb680e1a4ff9a5cda31492825e8cb264"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/desert_oasis.json"
+hash = "5c8d51dd1cd072ff53e8a3b21207b6d0292067715eb42347831a37d9a63c5d07"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/jungle.json"
+hash = "4e187dcb49fb9357e874154e477794d7ebca661bfac8ea2d7fb72642f9311c5b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/jungle_tree.json"
+hash = "8cd3c444dc0b965b98f85d9db8f58fae8383e422557ca572b50ecdf9ff036107"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/mesa.json"
+hash = "b73f9d06892e66232c6cf686d026129db8a8a7d9425d5d5a5dee23ba7a5e7ccd"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/mesa_fortified.json"
+hash = "b7d853d99c594cfaf828d6549a60cada2845c8edfdb33817d6c342fc37c6a11f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/mountain.json"
+hash = "fc0ebc07b07580ebe7e90a8bb2344df491209bfa021ed5d6837209e0aa64979b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/mountain_alpine.json"
+hash = "b7f8301741990741670d5d5e59f5a892c8d0f11bc3432eaed5310bb1f3b40c0f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/mushroom.json"
+hash = "33fcdc9212138d8080d49eaedcafee293ddcedf055995f7af86400d5f72b84f2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/plains.json"
+hash = "e9385fc53ff827107ea0df42b8f56bbf88cb73184be4e1f8ab919f458141dc1a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/plains_fortified.json"
+hash = "2fa34b86575491ddb3e2a57a48d01cec41837b88aca39671f9d287380344c29d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/savanna.json"
+hash = "f4033e031a29a541924e7ca170e37db2eb82381b66122e68e219abcf86ef58de"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/savanna_na.json"
+hash = "73da0671a8b60ca0b4dd79a2f8f9a9e0376639fe15b1a642dbed5c06a94e26e9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/snowy.json"
+hash = "072794288448dc808ff4a4b3621e57ed54349c2ca8f4fda08117328ed52b7ed8"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/swamp.json"
+hash = "7b9de66599494dc364f18d1a19ebc0fd878c8bea8660de6a435a08dc33cfbc1f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/swamp_fortified.json"
+hash = "3599fec98615bce1173c526c3a1df09dc6934757b537884b8cc53195ab3c4a16"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/taiga.json"
+hash = "75b8b8ce61628b4a1ea41f032b5a21c977bc87b05a8229c31e3ceb3f9102fc74"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/morevillagers/taiga_fortified.json"
+hash = "8b6222875128a1ecf03481f96495640f5e01c736df133577dcd6ae59220b04de"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/beach.json"
+hash = "4c3b87db88ab276558b60a696e3d9fefe1d4f710b81067083d177f08aefed114"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/christmas.json"
+hash = "9692474479c137c84de0f299b16240fceb6111a0d26590f0bf843f43ea16e145"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/dark_forest.json"
+hash = "866627a9afdd792d1c663892669a66a52bdee55c5e729f27965dc62d9c4d72ab"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/desert.json"
+hash = "ad91466152b08bb86502f30eb2235a32265d18f8d7c80344e6b91cbed5dbc6cd"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/desert_oasis.json"
+hash = "b6be6f03b45db24112342b735b6a2e5ba6c638a913517a6a10586d419e782403"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/jungle.json"
+hash = "9eb6d20e04d358392d66a23a533b4b0223378aeaf110c479e7c7aec5e012d16a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/jungle_tree.json"
+hash = "cc486302aa7fd38b5b27b357c50e674bbf57353b8ae890860946e5f6b2edb2b3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/mesa.json"
+hash = "d45d46c0bd810c082ce7a2dfb16d8f52bbc53f95d3bda23c447371ff2614285b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/mesa_fortified.json"
+hash = "d1d95f795e449c40dd4ff97ba357f1a0266c872b2f56118a1a89b81b87d8c1ad"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/mountain.json"
+hash = "1d09af4441ae28092d5872322203d236d62fa9485dd28e4daef1d8767a35661e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/mountain_alpine.json"
+hash = "9cd8d6e3026cb34f800bec12303b4a1fd170f218f1595b3604bb7459aba11cf4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/mushroom.json"
+hash = "62d83b860535b0f25b677cb3bb95e983b1e04e826873c1c3a8bee3388d0c1f57"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/plains.json"
+hash = "205229dcb57cb80bc9f975a359fe63f43640d42ee15c9fd97bc1abcc08807abb"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/plains_fortified.json"
+hash = "545681f0e976fd486bc2bbb55f5db4f0336bf13d8cc3429d1ac78d94512bb9f9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/savanna.json"
+hash = "b7229c06c21bf7dfbe3b9bb6658e561ea2362e2778f36b9755348c300425ab28"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/savanna_na.json"
+hash = "fd3435282ec9990ef259bbfe928941421a5321dc0d0386314aa11072870f0caa"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/snowy.json"
+hash = "f605b3512acb14a4809e2b671c9f65b88ae9981086171901b0e47f509cef3e0c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/swamp.json"
+hash = "3f3d36fbe43503d985bacaebe18dd937cee92968e0634299a9c1be2283b0f99c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/swamp_fortified.json"
+hash = "ce65ec92b1f1c2631e6d7dfc4da3a79a658357ee86ade4c9eb3a830717b2309b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/taiga.json"
+hash = "bbbd89bf1fcb5f83c78977a590969dad101b2ea881c93a1fa203bab6d6eaf125"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paladins/taiga_fortified.json"
+hash = "a0f46272559981808ad1ffcf8ad04f999a3b1be8229e387b76559cdcfb5aed40"
+
+[[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/beach.json"
-hash = "732102c071d64a5d457135828e87b1624f892efdf36ddd8b809856e7baa10d82"
+hash = "f613c1f1af6111ea4c6d36c51909606c7a0f5b631fb4e7980a59f28ef0900987"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/christmas.json"
-hash = "9767ae95a80a24571394857cb80e3457edf8b5e019a195d8d89b203462e9ae27"
+hash = "d6147cff111a66495fa5299a05b3cd6195a0ec8a03991e980278359f71663b46"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/dark_forest.json"
-hash = "f1800a14a33e4ff41a804cd3cf37a4251ce79deb5dc5eba231fe52e786bbc075"
+hash = "aecfc8ae511ac53f229b194fef11db5fff7927fcc60236a102d65fcdc85c581e"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/desert.json"
-hash = "1e7d204aec430aadb42610227ace049049db1a96df3c0fe396525277f228c05d"
+hash = "f2c4caa28159b3a4afd99516e8f10f3a355f7f80efdc3f2aaac120664bf690e6"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/desert_oasis.json"
-hash = "7d6a26bd629523becb6b52a06e5acf43aa2e44a3a0af7b545e2118a8a39bec19"
+hash = "c39fcbc89464763956266f16a46e6483ff571d70a59c9880a4c55fb34e32e7df"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/jungle.json"
-hash = "78b29f7df2ebe071803317a7a24b8243f4605ccf09f2fae89e722aab994e1061"
+hash = "223ef1a243023ac2acaa0c63a4516032d56dd15a2a57a8ebd82f82e33c13fcfa"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/jungle_tree.json"
-hash = "e6d4ecbc999d32f6caa26fb7fc5d0b80a10287a98a9af34d9c26c0a603a5603d"
+hash = "a998eb0f29a58953053fc404b9ad41d183d0a4482b7214d2236f96aca4772caf"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mesa.json"
-hash = "d90104d80ee41e1811298aae1027c3695fae0aef3ab59cdaac2d47a6679fd0ab"
+hash = "9dc079b18434254c64e1090798b49552423438a8a3e9596bcfa389deb4a0ea3f"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mesa_fortified.json"
-hash = "6cbd426dad9744d343b69e412a7268b0d80755e5a43ab904c918cab67d8cf67f"
+hash = "59fca8a19d54daeca67d129b0521bae71d43b1aece40a8d231cffd23536633be"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mountain.json"
-hash = "81346f5f013ec82255b2c64d8cf4c26a86106242c2b88bd15496c9e59de08867"
+hash = "09b5c0d6c2838408f456bbbecfd61212e041bcb831e43c15e08237f058bb677a"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mountain_alpine.json"
-hash = "66e4c2ece47528fe7b20a56d2cb1b2c7e54afb43569c903445585be5a79d460e"
+hash = "172a6de6a10292a17fb4d0e29de0d533ac4c9f986386594a7147b3dccb3e7f4a"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/mushroom.json"
-hash = "f2a747573846bf662dfeda81e870e96940e009bb8b10b682650990fa0543b5c6"
+hash = "02a1c26ee46fcd2f3ea0b0442cb5959f01812eb4ec9d113695e0004a4e1ab1ab"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/plains.json"
-hash = "93c8ef59eff3e23153287b55032d307a280dfdd450344ac1ff6506a6884fc667"
+hash = "c9fb8d22c930041237cea7ec8d8ef58f128434934fa9fe19d700df424c7298fc"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/plains_fortified.json"
-hash = "9d3e170b6eb59f8ab7c52ade6d8efd25068b9ca3afe1dd52f75258631339e727"
+hash = "359db2c2308183a13f0b5b4b984a6ad793af94a7698c7fb47051153085309b64"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/savanna.json"
-hash = "a66b5bb0fb2df36145bcc80ee61411c712eaff60583384047b452f9563818499"
+hash = "170864d517b22b8c6fb573d184f5995280c6aa4aec3bc5c08df4a4dd057d8527"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/savanna_na.json"
-hash = "6289bb651fa402b49f312764fd8e1feb2827fc455c4d25da31f9711dceefae33"
+hash = "b4ab1266347ea0bbf6ba7562da187ae5010a5fab43bed51e5c47c6c9375ca995"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/snowy.json"
-hash = "0c1df7337d4daa0648145c8bf339878a417a0fffd561cbd99b3e6248ec6f490b"
+hash = "a6c4f56f71628720e29b89b4901296c505b4c8b53cb7fa81f42431654e063293"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/swamp.json"
-hash = "e91b64efea11d52c5f27a86e33fbe855cd7c443fea766c43b6ef9e6094eff367"
+hash = "5bc659c0d6c2edc4c79a7971949a781dad55f4da07f016ff353260200b3c2cbc"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/swamp_fortified.json"
-hash = "60a34fd9ca9df6d24273ec296f07cef3dcf9648bdc3d254a2528ed7f8cd1a889"
+hash = "e1ac7a89ccbd13547b10097c4daf98f2932f57433402ebbd613a24bedafa88ae"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/taiga.json"
-hash = "ce239353ad7a23aa5d932ad25be17c57a5d220ea259c9c41477a3421f0469de4"
+hash = "d78baac8c8bd6033ed3ca870861b0359141dc25cb380a015dca7338e6615a1b3"
 
 [[files]]
 file = "kubejs/data/ctov/lithostitched/worldgen_modifier/paraglider/taiga_fortified.json"
-hash = "c142af2c5813d3a0cb86df4d9645d49ed15b0b1e109d1d23f4d54eb84ff55b7a"
+hash = "839b4e9633b78fbd81f5aca7e4d9edeb0db83b5ac9c9816e8b1cde17788b123b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/beach.json"
+hash = "50452a3481bcad9e47ba8b465f01bb33a807e0fb1aa241cffbe2032f7dbde953"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/christmas.json"
+hash = "e5c999b7f6954fa737cd8b2fbcc0643c989797d7425e0ce51e92f6be904a2a8e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/dark_forest.json"
+hash = "5d7b3df876e1b2d8333e1a91008cc18f9b26abdab8b710c1cacf76a58534d3e5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/desert.json"
+hash = "54387dacf18c2a5b426f997eab8e750631c4df22023cd4750cac604323e97aef"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/desert_oasis.json"
+hash = "6f5cad0c0480913f93491f52d076971046a08efc2f29a3b7aa4d5e9336b64f8c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/jungle.json"
+hash = "ebcfc5c6050439e55ad49ba6fe5a589f43da08b3a689e6b17300e932b89dc917"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/jungle_tree.json"
+hash = "7c40cecfeb2fb5f775ce61e0e9e84dcea1f1a0446907018a4b5b182c17f6f917"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/mesa.json"
+hash = "95611bb8379d0d4ba2e723de1f62706c66b589b13f7977ba7f456fb9eefe0071"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/mesa_fortified.json"
+hash = "dbd5071a164983bfab6093a19ac5a4e6af510e35dfb79e965bd5c0119419eda2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/mountain.json"
+hash = "314b0b7ee3b3e42525f8953ef8318695d32fecb6e33f7336bd09b2a278972ed0"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/mountain_alpine.json"
+hash = "cbe39c4718607a40f7bf92cce145065e10d73294efa98e295aef687aa3fab2a2"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/mushroom.json"
+hash = "bbb2156ecdeaa2bd6aededb1dfdfcb379bb5937a2ba5149b7ab29e0f303d4396"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/plains.json"
+hash = "a5dd3c160b66b7a283f4d1a50de76dfdfa55fdaa7d7a974439864224dfdc3f03"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/plains_fortified.json"
+hash = "03e91c99fbfedad56be971b6c95b0450f002e0936a41e11a2970419ea6149f95"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/savanna.json"
+hash = "9b984f4e14057a3a4c874ec2a20c3464f1c65d6a011a0da64daec38ab5e40843"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/savanna_na.json"
+hash = "361f0c829a165501c611d985c051e88b750c316e80040eff43002b9295518c51"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/snowy.json"
+hash = "6714f448e83efe1cae060f30b92d783e8f8c8be5a198e775f30b3c6a9d608475"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/swamp.json"
+hash = "a64ce9805df2d1cc565071cc4eb9020ebcc4ee580428e244520dfac49e61e0fe"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/swamp_fortified.json"
+hash = "cfbe7df2d43410e7162761d4640e8bbefdc82e8d8b5e873dd615285a986f133c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/taiga.json"
+hash = "f7014c3462fe219d7a40cd6e9fbe55090a30b6a06b9ba235caeb8aac7c513f88"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/villagersplus/taiga_fortified.json"
+hash = "01a1dbf124da317b31f39e828c8ec92dcda308acf917e40e4137f95df1f32126"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/beach.json"
+hash = "2de7f2de6318c61204281937fae4badf53ed88c6049af91f8b209648b8fe0ab5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/christmas.json"
+hash = "a2ac6960812fa08893464ac7dbaa5566751dc660fb47472bc6ceb42acf8f916e"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/dark_forest.json"
+hash = "d38487d364729699a868cd1565fa60200da422002864faacb6dec0f6c19fbb51"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/desert.json"
+hash = "217adfa9470cf90a94455b1c56b62bb3f171abbd21206575b0aea08a84a61d1f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/desert_oasis.json"
+hash = "164f33144d67f5bff09f1d89f81a7823d406b2c6cfa84a65268c46d930d8387f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/jungle.json"
+hash = "8996c554f1f16edf1c87873faaf70bcbc5c344d8b88342c9cda6613f0de15d2d"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/jungle_tree.json"
+hash = "b0260d841dd0943a700a0a7a6a0ca56fc04a15937b9f1a220167bc6adc662620"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/mesa.json"
+hash = "7ba6384e4b5353107cac8bffcc5be529c2d695b7dd251563cd616066cf734019"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/mesa_fortified.json"
+hash = "3d499f4aa5cb3466b95ed112c0465db5a00ddafdccd746110825bbe1d9662d88"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/mountain.json"
+hash = "79edc00e22aa25a4dd3feefb331fd2970ff10f99d8b76ab81a52f6259430e686"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/mountain_alpine.json"
+hash = "d03c23f51ef71967c56dd7db875119314f0a8dba5896626360077bf1534b28b0"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/mushroom.json"
+hash = "1d58417414b9017ec94fbdc5f47e9c06758cbd88cda181d2d3e8cb708f3ee91f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/plains.json"
+hash = "1ed150b8cb863d8c76bd6ff82a4f568ecdff61230e5ed69c3c9b330a63ee1b9f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/plains_fortified.json"
+hash = "5d0cdd23f18bc4423dd5b425b7b84fad43c1b7dbd3b276fd4ea9bbf67f886144"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/savanna.json"
+hash = "a9ac500189b6b703864b9ff174249660c25877973f9936b45db0c61f8c955955"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/savanna_na.json"
+hash = "59bbd382ebce9a693930c92d5e6a89332329c421278abc63114e92c40740536f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/snowy.json"
+hash = "11deda8910f0f03b3ab9ee85b9e6385e0dfa05920879ae74d18b107ebbb6ddef"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/swamp.json"
+hash = "986045500662e5c9b1b6b7ea6d93582680b0fd638e1a992f53463af733f32d09"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/swamp_fortified.json"
+hash = "2c76c166fe9b949121a8e6bd084cc476eeaad03b2b94fd1654c75b9329766d02"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/taiga.json"
+hash = "55733ba7680a5a6045d5b8f3df4f68fca1ea1a33512db807c02f768b99034418"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/vm/taiga_fortified.json"
+hash = "e011f67b042d3ba7080e1a10d680e8b7761df83cdb37a5fa32a6acaccbb834b6"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/beach.json"
+hash = "4455d56a4bf41b2be1f4141763d9f6ecda4f7bd7ab00d68f7a7ca41b84070ee9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/christmas.json"
+hash = "a50aa448c4046f7239789fc2a863ad7dfe28012d0a6af846772027a61c42cf0c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/dark_forest.json"
+hash = "e06be30c58b30f8da2d27eb91430bf3eb9f9dc5c146b1e558d28fc9f3ecc6290"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/desert.json"
+hash = "91a6d68e6d35b766454fce3bfe0aa78dd3807cb9e9c7b743e1643b81fc30daaa"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/desert_oasis.json"
+hash = "fdbcd8fdae6e71df7a4792e25fbe947e4bd9b50cd7bbbcc0c1772df42caf8558"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/jungle.json"
+hash = "22105918b6071e7a83f9c5fa6a3f4731e5006096f6cfbd20589e86d0aafb0d57"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/jungle_tree.json"
+hash = "85bef27e932a999d52865b82787bf2396f10c3ffb092fb244816fb108eb66b4a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/mesa.json"
+hash = "296c6f21a6e46c6ad25620bd17b817cf41cb0b811bd815b641b22e7853949e1a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/mesa_fortified.json"
+hash = "88b10817fa7def1dce00bc19feb871086ff4ccc90f0e3e2c85a71fb53e2b5d6b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/mountain.json"
+hash = "870452c2b16d36ff7e2066f6d3a2704fb767be7adc85e4e9c6e1b7ef22cb2836"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/mountain_alpine.json"
+hash = "82acc16fb5ac38b22267ff4e8fb4e7924319c087397e784f0af0bbdd100230fc"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/mushroom.json"
+hash = "bd6f2e0e3aec92a068ee330d92dda7a0419152d1b97339cd4672cbdd12c7f772"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/plains.json"
+hash = "fbe549be6ae39cf257d9bba441b1d669f4c48869e6dca0a37599b28d341c9b28"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/plains_fortified.json"
+hash = "12f0f806a5829f3740b8eafc58f5447c648ad5193e3a8a4ef6ae7214a5f123d4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/savanna.json"
+hash = "b57aad53e1a06caf6d1217cffba91a0a2ef364b6c1784a593e7899d325c3fd19"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/savanna_na.json"
+hash = "945e175ffa259f4460c45a8fba4895797b9e5bda6a677143fffbbe95d03e9045"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/snowy.json"
+hash = "ec2b0d26c3c7ad0e0492416decdeaa352f231c8d0a6d954179c373652c3bd1ca"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/swamp.json"
+hash = "0e2e0e7b3f9d43213439bb74413cef9b084cab3ea3531ebdecc9cbf3f4d1876a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/swamp_fortified.json"
+hash = "70b62768e6de6537d54f84bdf3b2be018b0b6ae5cf80796ebd1b9ee6893a1b57"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/taiga.json"
+hash = "97d5fe179482e4f9c2bfbb69f2c92d82013e83d915bb092152dddff090b06ee5"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wares/taiga_fortified.json"
+hash = "b33637ed7b3e414ef76bf85531e7df58bfe8e29fdd62de6b1c33573b6a73917f"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/beach.json"
+hash = "68e5beb28e032d79fb40757dde5719e1a50f0ad9429cc509ad0b9faff89845c7"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/christmas.json"
+hash = "ddb91480553ee2612181ffa86fdbd0f4a4c5ff12fa888d82e4368528d662d471"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/dark_forest.json"
+hash = "c52d1527ebf930a3d4768bbb7862521e28b79d96db6b9ecd206b9bcb65d4bc18"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/desert.json"
+hash = "256a9cbce9416794fc1413bf7d743d125ef343f4483d40c8e4548084e7d1e50b"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/desert_oasis.json"
+hash = "0138b81e3c5abad5ae519e63a2615d65930c7f9d86b75cc25c44e48033e09bf4"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/jungle.json"
+hash = "425496b5850b7b27fbe7b70d20169026b2a9cf3ae68a5d306a17e67af625371a"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/jungle_tree.json"
+hash = "e8720029774e5b8480c4681a2544b9b961780666b3ca1e332b3fccd72cae9fff"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/mesa.json"
+hash = "a08b7ced8bc2d9db88adefa08a4771363e6dcaeb028cc00d1ee59ea4ff09e13c"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/mesa_fortified.json"
+hash = "275244cfdb18cf0a0faf8c72b6bf44ceabf10647c21fcbdb1dfc6895d156a0dd"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/mountain.json"
+hash = "a9fbb740fdcc9694078e190135275892f99680c387d2652b7342ce2119b290ad"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/mountain_alpine.json"
+hash = "9d2859ec7a4b9dee238ae4243e1bc20ad47d7f99b73e2dd7d7c0ae3ea1fe0af7"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/mushroom.json"
+hash = "ada4aecace8f7de7ec6e4b532f963760b22120db336ccdaa2771f80f55af03e7"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/plains.json"
+hash = "23629a5c93e55c2210079dce3c6b3c3553913ae532f3d3f6835be935c5eb5c46"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/plains_fortified.json"
+hash = "89c97913d0425ca80ad9310593736196ec3bfef47a2e3c89690ba6b6e23b7625"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/savanna.json"
+hash = "01d144fae44da24969535975973af0cecad1729414dd58ab986ff1d05fca1d58"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/savanna_na.json"
+hash = "3b08edec1a025a85326352265d2547d99acf57cbb3628dcf84acbd7933ea68a3"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/snowy.json"
+hash = "c92b35767bf6ea912ca0a18beced015fe0b0788ae9b60d0db504d13d75323203"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/swamp.json"
+hash = "118c1dc3d005119b5aee4fedf880c3245262bd3e422b0911a5fa0c659d771410"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/swamp_fortified.json"
+hash = "14be0f1d75ee074f98c5353d3675a834b42b68dae859e0fc087f5ecdb52d3be9"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/taiga.json"
+hash = "4eb5d5d8a8c9f423ab1caf68b58cd95772b826363ec54c86e09f324b85e54472"
+
+[[files]]
+file = "kubejs/data/ctov/lithostitched/worldgen_modifier/wizards/taiga_fortified.json"
+hash = "07f442d7b2765f50d15bbd688d2ec2db1ff33ce63e062e30336a5df7a034aef8"
 
 [[files]]
 file = "kubejs/data/ctov/worldgen/structure_set/pillager_outposts.json"
@@ -2652,7 +3872,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "595c7c54393f25a5a8fb5c9d5a88071f9745d47d4b8a97173644cedce92675f0"
+hash = "0228a52b697e35a99c3873f4fa93846f664c80244d00c4b97a6c32532590e735"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"

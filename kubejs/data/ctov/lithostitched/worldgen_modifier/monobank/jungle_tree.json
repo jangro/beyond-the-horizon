@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "monobank"
+      }
+    ]
+  },
+  "template_pool": "ctov:village/jungle_tree/house",
+  "elements": []
+}

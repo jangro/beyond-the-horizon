@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:add_template_pool_elements",
+  "predicate": {
+    "type": "lithostitched:all_of",
+    "predicates": [
+      {
+        "type": "lithostitched:mod_loaded",
+        "mod_id": "vm"
+      }
+    ]
+  },
+  "template_pool": "ctov:village/taiga_fortified/deco",
+  "elements": []
+}
