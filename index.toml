@@ -84,7 +84,7 @@ hash = "ff11153384f458b4e44589d84342b98f7cfd8f7e2f76d308434f803c2cef45b7"
 
 [[files]]
 file = "config/bountiful/bountiful.json"
-hash = "c2ea0e4b5816317636930b618a5742d7fbc2250ae990f0ee3e12c7f6c9d5d63a"
+hash = "2d86c2908b45367e8a0d11b4c606a81cd9b270a61cfed0204c9a304ea355657c"
 
 [[files]]
 file = "config/bountiful/bounty_decrees/hunting.json"
@@ -132,7 +132,7 @@ hash = "b7bfd6aeb6be0f01872804a095b72ed9d292ebf60c2488e306a6464b316898ab"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "dc7032ed49cbcfb54875e54fc9ddb8f9c84184f7470609cffe38d6d0a2f6a1a0"
+hash = "8fc4bce1b8bfb5d53bc147bfb091f74019f7b8fac731fac2cf29b5c8ae97cd3b"
 
 [[files]]
 file = "config/eidolon-common.toml"
@@ -556,7 +556,7 @@ hash = "aa9e181a64dc290799bd8e696e60c03265d4ce7eeaca4f73a4057a7aa14c0f69"
 
 [[files]]
 file = "config/supplementaries-common.toml"
-hash = "1d056e83ac0b5d5ea97118ff05b92f9cb6df757b58d38260a0470c2de1c10f3d"
+hash = "9d2e54a6ea7c7afc69244f6de58793fbe1d7d9c205f2d59653de72d78c96f7f9"
 
 [[files]]
 file = "config/tectonic.json"
@@ -608,7 +608,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "0914a3955037b05e030f8c9e153201bdfea8a08b9c079bc1ba596871c1ec8b92"
+hash = "cea9d9fe3bbbb8bebda650ffe13f9df43f8efae7faf1c8a1403aa17a54bb1f9c"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -640,7 +640,7 @@ hash = "7924492b36c39b5e7681a90cf955693ae59a90b11d26b802d442bdf93bc12340"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/ancient_cookie.png"
-hash = "69e17bf77a0c8c6166e8c713940d749322f34fc6b3d982bd510769e0e1378c3c"
+hash = "3d728a9fa2f147e3dccfa8d80765b3cd0f5be141f8f193c8aa80e0300e2c1cd7"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_aerwhale.png"
@@ -2632,7 +2632,7 @@ hash = "1f07be2dae9a30a979518dc43f8ef85fddbd8f2d2462cf7557f331a8f0a6891b"
 
 [[files]]
 file = "kubejs/server_scripts/src/first_start.js"
-hash = "b95f45c687cbf343caa5af2a84313d65bfc8c31f260d80bef934b927b39035f4"
+hash = "4b6efbd5d3c0489209eff2e8e475839f0f88848a6d636c7730a3a3d25c591d69"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
@@ -2660,7 +2660,7 @@ hash = "6381d0f27842b58b487676767e150da654b5321511ecbfa03807164cc727f332"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "3ff04db8b29b904a9374a3a96d37504997d46d0e22ad5b7c1fb321799693514c"
+hash = "55e79ccf02cc7ce22e978cb9efdaab708fa17ef2d9317da4065b06875b05641f"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -2716,11 +2716,11 @@ hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "5d6eb0ff88d4786e456e9e11232677e8d64c6f6bd2789e2b21bbc47d5ca1f8b4"
+hash = "50e418a1054436e6fb7dea5aaba678746ed9808000df4753e557faba9ca7dca4"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
-hash = "4a470c33f73bda75a291c919aed6082365061e89a7a0a3e5b7732f5bca2754a6"
+hash = "1563258d72699ff0698c017a3366e6242297098fb9c8cb001060414f699c9178"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/pneumaticcraft.js"
@@ -2736,11 +2736,11 @@ hash = "2be957b0a1b3a4ab595fd7b57a3c6c9f1c12d2f633c6faba869779074738f499"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "3364c8882fb691091d79d436fa524bde03a22c1a61aef3a0b8d239147d7ce0d8"
+hash = "89321ce0424a9c4f729bf305781d5a6307b86ca7f75f148d49fc1b634c9a285d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
-hash = "9c4fbf478e14fadc0d8433227cd141294dfcf040a2165a0bc8776313a88f6432"
+hash = "3d07a51ba8000dc758ad2022d0690aa0d0700c14687e4682b85b10027b5d8c49"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
@@ -2760,7 +2760,7 @@ hash = "4fcff325361e885e3f8448acdb7541e717596aece84c45ff9585e6dd2b1dc483"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
-hash = "480091f362c42639ce3286834bb8f0e1aaab8c3488a9f5ce7f79ced0dc2f69a0"
+hash = "8ce1ba5acb445bcbd823eb5c5a9d65452ddf00cff1d35ab8366e43e6a01c7a57"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block_entity_type.js"
@@ -2769,6 +2769,10 @@ hash = "a5c8e03f765a44572d18cc6903bba5e1e2a0018bf7ecf48b717d3f0ee0f50431"
 [[files]]
 file = "kubejs/server_scripts/src/tags/damage_type.js"
 hash = "a250513890c8d7e3502c463b4c231d7b1570f79daeb9c99a1f9106fc7ea922cb"
+
+[[files]]
+file = "kubejs/server_scripts/src/tags/enchantment.js"
+hash = "b5792316748304fc986f914dd4bd34c991526228b102126f9e3d43341b7420c6"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/entity_type.js"
@@ -2780,7 +2784,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "2c6dfa8c5d5d85791c58eea13765f5b07dd37cb9cbd9470afac1249f507957f3"
+hash = "0ee520e8ad3abb8c1330c6b1e6aeb19a04046b4d03b9e72f912013f4ed79192a"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
@@ -2820,7 +2824,7 @@ hash = "956b57ca4dede670d6835835d06a18a242ba820c2effeaf5fbcd0514226044e6"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/immersiveengineering.js"
-hash = "3aebc745eb4b1d815e987b2f551b9b8159fc189e92622e6148561a264a9b5571"
+hash = "9ca962dcadcaeb2f28b76d1f18e0049fe4978c5c10e354952d6edcf0b6d947b5"
 
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/integrateddynamics.js"
