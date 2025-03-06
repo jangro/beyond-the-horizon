@@ -9,6 +9,7 @@ All notable changes to this project will be documented in this file.
 - Ancient Cookie - a food item that does random teleport
 - Bounty Boards with two custom decrees, photography and hunting
 - Bounty Hunter quest page
+
 - Mods
   - Bountiful-6.0.4+1.20.1-forge
   - defaultoptions-forge-1.20-18.0.1
@@ -24,7 +25,9 @@ All notable changes to this project will be documented in this file.
 - Enable glowstone mining for building wands
 - Use DH in FEATURES mode in singleplayer (due to MC mem leak bug)
 - Fixed bug that caused village loot chests to be empty
-- Mods
+- Remove extra entities from frozen tower structure
+
+- Mods updated
   - amendments-1.20-1.2.18
   - balm-forge-1.20.1-7.3.17-all
   - barebackhorseriding-1.20.1-2.3
