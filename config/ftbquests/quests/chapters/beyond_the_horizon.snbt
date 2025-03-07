@@ -940,7 +940,41 @@
 				item: "minecraft:poisonous_potato"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			icon: "wardrobe:lantern_on_a_stick"
+			id: "058E10BBDE57FAA3"
+			subtitle: "Lanterns can be equipped in curios slots."
+			tasks: [
+				{
+					id: "11F59529A2E34461"
+					item: "wardrobe:lantern_on_a_stick"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7273FA0FB13E385E"
+					item: "wardrobe:soul_lantern_on_a_stick"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F8F1928F14C0EC4"
+					item: "minecraft:lantern"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D3B7031DA7C34CB"
+					item: "minecraft:soul_lantern"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Wearable Lanterns"
+			x: 6.5d
 			y: -2.5d
 		}
 	]
