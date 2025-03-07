@@ -376,7 +376,7 @@ hash = "8607561ab973c8d3af4437795918e7091332390dc8eb268d7c2548b1de5107c3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_graveyard.snbt"
-hash = "7ab29c0cd89b54aa55628064a3a90a05c6b27d7ce2e3cf4c9025a1fed071ec96"
+hash = "0609fd92dc19b9870dad219d22d4c0b1e6fc510d47e5377db0c7b5fef1d6f59a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nether.snbt"
@@ -589,6 +589,10 @@ hash = "de16197571e821d228a8bd30cec2ef9d261dd67a6c3c4c694f8b38d7ba00de59"
 [[files]]
 file = "defaultconfigs/create-server.toml"
 hash = "7f55ed126069f5fc0cb850f6c3a67068c8d09297d8819d4b0bc5a920e9f23ab1"
+
+[[files]]
+file = "defaultconfigs/curios-server.toml"
+hash = "3ead877d2abddd01f7c232fe132ed8222bc9a761f612d74cabdc517c56d12dff"
 
 [[files]]
 file = "defaultconfigs/ftbchunks-world.snbt"
