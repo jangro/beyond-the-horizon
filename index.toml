@@ -4538,6 +4538,11 @@ hash = "1275fb7993a387d6f4fdabd062661d3df11767d942de4c7c4ae00d6d27168488"
 metafile = true
 
 [[files]]
+file = "mods/curious-lanterns.pw.toml"
+hash = "613f9baf4bf28cc615324c0402a1a61c49d73a0f86c2f33f45fe8d5d739ac91f"
+metafile = true
+
+[[files]]
 file = "mods/cyanide.pw.toml"
 hash = "6b1b9bf9a9c23931a3e3ed5d9f736b176a3965a85879083c7637428dbc1602f2"
 metafile = true
