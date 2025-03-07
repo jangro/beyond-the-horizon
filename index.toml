@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "ae18d7603c45dd08d2f3a4dbfefd897d4e2d44db2d950900eb99a5472191e8e7"
+hash = "f8793a825f8c2833fa86e62357b0fd63c0edb4fa21303d05a22cadc458e5a4f5"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
@@ -612,7 +612,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "cea9d9fe3bbbb8bebda650ffe13f9df43f8efae7faf1c8a1403aa17a54bb1f9c"
+hash = "1fc4219f7920b026b4f7d01691c7c019f61b544e47b5c94ca5aebbcea0a94339"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -1320,7 +1320,7 @@ hash = "57a93daa1174d8f3514c5e83e0d21465fa6455fe24979a3997629fc46ad1ab88"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tower_frozen.nbt"
-hash = "f04fdf1f83653bbc8379eddd46367c18defbbe98fc6b130940f7a96a97212482"
+hash = "17c45e93556232832ad840d564377df779d2c871161535492a6a2a88d8cd3a8f"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/tower_scarlet.nbt"
@@ -3019,6 +3019,10 @@ file = "kubejs/data/graveyard/worldgen/structure_set/crypt_structure.json"
 hash = "72f7e856f68d285b08f41d9e815cdfc45e914b98595b985ff7d402c7fda25033"
 
 [[files]]
+file = "kubejs/data/graveyard/worldgen/structure_set/lich_prison_structure.json"
+hash = "3d928d55c1b3c807538afa227b1714bc949ab4d126a28b820b4b87edc61b4000"
+
+[[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/banana_slug.json"
 hash = "698de9a23a459237bfc58a79cebb932c46590e9c5eb6216b849a4ad19e31d5c0"
 
@@ -3880,11 +3884,11 @@ hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "6381d0f27842b58b487676767e150da654b5321511ecbfa03807164cc727f332"
+hash = "f1523eb44548315ed9dec3b54a5445accbf41ed5528f544026dec36697889b80"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "55e79ccf02cc7ce22e978cb9efdaab708fa17ef2d9317da4065b06875b05641f"
+hash = "93502fc88577147d2e149f833730a1fc12f3f77a63b88742411c0ec380068dfb"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
@@ -3896,11 +3900,11 @@ hash = "28b38bbfb0c921271ba93337fd617320ab9f32f08a4274aae99f9748bae2008d"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/structures.js"
-hash = "ac4b4c21b820a02be448ef11b940ea1131bc79404b023c3f91597a7f4e87cacd"
+hash = "c013b0fdbbd4d5b32fdeb6bbe5df162be6923f9b01695d9756e5b601e0aa815d"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
-hash = "bd002fa97195751bec2acc2b610a45e5577a3257a4959a6c4a9045e08670048c"
+hash = "8b7b404edb07843cd06805d41f9639328dc91d791d931f80421cd1bda9b629d1"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
@@ -3980,7 +3984,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
-hash = "4fcff325361e885e3f8448acdb7541e717596aece84c45ff9585e6dd2b1dc483"
+hash = "e97492951d8ee8150e05c9c73913690e04f66a384cb2568f4a888379c20ce4d2"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"

@@ -134,6 +134,11 @@ const GRAVEYARD_CRYPT_MAP =
            display:{Name:\'{"translate":"filled_map.graveyard_crypt"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"graveyard:crypt",zoomLevel:2}');
 
+const GRAVEYARD_RUINS_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.graveyard_ruins",\
+           display:{Name:\'{"translate":"filled_map.graveyard_ruins"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"graveyard:ruins",zoomLevel:2}');
+
 const BTH_RUINED_HANGAR_MAP =
   Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_ruined_hangar",\
            display:{Name:\'{"translate":"filled_map.bth_structures_ruined_hangar"}\'},maxSearchRadius:100,skinKnown:1b,\

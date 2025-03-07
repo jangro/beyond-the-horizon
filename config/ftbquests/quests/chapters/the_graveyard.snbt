@@ -11,7 +11,7 @@
 		{
 			dependencies: ["55305547991B1D32"]
 			id: "7B219A567F89839E"
-			subtitle: "The final destination."
+			subtitle: "Loot the crypt for maps to Ruins. The more the better."
 			tasks: [{
 				icon: "graveyard:leaning_skeleton"
 				id: "456AC44C4E2CE5C9"
@@ -39,6 +39,35 @@
 			}]
 			title: "Visit a Dead Tree"
 			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B219A567F89839E"]
+			description: ["There are 3 types of ruins, each type contain 1 part of a 3-part item required to awaken the Corrupted Champion."]
+			id: "5D1DD8AFBFDEEB84"
+			subtitle: "Find 3 unique items in 3 different ruins, and a map to the Lich Prison."
+			tasks: [{
+				icon: "graveyard:lower_bone_staff"
+				id: "1484C928D824E54C"
+				structure: "graveyard:ruins"
+				title: "Visit Ruins"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D1DD8AFBFDEEB84"]
+			id: "520D7CBB244ED1A1"
+			subtitle: "Prepare to meet the Corrupted Champion."
+			tasks: [{
+				icon: "graveyard:middle_bone_staff"
+				id: "16C01CF427F20D0B"
+				structure: "graveyard:lich_prison"
+				title: "Visit a Lich Prison"
+				type: "structure"
+			}]
+			x: 6.0d
 			y: -1.5d
 		}
 	]

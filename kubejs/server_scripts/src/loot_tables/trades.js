@@ -64,6 +64,11 @@ VillagerUtils.setAbstractTrades(PLAGUE_DOCTOR_TRADES, 2, [
 ]);
 
 
+// Errors with: Can't find class
+// const GRAVEYARD_TRADER_TRADES = Java.loadClass('com.finallion.graveyard.trades.NamelessHangedTradeOffers').NAMELESS_HANGED_TRADES;
+// VillagerUtils.addTrade(GRAVEYARD_TRADER_TRADES, 1, TradeItem.of('graveyard:corruption', 5, 10), GRAVEYARD_RUINS_MAP);
+
+
 const PLUSHIE_TRADER = Java.loadClass('io.github.sirjain0.perfectplushies.entity.WanderingPlushieTrader');
 const PLUSHIE_TRADER_TRADES = PLUSHIE_TRADER.TRADES;
 

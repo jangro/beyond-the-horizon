@@ -22,25 +22,28 @@ ServerEvents.genericLootTables((event) => {
   // See: kubejs/data/minecraft/loot_tables/gameplay/fishing.json
   event.modify('bth:fishing', table => {
     table.addPool(pool => {
-      pool.addItem(TINKERS_CITADEL_MAP).weight(3);
-      pool.addItem(TINKERS_WORKSHOP_MAP).weight(10);
+      // Structures
       pool.addItem(ANCIENT_MINES_MAP).weight(10);
-      pool.addItem(TREE_OF_WISDOM_MAP).weight(3);
       pool.addItem(ARCHMAGES_TOWER_MAP).weight(3);
-      pool.addItem(TRAIN_RUINS_MAP).weight(10);
-      pool.addItem(UNDERSEA_VILLAGE_MAP).weight(10);
-      pool.addItem(BTH_TINKERER_HOUSE_MAP).weight(10);
-      pool.addItem(BTH_MAGICIAN_HOUSE_MAP).weight(10);
-      pool.addItem(BTH_RUINED_HANGAR_MAP).weight(10);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP).weight(10);
       pool.addItem(BTH_DW20_MAP).weight(10);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP).weight(10);
+      pool.addItem(BTH_RUINED_HANGAR_MAP).weight(10);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP).weight(10);
+      pool.addItem(GRAVEYARD_RUINS_MAP).weight(10);
+      pool.addItem(TINKERS_CITADEL_MAP).weight(3);
+      pool.addItem(TINKERS_WORKSHOP_MAP).weight(10);
+      pool.addItem(TRAIN_RUINS_MAP).weight(10);
+      pool.addItem(TREE_OF_WISDOM_MAP).weight(3);
+      pool.addItem(UNDERSEA_VILLAGE_MAP).weight(10);
+      // Biomes
+      pool.addItem(ARCHWOOD_FOREST_MAP).weight(10);
+      pool.addItem(CHERRY_GROVE_MAP).weight(10);
       pool.addItem(DESERT_MAP).weight(10);
       pool.addItem(FLOWER_FOREST_MAP).weight(10);
       pool.addItem(JUNGLE_MAP).weight(10);
-      pool.addItem(SWAMP_MAP).weight(10);
       pool.addItem(LUSH_CAVES_MAP).weight(10);
-      pool.addItem(CHERRY_GROVE_MAP).weight(10);
-      pool.addItem(ARCHWOOD_FOREST_MAP).weight(10);
+      pool.addItem(SWAMP_MAP).weight(10);
     });
   });
 

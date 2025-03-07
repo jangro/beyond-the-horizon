@@ -183,6 +183,7 @@ ServerEvents.tags('worldgen/biome', event => {
     'graveyard:has_structure/haunted_house',
     'graveyard:has_structure/medium_graveyard',
     'graveyard:has_structure/small_graveyard',
+    'graveyard:has_structure/ruins',
     'idas:has_structure/hauntedhouse_biomes', // this one doesn't generate for some reason...
   ].forEach((tag) => event.add(tag, ['minecraft:dark_forest', 'nyctophobia:deep_dark_forest']));
 

@@ -254,6 +254,15 @@ LootJS.modifiers((event) => {
     .addLoot(LootEntry.of(SNOWY_PLAINS_MAP).when((c) => c.randomChance(0.1)));
 
   //
+  // Graveyard crypt have a chance to contain a map to the graveyard ruins (progression requires visiting 3 different ruins)
+  //
+  event
+    .addLootTypeModifier('chest')
+    .anyStructure(['graveyard:crypt'], false)
+    .randomChance(0.02)
+    .addLoot(GRAVEYARD_RUINS_MAP);
+
+  //
   // Graveyard map trail
   //
   // Add graveyard crypt map to the dead tree urn (uses a shared loot table so add to the structure)
