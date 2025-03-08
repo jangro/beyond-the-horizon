@@ -25,3 +25,6 @@
 # Exclude macOS folder metadata
 **/.DS_Store
 **/__MACOSX
+
+# Exclude VS Code datapack helper config file
+spyglass.json
