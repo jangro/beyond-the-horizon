@@ -55,6 +55,9 @@ ServerEvents.chestLootTables(event => {
     table.addPool(pool => {
       pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
     });
+    table.addPool(pool => {
+      pool.addItem(HAZE_MOUNTAIN_MAP);
+    });
   });
 
   event.modify('bth_structures:aether_portal_framed', table => {

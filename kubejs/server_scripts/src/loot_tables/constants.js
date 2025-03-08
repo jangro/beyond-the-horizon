@@ -177,6 +177,7 @@ const JUNGLE_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:j
 const LUSH_CAVES_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:lush_caves",targetBiomeColor:ccff66,targetBiomeUnderground:0b}');
 const CHERRY_GROVE_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:cherry_grove",targetBiomeColor:ff66cc,targetBiomeUnderground:0b}');
 const ARCHWOOD_FOREST_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"ars_nouveau:archwood_forest",targetBiomeColor:6b0080,targetBiomeUnderground:0b}');
+const HAZE_MOUNTAIN_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"terralith:haze_mountain",targetBiomeColor:00cc00,targetBiomeUnderground:0b}');
 
 const DRAGON_EGG_AETHER = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:aether"}}');
 const DRAGON_EGG_END = Item.of('dragonmounts:dragon_egg', '{BlockEntityTag:{Breed:"dragonmounts:end"}}');
