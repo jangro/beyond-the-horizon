@@ -3723,6 +3723,10 @@ file = "kubejs/data/terralith/worldgen/biome/cold_shrubland.json"
 hash = "b127172a14ab049991989186d1984599158de70aab61a7424519108dbced84f1"
 
 [[files]]
+file = "kubejs/data/terralith/worldgen/biome/haze_mountain.json"
+hash = "7c274ab795f5a54c2723a4743900bc47e7644ccb92b1bc56bd59681ab03914bd"
+
+[[files]]
 file = "kubejs/data/terralith/worldgen/biome/lavender_forest.json"
 hash = "5b87f36d1f59b64957786d0ce999fd53f678ae3dc615075b5691a3a7f1e89d01"
 
@@ -3763,12 +3767,20 @@ file = "kubejs/data/terralith/worldgen/biome/skylands_winter.json"
 hash = "94db10af42da16507ca7e8734adc5b4bda8ad9808d883496f95e98d35953da4c"
 
 [[files]]
+file = "kubejs/data/terralith/worldgen/configured_feature/dragonegg.json"
+hash = "1e77721fcac5462035348a03ffaa2defbfab5658f0032a10a9d4693dc4621067"
+
+[[files]]
 file = "kubejs/data/terralith/worldgen/configured_feature/flower/blue/amethysts.json"
 hash = "fc69b365e234b8e89cbca16962372524a2d96f6a7f6c981b0424dc441b537167"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/density_function/overworld/skylands/noise.json"
 hash = "1cb82983aa35004d260fb9aae337571580214e3bfc034bd379823b537a7b2d32"
+
+[[files]]
+file = "kubejs/data/terralith/worldgen/placed_feature/dragonegg.json"
+hash = "309e171ef3af8b47e02d24f86e0f5dac6453530c55a3545691bbd8fba12eaa9e"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/placed_feature/mountains/scarlet/remove_steep_snow.json"
