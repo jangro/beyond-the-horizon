@@ -724,9 +724,11 @@
 		}
 		{
 			description: [
-				"They can be pushed with pistons or contraptions and will deal extra damage if they hit something while extending."
-				"Can be infused with lingering potions. To do so either craft them, click on them or pour the potion using a faucet."
+				"They can be pushed with pistons or contraptions and will deal &4extra damage&r if they hit something while extending."
+				"Can be infused with &9lingering potions&r. To do so either craft them, click on them or pour the potion using a faucet."
 				"They can only accept negative lingering potions and have infinite charge."
+				""
+				"Bamboo spikes counts as &6player kills&r, meaning when a mob is killed by bamboo spikes it drops loot and XP as if it were killed by a player."
 			]
 			id: "455AB40E9A8F4641"
 			subtitle: "Spikes that will slow and damage all mobs that walk on them."
