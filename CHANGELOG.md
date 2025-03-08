@@ -20,6 +20,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Fix a bug where pre-set default options weren't applied on first launch
 - Make bamboo spikes kills count as player kills
 - Reduce FOV effect scale to 60%
 - Replace EnderIO wheat flour with Create wheat flour
