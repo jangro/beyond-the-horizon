@@ -41,6 +41,7 @@ ServerEvents.genericLootTables((event) => {
       pool.addItem(CHERRY_GROVE_MAP).weight(10);
       pool.addItem(DESERT_MAP).weight(10);
       pool.addItem(FLOWER_FOREST_MAP).weight(10);
+      pool.addItem(HAZE_MOUNTAIN_MAP).weight(10);
       pool.addItem(JUNGLE_MAP).weight(10);
       pool.addItem(LUSH_CAVES_MAP).weight(10);
       pool.addItem(SWAMP_MAP).weight(10);
