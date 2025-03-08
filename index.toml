@@ -324,7 +324,7 @@ hash = "4199bbca1f56eaf9739ae5aa5442cb3fa23dd271b572290505753d664f46dfbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "38af04d42f81e84772bb6da34bb1607b5f4e381cebda0e4d76f7fb21f5c0a70b"
+hash = "baeaee9b273b881777feaeaf13fe0de1defae6486ed7aa6bf34c269417f13d83"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_hunter.snbt"
@@ -3712,11 +3712,11 @@ hash = "54aafb656cba9a42bbf1b77137a89f2cedc20a0b7d3e9ea9ee6bed31dea8417b"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/biome/amethyst_canyon.json"
-hash = "c00a5d8f2a9eb73478a4e82735a4ffb43798240ad09ad807848778ee91de3877"
+hash = "df5c7188cf38abe632b6d48bc6dafa8365df74e43ec2b09f31baa85017e803eb"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/biome/amethyst_rainforest.json"
-hash = "44d22a3862b9bf5e4de4d96c35e79d7bbeef73cb14c85041ed98a0e70afa9fac"
+hash = "e8861d84449993b9e99c5cab5fce8647936747de7c67204f18fbf81fbe913cd7"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/biome/cold_shrubland.json"
@@ -3763,16 +3763,12 @@ file = "kubejs/data/terralith/worldgen/biome/skylands_winter.json"
 hash = "94db10af42da16507ca7e8734adc5b4bda8ad9808d883496f95e98d35953da4c"
 
 [[files]]
-file = "kubejs/data/terralith/worldgen/configured_feature/glinted_amethyst.json"
-hash = "a0369942c886bed91c20aa41bdf50c7fe077f4fedbc6de4e94cdae40ebcc7d5f"
+file = "kubejs/data/terralith/worldgen/configured_feature/flower/blue/amethysts.json"
+hash = "fc69b365e234b8e89cbca16962372524a2d96f6a7f6c981b0424dc441b537167"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/density_function/overworld/skylands/noise.json"
 hash = "1cb82983aa35004d260fb9aae337571580214e3bfc034bd379823b537a7b2d32"
-
-[[files]]
-file = "kubejs/data/terralith/worldgen/placed_feature/glinted_amethyst.json"
-hash = "87747999313cee7485cafa75f61b267f2fae942ae95c33e6017c0f3bc26ff207"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/placed_feature/mountains/scarlet/remove_steep_snow.json"

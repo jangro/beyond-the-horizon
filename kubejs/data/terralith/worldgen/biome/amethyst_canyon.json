@@ -82,6 +82,7 @@
       "minecraft:spring_lava"
     ],
     [
+      "terralith:flower/blue/amethysts",
       "minecraft:glow_lichen",
       "minecraft:bamboo_light",
       "minecraft:flower_warm",
@@ -92,8 +93,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "terralith:jungle/patch_melon",
-      "minecraft:vines",
-      "terralith:glinted_amethyst"
+      "minecraft:vines"
     ],
     [
       "minecraft:freeze_top_layer"
