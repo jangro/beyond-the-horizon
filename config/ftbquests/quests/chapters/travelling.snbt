@@ -270,6 +270,8 @@
 				"&eTamed Dragons&r will obey commands and defend you against hostile mobs."
 				""
 				"To ride a grown &eDragon&r, use a &aSaddle&r on it."
+				""
+				"Dragons, like other tamed mobs, can wear &benchanted collars&r from &9Domestication Innovation&r to gain special abilities and properties."
 			]
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
