@@ -9,10 +9,13 @@ All notable changes to this project will be documented in this file.
 - Ancient Cookie - a food item that does random teleport
 - Bounty Boards with two custom decrees, photography and hunting
 - Bounty Hunter quest page
+- Dragon nesting grounds in the Haze Mountain biome
+- Make lanters wearable in curios slots
 
 - Mods
   - Bountiful-6.0.4+1.20.1-forge
   - defaultoptions-forge-1.20-18.0.1
+  - dynamiclightsreforged-1.20.1_v1.6.0
   - Kambrik-6.1.1+1.20.1-forge
 
 ### Changed
@@ -26,6 +29,7 @@ All notable changes to this project will be documented in this file.
 - Use DH in FEATURES mode in singleplayer (due to MC mem leak bug)
 - Fixed bug that caused village loot chests to be empty
 - Remove extra entities from frozen tower structure
+- Improve surface amethyst cluster generation in amethyst and moonlight biomes
 
 - Mods updated
   - amendments-1.20-1.2.18
