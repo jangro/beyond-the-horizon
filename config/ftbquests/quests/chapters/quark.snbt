@@ -44,8 +44,9 @@
 	quests: [
 		{
 			description: [
-				"Right clicking a block will bind the Abacus to it. After that, it will count the distance."
-				"The Abacus will count up to 48 blocks, drawing an outline of the counted blocks. The texture of the item will change according to how many blocks are counted. Right click again to unbind."
+				"Right-clicking a block will bind the Abacus to it. After that, look at a different block and it will count the distance between them."
+				""
+				"The Abacus will count up to 48 blocks, drawing an outline of the counted blocks. The texture of the item will change according to how many blocks are counted. Right-click again to unbind."
 			]
 			id: "323F14E8984D4C73"
 			subtitle: "It will count the distance between the targeted and hovered block, measured along right angles."
@@ -218,7 +219,7 @@
 				"Gravisand will not fall unless primed with redstone. However, if gravisand receives a signal, and can not fall, it'll instead float up."
 				"Additionally, gravisand will propagate the signal to any adjacent gravisand blocks, causing them to fall or float as well."
 				""
-				"It constantly output a comparator signal of 15."
+				"It constantly outputs a comparator signal of 15."
 			]
 			id: "72723A62472D91D2"
 			subtitle: "Gravisand will not fall unless primed with redstone"
@@ -238,7 +239,7 @@
 				"Can break anything the piston can push."
 			]
 			id: "0040F6B662E76583"
-			subtitle: "Work as a drill of sorts, breaking any blocks in front"
+			subtitle: "Works as a drill of sorts, breaking any blocks in front of it"
 			tasks: [{
 				id: "267776B96DFCA9BE"
 				item: "quark:iron_rod"
@@ -329,12 +330,12 @@
 		}
 		{
 			description: [
-				"If an ender teleportation would result in the target being placed on an edge of a Myalite Viaduct, entity would instead end up at the other edge."
+				"If an ender teleportation would result in the target being placed on a Myalite Viaduct, the target will instead land on the opposite end of the viaduct."
 				""
-				"Viaducts longer than 24 blocks, or that would cause a loop are illegal, and will just have the teleport go through as normal."
+				"Viaducts longer than 24 blocks or that would cause a loop are illegal, and ender teleportion will function as normal."
 				"On a fork, the destination is chosen randomly."
 				""
-				"Yes, you can move them with pistons."
+				"Viaducts can be moved with pistons."
 			]
 			id: "4D73B88DDA7AE158"
 			subtitle: "Myalite Viaducts redirect ender teleportation caused by ender pearls or endermen teleporting"
@@ -484,12 +485,12 @@
 		}
 		{
 			description: [
-				"If you're brave and feed them some Coal to tame them."
-				"Tamed Foxhounds work just like regular wolves, but with a few extra tidbits:"
+				"Can be tamed by feeding them coal."
+				"Tamed Foxhounds work just like regular wolves, but with a few extra features:"
 				""
-				"They'll sleep on hot blocks like magma."
+				"• They'll sleep on hot blocks like magma."
 				""
-				"If put on top of a furnace, they'll make the furnace faster. You can't put multiple doggos on a furnace to speed it up more, though."
+				"• If sitting on top of a furnace, the furnace will smelt faster. This effect does not stack with multiple Foxhounds on the same furnace."
 			]
 			icon: "quark:foxhound_spawn_egg"
 			icon_scale: 1.2d
@@ -548,9 +549,9 @@
 		}
 		{
 			description: [
-				"They can be tamed and interacted with in the same way as a wolf."
+				"They can be tamed and interacted with in the same way as a wolf: using bones."
 				""
-				"Addition also fetch any arrows or tridents after they land and bring them back to you, as long as they are not sitting."
+				"Shibas do not fight, but will fetch any arrows or tridents you throw and bring them back to you."
 			]
 			icon: "quark:shiba_spawn_egg"
 			icon_scale: 1.2d
@@ -572,11 +573,11 @@
 		}
 		{
 			description: [
-				"These little stone fairies will spawn in carrying an item, and will get startled if you get too close to them without &bsneaking&r and holding a &bGlow Shroom&r to tempt them."
+				"These little stone fairies can be found carrying an item, and will get startled if you get too close without &bsneaking&r and holding a &bGlow Shroom&r to tempt them."
 				""
-				"If you manage to kill one, you'll get the item its carrying as well as a Heart of Diamond."
+				"If you manage to kill one, you'll get the item it's carrying as well as a Heart of Diamond."
 				""
-				"A Heart of Diamond, when used on any stone block will let you create your own tamed Stoneling!"
+				"Use the Heart of Diamond on a stone block to create your own tamed Stoneling!"
 				""
 				"Tamed Stonelings can hold items you give them, eat Stone (they love it!), and follow you if you hold a Glow Shroom."
 			]
@@ -584,7 +585,7 @@
 			icon_scale: 1.2d
 			id: "676E8E522B9D78FE"
 			shape: "square"
-			subtitle: "Stonelings are new passive mobs that spawn in the deep underground"
+			subtitle: "Stonelings are passive mobs that spawn in the deep underground"
 			tasks: [{
 				icon: "quark:glow_shroom"
 				id: "09AA06778263D528"
@@ -676,9 +677,9 @@
 				""
 				"When multiple Magnets are exerting force upon the same block, the one with the biggest force wins. A magnet's force upon a block is the redstone level applied to it, minus the distance."
 				""
-				"When a Hopper is moved, it'll drop one of its items directly in front of it. If this item is a seed, it'll plant it either directly in front or one block down."
+				"When a Hopper is moved by a magnet, it'll drop one of its items directly in front of it. If this item is a seed, it'll plant it either directly in front or one block down."
 				""
-				"When a Stonecutter is moved, it'll break any block that's above it. Very hard blocks such as Obsidian can't be broken like this."
+				"When a Stonecutter is moved by a magnet, it'll break any block above it. Very hard blocks such as Obsidian can't be broken like this."
 				""
 				"When a Cauldron is moved, the items inside will move with it."
 			]

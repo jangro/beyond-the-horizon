@@ -729,7 +729,7 @@
 				"They can only accept negative lingering potions and have infinite charge."
 			]
 			id: "455AB40E9A8F4641"
-			subtitle: "Spikes that will slow and damage all the mobs that walk in them."
+			subtitle: "Spikes that will slow and damage all mobs that walk on them."
 			tasks: [{
 				id: "77AA88C9474350E6"
 				item: "supplementaries:bamboo_spikes"
@@ -850,7 +850,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["Negating all fall damage."]
+			description: ["Landing on it negates all fall damage."]
 			id: "2C6072220454E774"
 			subtitle: "Extremely fluffy!"
 			tasks: [{
@@ -907,11 +907,11 @@
 		}
 		{
 			description: [
-				"To do so right or left click a mob with a cage item."
-				"Right click with a full cage to release the mob."
-				"To place the block down you will need to shift right click."
+				"Right- or left-click a mob while holding the cage to capture it."
+				"Right click to release a captured mob."
+				"Shift + right-click to place down the cage."
 				""
-				"Captured mobs will not age nor be interactable and some will have some custom animations. Chickens can still lay eggs while captured."
+				"Captured mobs will not age nor be interactable. Chickens can still lay eggs while captured."
 			]
 			id: "2126B066AD3B25AB"
 			subtitle: "Can be used to capture small animals and mobs."

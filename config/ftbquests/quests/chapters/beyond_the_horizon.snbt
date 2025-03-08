@@ -125,7 +125,7 @@
 				}
 			]
 			title: "Golden Tools"
-			x: 6.5d
+			x: 8.5d
 			y: -5.5d
 		}
 		{
@@ -197,8 +197,8 @@
 				}
 			]
 			title: "New customization options for weapons and tools."
-			x: 6.5d
-			y: -3.5d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			icon: "suppsquared:sack_brown"
@@ -209,8 +209,8 @@
 				type: "checkmark"
 			}]
 			title: "Sack drops"
-			x: 8.5d
-			y: -3.5d
+			x: 9.0d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -244,8 +244,8 @@
 				type: "checkmark"
 			}]
 			title: "Map Markers"
-			x: 9.5d
-			y: -3.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:rotten_flesh"
@@ -257,7 +257,7 @@
 			}]
 			title: "Zombie Horse Conversion"
 			x: 11.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			description: ["Placed &abooks&r can give enchanting power to an &aEnchanting Table&r. The power given depends on the number and type of &abooks&r used."]
@@ -269,8 +269,8 @@
 				type: "checkmark"
 			}]
 			title: "Placeable Books"
-			x: 1.5d
-			y: -5.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:experience_bottle"
@@ -281,8 +281,8 @@
 				type: "checkmark"
 			}]
 			title: "XP Bottling"
-			x: 7.5d
-			y: -3.5d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:stripped_oak_log"
@@ -318,8 +318,8 @@
 				type: "checkmark"
 			}]
 			title: "Delete Items in Inventory"
-			x: 10.5d
-			y: -5.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			description: ["&6Settings&r -> &6Control&r -> &6Walk Automatically&r"]
@@ -368,8 +368,8 @@
 				type: "checkmark"
 			}]
 			title: "Nether Portal Compass"
-			x: 9.5d
-			y: -4.5d
+			x: 6.5d
+			y: -3.0d
 		}
 		{
 			icon: {
@@ -388,8 +388,8 @@
 				type: "checkmark"
 			}]
 			title: "Colored Item Frames"
-			x: 7.5d
-			y: -4.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -412,7 +412,7 @@
 				type: "checkmark"
 			}]
 			title: "Improved Hoes"
-			x: 9.5d
+			x: 7.5d
 			y: -5.5d
 		}
 		{
@@ -429,8 +429,8 @@
 				type: "checkmark"
 			}]
 			title: "Replace Scaffolding Blocks"
-			x: 2.5d
-			y: -5.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:magma_cream"
@@ -441,8 +441,8 @@
 				type: "checkmark"
 			}]
 			title: "Slimes to Magma Cubes"
-			x: 6.5d
-			y: -4.5d
+			x: 9.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -460,8 +460,8 @@
 				type: "checkmark"
 			}]
 			title: "Skull Pikes"
-			x: 3.5d
-			y: -5.5d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			icon: "minecraft:piston"
@@ -472,7 +472,7 @@
 				type: "checkmark"
 			}]
 			title: "Pistons Move Tile Entities"
-			x: 3.5d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -489,8 +489,8 @@
 				type: "checkmark"
 			}]
 			title: "Dispensers Place Blocks"
-			x: 2.5d
-			y: -4.5d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			icon: "minecraft:chain"
@@ -501,8 +501,8 @@
 				type: "checkmark"
 			}]
 			title: "Chains Connect Blocks"
-			x: 4.5d
-			y: -5.5d
+			x: 3.5d
+			y: -4.5d
 		}
 		{
 			description: ["When you do so, the &aVine&r will no longer be able to grow."]
@@ -520,8 +520,8 @@
 				type: "checkmark"
 			}]
 			title: "Shear Vine Tips"
-			x: 11.5d
-			y: -4.5d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -658,81 +658,6 @@
 			y: -8.0d
 		}
 		{
-			description: [
-				"Increases your maximum hearts by 1 for each &aHeart Container&r consumed."
-				""
-				"&aHeart Container&r can be obtained by completing great achievements."
-			]
-			icon: "paraglider:heart_container"
-			id: "68253772F8C54B87"
-			subtitle: "Complete great achievements and get maximum health."
-			tasks: [
-				{
-					advancement: "minecraft:husbandry/balanced_diet"
-					criterion: ""
-					id: "37D6D0BA1115813D"
-					type: "advancement"
-				}
-				{
-					advancement: "botania:main/gaia_guardian_kill"
-					criterion: ""
-					id: "6164F87ADB534FD5"
-					type: "advancement"
-				}
-				{
-					advancement: "lost_aether_content:platinum_dungeon"
-					criterion: ""
-					id: "0837F21D4FB404FC"
-					type: "advancement"
-				}
-				{
-					advancement: "betterdeserttemples:temple_clear"
-					criterion: ""
-					id: "3BB3237F4D4581CC"
-					type: "advancement"
-				}
-				{
-					advancement: "aquamirae:adventure/obtain_frozen_key"
-					criterion: ""
-					id: "2EFC8D3074CC153B"
-					type: "advancement"
-				}
-				{
-					advancement: "rats:rat_upgrade_demon"
-					criterion: ""
-					id: "77DA9206B5326EF1"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:nether/summon_wither"
-					criterion: ""
-					id: "087EB4953A1D284E"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:adventure/hero_of_the_village"
-					criterion: ""
-					id: "38F187C1F720BFD6"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:end/kill_dragon"
-					criterion: ""
-					id: "7480F91DE62108D4"
-					type: "advancement"
-				}
-				{
-					advancement: "ars_nouveau:wilden_tribute"
-					criterion: ""
-					id: "29AA81EF04A9A60B"
-					type: "advancement"
-				}
-			]
-			title: "Increase health"
-			x: 8.5d
-			y: -4.5d
-		}
-		{
 			icon: "minecraft:campfire"
 			id: "55389CA5CD4BFEBC"
 			subtitle: "Campfires keep monsters away."
@@ -748,8 +673,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -4.5d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -771,8 +696,8 @@
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -795,8 +720,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: -5.5d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -817,8 +742,8 @@
 				type: "item"
 			}]
 			title: "Postal system"
-			x: 2.5d
-			y: -3.5d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			id: "6C0DBEBFF21FC785"
@@ -835,7 +760,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
 			id: "48FD94D78210BDF4"
@@ -845,8 +770,8 @@
 				item: "ecologics:sandcastle"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			description: ["Building wands are great for early game &6vein mining&r. Open the UI with 'Y' and add tools to the wand's inventory."]
@@ -865,7 +790,7 @@
 				type: "item"
 			}]
 			title: "Building Wands"
-			x: 7.5d
+			x: 6.5d
 			y: -5.5d
 		}
 		{
@@ -884,14 +809,14 @@
 				type: "item"
 			}]
 			title: "Gold Gavel"
-			x: 8.5d
+			x: 9.5d
 			y: -5.5d
 		}
 		{
 			description: [
 				"Welcome to Beyond the Horizon!"
 				""
-				"We want you to shape your own &6adventure&r and therefore we haven't set a structured quest path. This quest book serves only as a &6guide&r. Through mods and customizations, we have prioritized &6exploration&r. "
+				"We want you to shape your own &6adventure&r and therefore there is no structured quest path. This quest book serves only as a &6guide&r and &eoffers no rewards&r."
 				""
 				"We've added an &6economy&r, revamped the &6food system&r, and added many different modes of &6transportation&r.  Check out the different chapters in this quest book to learn more."
 				""
@@ -928,8 +853,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: -2.5d
+			x: 10.5d
+			y: -1.5d
 		}
 		{
 			description: ["Very useful if you prefer a smaller dragon."]
@@ -940,42 +865,8 @@
 				item: "minecraft:poisonous_potato"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
-		}
-		{
-			icon: "wardrobe:lantern_on_a_stick"
-			id: "058E10BBDE57FAA3"
-			subtitle: "Lanterns can be equipped in curios slots."
-			tasks: [
-				{
-					id: "11F59529A2E34461"
-					item: "wardrobe:lantern_on_a_stick"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7273FA0FB13E385E"
-					item: "wardrobe:soul_lantern_on_a_stick"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0F8F1928F14C0EC4"
-					item: "minecraft:lantern"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "3D3B7031DA7C34CB"
-					item: "minecraft:soul_lantern"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Wearable Lanterns"
-			x: 6.5d
-			y: -2.5d
+			x: 10.5d
+			y: -3.0d
 		}
 	]
 	title: "Tips and Hints"

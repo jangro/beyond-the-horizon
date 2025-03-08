@@ -57,7 +57,7 @@
 		}
 		{
 			id: "51AEDA51AC0D8F9B"
-			subtitle: "Human-powered primitive dual seater. Trusty, yet not the fastest and consumes hunger quickly. Needs a good initial push to get the rotor spinning."
+			subtitle: "Human-powered primitive dual seater. Trusty and easy to maneuver, yet not the fastest. Needs a good initial push to get the rotor spinning."
 			tasks: [{
 				id: "07EA7B8F8DAF0E36"
 				item: "immersive_aircraft:gyrodyne"
@@ -114,7 +114,7 @@
 		}
 		{
 			id: "092E550A6E2D1783"
-			subtitle: "Defeat the Ender Dragon to obtain its egg. Convert other dragon eggs by surrounding them with Dragon's Breath."
+			subtitle: "Defeat the Ender Dragon to obtain its egg. Convert other breeds of egg to End eggs by surrounding them with Dragon's Breath."
 			tasks: [{
 				id: "2C53D1AF3E471066"
 				item: {
@@ -266,10 +266,10 @@
 				"During this time, ensure the &aDragon Egg&r is safe from any disturbances."
 				""
 				"After hatching, it is crucial to tame the &eDragon&r by feeding it &aFish&r."
-				"The longer you take to tame the &eDragon&r after it hatches, the more &aFish&r it will require before it's tamed."
+				"Each &aFish&r fed to the &eDragon&r has a &l20% chance&r to tame it."
 				"&eTamed Dragons&r will obey commands and defend you against hostile mobs."
 				""
-				"To ride a &eDragon&r, use a &aSaddle&r on it."
+				"To ride a grown &eDragon&r, use a &aSaddle&r on it."
 			]
 			icon: "minecraft:cod"
 			id: "10C6EAD321E84667"
@@ -645,7 +645,7 @@
 		{
 			dependencies: ["3A643C9F794E6B0C"]
 			id: "5C9B6A9DB8F72845"
-			subtitle: "There is currently no precise information about this aircraft."
+			subtitle: "Powerful biplane with two seats."
 			tasks: [{
 				id: "2FD95A814FF75B6A"
 				item: "man_of_many_planes:scarlet_biplane"
@@ -657,7 +657,7 @@
 		{
 			dependencies: ["3A643C9F794E6B0C"]
 			id: "5ED3C714622B8FB6"
-			subtitle: "There is currently no precise information about this aircraft."
+			subtitle: "Cheaper alternative to the Scarlet Biplane. Two seats, but not as powerful."
 			tasks: [{
 				id: "46B58D998244C0CD"
 				item: "man_of_many_planes:economy_plane"
@@ -670,7 +670,7 @@
 			description: [
 				"To equip a &aBackpack&r, put in a back slot or keep it in your inventory."
 				""
-				"The &aBackpack&r can be opened using &6B&r key."
+				"The &aBackpack&r can be opened using the &6B&r key."
 			]
 			id: "080AA50EB030E608"
 			subtitle: "Backpacks will help you on long journeys."
@@ -1001,7 +1001,7 @@
 		{
 			id: "04CEF776DC41C8A7"
 			shape: "diamond"
-			subtitle: "No information about this eye."
+			subtitle: "Has a small chance of appearing when enchanting items."
 			tasks: [{
 				id: "00F474FD2D7FDBDF"
 				item: {

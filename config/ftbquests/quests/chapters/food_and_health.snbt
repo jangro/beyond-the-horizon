@@ -30,9 +30,8 @@
 				""
 				"The 3 base hearts can be increased by consuming &6Heart Containers&r or equipping items like &6Ring of Odin&r or &6Crystal Heart&r."
 			]
-			icon: "paraglider:heart_container"
+			icon: "farmersdelight:smoked_ham"
 			id: "21B1064937E0B4DC"
-			shape: "heart"
 			size: 2.0d
 			subtitle: "Click to read more."
 			tasks: [{
@@ -41,7 +40,7 @@
 			}]
 			title: "Food and Health"
 			x: 0.0d
-			y: 0.3392857142857153d
+			y: -3.0d
 		}
 		{
 			icon: "minecraft:bread"
@@ -235,6 +234,89 @@
 			}]
 			x: -1.5d
 			y: -1.5d
+		}
+		{
+			description: [
+				"Increases your maximum hearts by 1 for each &aHeart Container&r consumed."
+				""
+				"&aHeart Container&r can be obtained by completing great achievements."
+			]
+			icon: "paraglider:heart_container"
+			id: "68253772F8C54B87"
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Complete great achievements and get maximum health."
+			tasks: [
+				{
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+					id: "37D6D0BA1115813D"
+					type: "advancement"
+				}
+				{
+					advancement: "botania:main/gaia_guardian_kill"
+					criterion: ""
+					id: "6164F87ADB534FD5"
+					type: "advancement"
+				}
+				{
+					advancement: "lost_aether_content:platinum_dungeon"
+					criterion: ""
+					id: "0837F21D4FB404FC"
+					type: "advancement"
+				}
+				{
+					advancement: "betterdeserttemples:temple_clear"
+					criterion: ""
+					id: "3BB3237F4D4581CC"
+					type: "advancement"
+				}
+				{
+					advancement: "aquamirae:adventure/obtain_frozen_key"
+					criterion: ""
+					id: "2EFC8D3074CC153B"
+					type: "advancement"
+				}
+				{
+					advancement: "rats:rat_upgrade_demon"
+					criterion: ""
+					id: "77DA9206B5326EF1"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:nether/summon_wither"
+					criterion: ""
+					id: "087EB4953A1D284E"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:husbandry/balanced_diet"
+					criterion: ""
+					id: "38F187C1F720BFD6"
+					type: "advancement"
+				}
+				{
+					advancement: "minecraft:end/kill_dragon"
+					criterion: ""
+					id: "7480F91DE62108D4"
+					type: "advancement"
+				}
+				{
+					advancement: "ars_nouveau:wilden_tribute"
+					criterion: ""
+					id: "29AA81EF04A9A60B"
+					type: "advancement"
+				}
+				{
+					advancement: "bth:exploration/plushies"
+					criterion: ""
+					id: "49C6D320E4BA7EFE"
+					type: "advancement"
+				}
+			]
+			title: "Increase health"
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Food and Health"

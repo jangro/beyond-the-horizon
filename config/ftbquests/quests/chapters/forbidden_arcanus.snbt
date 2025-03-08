@@ -709,7 +709,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["Use by right clicking on it to get 91 Experience points, or save them to combine with Stellarite Piece to create Eternal Stella."]
+			description: ["Use by right clicking to get 91 experience points, or use them to make Eternal Stella."]
 			id: "1F197935B7B0C1CA"
 			subtitle: "Gives experience"
 			tasks: [{
@@ -740,7 +740,7 @@
 		{
 			description: [
 				"When using it, it grants you 5 minutes of creative flight."
-				"Also turns off fall damage"
+				"Also makes you immune to fall damage."
 			]
 			id: "6A933348554ACB11"
 			subtitle: "Grants temporary flight"
@@ -774,7 +774,7 @@
 				""
 				"It will attract items and small entities like Arrows or Experience Orbs and delete them."
 				""
-				"Once it absorbed enough experience points, it will throw out a Xpetrified Orb."
+				"Once it has absorbed enough experience points, it will drop an Xpetrified Orb."
 			]
 			id: "51009DE4347AB4B9"
 			tasks: [{
@@ -1180,10 +1180,7 @@
 			description: [
 				"Obtained from soul sand using a soul extractor."
 				""
-				"In your world, you may occasionally run across the path of a Lost Soul."
-				"These poor little fellows got lost and now wander aimlessly through the world."
-				"They are pretty adorable and get easily scared."
-				"However, if you want you can catch them with your Soul Extractor. "
+				"In your world, you may occasionally run across the path of a Lost Soul. They are harmless and can be captured with a Soul Extractor."
 				""
 				"&aEnchanted Soul&r gives 10 times more souls."
 			]
@@ -1439,7 +1436,7 @@
 			icon: "forbidden_arcanus:clibano_core"
 			id: "71B6216F69B2F403"
 			shape: "rsquare"
-			subtitle: "Can melt 2 items at the same time"
+			subtitle: "Can smelt 2 items at the same time"
 			tasks: [
 				{
 					id: "653BA0F37DFE2676"
