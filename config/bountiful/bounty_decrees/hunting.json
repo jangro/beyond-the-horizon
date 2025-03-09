@@ -1,10 +1,9 @@
 {
-    "name": "Hunting",
-	"objectives": [
-		"hunting_objs"
-	],
-	"rewards": [
-		"bth_rews"
-    ]
+  "name": "Hunting",
+  "objectives": [
+    "hunting_objs"
+  ],
+  "rewards": [
+    "bth_rews"
+  ]
 }
-	
