@@ -10,9 +10,10 @@ All notable changes to this project will be documented in this file.
 - Bounty Boards with two custom decrees, photography and hunting
 - Bounty Hunter quest page
 - Dragon nesting grounds in the Haze Mountain biome
-- Make lanters wearable in curios slots
+- Make lanters wearable in curios slots and fix dynamic lighting for lantern on a stick
 
 - Mods
+  - oculus-flywheel-compat-forge1.20.1+1.1.4
   - Bountiful-6.0.4+1.20.1-forge
   - defaultoptions-forge-1.20-18.0.1
   - dynamiclightsreforged-1.20.1_v1.6.0
@@ -20,6 +21,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Balance power conversion rates between FE, SU and compressed air
 - Fix a bug where pre-set default options weren't applied on first launch
 - Make bamboo spikes kills count as player kills
 - Reduce FOV effect scale to 60%
