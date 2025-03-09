@@ -92,23 +92,23 @@ hash = "2d86c2908b45367e8a0d11b4c606a81cd9b270a61cfed0204c9a304ea355657c"
 
 [[files]]
 file = "config/bountiful/bounty_decrees/hunting.json"
-hash = "bd37c327b2f633e482a41a784574d2626087932ac3f4bfd0ac0ae0a7fc56c699"
+hash = "a53ae01a1c57fda0473865e38beb7a0c5e8e686debf90fbe105712b44838f434"
 
 [[files]]
 file = "config/bountiful/bounty_decrees/photography.json"
-hash = "ad35f041eb93c9117b2bc3be78b12114ec4e65f2723dd5baca11ef5abf81edef"
+hash = "dc8b37d1cf0f6b67d0bf82ffd67492a3d4890641495a1c933416f791751ad60b"
 
 [[files]]
 file = "config/bountiful/bounty_pools/bth_rews.json"
-hash = "3c31dc5183a3389f0a8543521d2aa95401808fda67df0cd9b4541c286755c00d"
+hash = "12a3f984558f23b3ccf5ca3f3fbccdaa3c6b382ac44060bf1eb7567b1c389ce7"
 
 [[files]]
 file = "config/bountiful/bounty_pools/hunting_objs.json"
-hash = "001feacb3fe20a9fbe1b0cdf01494d9aabfc3769226d5deecd0b9e694c6dc529"
+hash = "66ae837ec792d35a9a782fb8c5db607176969e22ea9d957227d76957b5a043cd"
 
 [[files]]
 file = "config/bountiful/bounty_pools/photography_objs.json"
-hash = "6b5b5dbdcfe65132f654e4b97c8dd7c6ef5a99db7b023f9d283a70834c52971c"
+hash = "959bb678825cbd172e72fd80937213d5d525f6278cd1bc9a4f974e7f16c02e06"
 
 [[files]]
 file = "config/bth.json"
@@ -125,6 +125,10 @@ hash = "a910f761a79f6f592f60b9aaae702b9f8c8244a61cb596dacaab544eb658678c"
 [[files]]
 file = "config/create_connected-common.toml"
 hash = "b69d9e2e150fff2484fc355d14fd8c700231d85821cc5cf0248b7530ce3e5702"
+
+[[files]]
+file = "config/createaddition-common.toml"
+hash = "1d28b40d466308be422d511bcd662b26807a9616144055591ccabb53b42fad92"
 
 [[files]]
 file = "config/cumulus_menus-client.toml"
@@ -320,75 +324,75 @@ hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "6fb7045cb0a72154f5a0a9dab2220db07ee8a611e54307935face7b333195466"
+hash = "4199bbca1f56eaf9739ae5aa5442cb3fa23dd271b572290505753d664f46dfbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "529416a1a677a5a53fc73c05aad911ec73be8d9b98c64b7610f726dc3340d9b1"
+hash = "f146a5518823802832f3e04e0889a90a745cff341ed363705f91c703309cf332"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_hunter.snbt"
-hash = "d5231d0fe7dda853322d6f3815be237923ccabcbc051ca50204ee37e783c5467"
+hash = "d385f0cf28b25dfbf23fd232fc94e07d1cdbc987ac79275dcb388ecf55b449cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dimensional_master.snbt"
-hash = "4c1fbb2cc0fbe8a23c1984c5b439a90906fd731440d80d39afed884a24235a24"
+hash = "4709f9e10041e11cd36fd1bb870885ee0bdbd59b7855f2137f5a431ea5da578a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "10b4e244bb8417f13f0e3356917442e86d3b59fb1b287fb6af72718f86e9b78e"
+hash = "18bfb85e85d1770655aaff038bf22dba10d3ffcbe40e7421f6d9a1bada9045a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
-hash = "8a4b95ca7df24059bb65238996a5c8c9b3c33b6d87538c276dc8eb93a465156f"
+hash = "d069cf6b5d9ab2753352d308951c1d087c6a80a66f96531d1578ff6e0e86c89c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_health.snbt"
-hash = "66a29f52f5ac92b2abd121e7ebbd10d526d1c279ffd1c25ab634448aa4da226a"
+hash = "5bf130cf67be5e6e7bb8a78dfca7539270432160dfd7a0d19b83e1a67ce0b92b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "920834fa7fe65365dac1371fea633f1d66e1c294107eac13c64d4c057624c409"
+hash = "c60aba086db2d4d125d233035cddf255985fc0291e442925b01a0f6aa5cc397f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/galosphere.snbt"
-hash = "0cde2cf4208d214ca2548b524a0b27978ee0783ad1c1f6abbf88ccece9b92a73"
+hash = "4b7d104d4b4bd84b526395ae73da49a1906f2ade35701c27182e42a83daeb0df"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gotta_snap_em_all.snbt"
-hash = "b8ecdfb396ae82d709b927a862b952f1111c0f84c51d9e30b277fbdd080486b9"
+hash = "57b2114b828550933ccb4b575696de72af5769b297db8f63301d4361d4e3444f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "5cb49624c0e5791d33faf240bb8da3e5a38df272b022456ede3c538e2fdc59c8"
+hash = "84da8b462b24e4245c9e5edbe7dad8a4df72d551110eb559baee5e3da7476f67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "1f980a0ec01a6a0975c1510f5804f383189f76ec80b83ddf097ca34f6eae3882"
+hash = "263575fe9ea308a4d2e191b8fc20fd4d188f78a9a8dc4c6817b8e03dabf03d1f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/super_food.snbt"
-hash = "44b705479112e39ad6affc4fac4ffa0583b4b7f69b01243370655f9d650bb7cd"
+hash = "2b6bae9fc8c122e63c3b7db17cc363908040e4e0a6e77df17eae0d65e4e9d4c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
-hash = "12a863652502845428d4f9b173319dc8c883721b6be4089b3820705f868c1d9e"
+hash = "ec89bbc2b09e61657643546e41f996c8a97b0da04a4ba86a6efd3fe62c4892fc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_graveyard.snbt"
-hash = "365a2e390131ee972c4bec9c24d89002472b181acafb1f2304c7b105c7f1ec25"
+hash = "0609fd92dc19b9870dad219d22d4c0b1e6fc510d47e5377db0c7b5fef1d6f59a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nether.snbt"
-hash = "28f2e4ce2ab47c2e390cd52e711b913ecc0b787e6c382c2824eb84601e1c6503"
+hash = "4dccb0b4bb5e1334f8097470fe6b44007da416e57aab3c3325d90b33f97fc856"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "0446d59fe1a1d8908299555aa265371953f7a76b11330a932a9b54bdd3608ad7"
+hash = "0ff35439729142faf7d4a6072b971a12f71316a490d98c6a7ede68c17f0db0b9"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "3a67f29cdd1b7fc23fa69ba1aefe296c49a112f9e29305df2f47d488a4b7bada"
+hash = "b477386c54b32b4494869fbc14361d0e83b549f81e465e9062be987b4dd2b46a"
 
 [[files]]
 file = "config/globalgamerules-common.toml"
@@ -495,6 +499,10 @@ file = "config/phantasm.json"
 hash = "365567bdcb451a356eb55489e81d6fdb036c41a34f7b2e13bba515d7da0864c9"
 
 [[files]]
+file = "config/pneumaticcraft-common.toml"
+hash = "22ea597dbc277dae56aff9772b40ebd01d5210dc525cc16b79e3ab99d4bf8c08"
+
+[[files]]
 file = "config/presencefootsteps/userconfig.json"
 hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
 
@@ -512,7 +520,7 @@ hash = "7ed2af0e3aaa243326d39fe54c4baa18d21d56f5dd73ec833047dc2eeedac11b"
 
 [[files]]
 file = "config/serverconfigupdater-common.toml"
-hash = "d20cb0acb2829c86a01af8f5613d94512bff5d008011c280fbd52a68829a2ad3"
+hash = "ce6a3e753d89a97758a938f1be1c9362f877da5dba816833382797bf9d24b4f2"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
@@ -587,6 +595,10 @@ file = "defaultconfigs/aether-server.toml"
 hash = "de16197571e821d228a8bd30cec2ef9d261dd67a6c3c4c694f8b38d7ba00de59"
 
 [[files]]
+file = "defaultconfigs/compressedcreativity-server.toml"
+hash = "54a23dc8279341f249395898d6fd318cb41bcf9c843c100da1c1ca8129462b67"
+
+[[files]]
 file = "defaultconfigs/create-server.toml"
 hash = "7f55ed126069f5fc0cb850f6c3a67068c8d09297d8819d4b0bc5a920e9f23ab1"
 
@@ -652,63 +664,63 @@ hash = "3d728a9fa2f147e3dccfa8d80765b3cd0f5be141f8f193c8aa80e0300e2c1cd7"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_aerwhale.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "4cab1ccaa0eed81acbb613013a9d99dcf82567caed5d70501df70209ed032cbf"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_behemoth.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "04afccabd2b83aad6d98a94c3685e3e44360ed4e211cc384c51b23b98a4d2288"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_bone_serpent.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "384fb43f360a1034ee15c9d3c28608bcff6a9558a1c2a48990b316f7536d5476"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_farseer.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "2217c348a3688dbb9938ef3cdf255c2c12f88771a8f44b4a674d8dbdf93abea3"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_feral_ratlantean.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "8f4ea9a917800d42680c3251addabe19c6cf7134c5c91f2b86c3f9632bb7285c"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_gum_worm.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "137cac35aea3e26a88b8d36bfbdd8bb393b4d9b26bb5ddba86e23b7ece1f3885"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_mimicube.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "90d88cab2dba39a5e3217b69d0c084f94f4ec2886eef4211a63f29e50dec26b7"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_murmur.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "79a012ee6c329b8026610f5b078b706dca1e89f13ea52cd53318c61e25a1ea2d"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_enderman.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "f061af446ed2e6dba5ef6a7e5757afbac78aa58b20261c9639f7eb319a42428e"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_skeleton.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "5d78181420a03811a721b8bb125d26925c7b4af88baecd64c8347d603eecbcff"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_zombie.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "6a55c9a01546f9c729ec82477f46860b4f0d4b618892881fdfb57909dc31fbfe"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_rat.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "3ccd1d4533bb92e607cbc1332b7fed1d79f2079ed3e57da120dd3129c0c13ecf"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_tiger.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "6c3d04331560b8b54972b21b6dc7e6eb98035e9492b7c8be2ff320651a9af7b4"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_void_worm.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "61dfa7f7f4208b6c4aac509b3829524c8b618a241393ac5b0d713f627df62665"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_warped_mosco.png"
-hash = "77e5f5f1e2169518936cab7ebf64f55b86a4c9795f448403f93cb12bd99a9837"
+hash = "c532cc4623eca139a4a0a8ca6136637478e07d3a3bc1a8b28682fcb8d4ff40a8"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/coconut_maul.png"
@@ -3900,7 +3912,7 @@ hash = "229042054a2fab33e60499a1e4b005726c4b04c1575de5a8a788d5a3ea34f83e"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"
-hash = "93502fc88577147d2e149f833730a1fc12f3f77a63b88742411c0ec380068dfb"
+hash = "b20f35222abd5e225d03648fe92a6b762daad783da1f4cde3862195225e8759a"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/mobs.js"
