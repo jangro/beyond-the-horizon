@@ -113,7 +113,7 @@
                 "type": "dragonmounts:dragon",
                 "maxCount": 1,
                 "minCount": 1,
-                "weight": 100
+                "weight": 3000
             }
         ],
         "misc": [],

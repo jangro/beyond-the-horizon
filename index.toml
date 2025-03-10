@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "1529bd52cabcd1926fe71ef5bea4ea6a8961ad142a62088661d1d3521c1ff863"
+hash = "d8a52ba5cc239efdff34bcc2e8b3cb1c582ea0c80be5ec10899abf9b31a4a4cf"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
@@ -408,7 +408,7 @@ hash = "db354a6357bb12b9b773b8432f00279634912721dfc29ba95c08b6d21013676f"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "e8c684808a7f1ea7f51bcc95dd7fc197cca97002b16e0333fc33843c09486681"
+hash = "5326659a9802f47c08f84f50a829df9ca0e9ffba7d14b11fe4870c732b28f9d8"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"
@@ -3736,7 +3736,7 @@ hash = "b127172a14ab049991989186d1984599158de70aab61a7424519108dbced84f1"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/biome/haze_mountain.json"
-hash = "7c274ab795f5a54c2723a4743900bc47e7644ccb92b1bc56bd59681ab03914bd"
+hash = "689e888eaec0a3478ab72681977ea3f9b59b2e27f3991cec20dce878b981b051"
 
 [[files]]
 file = "kubejs/data/terralith/worldgen/biome/lavender_forest.json"

@@ -1,5 +1,10 @@
 [
   {
+    "biome": "terralith:haze_mountain",
+    "hostile": true,
+    "result": "deny"
+  },
+  {
     "mob": "alexsmobs:blue_jay",
     "mincount": {
       "amount": 5,
