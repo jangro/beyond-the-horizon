@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Detect OS and set the appropriate command
+if command -v packwiz >/dev/null 2>&1; then
+    PACKWIZ_CMD="packwiz"
+elif command -v packwiz.exe >/dev/null 2>&1; then
+    PACKWIZ_CMD="packwiz.exe"
+else
+    echo "WARNING: packwiz not found. Ignoring refresh."
+    exit 0
+fi
+
+# Run packwiz refresh
+echo "Running packwiz refresh..."
+$PACKWIZ_CMD refresh
+
+# Check for changes
+if git diff --quiet; then
+    echo "No changes detected. Commit proceeds."
+else
+    echo "Changes detected after packwiz refresh. Staging files..."
+    git add pack.toml index.toml
+fi

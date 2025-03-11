@@ -2,6 +2,7 @@
 # See https://git-scm.com/docs/gitignore
 
 /.git/
+/.hooks/
 /.probe/
 /.vs/
 /.vscode/
