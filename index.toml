@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "d8a52ba5cc239efdff34bcc2e8b3cb1c582ea0c80be5ec10899abf9b31a4a4cf"
+hash = "7b4080b1906561340fc3c296a992feab5ecc356b47b6755a848a1fd837cc592f"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
@@ -72,7 +72,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "bba1769ef0f38449d348b17e943050605db80658f250b6682e14b829f0b9929a"
+hash = "e5bedcc4466c1da56207cbf904bd1d9e062c241a2f47211cb4492cd1d3c5a1df"
 
 [[files]]
 file = "config/betterdays-common.toml"

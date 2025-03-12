@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [1.1] - 2025-03-12
 
 ### Added
 
@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 - Bounty Hunter quest page
 - Dragon nesting grounds in the Haze Mountain biome
 - Make lanters wearable in curios slots and fix dynamic lighting for lantern on a stick
+- Ore distribution graphs for all ores and dimensions
 
 - Mods
   - oculus-flywheel-compat-forge1.20.1+1.1.4
@@ -21,6 +22,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Pet shop owner no longer trades emeralds for tiny coins
 - Balance power conversion rates between FE, SU and compressed air
 - Fix a bug where pre-set default options weren't applied on first launch
 - Make bamboo spikes kills count as player kills
