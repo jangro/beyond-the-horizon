@@ -13,6 +13,7 @@
 /LICENSE
 /README.md
 /UPDATING.md
+/CHANGELOG.md
 /overrides
 
 # Exclude build scripts + executables.
