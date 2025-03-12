@@ -4099,10 +4099,6 @@ file = "kubejs/startup_scripts/src/worldgen.js"
 hash = "c1479ad2f3e7aa95d6f368d963aeacdc6fa318de6e29ec7c64c76118451f2aa0"
 
 [[files]]
-file = "mods/DistantHorizons-forge-2.3.0-b-dev-1.20.1.jar"
-hash = "41ade2849e3cd48504d7716d5b31c591e361e60fc7ba8e6014fd9db9ab9ebf8f"
-
-[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "b0c61413cc2dd7fca52014fa070c40aa478dc9007dc7a94330b97f1be7827bd5"
 metafile = true
@@ -4580,6 +4576,11 @@ metafile = true
 [[files]]
 file = "mods/default-options.pw.toml"
 hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "78e86b01d4f72cda8d12660151c101b02f0ef1dbcfc5d73f6c8dba10fbd482ee"
 metafile = true
 
 [[files]]
