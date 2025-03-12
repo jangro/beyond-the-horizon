@@ -163,6 +163,14 @@ file = "config/fancymenu/assets/bth-logo-1640x820.png"
 hash = "d9cbcb3571fef2344874a4060f689b9cd72a01f5f2f943379ca9109c2e9eb46f"
 
 [[files]]
+file = "config/fancymenu/assets/button-112x28-default.png"
+hash = "b860073b01f56eb686e29956e15a8626254bef2b30f93e3d8fa5e5f2831402b5"
+
+[[files]]
+file = "config/fancymenu/assets/button-112x28-hover.png"
+hash = "273a81b42625897475744265120d3e4b065c445a2bc18b4fc1e60adbba0e7c36"
+
+[[files]]
 file = "config/fancymenu/assets/button-112x32-default.png"
 hash = "4445a33c857dca673b60450011debe3868a2030be80fd786722e6335dd41988f"
 
@@ -181,6 +189,22 @@ hash = "9dd7fd27f028c12bab07d7094dcd64a1015c5e20c9fce81b59786178e0c89aa5"
 [[files]]
 file = "config/fancymenu/assets/button-128x128-hover.png"
 hash = "2c0eed5ee768f999213d6c46d5198b3ad583048fc71b5d38225a0e0b5cd1340b"
+
+[[files]]
+file = "config/fancymenu/assets/button-160x28-default.png"
+hash = "0439bc9d0a1d7b8973c5957875be61ed50639a83b9b404cee17d2cadbb71e5cf"
+
+[[files]]
+file = "config/fancymenu/assets/button-160x28-hover.png"
+hash = "cb8f8d703fb8c14829e35737165067f9b72dd2b8fc040a7b919c58b911c0d470"
+
+[[files]]
+file = "config/fancymenu/assets/button-160x32-default.png"
+hash = "319aabc0906b6048b6a35165838b96bc72f89f8c06c14e06037e8f62f327834b"
+
+[[files]]
+file = "config/fancymenu/assets/button-160x32-hover.png"
+hash = "21e0ef96d9ce73192c3e2dc7738d5290f40d4f63a94384dd4f44d6291f4b4b32"
 
 [[files]]
 file = "config/fancymenu/assets/button-160x48-default.png"
@@ -260,7 +284,7 @@ hash = "c51d6e8078b4a4f15b778a3c2a1585e2a23736d6dd16f2555237132cd77c3e08"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c4a2b51e5c14042207729b5860d2cbceae113d9ca2da098e5d78ce5c388e0f83"
+hash = "9d086a18ac48e89fbc213cfb54bda29b4a3d4fccf3f91b510cb4f61d0b1b1814"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
