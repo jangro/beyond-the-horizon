@@ -209,4 +209,14 @@ MoreJSEvents.updateVillagerOffers((event) => {
       replaceItem(offer, 'farmersdelight:rope', 'supplementaries:rope');
     });
   }
+
+  // Replace pet shop owner's emerald to tiny coins trade with quantum catcher.
+  if (event.isProfession('rats:pet_shop_owner')) {
+    event.getOffers().forEach((offer) => {
+      if (offer.getOutput().getId() == 'rats:tiny_coin') {
+        offer.setFirstInput(Item.of('minecraft:emerald', 32));
+        offer.setOutput(Item.of('forbidden_arcanus:quantum_catcher', 1));
+      }
+    });
+  }
 });

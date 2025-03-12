@@ -3928,7 +3928,7 @@ hash = "c013b0fdbbd4d5b32fdeb6bbe5df162be6923f9b01695d9756e5b601e0aa815d"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
-hash = "8b7b404edb07843cd06805d41f9639328dc91d791d931f80421cd1bda9b629d1"
+hash = "d9b64d7c639cfdcf71fcbd5bf09113cfc76c50017ab403bfe4af81fd17843246"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
