@@ -300,4 +300,5 @@ ServerEvents.recipes(event => {
 
   // Changes in specific recipes.
   replaceInputID('minecraft:copper_ingot', 'minecraft:copper_block', ['minecraft:copper_block', 'minecraft:waxed_copper_block']);
+  replaceInputID('nethersdelight:blackstone_blast_furnace', 'nethersdelight:blackstone_furnace', 'quark:blackstone_furnace');
 });
