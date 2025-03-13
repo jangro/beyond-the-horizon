@@ -1,6 +1,6 @@
 {
   "content": {
-    "bth_rew_coper_coin_common": {
+    "bth_rew_copper_coin_common": {
       "type": "item",
       "rarity": "COMMON",
       "content": "createdeco:copper_coin",
@@ -10,7 +10,7 @@
       },
       "unitWorth": 10
     },
-    "bth_rew_coper_coin_uncommon": {
+    "bth_rew_copper_coin_uncommon": {
       "type": "item",
       "rarity": "UNCOMMON",
       "content": "createdeco:copper_coin",
@@ -20,7 +20,7 @@
       },
       "unitWorth": 10
     },
-    "bth_rew_coper_coin_rare": {
+    "bth_rew_copper_coin_rare": {
       "type": "item",
       "rarity": "RARE",
       "content": "createdeco:copper_coin",
@@ -30,7 +30,7 @@
       },
       "unitWorth": 10
     },
-    "bth_rew_coper_coin_epic": {
+    "bth_rew_copper_coin_epic": {
       "type": "item",
       "rarity": "EPIC",
       "content": "createdeco:copper_coin",
@@ -40,7 +40,7 @@
       },
       "unitWorth": 10
     },
-    "bth_rew_coper_coin_legendary": {
+    "bth_rew_copper_coin_legendary": {
       "type": "item",
       "rarity": "LEGENDARY",
       "content": "createdeco:copper_coin",
