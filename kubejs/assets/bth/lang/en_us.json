@@ -147,6 +147,8 @@
   "bth.chat.no_bounty": "You don't have an active bounty in your inventory for capturing this entity.",
 
   "bth.comment.bountiful": "-----Bountiful-----",
+  "bountiful.decree.hunting.name": "Hunting",
+  "bountiful.decree.photography.name": "Photography",
   "bountiful.entry.photography_obj_ancient_city_warden": "Take a selfie with a Warden in an Ancient City in The Overworld.",
   "bountiful.entry.photography_obj_ancient_mines": "Take a selfie in an Ancient Mines in The Overworld.",
   "bountiful.entry.photography_obj_dutchrat_ship": "Take a selfie in a Dutchrat Ship in Ratlantis.",
