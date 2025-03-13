@@ -193,6 +193,9 @@ ServerEvents.recipes(event => {
   replaceInput('createaddition:zinc_sheet', '#forge:plates/zinc');
   replaceInput('createdeco:zinc_sheet', '#forge:plates/zinc');
 
+  // Propeller Compatibility
+  replaceInput('immersive_aircraft:propeller', 'create:propeller');
+
   // Raw Material Compatibility
   replaceInput('galosphere:raw_silver', '#forge:raw_materials/silver');
   replaceInput('immersiveengineering:raw_silver', '#forge:raw_materials/silver');
@@ -235,8 +238,11 @@ ServerEvents.recipes(event => {
   // Wire Compatibility
   replaceInput('immersiveengineering:wire_copper', '#forge:wires/copper');
 
-  // Propeller Compatibility
-  replaceInput('immersive_aircraft:propeller', 'create:propeller');
+  // Misc Compatibility
+  replaceInput('minecraft:blast_furnace', ['minecraft:blast_furnace', 'nethersdelight:blackstone_blast_furnace']);
+  replaceInput('minecraft:furnace', ['minecraft:furnace', 'quark:blackstone_furnace', 'quark:deepslate_furnace']);
+  replaceInput('minecraft:smoker', ['minecraft:smoker', 'nethersdelight:nether_brick_smoker']);
+  replaceInput('nethersdelight:blackstone_furnace', ['minecraft:furnace', 'quark:blackstone_furnace', 'quark:deepslate_furnace']);
 
   // ----- Output Unification -----
 
