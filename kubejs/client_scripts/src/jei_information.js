@@ -44,13 +44,22 @@ JEIEvents.information(event => {
 
   // Minecraft
 
+  // Bountiful
+  addInfo('bountiful:bountyboard', 'bth.information.bountiful.bountyboard');
+
   // Eccentric Tome
   addInfo('eccentrictome:tome', ['bth.information.eccentrictome.filled_eccentric_tome', 'bth.information.eccentrictome.reverting']);
 
   // Farmer's Delight
   addInfo(['farmersdelight:brown_mushroom_colony', 'farmersdelight:red_mushroom_colony'], 'bth.information.farmersdelight.mushroom_colonies');
 
+  // Rats
+  addInfo('rats:tiny_coin', 'bth.information.rats.tiny_coin');
+
   // Tetra
   addInfo(['minecraft:ancient_debris', 'aether:gravitite_ore', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum', 'rats:oratchalcum_ore'], 'bth.information.tetra.scannable_blocks');
+
+  // Waystones
+  addInfo('waystones:waystone', 'bth.information.waystones.waystone');
 
 });

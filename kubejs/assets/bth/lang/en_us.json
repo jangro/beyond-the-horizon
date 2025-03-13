@@ -254,10 +254,13 @@
 
   "bth.comment.jei_information": "-----JEI Information Entries-----",
   "bth.information.bth.bounty_proof": "To obtain, use a Spectre Snare on a mob while the associated Bounty is in your inventory.",
+  "bth.information.bountiful.bountyboard": "Bounty Boards can't be crafted, but can be found in villages.",
   "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
   "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book.",
   "bth.information.farmersdelight.mushroom_colonies": "Grown by planting mushrooms on Rich Soil.",
+  "bth.information.rats.tiny_coin": "These can be found in many structures. The farther you are from spawn, the more abundant they become.",
   "bth.information.tetra.scannable_blocks": "Can be detected using a Holosphere upgraded with an Eye of Ender.",
+  "bth.information.waystones.waystone": "Waystones can't be crafted, but can be found throughout thet world in villages and ancient towers.",
 
   "bth.comment.maps": "----- Maps -----",
   "filled_map.pyromancer_tower": "Friendly Pyromancer",
