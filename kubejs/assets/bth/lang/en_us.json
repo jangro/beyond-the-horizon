@@ -259,6 +259,7 @@
   "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book.",
   "bth.information.farmersdelight.mushroom_colonies": "Grown by planting mushrooms on Rich Soil.",
   "bth.information.rats.tiny_coin": "These can be found in many structures. The farther you are from spawn, the more abundant they become.",
+  "bth.information.supplementaries.urn": "Found underground. They will drop when mined with Silk Touch (including whatever loot they hold).",
   "bth.information.tetra.scannable_blocks": "Can be detected using a Holosphere upgraded with an Eye of Ender.",
   "bth.information.waystones.waystone": "Waystones can't be crafted, but can be found throughout thet world in villages and ancient towers.",
 

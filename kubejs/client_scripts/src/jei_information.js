@@ -56,6 +56,9 @@ JEIEvents.information(event => {
   // Rats
   addInfo('rats:tiny_coin', 'bth.information.rats.tiny_coin');
 
+  // Supplementaries
+  addInfo('supplementaries:urn', 'bth.information.supplementaries.urn');
+
   // Tetra
   addInfo(['minecraft:ancient_debris', 'aether:gravitite_ore', 'irons_spellbooks:arcane_debris', 'forbidden_arcanus:stella_arcanum', 'rats:oratchalcum_ore'], 'bth.information.tetra.scannable_blocks');
 
