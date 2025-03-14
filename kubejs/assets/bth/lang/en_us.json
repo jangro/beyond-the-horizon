@@ -146,7 +146,8 @@
   "bth.chat.first_start_message": "Welcome to Beyond the Horizon! Press 'J' to open the quest book.",
   "bth.chat.no_bounty": "You don't have an active bounty in your inventory for capturing this entity.",
 
-  "bth.comment.bountiful": "-----Bountiful-----",
+  "bth.comment.bountiful": "-----Bountiful-----",	
+  "bountiful.bounty.turnin": "Fulfill your bounty by right-clicking on a bounty board.",
   "bountiful.decree.hunting.name": "Hunting",
   "bountiful.decree.photography.name": "Photography",
   "bountiful.entry.photography_obj_ancient_city_warden": "Take a selfie with a Warden in an Ancient City in The Overworld.",
