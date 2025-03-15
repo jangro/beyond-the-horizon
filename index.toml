@@ -96,7 +96,7 @@ hash = "dc8b37d1cf0f6b67d0bf82ffd67492a3d4890641495a1c933416f791751ad60b"
 
 [[files]]
 file = "config/bountiful/bounty_pools/bth_rews.json"
-hash = "12a3f984558f23b3ccf5ca3f3fbccdaa3c6b382ac44060bf1eb7567b1c389ce7"
+hash = "70e8a9722e942f0a8ee48f45a4220b52c1c60cf83633d5079dafb828118be9af"
 
 [[files]]
 file = "config/bountiful/bounty_pools/hunting_objs.json"
@@ -652,7 +652,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "833e28d6afba88e68f21215a43df296e32481b703cc2d05647d2ba2c94144838"
+hash = "ad76dc97b83d9956be9ed1cb8e0abd6707bd9e2df991af3548cbab18744587d7"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -804,7 +804,7 @@ hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
 
 [[files]]
 file = "kubejs/client_scripts/src/item_tooltip.js"
-hash = "51b73a6c3f07859a4100c3f8594b504f544fbea5f6d2e05fc7b1d7c5fbca6ccd"
+hash = "d833ff36ac06bef4e7131c4d07f325a238eaea4959788b5177a006f9e3b0c235"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_add_plushies.js"
@@ -820,11 +820,11 @@ hash = "17cfd0246d2cfa37bbab5459d074f7b924a6fd123eb0b128e49016a572a666f0"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_fixes.js"
-hash = "6822fde651a5a761657449768c21b64c9e472e08d17422c5b8ca0932019e15aa"
+hash = "5078b2d71793a316e4a68bc25e19fc2c85170c1067338c8427d1423cab0d8ca1"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_information.js"
-hash = "e76c99a157351ddcd6e124a4575fab265bc0801e86cb874b2f108ee34ba88092"
+hash = "c35f170a8c5d474010c082128f2592374523cf5dfee1a7d67fc2f6e4b31840f7"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_remove_recipes.js"
@@ -4004,11 +4004,11 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "0bb9968bfb19b283539c0f92b35c0975505bcf47cd2507ad851a226bec0d61a0"
+hash = "9c33d6e80d15e8ecbd6dc6a0d14eccd4fd008e599bf9951a02dbc309e42ff731"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "2be957b0a1b3a4ab595fd7b57a3c6c9f1c12d2f633c6faba869779074738f499"
+hash = "3a408f2faea7fbe6727aab13a1022b7d94ae67fb7fb9c2558e45f48e01655e24"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
@@ -4434,7 +4434,7 @@ metafile = true
 
 [[files]]
 file = "mods/clickable-advancements.pw.toml"
-hash = "588807da8d9fcf5b9670a0b9804d8a3c400a4985b23e8aa7368f4e7c6e721f80"
+hash = "e8385c2830e37d2866ae08f047e30c121923352d6dc9d951c5d0d517e28d67f4"
 metafile = true
 
 [[files]]
@@ -4484,7 +4484,7 @@ metafile = true
 
 [[files]]
 file = "mods/configured.pw.toml"
-hash = "c1bdeff356cd2ac164e2c0e6d0ceeda234db9774c2df44fb9f0e71d3960cc3f1"
+hash = "8165f9f7f66ffe4fa7b92ef8f8564cd10f93ec2cf07d6931c442cf91333a1ca3"
 metafile = true
 
 [[files]]
@@ -4599,7 +4599,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "1cb1ed842db59e479dc2b21cf8afb8eeb9ff4577d292e6b51ed8df98e24411d5"
+hash = "bace9ac545c5db24d350a955565157500cdcedc8db6a8e78ff6118d97748eb2a"
 metafile = true
 
 [[files]]
@@ -4634,7 +4634,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
-hash = "7a51af5b6d1ae6174c9ee089b323d6e9d28459d0b962cb86856ce3b23eb39d20"
+hash = "f72bfa782e5e1d0f8c501257b917784d4c1a9b0c5db60d569dadcedde1b7adc9"
 metafile = true
 
 [[files]]
@@ -4824,7 +4824,7 @@ metafile = true
 
 [[files]]
 file = "mods/fusion-connected-textures.pw.toml"
-hash = "be93cee34cdd6dc05c4138c6e17fffc07a2d483f9a51f4a6465dfbd39d5cce3f"
+hash = "652b1469721f16b30e91c3936e56e985714cf68d3687cd0547846e806ce49c68"
 metafile = true
 
 [[files]]
@@ -4959,7 +4959,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris-flywheel-compat.pw.toml"
-hash = "3a0cdf73f5c581d32dddca4665eb95552d6d9bcfa2e771734c7569ff6329b089"
+hash = "5b93a9e6124a2167f648f02e337d1a43b83e8734e3bc9f3a218e52b68d7b3207"
 metafile = true
 
 [[files]]
@@ -4989,12 +4989,12 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
-hash = "11c474b1516d8f2c13fa6086d9cccb2306155ccb67dafe5bdc8e961a890362fc"
+hash = "7609ae004707875b55172b445beb0275331a08254a6ed2b74ffb47afa7203925"
 metafile = true
 
 [[files]]
 file = "mods/just-enough-professions-jep.pw.toml"
-hash = "08a365f0717fbd5561ff746bc6c41185b0c84582a1cd834115b933266328a5ff"
+hash = "a8ae132986a84a025ba6f0dff9c23572a1973636c5889b21a42cd74818ee6ef8"
 metafile = true
 
 [[files]]
@@ -5329,7 +5329,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "4436b25feb03d8d2454071c6b912a197c696934fc84dd92ddf0ae93642cc282c"
+hash = "af5609cb556864d12aa1c3c0441c166aff61e7d567b9d3960159ed4c0a6cff82"
 metafile = true
 
 [[files]]
@@ -5654,7 +5654,7 @@ metafile = true
 
 [[files]]
 file = "mods/villager-names.pw.toml"
-hash = "a7ab5a5f8c4aeae4630c4f1333d27a9e1da37024dcff87323d58f436da9e0b9d"
+hash = "0eaa9a24f687aaeb0741f86be28ba08ac57df2b37183039dd416627069e1572a"
 metafile = true
 
 [[files]]
