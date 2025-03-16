@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
 
   // Minecraft
   event.shapeless('minecraft:yellow_dye', 'forbidden_arcanus:yellow_orchid').id(`${ID_PREFIX}yellow_dye_from_yellow_orchid`);
+  event.shapeless('minecraft:white_dye', 'ribbits:swamp_daisy').id(`${ID_PREFIX}white_dye_from_swamp_daisy`);
 
   // Create
   event.shapeless('create:brass_sheet', ['#forge:ingots/brass', 'immersiveengineering:hammer']).id(`${ID_PREFIX}hammer/brass_sheet`);
