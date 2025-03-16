@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
   event.recipes.create.compacting(Fluid.of('integrateddynamics:liquid_chorus 125'), 'minecraft:popped_chorus_fruit').heated().id(`${ID_PREFIX}compacting/liquid_chorus`);
 
   // Crushing
-  event.recipes.create.crushing([Item.of('rats:plastic_waste').withChance(0.5)], 'rats:garbage_pile').id(`${ID_PREFIX}crushing/plastic_waste_from_garbage_pile`);
+  event.recipes.create.crushing(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}crushing/plastic_waste_from_garbage_pile`);
   event.recipes.create.crushing('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}crushing/powdered_quartz_from_quartz`);
 
   // Filling
@@ -42,6 +42,15 @@ ServerEvents.recipes(event => {
   }).id(`${ID_PREFIX}mechanical_crafting/dungeon_door`);
 
   // Milling
+  event.recipes.create.milling(['2x minecraft:purple_dye', Item.of('minecraft:purple_dye').withChance(0.05)], 'aether:purple_flower').id(`${ID_PREFIX}milling/aether/purple_flower`);
+  event.recipes.create.milling(['2x minecraft:white_dye', Item.of('2x minecraft:light_gray_dye').withChance(0.1)], 'aether:white_flower').id(`${ID_PREFIX}milling/aether/white_flower`);
+  event.recipes.create.milling(['2x minecraft:pink_dye', Item.of('minecraft:magenta_dye').withChance(0.1), Item.of('minecraft:lime_dye').withChance(0.1)], 'buzzier_bees:pink_clover').id(`${ID_PREFIX}milling/buzzier_bees/pink_clover`);
+  event.recipes.create.milling(['2x minecraft:white_dye', Item.of('minecraft:light_gray_dye').withChance(0.1), Item.of('minecraft:lime_dye').withChance(0.1)], 'buzzier_bees:white_clover').id(`${ID_PREFIX}milling/buzzier_bees/white_clover`);
+  event.recipes.create.milling(['2x minecraft:magenta_dye', Item.of('2x minecraft:pink_dye').withChance(0.1)], 'ecologics:azalea_flower').id(`${ID_PREFIX}milling/ecologics/azalea_flower`);
+  event.recipes.create.milling(['2x minecraft:yellow_dye', Item.of('minecraft:yellow_dye').withChance(0.05), Item.of('minecraft:lime_dye').withChance(0.1)], 'forbidden_arcanus:yellow_orchid').id(`${ID_PREFIX}milling/forbidden_arcanus/yellow_orchid`);
+  event.recipes.create.milling(['2x minecraft:white_dye', Item.of('minecraft:light_gray_dye').withChance(0.2), Item.of('minecraft:yellow_dye').withChance(0.05)], 'ribbits:swamp_daisy').id(`${ID_PREFIX}milling/ribbits/swamp_daisy`);
+  
+  event.recipes.create.milling('4x minecraft:string', 'miners_delight:gossypium').id(`${ID_PREFIX}milling/miners_delight/gossypium`);
   event.recipes.create.milling(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}milling/plastic_waste_from_garbage_pile`);
   event.recipes.create.milling('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}milling/powdered_quartz_from_quartz`);
 

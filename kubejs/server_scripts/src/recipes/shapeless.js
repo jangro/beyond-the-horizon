@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
   event.shapeless('storagedrawers:void_upgrade', ['storagedrawers:upgrade_template', 'ars_nouveau:void_prism']).id(`${ID_PREFIX}void_upgrade`);
 
   // Minecraft
+  event.shapeless('minecraft:magenta_dye', 'ecologics:azalea_flower').id(`${ID_PREFIX}magenta_dye_from_azalea_flower`);
   event.shapeless('minecraft:yellow_dye', 'forbidden_arcanus:yellow_orchid').id(`${ID_PREFIX}yellow_dye_from_yellow_orchid`);
   event.shapeless('minecraft:white_dye', 'ribbits:swamp_daisy').id(`${ID_PREFIX}white_dye_from_swamp_daisy`);
 
