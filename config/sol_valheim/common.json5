@@ -9,6 +9,8 @@
 	"respawnGracePeriod": 300,
 	// Extra speed given when your hearts are full (0 to disable)
 	"speedBoost": 0.20000000298023224,
+	// Maximum allowed hearts from food
+	"maxFoodHealth": 100,
 	// Number of hearts to start with
 	"startingHealth": 3,
 	// Number of food slots (range 2-5, default 3)
@@ -19,6 +21,8 @@
 	"drinkSlotFoodEffectivenessBonus": 0.10000000149011612,
 	// Simulate food ticking down during night
 	"passTicksDuringNight": true,
+	// Whether or not food tooltips should show extra effects
+	"displayEffects": true,
 	/*     Food nutrition and effect overrides (Auto Generated if Empty)
 	       - nutrition: Affects Heart Gain & Health Regen
 	       - saturationModifier: Affects Food Duration & Player Speed
@@ -26,8 +30,38 @@
 	       - extraEffects: Extra effects provided by eating the food. Format: { String ID, float duration, int amplifier }
 	*/
 	"foodConfigs": {
-		"minecraft:beetroot_soup": {
+		"minecraft:cooked_porkchop": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"abnormals_delight:chocolate_cake_slice": {
 			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:lingering_potion": {
+			"nutrition": 4,
+			"saturationModifier": 0.75,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:milk_bucket": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bth:pancake": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:bread": {
+			"nutrition": 5,
 			"saturationModifier": 0.6000000238418579,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
@@ -38,99 +72,33 @@
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:spider_eye": {
-			"nutrition": 2,
-			"saturationModifier": 0.800000011920929,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:potato": {
-			"nutrition": 1,
-			"saturationModifier": 0.30000001192092896,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
 		"minecraft:beetroot": {
 			"nutrition": 1,
 			"saturationModifier": 0.6000000238418579,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:porkchop": {
+		"minecraft:carrot": {
 			"nutrition": 3,
-			"saturationModifier": 0.30000001192092896,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:cooked_cod": {
-			"nutrition": 5,
 			"saturationModifier": 0.6000000238418579,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:cooked_chicken": {
-			"nutrition": 6,
-			"saturationModifier": 0.6000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:melon_slice": {
-			"nutrition": 2,
-			"saturationModifier": 0.30000001192092896,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:tropical_fish": {
-			"nutrition": 1,
-			"saturationModifier": 0.10000000149011612,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:cooked_mutton": {
-			"nutrition": 6,
-			"saturationModifier": 0.800000011920929,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:mutton": {
-			"nutrition": 2,
-			"saturationModifier": 0.30000001192092896,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:rabbit_stew": {
-			"nutrition": 10,
-			"saturationModifier": 0.6000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:lingering_potion": {
-			"nutrition": 4,
-			"saturationModifier": 0.75,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:cooked_porkchop": {
+		"minecraft:pumpkin_pie": {
 			"nutrition": 8,
-			"saturationModifier": 0.800000011920929,
+			"saturationModifier": 0.30000001192092896,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:cooked_salmon": {
+		"minecraft:cake": {
 			"nutrition": 6,
-			"saturationModifier": 0.800000011920929,
+			"saturationModifier": 1.0,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:salmon": {
-			"nutrition": 2,
-			"saturationModifier": 0.10000000149011612,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:splash_potion": {
-			"nutrition": 4,
-			"saturationModifier": 0.75,
+		"abnormals_delight:banana_cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
@@ -140,20 +108,68 @@
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:honey_bottle": {
-			"nutrition": 2,
-			"saturationModifier": 0.5,
+		"minecraft:beetroot_soup": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:dried_kelp": {
-			"nutrition": 1,
+		"minecraft:beef": {
+			"nutrition": 3,
 			"saturationModifier": 0.30000001192092896,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:baked_potato": {
+		"farmersdelight:cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_cod": {
 			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:glow_berries": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:suspicious_stew": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_beef": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"abnormals_delight:strawberry_cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:mushroom_stew": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"rats:confit_byaldi": {
+			"nutrition": 20,
+			"saturationModifier": 0.40000003576278687,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_chicken": {
+			"nutrition": 6,
 			"saturationModifier": 0.6000000238418579,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
@@ -164,25 +180,139 @@
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
+		"minecraft:potato": {
+			"nutrition": 1,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:enchanted_golden_apple": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.5,
+			"extraEffects": []
+		},
+		"abnormals_delight:adzuki_cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:melon_slice": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:golden_carrot": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:splash_potion": {
+			"nutrition": 4,
+			"saturationModifier": 0.75,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"rats:potato_knishes": {
+			"nutrition": 20,
+			"saturationModifier": 0.40000003576278687,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"abnormals_delight:mint_cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:honey_bottle": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:potion": {
+			"nutrition": 4,
+			"saturationModifier": 0.75,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:mutton": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:poisonous_potato": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
 		"minecraft:sweet_berries": {
 			"nutrition": 2,
 			"saturationModifier": 0.10000000149011612,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:cooked_beef": {
-			"nutrition": 8,
-			"saturationModifier": 0.800000011920929,
+		"minecraft:pufferfish": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:chicken": {
-			"nutrition": 2,
+		"minecraft:porkchop": {
+			"nutrition": 3,
 			"saturationModifier": 0.30000001192092896,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:pufferfish": {
+		"minecraft:dried_kelp": {
+			"nutrition": 1,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:rabbit_stew": {
+			"nutrition": 10,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:salmon": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_rabbit": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"abnormals_delight:vanilla_cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersrespite:coffee_cake_slice": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:spider_eye": {
+			"nutrition": 2,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:tropical_fish": {
 			"nutrition": 1,
 			"saturationModifier": 0.10000000149011612,
 			"healthRegenModifier": 1.0,
@@ -194,93 +324,21 @@
 			"healthRegenModifier": 1.5,
 			"extraEffects": []
 		},
-		"minecraft:cake": {
-			"nutrition": 10,
-			"saturationModifier": 0.699999988079071,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:enchanted_golden_apple": {
-			"nutrition": 10,
-			"saturationModifier": 1.2000000476837158,
-			"healthRegenModifier": 1.5,
-			"extraEffects": []
-		},
-		"minecraft:pumpkin_pie": {
-			"nutrition": 8,
-			"saturationModifier": 0.30000001192092896,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:glow_berries": {
-			"nutrition": 2,
-			"saturationModifier": 0.10000000149011612,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:golden_carrot": {
+		"minecraft:cooked_mutton": {
 			"nutrition": 6,
-			"saturationModifier": 1.2000000476837158,
+			"saturationModifier": 0.800000011920929,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:poisonous_potato": {
+		"minecraft:chicken": {
 			"nutrition": 2,
 			"saturationModifier": 0.30000001192092896,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:beef": {
-			"nutrition": 3,
-			"saturationModifier": 0.30000001192092896,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:potion": {
-			"nutrition": 4,
-			"saturationModifier": 0.75,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:cookie": {
-			"nutrition": 2,
-			"saturationModifier": 0.10000000149011612,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:bread": {
+		"minecraft:baked_potato": {
 			"nutrition": 5,
 			"saturationModifier": 0.6000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:mushroom_stew": {
-			"nutrition": 6,
-			"saturationModifier": 0.6000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:milk_bucket": {
-			"nutrition": 6,
-			"saturationModifier": 1.0,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:suspicious_stew": {
-			"nutrition": 6,
-			"saturationModifier": 0.6000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:cooked_rabbit": {
-			"nutrition": 5,
-			"saturationModifier": 0.6000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"minecraft:rabbit": {
-			"nutrition": 3,
-			"saturationModifier": 0.30000001192092896,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
@@ -290,21 +348,21 @@
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"minecraft:carrot": {
+		"minecraft:cookie": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:rabbit": {
 			"nutrition": 3,
-			"saturationModifier": 0.6000000238418579,
+			"saturationModifier": 0.30000001192092896,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		},
-		"rats:confit_byaldi": {
-			"nutrition": 20,
-			"saturationModifier": 0.4000000238418579,
-			"healthRegenModifier": 1.0,
-			"extraEffects": []
-		},
-		"rats:potato_knishes": {
-			"nutrition": 20,
-			"saturationModifier": 0.4000000238418579,
+		"minecraft:cooked_salmon": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
 			"healthRegenModifier": 1.0,
 			"extraEffects": []
 		}

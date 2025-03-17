@@ -47,6 +47,10 @@ file = "config/alexsmobs/fly_spawns.json"
 hash = "a1597532f68de4c24f55080585e0a63fcbfd2ca4919790c1b57d438c2c036565"
 
 [[files]]
+file = "config/amendments-common.toml"
+hash = "3351e7faa592f536c86f20727ab958d76aa0fc722e053299f1e6fc21df0c32f9"
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "b30361435b13117248a411f218389592ad132b3ed557b109a22befae56a69e03"
 
@@ -564,7 +568,7 @@ hash = "75ede05efce546e59008efc5152da492508d9953d6c1bd4540e15b4e919f63d2"
 
 [[files]]
 file = "config/sol_valheim/common.json5"
-hash = "a5d57a3c75772ffa803d47648c3a0a043f5af2e193f60d89d1ab9eb7f5aa834a"
+hash = "6662e90c0708143457f270642d7992878a372bde11bfc96ae2cedf091ffeef07"
 
 [[files]]
 file = "config/sound_physics_remastered/allowed_sounds.properties"
@@ -751,6 +755,10 @@ file = "kubejs/assets/bth/textures/item/coconut_maul.png"
 hash = "eccd2ca27b2d3a0c9af775ee1826846ec26a4f3dab0d6566a5ddafbbc0a051ad"
 
 [[files]]
+file = "kubejs/assets/bth/textures/item/honey_cake_slice.png"
+hash = "ac0981e54ecf95e87f8a1d3829e28b98a22d17061d299c785e1238d86a73826c"
+
+[[files]]
 file = "kubejs/assets/bth/textures/item/lembas_bread.png"
 hash = "69e17bf77a0c8c6166e8c713940d749322f34fc6b3d982bd510769e0e1378c3c"
 
@@ -812,7 +820,7 @@ hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "8f17fc3042f242340e16758fba7f3bece9dbeb021edf8be85e5108630f42452a"
+hash = "a4c2542d4f060b4a538a454a51c79d1c5e001c57e1d0ba322456d33c7f80ca45"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -3563,6 +3571,10 @@ file = "kubejs/data/idas/worldgen/structure_set/witches_treestump.json"
 hash = "4811e4fd0d79e5273fa95b837a62fcf1227a9553e4fb70e86fbfba7aa5107315"
 
 [[files]]
+file = "kubejs/data/incendium/advancements/misc/root.json"
+hash = "f9578f30a87a47dfe05bb19443ddbbda1af10bca034c08f9f398222e45d341bb"
+
+[[files]]
 file = "kubejs/data/lightmanscurrency/advancements/currency/coin_mint.json"
 hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
 
@@ -3884,7 +3896,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/block_events.js"
-hash = "b25e9640b54f3cd47146654b7191faafa20dbf9307dc11747d6d1340d419a502"
+hash = "1e22f03f8d35d9fe33b1e6cc6b38de59424cf6c67a1b1ea5866dc87289deea1a"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
@@ -3916,7 +3928,7 @@ hash = "ce89228a1763e9d34bdf67f7e319fe28623d6c6d5d3309c5b4f32af5abd3b9fa"
 
 [[files]]
 file = "kubejs/server_scripts/src/item_events.js"
-hash = "1902f2f59461115393917670a7af5c40e276bed5b4963322cde741bf68cedbbc"
+hash = "191d641d3e1be806b166abef011cce18747bedc07a099c72f26bfe300aec02ac"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -3968,7 +3980,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "6ad9942521cbc0a1847d7fbf347e2a92a6897aab4565a1cb2128bfc2e8ba3d81"
+hash = "fab1c27c18265fc429bba4770669bcac7410bddc0fb470b4b415ba78062fee07"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -3976,7 +3988,7 @@ hash = "443fdc68b1c927a39bbb840c1b2c2038390e24abdb855195964f7c5f5a25f65f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/cutting.js"
-hash = "0930be7ce2f54dd402923b8c5a8535ca91f6df1b60f00cc821e99ececf56ef9f"
+hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
@@ -4004,11 +4016,11 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "9c33d6e80d15e8ecbd6dc6a0d14eccd4fd008e599bf9951a02dbc309e42ff731"
+hash = "c81102e9748567c04f745a7fb1bdafc54e8fea0f63c962b587d75a260bd4b01e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "3a408f2faea7fbe6727aab13a1022b7d94ae67fb7fb9c2558e45f48e01655e24"
+hash = "1bb1d936af9145d29cf6bb1dc849535242b648da2bcb88b07672f85a7ed80476"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
@@ -4016,7 +4028,7 @@ hash = "89321ce0424a9c4f729bf305781d5a6307b86ca7f75f148d49fc1b634c9a285d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
-hash = "3d07a51ba8000dc758ad2022d0690aa0d0700c14687e4682b85b10027b5d8c49"
+hash = "6fa8f4ad8b1ea78487ea1d1f9330ce10ec10d48da79318aa6510e8064deb4f2b"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
@@ -4080,7 +4092,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "a9a8ade24a61d787b950f89b4eaaf49e980ffe5640fb558363b18d162d620d9f"
+hash = "430efbfbebeaa6211a4196e8fd8f22845d3df33d5fc1c3931bb49e0767b773a4"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -4121,6 +4133,11 @@ hash = "75b51ea4a13e2468203b2f070b428857151e591b4b6bb0d1ffb8e52a84a8c984"
 [[files]]
 file = "kubejs/startup_scripts/src/worldgen.js"
 hash = "c1479ad2f3e7aa95d6f368d963aeacdc6fa318de6e29ec7c64c76118451f2aa0"
+
+[[files]]
+file = "mods/abnormals-delight.pw.toml"
+hash = "3b0f886493676cf39cc3a311508bde01b552d2250828cdbdbc979451067a2037"
+metafile = true
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"

@@ -75,3 +75,65 @@ BlockEvents.rightClicked("botania:alfheim_portal", event => {
     player.give(chosenReward);
   }
 });
+
+
+//
+// Fix compatibility between SoL: Valheim and block food items like cakes and pancakes.
+//
+const $foodData = Java.loadClass('vice.sol_valheim.ValheimFoodData');
+
+const function handleCakeSlice(event, slice) {
+  // If the player is holding a knife, just return and don't cancel event allowing the player to get a cake slice item.
+  if (event.player.getMainHandItem().hasTag('forge:tools/knives')) {
+    return;
+  }
+
+  // Otherwise, assume the player wants to eat the cake slice, regardless of what is in their hand.
+  let fd = event.player.sol_valheim$getFoodData();
+  if (fd.canEat(slice)) {
+    event.server.runCommandSilent(`execute in ${event.level.dimension} run playsound minecraft:entity.generic.eat master @p ${event.block.x} ${event.block.y} ${event.block.z}`);
+    fd.eatItem(slice);
+  } else {
+    // player.tell('You are too full to eat this!');
+    event.cancel();
+  }
+}
+
+['adzuki',
+  'banana',
+  'chocolate',
+  'mint',
+  'strawberry',
+  'vanilla',
+].forEach((flavor) => {
+  BlockEvents.rightClicked(`neapolitan:${flavor}_cake`, event => {
+    handleCakeSlice(event, `abnormals_delight:${flavor}_cake_slice`);
+  });
+});
+
+BlockEvents.rightClicked('farmersrespite:coffee_cake', event => {
+  handleCakeSlice(event, 'farmersrespite:coffee_cake_slice');
+});
+
+BlockEvents.rightClicked('createaddition:honey_cake', event => {
+  // The honey cake is missing the drop item on knife interaction mechanic so emulate it here.
+  if (event.player.getMainHandItem().hasTag('forge:tools/knives')) {
+    event.block.popItem('bth:honey_cake_slice');
+    return;
+  }
+  handleCakeSlice(event, 'bth:honey_cake_slice');
+});
+
+BlockEvents.rightClicked('supplementaries:pancake', event => {
+  const heldItem = event.player.getMainHandItem().id;
+  if (heldItem === 'supplementaries:pancake' || heldItem === 'minecraft:honey_bottle') {
+    return;
+  }
+  let fd = event.player.sol_valheim$getFoodData();
+  if (fd.canEat('bth:pancake')) {
+    fd.eatItem('bth:pancake');
+  } else {
+    // The 'eat' sound is played regardless here. Not a big deal though.
+    event.cancel();
+  }
+});

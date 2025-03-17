@@ -33,4 +33,22 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}illwood_log`);
 
+  event.custom({
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "createaddition:honey_cake"
+      }
+    ],
+    "tool": {
+      "tag": "forge:tools/knives"
+    },
+    "result": [
+      {
+        "item": "bth:honey_cake_slice",
+        "count": 7
+      }
+    ]
+  }).id(`${ID_PREFIX}honey_cake`);
+
 });

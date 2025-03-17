@@ -154,6 +154,21 @@ StartupEvents.registry("item", event => {
     .tooltip(Text.translate('tooltip.bth.ancient_cookie'))
     .translationKey('item.bth.ancient_cookie');
 
+  // Edible version of supplementary's pancake
+  event.create('bth:pancake')
+    .food(food => {
+      food.hunger(6).saturation(1.0)
+    })
+    .texture('supplementaries:item/pancake');
+
+  // A slice of Create Addition's honey cake
+  event.create('bth:honey_cake_slice')
+    .food(food => {
+      food.hunger(6).saturation(1.0)
+    })
+    .texture('bth:item/honey_cake_slice')
+    .translationKey('item.bth.honey_cake_slice');
+
   // Mob catcher for bounties
   event.create('bth:spectre_snare')
     .maxDamage(16)
