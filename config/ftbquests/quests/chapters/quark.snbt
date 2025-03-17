@@ -135,7 +135,7 @@
 				}
 			]
 			title: "Beacon Redirection"
-			x: 9.5d
+			x: 10.0d
 			y: -4.0d
 		}
 		{
@@ -196,22 +196,6 @@
 			}]
 			title: "Ender Watcher"
 			x: 17.5d
-			y: -4.0d
-		}
-		{
-			description: [
-				"Animals bred with the trough will not produce XP."
-				"If there's more than 32 animals in a 10 block radius, the animals will eat, but never enter love mode."
-			]
-			id: "78628DC692013275"
-			subtitle: "Nearby animals will flock to the trough to eat the food within"
-			tasks: [{
-				id: "6352523E9AD15FF5"
-				item: "quark:feeding_trough"
-				type: "item"
-			}]
-			title: "Feeding Trough"
-			x: 10.5d
 			y: -4.0d
 		}
 		{
@@ -325,7 +309,7 @@
 				}
 			]
 			title: "Ashen Wood"
-			x: 11.5d
+			x: 11.0d
 			y: -4.0d
 		}
 		{
@@ -345,7 +329,7 @@
 				type: "item"
 			}]
 			title: "Myalite Viaducts"
-			x: 12.5d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -375,7 +359,7 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 13.0d
 			y: -4.0d
 		}
 		{
@@ -408,7 +392,7 @@
 				type: "item"
 			}]
 			title: "Iron Grate"
-			x: 14.5d
+			x: 14.0d
 			y: -4.0d
 		}
 		{
