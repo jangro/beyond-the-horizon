@@ -114,8 +114,9 @@ MoreJSEvents.wandererTrades((event) => {
   // Common
   event.addTrade(1, TradeItem.of('rats:tiny_coin', 1, 3), 'supplementaries:flax_seeds');
   // Uncommon
-  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 7), 'farmersrespite:tea_seeds');
   event.addTrade(1, TradeItem.of('rats:tiny_coin', 1, 3), 'eidolon:illwood_sapling');
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 4, 7), 'farmersrespite:tea_seeds');
+  event.addTrade(1, TradeItem.of('rats:tiny_coin', 5, 9), 'forbidden_arcanus:fungyss');
   // Rare
   event.addTrade(1, TradeItem.of('createdeco:copper_coin', 1, 2), 'minecraft:slime_ball');
   event.addTrade(1, TradeItem.of('createdeco:copper_coin', 2, 6), 'supplementaries:globe');
