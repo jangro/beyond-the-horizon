@@ -67,8 +67,6 @@
 		spawn_radius = 10
 		#Whether players in spectator mode can generate chunks
 		spectators_generate_chunks = true
-		# Custom gamerule for lightman's currency
-		keepWallet = true
 
 	[gamerules.mobs]
 		#Whether raids are disabled.
@@ -136,11 +134,11 @@
 	#If the global world difficulty is enabled it's set first
 	lock_difficulty = false
 
-#A collection of misc configs
+#A collection of misc configs (use this for modded gamerules)
 [misc]
 	#If gamerules should be saved to config on world unload
 	save_gamerules = true
 	#A comma separated list of commands to run on world join, @p is replaced with joining player name, command is run by the server
 	#Example: default_commands = ["/tellraw @p [\"\",{\"text\":\"Hi \"},{\"text\":\"@p\",\"color\":\"aqua\"}]"]
-	default_commands = []
+	default_commands = ["/gamerule keepWallet true", "/gamerule artifacts.rootedBoots.enabled false"]
 
