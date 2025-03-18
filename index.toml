@@ -420,7 +420,7 @@ hash = "b477386c54b32b4494869fbc14361d0e83b549f81e465e9062be987b4dd2b46a"
 
 [[files]]
 file = "config/globalgamerules-common.toml"
-hash = "9438eb035ada378cab9a953364ea99a53e2fbe4794af0144ec6f76346fd01901"
+hash = "ac156c48a8723e004421def192707e5b75eb2d3a44c0fe0c44b81c3c9eefcf82"
 
 [[files]]
 file = "config/immersiveengineering-client.toml"
@@ -3896,7 +3896,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/block_events.js"
-hash = "1e22f03f8d35d9fe33b1e6cc6b38de59424cf6c67a1b1ea5866dc87289deea1a"
+hash = "561ad5387cfab5ad0c9683b76141886e021b4ea3f4ecb96829c17ee740063a2a"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"

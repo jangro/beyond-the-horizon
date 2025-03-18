@@ -82,7 +82,7 @@ BlockEvents.rightClicked("botania:alfheim_portal", event => {
 //
 const $foodData = Java.loadClass('vice.sol_valheim.ValheimFoodData');
 
-const function handleCakeSlice(event, slice) {
+function handleCakeSlice(event, slice) {
   // If the player is holding a knife, just return and don't cancel event allowing the player to get a cake slice item.
   if (event.player.getMainHandItem().hasTag('forge:tools/knives')) {
     return;
