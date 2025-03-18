@@ -419,10 +419,6 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "b477386c54b32b4494869fbc14361d0e83b549f81e465e9062be987b4dd2b46a"
 
 [[files]]
-file = "config/globalgamerules-common.toml"
-hash = "22d689b1cb2570acd2a5172d9061cd397bc7b85dcf0d6eb13a2b066ec4a8a6d5"
-
-[[files]]
 file = "config/immersiveengineering-client.toml"
 hash = "d43f72f04db9e4e10f20b9351e9e40baebd342097feff54ee85a5ba59ffa9f95"
 
@@ -4044,7 +4040,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/server_loaded.js"
-hash = "08d603e0fd185aaa25d568db214259b7f2d0fcf9e6202fd2eb4d07fe2531de5a"
+hash = "c5ee94150ce7e06ad8c823337f1b04d16c9b966a022acaf1d9265fd7ad327749"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
@@ -4861,11 +4857,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "8bd098bd9535460709877edd2aad1a23cccac7d7a48e7bb34c2dc78f01c3ce78"
-metafile = true
-
-[[files]]
-file = "mods/global-gamerules.pw.toml"
-hash = "69e21a8de3b798f251ad5476e97eab6714a1b01e264bc105ac636a444df54162"
 metafile = true
 
 [[files]]
