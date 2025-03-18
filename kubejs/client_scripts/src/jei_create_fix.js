@@ -26,6 +26,7 @@ JEIEvents.addItems(event => {
     'brass_encased_shaft', 
     'crushed_raw_osmium', 
     'crushed_raw_quicksilver', 
+    'crushed_raw_tin', 
     'crushed_raw_platinum', 
     'minecart_contraption', 
     'andesite_encased_shaft', 
