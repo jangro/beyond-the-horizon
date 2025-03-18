@@ -44,4 +44,8 @@ ServerEvents.tags('entity_type', event => {
     'alexsmobs:cachalot_whale',
     'alexsmobs:giant_squid',
   ]);
+
+  event.add('immersiveengineering:shaderbag/blacklist', [
+    'deep_aether:eots_segment', // Prevents each segment of the Eye of the Storm from dropping a shader bag.
+  ]);
 });
