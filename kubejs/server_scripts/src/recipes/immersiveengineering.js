@@ -24,6 +24,15 @@ ServerEvents.recipes(event => {
     event.recipes.immersiveengineering.metal_press(output, input, 'immersiveengineering:mold_unpacking').id(`${ID_PREFIX}metal_press/unpacking/${OutputItem.of(output).item.id.replace(':', '/')}_from_${InputItem.of(input).ingredient.first.id.replace(':', '_')}`);
   };
 
+  // Alloy Kiln Recipes
+  if (Platform.isLoaded('enderio')) {
+    event.recipes.immersiveengineering.alloy('enderio:copper_alloy_ingot', '#forge:ingots/copper', '#forge:silicon').id(`${ID_PREFIX}alloy/copper_alloy_ingot`);
+    event.recipes.immersiveengineering.alloy('enderio:pulsating_alloy_ingot', '#forge:ingots/iron', '#forge:ender_pearls').id(`${ID_PREFIX}alloy/pulsating_alloy_ingot`);
+    event.recipes.immersiveengineering.alloy('enderio:redstone_alloy_ingot', '#forge:dusts/redstone', '#forge:silicon').id(`${ID_PREFIX}alloy/redstone_alloy_ingot`);
+    event.recipes.immersiveengineering.alloy('enderio:soularium_ingot', ['minecraft:soul_sand', 'minecraft:soul_soil'], '#forge:ingots/gold').id(`${ID_PREFIX}alloy/soularium_ingot`);
+    event.recipes.immersiveengineering.alloy('enderio:vibrant_alloy_ingot', '#forge:ingots/energetic_alloy', '#forge:ender_pearls').id(`${ID_PREFIX}alloy/vibrant_alloy_ingot`);
+  }
+
   // Metal Press Recipes - Gears
   // Create
   if (Platform.isLoaded('create')) {
