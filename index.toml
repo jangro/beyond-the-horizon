@@ -364,7 +364,7 @@ hash = "4709f9e10041e11cd36fd1bb870885ee0bdbd59b7855f2137f5a431ea5da578a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "18bfb85e85d1770655aaff038bf22dba10d3ffcbe40e7421f6d9a1bada9045a3"
+hash = "1b5bfa7843f6c3ebc2f790eeb4add1181e36a809487293d887183211765737db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
@@ -4004,7 +4004,7 @@ hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "50e418a1054436e6fb7dea5aaba678746ed9808000df4753e557faba9ca7dca4"
+hash = "f9726202f67a9fb6c055e49638e96e0764cd48502bc65757eb12be85b8cc8990"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"

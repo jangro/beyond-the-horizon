@@ -175,6 +175,7 @@
 						CoinType: "COPPER"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 4.5d
@@ -197,6 +198,7 @@
 						CoinType: "IRON"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 5.5d
@@ -219,6 +221,7 @@
 						CoinType: "GOLD"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.5d
@@ -241,6 +244,7 @@
 						CoinType: "DIAMOND"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 7.5d
