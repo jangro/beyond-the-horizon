@@ -54,6 +54,7 @@ JEIEvents.information(event => {
   addInfo(['farmersdelight:brown_mushroom_colony', 'farmersdelight:red_mushroom_colony'], 'bth.information.farmersdelight.mushroom_colonies');
 
   // Rats
+  addInfo('rats:charged_creeper_chunk', 'bth.information.rats.charged_creeper_chunk');
   addInfo('rats:tiny_coin', 'bth.information.rats.tiny_coin');
 
   // Supplementaries

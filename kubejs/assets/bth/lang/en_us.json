@@ -259,6 +259,7 @@
   "bth.information.eccentrictome.filled_eccentric_tome": "Crafting an Eccentric Tome using four bookshelves will provide one filled with the starting manuals. The recipe that uses one bookshelf will be empty.",
   "bth.information.eccentrictome.reverting": "Right-click to select a book to read. Left-click in the air to revert the tome back to select a new book.",
   "bth.information.farmersdelight.mushroom_colonies": "Grown by planting mushrooms on Rich Soil.",
+  "bth.information.rats.charged_creeper_chunk": "Obtained by killing a Charged Creeper.",
   "bth.information.rats.tiny_coin": "These can be found in many structures. The farther you are from spawn, the more abundant they become.",
   "bth.information.supplementaries.urn": "Found underground. They will drop when mined with Silk Touch (including whatever loot they hold).",
   "bth.information.tetra.scannable_blocks": "Can be detected using a Holosphere upgraded with an Eye of Ender.",
