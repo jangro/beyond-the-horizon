@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
       "count": 2,
       "item": "ae2:fluix_crystal"
     }
-  });
+  }).id(`${ID_PREFIX}alloy_smelting/fluix_crystal`);
 
   //
   // SAG MILLING

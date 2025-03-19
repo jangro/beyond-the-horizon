@@ -54,15 +54,52 @@ ServerEvents.recipes(event => {
   event.recipes.create.milling(Item.of('rats:plastic_waste').withChance(0.5), 'rats:garbage_pile').id(`${ID_PREFIX}milling/plastic_waste_from_garbage_pile`);
   event.recipes.create.milling('enderio:powdered_quartz', 'minecraft:quartz').id(`${ID_PREFIX}milling/powdered_quartz_from_quartz`);
 
-  // Mixing
-  event.recipes.create.mixing('rats:chunky_cheese_token', 'createdeco:gold_coin').superheated().id(`${ID_PREFIX}mixing/chunky_cheese_token`);
-  event.recipes.create.mixing(Fluid.of('minecraft:milk 250'), [Fluid.of('minecraft:water 250'), '#bth:nuts']).heated().id(`${ID_PREFIX}mixing/milk_from_nuts`);
-  event.recipes.create.mixing('minecraft:paper', [Fluid.of('minecraft:water 500'), '2x #forge:dusts/wood']).id(`${ID_PREFIX}mixing/paper_from_sawdust`);
-  event.recipes.create.mixing('pneumaticcraft:speed_upgrade', [Fluid.of('pneumaticcraft:lubricant 500'), '2x pneumaticcraft:glycerol', '2x #pneumaticcraft:upgrade_components']).id(`${ID_PREFIX}mixing/speed_upgrade_from_glycerol`);
+  // MIXING
+  // Mixing / Ender IO Alloys
+  event.recipes.create.mixing('enderio:copper_alloy_ingot', ['#forge:ingots/copper', '#forge:silicon']).heated().id(`${ID_PREFIX}mixing/copper_alloy_ingot`);
+  event.recipes.create.mixing('enderio:energetic_alloy_ingot', ['#forge:dusts/redstone', '#forge:ingots/gold', '#forge:dusts/glowstone']).heated().id(`${ID_PREFIX}mixing/energetic_alloy_ingot`);
+  event.recipes.create.mixing('enderio:vibrant_alloy_ingot', ['#forge:ingots/energetic_alloy', '#forge:ender_pearls']).heated().id(`${ID_PREFIX}mixing/vibrant_alloy_ingot`);
+  event.recipes.create.mixing('enderio:redstone_alloy_ingot', ['#forge:dusts/redstone', '#forge:silicon']).heated().id(`${ID_PREFIX}mixing/redstone_alloy_ingot`);
+  event.recipes.create.mixing('enderio:conductive_alloy_ingot', ['#forge:ingots/copper_alloy', '#forge:ingots/iron', '#forge:dusts/redstone']).heated().id(`${ID_PREFIX}mixing/conductive_alloy_ingot`);
+  event.recipes.create.mixing('enderio:pulsating_alloy_ingot', ['#forge:ingots/iron', '#forge:ender_pearls']).heated().id(`${ID_PREFIX}mixing/pulsating_alloy_ingot`);
+  event.recipes.create.mixing('enderio:soularium_ingot', [['minecraft:soul_sand', 'minecraft:soul_soil'], '#forge:ingots/gold']).heated().id(`${ID_PREFIX}mixing/soularium_ingot`);
+  event.recipes.create.mixing('enderio:dark_steel_ingot', ['#forge:ingots/iron', '#forge:dusts/coal', '#forge:obsidian']).heated().id(`${ID_PREFIX}mixing/dark_steel_ingot`);
+  event.recipes.create.mixing('enderio:end_steel_ingot', ['#forge:end_stones', '#forge:ingots/dark_steel', '#forge:obsidian']).heated().id(`${ID_PREFIX}mixing/end_steel_ingot`);
+  
+  event.recipes.create.mixing('enderio:nethercotta', ['#forge:ingots/nether_brick', '4x #forge:crops/nether_wart', '6x #forge:clay']).heated().id(`${ID_PREFIX}mixing/nethercotta`);
+  event.recipes.create.mixing('enderio:clayed_glowstone', ['#forge:dusts/glowstone', '#forge:clay']).heated().id(`${ID_PREFIX}mixing/clayed_glowstone`);
+  event.recipes.create.mixing('enderio:industrial_insulation_block', ['#forge:dusts/lapis', '#minecraft:wool', '#enderio:insulation_metals']).heated().id(`${ID_PREFIX}mixing/industrial_insulation_block`);
 
+  // Mixing / Ender IO Glass
+  // Incomplete list, but might be better to just ignore the glass recipes.
+  // event.recipes.create.mixing('enderio:fused_quartz_d', ['4x #forge:gems/quartz', '4x #forge:gems/amethyst']).heated().id(`${ID_PREFIX}mixing/fused_quartz_d`);
+  // event.recipes.create.mixing('enderio:fused_quartz_d', ['4x #forge:gems/quartz', '#forge:storage_blocks/amethyst']).heated().id(`${ID_PREFIX}mixing/fused_quartz_d_alt`);
+  // event.recipes.create.mixing('enderio:fused_quartz_d', ['#enderio:fused_quartz', '4x #forge:gems/amethyst']).heated().id(`${ID_PREFIX}mixing/fused_quartz_d_from_base`);
+  // event.recipes.create.mixing('enderio:fused_quartz_d', ['#enderio:fused_quartz', '#forge:storage_blocks/amethyst']).heated().id(`${ID_PREFIX}mixing/fused_quartz_d_from_base_alt`);
+  // event.recipes.create.mixing('enderio:clear_glass_d', ['4x #forge:glass/colorless', '4x #forge:gems/amethyst']).heated().id(`${ID_PREFIX}mixing/clear_glass_d`);
+  // event.recipes.create.mixing('enderio:clear_glass_d', ['4x #forge:glass/colorless', '#forge:storage_blocks/amethyst']).heated().id(`${ID_PREFIX}mixing/clear_glass_d_alt`);
+  // event.recipes.create.mixing('enderio:clear_glass_e', ['#enderio:clear_glass', '4x #forge:dusts/glowstone']).heated().id(`${ID_PREFIX}mixing/clear_glass_e_from_base`);
+  // event.recipes.create.mixing('enderio:clear_glass_e', ['#enderio:clear_glass', '4x #forge:storage_blocks/glowstone']).heated().id(`${ID_PREFIX}mixing/clear_glass_e_from_base_alt`);
+
+  // Mixing / Misc
+  event.recipes.create.mixing('8x minecraft:cookie', ['#forge:dough/wheat', 'minecraft:cocoa_beans']).id(`${ID_PREFIX}mixing/cookies`);
+  event.recipes.create.mixing('minecraft:paper', [Fluid.of('minecraft:water 500'), '2x #forge:dusts/wood']).id(`${ID_PREFIX}mixing/paper_from_sawdust`);
+  event.recipes.create.mixing('12x minecraft:red_dye', ['#forge:crops/beetroot', '3x #forge:clay', '6x #forge:eggs']).id(`${ID_PREFIX}mixing/red_dye`);
+  event.recipes.create.mixing('enderio:organic_black_dye', ['#forge:dusts/coal', '#forge:eggs']).id(`${ID_PREFIX}mixing/organic_black_dye`);
+  event.recipes.create.mixing('2x enderio:organic_black_dye', ['2x #forge:dusts/coal', '#forge:slime_balls']).id(`${ID_PREFIX}mixing/organic_black_dye_from_slime`);
+  event.recipes.create.mixing('enderio:organic_brown_dye', ['6x enderio:plant_matter_brown', '#forge:eggs']).id(`${ID_PREFIX}mixing/organic_brown_dye`);
+  event.recipes.create.mixing('2x enderio:organic_brown_dye', ['12x enderio:plant_matter_brown', '#forge:slime_balls']).id(`${ID_PREFIX}mixing/organic_brown_dye_from_slime`);
+  event.recipes.create.mixing('enderio:organic_green_dye', ['6x enderio:plant_matter_green', '#forge:eggs']).id(`${ID_PREFIX}mixing/organic_green_dye`);
+  event.recipes.create.mixing('2x enderio:organic_green_dye', ['12x enderio:plant_matter_green', '#forge:slime_balls']).id(`${ID_PREFIX}mixing/organic_green_dye_from_slime`);
+  event.recipes.create.mixing('forbidden_arcanus:obsidian_ingot', ['#forge:obsidian', '4x #forge:nuggets/iron']).heated().id(`${ID_PREFIX}mixing/obsidian_ingot`);
+  event.recipes.create.mixing('pneumaticcraft:speed_upgrade', [Fluid.of('pneumaticcraft:lubricant 500'), '2x pneumaticcraft:glycerol', '2x #pneumaticcraft:upgrade_components']).id(`${ID_PREFIX}mixing/speed_upgrade_from_glycerol`);
+  event.recipes.create.mixing('rats:chunky_cheese_token', 'createdeco:gold_coin').superheated().id(`${ID_PREFIX}mixing/chunky_cheese_token`);
+
+  // Mixing / Fluids
   event.recipes.create.mixing(Fluid.of('bth:sugar_water 1000'), [Fluid.of('minecraft:water 1000'), 'minecraft:sugar']).id(`${ID_PREFIX}mixing/sugar_water`);
   event.recipes.create.mixing(Fluid.of('bth:soul_mixture 1000'), [Fluid.of('minecraft:water 1000'), 'minecraft:soul_sand']).heated().id(`${ID_PREFIX}mixing/soul_mixture`);
   event.recipes.create.mixing(Fluid.of('bth:ender_fuel 1000'), [Fluid.of('integrateddynamics:liquid_chorus 500'), Fluid.of('bth:soul_mixture', 500)]).heated().id(`${ID_PREFIX}mixing/ender_fuel`);
+  event.recipes.create.mixing(Fluid.of('minecraft:milk 250'), [Fluid.of('minecraft:water 250'), '#bth:nuts']).heated().id(`${ID_PREFIX}mixing/milk_from_nuts`);
 
   // BTH super food ingredient
   event.recipes.create.mixing('bth:hyper_nutritious_goo_bucket', [
