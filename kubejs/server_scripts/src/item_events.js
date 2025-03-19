@@ -4,6 +4,9 @@
  * @file ItemEvents Event Handler
  */
 
+//
+// Add bounty proof to the player's inventory when interacting with a mob using spectre snare
+//
 ItemEvents.entityInteracted('bth:spectre_snare', event => {
   const { player, player: { x, y, z }, target } = event;
 
@@ -52,6 +55,9 @@ ItemEvents.entityInteracted('bth:spectre_snare', event => {
   event.cancel();
 });
 
+//
+// Fix compatibility between SoL: Valheim and rat with carrat upgrade
+//
 ItemEvents.entityInteracted(event => {
   let entity_id = event.target.entityType.toString();
   if (entity_id == 'entity.rats.tamed_rat') {
@@ -62,6 +68,25 @@ ItemEvents.entityInteracted(event => {
       if (fd.canEat('rats:assorted_vegetables')) {
         event.server.runCommandSilent(`execute in ${event.level.dimension} run playsound minecraft:entity.generic.eat master @p ${event.entity.x} ${event.entity.y} ${event.entity.z}`);
         fd.eatItem('rats:assorted_vegetables');
+        event.cancel();
+      }
+    }
+  }
+});
+
+//
+// Improve lunch basket functionality. By default you have to close the basket to cycle food with sneak-right click.
+// This code allows you to cycle food with sneak-right click while the basket is open as well.
+//
+ItemEvents.rightClicked('supplementaries:lunch_basket', event => {
+  let stack = event.player.getMainHandItem();
+  let item = stack.item;
+  if (item.getData) {
+    let data = item.getData(stack);
+    if (data && data.canEatFrom && data.cycle) {
+      const open = data.canEatFrom();
+      if (open && event.player.crouching) {
+        data.cycle(1);
         event.cancel();
       }
     }

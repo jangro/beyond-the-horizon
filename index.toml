@@ -820,7 +820,7 @@ hash = "a4c2542d4f060b4a538a454a51c79d1c5e001c57e1d0ba322456d33c7f80ca45"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
-hash = "17cfd0246d2cfa37bbab5459d074f7b924a6fd123eb0b128e49016a572a666f0"
+hash = "5c09d01f4718a81b6e34d0ac789c44fa6801270d25b7e5a44069d84413f9e34a"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_fixes.js"
@@ -3924,7 +3924,7 @@ hash = "ce89228a1763e9d34bdf67f7e319fe28623d6c6d5d3309c5b4f32af5abd3b9fa"
 
 [[files]]
 file = "kubejs/server_scripts/src/item_events.js"
-hash = "191d641d3e1be806b166abef011cce18747bedc07a099c72f26bfe300aec02ac"
+hash = "09566d6bad6910cff7e4082576fd3a5d49bdcbefe4d5f354ac1967e4fcc8debe"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -3976,7 +3976,7 @@ hash = "802193397a95e6a9de4f2cc32ab1cf9cddf5c7bf16ef12022d60a976918603ad"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/create.js"
-hash = "fab1c27c18265fc429bba4770669bcac7410bddc0fb470b4b415ba78062fee07"
+hash = "134e0e74cf0e7b8683f4b51802114391a23157b2d1f2fb575af8734b1c8a637b"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/createaddition.js"
@@ -3988,7 +3988,7 @@ hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
-hash = "f640d47e5363fb50372dd11231fea427c58ea2dd804d25fca01bcf19c9e5954a"
+hash = "fb1a2ebf0dc3da5cc999e22f4ddc251273303d1839f5f46d6dc7b8fe5f8af4d3"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/exposure.js"
@@ -4064,7 +4064,7 @@ hash = "b5792316748304fc986f914dd4bd34c991526228b102126f9e3d43341b7420c6"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/entity_type.js"
-hash = "ae0b16ed77b22dedf9928a77f9b39166980684ff92e461020d3744243f3d8394"
+hash = "2116c37d5c6645da1cd3dc76a7494bef32f1f88b1fafd4cb881c2d37ffdb0ce2"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/fluid.js"
