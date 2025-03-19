@@ -1,0 +1,8 @@
+{
+	// Enlarge the currently eaten food icons
+	"useLargeIcons": true,
+	// Anchor point is the bottom left corner
+	"x_offset": 150,
+	"y_offset": 1,
+	"rightToLeft": true
+}
