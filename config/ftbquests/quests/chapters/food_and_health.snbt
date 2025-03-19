@@ -204,7 +204,7 @@
 				title: "Automate!"
 				type: "checkmark"
 			}]
-			x: 6.5d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
@@ -216,7 +216,7 @@
 				title: "Bread ain't just wheat"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
@@ -317,6 +317,30 @@
 			title: "Increase health"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Open: 0b
+						SelectedSlot: 0b
+						Size: 6
+					}
+				}
+				id: "supplementaries:lunch_basket"
+			}
+			id: "6747ADE816BB5381"
+			subtitle: "Holds 6 stacks of food. Hold right click to eat. Sneak right click to cycle food."
+			tasks: [{
+				id: "0B149071C998F5EE"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Lunch Basket"
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Food and Health"

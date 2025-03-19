@@ -372,7 +372,7 @@ hash = "d069cf6b5d9ab2753352d308951c1d087c6a80a66f96531d1578ff6e0e86c89c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_health.snbt"
-hash = "5bf130cf67be5e6e7bb8a78dfca7539270432160dfd7a0d19b83e1a67ce0b92b"
+hash = "625fefd08d6c059c30a1dc3c30771ddb51fd064fed28eaaf389652c75d080b33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
@@ -656,7 +656,7 @@ hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "ad76dc97b83d9956be9ed1cb8e0abd6707bd9e2df991af3548cbab18744587d7"
+hash = "320a7a9b56bc457a4eb60536dbfce29684f3555f5aba44474deebad758937f49"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -832,7 +832,7 @@ hash = "5078b2d71793a316e4a68bc25e19fc2c85170c1067338c8427d1423cab0d8ca1"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_information.js"
-hash = "c35f170a8c5d474010c082128f2592374523cf5dfee1a7d67fc2f6e4b31840f7"
+hash = "2a263d15dbd4083f0a7a4331c67addbc9e26214ceb122c52c7239b64d3a09f75"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_remove_recipes.js"
