@@ -652,7 +652,7 @@ hash = "355b208e79fa05da1eb5ba3a1e89fbfa644d8ed23bcdfbf1f883767ded639b92"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
-hash = "c84605a365e881901925779fdd5271e7144906a9667264caaf4b46e8c12e17ac"
+hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
