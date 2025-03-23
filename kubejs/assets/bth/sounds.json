@@ -1,0 +1,10 @@
+{
+  "music.electric_sheep": {
+    "sounds": [
+      {
+        "name": "bth:music/electric_sheep",
+        "stream": true
+      }
+    ]
+  }
+}

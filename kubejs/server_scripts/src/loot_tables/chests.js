@@ -207,6 +207,9 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('artifacts:crystal_heart');
     });
     table.addPool(pool => {
+      pool.addItem('bth:music_disc_electric_sheep');
+    });
+    table.addPool(pool => {
       pool.addItem(BTH_RUINED_HANGAR_MAP);
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
