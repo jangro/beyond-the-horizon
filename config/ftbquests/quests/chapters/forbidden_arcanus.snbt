@@ -1385,7 +1385,7 @@
 			description: [
 				"Can be found in the Flower Forest biome."
 				"You can also sometimes buy it from villagers."
-				"When harvested, its leaves may drop Deorum nuggets."
+				"When harvested, its leaves may drop gold nuggets."
 			]
 			icon: "forbidden_arcanus:aurum_sapling"
 			id: "3C264E041A7D7D88"
