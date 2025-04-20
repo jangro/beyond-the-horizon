@@ -77,6 +77,12 @@ ServerEvents.tags('block', event => {
     'forbidden_arcanus:deorum_block',
   ]);
 
+  // Applied Energistics Tags
+  event.add('ae2:growth_acceleratable', [
+    'blazingbamboo:blazing_bamboo',
+    'blazingbamboo:blazing_bamboo_sapling',
+  ]);
+
   // Ars Nouveau Tags
   event.add('ars_nouveau:golem/cluster', [
     'alexscaves:sulfur_cluster',
