@@ -137,3 +137,18 @@ BlockEvents.rightClicked('supplementaries:pancake', event => {
     event.cancel();
   }
 });
+
+/**
+ * Prevent breaking a Clibano Furnace from crashing the game.
+ */
+[
+  'forbidden_arcanus:clibano_center',
+  'forbidden_arcanus:clibano_corner',
+  'forbidden_arcanus:clibano_side_vertical',
+  'forbidden_arcanus:clibano_side_horizontal',
+].forEach((block) => {
+  BlockEvents.broken(block, event => {
+    event.block.set('minecraft:air');
+    event.cancel();
+  });
+});
