@@ -72,7 +72,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "e5bedcc4466c1da56207cbf904bd1d9e062c241a2f47211cb4492cd1d3c5a1df"
+hash = "48f9d4e2752d621b1d2be38708718840b51cfc9e6b7262fcda9e561406518bc2"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -376,7 +376,7 @@ hash = "625fefd08d6c059c30a1dc3c30771ddb51fd064fed28eaaf389652c75d080b33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "c60aba086db2d4d125d233035cddf255985fc0291e442925b01a0f6aa5cc397f"
+hash = "b07eba978e61c2419a7fb58d1f102aaef574a66d9e003e87cf9c465402c74c89"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/galosphere.snbt"
@@ -656,7 +656,7 @@ hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "320a7a9b56bc457a4eb60536dbfce29684f3555f5aba44474deebad758937f49"
+hash = "b5b6cf2af749e58790afc20d18a4c23fffe2eb8143739d9d2bda9f553fa24afc"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -669,6 +669,14 @@ hash = "f194d39639fd9196723d144e10d0bd65a181a2375728ee4cbd936316fd5e0c9f"
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book_model.json"
 hash = "3134063feb70ff74f55a1a0882810b05b857b4386014bce9eeff3dfd66e0c8f5"
+
+[[files]]
+file = "kubejs/assets/bth/sounds.json"
+hash = "1426e24b6f02848a170e2895f4b9abe82267a79ae73212d7c59efcf338d5e921"
+
+[[files]]
+file = "kubejs/assets/bth/sounds/music/electric_sheep.ogg"
+hash = "2ebb473dbd57b08647b942841aa850bd8750a0b0df4aa46a5a68c52e7589a3d7"
 
 [[files]]
 file = "kubejs/assets/bth/textures/ancient_portal.png"
@@ -765,6 +773,10 @@ hash = "69e17bf77a0c8c6166e8c713940d749322f34fc6b3d982bd510769e0e1378c3c"
 [[files]]
 file = "kubejs/assets/bth/textures/item/mallorn_leaf.png"
 hash = "28fd197f755e2d1c6ffc68d4457c7630ffb8c983210691ad558a5afb11dfad58"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/music_disc_electric_sheep.png"
+hash = "13a110a4befc969b7761515ce688751e69b6bff2c531b4bf539306dbc532bc03"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/nanobot_soda_bottle.png"
@@ -3896,7 +3908,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/block_events.js"
-hash = "561ad5387cfab5ad0c9683b76141886e021b4ea3f4ecb96829c17ee740063a2a"
+hash = "af50db598e49213cc4818676d8ff88bc50e4bb952e27f6199d1e91dfe0bf52b6"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
@@ -3928,7 +3940,7 @@ hash = "ce89228a1763e9d34bdf67f7e319fe28623d6c6d5d3309c5b4f32af5abd3b9fa"
 
 [[files]]
 file = "kubejs/server_scripts/src/item_events.js"
-hash = "09566d6bad6910cff7e4082576fd3a5d49bdcbefe4d5f354ac1967e4fcc8debe"
+hash = "7b2bad2efa74be9e6020f3dd4dd2d111ec7f530b0f0f592deb181d286548a843"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -3936,7 +3948,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "8ef869d61a5363a811a1ff2c7c17155c4db85b41119f6e439fc6e6507db3e726"
+hash = "f389a6d362a9bd10d3fbaad90574efaf7b2a218d01cd35be11fd7b3f86eae0b6"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -4052,7 +4064,7 @@ hash = "e97492951d8ee8150e05c9c73913690e04f66a384cb2568f4a888379c20ce4d2"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
-hash = "8ce1ba5acb445bcbd823eb5c5a9d65452ddf00cff1d35ab8366e43e6a01c7a57"
+hash = "2a443f86c04dd729f34c9a79039dbde6e468f4fd034a7d392e892cdcc35d1aef"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block_entity_type.js"
@@ -4096,7 +4108,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "430efbfbebeaa6211a4196e8fd8f22845d3df33d5fc1c3931bb49e0767b773a4"
+hash = "5f3e6cf2b6e9a74fd66372f3c2a64b5a745e8f337e4d9dad47b6aa2ad765e82e"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
@@ -4129,6 +4141,10 @@ hash = "7cb79afe09b12af5809de750263934d17f9ddac833a099d1a5c2e38c956626b3"
 [[files]]
 file = "kubejs/startup_scripts/src/schemas/woodworks.js"
 hash = "8faa1a59c7ce736d844ba38b3f57974e5928d26fa186aaa1a1da6c5e2c1dea6d"
+
+[[files]]
+file = "kubejs/startup_scripts/src/sound_event.js"
+hash = "18384b8267d70a76ac8b85d76508cd248d13f65a6fd746ea1e09ee80fc90541c"
 
 [[files]]
 file = "kubejs/startup_scripts/src/spell.js"
@@ -4625,7 +4641,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "78e86b01d4f72cda8d12660151c101b02f0ef1dbcfc5d73f6c8dba10fbd482ee"
+hash = "65009247d7407af232a5959d12d71f13332be181d2042e8e8d743e5096a825d4"
 metafile = true
 
 [[files]]
