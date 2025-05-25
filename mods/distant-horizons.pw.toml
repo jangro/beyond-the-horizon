@@ -1,13 +1,13 @@
 name = "Distant Horizons: A Level of Detail mod"
-filename = "DistantHorizons-fabric-forge-2.3.0-b-1.20.1.jar"
+filename = "DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "60c18da8254de6db8a5757c812b5ad879e51eea0"
+hash = "57a3a0105c51fdeb7d4a79a35cd8a16586917cf4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6251728
+file-id = 6387680
 project-id = 508933
