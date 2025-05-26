@@ -483,6 +483,14 @@ file = "config/limitedchunks.json"
 hash = "a963a32e070230c255b91c1636f406147cbd2ad79466143874ae161ceb0fed5e"
 
 [[files]]
+file = "config/lootr-client.toml"
+hash = "01d75dd7be8fbe04ec4e19bdf36fd1f5cd40daa74bd366b6533cb8e65a62dec5"
+
+[[files]]
+file = "config/lootr-common.toml"
+hash = "b4bc99b705cc14d3a75abb5e2e1e2c5719fa3a51d879e7a91504b401c03f4ddd"
+
+[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "7ece1a76a51a25c173c355752c21317480c232d7bab242433f69c7b4d48f5247"
 
@@ -5117,6 +5125,11 @@ metafile = true
 [[files]]
 file = "mods/lootjs.pw.toml"
 hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
 metafile = true
 
 [[files]]
