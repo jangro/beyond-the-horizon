@@ -3419,6 +3419,10 @@ file = "kubejs/data/idas/worldgen/structure/abandonedhouse.json"
 hash = "92353a555eadf21f6a49e87ea80cde039cd0f82d44b6b4fa3050a1c1757398e0"
 
 [[files]]
+file = "kubejs/data/idas/worldgen/structure/ancient_portal/nether_ancient_portal.json"
+hash = "0e9e3cc229ff3bef03298b34f9a9abc9f43443789278fc55a1c452e3eb8b8614"
+
+[[files]]
 file = "kubejs/data/idas/worldgen/structure/ancient_statue/ancient_statue_desert.json"
 hash = "7f279b8f3ad93d39018327152d3087ba2072024f5a830eeb7b8091f1e03d067a"
 
