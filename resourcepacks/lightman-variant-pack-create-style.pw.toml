@@ -1,0 +1,13 @@
+name = "Create Style | Variant Pack for Lightman's Currency"
+filename = "LCVP_CreateStyle_v1.5.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "faa2d52b666e7fa8af38654853b6604cdd215823"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6557133
+project-id = 1266504
