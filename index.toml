@@ -656,7 +656,7 @@ hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "b5b6cf2af749e58790afc20d18a4c23fffe2eb8143739d9d2bda9f553fa24afc"
+hash = "1f0f6adbfaeee69bc6ad80114c2924d59bd0eca81b64c41b9e862317c9ae57e6"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -3936,11 +3936,11 @@ hash = "4b6efbd5d3c0489209eff2e8e475839f0f88848a6d636c7730a3a3d25c591d69"
 
 [[files]]
 file = "kubejs/server_scripts/src/functions.js"
-hash = "ce89228a1763e9d34bdf67f7e319fe28623d6c6d5d3309c5b4f32af5abd3b9fa"
+hash = "952fdb577decd0dbd8eb536054d7de442a9d785e47e7a7390a174add1be9b752"
 
 [[files]]
 file = "kubejs/server_scripts/src/item_events.js"
-hash = "7b2bad2efa74be9e6020f3dd4dd2d111ec7f530b0f0f592deb181d286548a843"
+hash = "09566d6bad6910cff7e4082576fd3a5d49bdcbefe4d5f354ac1967e4fcc8debe"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/blocks.js"
@@ -4108,7 +4108,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "5f3e6cf2b6e9a74fd66372f3c2a64b5a745e8f337e4d9dad47b6aa2ad765e82e"
+hash = "fe978a1e14821474f347f67a8145c9c590f6bdc4009ee0eec91a77a811a98298"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"

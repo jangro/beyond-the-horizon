@@ -4,18 +4,6 @@
  * @file Custom item additions for Beyond the Horizon.
  */
 
-const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
-const BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
-
-// Load the config file
-const CONFIG_PATH = 'config/bth.json';
-const config = JsonIO.read(CONFIG_PATH) || { rtp_min_distance: 2000, rtp_max_distance: 10000 };
-
-// Ensure config values are numbers and within limits
-const minDist = Math.max(0, config.rtp_min_distance || 1000);
-const maxDist = Math.min(29999999, config.rtp_max_distance || 10000);
-
-
 StartupEvents.registry("item", event => {
 
   // Adventurer's Spellbook
@@ -112,42 +100,7 @@ StartupEvents.registry("item", event => {
         .hunger(0)
         .saturation(0)
         .eaten(ctx => {
-          if (!ctx.server) return; // Ensure it only runs on the server
-
-          let player = ctx.player;
-          let index = Math.floor(4 * Math.random());
-          player.tell(Text.translate(`item_effect.bth.ancient_cookie_${index}`).gold());
-
-          let world = player.level;
-          let worldBorder = world.getWorldBorder();
-          let borderRadius = worldBorder ? worldBorder.getSize() / 2 : 29999999;
-
-          let maxRadius = 0.9 * Math.min(maxDist, borderRadius);
-          let minRadius = Math.min(minDist, maxRadius - 1); // Ensure min < max
-
-          for (let i = 0; i < 10; i++) { // Try 10 times to find a valid position
-            let angle = Math.random() * KMath.PI * 2;
-            let distance = Math.floor(Math.random() * (maxRadius - minRadius) + minRadius);
-
-            let x = Math.round(Math.cos(angle) * distance);
-            let z = Math.round(Math.sin(angle) * distance);
-
-            // Get the correct chunk
-            let chunk = world.getChunk(x >> 4, z >> 4);
-
-            // Get the correct Y level using chunk heightmap
-            let y = chunk.getHeight(Heightmap.Types.WORLD_SURFACE, x & 15, z & 15);
-
-            // Ensure the block is safe
-            let block = world.getBlockState(new BlockPos(x, y - 1, z)).getBlock();
-            if (!block.defaultBlockState().liquid()) { // Ensure it's not water or lava
-              player.teleportTo(x + 0.5, y + 1, z + 0.5);
-              player.tell(`The cookie teleported you to ${distance} blocks away from spawn.`);
-              return;
-            }
-          }
-          player.tell('Failed to find a safe teleport location after 10 tries. You get your cookie back.');
-          player.give('bth:ancient_cookie');
+          global.ancient_cookie_eaten(ctx);
         })
     })
     .texture('bth:item/ancient_cookie')

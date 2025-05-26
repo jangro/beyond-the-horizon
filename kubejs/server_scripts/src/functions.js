@@ -10,6 +10,18 @@ const $ClipContext = Java.loadClass('net.minecraft.world.level.ClipContext');
 const $ProjectileUtil = Java.loadClass('net.minecraft.world.entity.projectile.ProjectileUtil');
 const $UUIDUtil = Java.loadClass('net.minecraft.core.UUIDUtil');
 
+const Heightmap = Java.loadClass('net.minecraft.world.level.levelgen.Heightmap');
+const BlockPos = Java.loadClass('net.minecraft.core.BlockPos');
+
+const BuildPortalEvent = Java.loadClass('com.hollingsworth.arsnouveau.common.event.timed.BuildPortalEvent');
+const EventQueue = Java.loadClass('com.hollingsworth.arsnouveau.api.event.EventQueue');
+const WarpScrollData = Java.loadClass('com.hollingsworth.arsnouveau.common.items.WarpScroll$WarpScrollData');
+const Vec2 = Java.loadClass('net.minecraft.world.phys.Vec2');
+const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
+const Items = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries').ITEM
+const Direction = Java.loadClass('net.minecraft.core.Direction');
+
+
 /**
  * Gets the most significant bits of a UUID as a Java $BigInteger.
  * 
@@ -54,28 +66,28 @@ function rnd(min, max) {
  * Ignores non-solid blocks and spectators.
  */
 global.advancedRayTrace = (entity, level, distance) => {
-    let eyePos = entity.eyePosition;
-    let viewVec = entity.getViewVector(1);
-    let endPos = eyePos.add(viewVec.x() * distance, viewVec.y() * distance, viewVec.z() * distance);
-    let aabb = AABB.of(eyePos.x(), eyePos.y(), eyePos.z(), endPos.x(), endPos.y(), endPos.z());
+  let eyePos = entity.eyePosition;
+  let viewVec = entity.getViewVector(1);
+  let endPos = eyePos.add(viewVec.x() * distance, viewVec.y() * distance, viewVec.z() * distance);
+  let aabb = AABB.of(eyePos.x(), eyePos.y(), eyePos.z(), endPos.x(), endPos.y(), endPos.z());
 
-    let hitResult = $ProjectileUtil.getEntityHitResult(level, entity, eyePos, endPos, aabb, (e) => {
-        return !e.isSpectator()
-    }, 0);
-    let target = hitResult != null ? hitResult.getEntity() : null;
-    if (target != null) {
-        let target_vec = new Vec3d(target.getX(), target.getY(), target.getZ());
-        return target_vec.subtract(viewVec);
-    }
+  let hitResult = $ProjectileUtil.getEntityHitResult(level, entity, eyePos, endPos, aabb, (e) => {
+    return !e.isSpectator()
+  }, 0);
+  let target = hitResult != null ? hitResult.getEntity() : null;
+  if (target != null) {
+    let target_vec = new Vec3d(target.getX(), target.getY(), target.getZ());
+    return target_vec.subtract(viewVec);
+  }
 
-    let clip = new $ClipContext(
-        entity.getEyePosition(1),
-        entity.getEyePosition(1).add(entity.getLookAngle().scale(distance)),
-        'collider', 'none',
-        entity
-    );
-    let hit = level.clip(clip);
-    return new Vec3d(hit.getBlockPos().x, hit.getBlockPos().y, hit.getBlockPos().z);
+  let clip = new $ClipContext(
+    entity.getEyePosition(1),
+    entity.getEyePosition(1).add(entity.getLookAngle().scale(distance)),
+    'collider', 'none',
+    entity
+  );
+  let hit = level.clip(clip);
+  return new Vec3d(hit.getBlockPos().x, hit.getBlockPos().y, hit.getBlockPos().z);
 };
 
 // The functions for certain methods with callbacks like onCast can go in a global variable if you want it to be reloadable by using /kubejs reload startup_scripts
@@ -152,6 +164,133 @@ global.terminus_space_fold = (/** @type {Internal.CustomSpell$CastContext} */ ct
   }
   // console.log(`Teleport to ${pos.x()}, ${pos.y()}, ${pos.z()}`);
   // /execute at @p run particle minecraft:reverse_portal ~ ~-1 ~ 0.2 0.4 0.2 0.01 100
-  ctx.level.server.runCommandSilent(`/execute at ${player.uuid} run particle minecraft:portal ${eye_pos.x()} ${eye_pos.y()-1} ${eye_pos.z()} 0.2 0.8 0.2 0.005 100`);
+  ctx.level.server.runCommandSilent(`/execute at ${player.uuid} run particle minecraft:portal ${eye_pos.x()} ${eye_pos.y() - 1} ${eye_pos.z()} 0.2 0.8 0.2 0.005 100`);
   ctx.level.server.runCommandSilent(`/execute at ${player.uuid} run tp ${player.uuid} ${pos.x()} ${pos.y()} ${pos.z()}`);
+};
+
+//
+// Get location for random teleportation
+//
+function get_random_teleport_location(ctx) {
+  if (!ctx.server) return; // Ensure it only runs on the server
+
+  // Ensure config values are numbers and within limits
+  const min_rtp_dist = Math.max(0, global.config.rtp_min_distance || 1000);
+  const max_rtp_dist = Math.min(29999999, global.config.rtp_max_distance || 10000);
+
+  let player = ctx.player;
+  let world = player.level;
+  let worldBorder = world.getWorldBorder();
+  let borderRadius = worldBorder ? worldBorder.getSize() / 2 : 29999999;
+
+  let maxRadius = 0.9 * Math.min(max_rtp_dist, borderRadius);
+  let minRadius = Math.min(min_rtp_dist, maxRadius - 1); // Ensure min < max
+
+  for (let i = 0; i < 10; i++) { // Try 10 times to find a valid position
+    let angle = Math.random() * KMath.PI * 2;
+    let distance = Math.floor(Math.random() * (maxRadius - minRadius) + minRadius);
+
+    let x = Math.round(Math.cos(angle) * distance);
+    let z = Math.round(Math.sin(angle) * distance);
+
+    // Get the correct chunk
+    let chunk = world.getChunk(x >> 4, z >> 4);
+
+    // Get the correct Y level using chunk heightmap
+    let y = chunk.getHeight(Heightmap.Types.WORLD_SURFACE, x & 15, z & 15);
+
+    // Ensure the block is safe
+    let block = world.getBlockState(new BlockPos(x, y - 1, z)).getBlock();
+    if (!block.defaultBlockState().liquid()) { // Ensure it's not water or lava
+      // console.log(`Returning random teleport location: ${x}, ${y}, ${z}`);
+      return { x: x, y: y, z: z };
+    }
+  }
+  console.log('Failed to find a valid teleport location after 10 tries.');
+  return null; // Failed to find a valid position after 10 tries
+};
+
+
+//
+// Ancient Cookie teleportation (old version) (called on eat from startup_scripts/src/item.js)
+//
+// global.ancient_cookie_eaten = (ctx) => {
+//   if (!ctx.server) return; // Ensure it only runs on the server
+//   let player = ctx.player;
+//   let block = get_random_teleport_location(ctx);
+//   if (block) {
+//     player.teleportTo(block.x + 0.5, block.y + 1, block.z + 0.5);
+//     const distance = Math.floor(Math.sqrt(block.x * block.x + block.z * block.z));
+//     player.tell(`The cookie teleported you to ${distance} blocks away from spawn.`);
+//     return;
+//   }
+//   player.tell('Failed to find a safe teleport location after 10 tries. You get your cookie back.');
+//   player.give('bth:ancient_cookie');
+// };
+
+
+//
+// Ancient Cookie teleportation with portal (called on eat from startup_scripts/src/item.js)
+//
+global.ancient_cookie_eaten = (ctx) => {
+  if (!ctx.server) return; // Ensure it only runs on the server
+  const { player, level } = ctx;
+
+  level.server.scheduleInTicks(1, () => {
+    player.tell('Searching target location...');
+  });
+
+  // Generate a random coordinate within a safe range
+  const dest = get_random_teleport_location(ctx);
+  console.log('BTH Ancient Cookie: Random teleport location:', dest);
+  if (dest === null) {
+    player.tell('Failed to find a safe teleport location after 10 tries. You get your cookie back.');
+    player.give('bth:ancient_cookie');
+    ctx.cancel();
+    return;
+  }
+
+  let dest_pos = new BlockPos(dest.x, dest.y, dest.z);
+  let dim = player.level.dimension.toString();
+  let rotation = new Vec2(0, player.getYRot());
+
+  let scroll = Items.get(ResourceLocation.tryParse('ars_nouveau:stable_warp_scroll'));
+  let data = WarpScrollData.get(scroll.itemStack);
+  data.setData(dest_pos, dim, rotation);
+  if (!data.isValid()) {
+    console.log('BTH Ancient Cookie: Invalid warp scroll data!');
+    ctx.cancel();
+    return;
+  }
+
+  // Get direction for the portal. +90 because that's what Ars Nouveau wants.
+  const yaw = player.getYRot();
+  const yaw_rad = yaw * (KMath.PI / 180.0)
+  const direction = Direction.fromYRot(yaw + 90);
+  // Get location for the portal, should be 2 blocks in front of the player.
+  const p = { x: player.getX(), y: player.getY(), z: player.getZ() };
+  const block_pos = {
+    x: Math.floor(p.x - Math.sin(yaw_rad) * 2),
+    y: Math.floor(p.y - 1),
+    z: Math.floor(p.z + Math.cos(yaw_rad) * 2)
+  };
+
+  // Tell Ars to build the portal
+  EventQueue.getServerInstance().addEvent(
+    new BuildPortalEvent(level, new BlockPos(block_pos.x, block_pos.y, block_pos.z), direction, data)
+  );
+
+  // Wait 5 seconds and check if the portal was built. If not, give the item back to the player.
+  let portal_pos = new BlockPos(block_pos.x, block_pos.y + 2, block_pos.z);
+  level.server.scheduleInTicks(100, () => {
+    if (!level.getBlockState(portal_pos).is('ars_nouveau:portal')) {
+      player.tell('Failed to create a portal. You get your cookie back. Ensure that the portal is not blocked.');
+      player.give('bth:ancient_cookie');
+      ctx.cancel();
+    } else {
+      let index = Math.floor(4 * Math.random());
+      player.tell(Text.translate(`item_effect.bth.ancient_cookie_${index}`).gold());
+    }
+  });
+
 };
