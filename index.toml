@@ -5096,7 +5096,7 @@ metafile = true
 
 [[files]]
 file = "mods/lightmans-currency.pw.toml"
-hash = "3975aa582696f1c6929bccd5525b89767293dbf012f029a5a2d5e6574b82ca83"
+hash = "911653384a9153c24c3c71446953f3ca497676872a1a86ded46758a8bb1c9721"
 metafile = true
 
 [[files]]
@@ -5122,6 +5122,11 @@ metafile = true
 [[files]]
 file = "mods/lootjs.pw.toml"
 hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
 metafile = true
 
 [[files]]
