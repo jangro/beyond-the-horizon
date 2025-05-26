@@ -5080,11 +5080,6 @@ hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
 metafile = true
 
 [[files]]
-file = "mods/lcompat.pw.toml"
-hash = "eccdc6c6bff675c06e7f890c62acd983025eab035d4eab7743b8bbd53a663bd2"
-metafile = true
-
-[[files]]
 file = "mods/leaky.pw.toml"
 hash = "636782e1ca59054f196895cbe26218365960dafebb6b3d8f018320847271674a"
 metafile = true
@@ -5702,6 +5697,11 @@ metafile = true
 [[files]]
 file = "mods/visuality-reforged.pw.toml"
 hash = "efa7ab6745c647bd3002a14f88ae4a18c03ac39a2639e91ac3ef94f4f7cce3b7"
+metafile = true
+
+[[files]]
+file = "mods/waystones-and-lightman.pw.toml"
+hash = "75f249cf2cd1d34b9721b132994c68ce01ada452afe6d3315712d5b95b04967f"
 metafile = true
 
 [[files]]
