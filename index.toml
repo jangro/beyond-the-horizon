@@ -4044,7 +4044,7 @@ hash = "d2f92b8bc05b0e3fbf1e9ad3e6e579d4ea8d53c2ae18bffc7739dd2d5c6526d6"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "1bb1d936af9145d29cf6bb1dc849535242b648da2bcb88b07672f85a7ed80476"
+hash = "56ef9d7003ede6f1fea235c0b94650aace27a6d6e70ae62fd5b33f08ccfdcdd8"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"

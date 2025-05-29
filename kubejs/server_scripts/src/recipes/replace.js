@@ -304,6 +304,7 @@ ServerEvents.recipes(event => {
   replaceOutput('bbb:rope', 'supplementaries:rope');
   replaceOutput('farmersdelight:rope', 'supplementaries:rope');
   replaceOutput('createaddition:chocolate_cake', 'neapolitan:chocolate_cake');
+  replaceOutput('incubation:fried_egg', 'farmersdelight:fried_egg');
 
   // Changes in specific recipes.
   replaceInputID('minecraft:copper_ingot', 'minecraft:copper_block', ['minecraft:copper_block', 'minecraft:waxed_copper_block']);
