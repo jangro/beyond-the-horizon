@@ -624,7 +624,7 @@ hash = "dcc8f874decbe4dc0286cde2d95608beed70fff5805e76ae9ba0abcb009cc885"
 
 [[files]]
 file = "config/world-gen.json"
-hash = "98a0f573e167e5311a990316bbae1c7a6187adc857246ffd840270a039cd4dab"
+hash = "ae20481964b28b32d99bf67ecb8bdde881031b66a8d95a8ee594152b480153af"
 
 [[files]]
 file = "defaultconfigs/aether-server.toml"
