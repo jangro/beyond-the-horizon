@@ -128,7 +128,6 @@ ServerEvents.recipes(event => {
     'hostilenetworks:deep_learner',
     'hostilenetworks:sim_chamber',
     'hyperbox:hyperbox',
-    /incubation:fried_egg.*/,
     'integrateddynamics:blasting/menril_log_coal',
     'integrateddynamics:blasting/menril_log_filled_coal',
     'integrateddynamics:smelting/menril_log_coal',

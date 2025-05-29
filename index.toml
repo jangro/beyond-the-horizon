@@ -4040,7 +4040,7 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "d2f92b8bc05b0e3fbf1e9ad3e6e579d4ea8d53c2ae18bffc7739dd2d5c6526d6"
+hash = "c107b069aa32c875f1b7c183636669371f5ff355c080a75aaebf33cfc0fd05f3"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
