@@ -242,10 +242,7 @@
   "item.tetracelium.dummy_knife_blade": "Any Tetra Knife",
 
   "bth.comment.item_effects": "----- Item Effects -----",
-  "item_effect.bth.ancient_cookie_0": "You chipped a tooth while eating the cookie.",
-  "item_effect.bth.ancient_cookie_1": "Tastes a little stale.",
-  "item_effect.bth.ancient_cookie_2": "Crunch.. crunch..",
-  "item_effect.bth.ancient_cookie_3": "This cookie is ancient.",
+  "item_effect.bth.ancient_cookie_eaten": "Your senses sharpen, letting you within seconds see a rift in space that can take you to a faraway place...",
   "item_effect.bth.lembas_bread_0": "You feel the essence of the ancients...",
   "item_effect.bth.lembas_bread_1": "Crunchy on the outside, but soft on the inside.",
   "item_effect.bth.lembas_bread_2": "Not tasty, but healthy!",

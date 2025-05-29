@@ -22,6 +22,11 @@ const Items = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries').
 const Direction = Java.loadClass('net.minecraft.core.Direction');
 
 
+// Load the config file
+const CONFIG_PATH = 'config/bth.json';
+global.config = JsonIO.read(CONFIG_PATH) || { rtp_min_distance: 2000, rtp_max_distance: 10000 };
+
+
 /**
  * Gets the most significant bits of a UUID as a Java $BigInteger.
  * 
@@ -233,39 +238,14 @@ function get_random_teleport_location(ctx) {
 // Ancient Cookie teleportation with portal (called on eat from startup_scripts/src/item.js)
 //
 global.ancient_cookie_eaten = (ctx) => {
-  if (!ctx.server) return; // Ensure it only runs on the server
+  if (!ctx.server) return; // Ensure it only runs on the server.
   const { player, level } = ctx;
 
-  level.server.scheduleInTicks(1, () => {
-    player.tell('Searching target location...');
-  });
+  player.tell(Text.translate('item_effect.bth.ancient_cookie_eaten').gold());
 
-  // Generate a random coordinate within a safe range
-  const dest = get_random_teleport_location(ctx);
-  console.log('BTH Ancient Cookie: Random teleport location:', dest);
-  if (dest === null) {
-    player.tell('Failed to find a safe teleport location after 10 tries. You get your cookie back.');
-    player.give('bth:ancient_cookie');
-    ctx.cancel();
-    return;
-  }
-
-  let dest_pos = new BlockPos(dest.x, dest.y, dest.z);
-  let dim = player.level.dimension.toString();
-  let rotation = new Vec2(0, player.getYRot());
-
-  let scroll = Items.get(ResourceLocation.tryParse('ars_nouveau:stable_warp_scroll'));
-  let data = WarpScrollData.get(scroll.itemStack);
-  data.setData(dest_pos, dim, rotation);
-  if (!data.isValid()) {
-    console.log('BTH Ancient Cookie: Invalid warp scroll data!');
-    ctx.cancel();
-    return;
-  }
-
-  // Get direction for the portal. +90 because that's what Ars Nouveau wants.
-  const yaw = player.getYRot();
+  const yaw = player.yRot; // XXX: getYRot() not available server side.
   const yaw_rad = yaw * (KMath.PI / 180.0)
+  // Get direction for the portal. +90 because that's what Ars Nouveau wants.
   const direction = Direction.fromYRot(yaw + 90);
   // Get location for the portal, should be 2 blocks in front of the player.
   const p = { x: player.getX(), y: player.getY(), z: player.getZ() };
@@ -275,22 +255,42 @@ global.ancient_cookie_eaten = (ctx) => {
     z: Math.floor(p.z + Math.cos(yaw_rad) * 2)
   };
 
-  // Tell Ars to build the portal
-  EventQueue.getServerInstance().addEvent(
-    new BuildPortalEvent(level, new BlockPos(block_pos.x, block_pos.y, block_pos.z), direction, data)
-  );
-
-  // Wait 5 seconds and check if the portal was built. If not, give the item back to the player.
-  let portal_pos = new BlockPos(block_pos.x, block_pos.y + 2, block_pos.z);
-  level.server.scheduleInTicks(100, () => {
-    if (!level.getBlockState(portal_pos).is('ars_nouveau:portal')) {
-      player.tell('Failed to create a portal. You get your cookie back. Ensure that the portal is not blocked.');
+  // Tell the server to build the Ars portal after a short delay so chat messages are sent first.
+  level.server.scheduleInTicks(1, () => {
+    // Generate a random coordinate within a safe range
+    const dest = get_random_teleport_location(ctx);
+    console.log('BTH Ancient Cookie: Random teleport location:', dest);
+    if (dest === null) {
+      player.tell('Failed to find a rift. You get your cookie back, please try again.');
       player.give('bth:ancient_cookie');
       ctx.cancel();
-    } else {
-      let index = Math.floor(4 * Math.random());
-      player.tell(Text.translate(`item_effect.bth.ancient_cookie_${index}`).gold());
+      return;
     }
-  });
 
+    let dest_pos = new BlockPos(dest.x, dest.y, dest.z);
+    let dim = player.level.dimension.toString();
+    let rotation = new Vec2(0, yaw);
+
+    let scroll = Items.get(ResourceLocation.tryParse('ars_nouveau:stable_warp_scroll'));
+    let data = WarpScrollData.get(scroll.itemStack);
+    data.setData(dest_pos, dim, rotation);
+    if (!data.isValid()) {
+      console.log('BTH Ancient Cookie: Invalid warp scroll data!');
+      ctx.cancel();
+      return;
+    }
+
+    EventQueue.getServerInstance().addEvent(
+      new BuildPortalEvent(level, new BlockPos(block_pos.x, block_pos.y, block_pos.z), direction, data)
+    );
+    // Wait 5 seconds and check if the portal was built. If not, give the item back to the player.
+    let portal_pos = new BlockPos(block_pos.x, block_pos.y + 2, block_pos.z);
+    level.server.scheduleInTicks(100, () => {
+      if (!level.getBlockState(portal_pos).is('ars_nouveau:portal')) {
+        player.tell('Failed to create a portal. You get your cookie back. Ensure that the portal is not blocked.');
+        player.give('bth:ancient_cookie');
+        ctx.cancel();
+      }
+    });
+  });
 };

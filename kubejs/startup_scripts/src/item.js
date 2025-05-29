@@ -100,6 +100,7 @@ StartupEvents.registry("item", event => {
         .hunger(0)
         .saturation(0)
         .eaten(ctx => {
+          if (!ctx.server) return; // Ensure it only runs on the server
           global.ancient_cookie_eaten(ctx);
         })
     })
