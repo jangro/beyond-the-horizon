@@ -4016,7 +4016,7 @@ hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
-hash = "fb1a2ebf0dc3da5cc999e22f4ddc251273303d1839f5f46d6dc7b8fe5f8af4d3"
+hash = "e3c45f395bcd7e373614f5b4cca11586fd385370f79531276d303ade95612eca"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/exposure.js"
@@ -4040,7 +4040,7 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "0051397200e8c001b01d2d439c4eee9831f39dacf45ff6a97da5fca9cf9eb6d4"
+hash = "d2f92b8bc05b0e3fbf1e9ad3e6e579d4ea8d53c2ae18bffc7739dd2d5c6526d6"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -4056,7 +4056,7 @@ hash = "6fa8f4ad8b1ea78487ea1d1f9330ce10ec10d48da79318aa6510e8064deb4f2b"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"
-hash = "267e0ef9dd85a158c6336d9851dc753c47583e4dabadc99e7d0e30d2e751d916"
+hash = "3727d0c0de3c81dbc4b4b387bff8c4ca57df51d59147237501d6dd1e401ca8ec"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smithing.js"

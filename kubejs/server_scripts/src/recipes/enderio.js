@@ -36,6 +36,24 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}alloy_smelting/cake_base`);
 
+  // Replace incubation fried egg output with farmer's delight fried egg
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 2000,
+    "experience": 0.1,
+    "inputs": [
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:eggs"
+        }
+      }
+    ],
+    "result": {
+      "item": "farmersdelight:fried_egg"
+    }
+  }).id(`${ID_PREFIX}alloy_smelting/fried_egg`);
+
   // The output replacement doesn't work for alloy furnace so remove and re-add uranium smelting recipes
   // TODO: schema for alloy furnace and sagmill
   event.custom({
