@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
   replaceInput('nethersdelight:blackstone_furnace', ['minecraft:furnace', 'quark:blackstone_furnace', 'quark:deepslate_furnace']);
 
   // Make the alchemist cauldron more accessible
-  replaceInputID('irons_spellbooks:alchemist_cauldron', 'irons_spellbooks:cinder_essence', 'irons_spellbooks:arcane_essence');
+  replaceInputID('irons_spellbooks:alchemist_cauldron', 'irons_spellbooks:cinder_essence', 'minecraft:blaze_powder');
 
   // ----- Output Unification -----
 
