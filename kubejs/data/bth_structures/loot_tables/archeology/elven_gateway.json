@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "lightmanscurrency:ancient_coin",
+          "coin": "COPPER",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_earth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:rune_fire"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "botania:thorn_chakram"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "bth_structures:archeology/elven_gateway"
+}

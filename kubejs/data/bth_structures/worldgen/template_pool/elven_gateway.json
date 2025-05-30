@@ -1,0 +1,13 @@
+{
+    "name": "bth_structures:elven_gateway",
+    "fallback": "minecraft:empty",
+    "elements": [{
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "location": "bth_structures:elven_gateway",
+            "processors": "bth_structures:elven_gateway",
+            "projection": "rigid"
+        }
+    }]
+}

@@ -1287,6 +1287,10 @@ file = "kubejs/data/bth/worldgen/structure_set/meadow.json"
 hash = "41a5afbffa9b2e03b3d6810c9c303517ece4cad8426eb1e04c47955390f303d0"
 
 [[files]]
+file = "kubejs/data/bth/worldgen/structure_set/meneglin.json"
+hash = "5e94b3339107bba52cef47b5193466d6b8ff8af3784b2428a91a6929d73bbf4c"
+
+[[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
 hash = "bba31a86f89ef1d3df42a28911eecf9b12e80a1b20654c74c1665f224661b4c7"
 
@@ -1331,6 +1335,10 @@ file = "kubejs/data/bth_structures/loot_tables/archeology/dw20.json"
 hash = "641224db0401101ccdf1cf55a63a44f79e2e6dfb809a3fc27ee919e10da0517c"
 
 [[files]]
+file = "kubejs/data/bth_structures/loot_tables/archeology/elven_gateway.json"
+hash = "f58a182d65fa5279cb0ac88e736ee8177c74a499ade4cbb03953053ea97feaad"
+
+[[files]]
 file = "kubejs/data/bth_structures/loot_tables/archeology/hangar.json"
 hash = "a0c67797e80b76b47e7d56851c2afb4a3203716d838d74c325d8f51883290387"
 
@@ -1353,6 +1361,10 @@ hash = "ed52f86f688d7e2e0d30a4248648f96b9d2649c1e94f1b818ea9366b5fa3cb49"
 [[files]]
 file = "kubejs/data/bth_structures/structures/dw20.nbt"
 hash = "93424b291d257e200aafab090de3cf6744877a8e033b2a9020b1e0c1df1f4f3a"
+
+[[files]]
+file = "kubejs/data/bth_structures/structures/elven_gateway.nbt"
+hash = "ce7b66f99abe230a33045a634f602ef1a7234f41137a987fe1ddae66132e0e90"
 
 [[files]]
 file = "kubejs/data/bth_structures/structures/magician_house/basement.nbt"
@@ -1415,6 +1427,10 @@ file = "kubejs/data/bth_structures/worldgen/processor_list/dw20.json"
 hash = "57df3ba8fa69f6cba05ec691296ec7d2e9e93a51bfe661b64352268aeeafadb6"
 
 [[files]]
+file = "kubejs/data/bth_structures/worldgen/processor_list/elven_gateway.json"
+hash = "799abaf4eb7ceb9006cde756ffc3e5dc0f0ea28d555628cda0cf3593c70cf7da"
+
+[[files]]
 file = "kubejs/data/bth_structures/worldgen/processor_list/hangar.json"
 hash = "4bedf1c2f1ab25774718c322df1031605efaa4e0450413cedb8622778d978a1f"
 
@@ -1441,6 +1457,10 @@ hash = "9315fb6455c26df453d4f722b5a1d7c3610c1c2cd109df5ae441075f0e849135"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/dw20.json"
 hash = "c3a2a94a30bb5a16853945f5bc6c335cc0307c87e486dcc3e051d777d0053ea0"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/structure/elven_gateway.json"
+hash = "1f29ab468d029c2fe8355623e7f9d541ed896c0ea188749e722950329a10a24a"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/structure/magician_house.json"
@@ -1541,6 +1561,10 @@ hash = "696d01272538d90f888f40dfc3e7ea1e4c48605fbdff82ae0034d832d05fcf39"
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/dw20.json"
 hash = "86432355394891c233bdbbe54417a8a13757ce74b5a2d07f2ffc02032d8a1df8"
+
+[[files]]
+file = "kubejs/data/bth_structures/worldgen/template_pool/elven_gateway.json"
+hash = "931b491e941039d32b5f7545928174469b568edf3e3502eb2eae769fd93b82d7"
 
 [[files]]
 file = "kubejs/data/bth_structures/worldgen/template_pool/magician_house/basement.json"
@@ -3960,7 +3984,7 @@ hash = "9723fe8a237ab87f98511add9df90892b6cf6a7f086292313ed15d258734d755"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/chests.js"
-hash = "f389a6d362a9bd10d3fbaad90574efaf7b2a218d01cd35be11fd7b3f86eae0b6"
+hash = "c5a8743e3c521289751b43eca08198bf63e7df51ab63c18b2a2d20f095d86a1f"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/coins.js"
@@ -3968,7 +3992,7 @@ hash = "3d80bde43c13dd4bf579ac59ff7144583803162b6a186ced88a8a62c9db75187"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/constants.js"
-hash = "229042054a2fab33e60499a1e4b005726c4b04c1575de5a8a788d5a3ea34f83e"
+hash = "38bd188a8b119d3e56908be6f30154a9264fa6ae615f25a118da79326a0707c9"
 
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/generic.js"

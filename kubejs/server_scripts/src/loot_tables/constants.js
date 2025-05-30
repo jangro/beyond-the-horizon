@@ -169,6 +169,11 @@ const BTH_WAGON_MAP =
            display:{Name:\'{"translate":"filled_map.bth_structures_wagon"}\'},maxSearchRadius:100,skinKnown:1b,\
            targetStructure:"bth_structures:wagon",zoomLevel:2}');
 
+const BTH_ELVEN_GATEWAY_MAP =
+  Item.of('supplementaries:cartographers_quill', '{decoration:"filled_map.bth_structures_elven_gateway",\
+           display:{Name:\'{"translate":"filled_map.bth_structures_elven_gateway"}\'},maxSearchRadius:100,skinKnown:1b,\
+           targetStructure:"bth_structures:elven_gateway",zoomLevel:2}');
+
 const DESERT_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:desert",targetBiomeColor:8381695,targetBiomeUnderground:0b}');
 const FLOWER_FOREST_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:flower_forest",targetBiomeColor:ffff00,targetBiomeUnderground:0b}');
 const SNOWY_PLAINS_MAP = Item.of('quark:pathfinders_quill', '{targetBiome:"minecraft:snowy_plains",targetBiomeColor:ffffff,targetBiomeUnderground:0b}');
@@ -280,6 +285,7 @@ const COIN_LOOT_MEDIUM = [
   'betterfortresses:chests/extra',
   'betterfortresses:chests/obsidian',
   'betterfortresses:chests/quarters',
+  'bth_structures:chests/elven_gateway/tree',
   'bth_structures:chests/tower_top',
   'bth_structures:chests/watch_tower_top',
   'galosphere:chests/pink_salt_shrine',

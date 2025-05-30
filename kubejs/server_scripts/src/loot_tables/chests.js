@@ -48,6 +48,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
       pool.addItem(BTH_TINKERER_HOUSE_MAP);
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
   });
 
@@ -57,6 +58,39 @@ ServerEvents.chestLootTables(event => {
     });
     table.addPool(pool => {
       pool.addItem(HAZE_MOUNTAIN_MAP);
+    });
+  });
+
+  event.modify('bth_structures:elven_gateway/ground', table => {
+    table.addPool(pool => {
+      pool.rolls = [4, 8];
+      pool.addItem('botania:manasteel_shears', 10);
+      pool.addItem('botania:marimorphosis_chibi', 10);
+      pool.addItem('botania:crafting_halo', 10);
+      pool.addItem('quark:ancient_sapling', 10);
+      pool.addItem('bth:mallorn_leaf', 10, [1, 3]);
+      pool.addItem('botania:manasteel_helmet', 3);
+      pool.addItem('botania:manasteel_chestplate', 3);
+      pool.addItem('botania:manasteel_leggings', 3);
+      pool.addItem('botania:manasteel_boots', 3);
+      pool.addItem('botania:manasteel_pickaxe', 5);
+      pool.addItem('botania:cosmetic_ancient_mask', 5);
+    });
+  });
+
+  event.modify('bth_structures:elven_gateway/tree', table => {
+    table.addPool(pool => {
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.3);
+    });
+    table.addPool(pool => {
+      pool.addItem('bth:lembas_bread', 1, [1, 3]);
+    });
+    table.addPool(pool => {
+      pool.addItem(BTH_RUINED_HANGAR_MAP);
+      pool.addItem(BTH_MAGICIAN_HOUSE_MAP);
+      pool.addItem(BTH_TINKERER_HOUSE_MAP);
+      pool.addItem(BTH_BATTLE_GROUNDS_MAP);
+      pool.addItem(BTH_DW20_MAP);
     });
   });
 
@@ -150,6 +184,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
   });
 
@@ -170,6 +205,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
   });
 
@@ -215,6 +251,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
   });
 
@@ -262,6 +299,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
     table.addPool(pool => {
       pool.addItem('minecraft:spyglass').randomChance(0.5);
@@ -297,6 +335,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
     table.addPool(pool => {
       pool.addItem('minecraft:spyglass');
@@ -384,6 +423,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
   });
 
@@ -409,6 +449,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem(BTH_BATTLE_GROUNDS_MAP);
       pool.addItem(BTH_DW20_MAP);
       pool.addItem(BTH_WAGON_MAP);
+      pool.addItem(BTH_ELVEN_GATEWAY_MAP);
     });
   });
 
