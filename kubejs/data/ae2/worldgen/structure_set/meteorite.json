@@ -6,9 +6,5 @@
     "separation": 16
   },
   "structures": [
-    {
-      "structure": "ae2:meteorite",
-      "weight": 1
-    }
   ]
 }

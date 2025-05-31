@@ -21,6 +21,10 @@
       "weight": 1
     },
     {
+      "structure": "bth_structures:tinkerer_house",
+      "weight": 1
+    },
+    {
       "structure": "bth_structures:tower_forest",
       "weight": 1
     },

@@ -27,7 +27,6 @@ ServerEvents.tags('worldgen/structure', event => {
   event.add('bth:common', [
     'bth_structures:aether_portal_floating',
     'bth_structures:aether_portal_framed',
-    'bth_structures:dw20',
     'bth_structures:elven_gateway',
     'bth_structures:magician_house',
     'bth_structures:ruined_hangar',
@@ -40,7 +39,6 @@ ServerEvents.tags('worldgen/structure', event => {
     'graveyard:medium_graveyard',
     'graveyard:mushroom_grave',
     'graveyard:small_graveyard',
-    'idas:ancient_mines',
     'idas:animal_den/forest_den',
     'idas:animal_den/polar_bear_den',
     'idas:apothecary_abode',
@@ -62,11 +60,22 @@ ServerEvents.tags('worldgen/structure', event => {
     'idas:redhorn_guild',
     'idas:witches_treestump',
     'idas:wizard_tower',
-    'nebulusoaktree:oak_tree',
+    'irons_spellbooks:mangrove_hut',
+    'irons_spellbooks:mountain_tower',
     'valhelsia_structures:big_tree',
     'valhelsia_structures:castle',
     'valhelsia_structures:forge',
     'valhelsia_structures:spawner_dungeon',
+  ]);
+
+  event.add('bth:uncommon', [
+    'bth_structures:dw20',
+    'idas:ancient_mines',
+    'irons_spellbooks:catacombs',
+    'irons_spellbooks:evoker_fort',
+    'irons_spellbooks:impaled_icebreaker',
+    'irons_spellbooks:pyromancer_tower',
+    'nebulusoaktree:oak_tree',
   ]);
 
   event.add('bth:rare', [

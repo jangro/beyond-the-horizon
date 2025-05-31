@@ -1,14 +1,6 @@
 {
   "structures": [
     {
-      "structure": "bth_structures:battle_grounds",
-      "weight": 2
-    },
-    {
-      "structure": "bth_structures:tinkerer_house",
-      "weight": 2
-    },
-    {
       "structure": "idas:ars_nouveau/archmages_tower",
       "weight": 2
     },

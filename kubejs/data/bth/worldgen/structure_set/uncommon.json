@@ -1,15 +1,31 @@
 {
   "structures": [
     {
+      "structure": "ae2:meteorite",
+      "weight": 1
+    },
+    {
+      "structure": "ars_nouveau:hunter_wilden_den",
+      "weight": 1
+    },
+    {
+      "structure": "ars_nouveau:guardian_wilden_den",
+      "weight": 25
+    },
+    {
+      "structure": "ars_nouveau:stalker_wilden_den",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:battle_grounds",
+      "weight": 1
+    },
+    {
       "structure": "bth_structures:dw20",
       "weight": 1
     },
     {
       "structure": "idas:ancient_mines",
-      "weight": 1
-    },
-    {
-      "structure": "irons_spellbooks:catacombs",
       "weight": 1
     },
     {
