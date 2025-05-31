@@ -54,7 +54,7 @@ ServerEvents.chestLootTables(event => {
 
   event.modify('bth_structures:dw20/hidden', table => {
     table.addPool(pool => {
-      pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.3);
     });
     table.addPool(pool => {
       pool.addItem(HAZE_MOUNTAIN_MAP);
@@ -63,18 +63,37 @@ ServerEvents.chestLootTables(event => {
 
   event.modify('bth_structures:elven_gateway/ground', table => {
     table.addPool(pool => {
-      pool.rolls = [4, 8];
-      pool.addItem('botania:manasteel_shears', 10);
-      pool.addItem('botania:marimorphosis_chibi', 10);
-      pool.addItem('botania:crafting_halo', 10);
-      pool.addItem('quark:ancient_sapling', 10);
-      pool.addItem('bth:mallorn_leaf', 10, [1, 3]);
-      pool.addItem('botania:manasteel_helmet', 3);
-      pool.addItem('botania:manasteel_chestplate', 3);
-      pool.addItem('botania:manasteel_leggings', 3);
-      pool.addItem('botania:manasteel_boots', 3);
-      pool.addItem('botania:manasteel_pickaxe', 5);
-      pool.addItem('botania:cosmetic_ancient_mask', 5);
+      pool.addItem('botania:manasteel_shears');
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:marimorphosis_chibi');
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:crafting_halo');
+    });
+    table.addPool(pool => {
+      pool.addItem('quark:ancient_sapling');
+    });
+    table.addPool(pool => {
+      pool.addItem('bth:mallorn_leaf', 1, [1, 3]);
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:manasteel_helmet', 1).randomChance(0.25);
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:manasteel_chestplate', 1).randomChance(0.25);
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:manasteel_leggings', 1).randomChance(0.25);
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:manasteel_boots', 1).randomChance(0.25);
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:manasteel_pickaxe', 1).randomChance(0.5);
+    });
+    table.addPool(pool => {
+      pool.addItem('botania:cosmetic_ancient_mask', 1).randomChance(0.5);
     });
   });
 
@@ -216,7 +235,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('minecraft:cobweb');
     });
     table.addPool(pool => {
-      pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.3);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_MAP);
@@ -277,7 +296,7 @@ ServerEvents.chestLootTables(event => {
       pool.addItem('paraglider:stamina_vessel').randomChance(0.8);
     });
     table.addPool(pool => {
-      pool.addItem('bth:adventurers_spell_book').randomChance(0.5);
+      pool.addItem('bth:adventurers_spell_book').randomChance(0.3);
     });
     table.addPool(pool => {
       pool.addItem(DESERT_MAP);
