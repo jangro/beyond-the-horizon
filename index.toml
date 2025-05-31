@@ -3543,6 +3543,10 @@ file = "kubejs/data/minecraft/loot_tables/gameplay/fishing.json"
 hash = "5bd43fd7b5f28760f533b800704c63f338780b8f9259ca5e87aba318a2f06c03"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_tables/gameplay/piglin_bartering.json"
+hash = "5032378a13b8aa5212e287a52404d8c8cdd6c5e940813c61c4c427a4f536093f"
+
+[[files]]
 file = "kubejs/data/minecraft/moonlight/villager_trades/wandering_trader/flax.json"
 hash = "6ae122dc64ff4425631d7b47d30d1dd4f42ce418e23d43181f578704202b652b"
 
