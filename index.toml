@@ -508,7 +508,7 @@ hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
 
 [[files]]
 file = "config/nohostilesaroundcampfire.json5"
-hash = "a97e2810285f463d5613987db6abf549fc1ec7bee4e717d2700aabc4d8e324a8"
+hash = "8f2f00160510f6ca6cb0c7c4cfa03a612be880580aca0f7ecbc217c6424f0a59"
 
 [[files]]
 file = "config/nyctophobia-common.toml"
