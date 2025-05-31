@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Cinder essence and nether cheese to piglin bartering.
 - Elven Gateway structure (generates in meneglin and jungle biomes).
 - Fungyss trade for wandering trader.
 - Information pane for Supplementaries urn.
