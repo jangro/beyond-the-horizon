@@ -23,7 +23,7 @@
   "InvertedBlockLightChecking": false,
   "InvertedSkyLightChecking": false,
   "mobFilter": "(\\bminecraft:enderman\\b)|(\\bminecraft:slime\\b)|(\\bminecraft:phantom\\b)|(\\bminecraft:vindicator\\b)|(\\bminecraft:evoker\\b)|(\\bminecraft:pillager\\b)|(\\bminecraft:illusioner\\b)|(\\bupgrade_aquatic:great_thrasher\\b)|(\\bupgrade_aquatic:thrasher\\b)|(\\balexsmobs:skelewag\\b)|(\\brats:black_death\\b)",
-  "dimensionFilter": "(\\bminecraft:the_end\\b)|(\\bminecraft:the_nether\\b)",
+  "dimensionFilter": "(\\bminecraft:the_end\\b)|(\\bminecraft:the_nether\\b)|(\\baether:the_aether\\b)|(\\brats:ratlantis\\b)",
   "biomeFilter": "(\\bminecraft:plains\\b)",
   "LightLevel": 0,
   "Altitude": 60,
