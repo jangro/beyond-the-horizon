@@ -20,7 +20,7 @@ hash = "12fc93a8fcc7b46ab3bde326e939688136365232d3fafaaed767dba2fe4ecbb1"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
-hash = "5f8b4733d3bfbb46f86c3abc61a5104b55e2a26f7d1cdd559cba02f03973fa52"
+hash = "e6c4aadd963db680a843b96f8867dc9b3b0f9f2af5ad5db21fa3d35703607e5b"
 
 [[files]]
 file = "config/Plushie_Buddies-Common.toml"
@@ -508,7 +508,7 @@ hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
 
 [[files]]
 file = "config/nohostilesaroundcampfire.json5"
-hash = "8f2f00160510f6ca6cb0c7c4cfa03a612be880580aca0f7ecbc217c6424f0a59"
+hash = "f0f0b284aa5af5fd51663342532b6247a6f1cb3a6dabccc1827b9935718174e0"
 
 [[files]]
 file = "config/nyctophobia-common.toml"
@@ -876,7 +876,7 @@ hash = "48462b68452ec88cee27b58a63682185a683de916cf30f334b084259390f9bad"
 
 [[files]]
 file = "kubejs/data/ae2/worldgen/structure_set/meteorite.json"
-hash = "fb48c07de5cfd8136221e012e2e4f584c038e874d25c1594baf05d7a5ebd27d3"
+hash = "491050b6ccc0a1f44f1f3435a327db52ceb0046cc52934a32a030a3e889afc8b"
 
 [[files]]
 file = "kubejs/data/aether/worldgen/biome/skyroot_forest.json"
@@ -985,6 +985,10 @@ hash = "5d1a1f86f81e448a1ba98bfa1115e2656deb06e17e46088c49dc251640eaafd8"
 [[files]]
 file = "kubejs/data/ars_nouveau/worldgen/placed_feature/placed_mixed_archwoods.json"
 hash = "8cd225d1ec4bac9cafff0c15671a585bc2ecdaa7ab3a175e08130ec4ea50a601"
+
+[[files]]
+file = "kubejs/data/ars_nouveau/worldgen/structure_set/wilden_den_set.json"
+hash = "9dfb939c63c3750be8425336e4abd1bca36113adc2ee45c5ea71ca0b51acf1a2"
 
 [[files]]
 file = "kubejs/data/betterdeserttemples/advancements/temple_clear.json"
@@ -1280,7 +1284,7 @@ hash = "67be7944803868c2406dd22a0565d8be69abf3a997d1a82b15de6c5304df4cb3"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
-hash = "8e4d9d852710f84e79e56814dd1cacd6ce755dd468fe348b41966879ac6fdac1"
+hash = "fc6c7485f9efe4c5750237eb35de3b81c5bc7c88e87d7fd09dfa6c77bed03e3c"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
@@ -1288,7 +1292,7 @@ hash = "d1563027df0b129a250bb83797c43a6ecdfc1838864f6ea98b1c6b9bbd47d2fa"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "3e2d917691aa757fb061a1f1a6cdb2f6a9a749b02daa70743f47d9029c6dd08f"
+hash = "076951c6fa17f71e4abea6c13f02448935820a089e08ac8235ded04761a345bf"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"
@@ -1300,7 +1304,7 @@ hash = "a68baa5ff3e8d224d117e70193ec538a3a6a634479e418c70a56ccb731d8eae5"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/uncommon.json"
-hash = "6616bcce47679269f5e97005189260547c473c53d5686fe6155c40fea3b581ea"
+hash = "a88afdb011e9411828ad9f6700746e7f9f6badb8ef3dd8d88a0bdaa79a2a7452"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/villages.json"
@@ -3455,10 +3459,6 @@ file = "kubejs/data/incendium/advancements/misc/root.json"
 hash = "f9578f30a87a47dfe05bb19443ddbbda1af10bca034c08f9f398222e45d341bb"
 
 [[files]]
-file = "kubejs/data/irons_spellbooks/worldgen/structure_set/catacombs.json"
-hash = "92f9e97e66bef89dff5b39e32c1c83717b036d18f2696d605e776711e9cc3c1d"
-
-[[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/structure_set/evoker_fort.json"
 hash = "fa1d1ba2db8e7420572920eca405831ba558b48cd6f8451e3a98f744f718b8c0"
 
@@ -3988,7 +3988,7 @@ hash = "0ee520e8ad3abb8c1330c6b1e6aeb19a04046b4d03b9e72f912013f4ed79192a"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
-hash = "0775b4b879cce5d29a80f4d77cee14a3cf7816771dcd98130a6f500e0f3fbb23"
+hash = "fdd6189f8901845c19a9d95e4ac307f285734551f6a34395f86397a58955ed8a"
 
 [[files]]
 file = "kubejs/startup_scripts/src/block.js"
