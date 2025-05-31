@@ -2,6 +2,53 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2] - 2025-05-31
+
+### Added
+
+- Elven Gateway structure (generates in meneglin and jungle biomes).
+- Fungyss trade for wandering trader.
+- Information pane for Supplementaries urn.
+- Lunch basket to food & health quest book page.
+- Many Create mixing recipes (mostly Ender IO compat).
+- New custom music disc.
+- Recipe to turn swamp daisies into dye.
+- Runic deepslate ore distribution data.
+- Several new Create milling recipes.
+- Some EnderIO Alloys to IE alloy kiln.
+- Various missing information and recipes to JEI.
+
+- Mods
+  - abnormals_delight-1.20.1-5.0.0
+  - lootr-forge-1.20-0.7.35.91. Disabled by default. Edit config/lootr-common.toml server side to enable.
+
+### Changed
+
+- Allow Blazing Bamboo to have growth accelerated via AE2.
+- Ancient cookie opens a portal instead of teleporting the player.
+- Disable jukebox upgrade for mobs that spawn with backpack.
+- Exclude Ratlantis and The Aether from peaceful surface mod.
+- Fix Alchemist Cauldron and Firefly Jar not showing in JEI.
+- Fix disable rooted boots artifact gamerule.
+- Fix Eye of the Storm segments dropping shader bags.
+- Fix default keepWallet default gamerule.
+- Fix default no firetick gamerule.
+- Fix sol valheim overlay collision.
+- Improve Furnace / Blast Furnace / Smelter recipe compatibility.
+- Limit idas ancient nether portal to ash barrens biome.
+- Major overhaul to structure sets to improve structure placement and avoid collisions.
+- Make cake slices, pancakes and carrat rats work with SoL Valheim.
+- Make it so you can sneak-right click with lunch basket to cycle food.
+- Prevent breaking a Clibano Furnace from crashing the game.
+- Prevent mobs from burning near campfires.
+- Replace cinder essence with blaze powder in alchemist cauldron recipe.
+- Replace incubation fried egg with farmersdelight in EnderIO recipes.
+
+- Mods updated
+  - DistantHorizons-fabric-forge-2.3.2-b-1.20.1
+
+And many more minor fixes and improvements.
+
 ## [1.1] - 2025-03-12
 
 ### Added
