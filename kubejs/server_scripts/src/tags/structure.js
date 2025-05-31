@@ -24,6 +24,90 @@ ServerEvents.tags('worldgen/structure', event => {
     'bth_structures:tower_frozen_skylands_winter',
   ]);
 
+  event.add('bth:common', [
+    'bth_structures:aether_portal_floating',
+    'bth_structures:aether_portal_framed',
+    'bth_structures:dw20',
+    'bth_structures:elven_gateway',
+    'bth_structures:magician_house',
+    'bth_structures:ruined_hangar',
+    'bth_structures:tower_forest',
+    'bth_structures:tower_frozen',
+    'bth_structures:tower_scarlet',
+    'bth_structures:wagon',
+    'graveyard:dead_tree',
+    'graveyard:haunted_house',
+    'graveyard:medium_graveyard',
+    'graveyard:mushroom_grave',
+    'graveyard:small_graveyard',
+    'idas:ancient_mines',
+    'idas:animal_den/forest_den',
+    'idas:animal_den/polar_bear_den',
+    'idas:apothecary_abode',
+    'idas:bearclaw_inn',
+    'idas:beekeepers_house',
+    'idas:brickhouse',
+    'idas:castle',
+    'idas:cottage',
+    'idas:desert_market/desert_market',
+    'idas:desert_market/desert_market_red',
+    'idas:dig_site/dig_site',
+    'idas:enchantingtower',
+    'idas:farmhouse',
+    'idas:fishermans_lodge',
+    'idas:frozen_crypt',
+    'idas:hermits_hollow',
+    'idas:hunters_cabin',
+    'idas:pillager_camp',
+    'idas:redhorn_guild',
+    'idas:witches_treestump',
+    'idas:wizard_tower',
+    'nebulusoaktree:oak_tree',
+    'valhelsia_structures:big_tree',
+    'valhelsia_structures:castle',
+    'valhelsia_structures:forge',
+    'valhelsia_structures:spawner_dungeon',
+  ]);
+
+  event.add('bth:rare', [
+    'bth_structures:battle_grounds',
+    'bth_structures:tinkerer_house',
+    'idas:ars_nouveau/archmages_tower',
+    'idas:bazaar',
+    'idas:desert_pyramid',
+    'idas:dig_site/dig_site_desert',
+    'idas:labyrinth',
+    'idas:pillager_fortress',
+    'idas:ruins_of_the_deep',
+    'idas:tinkers_citadel',
+    'idas:tinkers_workshop',
+    'idas:train_ruins',
+    'idas:tree_of_wisdom',
+    'idas:treetop_tavern',
+    'idas:winter_wagon',
+    'minecolonies:amazon_camp',
+    'minecolonies:barbarian_camp',
+    'minecolonies:desert_camp',
+    'minecolonies:ship',
+  ]);
+
+  event.add('bth:submerged', [
+    'betteroceanmonuments:ocean_monument',
+    'idas:sunken_ship/sunken_ship',
+    'seavil:undersea_village',
+  ]);
+
+  event.add('bth:skylands', [
+    'bth:skylands_abandoned_farm',
+    'bth:skylands_brickhouse',
+    'bth:skylands_cottage',
+    'bth:skylands_polar_den',
+    'bth_structures:tower_forest_skylands_autumn',
+    'bth_structures:tower_forest_skylands_spring',
+    'bth_structures:tower_forest_skylands_summer',
+    'bth_structures:tower_frozen_skylands_winter',
+  ]);
+
   event.add('bth:in_spooky', [
     'graveyard:dead_tree',
     'graveyard:haunted_house',
@@ -57,14 +141,6 @@ ServerEvents.tags('worldgen/structure', event => {
     'idas:hunters_cabin',
     'valhelsia_structures:forge',
   ]);
-
-  // event.add('bth:in_dark_forest', [
-  //   'bth_structures:magician_house',
-  //   'graveyard:has_structure/mushroom_grave',
-  //   'idas:pillager_camp',
-  //   'idas:witches_treestump',
-  //   'idas:wizard_tower',
-  // ]);
 
   event.add('bth:camps', [
     'idas:lumber_camp/lumber_camp_acacia',
@@ -226,13 +302,6 @@ ServerEvents.tags('worldgen/structure', event => {
     'towns_and_towers:exclusives/village_iberian',
     'towns_and_towers:exclusives/village_nilotic',
     'towns_and_towers:exclusives/village_piglin',
-  ]);
-
-  event.add('bth:submerged', [
-    'betteroceanmonuments:ocean_monument',
-    'seavil:undersea_village',
-    'idas:sunken_ship/sunken_ship',
-    'idas:sunken_ship/sunken_ship_coral',
   ]);
 
   // Minecraft Tags

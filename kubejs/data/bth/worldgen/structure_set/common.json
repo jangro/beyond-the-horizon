@@ -1,0 +1,196 @@
+{
+  "structures": [
+    {
+      "structure": "bth_structures:aether_portal_floating",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:aether_portal_framed",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:dw20",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:elven_gateway",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:magician_house",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:ruined_hangar",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_forest",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_frozen",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_scarlet",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:wagon",
+      "weight": 1
+    },
+    {
+      "structure": "graveyard:dead_tree",
+      "weight": 1
+    },
+    {
+      "structure": "graveyard:haunted_house",
+      "weight": 1
+    },
+    {
+      "structure": "graveyard:medium_graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "graveyard:mushroom_grave",
+      "weight": 1
+    },
+    {
+      "structure": "graveyard:small_graveyard",
+      "weight": 1
+    },
+    {
+      "structure": "idas:ancient_mines",
+      "weight": 1
+    },
+    {
+      "structure": "idas:animal_den/forest_den",
+      "weight": 1
+    },
+    {
+      "structure": "idas:animal_den/polar_bear_den",
+      "weight": 1
+    },
+    {
+      "structure": "idas:apothecary_abode",
+      "weight": 1
+    },
+    {
+      "structure": "idas:bearclaw_inn",
+      "weight": 1
+    },
+    {
+      "structure": "idas:beekeepers_house",
+      "weight": 1
+    },
+    {
+      "structure": "idas:brickhouse",
+      "weight": 1
+    },
+    {
+      "structure": "idas:castle",
+      "weight": 1
+    },
+    {
+      "structure": "idas:cottage",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_market/desert_market",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_market/desert_market_red",
+      "weight": 1
+    },
+    {
+      "structure": "idas:dig_site/dig_site",
+      "weight": 1
+    },
+    {
+      "structure": "idas:enchantingtower",
+      "weight": 1
+    },
+    {
+      "structure": "idas:farmhouse",
+      "weight": 1
+    },
+    {
+      "structure": "idas:fishermans_lodge",
+      "weight": 1
+    },
+    {
+      "structure": "idas:frozen_crypt",
+      "weight": 1
+    },
+    {
+      "structure": "idas:hermits_hollow",
+      "weight": 1
+    },
+    {
+      "structure": "idas:hunters_cabin",
+      "weight": 1
+    },
+    {
+      "structure": "idas:pillager_camp",
+      "weight": 1
+    },
+    {
+      "structure": "idas:redhorn_guild",
+      "weight": 1
+    },
+    {
+      "structure": "idas:witches_treestump",
+      "weight": 1
+    },
+    {
+      "structure": "idas:wizard_tower",
+      "weight": 1
+    },
+    {
+      "structure": "nebulusoaktree:oak_tree",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:big_tree",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:castle",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:forge",
+      "weight": 1
+    },
+    {
+      "structure": "valhelsia_structures:spawner_dungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 44805996,
+    "spacing": 40,
+    "separation": 30,
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+      {
+        "chunk_count": 4,
+        "other_set": "bth:camps"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:rare"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:pillager_outposts"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:villages"
+      }
+    ]
+  }
+}

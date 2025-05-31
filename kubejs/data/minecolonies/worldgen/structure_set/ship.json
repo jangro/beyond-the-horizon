@@ -1,9 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "minecolonies:ship",
-      "weight": 1
-    }
   ],
   "placement": {
     "salt": 1225566777,

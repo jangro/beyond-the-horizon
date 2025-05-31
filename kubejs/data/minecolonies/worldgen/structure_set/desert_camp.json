@@ -1,9 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "minecolonies:desert_camp",
-      "weight": 1
-    }
   ],
   "placement": {
     "salt": 1223366777,

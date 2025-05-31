@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "bth:skylands_abandoned_farm",
+      "weight": 1
+    },
+    {
+      "structure": "bth:skylands_polar_den",
+      "weight": 1
+    },
+    {
+      "structure": "bth:skylands_cottage",
+      "weight": 1
+    },
+    {
+      "structure": "bth:skylands_brickhouse",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_forest_skylands_autumn",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_forest_skylands_spring",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_forest_skylands_summer",
+      "weight": 1
+    },
+    {
+      "structure": "bth_structures:tower_frozen_skylands_winter",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 121931326,
+    "spacing": 25,
+    "separation": 15
+  }
+}

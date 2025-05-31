@@ -1,9 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "minecolonies:amazon_camp",
-      "weight": 1
-    }
   ],
   "placement": {
     "salt": 1223366777,

@@ -1,0 +1,104 @@
+{
+  "structures": [
+    {
+      "structure": "bth_structures:battle_grounds",
+      "weight": 2
+    },
+    {
+      "structure": "bth_structures:tinkerer_house",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ars_nouveau/archmages_tower",
+      "weight": 2
+    },
+    {
+      "structure": "idas:bazaar",
+      "weight": 2
+    },
+    {
+      "structure": "idas:desert_pyramid",
+      "weight": 2
+    },
+    {
+      "structure": "idas:dig_site/dig_site_desert",
+      "weight": 2
+    },
+    {
+      "structure": "idas:labyrinth",
+      "weight": 2
+    },
+    {
+      "structure": "idas:pillager_fortress",
+      "weight": 2
+    },
+    {
+      "structure": "idas:ruins_of_the_deep",
+      "weight": 2
+    },
+    {
+      "structure": "idas:tinkers_citadel",
+      "weight": 2
+    },
+    {
+      "structure": "idas:tinkers_workshop",
+      "weight": 2
+    },
+    {
+      "structure": "idas:train_ruins",
+      "weight": 2
+    },
+    {
+      "structure": "idas:tree_of_wisdom",
+      "weight": 2
+    },
+    {
+      "structure": "idas:treetop_tavern",
+      "weight": 2
+    },
+    {
+      "structure": "idas:winter_wagon",
+      "weight": 2
+    },
+    {
+      "structure": "minecolonies:amazon_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:barbarian_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:desert_camp",
+      "weight": 1
+    },
+    {
+      "structure": "minecolonies:ship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 81624112,
+    "spacing": 100,
+    "separation": 50,
+    "type": "valhelsia_structures:valhelsia_random_spread",
+    "exclusion_zones": [
+      {
+        "chunk_count": 4,
+        "other_set": "bth:camps"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:common"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:pillager_outposts"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:villages"
+      }
+    ]
+  }
+}

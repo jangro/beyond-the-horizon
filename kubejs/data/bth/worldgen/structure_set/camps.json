@@ -27,6 +27,14 @@
     {
       "structure": "idas:washing_camp",
       "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp_red",
+      "weight": 1
+    },
+    {
+      "structure": "idas:desert_camp/desert_camp",
+      "weight": 1
     }
   ],
   "placement": {
@@ -37,11 +45,19 @@
     "exclusion_zones": [
     {
       "chunk_count": 4,
-      "other_set": "bth:villages"
+      "other_set": "bth:common"
+    },
+    {
+      "chunk_count": 4,
+      "other_set": "bth:rare"
     },
     {
       "chunk_count": 4,
       "other_set": "bth:pillager_outposts"
+    },
+    {
+      "chunk_count": 4,
+      "other_set": "bth:villages"
     }
     ]
   }

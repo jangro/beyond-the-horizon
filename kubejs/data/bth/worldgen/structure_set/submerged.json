@@ -30,14 +30,6 @@
     {
       "chunk_count": 16,
       "other_set": "integrated_stronghold:stronghold"
-    },
-    {
-      "chunk_count": 8,
-      "other_set": "bth:pillager_outposts"
-    },
-    {
-      "chunk_count": 8,
-      "other_set": "bth:villages"
     }
     ]
   }

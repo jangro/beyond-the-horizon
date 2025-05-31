@@ -1,9 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "minecolonies:barbarian_camp",
-      "weight": 1
-    }
   ],
   "placement": {
     "salt": 1223366777,
