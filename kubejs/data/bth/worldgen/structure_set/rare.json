@@ -93,6 +93,10 @@
       },
       {
         "chunk_count": 10,
+        "other_set": "bth:uncommon"
+      },
+      {
+        "chunk_count": 10,
         "other_set": "bth:pillager_outposts"
       },
       {

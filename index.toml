@@ -1276,19 +1276,19 @@ hash = "c01b3aa2f1ed5fd87b7ce6d47078ce80a2343227dee25ac016877b7aaa97907d"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/camps.json"
-hash = "972ace73553389e42f4296ac6ca9133b6145ab03f614f0d7b91df994f8ae6b44"
+hash = "67be7944803868c2406dd22a0565d8be69abf3a997d1a82b15de6c5304df4cb3"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
-hash = "3ab8a025d2fc502f96b016667b28b6189a3fa33a4340b68f2ffd8df41dd684ef"
+hash = "8e4d9d852710f84e79e56814dd1cacd6ce755dd468fe348b41966879ac6fdac1"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
-hash = "02749a183c21dbd00747950b20bc7e8a486d612d687ef7476270eccafe70122e"
+hash = "d1563027df0b129a250bb83797c43a6ecdfc1838864f6ea98b1c6b9bbd47d2fa"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "d8d49bc64fb6441202012bfcd3d2deaf8698f96c1c7454336754d80f5d691041"
+hash = "3e2d917691aa757fb061a1f1a6cdb2f6a9a749b02daa70743f47d9029c6dd08f"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"
@@ -1299,8 +1299,12 @@ file = "kubejs/data/bth/worldgen/structure_set/submerged.json"
 hash = "a68baa5ff3e8d224d117e70193ec538a3a6a634479e418c70a56ccb731d8eae5"
 
 [[files]]
+file = "kubejs/data/bth/worldgen/structure_set/uncommon.json"
+hash = "6616bcce47679269f5e97005189260547c473c53d5686fe6155c40fea3b581ea"
+
+[[files]]
 file = "kubejs/data/bth/worldgen/structure_set/villages.json"
-hash = "265489eb88f7484836575b096f594a9fc79eceaebee840c6fa9fd79c288ebe20"
+hash = "b9c8b1e59280dc0272423a8031de41cd04e6024da27cd2d3294cf76a54691af9"
 
 [[files]]
 file = "kubejs/data/bth_structures/loot_tables/archeology/dw20.json"
@@ -3451,8 +3455,28 @@ file = "kubejs/data/incendium/advancements/misc/root.json"
 hash = "f9578f30a87a47dfe05bb19443ddbbda1af10bca034c08f9f398222e45d341bb"
 
 [[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/catacombs.json"
+hash = "92f9e97e66bef89dff5b39e32c1c83717b036d18f2696d605e776711e9cc3c1d"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/evoker_fort.json"
+hash = "fa1d1ba2db8e7420572920eca405831ba558b48cd6f8451e3a98f744f718b8c0"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/impaled_icebreaker.json"
+hash = "f4793ebf9eceaaadca9a9ddfde49f15e03911707d0ea163ac0bfe11aa4575559"
+
+[[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/structure_set/mangrove_hut.json"
-hash = "20f84eace8c085a48cc19cade2445e6b4c975c48dd26815e9b31e572788a5af9"
+hash = "db966bbe5a15d98185907f6ed0aed20f79358224927a0f294008423809e3e344"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/mountain_tower.json"
+hash = "f7ff098617e18a46a913090d0334009b14744d1e4df3821391b13b8399e71ee9"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/structure_set/pyromancer_tower.json"
+hash = "cfbb05e95a30060169e9a66475b64fa1efa8eb05fb1c50393894069fb901f742"
 
 [[files]]
 file = "kubejs/data/lightmanscurrency/advancements/currency/coin_mint.json"

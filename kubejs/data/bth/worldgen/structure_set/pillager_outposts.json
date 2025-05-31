@@ -175,22 +175,26 @@
     "separation": 60,
     "type": "valhelsia_structures:valhelsia_random_spread",
     "exclusion_zones": [
-    {
-      "chunk_count": 4,
-      "other_set": "bth:camps"
-    },
-    {
-      "chunk_count": 10,
-      "other_set": "bth:common"
-    },
-    {
-      "chunk_count": 10,
-      "other_set": "bth:rare"
-    },
-    {
-      "chunk_count": 10,
-      "other_set": "bth:villages"
-    }
+      {
+        "chunk_count": 4,
+        "other_set": "bth:camps"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:common"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:uncommon"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:rare"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:villages"
+      }
     ]
   }
 }

@@ -9,10 +9,6 @@
       "weight": 1
     },
     {
-      "structure": "bth_structures:dw20",
-      "weight": 1
-    },
-    {
       "structure": "bth_structures:elven_gateway",
       "weight": 1
     },
@@ -58,10 +54,6 @@
     },
     {
       "structure": "graveyard:small_graveyard",
-      "weight": 1
-    },
-    {
-      "structure": "idas:ancient_mines",
       "weight": 1
     },
     {
@@ -149,7 +141,11 @@
       "weight": 1
     },
     {
-      "structure": "nebulusoaktree:oak_tree",
+      "structure": "irons_spellbooks:mangrove_hut",
+      "weight": 1
+    },
+    {
+      "structure": "irons_spellbooks:mountain_tower",
       "weight": 1
     },
     {
@@ -178,6 +174,10 @@
       {
         "chunk_count": 4,
         "other_set": "bth:camps"
+      },
+      {
+        "chunk_count": 10,
+        "other_set": "bth:uncommon"
       },
       {
         "chunk_count": 10,
