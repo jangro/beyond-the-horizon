@@ -149,7 +149,7 @@ StartupEvents.registry("item", event => {
 
   event.create('bth:music_disc_electric_sheep', 'music_disc')
     .analogOutput(12)
-    .song('bth:music.electric_sheep', 230)
+    .song('bth:music.electric_sheep', 277)
     .tag('minecraft:music_discs')
     .tag('minecraft:creeper_drop_music_discs')
     .texture('bth:item/music_disc_electric_sheep')
