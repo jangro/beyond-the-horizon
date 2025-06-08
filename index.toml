@@ -688,7 +688,7 @@ hash = "1426e24b6f02848a170e2895f4b9abe82267a79ae73212d7c59efcf338d5e921"
 
 [[files]]
 file = "kubejs/assets/bth/sounds/music/electric_sheep.ogg"
-hash = "2ebb473dbd57b08647b942841aa850bd8750a0b0df4aa46a5a68c52e7589a3d7"
+hash = "24bbc131ff59dfa1690d65979913c1ad2e72b201d6a2f1e4b98644cceefa46b8"
 
 [[files]]
 file = "kubejs/assets/bth/textures/ancient_portal.png"
@@ -1280,11 +1280,11 @@ hash = "c01b3aa2f1ed5fd87b7ce6d47078ce80a2343227dee25ac016877b7aaa97907d"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/camps.json"
-hash = "67be7944803868c2406dd22a0565d8be69abf3a997d1a82b15de6c5304df4cb3"
+hash = "d9a9ab133a7e88214d0b6d9a1c573019cc238e659c89f5b976aacd175c7b9f5d"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
-hash = "fc6c7485f9efe4c5750237eb35de3b81c5bc7c88e87d7fd09dfa6c77bed03e3c"
+hash = "bb3ef88cd55c5aae43b927b1b0ebc390e4718ee3b988936af2c3952a6041cd47"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
@@ -1304,7 +1304,7 @@ hash = "a68baa5ff3e8d224d117e70193ec538a3a6a634479e418c70a56ccb731d8eae5"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/uncommon.json"
-hash = "a88afdb011e9411828ad9f6700746e7f9f6badb8ef3dd8d88a0bdaa79a2a7452"
+hash = "500f46e699b1792a6e4c2b474ca3a8c3e0a4d158896d29d6f8d33fd6b3117a43"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/villages.json"
@@ -4008,7 +4008,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "3216ae519a460d2db4ed23f5d2ba2842b4eff0e284ea88846973994acd1a08be"
+hash = "9f18c291233b68af06044e2ace3f57b1881ff53846257e8c8bdd99cf46617ebe"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"
