@@ -732,7 +732,7 @@
 		{
 			id: "4E7155A51FDBEA52"
 			shape: "diamond"
-			subtitle: "Pirates say it gave sight to the legendary Black Pearl."
+			subtitle: "Pirates say it gave sight to the legendary Black Pearl and now it's guarded by the legendary Captain Cornelia. Rumors say pirates also made it to the ancient cities, bringing the eye there."
 			tasks: [{
 				id: "11C002B4B7A16134"
 				item: {
@@ -750,7 +750,7 @@
 		{
 			id: "3D498D90313D9C5E"
 			shape: "diamond"
-			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world."
+			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world. Can be hidden in lost igloos and is said to enhance the powers of the Cryomancer."
 			tasks: [{
 				id: "5DE2EAA59D7ACDA8"
 				item: {
@@ -768,7 +768,7 @@
 		{
 			id: "2BF3CC73E467999F"
 			shape: "diamond"
-			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner."
+			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owners. Pillagers are also very interested in this particular eye."
 			tasks: [{
 				id: "79A12A92A5A29567"
 				item: {
@@ -786,7 +786,7 @@
 		{
 			id: "0EEAC7231795131F"
 			shape: "diamond"
-			subtitle: "It is told that it was forged by the first blacksmiths of time."
+			subtitle: "It is told that it was forged by the first blacksmiths of time. Crack open just enough geodes or search through mineshafts and you might find it."
 			tasks: [{
 				id: "0FF085183E8F1B96"
 				item: {
@@ -804,7 +804,7 @@
 		{
 			id: "619075120B45FE5F"
 			shape: "diamond"
-			subtitle: "It was lost by a minion in the battle between the Aether and the Nether."
+			subtitle: "It was lost by a minion in the battle between the Aether and the Nether. A good place to look for it is in the battleground remains found in the overworld or for the brave, the Nether Fortress."
 			tasks: [{
 				id: "69362ECA1F608112"
 				item: {
@@ -820,10 +820,9 @@
 			y: -8.5d
 		}
 		{
-			description: ["It is rumored that the Pharao once slayed a sandworm..."]
 			id: "3032F8EE08F7BDEC"
 			shape: "diamond"
-			subtitle: "Legends say this eye once belonged to one of the great Sandworms."
+			subtitle: "Legends say this eye once belonged to one of the great Sandworms. The Pharao, being a great hunter of sandworms, is now likely to have it."
 			tasks: [{
 				id: "0494DACB1DA69D28"
 				item: {
@@ -841,7 +840,7 @@
 		{
 			id: "025BC45147EEFEC2"
 			shape: "diamond"
-			subtitle: "This eye is believed to have given our ancestors the knowledge of redstone."
+			subtitle: "This eye is believed to have given our ancestors, who built the magnificent Jungle Temples, the knowledge of redstone."
 			tasks: [{
 				id: "7136F783C9291E9D"
 				item: {
@@ -859,7 +858,7 @@
 		{
 			id: "7ED342D083C40641"
 			shape: "diamond"
-			subtitle: "A powerful yet destructive artifact; the piglins swore to protect it at the cost of their lives."
+			subtitle: "A powerful yet destructive artifact; the piglins of the Bastions and the Forbidden Castle swore to protect it at the cost of their lives."
 			tasks: [{
 				id: "571C8C47C0C3CF20"
 				item: {
@@ -877,7 +876,7 @@
 		{
 			id: "2A291BC419B86C7E"
 			shape: "diamond"
-			subtitle: "A holy talisman said to protect its owner from bad luck."
+			subtitle: "A holy talisman said to protect its owner from bad luck. Can be purchased from a master level cleric villager. It is said that priests are fond of this eye as well."
 			tasks: [{
 				id: "204F3B477568E891"
 				item: {
@@ -895,7 +894,7 @@
 		{
 			id: "09B96D2E745CA0F1"
 			shape: "diamond"
-			subtitle: "It has seen many warriors drown into the depths of the sea."
+			subtitle: "It has seen many warriors drown into the depths of the sea. Are you strong enough to take on the Elder Guardian?"
 			tasks: [{
 				id: "53E0E6F5D8D4EA4F"
 				item: {
@@ -913,7 +912,7 @@
 		{
 			id: "203D6061C6FAF298"
 			shape: "diamond"
-			subtitle: "Without this eye, the Archevoker has no power."
+			subtitle: "Without this eye, the Archevoker in their Evoker Fort has no power."
 			tasks: [{
 				id: "59D09144E7E08001"
 				item: {
@@ -931,7 +930,7 @@
 		{
 			id: "0F27998656531188"
 			shape: "diamond"
-			subtitle: "This pupil is believed to have seen the ancient brewing recipes that were lost in time."
+			subtitle: "This pupil is believed to have seen the ancient brewing recipes that were lost in time. The apothecaries and witches of the swamps might have knowledge of it."
 			tasks: [{
 				id: "77EE5CC16314B5F3"
 				item: {
@@ -967,7 +966,7 @@
 		{
 			id: "44EDB755EEED4051"
 			shape: "diamond"
-			subtitle: "Remembrance of the past lives of those who live in death."
+			subtitle: "Remembrance of the past lives of those who live in death. One of the few craftable eyes that is also said to be held by the Dead King in the Catabombs. The Wayward Compass leads the way."
 			tasks: [{
 				id: "12AF0F878AEB74C2"
 				item: {
@@ -985,7 +984,7 @@
 		{
 			id: "18A5B36C235A6304"
 			shape: "diamond"
-			subtitle: "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying."
+			subtitle: "Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying. A craftable eye for those who dare to explore the depths of the ocean."
 			tasks: [{
 				id: "2FFAE2B8040CCF50"
 				item: {
