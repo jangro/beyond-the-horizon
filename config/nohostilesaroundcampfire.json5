@@ -12,7 +12,7 @@
 	// When enabled, the campfire only has an effect when the block is lit up.
 	"campfireMustBeLit": true,
 	// When enabled, the campfire only has an effect when the block is signalling.
-	"campfireMustBeSignalling": false,
+	"campfireMustBeSignalling": true,
 	// When enabled, the mod will work with normal campfires.
 	"enableEffectForNormalCampfires": true,
 	// When enabled, the mod will work with soul campfires.
