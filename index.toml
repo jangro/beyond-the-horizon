@@ -72,7 +72,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "48f9d4e2752d621b1d2be38708718840b51cfc9e6b7262fcda9e561406518bc2"
+hash = "a5f945c1abca3a4b3b724c92e9011b0fbbd5bb88629eeaf4f3c891193df2219b"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -1231,6 +1231,34 @@ file = "kubejs/data/bth/recipes/plastic.json"
 hash = "442e2f11e8ef57efa75b7d795e3eebc14f645f9630ad7005151ced78c2daf328"
 
 [[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/camps_avoid.json"
+hash = "c7d1001b3441bc89defaa3df457022fca6042d1561ff1372446f8ee8d472fe09"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/common_avoid.json"
+hash = "7bf188bfee6b9d90feea8cd636d8a11175180237b39d26be02741eea749a7528"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/pillager_outposts_avoid.json"
+hash = "9d9716d3912086516f1330f1ddad7237a209c4738d11f1a86fac01427b89182d"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/rare_avoid.json"
+hash = "823b877eee9da1468e52270c38e4d386b60c8b53d46664bf891964eb032953a1"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/submerged_avoid.json"
+hash = "3b7718db35e559d9f3c420786779ffa91a4334440a4b85d0ae40fb4d2e4461a3"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/uncommon_avoid.json"
+hash = "ccdfba3d29daad41075dc65b5c0294b9e15a703ca54eb6a5269d70922ff5e4dd"
+
+[[files]]
+file = "kubejs/data/bth/tags/worldgen/structure_set/villages_avoid.json"
+hash = "28e382ab3d200648d0016d99d85448ea8dbd9dceb28b021a6c0728b093f7487f"
+
+[[files]]
 file = "kubejs/data/bth/trades/goblin_trader/common.json"
 hash = "0624a3b4b7a98b08b948f9490323f900619332f218c413c0a5285ea3d8b5b98f"
 
@@ -1280,19 +1308,19 @@ hash = "c01b3aa2f1ed5fd87b7ce6d47078ce80a2343227dee25ac016877b7aaa97907d"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/camps.json"
-hash = "d9a9ab133a7e88214d0b6d9a1c573019cc238e659c89f5b976aacd175c7b9f5d"
+hash = "125ed97d9abeb8426d5d787c8d45c5196b5c0aeedf3b3cdc9cb380f6fe77f923"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
-hash = "bb3ef88cd55c5aae43b927b1b0ebc390e4718ee3b988936af2c3952a6041cd47"
+hash = "78757741b92dd08d3e15901727c2b133feafb7d1a4e14a5a960c06d81d6a4efc"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
-hash = "d1563027df0b129a250bb83797c43a6ecdfc1838864f6ea98b1c6b9bbd47d2fa"
+hash = "7264d6ef3b3e6a61dacffb053e1bf266f322d513fe89d1ee7bc0d8abc06a03f4"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "076951c6fa17f71e4abea6c13f02448935820a089e08ac8235ded04761a345bf"
+hash = "4fe7616e1b1a4d84332f6c67c30b3825c1e1899a3f333cc4bbbf820bbf6394a0"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"
@@ -1300,15 +1328,15 @@ hash = "75c763e852df266e497661167882ea18f594cdd458d9fdc595af1dfc1193be75"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/submerged.json"
-hash = "a68baa5ff3e8d224d117e70193ec538a3a6a634479e418c70a56ccb731d8eae5"
+hash = "f47327a56c1c3e1d6d07489acfde2a2ad827ac49009ae4a2d5bad81f8021a872"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/uncommon.json"
-hash = "500f46e699b1792a6e4c2b474ca3a8c3e0a4d158896d29d6f8d33fd6b3117a43"
+hash = "09de912acee2e473fafc7eda7562219c267c04335aae510293e8008d840a8754"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/villages.json"
-hash = "b9c8b1e59280dc0272423a8031de41cd04e6024da27cd2d3294cf76a54691af9"
+hash = "401097fec4cda247fb4844b136a882766cee230c3e272b7aa0806a4fe4342286"
 
 [[files]]
 file = "kubejs/data/bth_structures/loot_tables/archeology/dw20.json"
