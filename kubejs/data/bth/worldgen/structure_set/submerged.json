@@ -17,20 +17,10 @@
     "salt": 85626934,
     "spacing": 80,
     "separation": 40,
-    "type": "valhelsia_structures:valhelsia_random_spread",
-    "exclusion_zones": [
-    {
-      "chunk_count": 16,
-      "other_set": "minecraft:ancient_cities"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "graveyard:crypt_structure"
-    },
-    {
-      "chunk_count": 16,
-      "other_set": "integrated_stronghold:stronghold"
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#bth:submerged_avoid"
     }
-    ]
   }
 }

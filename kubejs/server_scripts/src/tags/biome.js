@@ -17,6 +17,7 @@ ServerEvents.tags('worldgen/biome', event => {
 
   // Create biome tag for forest towers (snowy biomes removed below)
   event.add('bth:is_forest_tower_biome', event.get('minecraft:is_mountain').getObjectIds());
+  event.get('bth:is_forest_tower_biome').remove('minecraft:meadow');
 
   // Fill Snowy Mountain Biome tag and remove snowy biomes from forest tower tag.
   const snowy_biomes = event.get('forge:is_snowy').getObjectIds();

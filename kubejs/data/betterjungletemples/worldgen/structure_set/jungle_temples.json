@@ -1,9 +1,5 @@
 {
   "structures": [
-    {
-      "structure": "betterjungletemples:jungle_temple",
-      "weight": 1
-    }
   ],
   "placement": {
     "type": "betterjungletemples:jungle_temple",

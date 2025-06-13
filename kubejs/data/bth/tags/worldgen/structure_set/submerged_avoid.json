@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ancient_cities",
+    "graveyard:crypt_structure",
+    "integrated_stronghold:stronghold"
+  ]
+}

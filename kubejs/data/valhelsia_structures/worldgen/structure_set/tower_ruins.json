@@ -8,13 +8,9 @@
       }
     ],
     "salt": 24357670,
-    "spacing": 100,
-    "separation": 32
+    "separation": 8,
+    "spacing": 25
   },
   "structures": [
-    {
-      "structure": "valhelsia_structures:tower_ruin",
-      "weight": 1
-    }
   ]
 }

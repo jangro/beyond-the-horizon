@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "bth_structures:tower_forest",
+      "weight": 10
+    },
+    {
+      "structure": "bth_structures:tower_frozen",
+      "weight": 10
+    },
+    {
+      "structure": "bth_structures:tower_scarlet",
+      "weight": 10
+    }
+  ],
+  "placement": {
+    "salt": 44805996,
+    "spacing": 30,
+    "separation": 15,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#bth:towers_avoid"
+    }
+  }
+}

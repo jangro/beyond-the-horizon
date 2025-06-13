@@ -4,14 +4,6 @@
     "exclusion_zones": [
       {
         "chunk_count": 10,
-        "other_set": "valhelsia_structures:castle_ruins"
-      },
-      {
-        "chunk_count": 10,
-        "other_set": "valhelsia_structures:forges"
-      },
-      {
-        "chunk_count": 10,
         "other_set": "valhelsia_structures:player_houses"
       },
       {
@@ -23,9 +15,9 @@
         "other_set": "valhelsia_structures:big_trees"
       }
     ],
-    "salt": 16987356,
-    "separation": 7,
-    "spacing": 37
+    "salt": 12857691,
+    "separation": 8,
+    "spacing": 30
   },
   "structures": [
   ]

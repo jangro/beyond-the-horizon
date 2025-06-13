@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bth:pillager_outposts",
+    "bth:rare",
+    "bth:towers",
+    "bth:villages"
+  ]
+}

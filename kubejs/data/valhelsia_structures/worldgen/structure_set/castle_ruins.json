@@ -17,28 +17,12 @@
       {
         "chunk_count": 10,
         "other_set": "valhelsia_structures:big_trees"
-      },
-      {
-        "chunk_count": 10,
-        "other_set": "minecraft:villages"
-      },
-      {
-        "chunk_count": 10,
-        "other_set": "ctov:villages"
-      },
-      {
-        "chunk_count": 10,
-        "other_set": "towns_and_towers:towns"
       }
     ],
     "salt": 436946199,
-    "spacing": 140,
-    "separation": 32
+    "separation": 8,
+    "spacing": 35
   },
   "structures": [
-    {
-      "structure": "valhelsia_structures:castle_ruin",
-      "weight": 1
-    }
   ]
 }

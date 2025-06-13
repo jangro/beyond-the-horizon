@@ -2,67 +2,49 @@
   "structures": [
     {
       "structure": "idas:lumber_camp/lumber_camp_acacia",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:lumber_camp/lumber_camp_birch",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:lumber_camp/lumber_camp_dark_oak",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:lumber_camp/lumber_camp_jungle",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:lumber_camp/lumber_camp_oak",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:lumber_camp/lumber_camp_spruce",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:washing_camp",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:desert_camp/desert_camp_red",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "idas:desert_camp/desert_camp",
-      "weight": 1
+      "weight": 10
     }
   ],
   "placement": {
     "salt": 71926172,
     "spacing": 80,
     "separation": 40,
-    "type": "valhelsia_structures:valhelsia_random_spread",
-    "exclusion_zones": [
-      {
-        "chunk_count": 4,
-        "other_set": "bth:common"
-      },
-      {
-        "chunk_count": 4,
-        "other_set": "bth:uncommon"
-      },
-      {
-        "chunk_count": 4,
-        "other_set": "bth:rare"
-      },
-      {
-        "chunk_count": 4,
-        "other_set": "bth:pillager_outposts"
-      },
-      {
-        "chunk_count": 4,
-        "other_set": "bth:villages"
-      }
-    ]
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#bth:camps_avoid"
+    }
   }
 }
