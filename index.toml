@@ -5736,11 +5736,6 @@ hash = "5b893e20f0533d7ebb4c5b2320f9d575b4abbe440a55be1827a457587284a0cd"
 metafile = true
 
 [[files]]
-file = "resourcepacks/lightman-variant-pack-create-style.pw.toml"
-hash = "95529d425be5b31578dbfbe020dcc7512508499ea5f91749f94d4104862f972b"
-metafile = true
-
-[[files]]
 file = "resourcepacks/mt-ct-d-a.pw.toml"
 hash = "0842735f9e5a10b382358c0af8e5d1cb59c7eedf5fab803f6ea7f273fea43090"
 metafile = true
