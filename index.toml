@@ -516,7 +516,7 @@ hash = "119637f20e288eb3b8a8f5278229ca075b59464afff076e4b4582aebd7e1b3a7"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7bd61efadbdd69b8d4f99508f8b82378ff6bdf1fd8a96b4362ece73d392e2490"
+hash = "a920318cd9eef40d34f1ce7d831ad9ec32f81cfb81d11f5481fbe649b4d7c628"
 
 [[files]]
 file = "config/paraglider-common.toml"
