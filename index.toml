@@ -2,12 +2,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
-hash = "e5e895083a31c84b5e053c2c276eff0c01e8d49513280838f208a1e89f1bc880"
+hash = "369d2850f7642e0ff00a9ed94b4966867d3a11ca5de4bc7a85bb74e0d29cbd60"
 metafile = true
 
 [[files]]
 file = "complementary-unbound.pw.toml"
-hash = "318736576c1e4ff9efa22b2e9b8b4373e8185c68d2aa24f26252b553af511ad5"
+hash = "238ae9fac53a63921654ddea2bf814cb4c3751363a03f8b9e1f66f3653a6a4fb"
 metafile = true
 
 [[files]]
@@ -4718,7 +4718,7 @@ metafile = true
 
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
-hash = "e4697379de384427b389552064d339a6a1c33ec5cbd0f8c36f4c84b4eb32917c"
+hash = "ff8a216a513cf3e3e6ca946d5031dc189d88705950d869be021e862e02c80eaa"
 metafile = true
 
 [[files]]
@@ -5761,9 +5761,9 @@ hash = "aefe892a55ec10256b1a8fb44376072be6c560ad2c88f693ac3269a4e4950a80"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.4 + EuphoriaPatches_1.5.2.txt"
-hash = "23d953eea34c3756c4c099128ad2e6da7fda7394d425206497608cf802675410"
+file = "shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.4.txt"
+hash = "046af5aa560746eb5d1157f8067c6cb608d05f51a055986e62b9d30c34573060"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.4 + EuphoriaPatches_1.5.2.txt"
-hash = "1e3f8453ffee81373848d2dbfb1f1029156057db1eb944fab66b9f44c5d0bf28"
+file = "shaderpacks/ComplementaryUnbound_r5.5.1 + EuphoriaPatches_1.6.4.txt"
+hash = "2f714613a970df261f423e6dcc2f8aff158d6e00cc17374b3a79cf6ff1879641"
