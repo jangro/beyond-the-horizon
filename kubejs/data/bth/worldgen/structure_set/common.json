@@ -1,10 +1,6 @@
 {
   "structures": [
     {
-      "structure": "ae2:meteorite",
-      "weight": 5
-    },
-    {
       "structure": "ars_nouveau:guardian_wilden_den",
       "weight": 5
     },

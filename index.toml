@@ -1320,7 +1320,7 @@ hash = "2cc303dd4e19dcb066679a44f5b569ccdf3df8894c8a484da41092dcc665a028"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "9048b40f0a0e3119621071f6e7af508c3f4d0cee3ecd49bc2925d95615d50252"
+hash = "667ad7cc69e9d2d7bc059cabe87ed5c1d56cf724f54bca186e4a3ac7fcb77a40"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"

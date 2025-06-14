@@ -25,7 +25,6 @@ ServerEvents.tags('worldgen/structure', event => {
   ]);
 
   event.add('bth:common', [
-    'ae2:meteorite',
     'ars_nouveau:guardian_wilden_den',
     'ars_nouveau:hunter_wilden_den',
     'ars_nouveau:stalker_wilden_den',
@@ -89,6 +88,7 @@ ServerEvents.tags('worldgen/structure', event => {
   ]);
 
   event.add('bth:rare', [
+    'ae2:meteorite',
     'idas:ars_nouveau/archmages_tower',
     'idas:bazaar',
     'idas:desert_pyramid',
