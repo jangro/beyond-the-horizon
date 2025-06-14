@@ -1312,7 +1312,7 @@ hash = "88b75e5656884f5f9eb129e3c1d495c7054e65586bd14a41f79fa038ea2fb3d2"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
-hash = "f905047ff51fe7eb1175a6dcea76a5e84a9325c71ce129d6bd6b94f380a2c2fb"
+hash = "57bd44c843256758bbcaa3f498c37836b46dd815773233a40ed7f22f99216220"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
@@ -1320,7 +1320,7 @@ hash = "2cc303dd4e19dcb066679a44f5b569ccdf3df8894c8a484da41092dcc665a028"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "b32bdaaf36157d7243508d3f55d6132e78932715249ba7a1ec695139073e3e73"
+hash = "9048b40f0a0e3119621071f6e7af508c3f4d0cee3ecd49bc2925d95615d50252"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"
@@ -3087,8 +3087,24 @@ file = "kubejs/data/graveyard/worldgen/structure_set/crypt_structure.json"
 hash = "72f7e856f68d285b08f41d9e815cdfc45e914b98595b985ff7d402c7fda25033"
 
 [[files]]
+file = "kubejs/data/graveyard/worldgen/structure_set/dead_tree_structure.json"
+hash = "2f1614fd36e42c2ada247d53b5829a068be310c694da5211e6d99f2f26d004e7"
+
+[[files]]
+file = "kubejs/data/graveyard/worldgen/structure_set/haunted_house_structure.json"
+hash = "e82cb01cb7289df476f7d3909773321316c31d0ce35887b17751c68fd766f5a8"
+
+[[files]]
 file = "kubejs/data/graveyard/worldgen/structure_set/lich_prison_structure.json"
 hash = "3d928d55c1b3c807538afa227b1714bc949ab4d126a28b820b4b87edc61b4000"
+
+[[files]]
+file = "kubejs/data/graveyard/worldgen/structure_set/medium_graveyard_structure.json"
+hash = "8db013a968920894c2e8567a80649f97c721545e4a12ed4323f71f8931c09b92"
+
+[[files]]
+file = "kubejs/data/graveyard/worldgen/structure_set/mushroom_grave_structure.json"
+hash = "fe68901d2863ff423cbaa755d7ea729c6d3ce18dcb7286f2fe803f112f9a635d"
 
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/alexsmobs/banana_slug.json"
@@ -4028,7 +4044,7 @@ hash = "0ee520e8ad3abb8c1330c6b1e6aeb19a04046b4d03b9e72f912013f4ed79192a"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
-hash = "09ba8897baa31891f65e78bf1081e7391cd39a81967b0f0a7a127341e92c6203"
+hash = "575280711abbebaee34a2820b30f1eed63e62c0f00ba794b52e49ba21c195832"
 
 [[files]]
 file = "kubejs/startup_scripts/src/block.js"
