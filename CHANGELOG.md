@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3] - 2025-06-14
+
+### Changed
+
+- Fix a bug where wilden dens are too common (introduced in 1.2)
+- Fix a shader related bug where the client would crash when entering the end dimension
+- Update shaderpacks and euphoria patcher
+- Tweaks to structure placements
+- Require campfires to be signalling to prevent mob spawns (this will allow mobs to spawn within buildings that generate with campfires)
+- Improve tooltips for end remastered eye in the quest book
+
 ## [1.2] - 2025-05-31
 
 ### Added
