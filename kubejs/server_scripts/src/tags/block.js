@@ -139,8 +139,16 @@ ServerEvents.tags('block', event => {
   ]);
 
   // Iron's Spells Tags
-  event.add('irons_spellbooks:spectral_hammer_minable', [
-    'forbidden_arcanus:darkstone'
+  event.add('irons_spellbooks:spectral_hammer_mineable', [
+    'forbidden_arcanus:darkstone',
+    'yungscavebiomes:ancient_sand',
+    'yungscavebiomes:ancient_sandstone',
+    'yungscavebiomes:brittle_ancient_sandstone',
+    'yungscavebiomes:layered_ancient_sandstone',
+    'yungscavebiomes:brittle_sandstone',
+    'yungscavebiomes:layered_sandstone',
+    'yungscavebiomes:brittle_red_sandstone',
+    'yungscavebiomes:layered_red_sandstone',
   ]);
 
   // Clear block and item tags from plushies ('wool' tag for example)
