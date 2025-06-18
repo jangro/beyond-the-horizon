@@ -1,3 +1,4 @@
+key_key.afterlife.key_setting_gui:key.keyboard.unknown:NONE
 key_key.attack:key.mouse.left:NONE
 key_key.use:key.mouse.right:NONE
 key_key.forward:key.keyboard.w:NONE

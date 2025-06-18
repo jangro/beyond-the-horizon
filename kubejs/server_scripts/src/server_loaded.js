@@ -17,4 +17,12 @@ ServerEvents.loaded(event => {
     event.server.runCommandSilent('/gamerule keepWallet true');
     event.server.runCommandSilent('/gamerule artifacts.rootedBoots.enabled false');
   } 
+  if (!event.server.persistentData.contains('gamerules_v2')){
+    console.log('Setting gamerules v2');
+    event.server.persistentData.put('gamerules_v2', true);
+    event.server.runCommandSilent('/gamerule xpOnDeath true');
+    event.server.runCommandSilent('/gamerule xpDecaySetting 20');
+    event.server.runCommandSilent('/gamerule spawnDeadBody -1');
+    event.server.runCommandSilent('/gamerule spiritItemDisable true');
+  }
 });

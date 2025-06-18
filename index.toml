@@ -136,11 +136,11 @@ hash = "8c8b694f865f17baa2b856b538da1c58b50432e300f0ac5d73eff62412eab5d3"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "b7bfd6aeb6be0f01872804a095b72ed9d292ebf60c2488e306a6464b316898ab"
+hash = "9251fcef6b6c0de4efec8f2b60c58b204a90212657522fafddb2a8cdbea2b627"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "8fc4bce1b8bfb5d53bc147bfb091f74019f7b8fac731fac2cf29b5c8ae97cd3b"
+hash = "f019c007c92b37985244fd3570c4dae1a6a53daec866dc51dc5817b5dbed0a86"
 
 [[files]]
 file = "config/eidolon-common.toml"
@@ -3956,7 +3956,7 @@ hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
-hash = "e3c45f395bcd7e373614f5b4cca11586fd385370f79531276d303ade95612eca"
+hash = "8ed3fcdb1ab876ca699ffa75468d76bf88d9b5ecf9957d18d85ae7aa98b3b745"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/exposure.js"
@@ -4008,7 +4008,7 @@ hash = "f066d21523f221d5a7134b1fad2f10bd2e2feb2a5930291340abf359597d9e5e"
 
 [[files]]
 file = "kubejs/server_scripts/src/server_loaded.js"
-hash = "c5ee94150ce7e06ad8c823337f1b04d16c9b966a022acaf1d9265fd7ad327749"
+hash = "060857de5040a372d8e892423b597093b7d1e79cb9d52b59b29d36cf2d661e14"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/biome.js"
@@ -4144,6 +4144,11 @@ metafile = true
 [[files]]
 file = "mods/aether.pw.toml"
 hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
+metafile = true
+
+[[files]]
+file = "mods/after-life.pw.toml"
+hash = "ed070ac7cf914f3a2c51561e257e8c4d62c65654a9d1f9de377850016d3124f0"
 metafile = true
 
 [[files]]
@@ -5729,6 +5734,11 @@ metafile = true
 [[files]]
 file = "observable_announce"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "resourcepacks/betterafterlife.pw.toml"
+hash = "ce258f8971b4540c0bb7be3b4b22a90ef78268eea80c24b83d043fe739ddc1ff"
+metafile = true
 
 [[files]]
 file = "resourcepacks/idas-alexs-mobs.pw.toml"
