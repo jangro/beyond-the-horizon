@@ -122,6 +122,32 @@ ServerEvents.recipes(event => {
     }
   }).id(`${ID_PREFIX}alloy_smelting/fluix_crystal`);
 
+  // Alloy smelting recipe for brass ingot
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 3200,
+    "experience": 0.3,
+    "inputs": [
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:ingots/copper"
+        }
+      },
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:ingots/zinc"
+        }
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "create:brass_ingot"
+    }
+  }).id(`${ID_PREFIX}alloy_smelting/brass_ingot`);
+
+
   //
   // SAG MILLING
   //
