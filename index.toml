@@ -3956,7 +3956,7 @@ hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
-hash = "72b114baa292cbbf7aca9708cec8f32120c3c68461a1a456ac5094f70383dade"
+hash = "2c4152fd0efc118ca0f346e9fcde6699fe26b6adeb5bb5d2a7e523f2df8bb5ca"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/exposure.js"

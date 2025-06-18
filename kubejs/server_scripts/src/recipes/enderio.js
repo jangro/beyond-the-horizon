@@ -629,4 +629,21 @@ ServerEvents.recipes(event => {
     ]
   }).id(`${ID_PREFIX}sag_milling/wheat`);
 
+  // Sag mill recipe for rats garbage
+  event.custom({
+    "type": "enderio:sag_milling",
+    "energy": 1500,
+    "input": {
+      "item": "rats:garbage_pile"
+    },
+    "outputs": [
+      {
+        "chance": 0.5,
+        "item": {
+          "item": "rats:plastic_waste"
+        },
+        "optional": true
+      }
+    ]
+  }).id(`${ID_PREFIX}sag_milling/garbage_pile`);
 });
