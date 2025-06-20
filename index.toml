@@ -3956,7 +3956,7 @@ hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
-hash = "2c4152fd0efc118ca0f346e9fcde6699fe26b6adeb5bb5d2a7e523f2df8bb5ca"
+hash = "3399f1769b5b8818196ebebcb0e60dc4f4488fccb77dc01dfbc2cd4a743f174e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/exposure.js"
@@ -3988,7 +3988,7 @@ hash = "0fcf76e2102de64471661bcbac784bb367bc2300b2e8ccfa2e28e8a5aef03b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "89321ce0424a9c4f729bf305781d5a6307b86ca7f75f148d49fc1b634c9a285d"
+hash = "f32c9bf1f768c529d3af39daad96aa7083370956ce0df2f9e87f309cc7ad627d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"

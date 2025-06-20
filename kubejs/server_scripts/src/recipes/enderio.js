@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
     "result": {
       "item": "createaddition:electrum_ingot"
     }
-  }).id(`${ID_PREFIX}alloy_smelting/electrum_ingot`);
+  }).id(`${ID_PREFIX}alloy_smelting/electrum_ingot_from_dust`);
 
   // Alloy smelting recipe for fluix crystal
   event.custom({
@@ -146,6 +146,56 @@ ServerEvents.recipes(event => {
       "item": "create:brass_ingot"
     }
   }).id(`${ID_PREFIX}alloy_smelting/brass_ingot`);
+
+  // Alloy smelting recipe for constantan ingot
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 3200,
+    "experience": 0.3,
+    "inputs": [
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:ingots/copper"
+        }
+      },
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:ingots/nickel"
+        }
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "immersiveengineering:ingot_constantan"
+    }
+  }).id(`${ID_PREFIX}alloy_smelting/constantan_ingot`);
+
+  // Alloy smelting recipe for electrum ingot
+  event.custom({
+    "type": "enderio:alloy_smelting",
+    "energy": 3200,
+    "experience": 0.3,
+    "inputs": [
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:ingots/gold"
+        }
+      },
+      {
+        "count": 1,
+        "ingredient": {
+          "tag": "forge:ingots/silver"
+        }
+      }
+    ],
+    "result": {
+      "count": 2,
+      "item": "createaddition:electrum_ingot"
+    }
+  }).id(`${ID_PREFIX}alloy_smelting/electrum_ingot`);
 
 
   //
