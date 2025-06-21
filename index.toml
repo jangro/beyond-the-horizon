@@ -3988,7 +3988,7 @@ hash = "0fcf76e2102de64471661bcbac784bb367bc2300b2e8ccfa2e28e8a5aef03b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "f32c9bf1f768c529d3af39daad96aa7083370956ce0df2f9e87f309cc7ad627d"
+hash = "7863106f4cda332cefc5c2647a8e6813918ea75f23c8d28a903271b70bf75595"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"

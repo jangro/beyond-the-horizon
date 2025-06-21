@@ -133,6 +133,27 @@ ServerEvents.recipes(event => {
     I: '#forge:ingots/iron'
   }).id(`${ID_PREFIX}saddle`);
   
+  // AE2
+  event.shaped('6x ae2:fluix_covered_cable', [
+    'FFF',
+    ' W ',
+    'FFF'
+  ], {
+    F: 'ae2:fluix_glass_cable',
+    W: '#minecraft:wool',
+  }).id(`${ID_PREFIX}fluix_covered_cable`);
+
+  event.shaped('6x ae2:fluix_smart_cable', [
+    'FFF',
+    'GWR',
+    'FFF'
+  ], {
+    F: 'ae2:fluix_glass_cable',
+    W: '#minecraft:wool',
+    G: 'minecraft:glowstone_dust',
+    R: 'minecraft:redstone'
+  }).id(`${ID_PREFIX}fluix_smart_cable`);
+
   // Alex's Caves
   event.shaped('alexscaves:submarine', [
     'TWW',
