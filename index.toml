@@ -3980,7 +3980,7 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "c107b069aa32c875f1b7c183636669371f5ff355c080a75aaebf33cfc0fd05f3"
+hash = "15d380514ad56176b9ccb96e4b075e759e948f196b7e8701005cb107d27afb6d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
@@ -3988,7 +3988,7 @@ hash = "0fcf76e2102de64471661bcbac784bb367bc2300b2e8ccfa2e28e8a5aef03b2d"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "7863106f4cda332cefc5c2647a8e6813918ea75f23c8d28a903271b70bf75595"
+hash = "96ff0af34fd80af04168d843e4eb68165c05defb2f9bd5a3f15f731254d4e265"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"

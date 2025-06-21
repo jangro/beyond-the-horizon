@@ -96,6 +96,8 @@ ServerEvents.recipes(event => {
     'eidolon:smelt_lead_dust_create',
     'eidolon:smelt_silver_dust',
     'enderio:alloy_smelting/cake_base',
+    'enderio:energy_conduit',
+    'enderio:redstone_conduit',
     'enderio:sag_milling/copper_ore',
     'enderio:sag_milling/gold',
     'enderio:sag_milling/gold_ore',

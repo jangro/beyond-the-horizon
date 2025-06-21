@@ -542,6 +542,26 @@ ServerEvents.recipes(event => {
     H: 'immersive_aircraft:hull'
   }).id(`${ID_PREFIX}immersive_aircraft_quadrocopter`);
 
+  // EnderIO
+  event.shaped('8x enderio:energy_conduit', [
+    'BBB',
+    'NNN',
+    'BBB'
+  ], {
+    B: 'enderio:conduit_binder',
+    N: '#forge:nuggets/conductive_alloy'
+  }).id(`${ID_PREFIX}enderio_energy_conduit`);
+
+
+  event.shaped('8x enderio:redstone_conduit', [
+    'BBB',
+    'NNN',
+    'BBB'
+  ], {
+    B: 'enderio:conduit_binder',
+    N: '#forge:nuggets/redstone_alloy'
+  }).id(`${ID_PREFIX}enderio_redstone_conduit`);
+
   // Immersive Engineering
   event.shaped('2x immersiveengineering:stick_aluminum', [
     'I',
