@@ -1,12 +1,12 @@
 name = "Beyond the Horizon"
 author = "BTH Team"
-version = "1.3.1"
+version = "1.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2235dba664b29c1d0d3f97ece1982dfac2f6c72dbbf489c2a60a1673a72715c2"
+hash = "a3ab185e39b7fd19e867628d060bfa6fd255a83f9f27e91158f48c02508950f2"
 
 [versions]
 forge = "47.3.25"

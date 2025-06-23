@@ -1,172 +1,168 @@
 {
   "structures": [
     {
-      "structure": "minecraft:pillager_outpost",
+      "structure": "towns_and_towers:pillager_outpost_badlands",
       "weight": 10
     },
     {
-      "structure": "towns_and_towers:pillager_outpost_badlands",
-      "weight": 1
-    },
-    {
       "structure": "towns_and_towers:pillager_outpost_beach",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_birch_forest",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_desert",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_flower_forest",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_forest",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_grove",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_jungle",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_meadow",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_mushroom_fields",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_ocean",
-      "weight": 2
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_old_growth_taiga",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_savanna",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_savanna_plateau",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_snowy_beach",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_snowy_plains",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_snowy_slopes",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_sparse_jungle",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_sunflower_plains",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_swamp",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_taiga",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_snowy_taiga",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:pillager_outpost_wooded_badlands",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_mediterranean",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_tudor",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_classic",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_oriental",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_swedish",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_iberian",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_rustic",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_beach",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_dark_forest",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_desert",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_jungle",
-      "weight": 1
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_badlands",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_mountain",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_plains",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_savanna",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_snowy",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_swamp",
-      "weight": 3
+      "weight": 10
     },
     {
       "structure": "ctov:pillager_outpost_taiga",
-      "weight": 3
+      "weight": 10
     }
   ],
   "placement": {
