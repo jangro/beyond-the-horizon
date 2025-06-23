@@ -1,13 +1,13 @@
 name = "Fusion (Connected Textures)"
-filename = "fusion-1.2.4-forge-mc1.20.1.jar"
+filename = "fusion-1.2.7b-forge-mc1.20.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "666b116f40ab21c01054b84a45b08fc5f41903ac"
+hash = "b2b22926e3a4aabb0638837caf620759ca97e7d3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6183224
+file-id = 6453794
 project-id = 854949

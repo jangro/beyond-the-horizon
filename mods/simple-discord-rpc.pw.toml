@@ -1,13 +1,13 @@
 name = "Simple Discord RPC"
-filename = "SimpleRPC-Universal-4.0.0.jar"
+filename = "SimpleRPC-Universal-4.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "92b626f640b9f723b5033e01eb52558629c4d6f6"
+hash = "dee7c8f18812b7ddcbf859c24fc7e901ee818f4f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6212771
+file-id = 6658124
 project-id = 411816

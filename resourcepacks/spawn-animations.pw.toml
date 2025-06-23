@@ -1,13 +1,13 @@
 name = "Spawn Animations [Data Pack]"
-filename = "spawnanimations-v1.10-mc1.17x-1.21x-datapack.zip"
+filename = "spawnanimations-v1.10.2-mc1.17-1.21.6-datapack.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9af6a69c81500eb067401c39dea9e4926573963c"
+hash = "b9119ac71ed57ddf57258ae13a2722b5371cd876"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5969152
+file-id = 6678619
 project-id = 811803

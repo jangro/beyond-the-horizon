@@ -1,13 +1,13 @@
 name = "Integrated Scripting"
-filename = "IntegratedScripting-1.20.1-1.0.13.jar"
+filename = "IntegratedScripting-1.20.1-1.0.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "60b06f32ec2284589963bd539338c136caa7bf07"
+hash = "aec240d2c9a746267255d5eaeea739c5d4750c9d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6217491
+file-id = 6604403
 project-id = 889785

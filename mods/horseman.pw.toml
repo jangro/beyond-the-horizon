@@ -1,13 +1,13 @@
 name = "Horseman"
-filename = "horseman-1.20.1-1.1.4-forge.jar"
+filename = "horseman-1.20.1-1.3.9-forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1905383fd00967eaac5a33526d1ff60956f055b9"
+hash = "28451b06cc66b1e6aff7d08604affdce4ab1276d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5681173
+file-id = 6605523
 project-id = 1082085

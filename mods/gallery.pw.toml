@@ -1,13 +1,13 @@
 name = "Gallery"
-filename = "gallery-1.20.1-1.0.2.jar"
+filename = "gallery-1.20.1-1.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "77c964eaf2ee7240ba7edc005044812f2aef7cb7"
+hash = "d4cc9e69776c2955bfb688d57ad691bfd6cd3347"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6133771
+file-id = 6321203
 project-id = 1173553
