@@ -140,7 +140,7 @@ hash = "9251fcef6b6c0de4efec8f2b60c58b204a90212657522fafddb2a8cdbea2b627"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "ff583b62ea82d350256f5ff236bb3113dfda395e40401d72d664f7f4010c31d2"
+hash = "5023c65240cb310ee836015d96b6747d0923cd9d03cf7cea8bf5b6b0b56a96f1"
 
 [[files]]
 file = "config/dynamic_fps.json"
@@ -459,19 +459,23 @@ file = "config/kiwi-client.yaml"
 hash = "4b52b20bd3a1c92d7724dd5ed1d57900a053b79070b0281854e7f4681728e236"
 
 [[files]]
+file = "config/lcompat_waystones.txt"
+hash = "85e795326781121df9d86980ccfead9601e9db95cbbed382c93564c7a8dcae63"
+
+[[files]]
 file = "config/leaky.json"
 hash = "ffcb1468dd575dcdb97ef5e6da4d5e66c6db783b807cb26f27110ae63ea8a07b"
 
 [[files]]
-file = "config/lightmanscurrency-client.lcconfig"
+file = "config/lightmanscurrency-client.txt"
 hash = "43c19624abcd9427d4a5fc5aaf5949d16f9a6ff10ab7aae7965bfefdb0f2fddf"
 
 [[files]]
-file = "config/lightmanscurrency-common.lcconfig"
+file = "config/lightmanscurrency-common.txt"
 hash = "1cde1e4f79934e8174390b587b30b56fcbc6f3f6afc57252dae912ee1f310fa0"
 
 [[files]]
-file = "config/lightmanscurrency-server.lcconfig"
+file = "config/lightmanscurrency-server.txt"
 hash = "629fd1838018626684a877bda97897679014a0fe4d87285c4b9b404ab5737045"
 
 [[files]]
@@ -848,7 +852,7 @@ hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "a4c2542d4f060b4a538a454a51c79d1c5e001c57e1d0ba322456d33c7f80ca45"
+hash = "15c94d8a476e50c6a05e18fc9e52490505833826393869ed50e078a36136d547"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -4242,7 +4246,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "5994f2b1c61f6d8211413c1cb999464fc5e87439129f6f0b086daf64fda9ec96"
+hash = "44505ec6c8d7ac5948b3f192cff3db191b07c4d39d501ce3af916006cda3c5a6"
 metafile = true
 
 [[files]]
@@ -4531,7 +4535,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "7694540153dc09151260aaad51adc4e71ad3ec24781b3a0814458ee7fd2954b4"
+hash = "caa0aad2f0ef5f82f2e26f09191931513cdfec1462793f1ad72f249b868cf983"
 metafile = true
 
 [[files]]
@@ -4611,7 +4615,7 @@ metafile = true
 
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
-hash = "d3922913009ec2b0da3a55aeaa6dca2e4338beee3ddbbba3cbe379293fce0aaf"
+hash = "a46f2889f72a4de5e8b19b3cf371963e0182df27e1c4f3a26f8f286a5cf008de"
 metafile = true
 
 [[files]]
@@ -4696,7 +4700,7 @@ metafile = true
 
 [[files]]
 file = "mods/enhanced-celestials.pw.toml"
-hash = "dbc79194f822b2800d5ee42807416baeaf34ceae92c72eb07469619c074d0684"
+hash = "d1a11f3930b2345f8fde2a29e75b1211b9c69d28824169afed4b73ad494657e5"
 metafile = true
 
 [[files]]
@@ -4952,11 +4956,6 @@ metafile = true
 [[files]]
 file = "mods/inventory-hud-forge.pw.toml"
 hash = "9928c8f1f67cdc3ccdddef9fe63831a328b44dca1f6be9ebc086fc7d25747826"
-metafile = true
-
-[[files]]
-file = "mods/iris-flywheel-compat.pw.toml"
-hash = "5b93a9e6124a2167f648f02e337d1a43b83e8734e3bc9f3a218e52b68d7b3207"
 metafile = true
 
 [[files]]
@@ -5281,7 +5280,7 @@ metafile = true
 
 [[files]]
 file = "mods/perfect-plushies.pw.toml"
-hash = "85af7089ebf1ff9c1fe61719de57819053e9772087afb62b0c53d1122f2d0022"
+hash = "d2850ee5d1177a7ffc2353e2be5c273de9bf62ca52e5ef9e94dc665332a0fc6d"
 metafile = true
 
 [[files]]
@@ -5406,7 +5405,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustic-engineer.pw.toml"
-hash = "0efbdc60364476393fa174d21390adb4c567097a8a2f361fb50c7370b62f2057"
+hash = "1d6da17b1f2c6c021ecdbf978587dc121284233f4e26c751bafb137695b01844"
 metafile = true
 
 [[files]]
@@ -5441,7 +5440,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "1f24b43be5efacc252ef6df1d794ea811fd3f33e6f76d6d999e11e28018e553e"
+hash = "a66d5f85e6a1adda9fdfb5f95531a70206a21618972ef0fc6e76a0f02dca0498"
 metafile = true
 
 [[files]]
