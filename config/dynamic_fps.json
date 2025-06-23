@@ -1,0 +1,9 @@
+{
+  "states": {
+    "unfocused": {
+      "volume_multipliers": {
+        "master": 0.0
+      }
+    }
+  }
+}
