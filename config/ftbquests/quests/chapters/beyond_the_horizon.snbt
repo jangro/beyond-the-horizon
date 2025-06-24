@@ -660,7 +660,7 @@
 		{
 			icon: "minecraft:campfire"
 			id: "55389CA5CD4BFEBC"
-			subtitle: "Campfires keep monsters away."
+			subtitle: "Signalling campfires (campfire with haybale below it) prevents mob spawn in the nearby area."
 			tasks: [
 				{
 					id: "24B382173285D4CD"
