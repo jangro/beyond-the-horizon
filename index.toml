@@ -3531,6 +3531,14 @@ file = "kubejs/data/irons_spellbooks/worldgen/structure_set/pyromancer_tower.jso
 hash = "cfbb05e95a30060169e9a66475b64fa1efa8eb05fb1c50393894069fb901f742"
 
 [[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/template_pool/evoker_fort/halves_pool.json"
+hash = "8077e0bf37081dcfa855f742de0e7671e82679439cb1af9dfa732540f9e6a7dd"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/template_pool/evoker_fort/villager_spawn_pool.json"
+hash = "e2989d5acd6933280fcb6aef62e7feaebe2c7015f44b2ceb52ac258a3902d9bb"
+
+[[files]]
 file = "kubejs/data/lightmanscurrency/advancements/currency/coin_mint.json"
 hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
 
