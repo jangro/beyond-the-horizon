@@ -4977,6 +4977,11 @@ hash = "9928c8f1f67cdc3ccdddef9fe63831a328b44dca1f6be9ebc086fc7d25747826"
 metafile = true
 
 [[files]]
+file = "mods/iris-flywheel-compat.pw.toml"
+hash = "9a4c54491b61110383b5e55036d900ef8457e2a7d6261c821bda60a3b55a8688"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "3089988dcd2d81d07d1619c37ead2d3a7212671cc6811373756b5e4eaf66d8fd"
 metafile = true
