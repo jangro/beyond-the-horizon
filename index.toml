@@ -5572,6 +5572,11 @@ hash = "bc95c66c8a61ad096681adcdef283f5a8a80d8686bf68b8ea989ff48fb5c0812"
 metafile = true
 
 [[files]]
+file = "mods/tact.pw.toml"
+hash = "d992e6db811c943de28e1064e7f4beeac10349ed58a90094253812f9cfc1387d"
+metafile = true
+
+[[files]]
 file = "mods/taxdeepvillager.pw.toml"
 hash = "c8e75980fd1108b8a576d0c519c302966f074f8e7a0a7a30200916def1093114"
 metafile = true
