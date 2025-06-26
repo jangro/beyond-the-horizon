@@ -4527,6 +4527,11 @@ hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
+file = "mods/cosmopolitan.pw.toml"
+hash = "abeb5d21719e51d545f6707a3ee874db3a1a2f1350391ee3a72b4831a27de46c"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "bc0573b24f5dc93fcc644f7c5ba99d66c18097f874070b2808fd0af7ccb10259"
 metafile = true
