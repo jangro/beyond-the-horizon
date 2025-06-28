@@ -116,4 +116,6 @@ ItemEvents.tooltip(event => {
   addTooltip('aether:golden_aercloud', 'tooltip.bth.aercloud');
   addTooltip('deep_aether:sterling_aercloud', 'tooltip.bth.aercloud');
   addTooltip('lost_aether_content:pink_aercloud', 'tooltip.bth.aercloud');
+
+  addTooltip('alexscaves:biome_treat', 'tooltip.bth.alexscaves.biome_treat');
 });
