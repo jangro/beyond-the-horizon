@@ -152,3 +152,25 @@ BlockEvents.rightClicked('supplementaries:pancake', event => {
     event.cancel();
   });
 });
+
+//
+// Alex's Caves biome treat is bound to the biome if eaten when the player is starving.
+// We don't have starving mechanics so bind it when left clicking a block instead.
+//
+BlockEvents.leftClicked(event => {
+  const heldItem = event.player.getMainHandItem();
+  if (heldItem.id !== 'alexscaves:biome_treat') {
+    return;
+  }
+  // If heldItem has the NBT key 'CaveBiome', it is already bound so return early.
+  if (heldItem.nbt && heldItem.nbt.CaveBiome) {
+    return;
+  }
+  const biome = event.block.biomeId;
+  if (biome) {
+    player.mainHandItem = Item.of('alexscaves:biome_treat', `{CaveBiome:"${biome}"}`);
+  } else {
+    console.warn(`Could not bind Alex's Caves biome treat - biome not found.`);
+    return;
+  }
+});

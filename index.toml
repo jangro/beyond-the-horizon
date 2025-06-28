@@ -3876,7 +3876,7 @@ hash = "cee68bf039758094c8dee61b383f61f295258fd5d7cdf2106d8368738b285f99"
 
 [[files]]
 file = "kubejs/server_scripts/src/block_events.js"
-hash = "af50db598e49213cc4818676d8ff88bc50e4bb952e27f6199d1e91dfe0bf52b6"
+hash = "ca257ca1d698386c5722ce0d4a8f572104898ec3eb69a668c9ce3db2a86c97f0"
 
 [[files]]
 file = "kubejs/server_scripts/src/constants.js"
