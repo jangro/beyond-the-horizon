@@ -4284,7 +4284,7 @@ metafile = true
 
 [[files]]
 file = "mods/bagus-lib.pw.toml"
-hash = "424805e199413a3398ebc40eae0b3f795ec2ad322621be7857d0ba6386bde3da"
+hash = "aff059997311e4fb0b7fa791bc079ec92b7adc638c76ffcc4643d4bde50ce04b"
 metafile = true
 
 [[files]]
@@ -4433,7 +4433,7 @@ metafile = true
 
 [[files]]
 file = "mods/citadel.pw.toml"
-hash = "ab769d9c60cfba798a0538bad596e374dc9c68a9c59ad83684afc66ce4ebfe7f"
+hash = "0c8838dba7d2090968ca9ec633260d42ca16f1df186a780bd5965994541d9f74"
 metafile = true
 
 [[files]]
@@ -4758,7 +4758,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "fe53a039d57e4ccd66922e52a219b68f8f80c0d31df241b06a9f77245b64632f"
+hash = "a674c6f9979c2e9644693fd821362cb3237f1051f6ab47531e47baa0143969ec"
 metafile = true
 
 [[files]]
@@ -4903,7 +4903,7 @@ metafile = true
 
 [[files]]
 file = "mods/idas.pw.toml"
-hash = "641e8cdce2074ed960325fa823365c9832e01c23fa2031273f5701298618db49"
+hash = "84a63549f33ef06ca373f65865c2e31008f94220383b29d2338fb1ca4722380c"
 metafile = true
 
 [[files]]
@@ -4928,7 +4928,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
-hash = "a5cce853e6063047eb5b57f9432e180d4fd6bc7560ccd2270ba2af8e6acbaf43"
+hash = "ca3485b4f1c0b5b88fbacc2fed0f7e0d8a2d9bab28e88619255e7241cb84aae6"
 metafile = true
 
 [[files]]
@@ -5063,7 +5063,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs-ars-nouveau.pw.toml"
-hash = "50dde309aba5227016d9901bac4d439899107b495e31671aa150f6788e414570"
+hash = "94416feb86dc3a3e476e1c3d761111b0223426c92b9a2b0f388abca81b5b5a57"
 metafile = true
 
 [[files]]
@@ -5103,12 +5103,12 @@ metafile = true
 
 [[files]]
 file = "mods/lightmans-currency.pw.toml"
-hash = "51569cf0e539d60740f5dc7c92ee4085078b1fc5f52d07737908a4f24bfcaea0"
+hash = "00ba5183097fb00c71b851c13f33fe69db3504351f3fbc00d6c76c316e2c28bd"
 metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "59764717dd1cfe81d5dbdfda3eb5f1ac51723e1eb81e450b1383a2745a69c63d"
+hash = "6b91b0ecace60999bc9092148de7298e69fcbe485df1a2fa18b52b89e3b1ed7d"
 metafile = true
 
 [[files]]
@@ -5168,7 +5168,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "c479a465e374cc7422dc3db0db01f5e978d2e6966686f54fa1d6540f628c15ff"
+hash = "a6b8b7b8d2418d6895bb019d63274c38604160baf3a4231f1c62de51e4edea08"
 metafile = true
 
 [[files]]
@@ -5463,7 +5463,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "116e62561144f3e3744c74df14192d2b4586381ae99e71cdb59b49041391a2fc"
+hash = "4c9cf4f90c0320241ea9283fb9bf09981d3f2f75e83cb1ca89891e15251cb639"
 metafile = true
 
 [[files]]
@@ -5488,7 +5488,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "a66d5f85e6a1adda9fdfb5f95531a70206a21618972ef0fc6e76a0f02dca0498"
+hash = "c2c7b6d4eed58bc50c480356cfd76650133a5b0e0b31e88b81567f04736fe3fe"
 metafile = true
 
 [[files]]
@@ -5573,7 +5573,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurize.pw.toml"
-hash = "c35e5a06dcd2a6a2614200254f7ba1b9a016b9c9ad38ed2f3343766673f6b764"
+hash = "0f1ece503f3ba54206e2a896574ba1d7d642684898394419ee4b43c0a0ec8efe"
 metafile = true
 
 [[files]]
