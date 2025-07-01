@@ -4928,7 +4928,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
-hash = "ca3485b4f1c0b5b88fbacc2fed0f7e0d8a2d9bab28e88619255e7241cb84aae6"
+hash = "08450ed64a9b7d2e4d6d8cfae386ec983ea00c01cbf5204bb4bb6aa0ee101bba"
 metafile = true
 
 [[files]]
@@ -5498,7 +5498,7 @@ metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "ebc991519db80f7009e67023483354bb562ee939eeac754cf4cb290e29d01761"
+hash = "5a9b0472f83570f78750dd1973a2d4e599d546ded34539930036b6f187dde4c1"
 metafile = true
 
 [[files]]
@@ -5603,7 +5603,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "bc95c66c8a61ad096681adcdef283f5a8a80d8686bf68b8ea989ff48fb5c0812"
+hash = "e63437ce2e261423834a95161b1e4fd225f2636507d56669182339a10a97eb1c"
 metafile = true
 
 [[files]]
