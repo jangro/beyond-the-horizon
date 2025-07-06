@@ -4643,7 +4643,7 @@ metafile = true
 
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
-hash = "a46f2889f72a4de5e8b19b3cf371963e0182df27e1c4f3a26f8f286a5cf008de"
+hash = "67b30562f3c9b2bdfecc77cbe8fb042a5e43bb84015695c451342f514830ce86"
 metafile = true
 
 [[files]]
@@ -4683,7 +4683,7 @@ metafile = true
 
 [[files]]
 file = "mods/ecologics.pw.toml"
-hash = "e58257e27b7fce3399b38ca94a953728879d288757957521975ecc5044218fe0"
+hash = "9aa7042552fe4794bbab3fe185a7e75e5cdc063ae7459857de1d2541ab420c2a"
 metafile = true
 
 [[files]]
@@ -4763,7 +4763,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "a674c6f9979c2e9644693fd821362cb3237f1051f6ab47531e47baa0143969ec"
+hash = "da1837c01e3a833c4b0aeedda73ed1020c60375738cbe4f8399ebb48fdb9dac3"
 metafile = true
 
 [[files]]
@@ -4933,7 +4933,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-furniture.pw.toml"
-hash = "08450ed64a9b7d2e4d6d8cfae386ec983ea00c01cbf5204bb4bb6aa0ee101bba"
+hash = "29847b89bce2266c749cc397d0f31272784e4bcd56f55196792c5a3bb88c97dc"
 metafile = true
 
 [[files]]
@@ -4968,7 +4968,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "0006267d1ed71a4a6707d6959b05fa4985e0b211de244b1c4feeb22f47bf645c"
+hash = "6c843aabc6732714ad2ce5271990bed6b72d55b9c1212869e369b425a64b11d8"
 metafile = true
 
 [[files]]
@@ -5173,7 +5173,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "a6b8b7b8d2418d6895bb019d63274c38604160baf3a4231f1c62de51e4edea08"
+hash = "e37a761b371cac8783da5a3d7bf80a9d0561c32fd7d63ba02f12ce089dd79009"
 metafile = true
 
 [[files]]
@@ -5188,7 +5188,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "6d67f3ac8920ae6bc778bb51ce44a9f0ed0b5f81df3b9213f130542610122921"
+hash = "31908feb6048658402fc4c539a9105775df2dcd2aef5973100946ac912705ee9"
 metafile = true
 
 [[files]]
@@ -5488,12 +5488,12 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "a80f349ff3ca69843442c3468c028eacd4ffa7404826c16bfa19d79f0f7922f9"
+hash = "82ff48f8deef9fee96dd9361e58f430f0ed327f9dceaa9ba145505220f69aa6e"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "c2c7b6d4eed58bc50c480356cfd76650133a5b0e0b31e88b81567f04736fe3fe"
+hash = "77b4bab2344799441d0cd87d8b9a6bcbf80796014e1b1b8aa3860c507779603b"
 metafile = true
 
 [[files]]
@@ -5837,7 +5837,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/spawn-animations.pw.toml"
-hash = "2c8da479acdd52d53c21a85bcc992c09f72245336d0777e2dd7b6f1b4dc59e53"
+hash = "5f6b6e3c67a6b3850488a3eee7aefc4d66be790eeaa8d65d5e241b9705eab257"
 metafile = true
 
 [[files]]
