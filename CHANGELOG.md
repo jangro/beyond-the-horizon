@@ -2,6 +2,45 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4] - 2025-07-14
+
+### Added
+
+- Bind Alex's Caves biome treat to biome when left clicked on block due to starvation mechanics not being available
+- EnderIO alloy recipes
+- Made more blocks breakable by Iron's Spellbooks' spectral hammer
+- Plastic waste sag mill recipe
+
+- Mods
+  - Ars Technica
+  - After Life (with resource pack to remove WoW-style)
+  - Cosmopolitan
+  - Create Sounds of Steam
+  - Diagonal Fences
+  - Immersive Furniture
+  - Immersive Machinery
+  - Jumpy Boats
+  - Noisium
+  - Sophisticated Backpacks Create Integration
+  - Structure Layout Optimizer
+  - Tiny Alex's Caves Tweaks
+
+### Changed
+
+- Completely mute sounds when unfocused (added dynamic fps config file)
+- Improve EnderIO and AE2 cable recipes to be less resource intensive
+- Increase chances of villager mage spawning in evoker forts for villager bible quest line
+- Rebalance pillager outpost generation
+
+- Mods updated
+  - Create 5 -> 6
+  - and many many more...
+
+### Removed
+
+- Mods
+  - Little Contraptions (incompatible with Create 6)
+
 ## [1.3.1] - 2025-06-14
 
 ### Changed
