@@ -4763,7 +4763,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "da1837c01e3a833c4b0aeedda73ed1020c60375738cbe4f8399ebb48fdb9dac3"
+hash = "bba04d1c28aae515e3b0366bde65ff7621b0ffb65c1d06b1c9b8b997c5446d60"
 metafile = true
 
 [[files]]
@@ -4918,7 +4918,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "9406e74a2166c58db37c0ba2a29da94723d0c158b05cc6bf22355f7855a27709"
+hash = "5ef78421a13ef39b9708f37997d797fa9ae70bdbb5da14b6356299f9cd33a2c4"
 metafile = true
 
 [[files]]
@@ -5113,7 +5113,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "6b91b0ecace60999bc9092148de7298e69fcbe485df1a2fa18b52b89e3b1ed7d"
+hash = "1d623ba29fcb52d5db733af383a13273792ac3dc1ac7a8f9e3f58a17ae1bc2c7"
 metafile = true
 
 [[files]]
@@ -5173,7 +5173,7 @@ metafile = true
 
 [[files]]
 file = "mods/minecolonies.pw.toml"
-hash = "e37a761b371cac8783da5a3d7bf80a9d0561c32fd7d63ba02f12ce089dd79009"
+hash = "985d371c250d7a4a6361f4feff529f488457b001c3a20831159e37bd9bfa9345"
 metafile = true
 
 [[files]]
@@ -5468,7 +5468,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "4c9cf4f90c0320241ea9283fb9bf09981d3f2f75e83cb1ca89891e15251cb639"
+hash = "249b06b92b446ce2a6983b8b573e4a285edbe3060a63e233170200ef80794d42"
 metafile = true
 
 [[files]]
