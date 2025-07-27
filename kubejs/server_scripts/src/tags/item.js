@@ -56,6 +56,14 @@ ServerEvents.tags('item', event => {
     'eidolon:illwood_planks_slab',
   ]);
 
+  event.add('minecraft:swords', [
+    'bth:terminus',
+  ]);
+
+  event.add('minecraft:tools', [
+    'bth:terminus',
+  ]);
+
   // Forge Tags
   event.add('forge:dough', [
     'minecolonies:bread_dough',
@@ -70,6 +78,11 @@ ServerEvents.tags('item', event => {
     'create:wheat_flour',
     'enderio:flour',
   ]);
+
+  event.add('forge:tools', [
+    'bth:terminus',
+  ]);
+
 
   // Make Alex's Caves the default for raw uranium (fixes ID squeezer recipe)
   event.removeAll('forge:raw_materials/uranium');
