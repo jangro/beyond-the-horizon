@@ -20,6 +20,39 @@ All notable changes to this project will be documented in this file.
 - Made recipe for Bamboo Bee cheaper
 - Made recipe for Redstone Sheep cheaper
 
+- Mods updated
+  - Applied Energistics 2
+  - Balm
+  - Building But Better
+  - Cosmopolitan
+  - Crafting Tweaks
+  - Default Options
+  - Distant Horizons
+  - Ender IO
+  - Every Compat (Wood Good)
+  - FTB Library (Forge)
+  - Fusion (Connected Textures)
+  - GeckoLib
+  - ImmediatelyFast
+  - Integrated Dungeons and Structures
+  - Integrated Dynamics
+  - Lightman's Currency
+  - Luki's Grand Capitals
+  - Midnighttigger's Default Connected Textures
+  - Mighty Mail
+  - MineColonies
+  - ModernFix
+  - Moonlight Lib
+  - Shoulder Surfing Reloaded
+  - Simple Backups
+  - Simple Voice Chat
+  - Sophisticated Backpacks
+  - Sophisticated Core
+  - Sound Physics Remastered
+  - Supplementaries
+  - Visual Workbench [Forge & Fabric]
+  - Waystones
+
 ## [1.4] - 2025-07-14
 
 ### Added
