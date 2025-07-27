@@ -72,7 +72,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "50a838558783acc8bf62827bd67bf7194ecf843b8f14843516ee88d8ef424409"
+hash = "2b2356400930f9608eed46ac3a92bfbdb3b92c87b61dff0f2d6c5e901437f74f"
 
 [[files]]
 file = "config/betterdays-common.toml"
@@ -4315,11 +4315,6 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
-metafile = true
-
-[[files]]
-file = "mods/blast-travel-reborn.pw.toml"
-hash = "18fe97585b722e876961cacc8deb533001e732866cb33c43c9a84b1d0692acaa"
 metafile = true
 
 [[files]]
