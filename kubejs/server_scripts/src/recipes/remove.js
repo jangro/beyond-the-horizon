@@ -138,6 +138,8 @@ ServerEvents.recipes(event => {
     'immersive_aircraft:hull_reinforcement',
     'immersive_aircraft:propeller',
     'immersive_aircraft:quadrocopter',
+    'immersive_machinery:bamboo_bee',
+    'immersive_machinery:redstone_sheep',
     /immersiveengineering:arcfurnace\/.*uranium.*/,
     'immersiveengineering:crafting/hammercrushing_uranium',
     'immersiveengineering:crafting/ingot_electrum_to_nugget_electrum',

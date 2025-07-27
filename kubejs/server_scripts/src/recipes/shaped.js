@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     S: '#forge:string',
     R: ['minecraft:rabbit_hide', 'farmersdelight:canvas']
   }).id(`${ID_PREFIX}bundle`);
-  
+
   event.shaped('minecraft:chest', [
     'PPP',
     'P P',
@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
     L: '#forge:leather',
     I: '#forge:ingots/iron'
   }).id(`${ID_PREFIX}saddle`);
-  
+
   // AE2
   event.shaped('6x ae2:fluix_covered_cable', [
     'FFF',
@@ -516,7 +516,7 @@ ServerEvents.recipes(event => {
     'LLL',
     'IGI',
     'LLL'
-  ], { 
+  ], {
     L: 'aether:skyroot_log',
     I: '#forge:ingots/iron',
     G: 'aether:enchanted_gravitite'
@@ -526,7 +526,7 @@ ServerEvents.recipes(event => {
     'III',
     'LLL',
     'III'
-  ], { 
+  ], {
     L: 'aether:skyroot_log',
     I: '#forge:ingots/iron',
   }).id(`${ID_PREFIX}immersive_aircraft_hull_reinforcement`);
@@ -541,6 +541,29 @@ ServerEvents.recipes(event => {
     E: 'immersive_aircraft:engine',
     H: 'immersive_aircraft:hull'
   }).id(`${ID_PREFIX}immersive_aircraft_quadrocopter`);
+
+  // Immersive Machinery
+  event.shaped('immersive_machinery:bamboo_bee', [
+    'PBP',
+    'BRB',
+    'P P'
+  ], {
+    P: 'create:propeller',
+    B: 'minecraft:bamboo',
+    R: 'immersive_machinery:redstone_mechanism'
+  }).id(`${ID_PREFIX}immersive_machinery_bamboo_bee`);
+
+  event.shaped('immersive_machinery:redstone_sheep', [
+    '   ',
+    'CER',
+    'OPO'
+  ], {
+    C: 'minecraft:copper_ingot',
+    E: 'immersive_aircraft:engine',
+    R: 'immersive_machinery:redstone_mechanism',
+    O: 'minecraft:observer',
+    P: 'create:propeller'
+  }).id(`${ID_PREFIX}immersive_machinery_redstone_sheep`);
 
   // EnderIO
   event.shaped('8x enderio:energy_conduit', [
@@ -590,27 +613,27 @@ ServerEvents.recipes(event => {
     'AFA',
     'AAA'
   ], {
-      A: 'irons_spellbooks:arcane_essence',
-      F: 'ars_nouveau:fire_essence'
+    A: 'irons_spellbooks:arcane_essence',
+    F: 'ars_nouveau:fire_essence'
   }).id(`${ID_PREFIX}cinder_essence_from_fire_essence`);
-  
+
   event.shaped('irons_spellbooks:silver_ring', [
     'ES ',
     'S S',
     ' S '
   ], {
-      S: '#forge:ingots/silver',
-      E: 'irons_spellbooks:arcane_essence'
+    S: '#forge:ingots/silver',
+    E: 'irons_spellbooks:arcane_essence'
   }).id(`${ID_PREFIX}irons_silver_ring`);
-  
+
   event.shaped('irons_spellbooks:upgrade_orb', [
     'ACA',
     'CEC',
     'ACA'
   ], {
-      A: 'irons_spellbooks:arcane_ingot',
-      C: 'irons_spellbooks:cinder_essence',
-      E: 'endrem:magical_eye'
+    A: 'irons_spellbooks:arcane_ingot',
+    C: 'irons_spellbooks:cinder_essence',
+    E: 'endrem:magical_eye'
   }).id(`${ID_PREFIX}irons_upgrade_orb`);
 
   event.shaped('paraglider:paraglider', [
@@ -618,9 +641,9 @@ ServerEvents.recipes(event => {
     'LSL',
     'SVS'
   ], {
-      S: '#forge:rods/wooden',
-      L: '#forge:leather',
-      V: 'paraglider:stamina_vessel'
+    S: '#forge:rods/wooden',
+    L: '#forge:leather',
+    V: 'paraglider:stamina_vessel'
   }).id(`${ID_PREFIX}paraglider`);
 
   // PneumaticCraft: Repressurized
