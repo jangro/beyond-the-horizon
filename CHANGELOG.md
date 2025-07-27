@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.1] - 2025-07-27
+
+### Removed
+
+- Blast Travel Reborn (causes crash on server)
+
 ## [1.5] - 2025-07-27
 
 ### Added
