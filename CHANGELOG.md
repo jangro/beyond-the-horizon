@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5] - 2025-07-27
+
+### Added
+
+- Mods
+  - Blast Travel Reborn
+  - Copper Tuff Backport
+  - Diagonal Walls 
+  - Happy Ghast Backport 
+  - Nomadic Tents 
+  - PVP Flagging 
+  - Table Top Craft 
+
+### Changed
+
+- Made recipe for Bamboo Bee cheaper
+- Made recipe for Redstone Sheep cheaper
+
 ## [1.4] - 2025-07-14
 
 ### Added
