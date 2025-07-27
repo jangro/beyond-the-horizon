@@ -312,4 +312,12 @@ ServerEvents.recipes(event => {
   // Changes in specific recipes.
   replaceInputID('minecraft:copper_ingot', 'minecraft:copper_block', ['minecraft:copper_block', 'minecraft:waxed_copper_block']);
   replaceInputID('nethersdelight:blackstone_blast_furnace', 'nethersdelight:blackstone_furnace', 'quark:blackstone_furnace');
+
+  // Quark tuff changes for the addition of copper and tuff backport mod.
+  replaceInputID('quark:building/crafting/stonevariants/chiseled_tuff_bricks', 'quark:tuff_bricks_slab', 'copperandtuffbackport:tuff_brick_slab');
+  replaceInputID('quark:building/crafting/stonevariants/tuff_pillar', 'quark:polished_tuff_slab', 'copperandtuffbackport:polished_tuff_slab');
+  replaceInputID('quark:building/crafting/vertslabs/polished_tuff_vertical_slab', 'quark:polished_tuff_slab', 'copperandtuffbackport:polished_tuff_slab');
+  replaceInputID('quark:building/crafting/vertslabs/tuff_vertical_slab', 'quark:tuff_slab', 'copperandtuffbackport:tuff_slab');
+
+
 });

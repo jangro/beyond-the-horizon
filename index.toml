@@ -852,7 +852,7 @@ hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "15c94d8a476e50c6a05e18fc9e52490505833826393869ed50e078a36136d547"
+hash = "cc47261b5cc72dd04e7655a686733c210b4fb2d8aa931bad5926866a090cc591"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -3996,11 +3996,11 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "15d380514ad56176b9ccb96e4b075e759e948f196b7e8701005cb107d27afb6d"
+hash = "7cfeddd283835f8b2785f08e7da468861a46c5127f7bf41308e971a55607a7dc"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "0fcf76e2102de64471661bcbac784bb367bc2300b2e8ccfa2e28e8a5aef03b2d"
+hash = "828eb6249d916fb07eee1c8e54dd1ab84054268da5fffd62ab23ffb2368b633b"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
@@ -4318,6 +4318,11 @@ hash = "cf702349b89066726963844ff123a21f7a56c7201dde09cdcffa84da62d41e0d"
 metafile = true
 
 [[files]]
+file = "mods/blast-travel-reborn.pw.toml"
+hash = "18fe97585b722e876961cacc8deb533001e732866cb33c43c9a84b1d0692acaa"
+metafile = true
+
+[[files]]
 file = "mods/blazingbamboo.pw.toml"
 hash = "4ea359ac5284d768167a20b3c5f6edaea613a21a2b6d3fc51589fa6b6f55c403"
 metafile = true
@@ -4417,6 +4422,11 @@ hash = "983166b2772e51c89dfbd99c6ee781bf2dc3097e01b8054a0ec4d6ffae385074"
 metafile = true
 
 [[files]]
+file = "mods/chisels-bits.pw.toml"
+hash = "aca009f78e1223d44ba4b9683537d7acdd899b30834e25ab04a3092156725bcf"
+metafile = true
+
+[[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "78bcb2e1589baaa14ecccb6fca39293a5b4ac8d7f6f5a6ee1a6a812e3a5a958c"
 metafile = true
@@ -4509,6 +4519,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "fb61dde5e2b28410e45d240e87edea2399f89a30b614aeb8044457c7cba4ccb4"
+metafile = true
+
+[[files]]
+file = "mods/copper-tuff-backport-fabric.pw.toml"
+hash = "f0db554ba12092ebd6501684fda5de1122bd7cdc5189ba77a7daa0b6e9d63d37"
 metafile = true
 
 [[files]]
@@ -4629,6 +4644,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "19255110e688c65f6144cd2fccbfae5c8e376a21083006bd9d4c096ab0494f1c"
+metafile = true
+
+[[files]]
+file = "mods/diagonal-walls.pw.toml"
+hash = "82443ad12a26cf8fd5f8c15dae10adf18582d30b5c771ace151cc0cc17714597"
 metafile = true
 
 [[files]]
@@ -4879,6 +4899,11 @@ metafile = true
 [[files]]
 file = "mods/guideme.pw.toml"
 hash = "de1074bb6f0f63ce7580daab559efdea6e5b1238deb20074e0a87179b3c4dbd4"
+metafile = true
+
+[[files]]
+file = "mods/happy-ghast-backport.pw.toml"
+hash = "d88a42eb02e06b3aab646b2206b5cadf166e11897239a4b77bd7b66ea81bd273"
 metafile = true
 
 [[files]]
@@ -5267,6 +5292,11 @@ hash = "dbd8ee9c150f054d96e1e3cf97c8cb169cf854a84532e21daab9e11309a67fcf"
 metafile = true
 
 [[files]]
+file = "mods/nomadic-tents.pw.toml"
+hash = "0dd7153cdc0d4360e141c3880d9736ca6dd4641448c0ffa71082236b91cd2fc9"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "232f73206d09fb0c8cac662fb82bbb53367795818ef05f70c290e391a5e4fa03"
 metafile = true
@@ -5389,6 +5419,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "62a76c5212c04d15c27d7c1141f0a0d7d803aa10d172444359e4dacbdba6da7b"
+metafile = true
+
+[[files]]
+file = "mods/pvp-flagging.pw.toml"
+hash = "6783ec380906eef7c1c5422c451b87303c1a0cedc8f25ebd5c605191213812d1"
 metafile = true
 
 [[files]]
@@ -5609,6 +5644,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "e63437ce2e261423834a95161b1e4fd225f2636507d56669182339a10a97eb1c"
+metafile = true
+
+[[files]]
+file = "mods/table-top-craft.pw.toml"
+hash = "c8597c7c0d8768c1dbef6cbcc7d45846933aa0528074bf41878e7cf0683f6a1f"
 metafile = true
 
 [[files]]
