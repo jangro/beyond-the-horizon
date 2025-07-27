@@ -62,6 +62,17 @@ ServerEvents.tags('item', event => {
 
   event.add('minecraft:tools', [
     'bth:terminus',
+    'bth:coconut_maul',
+  ]);
+
+  event.add('minecraft:weapons', [
+    'bth:terminus',
+    'bth:coconut_maul',
+  ]);
+
+  // Create Tags
+  event.add('create:chain_rideable', [
+    'bth:coconut_maul',
   ]);
 
   // Forge Tags
@@ -81,8 +92,8 @@ ServerEvents.tags('item', event => {
 
   event.add('forge:tools', [
     'bth:terminus',
+    'bth:coconut_maul',
   ]);
-
 
   // Make Alex's Caves the default for raw uranium (fixes ID squeezer recipe)
   event.removeAll('forge:raw_materials/uranium');
