@@ -72,7 +72,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "ec0f12a6d3e25ce9f89715b68eff27a24261ef1f2aef99a2881960f5e1118adf"
+hash = "50a838558783acc8bf62827bd67bf7194ecf843b8f14843516ee88d8ef424409"
 
 [[files]]
 file = "config/betterdays-common.toml"
