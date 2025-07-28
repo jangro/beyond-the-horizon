@@ -16,7 +16,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "12fc93a8fcc7b46ab3bde326e939688136365232d3fafaaed767dba2fe4ecbb1"
+hash = "e6ad36ac9197e40f57f565280e9898454b4be4d41d33249d3d14931ddb2b3178"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
