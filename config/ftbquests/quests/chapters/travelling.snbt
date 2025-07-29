@@ -16,7 +16,7 @@
 				item: "immersive_aircraft:airship"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -12.5d
 		}
 		{
@@ -28,7 +28,7 @@
 				item: "immersive_aircraft:cargo_airship"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: -12.5d
 		}
 		{
@@ -40,7 +40,7 @@
 				item: "immersive_aircraft:warship"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -12.5d
 		}
 		{
@@ -52,7 +52,7 @@
 				type: "item"
 			}]
 			title: "Biplane"
-			x: -1.5d
+			x: -2.5d
 			y: -11.5d
 		}
 		{
@@ -63,7 +63,7 @@
 				item: "immersive_aircraft:gyrodyne"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -11.5d
 		}
 		{
@@ -74,7 +74,7 @@
 				item: "immersive_aircraft:quadrocopter"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -11.5d
 		}
 		{
@@ -87,7 +87,7 @@
 				type: "item"
 			}]
 			title: "The Source of Flight"
-			x: -1.5d
+			x: -2.5d
 			y: -13.5d
 		}
 		{
@@ -109,7 +109,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -13.0d
 		}
 		{
@@ -130,7 +130,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -13.5d
 		}
 		{
@@ -151,7 +151,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -13.0d
 		}
 		{
@@ -172,7 +172,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -12.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -11.0d
 		}
 		{
@@ -214,7 +214,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -10.5d
 		}
 		{
@@ -235,7 +235,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -11.0d
 		}
 		{
@@ -257,7 +257,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: -12.0d
 		}
 		{
@@ -282,7 +282,7 @@
 				type: "checkmark"
 			}]
 			title: "Dragon Taming 101"
-			x: 6.5d
+			x: 7.5d
 			y: -12.0d
 		}
 		{
@@ -641,8 +641,8 @@
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -14.0d
+			x: 3.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["3A643C9F794E6B0C"]
@@ -653,7 +653,7 @@
 				item: "man_of_many_planes:scarlet_biplane"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -10.5d
 		}
 		{
@@ -665,7 +665,7 @@
 				item: "man_of_many_planes:economy_plane"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: -10.5d
 		}
 		{
@@ -1051,7 +1051,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: -13.0d
+			y: -12.5d
 		}
 		{
 			description: [
@@ -1078,8 +1078,8 @@
 				title: "Structure maps"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -13.0d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
 			description: ["See the chapter &6Trails to Riches&r for map trails that will guide you through a series of structures, with increasing reward and risk."]
@@ -1091,8 +1091,39 @@
 				title: "Trails to Riches"
 				type: "checkmark"
 			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			description: [
+				"&2Nomadic Tents&r are portable bases that come in various types and sizes. FOMO is a thing of the past. Now you can explore the world to your heart's content while carrying your home with you on your travels."
+				""
+				"Start by crafting a tiny version of your choice of tent, for example &cTiny Tepee&r."
+				""
+				"Then &9hold right click&r with it in your hand while aiming &2at a ground block&r. Requires about a 7x7 flat area to assemble the tent on."
+				""
+				"When the door and framing appears, use a mallet on the framing to assemble the tent. The &7Tent Mallet&r requires each block to be assembled individually while the &6Gold Tent Mallet&r assembles the tent with one click."
+				""
+				"Once assembled you can enter the tent by right clicking on the door with an empty hand."
+				""
+				"Right click with the Tent Mallet on the door to &4disassemble&r your tent."
+				""
+				"Tents can be upgraded to be larger on the inside. There are also &blayer upgrades&r that lets you use the ground under the tent for some extra space."
+			]
+			icon: {
+				Count: 1
+				id: "nomadictents:tiny_tepee"
+				tag: { }
+			}
+			id: "35C6350F9C9F8875"
+			subtitle: "A portable base."
+			tasks: [{
+				id: "4F7DF2729A6B86B6"
+				title: "Nomadic Tents"
+				type: "checkmark"
+			}]
 			x: 2.5d
-			y: -12.0d
+			y: -13.5d
 		}
 	]
 	title: "Travel and Exploration"

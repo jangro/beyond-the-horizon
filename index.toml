@@ -416,11 +416,11 @@ hash = "4dccb0b4bb5e1334f8097470fe6b44007da416e57aab3c3325d90b33f97fc856"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "04a190866985ed79759b7528a6e3fcab05144979ce94f60c23cb3bff4c674a6f"
+hash = "c4a574763b2ff5eac888bc26d8437400937a0e4c0f7679b53f4be52a5d780e52"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "b477386c54b32b4494869fbc14361d0e83b549f81e465e9062be987b4dd2b46a"
+hash = "2b9bd752748da8bb73a959206548dcb1d83765eded072c47ffcc869870923a89"
 
 [[files]]
 file = "config/immersiveengineering-client.toml"
