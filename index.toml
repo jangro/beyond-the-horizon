@@ -87,6 +87,10 @@ file = "config/blockswap/block_swap.json5"
 hash = "ff11153384f458b4e44589d84342b98f7cfd8f7e2f76d308434f803c2cef45b7"
 
 [[files]]
+file = "config/botania-client.toml"
+hash = "89c2986d4297ecabb07d9f4ab6f5b2e83447c35e5490eaa66104e871dfccce0c"
+
+[[files]]
 file = "config/bountiful/bountiful.json"
 hash = "2d86c2908b45367e8a0d11b4c606a81cd9b270a61cfed0204c9a304ea355657c"
 
