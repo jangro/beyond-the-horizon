@@ -3515,6 +3515,10 @@ file = "kubejs/data/incendium/advancements/misc/root.json"
 hash = "f9578f30a87a47dfe05bb19443ddbbda1af10bca034c08f9f398222e45d341bb"
 
 [[files]]
+file = "kubejs/data/incendium/loot_tables/entity/dune_blaze.json"
+hash = "7a4bfa0812db4a7b91f1347928565b02dd664d1ae75e334e82d8bd5400fa37d2"
+
+[[files]]
 file = "kubejs/data/irons_spellbooks/worldgen/structure_set/evoker_fort.json"
 hash = "fa1d1ba2db8e7420572920eca405831ba558b48cd6f8451e3a98f744f718b8c0"
 
