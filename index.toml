@@ -76,7 +76,7 @@ hash = "9678842c9ff608452f16f96b6bc8e9148184f725a54fd481267bc1339e88651d"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "b5be8bad368b4c24c85fb83a568d420f28d212fe7be048c7ff498f4702da9d44"
+hash = "6c89dc2542f40ee6f16760d243b7505db052f28e3a14adb630b6e9ddd9ee486e"
 
 [[files]]
 file = "config/betterendisland-forge-1_20.toml"
