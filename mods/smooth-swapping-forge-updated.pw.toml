@@ -1,0 +1,13 @@
+name = "Smooth Swapping - Forge Updated"
+filename = "smoothswapping-0.9.2-1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c4bdbd18e6c5336e0b12c7a63a56f28681a1187"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5366773
+project-id = 1023605

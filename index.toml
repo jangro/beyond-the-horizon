@@ -583,6 +583,10 @@ file = "config/smallships-common.toml"
 hash = "f20111d78bcc8b390806f4620bc512445f2609e65c7e4fdf674dae4979e8eb15"
 
 [[files]]
+file = "config/smoothswapping.json"
+hash = "abeca9b4181f1f0e6900c735afa3e97d191fa26ce18a138f51e34eeb893d98b9"
+
+[[files]]
 file = "config/sodium-extra-options.json"
 hash = "75ede05efce546e59008efc5152da492508d9953d6c1bd4540e15b4e919f63d2"
 
@@ -5547,6 +5551,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "a061b4f98461fc38b4ff6495b5e3a9b8708e9d87333c2cbb29e6b265053a5abe"
+metafile = true
+
+[[files]]
+file = "mods/smooth-swapping-forge-updated.pw.toml"
+hash = "6706a2a24a1fe58c8170d05aea600a71910c766c7fb0c1b1313d3feb798fb63a"
 metafile = true
 
 [[files]]
