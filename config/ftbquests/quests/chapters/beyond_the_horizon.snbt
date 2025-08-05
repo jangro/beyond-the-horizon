@@ -209,7 +209,7 @@
 				type: "checkmark"
 			}]
 			title: "Sack drops"
-			x: 9.0d
+			x: 8.5d
 			y: -4.5d
 		}
 		{
@@ -848,6 +848,18 @@
 			}]
 			x: 10.5d
 			y: -3.0d
+		}
+		{
+			icon: "packingtape:packaged_block"
+			id: "19E1A8F8627204A8"
+			subtitle: "Move spawners with packing tape."
+			tasks: [{
+				id: "0CC1A2BA4E1DC645"
+				type: "checkmark"
+			}]
+			title: "Packing Tape"
+			x: 9.5d
+			y: -4.5d
 		}
 	]
 	title: "Tips and Hints"
