@@ -16,7 +16,7 @@
 	#If true the world will attempt to be upgraded from an older version of ISS
 	runWorldUpgrader = true
 	#From 0-1, the percent chance for scrolls to be successfully recycled. Default: 0.5 (50%)
-	scrollRecycleChance = 0.5
+	scrollRecycleChance = 1
 	#Whether or not potions should be allowed to be brewed in the alchemist cauldron)
 	allowCauldronBrewing = true
 	#Whether or not Furled Map items should skip chunks when searching for structures (only find new structures). Can impact performance while searching. Default: true

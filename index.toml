@@ -672,7 +672,7 @@ hash = "2e0f859569d188d65e20fc7fd8f12a1916aeeb8fec909867e7f359d1ce658016"
 
 [[files]]
 file = "defaultconfigs/irons_spellbooks-server.toml"
-hash = "c24c2c597a4b0ed993cf98890898e4f394340e13f70be681003cf2a056a90bc4"
+hash = "f5868054b0875afb777cbf6e9bb19e45a16c5d0cf930579e70c5c3818b5017c7"
 
 [[files]]
 file = "defaultconfigs/moremobgriefingoptions-server.toml"
