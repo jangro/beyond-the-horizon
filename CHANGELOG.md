@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6] - 2025-08-05
+
+### Added
+
+- Add blaze rod drops to desert blaze mobs
+- Add Nomadic Tents mod to quest book
+- Add packing tape to quest book
+
+### Changed
+
+- Fix resource pack not loading by default
+- Hide everycomp's bbb trims due to missing textures
+- Improve candle and soap recipes
+- Add flower block tags to Deep Aether flowers
+- Set Iron's scroll recycling chance to 100%
+- Disable Better Days sleep animation due to conflict with Nomadic Tents
+- Disable Botania shaders to fix rendering with Oculus shaders
+- Blacklist Table Top blocks in carry on
+- Reduce default Distant Horizons CPU usage
+
+### Removed
+
+- Remove No Hostiles Around Campfires mod due to high cpu usage
+
 ## [1.5.1] - 2025-07-27
 
 ### Removed
