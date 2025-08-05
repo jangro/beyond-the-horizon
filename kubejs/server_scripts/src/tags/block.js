@@ -41,6 +41,24 @@ ServerEvents.tags('block', event => {
     'graveyard:dark_iron_bars',
   ]);
 
+  event.add('minecraft:flowers', [
+    'deep_aether:sky_tuplips',
+    'deep_aether:golden_flower',
+    'deep_aether:radiant_orchid',
+    'deep_aether:iaspove',
+    'deep_aether:aerlavender',
+    'deep_aether:aether_cattails',
+  ]);
+
+  event.add('minecraft:small_flowers', [
+    'deep_aether:sky_tuplips',
+    'deep_aether:golden_flower',
+    'deep_aether:radiant_orchid',
+    'deep_aether:iaspove',
+    'deep_aether:aerlavender',
+    'deep_aether:aether_cattails',
+  ]);
+
   // Add missing tag to bookshelves
   event.add('minecraft:enchantment_power_provider', [
     /everycomp:((?!chiseled).)*bookshelf$/,

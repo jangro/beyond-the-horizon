@@ -4040,7 +4040,7 @@ hash = "e29b0540da563290f9d8b44059387aa4b163285ab59cb7f7cd6c10147bdd79c0"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
-hash = "ae718f42dae02ec48e0685d283bd82ef1e52ac6b7faffc0be26a170b86aafc35"
+hash = "87a4a77bd1e8463ab6edea3b2f9d2b55ad313cf80c5a83877a6a6a6282c675eb"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block_entity_type.js"
