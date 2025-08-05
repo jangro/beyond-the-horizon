@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","builtin/emissivity_model_override","builtin/overrides/deep_aether_emissivity","file/Updated_Engineering_v1.7.zip","file/Midnighttiggers-FCT-Default_1.20_V6.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V6.zip","file/Create Style Redstone Pen v2.zip","file/BetterAfterLife-SoundsAdded.zip","LCVP_CreateStyle_v1.7.zip"]
-incompatibleResourcePacks:["builtin/towntalk","file/Updated_Engineering_v1.7.zip","file/Midnighttiggers-FCT-Default_1.20_V6.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V6.zip","file/Create Style Redstone Pen v2.zip","LCVP_CreateStyle_v1.7.zip"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","builtin/emissivity_model_override","file/Updated_Engineering_v1.7.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V6.zip","file/Create Style Redstone Pen v2.zip","file/BetterAfterLife-SoundsAdded.zip","file/LCVP_CreateStyle_v1.7.zip","builtin/client/deep_aether_emissivity","file/Midnighttiggers-FCT-Default_1.20_V7.zip"]
+incompatibleResourcePacks:["builtin/towntalk","file/Updated_Engineering_v1.7.zip","file/Midnighttiggers-NT_CG-FCT-Default_1.17_V6.zip","file/Create Style Redstone Pen v2.zip","file/LCVP_CreateStyle_v1.7.zip","file/Midnighttiggers-FCT-Default_1.20_V7.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
