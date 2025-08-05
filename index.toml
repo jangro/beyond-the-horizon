@@ -4008,7 +4008,7 @@ hash = "c4cd0ca01a44bc657e7065a08c28e5015e0cddec5a33154e4087f8150173fcec"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
-hash = "828eb6249d916fb07eee1c8e54dd1ab84054268da5fffd62ab23ffb2368b633b"
+hash = "88afabe3c79651c11c0fd0a308de147a1b36e3cac90230e4fbe93687eb46cf88"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
@@ -4064,7 +4064,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "9f54fa052c11bb19f3bf9e474b910c55b26bda9426311ac2801d8286aa85c926"
+hash = "71fa09ce7c4631ed326e4d2869b7a440c0b03a2ebee6574c12af2a139bf88348"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"

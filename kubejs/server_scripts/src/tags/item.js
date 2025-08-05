@@ -28,6 +28,12 @@ ServerEvents.tags('item', event => {
     'integrateddynamics:energy_battery',
   ]);
 
+  event.add('bth:candle_material', [
+    'eidolon:tallow',
+    'forbidden_arcanus:wax',
+    'minecraft:honeycomb',
+  ]);
+
   event.add('bth:ingots/steel', [
     'immersiveengineering:ingot_steel',
     'enderio:dark_steel_ingot',

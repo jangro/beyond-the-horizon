@@ -74,6 +74,14 @@ ServerEvents.recipes(event => {
   // Use tags instead of items for all dye colours.
   COLORS.forEach((color) => replaceInput(`minecraft:${color}_dye`, `#forge:dyes/${color}`));
 
+  // Candles
+  replaceInputID('minecraft:candle', 'minecraft:honeycomb', '#bth:candle_material');
+  replaceInputID('eidolon:candle', 'eidolon:tallow', '#bth:candle_material');
+  replaceInputID('forbidden_arcanus:purifying_soap', 'forbidden_arcanus:wax', '#bth:candle_material');
+  replaceInputID('forbidden_arcanus:purifying_soap', 'minecraft:slime_ball', '#forge:slimeballs');
+  replaceInputID('supplementaries:soap', 'minecraft:porkchop', ['#bth:candle_material', 'minecraft:porkchop']);
+
+
   // Dough Compatibility
   replaceInput('create:dough', '#forge:dough/wheat');
   replaceInput('farmersdelight:wheat_dough', '#forge:dough/wheat');
