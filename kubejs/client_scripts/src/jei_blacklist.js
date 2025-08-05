@@ -41,6 +41,7 @@ JEIEvents.hideItems(event => {
     'enderio:powdered_iron',
     'enderio:powdered_obsidian',
     'enderio:silicon',
+    /everycomp:bbb.*trim$/,
     'farmersdelight:rope',
     /ftbquests:.*/,
     'galosphere:deepslate_silver_ore',

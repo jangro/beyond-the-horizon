@@ -856,7 +856,7 @@ hash = "52e388a6fbaa726f0f7f32c85f6188e7376f665560c26d96da250fb76cd338ac"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_blacklist.js"
-hash = "cc47261b5cc72dd04e7655a686733c210b4fb2d8aa931bad5926866a090cc591"
+hash = "b319fe5b8955bdbc7f20605565d1085ecec6355b7e16611b0b5dc55bb245c21a"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_create_fix.js"
@@ -4004,7 +4004,7 @@ hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
-hash = "c4cd0ca01a44bc657e7065a08c28e5015e0cddec5a33154e4087f8150173fcec"
+hash = "65eb3322a83205bcce8a4110fb620f9725642d739e8c4c21034e50e8013961b4"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/replace.js"
