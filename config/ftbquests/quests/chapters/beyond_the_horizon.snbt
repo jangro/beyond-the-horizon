@@ -318,8 +318,8 @@
 				type: "checkmark"
 			}]
 			title: "Delete Items in Inventory"
-			x: 9.0d
-			y: -0.5d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			description: ["&6Settings&r -> &6Control&r -> &6Walk Automatically&r"]
@@ -656,25 +656,6 @@
 			title: "One Book to Rule them All"
 			x: 9.0d
 			y: -8.0d
-		}
-		{
-			icon: "minecraft:campfire"
-			id: "55389CA5CD4BFEBC"
-			subtitle: "Signalling campfires (campfire with haybale below it) prevents mob spawn in the nearby area."
-			tasks: [
-				{
-					id: "24B382173285D4CD"
-					item: "minecraft:campfire"
-					type: "item"
-				}
-				{
-					id: "42987C4E0FEACC5E"
-					item: "minecraft:soul_campfire"
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: -1.5d
 		}
 		{
 			description: [

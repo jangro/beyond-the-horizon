@@ -360,7 +360,7 @@ hash = "4199bbca1f56eaf9739ae5aa5442cb3fa23dd271b572290505753d664f46dfbd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "22fd139c9c57818c1d87884ab8edc540dc9152bc62f99635e9525f81c58d4494"
+hash = "101dbf070b937bde988565ae9d07dc331a105869941e039bc4cef1ed903f5422"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_hunter.snbt"
@@ -517,10 +517,6 @@ hash = "65f84a46e132a23a6b293dd66fa0cbaa8acc751dbf0029fdbeccfce517ea4e7a"
 [[files]]
 file = "config/neapolitan-common.toml"
 hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
-
-[[files]]
-file = "config/nohostilesaroundcampfire.json5"
-hash = "9c7ad40f6e16e42aa27a2756940cb477e4d2420f7c2f206bb8cca039487a2160"
 
 [[files]]
 file = "config/nyctophobia-common.toml"
@@ -5277,11 +5273,6 @@ metafile = true
 [[files]]
 file = "mods/nethers-delight.pw.toml"
 hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
-metafile = true
-
-[[files]]
-file = "mods/no-hostiles-around-campfire.pw.toml"
-hash = "dac98baf3c02071803346a36c1b2ed578413440dd71f2a99c0a2843f9d738cbe"
 metafile = true
 
 [[files]]
