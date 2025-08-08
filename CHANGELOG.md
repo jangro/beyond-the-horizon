@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.1] - 2025-08-08
+
+### Changed
+
+- Downgraded Rustic Engineer to fix nightvision issue
+- Updated Steam'n Rails
+
 ## [1.6] - 2025-08-05
 
 ### Added
