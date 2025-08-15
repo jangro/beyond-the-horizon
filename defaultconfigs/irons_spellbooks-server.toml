@@ -1117,7 +1117,7 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
-		AllowCrafting = true
+		AllowCrafting = false
 
 	[Spells."bth:terminus_space_fold"]
 		Enabled = true
@@ -1128,4 +1128,4 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 1.0
-		AllowCrafting = true
+		AllowCrafting = false
