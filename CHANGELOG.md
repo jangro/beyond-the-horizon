@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.2] - 2025-08-16
+
+### Changed
+
+- Change default settings for Distant Horizons to reduce lag during world generation
+- Change Distant Horizons status update message to show in chat every 30 minutes
+- Change Distant Horizons to save full chunks during world generation in singleplayer
+
+### Removed
+
+- Chunky mod
+
 ## [1.6.1] - 2025-08-08
 
 ### Changed
