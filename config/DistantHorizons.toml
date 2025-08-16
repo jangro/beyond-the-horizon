@@ -567,7 +567,7 @@ _version = 3
 		#
 		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
 		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
-		generationProgressDisableMessageDisplayTimeInSeconds = 20
+		generationProgressDisableMessageDisplayTimeInSeconds = 0
 
 	[common.lodBuilding]
 		#
@@ -730,7 +730,7 @@ _version = 3
 			#
 			# If enabled, a chat message will be displayed when a potentially problematic 
 			# mod is installed alongside DH.
-			showModCompatibilityWarningsOnStartup = true
+			showModCompatibilityWarningsOnStartup = false
 
 [server]
 	#

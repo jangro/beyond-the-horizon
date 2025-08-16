@@ -16,7 +16,7 @@ hash = "bdc53953e8bf37d8b715be9d3d188adaecc95d71b6c605987da91999da41d5f9"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "698918afb078aaa56af9edf98f367a000156067c69c145cca268f176087067ec"
+hash = "6256cf19bfd8bf10ea30087924a0af53c3a5a5b894d4db88dab5e685b63b54e8"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
@@ -72,7 +72,7 @@ hash = "a948725901d1817cc91c0fc95d661f737ca25c7e165eb482146032071ff56bd1"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "f287dc7ac8044376e79b7847a7f5bac3b7d97bf2295bf186a753cf5496814bf8"
+hash = "a0e7543968e3549218ee11a32c31ebb86d6b7c9726e4bba4d9f5f6cd2971d964"
 
 [[files]]
 file = "config/betterdays-common.toml"
