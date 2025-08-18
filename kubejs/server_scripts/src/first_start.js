@@ -11,6 +11,10 @@
  * Player Login Event Handler
  */
 PlayerEvents.loggedIn(event => {
+  // Nomadic Tents is having issues. Let's warn players it's likely to be removed in the near future.
+  event.player.tell("WARNING! Nomadic Tents mod is buggy and will likely be removed in the next release. Avoid using it and clear your tents of valuable items before the removal.");
+
+
   if (!event.player.stages.has('first_start')) {
     event.player.stages.add('first_start');
 
