@@ -1,13 +1,13 @@
 name = "LCompat"
-filename = "lcompat-1.20-0.0.0.1b.jar"
+filename = "lcompat-1.20-0.1.0a.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b145706ad1437665536187b735e148b1d2ae4402"
+hash = "cb1999442b4d67bea4e2ad3b13f01e09485ad0d8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6628017
+file-id = 6870913
 project-id = 1267119

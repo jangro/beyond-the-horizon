@@ -1,14 +1,13 @@
 name = "Sodium/Embeddium Dynamic Lights"
-filename = "dynamiclightsreforged-1.20.1_v1.6.0.jar"
+filename = "sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
 side = "client"
-pin = true
 
 [download]
 hash-format = "sha1"
-hash = "323498a94ba91e24417c0ae1bc34bb4b461c0a3a"
+hash = "d27524e85bed0f0af83c03be46f9ca3eb02a1be9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4731947
+file-id = 6044481
 project-id = 551736
