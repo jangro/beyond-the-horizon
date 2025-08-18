@@ -4163,11 +4163,6 @@ hash = "6f87edf40bf0be7e7e266f9e2ff0bf7584c6bedff7975bad3259a21a60d1e598"
 metafile = true
 
 [[files]]
-file = "mods/after-life.pw.toml"
-hash = "ed070ac7cf914f3a2c51561e257e8c4d62c65654a9d1f9de377850016d3124f0"
-metafile = true
-
-[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "11c40209898628cc8ca75d28f539c449384b40600bfc88272306f6138f4e4428"
 metafile = true
