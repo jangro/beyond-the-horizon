@@ -503,6 +503,10 @@ file = "config/lootr-common.toml"
 hash = "b4bc99b705cc14d3a75abb5e2e1e2c5719fa3a51d879e7a91504b401c03f4ddd"
 
 [[files]]
+file = "config/memorysettings.json"
+hash = "182da826869a42f8f0de8293b1827789bed7b0a2c5d93c1acaf36a4b89edd448"
+
+[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "7ece1a76a51a25c173c355752c21317480c232d7bab242433f69c7b4d48f5247"
 
@@ -5164,6 +5168,11 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "bd52722f1417e24a4acee3bf4fc59c5bf074627f7aaaaf8fd33056c7ef170bc3"
+metafile = true
+
+[[files]]
+file = "mods/memory-settings.pw.toml"
+hash = "c0e6a14f6320209bd493d8591589be7db82c32d054fcc114d7b0081956ad27c1"
 metafile = true
 
 [[files]]
