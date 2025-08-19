@@ -624,7 +624,7 @@ hash = "9d2e54a6ea7c7afc69244f6de58793fbe1d7d9c205f2d59653de72d78c96f7f9"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "348e236eb5e01f2373962c6f3d7c7cee4366f982c8bb2d6479cda4d0270cc402"
+hash = "9fc63caa37c447384ff9d7d871fae9e9f58d27bf4e0d33bea6ac1623fe5354d6"
 
 [[files]]
 file = "config/treechop-common.toml"
