@@ -42,3 +42,17 @@ PlayerEvents.loggedIn(event => {
   // "first start" items / settings / whatever.
   // eg. instead of 'first_start', use 'first_start_v2', 'first_start_v3' to allow versioning the first start script.
 });
+
+
+CommonAddedEvents.playerChangeDimension(event => {
+  const newLevel = event.getNewLevel(); // LevelJS object
+  const newDim = newLevel.dimension.toString();
+
+  if (newDim === 'aether:the_aether') {
+    if (!event.player.stages.has('entered_aether')) {
+      event.player.stages.add('entered_aether');
+      event.player.give(Item.of('paraglider:paraglider'));
+      event.player.give(Item.of('aether:book_of_lore'));
+    }
+  }
+});

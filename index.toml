@@ -32,7 +32,7 @@ hash = "09acf009b9236754c89ee5892237ac1f22d31a6c7e0aadadebc5f8ad22e339af"
 
 [[files]]
 file = "config/aether-common.toml"
-hash = "8e449c6cd4a6baae36957c42088a5e71079213e3b5086a4c1c501f7d0661464f"
+hash = "e84dae8e0f9cc5ed657e0fc0d0a17849a08bf682c97d6b6fa65ab460dc1a597b"
 
 [[files]]
 file = "config/alexscaves-client.toml"
@@ -3907,10 +3907,6 @@ file = "kubejs/server_scripts/src/exposure_events.js"
 hash = "1f07be2dae9a30a979518dc43f8ef85fddbd8f2d2462cf7557f331a8f0a6891b"
 
 [[files]]
-file = "kubejs/server_scripts/src/first_start.js"
-hash = "7f31cf1dfc941270e3e963e368a6c3be46715cc65f199f4b87ae069471abddd8"
-
-[[files]]
 file = "kubejs/server_scripts/src/functions.js"
 hash = "ad416c1548588969a7408c5e5aa5331f999edcf6922c7d0651a86ccfcac1e582"
 
@@ -3953,6 +3949,10 @@ hash = "c013b0fdbbd4d5b32fdeb6bbe5df162be6923f9b01695d9756e5b601e0aa815d"
 [[files]]
 file = "kubejs/server_scripts/src/loot_tables/trades.js"
 hash = "7501799916df6d1e0fc2a3caae68668fb53bec4c831175e853c87eb8be130e20"
+
+[[files]]
+file = "kubejs/server_scripts/src/player_events.js"
+hash = "deca9d982428a6419b8a548cc1dc542f9c7f4c13fad043f4ec7f9d848a24e1cb"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
@@ -5082,6 +5082,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-additions.pw.toml"
+hash = "748fd9bda115507dbe486c90886f449723c60b59529cc4c103489c2326c09528"
 metafile = true
 
 [[files]]
