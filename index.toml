@@ -552,7 +552,7 @@ hash = "f1be372b7c3f2eed2faaba39e8e7ef1384fdc010ccceb99751c66702ef6bdebf"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "c4bbe09d19d77d579bd1c7bd548619d949148d4aba4cc57c4d421770b926d84a"
+hash = "74530f455bebb6543e459d062627fd0542ba9c72871d2e0c3b6a6d816846c3e3"
 
 [[files]]
 file = "config/rats-common.toml"
