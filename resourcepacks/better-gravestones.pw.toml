@@ -1,0 +1,13 @@
+name = "Better Gravestones"
+filename = "Better Gravestones.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae20f0dc583633a97422456bc1a4b227251b1e3c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6138537
+project-id = 1189749
