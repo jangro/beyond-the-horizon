@@ -5321,6 +5321,11 @@ hash = "aa616bb0a97132b6f1b1144963dc74f046741669d349dc1c2e5648315931a249"
 metafile = true
 
 [[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "cc83aa838038bc43e9db3a173b15740108d2c3a38c1398c3a8ed9efd63faa2dd"
+metafile = true
+
+[[files]]
 file = "mods/packing-tape.pw.toml"
 hash = "5df62d59a898f35792c6a611ad86cc51f1b74d74e7c323b97daf3435a15d9188"
 metafile = true
