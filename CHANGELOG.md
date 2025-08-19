@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7] - 2025-08-19
+
+### Added
+
+- Memory Settings mod (prompts user for correct memory setting)
+
+### Changed
+
+- Add warning message about Nomadic Tents being removed
+- Don't use Minecraft default port for voice chat
+- Update Forge to 47.4.6
+- Update many mods
+
+### Removed
+
+- AfterLife mod due to bugs
+
 ## [1.6.2] - 2025-08-16
 
 ### Changed
