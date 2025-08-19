@@ -174,3 +174,32 @@ BlockEvents.leftClicked(event => {
     return;
   }
 });
+
+//
+// Workaround for bug with Nomadic Tents where you can fall through the world when entering
+// a tent if you have an Aether golden parachute in your hotbar and high ping.
+// https://github.com/skyjay1/Nomadic-Tents/issues/93
+//
+BlockEvents.rightClicked("nomadictents:tent_door", event => {
+  let player = event.player;
+  if (!player || event.hand !== "MAIN_HAND") { return; }
+
+  // Check if the player has an Aether golden parachute in their hotbar
+  let hasParachuteInHotbar = false;
+  for (let i = 0; i < 9; i++) {
+    let item = player.inventory.getStackInSlot(i);
+    if (item.id === "aether:golden_parachute") {
+      hasParachuteInHotbar = true;
+      break;
+    }
+  }
+
+  // Check if player has a parachute in their offhand
+  let hasParachuteInOffhand = player.getOffHandItem().id === "aether:golden_parachute";
+
+  // Prevent the BUG
+  if (hasParachuteInHotbar || hasParachuteInOffhand) {
+    player.tell("Due to a bug where you risk falling to the void, you can not enter a tent with a Golden Parachute in your hotbar or offhand!");
+    event.cancel();
+  }
+});
