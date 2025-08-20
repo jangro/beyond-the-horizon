@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.1] - 2025-08-20
+
+### Changed
+- Downgrade Building But Better to fix a crash during structure generation
+
+
 ## [1.8] - 2025-08-19
 
 ### Changed
