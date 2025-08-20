@@ -3,11 +3,11 @@
 [general]
 	#The CurseForge project ID for the modpack
 	#Range: > 0
-	modpackProjectID = 0
+	modpackProjectID = 1186743
 	#The name of the modpack
 	modpackName = "Beyond the Horizon"
 	#The version of the modpack
-	modpackVersion = "1.7"
+	modpackVersion = "1.8"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
