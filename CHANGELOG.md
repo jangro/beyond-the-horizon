@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8] - 2025-08-19
+
+### Changed
+
+- Update Tectonic config to v3 version
+- Replace Aether parachutes with paraglider
+- Replace Quark Totem of Holding with Gravestone mod
+- Add PacketFixer mod (required by Immersive Furniture)
+- Fix UI offset bug when wearing elytra
+- Prevent players from entering tents with a golden parachute in the inventory (can cause them falling into the void)
+
 ## [1.7] - 2025-08-19
 
 ### Added
