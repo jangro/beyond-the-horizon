@@ -3952,7 +3952,7 @@ hash = "7501799916df6d1e0fc2a3caae68668fb53bec4c831175e853c87eb8be130e20"
 
 [[files]]
 file = "kubejs/server_scripts/src/player_events.js"
-hash = "deca9d982428a6419b8a548cc1dc542f9c7f4c13fad043f4ec7f9d848a24e1cb"
+hash = "c07dbebddbf4fe726015c00dff8ba45d967c6aa40812a35d838e87874a3ec620"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/arsnouveau.js"
