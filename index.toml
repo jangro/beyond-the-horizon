@@ -355,6 +355,10 @@ file = "config/forge-client.toml"
 hash = "1e610c5c5b1efe5301749e548844321af8625dde3570fff427b0d3c87799145f"
 
 [[files]]
+file = "config/forgivingvoid-common.toml"
+hash = "7100a5d755f5bdd452d3cb2f585080fa575c2c8cc93ea08a7f39f0c29912df42"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "4199bbca1f56eaf9739ae5aa5442cb3fa23dd271b572290505753d664f46dfbd"
 
@@ -4822,6 +4826,11 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "edeefca9053ee0da1511185568d0241798273fb7d03ed09f7b5fd3dbbbc582bb"
+metafile = true
+
+[[files]]
+file = "mods/forgiving-void.pw.toml"
+hash = "5a978c4b0c4a90eeae86c8b0a4ce6724a77bae5c4f1c0b809d8fdb86b3ead6d9"
 metafile = true
 
 [[files]]
