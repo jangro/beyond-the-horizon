@@ -535,6 +535,10 @@ file = "config/neapolitan-common.toml"
 hash = "cbfc57fe1c2c1c5a79b9be0c8325403c8ec6520d529d0c382c692507fc231bf8"
 
 [[files]]
+file = "config/notenoughcrashes.json"
+hash = "52bbbe8941b67ef9874554c0d603058d4f5ea8edd69ba1bb2a818eefcc4391c1"
+
+[[files]]
 file = "config/nyctophobia-common.toml"
 hash = "119637f20e288eb3b8a8f5278229ca075b59464afff076e4b4582aebd7e1b3a7"
 
