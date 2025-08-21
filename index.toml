@@ -435,6 +435,10 @@ file = "config/gravestone-client.toml"
 hash = "b8e24932dc5f41db8ccdc0d40d6241a4f12fc4366bfb646b513b72b9432aad19"
 
 [[files]]
+file = "config/horseman-common.toml"
+hash = "a4546968a83d42206d8663f8d3d357708eb909a4e7e087352a2048d147beeb62"
+
+[[files]]
 file = "config/immersiveengineering-client.toml"
 hash = "d43f72f04db9e4e10f20b9351e9e40baebd342097feff54ee85a5ba59ffa9f95"
 
@@ -5626,11 +5630,6 @@ metafile = true
 [[files]]
 file = "mods/structurize.pw.toml"
 hash = "ff144bba597bf3424865758e28ab68fb013ae3789f2af6c7e84782a5ec45babd"
-metafile = true
-
-[[files]]
-file = "mods/stupid-horse-stand-still.pw.toml"
-hash = "4817f2301b2c7410c7c35872286d82594e381cde628ac7c51f82a177bd493cc2"
 metafile = true
 
 [[files]]
