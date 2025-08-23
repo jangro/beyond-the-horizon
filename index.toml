@@ -2972,7 +2972,7 @@ hash = "4b3f73a1f662d4713a0568187ad2c63885e99ca138fe164265e7c8a7ec85ba82"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/placed_feature/sterling_aercloud.json"
-hash = "5e09465c3a578fdac60b85fee8fd0ac7924e94e78fbbcffc7da3c637b44481b5"
+hash = "609aaa19098baff96372236f3f779f8acfd888db87e6b29c72f162528458a1dd"
 
 [[files]]
 file = "kubejs/data/deep_aether/worldgen/structure_set/brass_dungeon.json"
