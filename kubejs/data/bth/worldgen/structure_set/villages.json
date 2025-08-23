@@ -375,11 +375,11 @@
   ],
   "placement": {
     "salt": 19271192,
-    "spacing": 120,
-    "separation": 60,
+    "spacing": 80,
+    "separation": 50,
     "type": "integrated_api:advanced_random_spread",
     "super_exclusion_zone": {
-      "chunk_count": 20,
+      "chunk_count": 10,
       "other_set": "#bth:villages_avoid"
     }
   }

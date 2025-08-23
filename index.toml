@@ -1332,7 +1332,7 @@ hash = "c01b3aa2f1ed5fd87b7ce6d47078ce80a2343227dee25ac016877b7aaa97907d"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/camps.json"
-hash = "88b75e5656884f5f9eb129e3c1d495c7054e65586bd14a41f79fa038ea2fb3d2"
+hash = "2333fd8b20f83c5c0747a7c2562a74f238ea5a006e328d3a2180840f301f6004"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
@@ -1340,11 +1340,11 @@ hash = "57bd44c843256758bbcaa3f498c37836b46dd815773233a40ed7f22f99216220"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
-hash = "17621cd49b36ef0df38a08eca207394fda95c90a1e270509996524af68c17e22"
+hash = "59210ab0badfa9554048f4fffd90e11d8e56f9b6c0e47b97cfa6df99a5657161"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "667ad7cc69e9d2d7bc059cabe87ed5c1d56cf724f54bca186e4a3ac7fcb77a40"
+hash = "a6c030cbd0401d47b95cebead9eab06a1d4eb787f8fc65a960530c24db2c2ffd"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"
@@ -1360,7 +1360,7 @@ hash = "081c835353d7b76d99f5b2e142b7853f763eeb4fedcccbc590959d4610176e03"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/villages.json"
-hash = "aa0f05c5fdff5ce60141efa4dfd73af6779ae1ca7172b80b812d6b9e379cd640"
+hash = "54cf078b1b99fa0e40f7010fb2e25f4d780c4ecb9e1fc7c61b0df36772b55c31"
 
 [[files]]
 file = "kubejs/data/bth_structures/loot_tables/archeology/dw20.json"

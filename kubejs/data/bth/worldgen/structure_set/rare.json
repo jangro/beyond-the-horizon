@@ -2,7 +2,7 @@
   "structures": [
     {
       "structure": "ae2:meteorite",
-      "weight": 10
+      "weight": 20
     },
     {
       "structure": "idas:ars_nouveau/archmages_tower",
@@ -75,8 +75,8 @@
   ],
   "placement": {
     "salt": 81624112,
-    "spacing": 80,
-    "separation": 40,
+    "spacing": 60,
+    "separation": 30,
     "type": "integrated_api:advanced_random_spread",
     "super_exclusion_zone": {
       "chunk_count": 10,
