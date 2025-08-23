@@ -636,7 +636,7 @@ hash = "9d2e54a6ea7c7afc69244f6de58793fbe1d7d9c205f2d59653de72d78c96f7f9"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "9fc63caa37c447384ff9d7d871fae9e9f58d27bf4e0d33bea6ac1623fe5354d6"
+hash = "cd9ee91f4bdacd8175c29f1e0601e45deae9ef29380c1ad69e944ef06f58bd02"
 
 [[files]]
 file = "config/treechop-common.toml"
@@ -5678,7 +5678,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "fa4b23c75ce1a2257e45a6b2a5b5bfe363564568fcc3e64bb35b255344f6c490"
+hash = "9d1b5051cc8ca42740d800a67eb64419fc9db637c00a18febec663b381855c5b"
 metafile = true
 
 [[files]]
