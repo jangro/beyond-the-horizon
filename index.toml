@@ -692,7 +692,7 @@ hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "741c6b99454c488e9054722014ec7f6896d54d8ac83fa449ddb371fa4f88fbcb"
+hash = "31c4692e7174a4f174c83d5683606c41c35944975f6c01bed169b76c6f4d51b2"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
