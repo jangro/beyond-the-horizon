@@ -3863,6 +3863,10 @@ file = "kubejs/data/valhelsia_structures/worldgen/structure_set/castles.json"
 hash = "1611c648ac618c9122081ffb3806028b06225018ededdd40d98c7cea5e2abc27"
 
 [[files]]
+file = "kubejs/data/valhelsia_structures/worldgen/structure_set/deep_spawner_rooms.json"
+hash = "2ee408f4cb9fcdbce03b7a46b5d738e67abc4d205fa03aed8033819f1c728890"
+
+[[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/desert_houses.json"
 hash = "c814d5b9ddd777f378dc46c338a340860a9f7577244d1dccfbf704190eee1be5"
 
@@ -3877,6 +3881,10 @@ hash = "7430f23ff8ba022ff96c67e8809d05bb2422a49d9df7d0115d5e9f398afa317f"
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/spawner_dungeons.json"
 hash = "c2c560c0ce095819d10d38508b8e13975e187e3e7b527f0c4fac7d33753f0512"
+
+[[files]]
+file = "kubejs/data/valhelsia_structures/worldgen/structure_set/spawner_rooms.json"
+hash = "2c96c1090fd90abf15b605b805bfcfe1a3b74be369af987c003b441d71cd9d96"
 
 [[files]]
 file = "kubejs/data/valhelsia_structures/worldgen/structure_set/tower_ruins.json"
