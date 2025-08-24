@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9] - 2025-08-24
+
+### Added
+- Trashslot mod
+- Forgiving Void mod
+
+### Changed
+- Downgrade Tectonic to v2 due to v3 being very slow and causing world gen lag
+- Reduce default DH render distance to 64
+- Add Java version check to startserver.sh
+- Improve tooltip for ancient cookie
+- Make sterling aercloud more common
+- Make Valhelsia spawner rooms more sparse
+- Make overworld surface structures less sparse
+
+### Removed
+- Stupid Horse Stand Still mod in favor of Horseman. Horses no longer appear to take damage when dismounting.
+
 ## [1.8.1] - 2025-08-20
 
 ### Changed
