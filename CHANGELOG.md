@@ -16,6 +16,7 @@ All notable changes to this project will be documented in this file.
 - Make sterling aercloud more common
 - Make Valhelsia spawner rooms more sparse
 - Make overworld surface structures less sparse
+- Change DH status update to output to the log every 60 seconds instead of chat
 
 ### Removed
 - Stupid Horse Stand Still mod in favor of Horseman. Horses no longer appear to take damage when dismounting.
