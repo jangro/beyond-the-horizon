@@ -5747,6 +5747,11 @@ hash = "d4230c3d47d1630348daf1ef7bba1201367aa39cdf6ad585ae3aca59e1bb6614"
 metafile = true
 
 [[files]]
+file = "mods/trashslot.pw.toml"
+hash = "7d82589ef537c4a134ec1c5901019052c3fd3fd1a6051500ff3f732339e801e0"
+metafile = true
+
+[[files]]
 file = "mods/treechop.pw.toml"
 hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
 metafile = true
