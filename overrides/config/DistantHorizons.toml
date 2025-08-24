@@ -12,7 +12,7 @@ _version = 3
 			[client.advanced.graphics.quality]
 				#
 				# The radius of the mod's render distance. (measured in chunks)
-				lodChunkRenderDistanceRadius = 80
+				lodChunkRenderDistanceRadius = 64
 				#
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
@@ -748,7 +748,7 @@ _version = 3
 	generationRequestRateLimit = 20
 	#
 	# Defines the distance allowed to generate around the player.
-	maxGenerationRequestDistance = 4096
+	maxGenerationRequestDistance = 128
 	#
 	# Defines the X-coordinate of the central point for generation boundaries, in blocks.
 	generationBoundsX = 0
@@ -764,7 +764,7 @@ _version = 3
 	enableRealTimeUpdates = true
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 80
+	realTimeUpdateDistanceRadiusInChunks = 64
 	#
 	# If true, clients will receive updated LODs when joining or loading new LODs.
 	synchronizeOnLoad = true
@@ -775,7 +775,7 @@ _version = 3
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
-	maxSyncOnLoadRequestDistance = 4096
+	maxSyncOnLoadRequestDistance = 128
 	#
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
