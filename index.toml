@@ -603,6 +603,10 @@ file = "config/sodium-extra-options.json"
 hash = "75ede05efce546e59008efc5152da492508d9953d6c1bd4540e15b4e919f63d2"
 
 [[files]]
+file = "config/sodiumdynamiclights-client.toml"
+hash = "655cea78625fb8fe10c2ff8933dbedbb1297692e02dd2182a5ff6e686951e2c2"
+
+[[files]]
 file = "config/sol_valheim/client.json5"
 hash = "db4168068578ba4097ce47d5a6f9c6c7d35d886e7f2c8772a8741bbd4e60486f"
 
