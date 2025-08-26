@@ -5734,6 +5734,11 @@ hash = "93b1ca1569798d90a02b411f5287ae3cc6fdf0d36e152d05618ce349d00e5fc5"
 metafile = true
 
 [[files]]
+file = "mods/tiered-forge.pw.toml"
+hash = "4be975cb4d45ce2ba322e5609ba2f52910399ba821f0466383fc93a45b9c58d8"
+metafile = true
+
+[[files]]
 file = "mods/toast-control.pw.toml"
 hash = "e69f6c58c50ddce5de1f2ff6aaeabb169f1754e6250c3b11984c2bf4652b828d"
 metafile = true
@@ -5771,6 +5776,11 @@ metafile = true
 [[files]]
 file = "mods/treechop.pw.toml"
 hash = "de3524544e462fc53f0959a59c879a866730436083527ecf37852f4682b93786"
+metafile = true
+
+[[files]]
+file = "mods/unionlib.pw.toml"
+hash = "d3dfcdd4566dadc0a2a37ff99639ab565cf278b1205d0e80275b78897ce899ed"
 metafile = true
 
 [[files]]
