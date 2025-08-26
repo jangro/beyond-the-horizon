@@ -4949,6 +4949,11 @@ hash = "82ef251513ef10da2ff8e120fd998e4808821ab74e0e5a16070c1afd0b56ed25"
 metafile = true
 
 [[files]]
+file = "mods/hypertubes.pw.toml"
+hash = "01c9fa2a99443fec82ce06b406f1ea4e1504e5da74dbe52c00866ed5fc1b1663"
+metafile = true
+
+[[files]]
 file = "mods/idas.pw.toml"
 hash = "f9ed63b5eac2fdee8398e6d61a00271f8cfbda2b7fed6a5aebb5411f2df234b4"
 metafile = true
