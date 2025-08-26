@@ -4000,7 +4000,7 @@ hash = "443fdc68b1c927a39bbb840c1b2c2038390e24abdb855195964f7c5f5a25f65f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/cutting.js"
-hash = "7ee553f15a8e22da499aaac008f62ebc44690124c33ede8c3e52cb0c1e895d6f"
+hash = "c80aaf2c5afa9e94b0810ad31829bb25ff146c5e696ccba4a79b222a91213546"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/enderio.js"
@@ -4088,7 +4088,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "71fa09ce7c4631ed326e4d2869b7a440c0b03a2ebee6574c12af2a139bf88348"
+hash = "c6b60582be9c89a305c7ef073c1f184e5f245c2234ea5930baeca057e42775e7"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
