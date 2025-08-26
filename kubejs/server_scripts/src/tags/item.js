@@ -89,7 +89,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:dough/wheat', [
     'minecolonies:bread_dough',
   ]);
-  
+
   event.add('forge:dusts', [
     'create:cinder_flour',
     'create:wheat_flour',
@@ -116,7 +116,7 @@ ServerEvents.tags('item', event => {
     'create:wheat_flour',
     'enderio:flour',
   ]);
-  
+
   event.add('forge:flour', [
     'create:cinder_flour',
     'enderio:flour',
@@ -142,41 +142,41 @@ ServerEvents.tags('item', event => {
 
   event.add('forge:ingots/arcane', [
     'irons_spellbooks:arcane_ingot',
-  ]); 
+  ]);
 
   event.add('forge:ingots/arcane_gold', [
     'forbidden_arcanus:deorum_ingot',
-  ]); 
-  
+  ]);
+
   event.add('forge:ingots/bismuth', [
     'enlightened_end:bismuth_ingot',
-  ]); 
+  ]);
 
   event.add('forge:ingots/dark_iron', [
     'graveyard:dark_iron_ingot',
-  ]); 
+  ]);
 
   event.add('forge:ingots/gaia_spirit', [
     'botania:gaia_ingot',
-  ]); 
+  ]);
 
   event.add('forge:ingots/industrial_iron', [
     'graveyard:industrial_iron_ingot',
-  ]); 
+  ]);
 
   event.add('forge:ingots/neodymium', [
     'alexscaves:azure_neodymium_ingot',
     'alexscaves:scarlet_neodymium_ingot',
   ]);
-  
+
   event.add('forge:ingots/uranium', [
     'alexscaves:uranium',
   ]);
-  
+
   event.add('forge:nuggets/arcane_gold', [
     'forbidden_arcanus:deorum_nugget',
-  ]); 
-  
+  ]);
+
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
     'alexscaves:guanostone_redstone_ore',
@@ -218,7 +218,7 @@ ServerEvents.tags('item', event => {
   event.add('forge:plates/netherite', [
     'createdeco:netherite_sheet',
   ]);
-  
+
   event.add('forge:storage_blocks', [
     'graveyard:dark_iron_block',
   ]);
@@ -244,17 +244,17 @@ ServerEvents.tags('item', event => {
   // Ars Elemental Tags
   event.add('ars_elemental:caster_bag_item', [
     'aether:cloud_staff',
-    
+
     'alexscaves:sea_staff',
-    
+
     '#botania:rods',
-    
+
     'eidolon:bonechill_wand',
     'eidolon:soulfire_wand',
     'eidolon:warlock_hat',
     'eidolon:warlock_cloak',
     'eidolon:warlock_boots',
-    
+
     'irons_spellbooks:artificer_cane',
     'irons_spellbooks:blood_staff',
     'irons_spellbooks:graybeard_staff',
@@ -267,7 +267,7 @@ ServerEvents.tags('item', event => {
     /irons_spellbooks:.*_leggings$/,
     /irons_spellbooks:.*_boots$/,
   ]);
-  
+
   // Ars Nouveau Tags
   event.add('ars_nouveau:golem/shard', [
     'eidolon:sulfur',
@@ -317,4 +317,102 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom(/^perfectplushies:*/);
   event.removeAllTagsFrom(/^plushies:*/);
   event.removeAllTagsFrom(/^plushie_buddies:*/);
+
+  // Add missing tags for Reforged (Tiered)
+
+  // Mods that are missing tags for one or more items
+  // Alex's Caves
+  // Eidolon
+  // F&A
+  // Aquamirae
+  // Deep Aether
+  // Ars Elemental
+
+  // Helmets
+  items = event.get('forge:armors/helmets').getObjectIds();
+  items.forEach(item => {
+    event.add('c:helmets', [item]);
+  });
+  // Fix for items with typo in the tag (Alex's Caves)
+  items = event.get('forge:armor/helmets').getObjectIds();
+  items.forEach(item => {
+    event.add('c:helmets', [item]);
+  });
+
+  // Chestplates
+  var items = event.get('forge:armors/chestplates').getObjectIds();
+  items.forEach(item => {
+    event.add('c:chestplates', [item]);
+  });
+  // Fix for items with typo in the tag (Alex's Caves)
+  items = event.get('forge:armor/chestplates').getObjectIds();
+  items.forEach(item => {
+    event.add('c:chestplates', [item]);
+  });
+
+  // Leggings
+  items = event.get('forge:armors/leggings').getObjectIds();
+  items.forEach(item => {
+    event.add('c:leggings', [item]);
+  });
+  // Fix for items with typo in the tag (Alex's Caves)
+  items = event.get('forge:armor/leggings').getObjectIds();
+  items.forEach(item => {
+    event.add('c:leggings', [item]);
+  });
+
+  // Boots
+  items = event.get('forge:armors/boots').getObjectIds();
+  items.forEach(item => {
+    event.add('c:boots', [item]);
+  });
+  // Fix for items with typo in the tag (Alex's Caves)
+  items = event.get('forge:armor/boots').getObjectIds();
+  items.forEach(item => {
+    event.add('c:boots', [item]);
+  });
+
+  // Swords
+  items = event.get('c:swords').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:swords', [item]);
+  });
+  items = event.get('forge:tools/swords').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:swords', [item]);
+  });
+
+  // Bows
+  items = event.get('forge:tools/bows').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:bows', [item]);
+  });
+
+  // Shovels
+  items = event.get('forge:tools/shovels').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:shovels', [item]);
+  });
+
+  // Axes
+  items = event.get('forge:tools/axes').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:axes', [item]);
+  });
+
+  // Pickaxes
+  items = event.get('forge:tools/pickaxes').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:pickaxes', [item]);
+  });
+
+  // Hoes
+  items = event.get('forge:tools/hoes').getObjectIds();
+  items.forEach(item => {
+    event.add('minecraft:hoes', [item]);
+  });
+
+
+
+
 });
