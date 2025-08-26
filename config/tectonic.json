@@ -5,7 +5,7 @@
     // Lower values = thicker mountain ranges and more space between ranges. 0.15-0.25 is the sweet spot.
     // The terrain scale setting will vertically stretch/compress terrain. Higher values = more extreme terrain heights.
     "horizontal_mountain_scale": 0.25,
-    "increased_height": false,
+    "increased_height": true,
     "terrain_scale": 0.5
   },
   "features": {
