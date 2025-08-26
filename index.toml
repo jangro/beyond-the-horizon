@@ -284,15 +284,15 @@ hash = "5e8aaca4ef733f49b2e12d1e4e32d081b480b0f5402bafe851315ed7eb84fb39"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout_multi.txt"
-hash = "0b52a5343fc6e95f860889db7b6b0258337228ba7dc2c3d337548e547d3c1dcd"
+hash = "c8e46eccec734f23bca6a85829d6bfd428d664c7bf290b8f2861020f3c86e653"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout_single.txt"
-hash = "c51d6e8078b4a4f15b778a3c2a1585e2a23736d6dd16f2555237132cd77c3e08"
+hash = "a165591010020699375b72d87dd5357081558a5f4ab15c2d6a4780855ba16099"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "9d086a18ac48e89fbc213cfb54bda29b4a3d4fccf3f91b510cb4f61d0b1b1814"
+hash = "4fd2cb5a46ce51eddc1b0963d7e08bcb2f8765b25d49507d1ca788da7ce7f39a"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -304,7 +304,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "52ab3527361551b2a6e4c826b52dee2a0864eac1403fd19a50705a8c75e9f896"
+hash = "32d631b2b259b9854ec198f3073e991ab9676dbd03c8b3619da5b598d56ca49e"
 
 [[files]]
 file = "config/fancymenu/panoramas/bth/panorama/panorama_0.png"
