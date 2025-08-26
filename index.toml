@@ -1340,7 +1340,7 @@ hash = "2333fd8b20f83c5c0747a7c2562a74f238ea5a006e328d3a2180840f301f6004"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/common.json"
-hash = "57bd44c843256758bbcaa3f498c37836b46dd815773233a40ed7f22f99216220"
+hash = "c8d77d00fd4dbe567005ed84f14f12ae77ab5200be36e80d727fd9b5067cde4f"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/pillager_outposts.json"
@@ -1348,7 +1348,7 @@ hash = "59210ab0badfa9554048f4fffd90e11d8e56f9b6c0e47b97cfa6df99a5657161"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/rare.json"
-hash = "a6c030cbd0401d47b95cebead9eab06a1d4eb787f8fc65a960530c24db2c2ffd"
+hash = "47fe73fe21c09c2c7d7bd34809089859879c8a2345fb1e076b7b0e2ea63363f1"
 
 [[files]]
 file = "kubejs/data/bth/worldgen/structure_set/skylands.json"
@@ -4237,11 +4237,6 @@ metafile = true
 [[files]]
 file = "mods/anthill-inside.pw.toml"
 hash = "aaf314354fbf6a80549185c70fb3cb82eebb2853a068c8c41adf41c97294c9db"
-metafile = true
-
-[[files]]
-file = "mods/appleskin.pw.toml"
-hash = "c51928175be6640cc4fc40a9a0b92454f4ad50c4ff93c8db4c802b29389a45a6"
 metafile = true
 
 [[files]]

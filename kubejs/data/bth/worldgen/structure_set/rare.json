@@ -1,10 +1,6 @@
 {
   "structures": [
     {
-      "structure": "ae2:meteorite",
-      "weight": 20
-    },
-    {
       "structure": "idas:ars_nouveau/archmages_tower",
       "weight": 10
     },
