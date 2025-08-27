@@ -332,32 +332,19 @@ ServerEvents.tags('item', event => {
   // F&A
 
   // Fix tags for Alex's Caves items
-  items = event.get('forge:armor/helmets').getObjectIds();
-  items.forEach(item => {
-    event.add('forge:armors/helmets', [item]);
-  });
-  items = event.get('forge:armor/chestplates').getObjectIds();
-  items.forEach(item => {
-    event.add('forge:armors/chestplates', [item]);
-  });
-  items = event.get('forge:armor/leggings').getObjectIds();
-  items.forEach(item => {
-    event.add('forge:armors/leggings', [item]);
-  });
-  items = event.get('forge:armor/boots').getObjectIds();
-  items.forEach(item => {
-    event.add('forge:armors/boots', [item]);
-  });
-  
+  event.add('forge:armors/helmets', event.get('forge:armor/helmets').getObjectIds());
+  event.add('forge:armors/chestplates', event.get('forge:armor/chestplates').getObjectIds());
+  event.add('forge:armors/leggings', event.get('forge:armor/leggings').getObjectIds());
+  event.add('forge:armors/boots', event.get('forge:armor/boots').getObjectIds());
+
   // Shields
-  [
+  const shields =  [
     'alexsmobs:shield_of_the_deep',
-  ].forEach(item => {
-    event.add('forge:tools/shields', [item]);
-  });
+  ];
+  event.add('forge:tools/shields', shields);
 
   // Spears
-  [
+  const spears = [
     'alexscaves:limestone_spear',
     'alexscaves:extinction_spear',
     'alexscaves:frostmint_spear',
@@ -367,9 +354,8 @@ ServerEvents.tags('item', event => {
     'simplyswords:netherite_spear',
     'simplyswords:runic_spear',
     'simplyswords:magispear',
-  ].forEach(item => {
-    event.add('forge:tools/spears', [item]);
-  });
+  ];
+  event.add('forge:tools/spears', spears);
 
 
 });
