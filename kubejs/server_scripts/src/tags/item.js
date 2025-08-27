@@ -337,25 +337,155 @@ ServerEvents.tags('item', event => {
   event.add('forge:armors/leggings', event.get('forge:armor/leggings').getObjectIds());
   event.add('forge:armors/boots', event.get('forge:armor/boots').getObjectIds());
 
+  // Fix tags for all simply swords items
+  event.add('forge:tools/swords', event.get('simplyswords:swords').getObjectIds());
+  event.add('minecraft:swords', event.get('simplyswords:swords').getObjectIds());
+
+  // Axes
+  const axes = [
+    'eidolon:silver_axe',
+    'forbidden_arcanus:draco_arcanus_axe',
+    'forbidden_arcanus:reinforced_deorum_axe',
+    'immersiveengineering:axe_steel',
+  ];
+  event.add('forge:tools/axes', axes);
+  event.add('minecraft:axes', axes);
+
+  // Hoes
+  const hoes = [
+    'eidolon:silver_hoe',
+    'forbidden_arcanus:draco_arcanus_hoe',
+    'forbidden_arcanus:reinforced_deorum_hoe',
+    'immersiveengineering:hoe_steel',
+  ];
+  event.add('forge:tools/hoes', hoes);
+  event.add('minecraft:hoes', hoes);
+
+  // Knifes
+  const knives = [
+    'sullysmod:primitive_knife',
+  ];
+  event.add('farmersdelight:tools/knives', knives);
+  event.add('forge:tools/knives', knives);
+  event.add('minecraft:swords', knives);
+
+  // Paxels
+  const paxels = [
+    'easypaxellite:wood_paxel',
+    'easypaxellite:stone_paxel',
+    'easypaxellite:iron_paxel',
+    'easypaxellite:golden_paxel',
+    'easypaxellite:diamond_paxel',
+    'easypaxellite:netherite_paxel',
+  ];
+  event.add('forge:tools/axes', paxels);
+  event.add('forge:tools/pickaxes', paxels);
+  event.add('forge:tools/shovels', paxels);
+  event.add('minecraft:axes', paxels);
+  event.add('minecraft:pickaxes', paxels);
+  event.add('minecraft:shovels', paxels);
+
+  // Pickaxes
+  const pickaxes = [
+    'eidolon:reversal_pick',
+    'eidolon:silver_pickaxe',
+    'forbidden_arcanus:diamond_blacksmith_gavel',
+    'forbidden_arcanus:draco_arcanus_pickaxe',
+    'forbidden_arcanus:golden_blacksmith_gavel',
+    'forbidden_arcanus:iron_blacksmith_gavel',
+    'forbidden_arcanus:netherite_blacksmith_gavel',
+    'forbidden_arcanus:reinforced_deorum_blacksmith_gavel',
+    'forbidden_arcanus:reinforced_deorum_pickaxe',
+    'forbidden_arcanus:slimec_pickaxe',
+    'forbidden_arcanus:stone_blacksmith_gavel',
+    'forbidden_arcanus:wooden_blacksmith_gavel',
+    'immersiveengineering:pickaxe_steel',
+  ];
+  event.add('forge:tools/pickaxes', pickaxes);
+  event.add('minecraft:pickaxes', pickaxes);
+
+
   // Shields
   const shields =  [
     'alexsmobs:shield_of_the_deep',
   ];
   event.add('forge:tools/shields', shields);
 
+  // Shovels
+  const shovels = [
+    'eidolon:silver_shovel',
+    'forbidden_arcanus:draco_arcanus_shovel',
+    'forbidden_arcanus:reinforced_deorum_shovel',
+    'immersiveengineering:shovel_steel',
+  ];
+  event.add('forge:tools/shovels', shovels);
+  event.add('minecraft:shovels', shovels);
+
   // Spears
   const spears = [
-    'alexscaves:limestone_spear',
     'alexscaves:extinction_spear',
     'alexscaves:frostmint_spear',
-    'simplyswords:iron_spear',
-    'simplyswords:gold_spear',
+    'alexscaves:limestone_spear',
+    'simplyswords:diamond_glaive',
     'simplyswords:diamond_spear',
-    'simplyswords:netherite_spear',
-    'simplyswords:runic_spear',
+    'simplyswords:gold_glaive',
+    'simplyswords:gold_spear',
+    'simplyswords:iron_glaive',
+    'simplyswords:iron_spear',
     'simplyswords:magispear',
+    'simplyswords:netherite_glaive',
+    'simplyswords:netherite_spear',
+    'simplyswords:runic_glaive',
+    'simplyswords:runic_spear',
   ];
   event.add('forge:tools/spears', spears);
 
+  // Swords
+  const swords = [
+    'alexscaves:frostmint_spear',
+    'alexscaves:sharpened_candy_cane',
+    'alexsmobs:tendon_whip',
+    'aquamirae:coral_lance',
+    'aquamirae:dagger_of_greed',
+    'aquamirae:divider',
+    'aquamirae:fin_cutter',
+    'aquamirae:poisoned_blade',
+    'aquamirae:remnants_saber',
+    'aquamirae:terrible_sword',
+    'aquamirae:whisper_of_the_abyss',
+    'deep_aether:blade_of_luck',
+    'deep_aether:storm_sword',
+    'eidolon:athame',
+    'eidolon:cleaving_axe',
+    'eidolon:deathbringer_scythe',
+    'eidolon:reaper_scythe',
+    'eidolon:sapping_sword',
+    'eidolon:silver_sword',
+    'enderio:dark_steel_sword',
+    'enlightened_end:rooting_blade',
+    'forbidden_arcanus:draco_arcanus_sword',
+    'forbidden_arcanus:mystical_dagger',
+    'forbidden_arcanus:reinforced_deorum_sword',
+    'forbidden_arcanus:shiny_zombie_arm',
+    'forbidden_arcanus:zombie_arm',
+    'graveyard:bone_dagger',
+    'immersiveengineering:sword_steel',
+    'minecolonies:chiefsword',
+    'minecolonies:iron_scimitar',
+    'minecolonies:spear',
+    'mutantmonsters:endersoul_hand',
+    'mutantmonsters:hulk_hammer',
+    'nethersdelight:diamond_machete',
+    'nethersdelight:golden_machete',
+    'nethersdelight:iron_machete',
+    'nethersdelight:netherite_machete',
+    'rats:feral_bagh_nakhs',
+    'rats:ghost_pirat_cutlass',
+    'rats:pirat_cutlass',
+    'rats:plague_scythe',
+    'sullysmod:broken_bottle',
+  ];
+  event.add('forge:tools/swords', swords);
+  event.add('minecraft:swords', swords);
 
 });

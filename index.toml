@@ -4176,7 +4176,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "6c8a05b3ded958bf1c7053a17650b7ce6a836cc8ff4ba87a508a81fa3aacf0e5"
+hash = "12a9005ef65017e6e7dd94f1048990cb9cc3e412421b5080c4e856ebf1f9c327"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
