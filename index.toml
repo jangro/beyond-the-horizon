@@ -3107,6 +3107,18 @@ file = "kubejs/data/enhancedcelestials/enhancedcelestials/lunar/event/super_moon
 hash = "ef56b8045530919d61766c6b0b3000452283f92ad81245ed2f2d4a985a50aff8"
 
 [[files]]
+file = "kubejs/data/farmersrespite/worldgen/configured_feature/patch_wild_coffee_bush.json"
+hash = "cd4560994de8fb003830f5ea4dc6ee06ed757e937a945f46848e4c6e570c8c47"
+
+[[files]]
+file = "kubejs/data/farmersrespite/worldgen/placed_feature/patch_wild_coffee_bush.json"
+hash = "6b2ea2cef89102c9d8bda6f1e96eb4eb469fc93595d82d462342923a58f38f17"
+
+[[files]]
+file = "kubejs/data/farmersrespite/worldgen/placed_feature/patch_wild_tea_bush.json"
+hash = "a156d78c6365dc5568ae1ddc3fef99cf1af247f7f40e4e06e8a228ba7608e3bd"
+
+[[files]]
 file = "kubejs/data/forbidden_arcanus/worldgen/structure_set/nipas.json"
 hash = "bf2ba7b10bb220bb23a4b68f025e36101f5e864dcba836acd7df97be521b5e59"
 
