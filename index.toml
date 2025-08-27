@@ -3851,6 +3851,82 @@ file = "kubejs/data/tetra/worldgen/structure_set/forged_ruins.json"
 hash = "9f252fc8ec8505d509ea51a56f9602fbe141feb1f00cba1547ed751ddb60571c"
 
 [[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/armors/bad.json"
+hash = "a502cb30b1c9a66ee15d208f0152e938e1622409bb84a3e744e2d75686ad6242"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/armors/good.json"
+hash = "0dbd4446cae20c57372128eb18688d06a5c014b4f34fa1222f4ec3d6a8a5c852"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/armors/normal.json"
+hash = "e555eafbf28ce4ff6b04cb3b7fddc6c1de7d0885a2b3fe18a8e03b2db3803a88"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/bows/bad.json"
+hash = "abe205e0f9f50e46be86f7604b7bf82e57a520ddde26c628473168e15172dd50"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/bows/good.json"
+hash = "4c5ad74b26f294d0f41b691cf8980613b69d1bd2c84215033d837dfa2e2574cb"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/fishing_rods/bad.json"
+hash = "a69b1ff3a3a54f9fd83303c930ac64a8bc38f45de70aa1e26bba912036cb3754"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/fishing_rods/good.json"
+hash = "dc07a4bff227fc835abb37cd39e65e3726245b191002c186073f317193c2464a"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/melee_weapons/bad.json"
+hash = "157ac0c564f8e99ed33cb54293db901e27f38e6c2e89a9b07891a63dc1133d38"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/melee_weapons/extended.json"
+hash = "3699ae0a575c33227649772fa11ad9d66a86d23c99204465e728b1e97960a8db"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/melee_weapons/good.json"
+hash = "885ccb784fcfe8beb5718bc1f998ddb4eba588baafbab924043dfe66c9a516be"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/shields/bad.json"
+hash = "8d98c559cc2067a102ecc4a956943fbce79a2137f26bdb5ac07d1e9b899c9894"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/shields/good.json"
+hash = "899780bc7f02e27f7c95c5ce74f77fbf364bd796691db292537d2cc064925c8e"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/spears/bad.json"
+hash = "46f9da5cf69ec6fa77d5abdc7fd110f3d370a0d37a4dc24d292075b643f00deb"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/spears/good.json"
+hash = "fae067f0bb511dc8c629018934647c1b67adfd1222353f54b922a3d7b13f19e1"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/tools/extended.json"
+hash = "8283758742b5df3f0a056aa0bf89fd503b2ea88e778e92a1f849c08fea802e0c"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/tools/gathering.json"
+hash = "d65b99b7efcaf88e1e0d898bf9c58807bedf1270b56a1140940bcaeeb4a3dd44"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/tools/good.json"
+hash = "a22a68c4bbfcf5250564f779b863592e3ec7d002652e2c93604728207b0a3c96"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/tools/normal.json"
+hash = "30cbb8a67dcee713d79772834e0bad7ac664e7b3e4222efcd65357d67308805d"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/pools/weapons/normal.json"
+hash = "03f45b22d74c8e4702b402bcb4f57067b7b0c0653fcc908bb1585e299150081a"
+
+[[files]]
 file = "kubejs/data/tlc/worldgen/structure_set/structure_lost_castle_set.json"
 hash = "5ddcbcfc9d91b0adc42ecb8970ef5b7592431c9225270cb7cef3cbb73bc5ab4c"
 
@@ -4100,7 +4176,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "165fdd286f87faa288c5b5ac7c3764414e4d174ec34cd479b33c1500e60ef258"
+hash = "ff94d02e5b4e29dce83afa4273d8f0a566e6c1a32338a5e1ce27c23f0d9db8d5"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"

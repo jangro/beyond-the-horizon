@@ -318,101 +318,58 @@ ServerEvents.tags('item', event => {
   event.removeAllTagsFrom(/^plushies:*/);
   event.removeAllTagsFrom(/^plushie_buddies:*/);
 
+  //
   // Add missing tags for Reforged (Tiered)
+  //
 
   // Mods that are missing tags for one or more items
   // Alex's Caves
+  // Alex's Mobs
+  // Aquamirae
+  // Ars Elemental
+  // Deep Aether
   // Eidolon
   // F&A
-  // Aquamirae
-  // Deep Aether
-  // Ars Elemental
 
-  // Helmets
-  items = event.get('forge:armors/helmets').getObjectIds();
-  items.forEach(item => {
-    event.add('c:helmets', [item]);
-  });
-  // Fix for items with typo in the tag (Alex's Caves)
+  // Fix tags for Alex's Caves items
   items = event.get('forge:armor/helmets').getObjectIds();
   items.forEach(item => {
-    event.add('c:helmets', [item]);
+    event.add('forge:armors/helmets', [item]);
   });
-
-  // Chestplates
-  var items = event.get('forge:armors/chestplates').getObjectIds();
-  items.forEach(item => {
-    event.add('c:chestplates', [item]);
-  });
-  // Fix for items with typo in the tag (Alex's Caves)
   items = event.get('forge:armor/chestplates').getObjectIds();
   items.forEach(item => {
-    event.add('c:chestplates', [item]);
+    event.add('forge:armors/chestplates', [item]);
   });
-
-  // Leggings
-  items = event.get('forge:armors/leggings').getObjectIds();
-  items.forEach(item => {
-    event.add('c:leggings', [item]);
-  });
-  // Fix for items with typo in the tag (Alex's Caves)
   items = event.get('forge:armor/leggings').getObjectIds();
   items.forEach(item => {
-    event.add('c:leggings', [item]);
+    event.add('forge:armors/leggings', [item]);
   });
-
-  // Boots
-  items = event.get('forge:armors/boots').getObjectIds();
-  items.forEach(item => {
-    event.add('c:boots', [item]);
-  });
-  // Fix for items with typo in the tag (Alex's Caves)
   items = event.get('forge:armor/boots').getObjectIds();
   items.forEach(item => {
-    event.add('c:boots', [item]);
+    event.add('forge:armors/boots', [item]);
+  });
+  
+  // Shields
+  [
+    'alexsmobs:shield_of_the_deep',
+  ].forEach(item => {
+    event.add('forge:tools/shields', [item]);
   });
 
-  // Swords
-  items = event.get('c:swords').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:swords', [item]);
+  // Spears
+  [
+    'alexscaves:limestone_spear',
+    'alexscaves:extinction_spear',
+    'alexscaves:frostmint_spear',
+    'simplyswords:iron_spear',
+    'simplyswords:gold_spear',
+    'simplyswords:diamond_spear',
+    'simplyswords:netherite_spear',
+    'simplyswords:runic_spear',
+    'simplyswords:magispear',
+  ].forEach(item => {
+    event.add('forge:tools/spears', [item]);
   });
-  items = event.get('forge:tools/swords').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:swords', [item]);
-  });
-
-  // Bows
-  items = event.get('forge:tools/bows').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:bows', [item]);
-  });
-
-  // Shovels
-  items = event.get('forge:tools/shovels').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:shovels', [item]);
-  });
-
-  // Axes
-  items = event.get('forge:tools/axes').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:axes', [item]);
-  });
-
-  // Pickaxes
-  items = event.get('forge:tools/pickaxes').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:pickaxes', [item]);
-  });
-
-  // Hoes
-  items = event.get('forge:tools/hoes').getObjectIds();
-  items.forEach(item => {
-    event.add('minecraft:hoes', [item]);
-  });
-
-
 
 
 });

@@ -1,0 +1,17 @@
+{
+  "weight": 2,
+  "verifiers": [
+    {
+      "tag": "forge:tools/shields"
+    },
+    {
+      "tag": "c:shields"
+    }
+  ],
+  "tiers": [
+    "tiered:shields/fortified",
+    "tiered:shields/heavy",
+    "tiered:shields/reinforced",
+    "tiered:shields/resilient"
+  ]
+}
