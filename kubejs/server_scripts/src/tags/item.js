@@ -322,15 +322,6 @@ ServerEvents.tags('item', event => {
   // Add missing tags for Reforged (Tiered)
   //
 
-  // Mods that are missing tags for one or more items
-  // Alex's Caves
-  // Alex's Mobs
-  // Aquamirae
-  // Ars Elemental
-  // Deep Aether
-  // Eidolon
-  // F&A
-
   // Fix tags for Alex's Caves items
   event.add('forge:armors/helmets', event.get('forge:armor/helmets').getObjectIds());
   event.add('forge:armors/chestplates', event.get('forge:armor/chestplates').getObjectIds());
@@ -341,6 +332,10 @@ ServerEvents.tags('item', event => {
   event.add('forge:tools/swords', event.get('simplyswords:swords').getObjectIds());
   event.add('minecraft:swords', event.get('simplyswords:swords').getObjectIds());
 
+  //
+  // Tools and weapons
+  //
+
   // Axes
   const axes = [
     'eidolon:silver_axe',
@@ -350,6 +345,12 @@ ServerEvents.tags('item', event => {
   ];
   event.add('forge:tools/axes', axes);
   event.add('minecraft:axes', axes);
+
+  // Bows
+  const bows = [
+    'deep_aether:storm_bow',
+  ];
+  event.add('forge:tools/bows', bows);
 
   // Hoes
   const hoes = [
@@ -487,5 +488,168 @@ ServerEvents.tags('item', event => {
   ];
   event.add('forge:tools/swords', swords);
   event.add('minecraft:swords', swords);
+
+  //
+  // Armors
+  //
+
+  // Helmets
+  const helmets = [
+    'alexscaves:diving_helmet',
+    'alexscaves:gingerbread_helmet',
+    'alexscaves:hazmat_mask',
+    'alexscaves:hood_of_darkness',
+    'alexscaves:primordial_helmet',
+    'alexsmobs:novelty_hat',
+    'aquamirae:abyssal_heaume',
+    'aquamirae:abyssal_tiara',
+    'aquamirae:terrible_helmet',
+    'aquamirae:three_bolt_helmet',
+    'ars_elemental:air_hat',
+    'ars_elemental:aqua_hat',
+    'ars_elemental:earth_hat',
+    'ars_elemental:fire_hat',
+    'ars_technica:technomancer_helmet',
+    'create:cardboard_helmet',
+    'deep_aether:stormforged_helmet',
+    'eidolon:bonelord_helm',
+    'eidolon:silver_helmet',
+    'eidolon:warlock_hat',
+    'enlightened_end:adamantite_armor_helmet',
+    'forbidden_arcanus:draco_arcanus_helmet',
+    'forbidden_arcanus:mortem_helmet',
+    'forbidden_arcanus:tyr_helmet',
+    'galosphere:sterling_helmet',
+    'minecolonies:build_goggles',
+    'minecolonies:pirate_cap',
+    'minecolonies:pirate_hat',
+    'minecolonies:plate_armor_helmet',
+    'minecolonies:santa_hat',
+    'rats:chef_toque',
+    'rats:rat_fez',
+    'rats:rat_king_crown',
+    'wardrobe:cake_hat_helmet',
+    'wardrobe:desert_helmet',
+    'wardrobe:entertainer_helmet',
+    'wardrobe:farmers_hat_helmet',
+    'wardrobe:fletchers_hat_helmet',
+    'wardrobe:fox_hat_helmet',
+    'wardrobe:hat_helmet',
+    'wardrobe:leather_top_hat_helmet',
+    'wardrobe:newsboy_cap_helmet',
+    'wardrobe:snow_fox_hat_helmet',
+    'wardrobe:snowy_helmet',
+    'wardrobe:taiga_helmet',
+  ];
+  event.add('forge:armors/helmets', helmets);
+
+  // Chestplates
+  const chestplates = [
+    'alexscaves:primordial_tunic',
+    'alexscaves:cloak_of_darkness',
+    'alexscaves:diving_chestplate',
+    'alexscaves:gingerbread_chestplate',
+    'alexscaves:hazmat_chestplate',
+    'alexsmobs:tarantula_hawk_elytra',
+    'aquamirae:abyssal_brigantine',
+    'aquamirae:terrible_chestplate',
+    'aquamirae:three_bolt_suit',
+    'ars_elemental:air_robes',
+    'ars_elemental:aqua_robes',
+    'ars_elemental:earth_robes',
+    'ars_elemental:fire_robes',
+    'ars_technica:technomancer_chestplate',
+    'create:cardboard_chestplate',
+    'deep_aether:stormforged_chestplate',
+    'eidolon:bonelord_chestplate',
+    'eidolon:silver_chestplate',
+    'eidolon:warlock_cloak',
+    'enlightened_end:adamantite_armor_chestplate',
+    'forbidden_arcanus:draco_arcanus_chestplate',
+    'forbidden_arcanus:mortem_chestplate',
+    'forbidden_arcanus:tyr_chestplate',
+    'galosphere:sterling_chestplate',
+    'minecolonies:pirate_chest',
+    'minecolonies:pirate_top',
+    'minecolonies:plate_armor_chest',
+    'wardrobe:broken_barrel_chestplate',
+    'wardrobe:desert_chestplate',
+    'wardrobe:entertainer_chestplate',
+    'wardrobe:jungle_chestplate',
+    'wardrobe:savanna_chestplate',
+    'wardrobe:snowy_chestplate',
+    'wardrobe:taiga_chestplate',
+    'wardrobe:wool_vest_chestplate'
+  ];
+  event.add('forge:armors/chestplates', chestplates);
+
+  // Leggings
+  const leggings = [
+    'alexscaves:primordial_pants',
+    'alexscaves:diving_leggings',
+    'alexscaves:gingerbread_leggings',
+    'alexscaves:hazmat_leggings',
+    'aquamirae:abyssal_leggings',
+    'aquamirae:terrible_leggings',
+    'aquamirae:three_bolt_leggings',
+    'ars_elemental:air_leggings',
+    'ars_elemental:aqua_leggings',
+    'ars_elemental:earth_leggings',
+    'ars_elemental:fire_leggings',
+    'ars_technica:technomancer_leggings',
+    'deep_aether:stormforged_leggings',
+    'eidolon:bonelord_greaves',
+    'eidolon:silver_leggings',
+    'enlightened_end:adamantite_armor_leggings',
+    'enlightened_end:dashing_leggings',
+    'forbidden_arcanus:draco_arcanus_leggings',
+    'forbidden_arcanus:mortem_leggings',
+    'forbidden_arcanus:tyr_leggings',
+    'galosphere:sterling_leggings',
+    'minecolonies:pirate_leggings',
+    'minecolonies:pirate_legs',
+    'minecolonies:plate_armor_legs',
+    'wardrobe:desert_leggings',
+    'wardrobe:entertainer_leggings',
+    'wardrobe:jungle_leggings',
+    'wardrobe:savanna_leggings',
+    'wardrobe:snowy_leggings',
+    'wardrobe:taiga_leggings'
+  ];
+  event.add('forge:armors/leggings', leggings);
+
+  // Boots
+  const boots = [
+    'alexscaves:hazmat_boots',
+    'alexscaves:diving_boots',
+    'alexscaves:gingerbread_boots',
+    'alexscaves:rainbounce_boots',
+    'aquamirae:abyssal_boots',
+    'aquamirae:terrible_boots',
+    'aquamirae:three_bolt_boots',
+    'ars_elemental:air_boots',
+    'ars_elemental:aqua_boots',
+    'ars_elemental:earth_boots',
+    'ars_elemental:fire_boots',
+    'ars_technica:technomancer_boots',
+    'deep_aether:stormforged_boots',
+    'eidolon:silver_boots',
+    'eidolon:warlock_boots',
+    'enlightened_end:boost_boots',
+    'enlightened_end:adamantite_armor_boots',
+    'forbidden_arcanus:draco_arcanus_boots',
+    'forbidden_arcanus:mortem_boots',
+    'forbidden_arcanus:tyr_boots',
+    'galosphere:sterling_boots',
+    'minecolonies:pirate_boots',
+    'minecolonies:pirate_shoes',
+    'minecolonies:plate_armor_boots',
+    'wardrobe:desert_boots',
+    'wardrobe:jungle_boots',
+    'wardrobe:savanna_boots',
+    'wardrobe:snowy_boots',
+    'wardrobe:taiga_boots'
+  ];
+  event.add('forge:armors/boots', boots);
 
 });
