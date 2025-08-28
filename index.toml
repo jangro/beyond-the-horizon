@@ -448,7 +448,7 @@ hash = "db354a6357bb12b9b773b8432f00279634912721dfc29ba95c08b6d21013676f"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "5326659a9802f47c08f84f50a829df9ca0e9ffba7d14b11fe4870c732b28f9d8"
+hash = "802a138ff18683341470699d09be447e77ea1e85651b39200e35a48c789930d9"
 
 [[files]]
 file = "config/integrateddynamics-common.toml"

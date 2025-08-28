@@ -5,6 +5,14 @@
     "result": "deny"
   },
   {
+    "mob": "yungscavebiomes:sand_snapper",
+    "mincount": {
+      "amount": 10,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "alexsmobs:blue_jay",
     "mincount": {
       "amount": 5,
