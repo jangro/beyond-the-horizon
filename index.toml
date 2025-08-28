@@ -404,7 +404,7 @@ hash = "84da8b462b24e4245c9e5edbe7dad8a4df72d551110eb559baee5e3da7476f67"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "d0296774f71bc4ae06e5d9b04c463a45cbb2bd0959b0c898d9e72ca9c3997a10"
+hash = "5492cee4ab5096b7fb65a8ac53c968f558a6f3ee6db4d89ecb586ee4557938cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/super_food.snbt"
@@ -696,7 +696,7 @@ hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "31c4692e7174a4f174c83d5683606c41c35944975f6c01bed169b76c6f4d51b2"
+hash = "b9fb8b7ef3ff80f6dedec3ae7728c22982b5c1822ab81fdd4a6ffae97dbcd5eb"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -864,7 +864,7 @@ hash = "77791f462048de654ce92405782ee64132ccee34d56b2846f7a0bf25913d7d7d"
 
 [[files]]
 file = "kubejs/client_scripts/src/item_tooltip.js"
-hash = "13098f526392eb441753f8a993a0d639c5cbf1b0eceafff2cb02cd12f8d2346c"
+hash = "efdb5558b86756a3f777d54a84fa66cccf4d780c9ca09c4a00221934fa7916a2"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_add_plushies.js"
@@ -4124,7 +4124,7 @@ hash = "88afabe3c79651c11c0fd0a308de147a1b36e3cac90230e4fbe93687eb46cf88"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shaped.js"
-hash = "4483263cf35d7f6cd25792b506f452ea61d3cb081cb90522711b374a446befd5"
+hash = "67f07a38d9c4ed1365841c57e10263b11b1b7d3b5ec4fdfcfe3fb1c066fe742e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"

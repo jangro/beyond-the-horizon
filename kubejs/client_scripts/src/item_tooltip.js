@@ -118,4 +118,6 @@ ItemEvents.tooltip(event => {
   addTooltip('lost_aether_content:pink_aercloud', 'tooltip.bth.aercloud');
 
   addTooltip('alexscaves:biome_treat', 'tooltip.bth.alexscaves.biome_treat');
+
+  addTooltip('supplementaries:lunch_basket', 'tooltip.bth.supplementaries.lunch_basket');
 });

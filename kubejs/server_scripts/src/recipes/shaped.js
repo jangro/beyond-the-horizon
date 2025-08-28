@@ -779,6 +779,15 @@ ServerEvents.recipes(event => {
     U: 'sophisticatedbackpacks:upgrade_base'
   }).id(`${ID_PREFIX}sophisticatedbackpacks/void_upgrade`);
 
+  event.shaped('supplementaries:lunch_basket', [
+    ' C ',
+    'CWC',
+    'CCC'
+  ], {
+    C: 'farmersdelight:canvas',
+    W: '#minecraft:wool_carpets'
+  }).id(`${ID_PREFIX}lunch_basket`);
+
   event.shaped('supplementaries:quiver', [
     'LS ',
     'LS ',
