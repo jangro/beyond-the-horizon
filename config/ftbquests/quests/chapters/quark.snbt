@@ -521,7 +521,7 @@
 			tasks: [{
 				icon: "minecraft:glow_berries"
 				id: "414AD42C167FA6A3"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				title: "Meet oretoises"
 				to_observe: "quark:toretoise"
@@ -545,7 +545,7 @@
 			tasks: [{
 				icon: "minecraft:bone"
 				id: "5C20EE765DF47B20"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				title: "Meet Shiba"
 				to_observe: "quark:shiba"
@@ -573,7 +573,7 @@
 			tasks: [{
 				icon: "quark:glow_shroom"
 				id: "09AA06778263D528"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				title: "Meet stoneling"
 				to_observe: "quark:stoneling"
@@ -593,7 +593,7 @@
 			tasks: [{
 				icon: "quark:soul_bead"
 				id: "1F52A67781F42EDD"
-				observe_type: 0
+				observe_type: 5
 				timer: 0L
 				title: "Meet wraith"
 				to_observe: "quark:wraith"
