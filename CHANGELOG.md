@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.10] - 2025-08-28
+
+### Added
+- Alternative recipe for lunch basket and tooltip for custom food swap feature
+- Cutting recipes for archwood
+- Hypertubes mod (Create add-on)
+- Reforged (FKA Tiered) mod
+- Radium mod (server optimization)
+
+### Changed
+- Limit sand snapper spawns
+- Improve coffee and tea bush generation
+- Make AE2 metorites even more common
+- Ensure all armors, weapons and tools have correct tags for Reforged mod
+- Re-enable increased build height due to mountains being cut off (no penalty to world gen times)
+- Pin Building But Better to older version due to new version having bugs
+
+### Removed
+- Remove appleskin mod (redundant due to SoL - Valheim)
+
 ## [1.9] - 2025-08-24
 
 ### Added
