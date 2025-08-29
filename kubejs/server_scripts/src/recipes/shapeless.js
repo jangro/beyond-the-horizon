@@ -43,6 +43,9 @@ ServerEvents.recipes(event => {
     '#forge:dusts/wood'
   ]).id(`${ID_PREFIX}compost_from_sawdust`);
 
+  // Neapolitan
+  event.shapeless('3x neapolitan:banana', ['neapolitan:banana_bunch']).id(`${ID_PREFIX}crafting/neapolitan/banana_bunch`);
+
   // Quark
   event.shapeless('2x quark:myalite', ['minecraft:cobblestone', 'minecraft:amethyst_block', 'quark:myalite_crystal']).id(`${ID_PREFIX}myalite`);
   event.shapeless('quark:dusky_myalite', ['ars_nouveau:sourcestone', 'quark:myalite_crystal']).id(`${ID_PREFIX}dusky_myalite`);
