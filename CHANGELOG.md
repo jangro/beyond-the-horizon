@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Hypertubes mod (Create add-on)
 - Reforged (FKA Tiered) mod
 - Radium mod (server optimization)
+- Banana bunch to bananas crafting recipe
 
 ### Changed
 - Limit sand snapper spawns
