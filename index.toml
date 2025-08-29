@@ -679,6 +679,10 @@ file = "defaultconfigs/ftbchunks-world.snbt"
 hash = "8b3514e4604c60e44e3b84fe6eac74dededc8382e66cb3ad4b0fbc6e6a71a651"
 
 [[files]]
+file = "defaultconfigs/gravestone-server.toml"
+hash = "b3c1ae6d33762165d3e7e5826cca48652ad9230777f9fc86524d178619cdc74a"
+
+[[files]]
 file = "defaultconfigs/immersiveengineering-server.toml"
 hash = "2e0f859569d188d65e20fc7fd8f12a1916aeeb8fec909867e7f359d1ce658016"
 
