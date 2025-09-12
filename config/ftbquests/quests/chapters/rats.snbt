@@ -1,0 +1,331 @@
+{
+	autofocus_id: "051C186F7B1DED05"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rats"
+	group: "14A3A43791F23730"
+	icon: "rats:cheese"
+	id: "6E29BA51DE105127"
+	images: [
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_one"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_two"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_three"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftblibrary:icons/right"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In this chapter, you will learn about:"
+				" &l1.&r Crafting cheese."
+				" &l2.&r Spawning rats."
+				" &l3.&r Taming rats, equipping, upgrading and commanding rats."
+				" &l4.&r Breeding tamed rats."
+			]
+			id: "051C186F7B1DED05"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "The Rats mod revolves around using tamed rats to automate various tasks."
+			tasks: [{
+				icon: "rats:cheese"
+				id: "201210997E9795AD"
+				title: "START HERE"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "460E18C0D4D4CFF8"
+			tasks: [{
+				disable_toast: true
+				icon: "plushies:cow_plushie"
+				id: "4CF705CDC2082764"
+				observe_type: 5
+				optional_task: true
+				timer: 0L
+				title: "Find a cow"
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "1CEB2538DE74335C"
+			subtitle: "Right-click the cow while holding an empty bucket."
+			tasks: [{
+				id: "6D221DFAACCD1629"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Milk the cow"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "75771B788ECD7C65"
+			subtitle: "Right-click the cauldron while holding a bucket of milk."
+			tasks: [{
+				icon: "minecraft:cauldron"
+				id: "489AC9BDECECFE84"
+				optional_task: true
+				title: "Put milk into a cauldron"
+				type: "custom"
+			}]
+			title: "Put milk into a cauldron and wait"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["{image:rats:item/cheese width:25 height:25 align:center}"]
+			id: "64C94766D1D7056B"
+			subtitle: "Put the Block of Cheese in a crafting grid to convert it into Cheese."
+			tasks: [{
+				icon: "rats:block_of_cheese"
+				id: "17F7B0E9FDB20D2C"
+				title: "The milk turns into a Block of Cheese!"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "7C18EAE65113578D"
+			tasks: [{
+				icon: "rats:trash_can"
+				id: "527F40F9EE1B79E7"
+				title: "Craft and place down a Trash Can"
+				type: "custom"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "47D9E35E77C263C8"
+			subtitle: "You can fill the Trash Can by right-clicking it while holding a block, such as dirt or cobblestone."
+			tasks: [{
+				icon: "rats:garbage_pile"
+				id: "560255D6C6281DD8"
+				title: "Fill the Trash Can to get Garbage Pile"
+				type: "custom"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "546E6411D081549B"
+			subtitle: "Wild Rats will run away from you. To make taming them easier, place the Garbage Pile blocks in a hole so that they can't escape."
+			tasks: [{
+				icon: "botania:cosmetic_clock_eye"
+				id: "23EF4B169A5B1ABE"
+				title: "Place Garbage Pile in the dark and wait"
+				type: "custom"
+			}]
+			title: "Place Garbage Pile blocks in the dark and wait for Wild Rats to spawn"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "740EA761A898CFED"
+			subtitle: "Make sure it's not plagued!"
+			tasks: [{
+				icon: "rats:rat_arrow"
+				id: "3E5965F9C418258D"
+				observe_type: 5
+				timer: 0L
+				title: "A Wild Rat, ready to be tamed"
+				to_observe: "rats:wild_rat"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Cheese is made by putting a &b&lBlock of Cheese&r&r in a crafting greed."]
+			id: "3806C3621E97C5FA"
+			subtitle: "This can easily take upwards of 10 cheese."
+			tasks: [{
+				icon: "rats:cheese"
+				id: "1CC5FFADD6AEF63E"
+				title: "Throw cheese at the rat."
+				type: "custom"
+			}]
+			title: "Throw cheese at the rat until it is tamed"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "562CD00D16566133"
+			subtitle: "Time to learn how to interact with it."
+			tasks: [{
+				icon: "artifacts:crystal_heart"
+				id: "5BE1B541570208AE"
+				title: "Keep throwing cheese at the rat until it is tamed"
+				type: "custom"
+			}]
+			title: "Congratulations! You have tamed your first rat!"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"In the rat's inventory, you can equip the rat with up to &6&l3 Rat Upgrades&r&r, give the rat a &bhat&r and &bbanner&r to wear, and give or take a &bheld item&r that the rat will hold in its mouth or paws."
+				""
+				"The current status of the rat and its &lgender&r are also displayed."
+				"[ \"The gender is important for \", { \"text\": \"breeding\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02B7D9786899EC57\" } }, \": one male and one female rat are needed to breed more rats.\" ]"
+				""
+				"[ \"This is also the menu used to assign \", { \"text\": \"commands\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AB5325979E04AB2\" } }, \" to your rats. To cycle through rat commands, press the arrows under Current\" ] Command."
+			]
+			id: "6A6B7ED78BAF3583"
+			tasks: [{
+				icon: "rats:rat_sack"
+				id: "29738992CF6B5C02"
+				title: "Right-click the rat to open its inventory"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Rats have a variety of commands that can be changed in their menu, or through the use of a &l&bRat Flute&r&r. They are as follows:"
+				""
+				"• &6&lWander&r&r - The rat will mill around aimlessly like most vanilla creatures. Note that the rat will still defend its owner while under this command."
+				"• &6&lStay Here&r&r - The rat sit still, not moving and not fulfilling any tasks."
+				"• &6&lFollow Me&r&r - The rat will follow its owner like a wolf and defend them from attacks."
+				"• &6&lHunt Prey&r&r - The rat will target any animals and monsters in the area and attack them. Rats will not attack baby mobs."
+				"• &6&lGather Items&r&r - The rat will pick up any items on the floor."
+				"• &6&lHarvest&r&r - The rat will break grass blocks and crops and pick up the drops. &7Some upgrades, like the Rat Upgrade: Miner, Rat Upgrade: Planter, and Rat Upgrade: Fisherman, override this command.&r"
+				"• &6&lTransport Items&r&r - The rat will carry items from a pickup container (like a chest) and move them to a deposit container."
+				""
+				"&lNote:&r For the &6Hunt Prey&r, &6Gather Items&r, &6Harvest&r and &6Transport Items&r commands, players can use a &l&bCheese Staff&r&r on containers to designate them as pick up and drop off locations. "
+			]
+			id: "0AB5325979E04AB2"
+			tasks: [{
+				icon: "rats:cheese_stick"
+				id: "267B8393E6B96731"
+				title: "Learn what the different commands do"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Two rats of opposite genders will breed when placed inside a &b&lRat Cage&r&r decorated with a &b&lRat Breeding Lantern&r&r."
+				""
+				"When bred, rats will produce &d&l1-3 babies&r&r, which take a day to become adults. Newborn rats (called pinkies) look like small pink beans and will sit still inside the cage until grown. Once they become adults, &lthey will automatically be tamed by you&r."
+				""
+				"Breeding rats can result in new color varieties, including white, hooded, cream, and albino."
+				""
+				"Rat Breeding Lanterns can simultaneously breed as many pairs of rats as you want, with a cooldown that lasts until the pair's offspring become adult rats."
+			]
+			id: "02B7D9786899EC57"
+			shape: "heart"
+			tasks: [{
+				icon: "rats:rat_breeding_lantern"
+				id: "7E304BCFCB8CE98E"
+				title: "Breeding rats"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+	]
+	title: "Your first rat"
+}

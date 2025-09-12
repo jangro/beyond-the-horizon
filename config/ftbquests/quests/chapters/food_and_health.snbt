@@ -330,6 +330,7 @@
 					}
 				}
 				id: "supplementaries:lunch_basket"
+				tag: { }
 			}
 			id: "6747ADE816BB5381"
 			subtitle: "Holds 6 stacks of food. Hold right click to eat. Sneak right click to cycle food."

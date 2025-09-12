@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "1712A669301FE875", title: "Trails to Riches" }]
+	chapter_groups: [
+		{ id: "14A3A43791F23730", title: "Rats" }
+		{ id: "1712A669301FE875", title: "Trails to Riches" }
+	]
 }
