@@ -213,7 +213,7 @@ ServerEvents.recipes(event => {
   event.recipes.immersiveengineering.mixer(Fluid.of('bth:sugar_water 1000'), {tag: 'minecraft:water', amount: 1000}, ['minecraft:sugar']).id(`${ID_PREFIX}mixer/sugar_water`);
 
   // BTH soul mixture
-  event.recipes.immersiveengineering.mixer(Fluid.of('bth:soul_mixture 1000'), {tag: 'minecraft:water', amount: 1000}, ['minecraft:sugar']).id(`${ID_PREFIX}mixer/soul_mixture`);
+  event.recipes.immersiveengineering.mixer(Fluid.of('bth:soul_mixture 1000'), {tag: 'minecraft:water', amount: 1000}, ['minecraft:soul_sand']).id(`${ID_PREFIX}mixer/soul_mixture`);
 
   // Refinery recipes
 

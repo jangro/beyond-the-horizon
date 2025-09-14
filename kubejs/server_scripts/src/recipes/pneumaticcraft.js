@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
     "speed": 0.5
   }).id(`${ID_PREFIX}thermo_plant/sugar_water`);
 
-  // BTH sugar water
+  // BTH soul mixture
   event.custom({
     "type": "pneumaticcraft:thermo_plant",
     "exothermic": false,

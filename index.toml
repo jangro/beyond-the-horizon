@@ -4112,7 +4112,7 @@ hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "f9726202f67a9fb6c055e49638e96e0764cd48502bc65757eb12be85b8cc8990"
+hash = "cdf6924d50a31224b865b0fb2a6e391e0bdf3a6c1762e47f64a1ccdec1a2e5f8"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
@@ -4120,7 +4120,7 @@ hash = "1563258d72699ff0698c017a3366e6242297098fb9c8cb001060414f699c9178"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/pneumaticcraft.js"
-hash = "7dad28d1e7c3705c6869b5e8cb9c39d4226e69fff74a665948f87a632f08c2df"
+hash = "d69bafdbbc78dbdfab27d191a842876e9f3567a5674ee459c3765c6380656b72"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/remove.js"
