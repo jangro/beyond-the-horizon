@@ -10,6 +10,32 @@
 		tag: { }
 	}
 	id: "087CD27AE78D1A5F"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/coal"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.7999999999999998d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/oak_sapling"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.7999999999999998d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/exchange"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.7999999999999998d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -22,7 +48,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "32AD4F18C4D206CE"
@@ -33,7 +59,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "626D22FC2EBDA09C"
@@ -44,15 +70,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
-		}
-		{
-			icon: "minecraft:coal"
-			id: "7616927D6118B48B"
-			shape: "rsquare"
-			title: "Fuel Burning Generators"
-			x: -4.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			id: "1BA735E30862EE1A"
@@ -63,15 +81,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
-		}
-		{
-			icon: "ars_nouveau:glyph_exchange"
-			id: "09297B7E5C61EEFE"
-			shape: "rsquare"
-			title: "Power Conversion"
-			x: 3.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			id: "10E6428B94DCC3BB"
@@ -82,7 +92,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "091E5B7C4C485AD1"
@@ -93,15 +103,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.0d
-		}
-		{
-			icon: "minecraft:oak_sapling"
-			id: "0A56BC9DC3BB9FE1"
-			shape: "rsquare"
-			title: "Renewable Energy"
-			x: -0.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -326,7 +328,7 @@
 			]
 			title: "Rat in a cage"
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "37224D87E33CAB4D"
@@ -548,7 +550,7 @@
 			}]
 			title: "Diesel Generator"
 			x: -3.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependency_requirement: "one_completed"
@@ -573,7 +575,7 @@
 			]
 			title: "Solar Panels"
 			x: 1.0d
-			y: 0.0d
+			y: -0.5d
 		}
 	]
 	title: "Power Generation"
