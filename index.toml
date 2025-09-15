@@ -360,79 +360,83 @@ hash = "7100a5d755f5bdd452d3cb2f585080fa575c2c8cc93ea08a7f39f0c29912df42"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "02eb1457fc663d9e57e5c1b4e9f4491c1d1e5b79630add9449921c31411cc372"
+hash = "fad302127cd549db2ec8021073f2fde3d1a707bc700027b460e9f9030143b18b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beyond_the_horizon.snbt"
-hash = "b4ca2bb6812f76e32a3bb490fefa91c309c4b61067e016e9e38bf6985d16c7a2"
+hash = "6de22163babf2fb031b5f0bcf26adbef8441933fba2e3e87a416c9c2dcaefdd3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bounty_hunter.snbt"
-hash = "d5231d0fe7dda853322d6f3815be237923ccabcbc051ca50204ee37e783c5467"
+hash = "7e7876017949f8ad32a80e68a4683b52588ba4be0bf394b3730b9486cd8ba52a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dimensional_master.snbt"
-hash = "4c1fbb2cc0fbe8a23c1984c5b439a90906fd731440d80d39afed884a24235a24"
+hash = "fdf94cdbdcc3a6b3d60f3b9b0024efc4e114b81e3f55dd5a46a29665beff88e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/economy.snbt"
-hash = "cb3699a5f2c71b843090ab7b8136843d5e60f0e72c68c6a361bdbe70d3dc3795"
+hash = "1b5bfa7843f6c3ebc2f790eeb4add1181e36a809487293d887183211765737db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eidolon.snbt"
-hash = "8a4b95ca7df24059bb65238996a5c8c9b3c33b6d87538c276dc8eb93a465156f"
+hash = "d069cf6b5d9ab2753352d308951c1d087c6a80a66f96531d1578ff6e0e86c89c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food_and_health.snbt"
-hash = "222c1112504f9ca0f2212117d33d8748b2358d66e47dd9e8a971b6a135e9b507"
+hash = "625fefd08d6c059c30a1dc3c30771ddb51fd064fed28eaaf389652c75d080b33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/forbidden_arcanus.snbt"
-hash = "5eceb4cabd5a5263c8b742471826f5444c08dd42b78864dd4cce8d669641c4b3"
+hash = "e89cfe1f50256e6e6ae34efe01878442c80998250c68f04056795d370ae10339"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/galosphere.snbt"
-hash = "0cde2cf4208d214ca2548b524a0b27978ee0783ad1c1f6abbf88ccece9b92a73"
+hash = "5d9044243ed39a63b3ffb70083c290f83dc03102540d039df9bac87176c2f5d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gotta_snap_em_all.snbt"
-hash = "b8ecdfb396ae82d709b927a862b952f1111c0f84c51d9e30b277fbdd080486b9"
+hash = "8ee1c0fde0b6c19e3404bfcc50cb9acad28a4085001f71d2be8ad49002e6c98e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells.snbt"
-hash = "5cb49624c0e5791d33faf240bb8da3e5a38df272b022456ede3c538e2fdc59c8"
+hash = "99c1c181400dadadcbf03960e431eb72a8442e7db14a73ff55e837759f6c34fb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/power_generation.snbt"
+hash = "8be8ca3d03635b5bf34b678b6254c677b1531c7a1127a274760650adb4da6a9a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quark.snbt"
-hash = "16cd39150a45dab068ee9c0adde206cb9ec3092efce84dab7f3a5ab2140aeb23"
+hash = "733cce11f86e471d791c6f3a931cc782ff1f9ca6016918bc19159c3891cba9dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rats.snbt"
-hash = "d8bbad7a4b0862e54d765c8abe9a1d6dba0e542ec4d8c4a2be416e5a0547ee6f"
+hash = "a947f6604c07852357a3050b0348029c6037ad1e3f110fd09e9a8a165d674fbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/super_food.snbt"
-hash = "44b705479112e39ad6affc4fac4ffa0583b4b7f69b01243370655f9d650bb7cd"
+hash = "9d4b68a283c1ca6d1a2646440c5613a5aeeccf2d0208c174cd2bf2d1c7b78466"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/supplementaries.snbt"
-hash = "f5404ff85eec44080277de349c0ce8b744f1e2e21642e02a03e0a1ed7486dbcd"
+hash = "183ff6050c025259405223459d2bb7541c2ae6cd9743c5b6edb3310223c46d0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_graveyard.snbt"
-hash = "365a2e390131ee972c4bec9c24d89002472b181acafb1f2304c7b105c7f1ec25"
+hash = "0609fd92dc19b9870dad219d22d4c0b1e6fc510d47e5377db0c7b5fef1d6f59a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nether.snbt"
-hash = "28f2e4ce2ab47c2e390cd52e711b913ecc0b787e6c382c2824eb84601e1c6503"
+hash = "4dccb0b4bb5e1334f8097470fe6b44007da416e57aab3c3325d90b33f97fc856"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/travelling.snbt"
-hash = "4fab043409587fd9764f1c5d0a24558a1722f6dae9b9aee0c298dbfe542baa4f"
+hash = "c4a574763b2ff5eac888bc26d8437400937a0e4c0f7679b53f4be52a5d780e52"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "8be45a6f69e92d9ee17cef79806398289bff8115fac00c87e2a8a22ba3f68462"
+hash = "2b9bd752748da8bb73a959206548dcb1d83765eded072c47ffcc869870923a89"
 
 [[files]]
 file = "config/gravestone-client.toml"
@@ -3933,6 +3937,14 @@ hash = "30cbb8a67dcee713d79772834e0bad7ac664e7b3e4222efcd65357d67308805d"
 [[files]]
 file = "kubejs/data/tiered/tiered_modifiers/pools/weapons/normal.json"
 hash = "03f45b22d74c8e4702b402bcb4f57067b7b0c0653fcc908bb1585e299150081a"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/tiers/melee_weapons/extended.json"
+hash = "fd4eff5f5c894d232900e835c81390c679044e5ca6ce6a915010d48164154b8c"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/tiers/tools/extended.json"
+hash = "7caa6d27d13e1eb8d9435265928e6c71e44bc28cb551c23283fc00b3c3943689"
 
 [[files]]
 file = "kubejs/data/tlc/worldgen/structure_set/structure_lost_castle_set.json"

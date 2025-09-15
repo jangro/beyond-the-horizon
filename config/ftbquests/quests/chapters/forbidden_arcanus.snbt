@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "forbidden_arcanus"
-	group: ""
+	group: "056260E5194984A9"
 	icon: "forbidden_arcanus:arcane_chiseled_darkstone"
 	id: "264C2A6F10679C20"
 	images: [
@@ -519,7 +519,7 @@
 			y: -3.0d
 		}
 	]
-	order_index: 10
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

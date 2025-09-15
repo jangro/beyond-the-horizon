@@ -1,9 +1,8 @@
 {
-	autofocus_id: "051C186F7B1DED05"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rats"
-	group: "14A3A43791F23730"
+	group: "056260E5194984A9"
 	icon: "rats:cheese"
 	id: "6E29BA51DE105127"
 	images: [
@@ -17,58 +16,10 @@
 		}
 		{
 			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
 			image: "fairylights:entity/letter/digit_two"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -79,32 +30,8 @@
 			x: -4.0d
 			y: 4.0d
 		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			height: 1.0d
-			image: "ftblibrary:icons/right"
-			rotation: 0.0d
-			width: 1.0d
-			x: 2.0d
-			y: 4.0d
-		}
 	]
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -145,6 +72,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["460E18C0D4D4CFF8"]
+			hide_lock_icon: true
 			id: "1CEB2538DE74335C"
 			subtitle: "Right-click the cow while holding an empty bucket."
 			tasks: [{
@@ -157,6 +86,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1CEB2538DE74335C"]
+			hide_lock_icon: true
 			id: "75771B788ECD7C65"
 			subtitle: "Right-click the cauldron while holding a bucket of milk."
 			tasks: [{
@@ -171,7 +102,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["75771B788ECD7C65"]
 			description: ["{image:rats:item/cheese width:25 height:25 align:center}"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			hide_lock_icon: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "64C94766D1D7056B"
 			subtitle: "Put the Block of Cheese in a crafting grid to convert it into Cheese."
 			tasks: [{
@@ -195,6 +133,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7C18EAE65113578D"]
+			hide_lock_icon: true
 			id: "47D9E35E77C263C8"
 			subtitle: "You can fill the Trash Can by right-clicking it while holding a block, such as dirt or cobblestone."
 			tasks: [{
@@ -207,6 +147,8 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["47D9E35E77C263C8"]
+			hide_lock_icon: true
 			id: "546E6411D081549B"
 			subtitle: "Wild Rats will run away from you. To make taming them easier, place the Garbage Pile blocks in a hole so that they can't escape."
 			tasks: [{
@@ -220,6 +162,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["546E6411D081549B"]
+			hide_lock_icon: true
+			hide_until_deps_visible: false
 			id: "740EA761A898CFED"
 			subtitle: "Make sure it's not plagued!"
 			tasks: [{
@@ -249,7 +194,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["3806C3621E97C5FA"]
 			description: [""]
+			hide_lock_icon: true
 			id: "562CD00D16566133"
 			subtitle: "Time to learn how to interact with it."
 			tasks: [{
@@ -263,6 +210,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["562CD00D16566133"]
 			description: [
 				"In the rat's inventory, you can equip the rat with up to &6&l3 Rat Upgrades&r&r, give the rat a &bhat&r and &bbanner&r to wear, and give or take a &bheld item&r that the rat will hold in its mouth or paws."
 				""
@@ -271,6 +219,7 @@
 				""
 				"[ \"This is also the menu used to assign \", { \"text\": \"commands\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0AB5325979E04AB2\" } }, \" to your rats. To cycle through rat commands, press the arrows under Current\" ] Command."
 			]
+			hide_lock_icon: true
 			id: "6A6B7ED78BAF3583"
 			tasks: [{
 				icon: "rats:rat_sack"
@@ -282,6 +231,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6A6B7ED78BAF3583"]
 			description: [
 				"Rats have a variety of commands that can be changed in their menu, or through the use of a &l&bRat Flute&r&r. They are as follows:"
 				""
@@ -295,6 +245,7 @@
 				""
 				"&lNote:&r For the &6Hunt Prey&r, &6Gather Items&r, &6Harvest&r and &6Transport Items&r commands, players can use a &l&bCheese Staff&r&r on containers to designate them as pick up and drop off locations. "
 			]
+			hide_lock_icon: true
 			id: "0AB5325979E04AB2"
 			tasks: [{
 				icon: "rats:cheese_stick"
@@ -306,6 +257,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6A6B7ED78BAF3583"]
 			description: [
 				"Two rats of opposite genders will breed when placed inside a &b&lRat Cage&r&r decorated with a &b&lRat Breeding Lantern&r&r."
 				""
@@ -315,6 +267,7 @@
 				""
 				"Rat Breeding Lanterns can simultaneously breed as many pairs of rats as you want, with a cooldown that lasts until the pair's offspring become adult rats."
 			]
+			hide_lock_icon: true
 			id: "02B7D9786899EC57"
 			shape: "heart"
 			tasks: [{
@@ -327,5 +280,5 @@
 			y: 5.0d
 		}
 	]
-	title: "Your first rat"
+	title: "Rats"
 }

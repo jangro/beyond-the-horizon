@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "galosphere"
-	group: ""
+	group: "056260E5194984A9"
 	icon: "galosphere:lumiere_cluster"
 	id: "09817A15141FD41E"
 	images: [
@@ -47,7 +47,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 12
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,0 +1,580 @@
+{
+	autofocus_id: "5520F7C21D507036"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_generation"
+	group: ""
+	icon: {
+		Count: 1
+		id: "enderio:soul_engine"
+		tag: { }
+	}
+	id: "087CD27AE78D1A5F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B8A39FE4D56B6E9"
+			subtitle: "Powered by any burnable solids or liquids."
+			tasks: [{
+				id: "1EDA6A30E6323521"
+				item: "integrateddynamics:coal_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "32AD4F18C4D206CE"
+			subtitle: "Powered by any burnable solids."
+			tasks: [{
+				id: "1A34F352981F1DE3"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "626D22FC2EBDA09C"
+			subtitle: "Powered by temperature gradient."
+			tasks: [{
+				id: "2E0F3A22C6D45B91"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:coal"
+			id: "7616927D6118B48B"
+			shape: "rsquare"
+			title: "Fuel Burning Generators"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "1BA735E30862EE1A"
+			subtitle: "Converts pressure to forge energy."
+			tasks: [{
+				id: "35627243AF788BC5"
+				item: "pneumaticcraft:pneumatic_dynamo"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "ars_nouveau:glyph_exchange"
+			id: "09297B7E5C61EEFE"
+			shape: "rsquare"
+			title: "Power Conversion"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "10E6428B94DCC3BB"
+			subtitle: "Converts rotational power to forge energy."
+			tasks: [{
+				id: "15398CF2E5821318"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "091E5B7C4C485AD1"
+			subtitle: "Powered by wind mill or water wheel."
+			tasks: [{
+				id: "76E42F6ED42E35C7"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			id: "0A56BC9DC3BB9FE1"
+			shape: "rsquare"
+			title: "Renewable Energy"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"44D111F440C02435"
+				"4F97E2A2E6AD0241"
+			]
+			icon: {
+				Count: 1
+				id: "enderio:soul_engine"
+				tag: { }
+			}
+			id: "681814A790570C1B"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Produces 50-300 FE/t base output."
+			title: "Low Tier Soul Engine"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			id: "44D111F440C02435"
+			subtitle: "Fuel for the low tier soul engine."
+			tasks: [{
+				id: "659386BDB969327E"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"10F20D35022C2A6B"
+				"37224D87E33CAB4D"
+				"7C9B0A3EA492002E"
+				"3F1D23DF72AC1187"
+			]
+			dependency_requirement: "one_completed"
+			id: "4F97E2A2E6AD0241"
+			subtitle: "Capture a soul by right clicking a valid mob with an empty soul vial. Higher tier mob gives higher energy output. Bind the soul to the soul engine using a soul binder."
+			tasks: [{
+				id: "46214E640B972766"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "10F20D35022C2A6B"
+			tasks: [{
+				icon: "plushies:squid_plushie"
+				id: "00A8BCCA7AA9A728"
+				observe_type: 5
+				timer: 0L
+				title: "Squid"
+				to_observe: "minecraft:squid"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"14CB58075D546E37"
+				"04C005EEEF82C286"
+			]
+			icon: {
+				Count: 1
+				id: "enderio:soul_engine"
+				tag: { }
+			}
+			id: "556C67384969BA2B"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Produces 200-700 FE/t base output."
+			title: "Medium Tier Soul Engine"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5E8B9D308B7DB507"
+				"562E55A53A2DE6B3"
+				"487C859A07E58EC4"
+				"6EDDEE70B8945014"
+			]
+			dependency_requirement: "one_completed"
+			id: "04C005EEEF82C286"
+			subtitle: "Capture a soul by right clicking a valid mob with an empty soul vial. Higher tier mob gives higher energy output. Bind the soul to the soul engine using a soul binder."
+			tasks: [{
+				id: "1A81A3A7F6C5D3D5"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "14CB58075D546E37"
+			subtitle: "Fuel for the medium tier soul engine."
+			tasks: [{
+				id: "0845F505CFA12DEA"
+				item: "bth:sugar_water_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3D31639AB007B74D"
+				"3CA252953AE8ECDD"
+				"6FB605834FB5AD6E"
+				"3576B78B482553B6"
+			]
+			dependency_requirement: "one_completed"
+			id: "764DB89677CB8351"
+			subtitle: "Capture a soul by right clicking a valid mob with an empty soul vial. Higher tier mob gives higher energy output. Bind the soul to the soul engine using a soul binder."
+			tasks: [{
+				id: "3DA6DD1E067AB043"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: 1.0000000000000002d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1DF61D277FAF3A70"
+				"764DB89677CB8351"
+			]
+			icon: {
+				Count: 1
+				id: "enderio:soul_engine"
+				tag: { }
+			}
+			id: "27546E676673CAEC"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Produces 600-1500 FE/t base output."
+			title: "High Tier Soul Engine"
+			x: 1.0000000000000002d
+			y: 3.5d
+		}
+		{
+			id: "1DF61D277FAF3A70"
+			subtitle: "Fuel for the high tier soul engine."
+			tasks: [{
+				id: "3B5EAC98F559448C"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 1.0000000000000002d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B4D1DDBD2E2DB01"
+				"061A7AF2E960C990"
+				"241B2A7991DBCA83"
+				"06BE1783506DD73D"
+			]
+			dependency_requirement: "one_completed"
+			id: "456DC0CDD354E993"
+			subtitle: "Capture a soul by right clicking a valid mob with an empty soul vial. Higher tier mob gives higher energy output. Bind the soul to the soul engine using a soul binder."
+			tasks: [{
+				id: "0844BE91DB641F39"
+				item: "enderio:empty_soul_vial"
+				type: "item"
+			}]
+			x: 3.999999999999999d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7CD821457829F571"
+				"456DC0CDD354E993"
+			]
+			icon: {
+				Count: 1
+				id: "enderio:soul_engine"
+				tag: { }
+			}
+			id: "078DDAE8C869D441"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Produces 1500-6000 FE/t base output."
+			title: "Ultra Tier Soul Engine"
+			x: 3.999999999999999d
+			y: 3.5d
+		}
+		{
+			id: "7CD821457829F571"
+			subtitle: "Fuel for the ultra tier soul engine."
+			tasks: [{
+				id: "09794AF53F37D48D"
+				item: "bth:ender_fuel_bucket"
+				type: "item"
+			}]
+			x: 3.999999999999999d
+			y: 2.0d
+		}
+		{
+			id: "4C30B755979AE959"
+			subtitle: "Powered by rats in motion."
+			tasks: [
+				{
+					id: "34196A83EA62DDDF"
+					item: "rats:rat_cage"
+					type: "item"
+				}
+				{
+					icon: "perfectplushies:mouse_plushie"
+					id: "68C625D87442E8C1"
+					observe_type: 5
+					timer: 0L
+					title: "Rat"
+					to_observe: "rats:rat"
+					type: "observation"
+				}
+			]
+			title: "Rat in a cage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "37224D87E33CAB4D"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_giant_squid"
+				id: "050E94B7CB0E3511"
+				observe_type: 5
+				timer: 0L
+				title: "Giant Squid"
+				to_observe: "alexsmobs:giant_squid"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "7C9B0A3EA492002E"
+			tasks: [{
+				icon: "plushies:glow_squid_plushie"
+				id: "2CA71667D0C43240"
+				observe_type: 5
+				timer: 0L
+				title: "Glow Squid"
+				to_observe: "minecraft:glow_squid"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "3F1D23DF72AC1187"
+			tasks: [{
+				icon: "plushie_buddies:plushie_elder_guardian"
+				id: "6D6EFA9641A1C96D"
+				observe_type: 5
+				timer: 0L
+				title: "Elder Guardian"
+				to_observe: "minecraft:elder_guardian"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "562E55A53A2DE6B3"
+			tasks: [{
+				icon: "plushie_buddies:plushie_zombie"
+				id: "77186C7BFE90F852"
+				observe_type: 5
+				timer: 0L
+				title: "Zombie"
+				to_observe: "minecraft:zombie"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "5E8B9D308B7DB507"
+			tasks: [{
+				icon: "eidolon:spawn_zombie_brute"
+				id: "48953EE53627C4C2"
+				observe_type: 5
+				timer: 0L
+				title: "Zombie Brute"
+				to_observe: "eidolon:zombie_brute"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "487C859A07E58EC4"
+			tasks: [{
+				icon: "plushie_buddies:plushie_drowned"
+				id: "67F10888A2B83E7E"
+				observe_type: 5
+				timer: 0L
+				title: "Drowned"
+				to_observe: "minecraft:drowned"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "6EDDEE70B8945014"
+			tasks: [{
+				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				id: "2151B2B154F9944D"
+				observe_type: 5
+				timer: 0L
+				title: "Mutant Zombie"
+				to_observe: "mutantmonsters:mutant_zombie"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "3576B78B482553B6"
+			tasks: [{
+				icon: "plushie_buddies:plushie_fox"
+				id: "50683942DCC4B79B"
+				observe_type: 5
+				timer: 0L
+				title: "Foxhound"
+				to_observe: "quark:foxhound"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "3CA252953AE8ECDD"
+			tasks: [{
+				icon: "plushies:magma_cube_plushie"
+				id: "6C2ABD78D879812A"
+				observe_type: 5
+				timer: 0L
+				title: "Magma Cube"
+				to_observe: "minecraft:magma_cube"
+				type: "observation"
+			}]
+			x: 0.49999999999999994d
+			y: 7.0d
+		}
+		{
+			id: "6FB605834FB5AD6E"
+			tasks: [{
+				icon: "plushies:blaze_plushie"
+				id: "7D1C25660F5D8797"
+				observe_type: 5
+				timer: 0L
+				title: "Blaze"
+				to_observe: "minecraft:blaze"
+				type: "observation"
+			}]
+			x: 1.5000000000000002d
+			y: 7.0d
+		}
+		{
+			id: "3D31639AB007B74D"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_bone_serpent"
+				id: "1205EC9DB20EE1E9"
+				observe_type: 5
+				timer: 0L
+				title: "Bone Serpent"
+				to_observe: "alexsmobs:bone_serpent"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "06BE1783506DD73D"
+			tasks: [{
+				icon: "plushie_buddies:plushie_enderman"
+				id: "1DFA1395667412F3"
+				observe_type: 5
+				timer: 0L
+				title: "Enderman"
+				to_observe: "minecraft:enderman"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "5B4D1DDBD2E2DB01"
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_mimicube"
+				id: "651112A4960B20CA"
+				observe_type: 5
+				timer: 0L
+				title: "Mimicube"
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			x: 3.499999999999999d
+			y: 7.0d
+		}
+		{
+			id: "061A7AF2E960C990"
+			tasks: [{
+				icon: "plushie_buddies:plushie_shulker"
+				id: "5EA244CF414CEAAE"
+				observe_type: 5
+				timer: 0L
+				title: "Shulker"
+				to_observe: "minecraft:shulker"
+				type: "observation"
+			}]
+			x: 4.499999999999999d
+			y: 7.0d
+		}
+		{
+			id: "241B2A7991DBCA83"
+			tasks: [{
+				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				id: "066ED8EFAAD8CBBA"
+				observe_type: 5
+				timer: 0L
+				title: "Mutant Enderman"
+				to_observe: "mutantmonsters:mutant_enderman"
+				type: "observation"
+			}]
+			x: 4.999999999999999d
+			y: 6.0d
+		}
+		{
+			id: "39AA2716DC404828"
+			subtitle: "Immersive Engineering Multiblock. Powered by biodiesel."
+			tasks: [{
+				id: "40F3BFCE7C60DB34"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			title: "Diesel Generator"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "75C8FC15BCF39BB5"
+			subtitle: "Powered by the sun."
+			tasks: [
+				{
+					id: "77EFC0C29ADC2230"
+					item: "enderio:energetic_photovoltaic_module"
+					type: "item"
+				}
+				{
+					id: "671A1E3ADF724EAB"
+					item: "enderio:pulsating_photovoltaic_module"
+					type: "item"
+				}
+				{
+					id: "05112FAE71132C5A"
+					item: "enderio:vibrant_photovoltaic_module"
+					type: "item"
+				}
+			]
+			title: "Solar Panels"
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "Power Generation"
+}

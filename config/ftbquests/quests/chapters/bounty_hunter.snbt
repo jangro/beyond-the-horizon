@@ -5,7 +5,7 @@
 	group: ""
 	icon: "bountiful:bountyboard"
 	id: "1D8BC4370C8AE807"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
