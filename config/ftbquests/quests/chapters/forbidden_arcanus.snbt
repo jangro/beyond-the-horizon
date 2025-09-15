@@ -1359,7 +1359,7 @@
 		}
 		{
 			description: [
-				"Nipa can be found on small floating islands, as well as in the forest."
+				"Nipa can be found in plains and forests, surround by oak trees."
 				"Arcane Crystal Dusk Spek periodically grows on it."
 			]
 			icon: "forbidden_arcanus:nipa"
