@@ -20,7 +20,7 @@ hash = "ff5c19163a122102f0a7b3b370f1517684c2e5c1ffc53dff6267368916274fcb"
 
 [[files]]
 file = "config/PeacefulSurface_Rules/DefaultRule.json"
-hash = "e6c4aadd963db680a843b96f8867dc9b3b0f9f2af5ad5db21fa3d35703607e5b"
+hash = "64727e84ee9763bd632019083cb593a3816edfa4ef10465027e78a3243438cc3"
 
 [[files]]
 file = "config/Plushie_Buddies-Common.toml"
