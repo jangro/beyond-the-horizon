@@ -168,7 +168,7 @@ BlockEvents.leftClicked(event => {
   }
   const biome = event.block.biomeId;
   if (biome) {
-    player.mainHandItem = Item.of('alexscaves:biome_treat', `{CaveBiome:"${biome}"}`);
+    event.player.mainHandItem = Item.of('alexscaves:biome_treat', `{CaveBiome:"${biome}"}`);
   } else {
     console.warn(`Could not bind Alex's Caves biome treat - biome not found.`);
     return;
