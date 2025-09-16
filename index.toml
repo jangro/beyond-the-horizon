@@ -803,6 +803,10 @@ file = "kubejs/assets/bth/textures/item/bounty_proof_rat.png"
 hash = "3ccd1d4533bb92e607cbc1332b7fed1d79f2079ed3e57da120dd3129c0c13ecf"
 
 [[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_skeleton.png"
+hash = "5d78181420a03811a721b8bb125d26925c7b4af88baecd64c8347d603eecbcff"
+
+[[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_tiger.png"
 hash = "6c3d04331560b8b54972b21b6dc7e6eb98035e9492b7c8be2ff320651a9af7b4"
 
@@ -813,6 +817,10 @@ hash = "61dfa7f7f4208b6c4aac509b3829524c8b618a241393ac5b0d713f627df62665"
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_warped_mosco.png"
 hash = "c532cc4623eca139a4a0a8ca6136637478e07d3a3bc1a8b28682fcb8d4ff40a8"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_zombie.png"
+hash = "6a55c9a01546f9c729ec82477f46860b4f0d4b618892881fdfb57909dc31fbfe"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/coconut_maul.png"
