@@ -112,7 +112,7 @@ hash = "ff37795c11f7945bc4c57c7ccc0aaa6a1818a637a0ecd2d99d06040ecaa825b4"
 
 [[files]]
 file = "config/bountiful/bounty_pools/photography_objs.json"
-hash = "04934a68736f75707c68f187bc2b55d97c2cb05a7a432c66cfde64068421a9a9"
+hash = "84a5b9a9ab904c1615054dd8324841c08f232b2aedca370a93c2f2c3256a1922"
 
 [[files]]
 file = "config/bth.json"
@@ -708,7 +708,7 @@ hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "1a13c364aed34260eb3889c6cc7bacc0ede69d0cb31300d9bd76deee2bc2f2c4"
+hash = "f6d1164229a06cbd492cff7496ed27cf7b4321127e80e197eb22376916c045c2"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"

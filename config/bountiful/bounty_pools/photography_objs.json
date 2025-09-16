@@ -64,6 +64,22 @@
       },
       "unitWorth": 5
     },
+    "photography_obj_iron_golem": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:iron_golem\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20
+    },
     "photography_obj_hummingbird": {
       "icon": "exposure:camera",
       "rarity": "COMMON",
@@ -112,6 +128,38 @@
       },
       "unitWorth": 30
     },
+    "photography_obj_shipwreck": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:player\":1b,Structures:[\"minecraft:shipwreck\"]}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 30
+    },
+    "photography_obj_meteorite": {
+      "icon": "exposure:camera",
+      "rarity": "UNCOMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{Structures:[\"ae2:meteorite\"]}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 30
+    },
     "photography_obj_creeper": {
       "icon": "exposure:camera",
       "rarity": "COMMON",
@@ -128,14 +176,30 @@
       },
       "unitWorth": 40
     },
-    "photography_obj_labyrinth": {
+    "photography_obj_ancient_tower": {
       "icon": "exposure:camera",
       "rarity": "UNCOMMON",
       "type": "criteria",
       "content": "exposure:frame_exposed",
       "conditions": {
         "exposure": {
-          "nbt": "{\"minecraft:player\":1b,Structures:[\"idas:labyrinth\"]}"
+          "nbt": "{\"minecraft:player\":1b,Structures:[\"bth_structures:tower_frozen\"]}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 45
+    },
+    "photography_obj_mountain_tower": {
+      "icon": "exposure:camera",
+      "rarity": "UNCOMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:player\":1b,Structures:[\"irons_spellbooks:mountain_tower\"]}"
         }
       },
       "amount": {
@@ -160,30 +224,14 @@
       },
       "unitWorth": 50
     },
-    "photography_obj_end_city": {
+    "photography_obj_ruined_hangar": {
       "icon": "exposure:camera",
       "rarity": "UNCOMMON",
       "type": "criteria",
       "content": "exposure:frame_exposed",
       "conditions": {
         "exposure": {
-          "nbt": "{\"minecraft:player\":1b,Structures:[\"minecraft:end_city\"]}"
-        }
-      },
-      "amount": {
-        "min": 1,
-        "max": 1
-      },
-      "unitWorth": 100
-    },
-    "photography_obj_ancient_mines": {
-      "icon": "exposure:camera",
-      "rarity": "UNCOMMON",
-      "type": "criteria",
-      "content": "exposure:frame_exposed",
-      "conditions": {
-        "exposure": {
-          "nbt": "{\"minecraft:player\":1b,Structures:[\"idas:ancient_mines\"]}"
+          "nbt": "{\"minecraft:zombie\":1b,Structures:[\"bth_structures:ruined_hangar\"]}"
         }
       },
       "amount": {
@@ -224,6 +272,38 @@
       },
       "unitWorth": 100
     },
+    "photography_obj_aerbunny": {
+      "icon": "exposure:camera",
+      "rarity": "UNCOMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"aether:aerbunny\":1b,Dimension:\"aether:the_aether\"}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "photography_obj_nether_fortress": {
+      "icon": "exposure:camera",
+      "rarity": "UNCOMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:wither_skeleton\":1b,Structures:[\"betterfortresses:fortress\"]}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
     "photography_obj_tree_of_wisdom": {
       "icon": "exposure:camera",
       "rarity": "RARE",
@@ -254,55 +334,23 @@
         "min": 1,
         "max": 1
       },
+      "unitWorth": 150
+    },
+    "photography_obj_end_city_mimicube": {
+      "icon": "exposure:camera",
+      "rarity": "RARE",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:player\":1b,\"alexsmobs:mimicube\":1b,Structures:[\"minecraft:end_city\"]}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
       "unitWorth": 200
-    },
-    "photography_obj_nether_reactor": {
-      "icon": "exposure:camera",
-      "rarity": "LEGENDARY",
-      "type": "criteria",
-      "content": "exposure:frame_exposed",
-      "conditions": {
-        "exposure": {
-          "nbt": "{\"minecraft:player\":1b,Structures:[\"incendium:nether_reactor\"]}"
-        }
-      },
-      "amount": {
-        "min": 1,
-        "max": 1
-      },
-      "unitWorth": 250
-    },
-    "photography_obj_undersea_village_iron_golem": {
-      "icon": "exposure:camera",
-      "rarity": "COMMON",
-      "type": "criteria",
-      "content": "exposure:frame_exposed",
-      "conditions": {
-        "exposure": {
-          "nbt": "{\"minecraft:player\":1b,\"minecraft:iron_golem\":1b,Structures:[\"seavil:undersea_village\"]}"
-        }
-      },
-      "amount": {
-        "min": 1,
-        "max": 1
-      },
-      "unitWorth": 50
-    },
-    "photography_obj_olympic_citadel_aerbunny": {
-      "icon": "exposure:camera",
-      "rarity": "UNCOMMON",
-      "type": "criteria",
-      "content": "exposure:frame_exposed",
-      "conditions": {
-        "exposure": {
-          "nbt": "{\"minecraft:player\":1b,\"aether:aerbunny\":1b,Structures:[\"aether_villages:olympic_citadel\"]}"
-        }
-      },
-      "amount": {
-        "min": 1,
-        "max": 1
-      },
-      "unitWorth": 100
     },
     "photography_obj_ancient_city_warden": {
       "icon": "exposure:camera",
@@ -320,21 +368,21 @@
       },
       "unitWorth": 150
     },
-    "photography_obj_end_city_mimicube": {
+    "photography_obj_nether_reactor": {
       "icon": "exposure:camera",
-      "rarity": "UNCOMMON",
+      "rarity": "LEGENDARY",
       "type": "criteria",
       "content": "exposure:frame_exposed",
       "conditions": {
         "exposure": {
-          "nbt": "{\"minecraft:player\":1b,\"alexsmobs:mimicube\":1b,Structures:[\"minecraft:end_city\"]}"
+          "nbt": "{\"minecraft:player\":1b,Structures:[\"incendium:nether_reactor\"]}"
         }
       },
       "amount": {
         "min": 1,
         "max": 1
       },
-      "unitWorth": 100
+      "unitWorth": 250
     }
   }
 }
