@@ -1,5 +1,21 @@
 {
   "content": {
+    "photography_obj_villager": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:villager\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1
+    },
     "photography_obj_rat": {
       "icon": "exposure:camera",
       "rarity": "COMMON",
@@ -72,6 +88,22 @@
       "conditions": {
         "exposure": {
           "nbt": "{\"minecraft:player\":1b,\"minecraft:phantom\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 30
+    },
+    "photography_obj_pillager": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:pillager\":1b}"
         }
       },
       "amount": {
