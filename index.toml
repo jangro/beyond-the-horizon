@@ -104,15 +104,15 @@ hash = "dc8b37d1cf0f6b67d0bf82ffd67492a3d4890641495a1c933416f791751ad60b"
 
 [[files]]
 file = "config/bountiful/bounty_pools/bth_rews.json"
-hash = "70e8a9722e942f0a8ee48f45a4220b52c1c60cf83633d5079dafb828118be9af"
+hash = "82c00941728fcf9c78a252d14cc660a77f7221bbc2ea6e3853ec367940e49ad4"
 
 [[files]]
 file = "config/bountiful/bounty_pools/hunting_objs.json"
-hash = "66ae837ec792d35a9a782fb8c5db607176969e22ea9d957227d76957b5a043cd"
+hash = "ff37795c11f7945bc4c57c7ccc0aaa6a1818a637a0ecd2d99d06040ecaa825b4"
 
 [[files]]
 file = "config/bountiful/bounty_pools/photography_objs.json"
-hash = "959bb678825cbd172e72fd80937213d5d525f6278cd1bc9a4f974e7f16c02e06"
+hash = "d6db4b16dee4f7b08abf764e18cf85a41e88824f835446456aae7b78bc670d59"
 
 [[files]]
 file = "config/bth.json"
@@ -708,7 +708,7 @@ hash = "b5b9428478b06db039ae7703f7ca55470a4870feccfebd4ee15885f579a7d908"
 
 [[files]]
 file = "kubejs/assets/bth/lang/en_us.json"
-hash = "b9fb8b7ef3ff80f6dedec3ae7728c22982b5c1822ab81fdd4a6ffae97dbcd5eb"
+hash = "7de31a914b9de5af67c82e16b7c143a2dceaa885fc0895bace58d5ee47a2ac18"
 
 [[files]]
 file = "kubejs/assets/bth/models/item/adventurers_spell_book.json"
@@ -761,6 +761,10 @@ hash = "04afccabd2b83aad6d98a94c3685e3e44360ed4e211cc384c51b23b98a4d2288"
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_bone_serpent.png"
 hash = "384fb43f360a1034ee15c9d3c28608bcff6a9558a1c2a48990b316f7536d5476"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_enderman.png"
+hash = "f061af446ed2e6dba5ef6a7e5757afbac78aa58b20261c9639f7eb319a42428e"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_farseer.png"
@@ -4216,7 +4220,7 @@ hash = "e397aea497799a8afacbac21b0b4e739ff6c120b4ef29a01e64323f927d5a8f3"
 
 [[files]]
 file = "kubejs/startup_scripts/src/item.js"
-hash = "9f18c291233b68af06044e2ace3f57b1881ff53846257e8c8bdd99cf46617ebe"
+hash = "865227cbf828f9565a27a52af29d9a73a8731c0f90ab25b6c04f3ca3b5437b99"
 
 [[files]]
 file = "kubejs/startup_scripts/src/misc.js"

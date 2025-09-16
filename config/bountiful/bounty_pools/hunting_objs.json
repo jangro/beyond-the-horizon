@@ -10,6 +10,36 @@
       },
       "unitWorth": 10
     },
+    "hunting_obj_zombie": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "bth:bounty_proof_zombie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20
+    },
+    "hunting_obj_skeleton": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "bth:bounty_proof_skeleton",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20
+    },
+    "hunting_obj_spider": {
+      "type": "item",
+      "rarity": "COMMON",
+      "content": "bth:bounty_proof_spider",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20
+    },
     "hunting_obj_tiger": {
       "type": "item",
       "rarity": "COMMON",
@@ -20,15 +50,35 @@
       },
       "unitWorth": 30
     },
-    "hunting_obj_mutant_zombie": {
+    "hunting_obj_phantom": {
       "type": "item",
       "rarity": "COMMON",
-      "content": "bth:bounty_proof_mutant_zombie",
+      "content": "bth:bounty_proof_phantom",
       "amount": {
         "min": 1,
         "max": 1
       },
       "unitWorth": 50
+    },
+    "hunting_obj_enderman": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "bth:bounty_proof_enderman",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
+    },
+    "hunting_obj_mutant_zombie": {
+      "type": "item",
+      "rarity": "UNCOMMON",
+      "content": "bth:bounty_proof_mutant_zombie",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 100
     },
     "hunting_obj_bone_serpent": {
       "type": "item",

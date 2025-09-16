@@ -1,8 +1,104 @@
 {
   "content": {
-    "photography_obj_labyrinth": {
+    "photography_obj_rat": {
       "icon": "exposure:camera",
       "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"rats:rat\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3
+    },
+    "photography_obj_sheep": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:player\":1b,\"minecraft:sheep\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5
+    },
+    "photography_obj_cow": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:cow\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5
+    },
+    "photography_obj_hummingbird": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"alexsmobs:hummingbird\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 20
+    },
+    "photography_obj_phantom": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:player\":1b,\"minecraft:phantom\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 30
+    },
+    "photography_obj_creeper": {
+      "icon": "exposure:camera",
+      "rarity": "COMMON",
+      "type": "criteria",
+      "content": "exposure:frame_exposed",
+      "conditions": {
+        "exposure": {
+          "nbt": "{\"minecraft:player\":1b,\"minecraft:creeper\":1b}"
+        }
+      },
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 40
+    },
+    "photography_obj_labyrinth": {
+      "icon": "exposure:camera",
+      "rarity": "UNCOMMON",
       "type": "criteria",
       "content": "exposure:frame_exposed",
       "conditions": {
@@ -18,7 +114,7 @@
     },
     "photography_obj_hunter_wilden_den": {
       "icon": "exposure:camera",
-      "rarity": "COMMON",
+      "rarity": "UNCOMMON",
       "type": "criteria",
       "content": "exposure:frame_exposed",
       "conditions": {

@@ -131,21 +131,25 @@ StartupEvents.registry("item", event => {
     .translationKey('item.bth.spectre_snare');
 
   // Create used mob catcher for each mob type
-  event.create('bth:bounty_proof_rat').texture('bth:item/bounty_proof_rat').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_rat');
-  event.create('bth:bounty_proof_tiger').texture('bth:item/bounty_proof_tiger').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_tiger');
-  event.create('bth:bounty_proof_mutant_zombie').texture('bth:item/bounty_proof_mutant_zombie').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_mutant_zombie');
+  event.create('bth:bounty_proof_aerwhale').texture('bth:item/bounty_proof_aerwhale').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_aerwhale');
+  event.create('bth:bounty_proof_behemoth').texture('bth:item/bounty_proof_behemoth').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_behemoth');
   event.create('bth:bounty_proof_bone_serpent').texture('bth:item/bounty_proof_bone_serpent').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_bone_serpent');
+  event.create('bth:bounty_proof_farseer').texture('bth:item/bounty_proof_farseer').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_farseer');
+  event.create('bth:bounty_proof_feral_ratlantean').texture('bth:item/bounty_proof_feral_ratlantean').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_feral_ratlantean');
+  event.create('bth:bounty_proof_gum_worm').texture('bth:item/bounty_proof_gum_worm').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_gum_worm');
+  event.create('bth:bounty_proof_mimicube').texture('bth:item/bounty_proof_mimicube').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_mimicube');
+  event.create('bth:bounty_proof_murmur').texture('bth:item/bounty_proof_murmur').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_murmur');
   event.create('bth:bounty_proof_mutant_enderman').texture('bth:item/bounty_proof_mutant_enderman').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_mutant_enderman');
   event.create('bth:bounty_proof_mutant_skeleton').texture('bth:item/bounty_proof_mutant_skeleton').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_mutant_skeleton');
-  event.create('bth:bounty_proof_aerwhale').texture('bth:item/bounty_proof_aerwhale').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_aerwhale');
-  event.create('bth:bounty_proof_feral_ratlantean').texture('bth:item/bounty_proof_feral_ratlantean').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_feral_ratlantean');
-  event.create('bth:bounty_proof_murmur').texture('bth:item/bounty_proof_murmur').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_murmur');
-  event.create('bth:bounty_proof_mimicube').texture('bth:item/bounty_proof_mimicube').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_mimicube');
-  event.create('bth:bounty_proof_behemoth').texture('bth:item/bounty_proof_behemoth').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_behemoth');
-  event.create('bth:bounty_proof_farseer').texture('bth:item/bounty_proof_farseer').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_farseer');
-  event.create('bth:bounty_proof_gum_worm').texture('bth:item/bounty_proof_gum_worm').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_gum_worm');
-  event.create('bth:bounty_proof_warped_mosco').texture('bth:item/bounty_proof_warped_mosco').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_warped_mosco');
+  event.create('bth:bounty_proof_mutant_zombie').texture('bth:item/bounty_proof_mutant_zombie').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_mutant_zombie');
+  event.create('bth:bounty_proof_phantom').texture('bth:item/bounty_proof_phantom').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_phantom');
+  event.create('bth:bounty_proof_rat').texture('bth:item/bounty_proof_rat').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_rat');
+  event.create('bth:bounty_proof_skeleton').texture('bth:item/bounty_proof_skeleton').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_skeleton');
+  event.create('bth:bounty_proof_spider').texture('bth:item/bounty_proof_spider').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_spider');
+  event.create('bth:bounty_proof_tiger').texture('bth:item/bounty_proof_tiger').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_tiger');
   event.create('bth:bounty_proof_void_worm').texture('bth:item/bounty_proof_void_worm').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_void_worm');
+  event.create('bth:bounty_proof_warped_mosco').texture('bth:item/bounty_proof_warped_mosco').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_warped_mosco');
+  event.create('bth:bounty_proof_zombie').texture('bth:item/bounty_proof_zombie').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_zombie');
 
   event.create('bth:music_disc_electric_sheep', 'music_disc')
     .analogOutput(12)
