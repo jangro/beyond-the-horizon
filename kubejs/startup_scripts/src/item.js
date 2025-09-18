@@ -134,6 +134,7 @@ StartupEvents.registry("item", event => {
   event.create('bth:bounty_proof_aerwhale').texture('bth:item/bounty_proof_aerwhale').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_aerwhale');
   event.create('bth:bounty_proof_behemoth').texture('bth:item/bounty_proof_behemoth').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_behemoth');
   event.create('bth:bounty_proof_bone_serpent').texture('bth:item/bounty_proof_bone_serpent').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_bone_serpent');
+  event.create('bth:bounty_proof_enderman').texture('bth:item/bounty_proof_enderman').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_enderman');
   event.create('bth:bounty_proof_farseer').texture('bth:item/bounty_proof_farseer').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_farseer');
   event.create('bth:bounty_proof_feral_ratlantean').texture('bth:item/bounty_proof_feral_ratlantean').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_feral_ratlantean');
   event.create('bth:bounty_proof_gum_worm').texture('bth:item/bounty_proof_gum_worm').tooltip(Text.translate('tooltip.bth.bounty_proof')).translationKey('item.bth.bounty_proof_gum_worm');
