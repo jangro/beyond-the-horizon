@@ -25,21 +25,26 @@ JEIEvents.information(event => {
 
   // BTH
   addInfo([
-    'bth:bounty_proof_rat',
-    'bth:bounty_proof_tiger',
-    'bth:bounty_proof_mutant_zombie',
+    'bth:bounty_proof_aerwhale',
+    'bth:bounty_proof_behemoth',
     'bth:bounty_proof_bone_serpent',
+    'bth:bounty_proof_enderman',
+    'bth:bounty_proof_farseer',
+    'bth:bounty_proof_feral_ratlantean',
+    'bth:bounty_proof_gum_worm',
+    'bth:bounty_proof_mimicube',
+    'bth:bounty_proof_murmur',
     'bth:bounty_proof_mutant_enderman',
     'bth:bounty_proof_mutant_skeleton',
-    'bth:bounty_proof_aerwhale',
-    'bth:bounty_proof_feral_ratlantean',
-    'bth:bounty_proof_murmur',
-    'bth:bounty_proof_mimicube',
-    'bth:bounty_proof_behemoth',
-    'bth:bounty_proof_farseer',
-    'bth:bounty_proof_gum_worm',
-    'bth:bounty_proof_warped_mosco',
+    'bth:bounty_proof_mutant_zombie',
+    'bth:bounty_proof_phantom',
+    'bth:bounty_proof_rat',
+    'bth:bounty_proof_skeleton',
+    'bth:bounty_proof_spider',
+    'bth:bounty_proof_tiger',
     'bth:bounty_proof_void_worm',
+    'bth:bounty_proof_warped_mosco',
+    'bth:bounty_proof_zombie',
   ], 'bth.information.bth.bounty_proof');
 
   // Minecraft

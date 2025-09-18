@@ -908,7 +908,7 @@ hash = "5078b2d71793a316e4a68bc25e19fc2c85170c1067338c8427d1423cab0d8ca1"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_information.js"
-hash = "2a263d15dbd4083f0a7a4331c67addbc9e26214ceb122c52c7239b64d3a09f75"
+hash = "6a934f22217f6ddd3fdc0b82a0c07beaf26ecae48aede947f7fbb88f46e23ca9"
 
 [[files]]
 file = "kubejs/client_scripts/src/jei_remove_recipes.js"
