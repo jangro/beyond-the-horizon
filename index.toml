@@ -4380,11 +4380,6 @@ hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
-file = "mods/ars-controle.pw.toml"
-hash = "57a5e8918b9b57d725380f56baf2f745f60b75187b894f36ed1b9ccbb9275e05"
-metafile = true
-
-[[files]]
 file = "mods/ars-creo.pw.toml"
 hash = "0502e2b33b08fe5920ff1ea61d3cd3c86d9e93ff234af56088c63dff4c189733"
 metafile = true
