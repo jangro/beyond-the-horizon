@@ -4160,7 +4160,7 @@ hash = "67f07a38d9c4ed1365841c57e10263b11b1b7d3b5ec4fdfcfe3fb1c066fe742e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/shapeless.js"
-hash = "17094c816b9da160c707979f28332d3e0795d9e4bf9e891fd35ff67bd1d3bc8f"
+hash = "b67d99c261e41260019f22a1d8bd869c26f8f6d0a2dd51daeef27834318e599e"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/smelting.js"

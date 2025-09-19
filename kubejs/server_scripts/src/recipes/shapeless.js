@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
   event.shapeless('plushies:allay_plushie', [Item.of('exposure:photograph', '{"minecraft:allay":1b}').weakNBT(), 'minecraft:string', 'minecraft:light_blue_wool']).id(`${ID_PREFIX}allay_plushie`);
   event.shapeless('plushies:axolotl_plushie', [Item.of('exposure:photograph', '{"minecraft:axolotl":1b}').weakNBT(), 'minecraft:string', 'minecraft:pink_wool']).id(`${ID_PREFIX}axolotl_plushie`);
   event.shapeless('plushies:bat_plushie', [Item.of('exposure:photograph', '{"minecraft:bat":1b}').weakNBT(), 'minecraft:string', 'minecraft:brown_wool']).id(`${ID_PREFIX}bat_plushie`);
-  event.shapeless('perfectplushies:bear_plushie', [Item.of('exposure:photograph', '{"alexsmobs:bear":1b}').weakNBT(), 'minecraft:string', 'minecraft:brown_wool']).id(`${ID_PREFIX}bear_plushie`);
+  event.shapeless('perfectplushies:bear_plushie', [Item.of('exposure:photograph', '{"alexsmobs:grizzly_bear":1b}').weakNBT(), 'minecraft:string', 'minecraft:brown_wool']).id(`${ID_PREFIX}bear_plushie`);
   event.shapeless('plushies:bee_plushie', [Item.of('exposure:photograph', '{"minecraft:bee":1b}').weakNBT(), 'minecraft:string', 'minecraft:yellow_wool']).id(`${ID_PREFIX}bee_plushie`);
   event.shapeless('plushies:blaze_plushie', [Item.of('exposure:photograph', '{"minecraft:blaze":1b}').weakNBT(), 'minecraft:string', 'minecraft:orange_wool']).id(`${ID_PREFIX}blaze_plushie`);
   event.shapeless('plushie_buddies:plushie_camel', [Item.of('exposure:photograph', '{"minecraft:camel":1b}').weakNBT(), 'minecraft:string', 'minecraft:brown_wool']).id(`${ID_PREFIX}plushie_camel`);
