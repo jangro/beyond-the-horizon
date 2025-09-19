@@ -799,12 +799,20 @@ file = "kubejs/assets/bth/textures/item/bounty_proof_mutant_zombie.png"
 hash = "6a55c9a01546f9c729ec82477f46860b4f0d4b618892881fdfb57909dc31fbfe"
 
 [[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_phantom.png"
+hash = "33513609e8a16054c22742d3d67b20940cf1181745f4b1d5a2b3c0158b62c25a"
+
+[[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_rat.png"
 hash = "3ccd1d4533bb92e607cbc1332b7fed1d79f2079ed3e57da120dd3129c0c13ecf"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_skeleton.png"
 hash = "5d78181420a03811a721b8bb125d26925c7b4af88baecd64c8347d603eecbcff"
+
+[[files]]
+file = "kubejs/assets/bth/textures/item/bounty_proof_spider.png"
+hash = "714bbf60610a241a0d352879971f68b5526a3bbc30a2d2b21bf3704375f5d898"
 
 [[files]]
 file = "kubejs/assets/bth/textures/item/bounty_proof_tiger.png"
