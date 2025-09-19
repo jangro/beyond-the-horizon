@@ -3963,6 +3963,18 @@ file = "kubejs/data/tiered/tiered_modifiers/tiers/melee_weapons/extended.json"
 hash = "fd4eff5f5c894d232900e835c81390c679044e5ca6ce6a915010d48164154b8c"
 
 [[files]]
+file = "kubejs/data/tiered/tiered_modifiers/tiers/standard_armors/epic.json"
+hash = "75046e50a04ef29e833b1696027f5e660d8369b7c7724043b67b58ca131d87dc"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/tiers/standard_armors/legendary.json"
+hash = "88f40ed1e08b93da16cb8a3cfe7789fcc61b2afcfdbda8b2a116e69ee2294cce"
+
+[[files]]
+file = "kubejs/data/tiered/tiered_modifiers/tiers/standard_armors/rare.json"
+hash = "cb56ef9eb5dea570f4bdacb1bab034c5bcf6d0c773f8bb2c875dc04e61baa87f"
+
+[[files]]
 file = "kubejs/data/tiered/tiered_modifiers/tiers/tools/extended.json"
 hash = "7caa6d27d13e1eb8d9435265928e6c71e44bc28cb551c23283fc00b3c3943689"
 
