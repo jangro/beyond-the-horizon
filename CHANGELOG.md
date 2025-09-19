@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11] - 2025-09-19
+
+### Added
+- Add more photography bounties
+- Add more hunting bounties
+- Add some Iron's mobs to peaceful surface whitelist
+- Add power generation quest chapter and reorganize chapters
+- Add Rats chapter to quest book
+
+### Changed
+- Fix bear plushie recipe
+- Reduce amount of hearts given by tiered armor items
+- Potential fix for Reforged (Tiered) errors
+- Fix copy/paste error in soul mixture recipe
+- Update quest book entry about nipa plants
+- Fix bug in biome treat activation code
+
 ## [1.10] - 2025-08-28
 
 ### Added
