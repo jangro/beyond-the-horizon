@@ -3972,7 +3972,7 @@ hash = "88f40ed1e08b93da16cb8a3cfe7789fcc61b2afcfdbda8b2a116e69ee2294cce"
 
 [[files]]
 file = "kubejs/data/tiered/tiered_modifiers/tiers/standard_armors/rare.json"
-hash = "cb56ef9eb5dea570f4bdacb1bab034c5bcf6d0c773f8bb2c875dc04e61baa87f"
+hash = "1da133b7920833546627e2f71f639c4f5f4c5e4c83dc481ff8eb472719426eab"
 
 [[files]]
 file = "kubejs/data/tiered/tiered_modifiers/tiers/tools/extended.json"

@@ -8,20 +8,6 @@
   },
   "attributes": [
     {
-      "type": "generic.max_health",
-      "modifier": {
-        "id": "tiered:rare_armor",
-        "operation": "ADD_VALUE",
-        "amount": 1
-      },
-      "optional_equipment_slots": [
-        "FEET",
-        "LEGS",
-        "CHEST",
-        "HEAD"
-      ]
-    },
-    {
       "type": "generic.armor",
       "modifier": {
         "id": "tiered:rare_armor",
