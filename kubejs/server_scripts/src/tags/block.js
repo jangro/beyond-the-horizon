@@ -65,6 +65,13 @@ ServerEvents.tags('block', event => {
     /quark:.*bookshelf$/,
   ]);
 
+  // Forbidden and Arcanus Tags
+  event.add('forbidden_arcanus:blacksmith_gavel_unaffected', [
+    'aether:gravitite_ore',
+    'irons_spellbooks:arcane_debris',
+    'rats:oratchalcum_ore',
+  ]);
+
   // Forge Tags
   event.add('forge:ores', [
     'alexscaves:coprolith_coal_ore',
