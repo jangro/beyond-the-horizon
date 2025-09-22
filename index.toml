@@ -4156,7 +4156,7 @@ hash = "a8b4cfb9e979d7b53577b45480994988f618d6162ca26b3ba149e018172e683f"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/immersiveengineering.js"
-hash = "cdf6924d50a31224b865b0fb2a6e391e0bdf3a6c1762e47f64a1ccdec1a2e5f8"
+hash = "5af152aee3c8c50403c51f04c4b92838f9a9ec71189368412cdbb56aa3b015d3"
 
 [[files]]
 file = "kubejs/server_scripts/src/recipes/integrateddynamics.js"
