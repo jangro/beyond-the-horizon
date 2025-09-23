@@ -81,6 +81,13 @@ ServerEvents.tags('item', event => {
     'bth:coconut_maul',
   ]);
 
+  // Forbidden and Arcanus Tags
+  event.add('forbidden_arcanus:modifier/eternal_incompatible', [
+    'tiered:armorers_hammer',
+    'tiered:toolsmiths_hammer',
+    'tiered:weaponsmiths_hammer',
+  ]);
+
   // Forge Tags
   event.add('forge:dough', [
     'minecolonies:bread_dough',
