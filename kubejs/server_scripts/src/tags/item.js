@@ -297,10 +297,21 @@ ServerEvents.tags('item', event => {
     'quark:white_corundum_cluster',
     'quark:black_corundum_cluster',
   ]);
+  
+  // Prevent Nylium + Aether Grass from allowing non-plant-based drops to be farmed.
+  event.add('ars_nouveau:whirlisprig/denied_drop', [
+    'minecraft:netherrack',
+    'aether:aether_dirt',
+  ]);
 
   // Create Tags
   event.add('create:chain_rideable', [
     'bth:coconut_maul',
+  ]);
+
+  // Farmer's Delight
+  event.add('farmersdelight:serving_containers', [
+    'ecologics:coconut_husk',
   ]);
   
   // Forbidden and Arcanus Tags
@@ -308,6 +319,27 @@ ServerEvents.tags('item', event => {
     'tiered:armorers_hammer',
     'tiered:toolsmiths_hammer',
     'tiered:weaponsmiths_hammer',
+  ]);
+  
+  event.add('forbidden_arcanus:clibano/creates_soul_fire', [
+    'quark:soul_bead', // Gives another use for an otherwise underutilized item.
+  ]);
+  
+  // Immersive Engineering
+  // Valid Tools for the Toolbox
+  event.add('immersiveengineering:toolbox/tools', [
+    'eccentrictome:tome', // Not a tool, but the regular IE manual is allowed in so why not our one too?
+  ]);
+
+  // Valid Wiring for the Toolbox
+  event.add('immersiveengineering:toolbox/wiring', [
+    'createaddition:connector',
+    'createaddition:large_connector',
+    'createaddition:redstone_relay',
+    'createaddition:copper_spool',
+    'createaddition:gold_spool',
+    'createaddition:electrum_spool',
+    'createaddition:festive_spool',
   ]);
 
   // Lightman's Currency Tags
