@@ -76,18 +76,6 @@ ServerEvents.tags('item', event => {
     'bth:coconut_maul',
   ]);
 
-  // Create Tags
-  event.add('create:chain_rideable', [
-    'bth:coconut_maul',
-  ]);
-
-  // Forbidden and Arcanus Tags
-  event.add('forbidden_arcanus:modifier/eternal_incompatible', [
-    'tiered:armorers_hammer',
-    'tiered:toolsmiths_hammer',
-    'tiered:weaponsmiths_hammer',
-  ]);
-
   // Forge Tags
   event.add('forge:dough', [
     'minecolonies:bread_dough',
@@ -226,6 +214,16 @@ ServerEvents.tags('item', event => {
     'createdeco:netherite_sheet',
   ]);
 
+  event.add('forge:raw_fishes', [
+    'alexscaves:lanternfish',
+    'alexscaves:tripodfish',
+    'alexsmobs:catfish_slice',
+    'alexsmobs:raw_catfish_slice',
+    'alexsmobs:flying_fish',
+    'aquamirae:spinefish',
+    'rats:ratfish',
+  ]);
+
   event.add('forge:storage_blocks', [
     'graveyard:dark_iron_block',
   ]);
@@ -237,15 +235,23 @@ ServerEvents.tags('item', event => {
   event.add('forge:storage_blocks/dark_iron', [
     'graveyard:dark_iron_block',
   ]);
+  
+  event.add('forge:stripped_logs', [
+    'aether:stripped_skyroot_log',
+    'deep_aether:stripped_conberry_log',
+    'deep_aether:stripped_cruderoot_log',
+    'deep_aether:stripped_roseroot_log',
+    'deep_aether:stripped_sunroot_log',
+    'deep_aether:stripped_yagroot_log',
+  ]);
 
-  event.add('forge:raw_fishes', [
-    'alexscaves:lanternfish',
-    'alexscaves:tripodfish',
-    'alexsmobs:catfish_slice',
-    'alexsmobs:raw_catfish_slice',
-    'alexsmobs:flying_fish',
-    'aquamirae:spinefish',
-    'rats:ratfish',
+  event.add('forge:stripped_wood', [
+    'aether:stripped_skyroot_wood',
+    'deep_aether:stripped_conberry_wood',
+    'deep_aether:stripped_cruderoot_wood',
+    'deep_aether:stripped_roseroot_wood',
+    'deep_aether:stripped_sunroot_wood',
+    'deep_aether:stripped_yagroot_wood',
   ]);
 
   // Ars Elemental Tags
@@ -292,7 +298,19 @@ ServerEvents.tags('item', event => {
     'quark:black_corundum_cluster',
   ]);
 
-  // Lightman's currency tags
+  // Create Tags
+  event.add('create:chain_rideable', [
+    'bth:coconut_maul',
+  ]);
+  
+  // Forbidden and Arcanus Tags
+  event.add('forbidden_arcanus:modifier/eternal_incompatible', [
+    'tiered:armorers_hammer',
+    'tiered:toolsmiths_hammer',
+    'tiered:weaponsmiths_hammer',
+  ]);
+
+  // Lightman's Currency Tags
   event.add('lightmanscurrency:coins', [
     'rats:tiny_coin',
   ]);
@@ -300,24 +318,6 @@ ServerEvents.tags('item', event => {
   // Supplementaries Tags
   event.add('supplementaries:throwable_bricks', [
     'alexscaves:cinder_brick',
-  ]);
-
-  // Fix Aether stripped logs for Create casing
-  event.add('forge:stripped_logs', [
-    'aether:stripped_skyroot_log',
-    'deep_aether:stripped_conberry_log',
-    'deep_aether:stripped_cruderoot_log',
-    'deep_aether:stripped_roseroot_log',
-    'deep_aether:stripped_sunroot_log',
-    'deep_aether:stripped_yagroot_log',
-  ]);
-  event.add('forge:stripped_wood', [
-    'aether:stripped_skyroot_wood',
-    'deep_aether:stripped_conberry_wood',
-    'deep_aether:stripped_cruderoot_wood',
-    'deep_aether:stripped_roseroot_wood',
-    'deep_aether:stripped_sunroot_wood',
-    'deep_aether:stripped_yagroot_wood',
   ]);
 
   // Clear block and item tags from plushies ('wool' tag for example)
