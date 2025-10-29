@@ -524,7 +524,7 @@ hash = "b4bc99b705cc14d3a75abb5e2e1e2c5719fa3a51d879e7a91504b401c03f4ddd"
 
 [[files]]
 file = "config/memorysettings.json"
-hash = "182da826869a42f8f0de8293b1827789bed7b0a2c5d93c1acaf36a4b89edd448"
+hash = "8c4b5159c36af89b013b0f0ddcbc4d1641064f20473397bf81c33738cbed9b0b"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -4204,7 +4204,7 @@ hash = "e29b0540da563290f9d8b44059387aa4b163285ab59cb7f7cd6c10147bdd79c0"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block.js"
-hash = "8fcee864fcaa378df44846099861dfb4dbfb9146d747c23c8921b81a546a35ee"
+hash = "8920357ff53ff2d45f9f92ac220dfe6e04d1e933caa22aca82d9edc5f40a2b33"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/block_entity_type.js"
@@ -4228,7 +4228,7 @@ hash = "cc2cb97ead9bb6f057142a1be59be95d396aa6fede69cc31c4c78a1adf09f859"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/item.js"
-hash = "ced741fc4974685b23472185eb4b9bf034bf67476f0f3a0b077c9a19f9b437b1"
+hash = "f0553307e60d7d4fbb1c553235e2bc9e0c711d4bdfec9da1bc4dbfdf2a2e845f"
 
 [[files]]
 file = "kubejs/server_scripts/src/tags/structure.js"
@@ -4800,7 +4800,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "296c7ea4c05bd5aacc283675f61fbb5d4f047c64d819e48f86e9cf65e5d8a75f"
+hash = "1bc1fd0cb2fda0b3950b11efbca3239a89b4184e3b5e0550dd7f1f94ca67cddc"
 metafile = true
 
 [[files]]
@@ -5875,7 +5875,7 @@ metafile = true
 
 [[files]]
 file = "mods/tiered-forge.pw.toml"
-hash = "4be975cb4d45ce2ba322e5609ba2f52910399ba821f0466383fc93a45b9c58d8"
+hash = "b0a1dade8e0ac8893f9ca72bbf30b0467ee5d9353483087d7852256f63ac6534"
 metafile = true
 
 [[files]]
@@ -5920,7 +5920,7 @@ metafile = true
 
 [[files]]
 file = "mods/unionlib.pw.toml"
-hash = "d3dfcdd4566dadc0a2a37ff99639ab565cf278b1205d0e80275b78897ce899ed"
+hash = "72d879ce2cf0d852b4aff5b22332b04333e087455afaed9d6433d3740088379c"
 metafile = true
 
 [[files]]
