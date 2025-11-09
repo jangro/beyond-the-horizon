@@ -5454,11 +5454,6 @@ hash = "43ff48404322ec170ef9a931bc2f95cc9b488e2834934e2af6c5e0ebebc5fb9c"
 metafile = true
 
 [[files]]
-file = "mods/noisium.pw.toml"
-hash = "dbd8ee9c150f054d96e1e3cf97c8cb169cf854a84532e21daab9e11309a67fcf"
-metafile = true
-
-[[files]]
 file = "mods/nomadic-tents.pw.toml"
 hash = "0dd7153cdc0d4360e141c3880d9736ca6dd4641448c0ffa71082236b91cd2fc9"
 metafile = true
