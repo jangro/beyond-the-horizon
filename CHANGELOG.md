@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12] - 2025-11-09
+
+### Changed
+- Update Distant Horizons
+- Update Tiered and Unionlib (might fix crash when using anvil)
+- Minor recipe and inter-mod compat tweaks
+
 ## [1.11] - 2025-09-19
 
 ### Added
