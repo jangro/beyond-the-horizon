@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12.1] - 2025-11-09
+
+### Removed
+- Noisium mod due to being removed from Curseforge
+
 ## [1.12] - 2025-11-09
 
 ### Changed
