@@ -15,6 +15,7 @@
 /UPDATING.md
 /CHANGELOG.md
 /overrides
+/bth*-server-output
 
 # Exclude build scripts + executables.
 *.bat
