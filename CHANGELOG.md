@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.12.2] - 2025-11-15
+
+### Removed
+- Tiered and Unionlib due to causing crash when using anvil
+
 ## [1.12.1] - 2025-11-09
 
 ### Removed
